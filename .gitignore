@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.production
+
+# Visual Studio Code
+.vscode
+
+# Tests coverage
+coverage
+
+# OS-specific files
+.DS_Store
