@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "start": "wrangler dev",
+    "dev": "wrangler dev",
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.json,.yml",
     "test": "vitest",
