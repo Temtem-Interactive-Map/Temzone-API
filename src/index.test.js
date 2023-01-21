@@ -1,7 +1,20 @@
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { unstable_dev as unstableDev } from "wrangler";
 
-describe("Worker", () => {
+function checkProperties(subject, schema) {
+  schema.forEach(({ name, type }) => {
+    expect(subject).toHaveProperty(name);
+
+    if (type) {
+      expect(
+        subject[name],
+        "Expected [" + name + "] property to be type: [" + type + "]"
+      ).toBeTypeOf(type);
+    }
+  });
+}
+
+describe("Testing '/markers' route", () => {
   let worker;
 
   beforeAll(async () => {
@@ -14,11 +27,16 @@ describe("Worker", () => {
     await worker.stop();
   });
 
-  it("should return Hello World", async () => {
-    const resp = await worker.fetch();
-    if (resp) {
-      const text = await resp.text();
-      expect(text).toMatchInlineSnapshot(`"Hello World!"`);
-    }
+  const markerProperties = [{ name: "id", type: "number" }];
+
+  it("should return marker props", async () => {
+    const response = await worker.fetch("/markers");
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(200);
+
+    const data = await response.json();
+
+    data.forEach((endpoint) => checkProperties(endpoint, markerProperties));
   });
 });
