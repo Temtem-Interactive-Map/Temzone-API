@@ -39,7 +39,7 @@ This will install the hono package and add it to the dependencies section of the
 Navigate to the project directory and run the following command to start the development server:
 
 ```
-npm run start
+npm run dev
 ```
 
 This will start the Cloudflare Workers development server.
