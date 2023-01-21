@@ -1,6 +1,7 @@
 # Temzone - API
 
 [![Version](https://img.shields.io/github/package-json/v/Temtem-Interactive-Map/Temzone-API)](https://github.com/Temtem-Interactive-Map/Temzone-API)
+[![Build](https://img.shields.io/github/actions/workflow/status/Temtem-Interactive-Map/Temzone-API/main.yml?branch=main)](https://github.com/Temtem-Interactive-Map/Temzone-API/actions/workflows/main.yml)
 [![Quality](https://img.shields.io/codefactor/grade/github/Temtem-Interactive-Map/Temzone-API)](https://www.codefactor.io/repository/github/temtem-interactive-map/temzone-api)
 
 Welcome to Temzone, a RESTful API built with Cloudflare Workers from Temtem Interactive Map.
