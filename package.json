@@ -4,7 +4,7 @@
   "version": "0.1.0-a.1",
   "author": "Temtem Interactive Map",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/api/index.js",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",

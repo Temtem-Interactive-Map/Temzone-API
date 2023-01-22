@@ -27,7 +27,18 @@ describe("Testing '/markers' route", () => {
     await worker.stop();
   });
 
-  const markerProperties = [{ name: "id", type: "number" }];
+  const markerProperties = [
+    { name: "id", type: "number" },
+    { name: "type", type: "string" },
+    { name: "title", type: "string" },
+    { name: "subtitle", type: "string" },
+    { name: "coordinates", type: "object" },
+  ];
+
+  const coordinatesProperties = [
+    { name: "x", type: "number" },
+    { name: "y", type: "number" },
+  ];
 
   it("should return marker props", async () => {
     const response = await worker.fetch("/markers");
