@@ -1,5 +1,7 @@
 {
-  "error": {
-    "missing": "Missing parameter @param"
-  }
+  "400": "Bad parameter @param",
+  "401": "Invalid access token",
+  "403": "Unauthorized",
+  "404": "The @request was not found",
+  "500": "Internal server error"
 }
