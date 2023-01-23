@@ -1,7 +1,8 @@
+import { badRequest, internalServerError, notFound } from "api/errors";
 import { Hono } from "hono";
-import { badRequest, internalServerError, notFound } from "./errors";
 
 const app = new Hono();
+const validTypes = ["temtem", "saipark", "landmark"];
 
 app.get("/markers", (ctx) => {
   const type = ctx.req.query("type");
@@ -12,18 +13,18 @@ app.get("/markers", (ctx) => {
 
   const types = [...new Set(type.split(","))];
 
-  if (
-    !types.every((type) => ["temtem", "saipark", "landmark"].includes(type))
-  ) {
+  if (!types.every((type) => validTypes.includes(type))) {
     return badRequest(ctx, "type");
   }
 
   return ctx.json(
-    [
-      {
-        id: 1,
-      },
-    ],
+    {
+      items: [
+        {
+          id: 1,
+        },
+      ],
+    },
     200
   );
 });
