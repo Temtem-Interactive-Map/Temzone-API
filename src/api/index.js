@@ -1,8 +1,39 @@
-import { badRequest, internalServerError, notFound } from "api/errors";
+import {
+  badRequest,
+  internalServerError,
+  notFound,
+  unauthorized,
+} from "api/errors";
 import { Hono } from "hono";
+import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
 const app = new Hono();
-const validTypes = ["temtem", "saipark", "landmark"];
+
+app.use("*", async (ctx, next) => {
+  try {
+    const token = ctx.req.header("Authorization").split(" ")[1];
+    const response = await fetch(
+      "https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com"
+    );
+    const data = await response.json();
+    const header = decodeProtectedHeader(token);
+    const certificate = data[header.kid];
+    const publicKey = await importX509(certificate, "RS256");
+    const { payload } = await jwtVerify(token, publicKey, {
+      issuer: "https://securetoken.google.com/" + ctx.env.FIREBASE_PROJECT_ID,
+      audience: ctx.env.FIREBASE_PROJECT_ID,
+    });
+
+    ctx.user = {
+      uid: payload.user_id,
+      admin: payload.admin ?? false,
+    };
+
+    await next();
+  } catch (error) {
+    return unauthorized(ctx);
+  }
+});
 
 app.get("/markers", (ctx) => {
   const type = ctx.req.query("type");
@@ -12,6 +43,7 @@ app.get("/markers", (ctx) => {
   }
 
   const types = [...new Set(type.split(","))];
+  const validTypes = ["temtem", "saipark", "landmark"];
 
   if (!types.every((type) => validTypes.includes(type))) {
     return badRequest(ctx, "type");
@@ -22,6 +54,8 @@ app.get("/markers", (ctx) => {
       items: [
         {
           id: 1,
+          user: ctx.user.uid,
+          admin: ctx.user.admin,
         },
       ],
     },
