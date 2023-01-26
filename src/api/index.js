@@ -1,9 +1,5 @@
-import {
-  badRequest,
-  internalServerError,
-  notFound,
-  unauthorized,
-} from "api/errors";
+import { markers } from "api/markers";
+import { internalServerError, notFound, unauthorized } from "api/responses";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
@@ -37,7 +33,7 @@ app.use("*", async (ctx, next) => {
     });
 
     ctx.user = {
-      uid: payload.user_id,
+      userId: payload.user_id,
       admin: payload.admin ?? false,
     };
 
@@ -47,33 +43,7 @@ app.use("*", async (ctx, next) => {
   }
 });
 
-app.get("/markers", (ctx) => {
-  const type = ctx.req.query("type");
-
-  if (typeof type !== "string") {
-    return badRequest(ctx, "type");
-  }
-
-  const types = [...new Set(type.split(","))];
-  const validTypes = ["temtem", "saipark", "landmark"];
-
-  if (!types.every((type) => validTypes.includes(type))) {
-    return badRequest(ctx, "type");
-  }
-
-  return ctx.json(
-    {
-      items: [
-        {
-          id: 1,
-          user: ctx.user.uid,
-          admin: ctx.user.admin,
-        },
-      ],
-    },
-    200
-  );
-});
+app.route("/markers", markers);
 
 app.notFound((ctx) => {
   return notFound(ctx, "route");
