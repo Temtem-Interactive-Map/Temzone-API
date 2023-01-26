@@ -5,9 +5,21 @@ import {
   unauthorized,
 } from "api/errors";
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
 const app = new Hono();
+
+app.use(
+  "*",
+  cors({
+    origin: "*",
+    allowHeaders: ["Authorization"],
+    allowMethods: ["POST", "GET", "UPDATE", "DELETE"],
+    exposeHeaders: ["Content-Type"],
+    maxAge: 600,
+  })
+);
 
 app.use("*", async (ctx, next) => {
   try {
