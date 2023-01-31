@@ -1,3 +1,6 @@
+# Wrangler build output
+.wrangler
+
 # Dependency directories
 node_modules
 
