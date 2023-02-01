@@ -1,4 +1,4 @@
-import * as dotenv from "dotenv";
+import { config } from "dotenv";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { unstable_dev as unstableDev } from "wrangler";
 
@@ -51,8 +51,9 @@ describe("Testing routes", () => {
   let worker;
 
   beforeAll(async () => {
-    dotenv.config();
+    config();
 
+    console.log(process.env.FIREBASE_USER_EMAIL);
     userToken = await getFirebaseToken(
       process.env.FIREBASE_USER_EMAIL,
       process.env.FIREBASE_USER_PASSWORD
