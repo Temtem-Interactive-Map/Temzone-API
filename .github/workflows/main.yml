@@ -15,11 +15,11 @@ jobs:
       - run: npm install
       - uses: ozaytsev86/create-env-file@v1
         with:
-          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-          FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
-          FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
-          FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
-          FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
+          ENV_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          ENV_FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
+          ENV_FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
+          ENV_FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
+          ENV_FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
       - run: npm test
   # deploy:
   #   needs: test
