@@ -45,6 +45,8 @@ app.use("*", async (ctx, next) => {
 
     await next();
   } catch (error) {
+    console.log(ctx.req.header("Authorization"));
+    console.log(error);
     return unauthorized(ctx);
   }
 });
