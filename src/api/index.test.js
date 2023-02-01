@@ -53,11 +53,11 @@ describe("Testing routes", () => {
   beforeAll(async () => {
     config();
 
-    console.log(process.env.FIREBASE_USER_EMAIL);
     userToken = await getFirebaseToken(
       process.env.FIREBASE_USER_EMAIL,
       process.env.FIREBASE_USER_PASSWORD
     );
+    console.log(userToken);
     adminToken = await getFirebaseToken(
       process.env.FIREBASE_ADMIN_EMAIL,
       process.env.FIREBASE_ADMIN_PASSWORD
