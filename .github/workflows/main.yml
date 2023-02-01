@@ -20,7 +20,7 @@ jobs:
           envkey_FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
           envkey_FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
           envkey_FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
-          directory: ${{ github.workspace }}/
+          directory: ../../
       - run: npm test
   # deploy:
   #   needs: test
