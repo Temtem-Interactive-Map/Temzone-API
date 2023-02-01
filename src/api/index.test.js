@@ -84,7 +84,6 @@ describe("Testing routes", () => {
   });
 
   it("route '/' should return 404 Not Found with user token", async () => {
-    console.log(userToken);
     const response = await worker.fetch("/", {
       method: "GET",
       headers: {
