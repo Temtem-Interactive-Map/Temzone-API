@@ -13,14 +13,13 @@ jobs:
           node-version: 18.13.0
           cache: npm
       - run: npm install
-      - uses: SpicyPizza/create-envfile@v1.3.1
+      - uses: ozaytsev86/create-env-file@v1
         with:
-          envkey_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-          envkey_FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
-          envkey_FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
-          envkey_FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
-          envkey_FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
-          directory: ../../
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
+          FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
+          FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
+          FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
       - run: npm test
   # deploy:
   #   needs: test
