@@ -18,11 +18,18 @@ markers.get("/", (ctx) => {
   }
 
   return ok(ctx, {
-    items: [
-      {
+    items: types.map((type) => {
+      return {
         id: 1,
-      },
-    ],
+        type,
+        title: "Temtem 1",
+        subtitle: "Subtitle 1",
+        coordinates: {
+          x: 0,
+          y: 0,
+        },
+      };
+    }),
   });
 });
 
