@@ -15,7 +15,10 @@ async function getFirebaseToken(email, password) {
       }),
     }
   )
-    .then((response) => response.json())
+    .then((response) => {
+      console.log(response);
+      return response.json();
+    })
     .then((data) => data.idToken);
 }
 
@@ -57,7 +60,6 @@ describe("Testing routes", () => {
       process.env.FIREBASE_USER_EMAIL,
       process.env.FIREBASE_USER_PASSWORD
     );
-    console.log(userToken);
     adminToken = await getFirebaseToken(
       process.env.FIREBASE_ADMIN_EMAIL,
       process.env.FIREBASE_ADMIN_PASSWORD
