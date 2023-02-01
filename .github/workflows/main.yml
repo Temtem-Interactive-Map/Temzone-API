@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 18.13.0
           cache: npm
-      - run: echo "${{ secrets.ENV_FILE }}" > .env
+      - run: echo "${{ secrets.ENV_FILE }}" > ${{ github.workspace }}/.env
       - run: npm install
       - run: npm test
   # deploy:
