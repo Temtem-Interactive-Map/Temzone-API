@@ -1,5 +1,11 @@
-import { markers } from "api/markers";
-import { internalServerError, notFound, unauthorized } from "api/responses";
+import {
+  badRequest,
+  internalServerError,
+  noContent,
+  notFound,
+  ok,
+  unauthorized,
+} from "api/responses";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
@@ -43,7 +49,41 @@ app.use("*", async (ctx, next) => {
   }
 });
 
-app.route("/markers", markers);
+app.get("/markers", (ctx) => {
+  const type = ctx.req.query("type");
+
+  if (typeof type !== "string") {
+    return badRequest(ctx, "type");
+  }
+
+  const types = [...new Set(type.split(","))];
+  const validTypes = ["temtem", "saipark", "landmark"];
+
+  if (!types.every((type) => validTypes.includes(type))) {
+    return badRequest(ctx, "type");
+  }
+
+  return ok(ctx, {
+    items: types.map((type) => {
+      return {
+        id: 1,
+        type,
+        title: "Temtem 1",
+        subtitle: "Subtitle 1",
+        coordinates: {
+          x: 0,
+          y: 0,
+        },
+      };
+    }),
+  });
+});
+
+app.put("/markers/:id{[0-9]+}/temtem", (ctx) => {
+  const id = ctx.req.param("id");
+
+  return noContent(ctx);
+});
 
 app.notFound((ctx) => {
   return notFound(ctx, "route");
