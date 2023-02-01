@@ -12,14 +12,14 @@ jobs:
         with:
           node-version: 18.13.0
           cache: npm
-      - run: npm install
       - uses: ozaytsev86/create-env-file@v1
         with:
-          ENV_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-          ENV_FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
-          ENV_FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
-          ENV_FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
-          ENV_FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
+          INPUT_ENV_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          INPUT_ENV_FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
+          INPUT_ENV_FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
+          INPUT_ENV_FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
+          INPUT_ENV_FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
+      - run: npm install
       - run: npm test
   # deploy:
   #   needs: test
