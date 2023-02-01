@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "hono": "2.7.5",
-    "jose": "4.11.2"
+    "jose": "4.11.2",
+    "realm-web": "2.0.0"
   },
   "devDependencies": {
     "dotenv": "16.0.3",
