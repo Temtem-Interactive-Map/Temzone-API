@@ -13,7 +13,7 @@ jobs:
           node-version: 18.13.0
           cache: npm
       - run: npm install
-      - uses: SpicyPizza/create-envfile@v1.3
+      - uses: SpicyPizza/create-envfile@v1.2
         with:
           envkey_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
           envkey_FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
