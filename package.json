@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "src/api/index.js",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "wrangler dev --local --persist",
     "format": "prettier --write .",
@@ -20,7 +21,7 @@
   },
   "devDependencies": {
     "dotenv": "16.0.3",
-    "eslint": "8.32.0",
+    "eslint": "8.33.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-json": "3.1.0",
@@ -28,7 +29,7 @@
     "eslint-plugin-yml": "1.4.0",
     "prettier": "2.8.3",
     "prettier-eslint": "15.0.1",
-    "vitest": "0.28.2",
-    "wrangler": "2.8.1"
+    "vitest": "0.28.3",
+    "wrangler": "2.9.0"
   }
 }
