@@ -4,11 +4,11 @@
   "version": "0.1.0-a.1",
   "author": "Temtem Interactive Map",
   "license": "MIT",
+  "type": "module",
   "main": "src/api/index.js",
   "private": true,
-  "type": "module",
   "scripts": {
-    "scrape": "node src/scraping/index.js",
+    "scrape": "node --no-warnings scraper/index.js",
     "dev": "wrangler dev --local --persist",
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.json,.yml",
