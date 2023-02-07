@@ -1,4 +1,4 @@
-import { cleanText } from "./utils/index.js";
+import { scrapeTable } from "./utils/index.js";
 
 const TRAIT_SELECTORS = {
   name: {
@@ -12,25 +12,9 @@ const TRAIT_SELECTORS = {
 };
 
 export function getTraits($) {
-  const traits = {};
-  const traitSelectorEntries = Object.entries(TRAIT_SELECTORS);
-  const $rows = $("table.wikitable > tbody > tr:not(:first-child)");
-
-  $rows.each((_, el) => {
-    const $el = $(el);
-    const traitEntries = traitSelectorEntries.map(
-      ([key, { selector, typeOf }]) => {
-        const rawValue = $el.find(selector).text();
-        const cleanedValue = cleanText(rawValue);
-        const value = typeOf === "number" ? Number(cleanedValue) : cleanedValue;
-
-        return [key, value];
-      }
-    );
-
-    const content = Object.fromEntries(traitEntries);
-    traits[content.name] = content;
-  });
-
-  return traits;
+  return scrapeTable(
+    $,
+    "table.wikitable > tbody > tr:not(:first-child)",
+    TRAIT_SELECTORS
+  );
 }
