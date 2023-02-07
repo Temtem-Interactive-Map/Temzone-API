@@ -12,11 +12,11 @@ const TRAIT_SELECTORS = {
 };
 
 export function getTraits($) {
-  const traits = [];
+  const traits = {};
   const traitSelectorEntries = Object.entries(TRAIT_SELECTORS);
-  const $rows = $("table.wikitable > tbody > tr ");
+  const $rows = $("table.wikitable > tbody > tr:not(:first-child)");
 
-  $rows.each((el) => {
+  $rows.each((_, el) => {
     const $el = $(el);
     const traitEntries = traitSelectorEntries.map(
       ([key, { selector, typeOf }]) => {
@@ -28,12 +28,9 @@ export function getTraits($) {
       }
     );
 
-    traits.push({
-      ...traitEntries,
-    });
+    const content = Object.fromEntries(traitEntries);
+    traits[content.name] = content;
   });
-
-  console.log(traits);
 
   return traits;
 }
