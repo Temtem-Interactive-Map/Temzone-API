@@ -1,17 +1,17 @@
 import { writeDBFile } from "./db/index.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
-import { getTemtem } from "./temtem.js";
-import { getTraits } from "./traits.js";
+import { getAllTemtem } from "./temtem.js";
+import { getAllTraits } from "./traits.js";
 import { scrape } from "./utils/index.js";
 
 const SCRAPINGS = {
   traits: {
     urls: ["https://temtem.wiki.gg/wiki/Traits"],
-    scraper: getTraits,
+    scraper: getAllTraits,
   },
   temtem: {
     urls: ["https://temtem.wiki.gg/wiki/Temtem_(creatures)"],
-    scraper: getTemtem,
+    scraper: getAllTemtem,
   },
   saipark: {
     urls: ["https://temtem.wiki.gg/wiki/Saipark"],
