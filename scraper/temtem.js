@@ -4,6 +4,7 @@ const TEMTEM_SELECTORS = {
   id: "div.infobox.temtem > table > tbody > tr:nth-child(4) > td",
   name: "div.infobox.temtem > table > tbody > tr:nth-child(1) > th",
   description: "#Tempedia",
+  types: "div.infobox.temtem > table > tbody > tr:nth-child(5) > td > a",
 };
 
 export async function getAllTemtem($) {
@@ -14,12 +15,10 @@ export async function getAllTemtem($) {
     const $el = $(el);
     const href = $el.attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    const content = getTemtem($temtem);
+    const temtem = getTemtem($temtem);
 
-    results.push(content);
+    results.push(temtem);
   }
-
-  console.log(results.length);
 
   return results;
 }
@@ -28,11 +27,21 @@ function getTemtem($) {
   const id = parseId($(TEMTEM_SELECTORS.id));
   const name = parseName($(TEMTEM_SELECTORS.name));
   const description = parseDescription($(TEMTEM_SELECTORS.description));
+  const types = [];
+  $(TEMTEM_SELECTORS.types).each((_, el) => {
+    const $el = $(el);
+    const rawType = $el.attr("title");
+
+    types.push({
+      name: rawType,
+    });
+  });
 
   return {
     id,
     name,
     description,
+    types,
   };
 }
 
@@ -58,4 +67,8 @@ function parseDescription(selector) {
   const description = cleanText(rawDescription);
 
   return description;
+}
+
+function parseTypes(selector) {
+  return {};
 }
