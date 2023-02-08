@@ -1,1 +1,658 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Mimit"
+  },
+  {
+    "id": 2,
+    "name": "Oree"
+  },
+  {
+    "id": 3,
+    "name": "Zaobian"
+  },
+  {
+    "id": 4,
+    "name": "Chromeon"
+  },
+  {
+    "id": 5,
+    "name": "Halzhi"
+  },
+  {
+    "id": 6,
+    "name": "Molgu"
+  },
+  {
+    "id": 7,
+    "name": "Platypet"
+  },
+  {
+    "id": 8,
+    "name": "Platox"
+  },
+  {
+    "id": 9,
+    "name": "Platimous"
+  },
+  {
+    "id": 10,
+    "name": "Swali"
+  },
+  {
+    "id": 11,
+    "name": "Loali"
+  },
+  {
+    "id": 12,
+    "name": "Tateru"
+  },
+  {
+    "id": 13,
+    "name": "Gharunder"
+  },
+  {
+    "id": 14,
+    "name": "Mosu"
+  },
+  {
+    "id": 15,
+    "name": "Magmut"
+  },
+  {
+    "id": 16,
+    "name": "Paharo"
+  },
+  {
+    "id": 17,
+    "name": "Paharac"
+  },
+  {
+    "id": 18,
+    "name": "Granpah"
+  },
+  {
+    "id": 19,
+    "name": "Ampling"
+  },
+  {
+    "id": 20,
+    "name": "Amphatyr"
+  },
+  {
+    "id": 21,
+    "name": "Bunbun"
+  },
+  {
+    "id": 22,
+    "name": "Mudrid"
+  },
+  {
+    "id": 23,
+    "name": "Hidody"
+  },
+  {
+    "id": 24,
+    "name": "Taifu"
+  },
+  {
+    "id": 25,
+    "name": "Fomu"
+  },
+  {
+    "id": 26,
+    "name": "Wiplump"
+  },
+  {
+    "id": 27,
+    "name": "Skail"
+  },
+  {
+    "id": 28,
+    "name": "Skunch"
+  },
+  {
+    "id": 29,
+    "name": "Goty"
+  },
+  {
+    "id": 30,
+    "name": "Mouflank"
+  },
+  {
+    "id": 31,
+    "name": "Rhoulder"
+  },
+  {
+    "id": 32,
+    "name": "Houchic"
+  },
+  {
+    "id": 33,
+    "name": "Tental"
+  },
+  {
+    "id": 34,
+    "name": "Nagaise"
+  },
+  {
+    "id": 35,
+    "name": "Orphyll"
+  },
+  {
+    "id": 36,
+    "name": "Nidrasil"
+  },
+  {
+    "id": 37,
+    "name": "Banapi"
+  },
+  {
+    "id": 38,
+    "name": "Capyre"
+  },
+  {
+    "id": 39,
+    "name": "Lapinite"
+  },
+  {
+    "id": 40,
+    "name": "Azuroc"
+  },
+  {
+    "id": 41,
+    "name": "Zenoreth"
+  },
+  {
+    "id": 42,
+    "name": "Reval"
+  },
+  {
+    "id": 43,
+    "name": "Aohi"
+  },
+  {
+    "id": 44,
+    "name": "Bigu"
+  },
+  {
+    "id": 45,
+    "name": "Babawa"
+  },
+  {
+    "id": 46,
+    "name": "0b1"
+  },
+  {
+    "id": 47,
+    "name": "0b10"
+  },
+  {
+    "id": 48,
+    "name": "Kaku"
+  },
+  {
+    "id": 49,
+    "name": "Saku"
+  },
+  {
+    "id": 50,
+    "name": "Valash"
+  },
+  {
+    "id": 51,
+    "name": "Towly"
+  },
+  {
+    "id": 52,
+    "name": "Owlhe"
+  },
+  {
+    "id": 53,
+    "name": "Barnshe"
+  },
+  {
+    "id": 54,
+    "name": "Gyalis"
+  },
+  {
+    "id": 55,
+    "name": "Occlura"
+  },
+  {
+    "id": 56,
+    "name": "Myx"
+  },
+  {
+    "id": 57,
+    "name": "Raiber"
+  },
+  {
+    "id": 58,
+    "name": "Raize"
+  },
+  {
+    "id": 59,
+    "name": "Raican"
+  },
+  {
+    "id": 60,
+    "name": "Pewki"
+  },
+  {
+    "id": 61,
+    "name": "Piraniant"
+  },
+  {
+    "id": 62,
+    "name": "Scarawatt"
+  },
+  {
+    "id": 63,
+    "name": "Scaravolt"
+  },
+  {
+    "id": 64,
+    "name": "Hoglip"
+  },
+  {
+    "id": 65,
+    "name": "Hedgine"
+  },
+  {
+    "id": 66,
+    "name": "Osuchi"
+  },
+  {
+    "id": 67,
+    "name": "Osukan"
+  },
+  {
+    "id": 68,
+    "name": "Osukai"
+  },
+  {
+    "id": 69,
+    "name": "Saipat"
+  },
+  {
+    "id": 70,
+    "name": "Pycko"
+  },
+  {
+    "id": 71,
+    "name": "Drakash"
+  },
+  {
+    "id": 72,
+    "name": "Crystle"
+  },
+  {
+    "id": 73,
+    "name": "Sherald"
+  },
+  {
+    "id": 74,
+    "name": "Tortenite"
+  },
+  {
+    "id": 75,
+    "name": "Innki"
+  },
+  {
+    "id": 76,
+    "name": "Shaolite"
+  },
+  {
+    "id": 77,
+    "name": "Shaolant"
+  },
+  {
+    "id": 78,
+    "name": "Cycrox"
+  },
+  {
+    "id": 79,
+    "name": "Hocus"
+  },
+  {
+    "id": 80,
+    "name": "Pocus"
+  },
+  {
+    "id": 81,
+    "name": "Smolzy"
+  },
+  {
+    "id": 82,
+    "name": "Sparzy"
+  },
+  {
+    "id": 83,
+    "name": "Golzy"
+  },
+  {
+    "id": 84,
+    "name": "Mushi"
+  },
+  {
+    "id": 85,
+    "name": "Mushook"
+  },
+  {
+    "id": 86,
+    "name": "Magmis"
+  },
+  {
+    "id": 87,
+    "name": "Mastione"
+  },
+  {
+    "id": 88,
+    "name": "Umishi"
+  },
+  {
+    "id": 89,
+    "name": "Ukama"
+  },
+  {
+    "id": 90,
+    "name": "Galvanid"
+  },
+  {
+    "id": 91,
+    "name": "Raignet"
+  },
+  {
+    "id": 92,
+    "name": "Smazee"
+  },
+  {
+    "id": 93,
+    "name": "Baboong"
+  },
+  {
+    "id": 94,
+    "name": "Seismunch"
+  },
+  {
+    "id": 95,
+    "name": "Zizare"
+  },
+  {
+    "id": 96,
+    "name": "Gorong"
+  },
+  {
+    "id": 97,
+    "name": "Mitty"
+  },
+  {
+    "id": 98,
+    "name": "Sanbi"
+  },
+  {
+    "id": 99,
+    "name": "Momo"
+  },
+  {
+    "id": 100,
+    "name": "Kuri"
+  },
+  {
+    "id": 101,
+    "name": "Kauren"
+  },
+  {
+    "id": 102,
+    "name": "Spriole"
+  },
+  {
+    "id": 103,
+    "name": "Deendre"
+  },
+  {
+    "id": 104,
+    "name": "Cerneaf"
+  },
+  {
+    "id": 105,
+    "name": "Toxolotl"
+  },
+  {
+    "id": 106,
+    "name": "Noxolotl"
+  },
+  {
+    "id": 107,
+    "name": "Blooze"
+  },
+  {
+    "id": 108,
+    "name": "Goolder"
+  },
+  {
+    "id": 109,
+    "name": "Zephyruff"
+  },
+  {
+    "id": 110,
+    "name": "Volarend"
+  },
+  {
+    "id": 111,
+    "name": "Grumvel"
+  },
+  {
+    "id": 112,
+    "name": "Grumper"
+  },
+  {
+    "id": 113,
+    "name": "Ganki"
+  },
+  {
+    "id": 114,
+    "name": "Gazuma"
+  },
+  {
+    "id": 115,
+    "name": "Oceara"
+  },
+  {
+    "id": 116,
+    "name": "Yowlar"
+  },
+  {
+    "id": 117,
+    "name": "Droply"
+  },
+  {
+    "id": 118,
+    "name": "Garyo"
+  },
+  {
+    "id": 119,
+    "name": "Broccoblin"
+  },
+  {
+    "id": 120,
+    "name": "Broccorc"
+  },
+  {
+    "id": 121,
+    "name": "Broccolem"
+  },
+  {
+    "id": 122,
+    "name": "Shuine"
+  },
+  {
+    "id": 123,
+    "name": "Nessla"
+  },
+  {
+    "id": 124,
+    "name": "Valiar"
+  },
+  {
+    "id": 125,
+    "name": "Pupoise"
+  },
+  {
+    "id": 126,
+    "name": "Loatle"
+  },
+  {
+    "id": 127,
+    "name": "Kalazu"
+  },
+  {
+    "id": 128,
+    "name": "Kalabyss"
+  },
+  {
+    "id": 129,
+    "name": "Adoroboros"
+  },
+  {
+    "id": 130,
+    "name": "Tuwai"
+  },
+  {
+    "id": 131,
+    "name": "Tukai"
+  },
+  {
+    "id": 132,
+    "name": "Tulcan"
+  },
+  {
+    "id": 133,
+    "name": "Tuvine"
+  },
+  {
+    "id": 134,
+    "name": "Turoc"
+  },
+  {
+    "id": 135,
+    "name": "Tuwire"
+  },
+  {
+    "id": 136,
+    "name": "Tutsu"
+  },
+  {
+    "id": 137,
+    "name": "Kinu"
+  },
+  {
+    "id": 138,
+    "name": "Vulvir"
+  },
+  {
+    "id": 139,
+    "name": "Vulor"
+  },
+  {
+    "id": 140,
+    "name": "Vulcrane"
+  },
+  {
+    "id": 141,
+    "name": "Pigepic"
+  },
+  {
+    "id": 142,
+    "name": "Akranox"
+  },
+  {
+    "id": 143,
+    "name": "Koish"
+  },
+  {
+    "id": 144,
+    "name": "Vulffy"
+  },
+  {
+    "id": 145,
+    "name": "Chubee"
+  },
+  {
+    "id": 146,
+    "name": "Waspeen"
+  },
+  {
+    "id": 147,
+    "name": "Mawtle"
+  },
+  {
+    "id": 148,
+    "name": "Mawmense"
+  },
+  {
+    "id": 149,
+    "name": "Hazrat"
+  },
+  {
+    "id": 150,
+    "name": "Minttle"
+  },
+  {
+    "id": 151,
+    "name": "Minox"
+  },
+  {
+    "id": 152,
+    "name": "Minothor"
+  },
+  {
+    "id": 153,
+    "name": "Maoala"
+  },
+  {
+    "id": 154,
+    "name": "Venx"
+  },
+  {
+    "id": 155,
+    "name": "Venmet"
+  },
+  {
+    "id": 156,
+    "name": "Vental"
+  },
+  {
+    "id": 157,
+    "name": "Chimurian"
+  },
+  {
+    "id": 158,
+    "name": "Arachnyte"
+  },
+  {
+    "id": 159,
+    "name": "Thaiko"
+  },
+  {
+    "id": 160,
+    "name": "Monkko"
+  },
+  {
+    "id": 161,
+    "name": "Anahir"
+  },
+  {
+    "id": 162,
+    "name": "Anatan"
+  },
+  {
+    "id": 163,
+    "name": "Tyranak"
+  },
+  {
+    "id": 164,
+    "name": "Volgon"
+  }
+]
