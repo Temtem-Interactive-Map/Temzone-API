@@ -1,13 +1,11 @@
-import { scrape } from "./utils/index.js";
+import { cleanText, scrape } from "./utils/index.js";
 
 const TEMTEM_SELECTORS = {
-  name: {
-    selector: "div.infobox.temtem > table > tbody > tr:nth-child(1) > th",
-    typeOf: "string",
-  },
+  id: "div.infobox.temtem > table > tbody > tr:nth-child(4) > td",
+  name: "div.infobox.temtem > table > tbody > tr:nth-child(1) > th",
 };
 
-export async function getTemtem($) {
+export async function getAllTemtem($) {
   const results = [];
   const $rows = $("table.wikitable > tbody > tr > td:nth-child(2) > a");
 
@@ -15,7 +13,7 @@ export async function getTemtem($) {
     const $el = $(el);
     const href = $el.attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    const content = getTemtemDetails($temtem);
+    const content = getTemtem($temtem);
 
     results.push(content);
   });
@@ -25,10 +23,15 @@ export async function getTemtem($) {
   return results;
 }
 
-function getTemtemDetails($) {
-  const name = $(TEMTEM_SELECTORS.name.selector).text();
+function getTemtem($) {
+  const rawId = $(TEMTEM_SELECTORS.id).text();
+  const id = cleanText(rawId);
+
+  const rawName = $(TEMTEM_SELECTORS.name).text();
+  const name = cleanText(rawName);
 
   return {
+    id,
     name,
   };
 }
