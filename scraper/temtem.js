@@ -3,6 +3,7 @@ import { cleanText, scrape } from "./utils/index.js";
 const TEMTEM_SELECTORS = {
   id: "div.infobox.temtem > table > tbody > tr:nth-child(4) > td",
   name: "div.infobox.temtem > table > tbody > tr:nth-child(1) > th",
+  description: "#Tempedia",
 };
 
 export async function getAllTemtem($) {
@@ -24,23 +25,37 @@ export async function getAllTemtem($) {
 }
 
 function getTemtem($) {
-  const rawId = $(TEMTEM_SELECTORS.id).text();
-  const id = parseId(rawId);
-
-  const rawName = $(TEMTEM_SELECTORS.name).text();
-  const name = cleanText(rawName);
+  const id = parseId($(TEMTEM_SELECTORS.id));
+  const name = parseName($(TEMTEM_SELECTORS.name));
+  const description = parseDescription($(TEMTEM_SELECTORS.description));
 
   return {
     id,
     name,
+    description,
   };
 }
 
-function parseId(rawId) {
-  const cleanedId = cleanText(rawId);
-  const indexId = cleanedId.indexOf("#");
-  const textId = cleanedId.substring(indexId + 1, indexId + 4);
+function parseId(selector) {
+  const rawId = selector.text();
+  const cleanId = cleanText(rawId);
+  const indexId = cleanId.indexOf("#");
+  const textId = cleanId.substring(indexId + 1, indexId + 4);
   const id = parseInt(textId);
 
   return id;
+}
+
+function parseName(selector) {
+  const rawName = selector.text();
+  const name = cleanText(rawName);
+
+  return name;
+}
+
+function parseDescription(selector) {
+  const rawDescription = selector.parent().next().text();
+  const description = cleanText(rawDescription);
+
+  return description;
 }
