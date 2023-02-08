@@ -9,14 +9,14 @@ export async function getAllTemtem($) {
   const results = [];
   const $rows = $("table.wikitable > tbody > tr > td:nth-child(2) > a");
 
-  $rows.each(async (_, el) => {
+  for (const el of $rows) {
     const $el = $(el);
     const href = $el.attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
     const content = getTemtem($temtem);
 
     results.push(content);
-  });
+  }
 
   console.log(results.length);
 
@@ -25,7 +25,7 @@ export async function getAllTemtem($) {
 
 function getTemtem($) {
   const rawId = $(TEMTEM_SELECTORS.id).text();
-  const id = cleanText(rawId);
+  const id = parseId(rawId);
 
   const rawName = $(TEMTEM_SELECTORS.name).text();
   const name = cleanText(rawName);
@@ -34,4 +34,13 @@ function getTemtem($) {
     id,
     name,
   };
+}
+
+function parseId(rawId) {
+  const cleanedId = cleanText(rawId);
+  const indexId = cleanedId.indexOf("#");
+  const textId = cleanedId.substring(indexId + 1, indexId + 4);
+  const id = parseInt(textId);
+
+  return id;
 }
