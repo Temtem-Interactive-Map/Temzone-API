@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const DB_PATH = path.join(process.cwd(), "src", "db");
+const DB_PATH = path.join(process.cwd(), "scraper", "db");
 
 export function writeDBFile(dbName, data) {
   return writeFile(
