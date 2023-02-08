@@ -1,12 +1,5 @@
 import { cleanText, scrape } from "./utils/index.js";
 
-const TEMTEM_SELECTORS = {
-  id: "div.infobox.temtem > table > tbody > tr:nth-child(4) > td",
-  name: "div.infobox.temtem > table > tbody > tr:nth-child(1) > th",
-  description: "#Tempedia",
-  types: "div.infobox.temtem > table > tbody > tr:nth-child(5) > td > a",
-};
-
 export async function getAllTemtem($) {
   const results = [];
   const $rows = $("table.wikitable > tbody > tr > td:nth-child(2) > a");
@@ -15,60 +8,78 @@ export async function getAllTemtem($) {
     const $el = $(el);
     const href = $el.attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    const temtem = getTemtem($temtem);
+    const temtem = new Temtem($temtem);
 
-    results.push(temtem);
+    results.push({
+      id: temtem.id,
+      name: temtem.name,
+      description: temtem.description,
+      types: temtem.types,
+    });
   }
 
   return results;
 }
 
-function getTemtem($) {
-  const id = parseId($(TEMTEM_SELECTORS.id));
-  const name = parseName($(TEMTEM_SELECTORS.name));
-  const description = parseDescription($(TEMTEM_SELECTORS.description));
-  const types = [];
-  $(TEMTEM_SELECTORS.types).each((_, el) => {
-    const $el = $(el);
-    const rawType = $el.attr("title");
+class Temtem {
+  constructor($) {
+    this.$ = $;
+  }
 
-    types.push({
-      name: rawType,
+  get id() {
+    const rawId = this.$(
+      "div.infobox.temtem > table > tbody > tr:nth-child(4) > td"
+    ).text();
+    const cleanId = cleanText(rawId);
+    const indexId = cleanId.indexOf("#");
+    const textId = cleanId.substring(indexId + 1, indexId + 4);
+    const id = parseInt(textId);
+
+    return id;
+  }
+
+  get name() {
+    const rawName = this.$(
+      "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
+    ).text();
+    const name = cleanText(rawName);
+
+    return name;
+  }
+
+  get description() {
+    const rawDescription = this.$("#Tempedia").parent().next().text();
+    const description = cleanText(rawDescription);
+
+    return description;
+  }
+
+  get types() {
+    const types = [];
+    this.$(
+      "div.infobox.temtem > table > tbody > tr:nth-child(5) > td > a"
+    ).each((_, el) => {
+      const $el = this.$(el);
+
+      const rawName = $el.attr("title");
+      const name = cleanText(rawName);
+
+      const imageSrc = $el
+        .find("img")
+        .toArray()
+        .map((img) => {
+          const { attribs } = img;
+          const { src } = attribs;
+
+          return src;
+        });
+
+      types.push({
+        name,
+        imageSrc,
+      });
     });
-  });
 
-  return {
-    id,
-    name,
-    description,
-    types,
-  };
-}
-
-function parseId(selector) {
-  const rawId = selector.text();
-  const cleanId = cleanText(rawId);
-  const indexId = cleanId.indexOf("#");
-  const textId = cleanId.substring(indexId + 1, indexId + 4);
-  const id = parseInt(textId);
-
-  return id;
-}
-
-function parseName(selector) {
-  const rawName = selector.text();
-  const name = cleanText(rawName);
-
-  return name;
-}
-
-function parseDescription(selector) {
-  const rawDescription = selector.parent().next().text();
-  const description = cleanText(rawDescription);
-
-  return description;
-}
-
-function parseTypes(selector) {
-  return {};
+    return types;
+  }
 }
