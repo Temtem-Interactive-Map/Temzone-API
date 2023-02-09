@@ -16,6 +16,7 @@ export async function getAllTemtem($) {
       description: temtem.description,
       types: temtem.types,
       details: {
+        catch_rate: temtem.catchRate,
         height: temtem.height,
         weight: temtem.weight,
       },
@@ -71,6 +72,16 @@ class Temtem {
     });
 
     return types;
+  }
+
+  get catchRate() {
+    const rawCatchRate = this.$(
+      "div.infobox.temtem > table > tbody > tr:contains('Catch Rate') > td"
+    ).text();
+    const cleanCatchRate = cleanText(rawCatchRate);
+    const catchRate = parseInt(cleanCatchRate);
+
+    return catchRate;
   }
 
   get height() {
