@@ -22,6 +22,7 @@ export async function getAllTemtem($) {
         weight: temtem.weight,
       },
       stats: temtem.stats,
+      tvs: temtem.tvs,
     });
   }
 
@@ -168,5 +169,28 @@ class Temtem {
     const stats = Object.fromEntries(statsEntries);
 
     return stats;
+  }
+
+  get tvs() {
+    const tvSelectors = {
+      hp: "table.tv-table > tbody > tr > td:nth-child(1)",
+      sta: "table.tv-table > tbody > tr > td:nth-child(2)",
+      spd: "table.tv-table > tbody > tr > td:nth-child(3)",
+      atk: "table.tv-table > tbody > tr > td:nth-child(4)",
+      def: "table.tv-table > tbody > tr > td:nth-child(5)",
+      spatk: "table.tv-table > tbody > tr > td:nth-child(6)",
+      spdef: "table.tv-table > tbody > tr > td:nth-child(7)",
+    };
+    const tvSelectorEntries = Object.entries(tvSelectors);
+    const tvEntries = tvSelectorEntries.map(([key, selector]) => {
+      const rawValue = this.$(selector).text();
+      const cleanValue = cleanText(rawValue);
+      const value = parseInt(cleanValue) || 0;
+
+      return [key, value];
+    });
+    const tvs = Object.fromEntries(tvEntries);
+
+    return tvs;
   }
 }
