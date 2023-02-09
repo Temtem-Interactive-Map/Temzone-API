@@ -15,6 +15,9 @@ export async function getAllTemtem($) {
       name: temtem.name,
       description: temtem.description,
       types: temtem.types,
+      details: {
+        height: temtem.height,
+      },
     });
   }
 
@@ -28,7 +31,7 @@ class Temtem {
 
   get id() {
     const rawId = this.$(
-      "div.infobox.temtem > table > tbody > tr:nth-child(4) > td"
+      "div.infobox.temtem > table > tbody > tr:contains('No.') > td"
     ).text();
     const cleanId = cleanText(rawId);
     const indexId = cleanId.indexOf("#");
@@ -57,29 +60,33 @@ class Temtem {
   get types() {
     const types = [];
     this.$(
-      "div.infobox.temtem > table > tbody > tr:nth-child(5) > td > a"
+      "div.infobox.temtem > table > tbody > tr:contains('Type') > td > a"
     ).each((_, el) => {
       const $el = this.$(el);
+      const rawType = $el.attr("title");
+      const type = cleanText(rawType);
 
-      const rawName = $el.attr("title");
-      const name = cleanText(rawName);
-
-      const imageSrc = $el
-        .find("img")
-        .toArray()
-        .map((img) => {
-          const { attribs } = img;
-          const { src } = attribs;
-
-          return src;
-        });
-
-      types.push({
-        name,
-        imageSrc,
-      });
+      types.push(type);
     });
 
     return types;
+  }
+
+  get height() {
+    const rawHeight = this.$(
+      "table.infobox-half-row:contains('Height') > tbody > tr:nth-child(2) > td"
+    ).text();
+    const [rawCm, rawInches] = rawHeight.split("/");
+    const cleanCm = cleanText(rawCm);
+    const cleanInches = cleanText(rawInches);
+    const textCm = cleanCm.substring(0, cleanCm.length - 2);
+    const textInches = cleanInches.substring(0, cleanInches.length - 1);
+    const cm = parseInt(textCm);
+    const inches = parseFloat(textInches);
+
+    return {
+      cm,
+      inches,
+    };
   }
 }
