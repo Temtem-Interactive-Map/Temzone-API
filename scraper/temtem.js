@@ -16,6 +16,7 @@ export async function getAllTemtem($) {
       description: temtem.description,
       types: temtem.types,
       details: {
+        gender: temtem.gender,
         catch_rate: temtem.catchRate,
         height: temtem.height,
         weight: temtem.weight,
@@ -72,6 +73,30 @@ class Temtem {
     });
 
     return types;
+  }
+
+  get gender() {
+    const rawGender = this.$(
+      "div.infobox.temtem > table > tbody > tr:contains('Gender Ratio') > td"
+    ).text();
+    const cleanGender = cleanText(rawGender);
+
+    if (cleanGender === "N/A") {
+      return null;
+    } else {
+      const [rawMale, rawFemale] = rawGender.split(",");
+      const cleanMale = cleanText(rawMale);
+      const cleanFemale = cleanText(rawFemale);
+      const textMale = cleanMale.substring(0, 2);
+      const textFemale = cleanFemale.substring(0, 2);
+      const male = parseInt(textMale);
+      const female = parseInt(textFemale);
+
+      return {
+        male,
+        female,
+      };
+    }
   }
 
   get catchRate() {
