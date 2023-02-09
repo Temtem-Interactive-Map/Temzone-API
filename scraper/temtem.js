@@ -155,6 +155,7 @@ class Temtem {
       def: "table.statbox > tbody > tr:nth-child(7) > th > div:nth-child(2)",
       spatk: "table.statbox > tbody > tr:nth-child(8) > th > div:nth-child(2)",
       spdef: "table.statbox > tbody > tr:nth-child(9) > th > div:nth-child(2)",
+      total: "table.statbox > tbody > tr:nth-child(10) > th > div:nth-child(2)",
     };
     const statsSelectorEntries = Object.entries(statsSelectors);
     const statsEntries = statsSelectorEntries.map(([key, selector]) => {
