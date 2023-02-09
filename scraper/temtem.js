@@ -17,6 +17,7 @@ export async function getAllTemtem($) {
       types: temtem.types,
       details: {
         height: temtem.height,
+        weight: temtem.weight,
       },
     });
   }
@@ -87,6 +88,24 @@ class Temtem {
     return {
       cm,
       inches,
+    };
+  }
+
+  get weight() {
+    const rawWeight = this.$(
+      "table.infobox-half-row:contains('Weight') > tbody > tr:nth-child(2) > td"
+    ).text();
+    const [rawKg, rawLbs] = rawWeight.split("/");
+    const cleanKg = cleanText(rawKg);
+    const cleanLbs = cleanText(rawLbs);
+    const textKg = cleanKg.substring(0, cleanKg.length - 2);
+    const textLbs = cleanLbs.substring(0, cleanLbs.length - 3);
+    const kg = parseInt(textKg);
+    const lbs = parseFloat(textLbs);
+
+    return {
+      kg,
+      lbs,
     };
   }
 }
