@@ -18,7 +18,6 @@ export async function getAllTraits($) {
 
       return [key, value];
     });
-
     const trait = Object.fromEntries(traitEntries);
 
     traits[trait.name] = trait;
