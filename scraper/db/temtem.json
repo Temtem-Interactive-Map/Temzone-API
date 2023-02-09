@@ -6,9 +6,13 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Striking Transmog",
+      "Landing Transmog"
+    ],
     "details": {
       "gender": null,
-      "catch_rate": 30,
+      "catchRate": 30,
       "height": {
         "cm": 42,
         "inches": 16.54
@@ -45,12 +49,16 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Attack<T>",
+      "Fast Charge"
+    ],
     "details": {
       "gender": {
         "male": 25,
         "female": 75
       },
-      "catch_rate": 145,
+      "catchRate": 145,
       "height": {
         "cm": 128,
         "inches": 50.39
@@ -87,12 +95,16 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Attack<T>",
+      "Voltaic Charge"
+    ],
     "details": {
       "gender": {
         "male": 25,
         "female": 75
       },
-      "catch_rate": 105,
+      "catchRate": 105,
       "height": {
         "cm": 213,
         "inches": 83.86
@@ -129,12 +141,16 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Synertyper",
+      "Pigment Inverter"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 77,
         "inches": 30.31
@@ -171,12 +187,16 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Parrier",
+      "Neutrality"
+    ],
     "details": {
       "gender": {
         "male": 5,
         "female": 95
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 90,
         "inches": 35.43
@@ -213,12 +233,16 @@
     "types": [
       "Digital type"
     ],
+    "traits": [
+      "Splitter",
+      "Sentinel"
+    ],
     "details": {
       "gender": {
         "male": 5,
         "female": 95
       },
-      "catch_rate": 105,
+      "catchRate": 105,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -256,12 +280,16 @@
       "Water type",
       "Toxic type"
     ],
+    "traits": [
+      "Toxic Affinity",
+      "Amphibian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 85,
         "inches": 33.46
@@ -299,12 +327,16 @@
       "Water type",
       "Toxic type"
     ],
+    "traits": [
+      "Resistant",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 105,
+      "catchRate": 105,
       "height": {
         "cm": 140,
         "inches": 55.12
@@ -342,12 +374,16 @@
       "Water type",
       "Toxic type"
     ],
+    "traits": [
+      "Zen",
+      "Determined"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 190,
         "inches": 74.8
@@ -384,12 +420,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Shared Pain",
+      "Mithridatism"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 200,
+      "catchRate": 200,
       "height": {
         "cm": 82,
         "inches": 32.28
@@ -427,12 +467,16 @@
       "Nature type",
       "Wind type"
     ],
+    "traits": [
+      "Botanist",
+      "Toxic Farewell"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 60,
         "inches": 23.62
@@ -469,12 +513,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Soft Touch",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 165,
+      "catchRate": 165,
       "height": {
         "cm": 145,
         "inches": 57.09
@@ -512,12 +560,16 @@
       "Toxic type",
       "Electric type"
     ],
+    "traits": [
+      "Brumation",
+      "Thick Skin"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 45,
+      "catchRate": 45,
       "height": {
         "cm": 176,
         "inches": 69.29
@@ -554,12 +606,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Punch Bag",
+      "Parrier"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 110,
+      "catchRate": 110,
       "height": {
         "cm": 145,
         "inches": 57.09
@@ -597,12 +653,16 @@
       "Melee type",
       "Fire type"
     ],
+    "traits": [
+      "Specgulp",
+      "Physgulp"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 66,
+      "catchRate": 66,
       "height": {
         "cm": 215,
         "inches": 84.65
@@ -639,12 +699,16 @@
     "types": [
       "Wind type"
     ],
+    "traits": [
+      "Hover",
+      "Friendship"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 190,
+      "catchRate": 190,
       "height": {
         "cm": 75,
         "inches": 29.53
@@ -681,12 +745,16 @@
     "types": [
       "Wind type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Camaraderie"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 125,
         "inches": 49.21
@@ -723,12 +791,16 @@
     "types": [
       "Wind type"
     ],
+    "traits": [
+      "Last Rush",
+      "Bully"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 186,
         "inches": 73.23
@@ -765,12 +837,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Dreaded Alarm"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 95,
+      "catchRate": 95,
       "height": {
         "cm": 130,
         "inches": 51.18
@@ -808,12 +884,16 @@
       "Electric type",
       "Nature type"
     ],
+    "traits": [
+      "Relaxed",
+      "Infectious"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 40,
+      "catchRate": 40,
       "height": {
         "cm": 202,
         "inches": 79.53
@@ -851,12 +931,16 @@
       "Earth type",
       "Crystal type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 55,
         "inches": 21.65
@@ -894,12 +978,16 @@
       "Earth type",
       "Crystal type"
     ],
+    "traits": [
+      "Receptive",
+      "Resistant"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -936,12 +1024,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Electric Synthesize",
+      "Botanist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 180,
+      "catchRate": 180,
       "height": {
         "cm": 100,
         "inches": 39.37
@@ -978,12 +1070,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Toxic Farewell",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 180,
         "inches": 70.87
@@ -1020,12 +1116,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Amphibian",
+      "Hydrologist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 58,
         "inches": 22.83
@@ -1063,12 +1163,16 @@
       "Water type",
       "Wind type"
     ],
+    "traits": [
+      "Plethoric",
+      "Patient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 125,
         "inches": 49.21
@@ -1105,12 +1209,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Furor",
+      "Scavenger"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 80,
         "inches": 31.5
@@ -1148,12 +1256,16 @@
       "Neutral type",
       "Melee type"
     ],
+    "traits": [
+      "Brawny",
+      "Bully"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -1190,12 +1302,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Rested",
+      "Plethoric"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 80,
         "inches": 31.5
@@ -1232,12 +1348,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Hurry-wart",
+      "Unnoticed"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -1275,12 +1395,16 @@
       "Neutral type",
       "Earth type"
     ],
+    "traits": [
+      "Tardy Rush",
+      "Thick Skin"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 180,
         "inches": 70.87
@@ -1317,12 +1441,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Mental Alliance",
+      "Soft Touch"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 110,
         "inches": 43.31
@@ -1359,12 +1487,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Avenger",
+      "Water Affinity"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 70,
+      "catchRate": 70,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -1402,12 +1534,16 @@
       "Mental type",
       "Water type"
     ],
+    "traits": [
+      "Deceit Aura",
+      "Water Custodian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 200,
         "inches": 78.74
@@ -1445,12 +1581,16 @@
       "Nature type",
       "Toxic type"
     ],
+    "traits": [
+      "Toxic Affinity",
+      "Apothecary"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 117,
         "inches": 46.06
@@ -1488,12 +1628,16 @@
       "Nature type",
       "Toxic type"
     ],
+    "traits": [
+      "Toxic Farewell",
+      "Tri-Apothecary"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 178,
         "inches": 70.08
@@ -1530,12 +1674,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Pyromaniac",
+      "Settling"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 90,
         "inches": 35.43
@@ -1572,12 +1720,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Last Rush",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -1614,12 +1766,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Scavenger",
+      "Electric Synthesize"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 90,
         "inches": 35.43
@@ -1656,12 +1812,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Mirroring",
+      "Fainted Curse"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 110,
+      "catchRate": 110,
       "height": {
         "cm": 203,
         "inches": 79.92
@@ -1698,12 +1858,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Channeler",
+      "Wrecked Farewell"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 310,
         "inches": 122.05
@@ -1740,12 +1904,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Heat Discharge",
+      "Enraged"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 129,
+      "catchRate": 129,
       "height": {
         "cm": 56,
         "inches": 22.05
@@ -1783,12 +1951,16 @@
       "Mental type",
       "Fire type"
     ],
+    "traits": [
+      "Warm Gift",
+      "Ignis Fatuus"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 136,
         "inches": 53.54
@@ -1825,12 +1997,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Warm-Blooded",
+      "Amphibian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 180,
+      "catchRate": 180,
       "height": {
         "cm": 113,
         "inches": 44.49
@@ -1868,12 +2044,16 @@
       "Nature type",
       "Water type"
     ],
+    "traits": [
+      "Mucous",
+      "Withdrawal"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 226,
         "inches": 88.98
@@ -1911,12 +2091,16 @@
       "Digital type",
       "Electric type"
     ],
+    "traits": [
+      "Fast Charge",
+      "Sentinel"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 12,
         "inches": 4.72
@@ -1954,12 +2138,16 @@
       "Digital type",
       "Electric type"
     ],
+    "traits": [
+      "Source Replicator",
+      "Target Replicator"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 45,
+      "catchRate": 45,
       "height": {
         "cm": 12,
         "inches": 4.72
@@ -1996,12 +2184,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Mithridatism"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 190,
+      "catchRate": 190,
       "height": {
         "cm": 54,
         "inches": 21.26
@@ -2039,12 +2231,16 @@
       "Nature type",
       "Wind type"
     ],
+    "traits": [
+      "Air Specialist",
+      "Botanist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 92,
         "inches": 36.22
@@ -2082,12 +2278,16 @@
       "Neutral type",
       "Crystal type"
     ],
+    "traits": [
+      "Scavenger",
+      "Determined"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 95,
+      "catchRate": 95,
       "height": {
         "cm": 185,
         "inches": 72.83
@@ -2125,12 +2325,16 @@
       "Melee type",
       "Mental type"
     ],
+    "traits": [
+      "Hypnotist",
+      "Tag Team"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 80,
         "inches": 31.5
@@ -2168,12 +2372,16 @@
       "Wind type",
       "Melee type"
     ],
+    "traits": [
+      "Determined",
+      "Bruiser"
+    ],
     "details": {
       "gender": {
         "male": 10,
         "female": 0
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 177,
         "inches": 69.69
@@ -2211,12 +2419,16 @@
       "Wind type",
       "Mental type"
     ],
+    "traits": [
+      "Neutrality",
+      "Air Specialist"
+    ],
     "details": {
       "gender": {
         "male": 0,
         "female": 10
       },
-      "catch_rate": 95,
+      "catchRate": 95,
       "height": {
         "cm": 171,
         "inches": 67.32
@@ -2254,12 +2466,16 @@
       "Crystal type",
       "Melee type"
     ],
+    "traits": [
+      "Mirroring",
+      "Resistant"
+    ],
     "details": {
       "gender": {
         "male": 20,
         "female": 80
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 204,
         "inches": 80.31
@@ -2296,12 +2512,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Warm-Blooded",
+      "Scavenger"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 137,
         "inches": 53.94
@@ -2339,12 +2559,16 @@
       "Crystal type",
       "Mental type"
     ],
+    "traits": [
+      "Puppet Master",
+      "Rejuvenate"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 81,
+      "catchRate": 81,
       "height": {
         "cm": 243,
         "inches": 95.67
@@ -2381,12 +2605,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Camaraderie",
+      "Rested"
+    ],
     "details": {
       "gender": {
         "male": 85,
         "female": 15
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 95,
         "inches": 37.4
@@ -2423,12 +2651,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Furor",
+      "Demoralize"
+    ],
     "details": {
       "gender": {
         "male": 85,
         "female": 15
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -2465,12 +2697,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Prideful",
+      "Motivator"
+    ],
     "details": {
       "gender": {
         "male": 85,
         "female": 15
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 195,
         "inches": 76.77
@@ -2507,12 +2743,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Hydrologist",
+      "Rested"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 60,
         "inches": 23.62
@@ -2549,12 +2789,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Patient",
+      "Energy Reserves"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 130,
+      "catchRate": 130,
       "height": {
         "cm": 200,
         "inches": 78.74
@@ -2591,12 +2835,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Immunity",
+      "Strong Liver"
+    ],
     "details": {
       "gender": {
         "male": 75,
         "female": 25
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 40,
         "inches": 15.75
@@ -2634,12 +2882,16 @@
       "Electric type",
       "Fire type"
     ],
+    "traits": [
+      "Half Full",
+      "Good Friend"
+    ],
     "details": {
       "gender": {
         "male": 75,
         "female": 25
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -2677,12 +2929,16 @@
       "Digital type",
       "Fire type"
     ],
+    "traits": [
+      "Gotta Go Fast",
+      "Fast Charge"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 85,
         "inches": 33.46
@@ -2720,12 +2976,16 @@
       "Digital type",
       "Fire type"
     ],
+    "traits": [
+      "Gotta Go Fast",
+      "Going Away Gift"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 70,
+      "catchRate": 70,
       "height": {
         "cm": 145,
         "inches": 57.09
@@ -2762,12 +3022,16 @@
     "types": [
       "Earth type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Brawny"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 125,
         "inches": 49.21
@@ -2805,12 +3069,16 @@
       "Earth type",
       "Melee type"
     ],
+    "traits": [
+      "Furor",
+      "Parrier"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 110,
+      "catchRate": 110,
       "height": {
         "cm": 171,
         "inches": 67.32
@@ -2848,12 +3116,16 @@
       "Earth type",
       "Melee type"
     ],
+    "traits": [
+      "Sensei",
+      "Body Stretch"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 235,
         "inches": 92.52
@@ -2891,12 +3163,16 @@
       "Water type",
       "Melee type"
     ],
+    "traits": [
+      "Amphibian",
+      "Toxic Affinity"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 100,
         "inches": 39.37
@@ -2934,12 +3210,16 @@
       "Earth type",
       "Fire type"
     ],
+    "traits": [
+      "Furor",
+      "Tireless"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 42,
         "inches": 16.54
@@ -2977,12 +3257,16 @@
       "Earth type",
       "Fire type"
     ],
+    "traits": [
+      "Heat Discharge",
+      "Sentinel"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 165,
         "inches": 64.96
@@ -3019,12 +3303,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Amphibian",
+      "Rested"
+    ],
     "details": {
       "gender": {
         "male": 35,
         "female": 65
       },
-      "catch_rate": 160,
+      "catchRate": 160,
       "height": {
         "cm": 60,
         "inches": 23.62
@@ -3061,12 +3349,16 @@
     "types": [
       "Crystal type"
     ],
+    "traits": [
+      "Mirroring",
+      "Provident"
+    ],
     "details": {
       "gender": {
         "male": 35,
         "female": 65
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 120,
         "inches": 47.24
@@ -3104,12 +3396,16 @@
       "Crystal type",
       "Toxic type"
     ],
+    "traits": [
+      "Confined",
+      "Efficient"
+    ],
     "details": {
       "gender": {
         "male": 35,
         "female": 65
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 190,
         "inches": 74.8
@@ -3147,12 +3443,16 @@
       "Electric type",
       "Crystal type"
     ],
+    "traits": [
+      "Physmaster",
+      "Specmaster"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 40,
+      "catchRate": 40,
       "height": {
         "cm": 138,
         "inches": 54.33
@@ -3189,12 +3489,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Coward's Rest",
+      "Parrier"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 100,
         "inches": 39.37
@@ -3231,12 +3535,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Welcomer",
+      "Bruiser"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -3274,12 +3582,16 @@
       "Digital type",
       "Toxic type"
     ],
+    "traits": [
+      "Neurotoxins",
+      "Water Synthesizer"
+    ],
     "details": {
       "gender": {
         "male": 20,
         "female": 80
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 132,
         "inches": 51.97
@@ -3316,12 +3628,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Soft Touch",
+      "Mirroring"
+    ],
     "details": {
       "gender": {
         "male": 20,
         "female": 80
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 115,
         "inches": 45.28
@@ -3358,12 +3674,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Dreaded Alarm",
+      "Rejuvenate"
+    ],
     "details": {
       "gender": {
         "male": 20,
         "female": 80
       },
-      "catch_rate": 40,
+      "catchRate": 40,
       "height": {
         "cm": 190,
         "inches": 74.8
@@ -3400,12 +3720,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Electric Synthesize"
+    ],
     "details": {
       "gender": {
         "male": 70,
         "female": 30
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 99,
         "inches": 38.98
@@ -3442,12 +3766,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Last Rush",
+      "Inductor"
+    ],
     "details": {
       "gender": {
         "male": 70,
         "female": 30
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -3485,12 +3813,16 @@
       "Electric type",
       "Melee type"
     ],
+    "traits": [
+      "Defuser",
+      "Voltaic Charge"
+    ],
     "details": {
       "gender": {
         "male": 70,
         "female": 30
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 206,
         "inches": 81.1
@@ -3527,12 +3859,16 @@
     "types": [
       "Toxic type"
     ],
+    "traits": [
+      "Resistant",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 100,
         "inches": 39.37
@@ -3570,12 +3906,16 @@
       "Toxic type",
       "Melee type"
     ],
+    "traits": [
+      "Parrier",
+      "Tireless"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 78,
+      "catchRate": 78,
       "height": {
         "cm": 210,
         "inches": 82.68
@@ -3612,12 +3952,16 @@
     "types": [
       "Fire type"
     ],
+    "traits": [
+      "Caffeinated",
+      "Thick Skin"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 200,
+      "catchRate": 200,
       "height": {
         "cm": 115,
         "inches": 45.28
@@ -3655,12 +3999,16 @@
       "Fire type",
       "Water type"
     ],
+    "traits": [
+      "Solidifier",
+      "Pyromaniac"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 240,
         "inches": 94.49
@@ -3697,12 +4045,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Shared Pain",
+      "Caffeinated"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 95,
         "inches": 37.4
@@ -3739,12 +4091,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Hydrologist",
+      "Plethoric"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 70,
+      "catchRate": 70,
       "height": {
         "cm": 140,
         "inches": 55.12
@@ -3781,12 +4137,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Efficient",
+      "Inductor"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 150,
+      "catchRate": 150,
       "height": {
         "cm": 103,
         "inches": 40.55
@@ -3823,12 +4183,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Kinetic Transfer",
+      "Electric Custodian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -3865,12 +4229,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Fever Rush",
+      "Friendship"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 60,
+      "catchRate": 60,
       "height": {
         "cm": 96,
         "inches": 37.8
@@ -3907,12 +4275,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Brawny",
+      "Warm-Blooded"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 50,
+      "catchRate": 50,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -3950,12 +4322,16 @@
       "Melee type",
       "Earth type"
     ],
+    "traits": [
+      "Self-Esteem",
+      "Earthbound"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 195,
         "inches": 76.77
@@ -3992,12 +4368,16 @@
     "types": [
       "Earth type"
     ],
+    "traits": [
+      "Rested",
+      "Electric Custodian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 75,
+      "catchRate": 75,
       "height": {
         "cm": 180,
         "inches": 70.87
@@ -4034,12 +4414,16 @@
     "types": [
       "Melee type"
     ],
+    "traits": [
+      "Seismic",
+      "Tireless"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 59,
+      "catchRate": 59,
       "height": {
         "cm": 180,
         "inches": 70.87
@@ -4076,12 +4460,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Soft Touch",
+      "Skull Helmet"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 40,
         "inches": 15.75
@@ -4118,12 +4506,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Dozing Hit",
+      "Inner Shield"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -4160,12 +4552,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Stabmaster",
+      "Snowstorm"
+    ],
     "details": {
       "gender": {
         "male": 10,
         "female": 90
       },
-      "catch_rate": 98,
+      "catchRate": 98,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -4202,12 +4598,16 @@
     "types": [
       "Earth type"
     ],
+    "traits": [
+      "Camaraderie",
+      "Callosity"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 130,
+      "catchRate": 130,
       "height": {
         "cm": 100,
         "inches": 39.37
@@ -4244,12 +4644,16 @@
     "types": [
       "Earth type"
     ],
+    "traits": [
+      "Scavenger",
+      "Skull Helmet"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -4286,12 +4690,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Camaraderie",
+      "Botanist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 180,
+      "catchRate": 180,
       "height": {
         "cm": 74,
         "inches": 29.13
@@ -4328,12 +4736,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Mithridatism",
+      "Settling"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 120,
         "inches": 47.24
@@ -4370,12 +4782,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Callosity",
+      "Settling"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 210,
         "inches": 82.68
@@ -4412,12 +4828,16 @@
     "types": [
       "Toxic type"
     ],
+    "traits": [
+      "Power Nap",
+      "Toxic Farewell"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 106,
         "inches": 41.73
@@ -4454,12 +4874,16 @@
     "types": [
       "Toxic type"
     ],
+    "traits": [
+      "Trance",
+      "Toxic Skin"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 75,
+      "catchRate": 75,
       "height": {
         "cm": 177,
         "inches": 69.69
@@ -4496,12 +4920,16 @@
     "types": [
       "Toxic type"
     ],
+    "traits": [
+      "Toxic Skin",
+      "Bully"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 178,
         "inches": 70.08
@@ -4538,12 +4966,16 @@
     "types": [
       "Toxic type"
     ],
+    "traits": [
+      "Strong Liver",
+      "Punch Bag"
+    ],
     "details": {
       "gender": {
         "male": 65,
         "female": 35
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 222,
         "inches": 87.4
@@ -4581,12 +5013,16 @@
       "Toxic type",
       "Wind type"
     ],
+    "traits": [
+      "Toxic Affinity",
+      "Air Specialist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 165,
+      "catchRate": 165,
       "height": {
         "cm": 92,
         "inches": 36.22
@@ -4624,12 +5060,16 @@
       "Toxic type",
       "Wind type"
     ],
+    "traits": [
+      "Aerobic",
+      "Anaerobic"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 98,
+      "catchRate": 98,
       "height": {
         "cm": 205,
         "inches": 80.71
@@ -4666,12 +5106,16 @@
     "types": [
       "Earth type"
     ],
+    "traits": [
+      "Energy Reserves",
+      "Settling"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 115,
+      "catchRate": 115,
       "height": {
         "cm": 120,
         "inches": 47.24
@@ -4709,12 +5153,16 @@
       "Earth type",
       "Electric type"
     ],
+    "traits": [
+      "Inductor",
+      "Coward's Rest"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 95,
+      "catchRate": 95,
       "height": {
         "cm": 200,
         "inches": 78.74
@@ -4752,12 +5200,16 @@
       "Electric type",
       "Wind type"
     ],
+    "traits": [
+      "Resistant",
+      "Inductor"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 105,
         "inches": 41.34
@@ -4795,12 +5247,16 @@
       "Electric type",
       "Wind type"
     ],
+    "traits": [
+      "Receptive",
+      "Fast Charge"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 145,
         "inches": 57.09
@@ -4837,12 +5293,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Hydrologist",
+      "Hurry-wart"
+    ],
     "details": {
       "gender": {
         "male": 10,
         "female": 90
       },
-      "catch_rate": 35,
+      "catchRate": 35,
       "height": {
         "cm": 222,
         "inches": 87.4
@@ -4879,12 +5339,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Comebacker",
+      "Warm-Blooded"
+    ],
     "details": {
       "gender": {
         "male": 75,
         "female": 25
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 230,
         "inches": 90.55
@@ -4922,12 +5386,16 @@
       "Water type",
       "Earth type"
     ],
+    "traits": [
+      "Water Affinity",
+      "Amphibian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 40,
         "inches": 15.75
@@ -4965,12 +5433,16 @@
       "Water type",
       "Earth type"
     ],
+    "traits": [
+      "Autotomy",
+      "Marathonist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 70,
+      "catchRate": 70,
       "height": {
         "cm": 80,
         "inches": 31.5
@@ -5007,12 +5479,16 @@
     "types": [
       "Nature type"
     ],
+    "traits": [
+      "Withdrawal",
+      "Autotomy"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 175,
+      "catchRate": 175,
       "height": {
         "cm": 75,
         "inches": 29.53
@@ -5050,12 +5526,16 @@
       "Nature type",
       "Melee type"
     ],
+    "traits": [
+      "Immunity",
+      "Coward's Rest"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 155,
         "inches": 61.02
@@ -5093,12 +5573,16 @@
       "Nature type",
       "Melee type"
     ],
+    "traits": [
+      "Mithridatism",
+      "Camouflage"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 195,
         "inches": 76.77
@@ -5136,12 +5620,16 @@
       "Crystal type",
       "Water type"
     ],
+    "traits": [
+      "Immunity",
+      "Guardian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 40,
+      "catchRate": 40,
       "height": {
         "cm": 250,
         "inches": 98.43
@@ -5179,12 +5667,16 @@
       "Water type",
       "Electric type"
     ],
+    "traits": [
+      "Electric Synthesize",
+      "Hydrologist"
+    ],
     "details": {
       "gender": {
         "male": 70,
         "female": 30
       },
-      "catch_rate": 65,
+      "catchRate": 65,
       "height": {
         "cm": 190,
         "inches": 74.8
@@ -5221,12 +5713,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Effective Denial",
+      "Inhibiter"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 85,
+      "catchRate": 85,
       "height": {
         "cm": 205,
         "inches": 80.71
@@ -5264,12 +5760,16 @@
       "Digital type",
       "Nature type"
     ],
+    "traits": [
+      "Thick Skin",
+      "Amphibian"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 123,
+      "catchRate": 123,
       "height": {
         "cm": 87,
         "inches": 34.25
@@ -5307,12 +5807,16 @@
       "Digital type",
       "Mental type"
     ],
+    "traits": [
+      "Seppuku",
+      "Voodoo"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 90,
+      "catchRate": 90,
       "height": {
         "cm": 200,
         "inches": 78.74
@@ -5349,12 +5853,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Mithridatism",
+      "Hydrologist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 140,
+      "catchRate": 140,
       "height": {
         "cm": 114,
         "inches": 44.88
@@ -5392,12 +5900,16 @@
       "Water type",
       "Toxic type"
     ],
+    "traits": [
+      "Toxic Skin",
+      "Mucous"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -5435,12 +5947,16 @@
       "Toxic type",
       "Mental type"
     ],
+    "traits": [
+      "Synergy Master",
+      "Toxic Skin"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 130,
+      "catchRate": 130,
       "height": {
         "cm": 88,
         "inches": 34.65
@@ -5477,12 +5993,16 @@
     "types": [
       "Wind type"
     ],
+    "traits": [
+      "Spoilsport",
+      "Resilient"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 106,
         "inches": 41.73
@@ -5520,12 +6040,16 @@
       "Wind type",
       "Water type"
     ],
+    "traits": [
+      "Spreader",
+      "Hydrologist"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -5563,12 +6087,16 @@
       "Wind type",
       "Fire type"
     ],
+    "traits": [
+      "Heater",
+      "Pyromaniac"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 180,
         "inches": 70.87
@@ -5606,12 +6134,16 @@
       "Wind type",
       "Crystal type"
     ],
+    "traits": [
+      "Receptive",
+      "Determined"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 172,
         "inches": 67.72
@@ -5649,12 +6181,16 @@
       "Wind type",
       "Earth type"
     ],
+    "traits": [
+      "Escapist",
+      "Tactical Strike"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 175,
         "inches": 68.9
@@ -5692,12 +6228,16 @@
       "Wind type",
       "Digital type"
     ],
+    "traits": [
+      "Splitter",
+      "Common Factor"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -5735,12 +6275,16 @@
       "Wind type",
       "Melee type"
     ],
+    "traits": [
+      "Tag Team",
+      "Contemplation"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 178,
         "inches": 70.08
@@ -5778,12 +6322,16 @@
       "Nature type",
       "Mental type"
     ],
+    "traits": [
+      "Protector",
+      "Benefactor"
+    ],
     "details": {
       "gender": {
         "male": 20,
         "female": 80
       },
-      "catch_rate": 40,
+      "catchRate": 40,
       "height": {
         "cm": 93,
         "inches": 36.61
@@ -5821,12 +6369,16 @@
       "Fire type",
       "Earth type"
     ],
+    "traits": [
+      "Camaraderie",
+      "Caffeinated"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 76,
         "inches": 29.92
@@ -5864,12 +6416,16 @@
       "Fire type",
       "Earth type"
     ],
+    "traits": [
+      "Pyromaniac",
+      "Individualist"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 163,
         "inches": 64.17
@@ -5907,12 +6463,16 @@
       "Fire type",
       "Earth type"
     ],
+    "traits": [
+      "Receptive",
+      "Vigorous"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 233,
         "inches": 91.73
@@ -5949,12 +6509,16 @@
     "types": [
       "Wind type"
     ],
+    "traits": [
+      "Friendship",
+      "Fainted Curse"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 135,
+      "catchRate": 135,
       "height": {
         "cm": 69,
         "inches": 27.17
@@ -5992,12 +6556,16 @@
       "Earth type",
       "Toxic type"
     ],
+    "traits": [
+      "Book Lungs",
+      "Cobweb"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -6034,12 +6602,16 @@
     "types": [
       "Water type"
     ],
+    "traits": [
+      "Synergy Adept",
+      "Iridescence"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 110,
         "inches": 43.31
@@ -6077,12 +6649,16 @@
       "Earth type",
       "Nature type"
     ],
+    "traits": [
+      "Burglar",
+      "Team Elusive"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 110,
+      "catchRate": 110,
       "height": {
         "cm": 84,
         "inches": 33.07
@@ -6120,12 +6696,16 @@
       "Digital type",
       "Wind type"
     ],
+    "traits": [
+      "Hover",
+      "Going Away Gift"
+    ],
     "details": {
       "gender": {
         "male": 0,
         "female": 10
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 40,
         "inches": 15.75
@@ -6163,12 +6743,16 @@
       "Digital type",
       "Crystal type"
     ],
+    "traits": [
+      "Royal Jelly",
+      "Wax Bath"
+    ],
     "details": {
       "gender": {
         "male": 0,
         "female": 10
       },
-      "catch_rate": 84,
+      "catchRate": 84,
       "height": {
         "cm": 120,
         "inches": 47.24
@@ -6206,12 +6790,16 @@
       "Digital type",
       "Nature type"
     ],
+    "traits": [
+      "Mithridatism",
+      "Body Stretch"
+    ],
     "details": {
       "gender": {
         "male": 60,
         "female": 40
       },
-      "catch_rate": 125,
+      "catchRate": 125,
       "height": {
         "cm": 151,
         "inches": 59.45
@@ -6249,12 +6837,16 @@
       "Digital type",
       "Nature type"
     ],
+    "traits": [
+      "Viral Combustion",
+      "Refurbished"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 68,
+      "catchRate": 68,
       "height": {
         "cm": 189,
         "inches": 74.41
@@ -6292,12 +6884,16 @@
       "Toxic type",
       "Fire type"
     ],
+    "traits": [
+      "Contagious",
+      "Toxic Farewell"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 39,
+      "catchRate": 39,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -6334,12 +6930,16 @@
     "types": [
       "Mental type"
     ],
+    "traits": [
+      "Withdrawal",
+      "Relaxed"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 170,
+      "catchRate": 170,
       "height": {
         "cm": 80,
         "inches": 31.5
@@ -6377,12 +6977,16 @@
       "Mental type",
       "Electric type"
     ],
+    "traits": [
+      "Body Stretch",
+      "Unnoticed"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -6420,12 +7024,16 @@
       "Mental type",
       "Electric type"
     ],
+    "traits": [
+      "Ruminant",
+      "Rusher"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 220,
         "inches": 86.61
@@ -6463,12 +7071,16 @@
       "Melee type",
       "Mental type"
     ],
+    "traits": [
+      "Hypnotist",
+      "Haka"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 115,
+      "catchRate": 115,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -6505,12 +7117,16 @@
     "types": [
       "Neutral type"
     ],
+    "traits": [
+      "Parrier",
+      "Arcane Wrap"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 100,
+      "catchRate": 100,
       "height": {
         "cm": 160,
         "inches": 62.99
@@ -6548,12 +7164,16 @@
       "Neutral type",
       "Melee type"
     ],
+    "traits": [
+      "Parrier",
+      "Aggressor"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 80,
+      "catchRate": 80,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -6591,12 +7211,16 @@
       "Neutral type",
       "Mental type"
     ],
+    "traits": [
+      "Spiritual",
+      "Arcane Wrap"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 50,
+      "catchRate": 50,
       "height": {
         "cm": 150,
         "inches": 59.06
@@ -6634,12 +7258,16 @@
       "Nature type",
       "Crystal type"
     ],
+    "traits": [
+      "Disgrace",
+      "Hostile"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 39,
+      "catchRate": 39,
       "height": {
         "cm": 215,
         "inches": 84.65
@@ -6677,12 +7305,16 @@
       "Neutral type",
       "Digital type"
     ],
+    "traits": [
+      "Digi-Protection",
+      "Adaptive"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 89,
+      "catchRate": 89,
       "height": {
         "cm": 170,
         "inches": 66.93
@@ -6720,12 +7352,16 @@
       "Digital type",
       "Melee type"
     ],
+    "traits": [
+      "Zen",
+      "Mental Alliance"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 120,
+      "catchRate": 120,
       "height": {
         "cm": 68,
         "inches": 26.77
@@ -6763,12 +7399,16 @@
       "Digital type",
       "Melee type"
     ],
+    "traits": [
+      "Meditation",
+      "Shaolin"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 70,
+      "catchRate": 70,
       "height": {
         "cm": 158,
         "inches": 62.2
@@ -6806,12 +7446,16 @@
       "Crystal type",
       "Fire type"
     ],
+    "traits": [
+      "Trauma",
+      "Flawed Crystal"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 152,
         "inches": 59.84
@@ -6849,12 +7493,16 @@
       "Crystal type",
       "Fire type"
     ],
+    "traits": [
+      "Self-Care",
+      "Protective Crystal"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 220,
         "inches": 86.61
@@ -6892,12 +7540,16 @@
       "Fire type",
       "Nature type"
     ],
+    "traits": [
+      "Intimidator",
+      "Frightening"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 420,
         "inches": 165.35
@@ -6934,12 +7586,16 @@
     "types": [
       "Electric type"
     ],
+    "traits": [
+      "Short Circuit",
+      "Superconductivity"
+    ],
     "details": {
       "gender": {
         "male": 50,
         "female": 50
       },
-      "catch_rate": 0,
+      "catchRate": 0,
       "height": {
         "cm": 1200,
         "inches": 472.44

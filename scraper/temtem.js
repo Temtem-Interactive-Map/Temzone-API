@@ -15,9 +15,10 @@ export async function getAllTemtem($) {
       name: temtem.name,
       description: temtem.description,
       types: temtem.types,
+      traits: temtem.traits,
       details: {
         gender: temtem.gender,
-        catch_rate: temtem.catchRate,
+        catchRate: temtem.catchRate,
         height: temtem.height,
         weight: temtem.weight,
       },
@@ -64,6 +65,7 @@ class Temtem {
 
   get types() {
     const types = [];
+
     this.$(
       "div.infobox.temtem > table > tbody > tr:contains('Type') > td > a"
     ).each((_, el) => {
@@ -75,6 +77,22 @@ class Temtem {
     });
 
     return types;
+  }
+
+  get traits() {
+    const traits = [];
+
+    this.$(
+      "div.infobox.temtem > table > tbody > tr:contains('Traits') > td > a"
+    ).each((_, el) => {
+      const $el = this.$(el);
+      const rawTrait = $el.text();
+      const trait = cleanText(rawTrait);
+
+      traits.push(trait);
+    });
+
+    return traits;
   }
 
   get gender() {
