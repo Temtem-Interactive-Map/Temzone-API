@@ -1,13 +1,12 @@
 import { cleanText } from "./utils/index.js";
 
-const TRAIT_SELECTORS = {
-  name: "td:nth-child(1)",
-  description: "td:nth-child(2)",
-};
-
 export async function getAllTraits($) {
   const traits = {};
-  const traitSelectorEntries = Object.entries(TRAIT_SELECTORS);
+  const traitSelectors = {
+    name: "td:nth-child(1)",
+    description: "td:nth-child(2)",
+  };
+  const traitSelectorEntries = Object.entries(traitSelectors);
   const $rows = $("table.wikitable > tbody > tr:not(:first-child)");
 
   $rows.each((_, el) => {
