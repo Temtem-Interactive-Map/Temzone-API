@@ -21,6 +21,7 @@ export async function getAllTemtem($) {
         height: temtem.height,
         weight: temtem.weight,
       },
+      stats: temtem.stats,
     });
   }
 
@@ -143,5 +144,28 @@ class Temtem {
       kg,
       lbs,
     };
+  }
+
+  get stats() {
+    const statsSelectors = {
+      hp: "table.statbox > tbody > tr:nth-child(3) > th > div:nth-child(2)",
+      sta: "table.statbox > tbody > tr:nth-child(4) > th > div:nth-child(2)",
+      spd: "table.statbox > tbody > tr:nth-child(5) > th > div:nth-child(2)",
+      atk: "table.statbox > tbody > tr:nth-child(6) > th > div:nth-child(2)",
+      def: "table.statbox > tbody > tr:nth-child(7) > th > div:nth-child(2)",
+      spatk: "table.statbox > tbody > tr:nth-child(8) > th > div:nth-child(2)",
+      spdef: "table.statbox > tbody > tr:nth-child(9) > th > div:nth-child(2)",
+    };
+    const statsSelectorEntries = Object.entries(statsSelectors);
+    const statsEntries = statsSelectorEntries.map(([key, selector]) => {
+      const rawValue = this.$(selector).text();
+      const cleanValue = cleanText(rawValue);
+      const value = parseInt(cleanValue);
+
+      return [key, value];
+    });
+    const stats = Object.fromEntries(statsEntries);
+
+    return stats;
   }
 }
