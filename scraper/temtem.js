@@ -24,6 +24,7 @@ export async function getAllTemtem($) {
       },
       stats: temtem.stats,
       tvs: temtem.tvs,
+      evolutions: temtem.evolutions,
     });
   }
 
@@ -64,33 +65,31 @@ class Temtem {
   }
 
   get types() {
-    const types = [];
-
-    this.$(
+    const types = this.$(
       "div.infobox.temtem > table > tbody > tr:contains('Type') > td > a"
-    ).each((_, el) => {
-      const $el = this.$(el);
-      const rawType = $el.attr("title");
-      const type = cleanText(rawType);
+    )
+      .toArray()
+      .map((el) => {
+        const rawType = this.$(el).attr("title");
+        const type = cleanText(rawType);
 
-      types.push(type);
-    });
+        return type;
+      });
 
     return types;
   }
 
   get traits() {
-    const traits = [];
-
-    this.$(
+    const traits = this.$(
       "div.infobox.temtem > table > tbody > tr:contains('Traits') > td > a"
-    ).each((_, el) => {
-      const $el = this.$(el);
-      const rawTrait = $el.text();
-      const trait = cleanText(rawTrait);
+    )
+      .toArray()
+      .map((el) => {
+        const rawTrait = this.$(el).text();
+        const trait = cleanText(rawTrait);
 
-      traits.push(trait);
-    });
+        return trait;
+      });
 
     return traits;
   }
@@ -104,7 +103,7 @@ class Temtem {
     if (cleanGender === "N/A") {
       return null;
     } else {
-      const [rawMale, rawFemale] = rawGender.split(",");
+      const [rawMale, rawFemale] = cleanGender.split(",");
       const cleanMale = cleanText(rawMale);
       const cleanFemale = cleanText(rawFemale);
       const textMale = cleanMale.substring(0, 2);
@@ -210,5 +209,50 @@ class Temtem {
     const tvs = Object.fromEntries(tvEntries);
 
     return tvs;
+  }
+
+  get evolutions() {
+    const conditions = this.$("div.evobox-container > table.evobox.selected")
+      .next()
+      .toArray()
+      .map((el) => {
+        const rawCondition = this.$(el).text().replace("levels", "Levels");
+        const condition = cleanText(rawCondition);
+
+        return condition;
+      });
+    const evolutions = this.$(
+      "div.infobox.temtem > table > tbody > tr:contains('Evolves to') > td > a"
+    )
+      .toArray()
+      .map((el, i) => {
+        const rawName = this.$(el).text();
+        const name = cleanText(rawName);
+        let condition;
+
+        switch (this.id) {
+          case 51:
+            condition = conditions[i]
+              .replace("Male", " (Male)")
+              .replace("Female", " (Female)");
+            break;
+          case 130:
+            condition = conditions[i].replace("at", "at ");
+            break;
+          case 154:
+            condition = conditions[i].replace("Levels", "Levels (") + ")";
+            break;
+          default:
+            condition = conditions[i];
+            break;
+        }
+
+        return {
+          name,
+          condition,
+        };
+      });
+
+    return evolutions;
   }
 }
