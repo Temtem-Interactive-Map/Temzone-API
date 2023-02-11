@@ -40,7 +40,8 @@
       "def": 1,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 2,
@@ -86,7 +87,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Zaobian",
+        "condition": "+35 Levels"
+      }
+    ]
   },
   {
     "id": 3,
@@ -132,7 +139,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 4,
@@ -178,7 +186,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 5,
@@ -224,7 +233,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Molgu",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 6,
@@ -270,7 +285,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 7,
@@ -317,7 +333,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Platox",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 8,
@@ -364,7 +386,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Platimous",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 9,
@@ -411,7 +439,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 10,
@@ -457,7 +486,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Loali",
+        "condition": "+8 Levels"
+      }
+    ]
   },
   {
     "id": 11,
@@ -504,7 +539,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 12,
@@ -550,7 +586,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 13,
@@ -597,7 +634,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 14,
@@ -643,7 +681,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Magmut",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 15,
@@ -690,7 +734,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 16,
@@ -736,7 +781,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Paharac",
+        "condition": "+7 Levels"
+      }
+    ]
   },
   {
     "id": 17,
@@ -782,7 +833,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Granpah",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 18,
@@ -828,7 +885,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 19,
@@ -874,7 +932,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Amphatyr",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 20,
@@ -921,7 +985,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 21,
@@ -968,7 +1033,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Mudrid",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 22,
@@ -1015,7 +1086,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 23,
@@ -1061,7 +1133,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Taifu",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 24,
@@ -1107,7 +1185,8 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 25,
@@ -1153,7 +1232,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Wiplump",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 26,
@@ -1200,7 +1285,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 27,
@@ -1246,7 +1332,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Skunch",
+        "condition": "+17 Levels"
+      }
+    ]
   },
   {
     "id": 28,
@@ -1293,7 +1385,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 29,
@@ -1339,7 +1432,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Mouflank",
+        "condition": "+13 Levels"
+      }
+    ]
   },
   {
     "id": 30,
@@ -1385,7 +1484,8 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 31,
@@ -1432,7 +1532,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 32,
@@ -1478,7 +1579,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Tental",
+        "condition": "+29 Levels"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1524,7 +1631,13 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Nagaise",
+        "condition": "+24 Levels"
+      }
+    ]
   },
   {
     "id": 34,
@@ -1571,7 +1684,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 35,
@@ -1618,7 +1732,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Nidrasil",
+        "condition": "+22 Levels"
+      }
+    ]
   },
   {
     "id": 36,
@@ -1665,7 +1785,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 37,
@@ -1711,7 +1832,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Capyre",
+        "condition": "+17 Levels"
+      }
+    ]
   },
   {
     "id": 38,
@@ -1757,7 +1884,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 39,
@@ -1803,7 +1931,13 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Azuroc",
+        "condition": "+25 Levels"
+      }
+    ]
   },
   {
     "id": 40,
@@ -1849,7 +1983,13 @@
       "def": 3,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Zenoreth",
+        "condition": "Trade"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1895,7 +2035,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 42,
@@ -1941,7 +2082,13 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Aohi",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 43,
@@ -1988,7 +2135,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 1
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 44,
@@ -2034,7 +2182,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Babawa",
+        "condition": "+18 Levels"
+      }
+    ]
   },
   {
     "id": 45,
@@ -2081,7 +2235,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 46,
@@ -2128,7 +2283,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "0b10",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 47,
@@ -2175,7 +2336,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 48,
@@ -2221,7 +2383,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Saku",
+        "condition": "+11 Levels"
+      }
+    ]
   },
   {
     "id": 49,
@@ -2268,7 +2436,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 50,
@@ -2315,7 +2484,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 51,
@@ -2362,7 +2532,17 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Owlhe",
+        "condition": "+10 Levels (Male)"
+      },
+      {
+        "name": "Barnshe",
+        "condition": "+10 Levels (Female)"
+      }
+    ]
   },
   {
     "id": 52,
@@ -2409,7 +2589,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 53,
@@ -2456,7 +2637,8 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 54,
@@ -2503,7 +2685,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 55,
@@ -2549,7 +2732,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Myx",
+        "condition": "+18 Levels"
+      }
+    ]
   },
   {
     "id": 56,
@@ -2596,7 +2785,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 57,
@@ -2642,7 +2832,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Raize",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 58,
@@ -2688,7 +2884,13 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Raican",
+        "condition": "+25 Levels"
+      }
+    ]
   },
   {
     "id": 59,
@@ -2734,7 +2936,8 @@
       "def": 2,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 60,
@@ -2780,7 +2983,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Piraniant",
+        "condition": "+13 Levels"
+      }
+    ]
   },
   {
     "id": 61,
@@ -2826,7 +3035,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 62,
@@ -2872,7 +3082,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Scaravolt",
+        "condition": "+12 Levels"
+      }
+    ]
   },
   {
     "id": 63,
@@ -2919,7 +3135,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 64,
@@ -2966,7 +3183,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Hedgine",
+        "condition": "+13 Levels"
+      }
+    ]
   },
   {
     "id": 65,
@@ -3013,7 +3236,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 66,
@@ -3059,7 +3283,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Osukan",
+        "condition": "+12 Levels"
+      }
+    ]
   },
   {
     "id": 67,
@@ -3106,7 +3336,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Osukai",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 68,
@@ -3153,7 +3389,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 69,
@@ -3200,7 +3437,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 70,
@@ -3247,7 +3485,13 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Drakash",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 71,
@@ -3294,7 +3538,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 72,
@@ -3340,7 +3585,13 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Sherald",
+        "condition": "+30 Levels"
+      }
+    ]
   },
   {
     "id": 73,
@@ -3386,7 +3637,13 @@
       "def": 3,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Tortenite",
+        "condition": "+21 Levels"
+      }
+    ]
   },
   {
     "id": 74,
@@ -3433,7 +3690,8 @@
       "def": 3,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 75,
@@ -3480,7 +3738,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 76,
@@ -3526,7 +3785,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Shaolant",
+        "condition": "+12 Levels"
+      }
+    ]
   },
   {
     "id": 77,
@@ -3572,7 +3837,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 78,
@@ -3619,7 +3885,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 79,
@@ -3665,7 +3932,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Pocus",
+        "condition": "+21 Levels"
+      }
+    ]
   },
   {
     "id": 80,
@@ -3711,7 +3984,8 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 81,
@@ -3757,7 +4031,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Sparzy",
+        "condition": "+30 Levels"
+      }
+    ]
   },
   {
     "id": 82,
@@ -3803,7 +4083,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Golzy",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 83,
@@ -3850,7 +4136,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 84,
@@ -3896,7 +4183,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Mushook",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 85,
@@ -3943,7 +4236,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 86,
@@ -3989,7 +4283,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Mastione",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 87,
@@ -4036,7 +4336,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 88,
@@ -4082,7 +4383,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Ukama",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 89,
@@ -4128,7 +4435,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 90,
@@ -4174,7 +4482,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Raignet",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 91,
@@ -4220,7 +4534,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 92,
@@ -4266,7 +4581,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Baboong",
+        "condition": "+29 Levels"
+      }
+    ]
   },
   {
     "id": 93,
@@ -4312,7 +4633,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Seismunch",
+        "condition": "+23 Levels"
+      }
+    ]
   },
   {
     "id": 94,
@@ -4359,7 +4686,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 95,
@@ -4405,7 +4733,8 @@
       "def": 3,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 96,
@@ -4451,7 +4780,8 @@
       "def": 4,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 97,
@@ -4497,7 +4827,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Sanbi",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 98,
@@ -4543,7 +4879,8 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 99,
@@ -4589,7 +4926,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 100,
@@ -4635,7 +4973,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Kauren",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 101,
@@ -4681,7 +5025,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 102,
@@ -4727,7 +5072,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Deendre",
+        "condition": "+12 Levels"
+      }
+    ]
   },
   {
     "id": 103,
@@ -4773,7 +5124,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Cerneaf",
+        "condition": "+25 Levels"
+      }
+    ]
   },
   {
     "id": 104,
@@ -4819,7 +5176,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 105,
@@ -4865,7 +5223,13 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Noxolotl",
+        "condition": "+30 Levels"
+      }
+    ]
   },
   {
     "id": 106,
@@ -4911,7 +5275,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 107,
@@ -4957,7 +5322,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Goolder",
+        "condition": "+25 Levels"
+      }
+    ]
   },
   {
     "id": 108,
@@ -5003,7 +5374,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 109,
@@ -5050,7 +5422,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Volarend",
+        "condition": "+22 Levels"
+      }
+    ]
   },
   {
     "id": 110,
@@ -5097,7 +5475,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 3
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 111,
@@ -5143,7 +5522,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Grumper",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 112,
@@ -5190,7 +5575,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 113,
@@ -5237,7 +5623,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Gazuma",
+        "condition": "+27 Levels"
+      }
+    ]
   },
   {
     "id": 114,
@@ -5284,7 +5676,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 115,
@@ -5330,7 +5723,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 116,
@@ -5376,7 +5770,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 117,
@@ -5423,7 +5818,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Garyo",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 118,
@@ -5470,7 +5871,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 119,
@@ -5516,7 +5918,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Broccorc",
+        "condition": "+10 Levels"
+      }
+    ]
   },
   {
     "id": 120,
@@ -5563,7 +5971,13 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Broccolem",
+        "condition": "+10 Levels"
+      }
+    ]
   },
   {
     "id": 121,
@@ -5610,7 +6024,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 122,
@@ -5657,7 +6072,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 123,
@@ -5704,7 +6120,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 124,
@@ -5750,7 +6167,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 125,
@@ -5797,7 +6215,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Loatle",
+        "condition": "+18 Levels"
+      }
+    ]
   },
   {
     "id": 126,
@@ -5844,7 +6268,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 127,
@@ -5890,7 +6315,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Kalabyss",
+        "condition": "+18 Levels"
+      }
+    ]
   },
   {
     "id": 128,
@@ -5937,7 +6368,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 129,
@@ -5984,7 +6416,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 4
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 130,
@@ -6030,7 +6463,33 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Tukai",
+        "condition": "Shrine at Dabmis' Rest"
+      },
+      {
+        "name": "Tulcan",
+        "condition": "Shrine at Altar of the Inner Flame"
+      },
+      {
+        "name": "Tuvine",
+        "condition": "Shrine at Sons of Crystal"
+      },
+      {
+        "name": "Turoc",
+        "condition": "Shrine at Aisha's Hearth"
+      },
+      {
+        "name": "Tuwire",
+        "condition": "Shrine at Digital Kami Shrine"
+      },
+      {
+        "name": "Tutsu",
+        "condition": "Shrine at Chieftain's Barrow"
+      }
+    ]
   },
   {
     "id": 131,
@@ -6077,7 +6536,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 3
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 132,
@@ -6124,7 +6584,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 133,
@@ -6171,7 +6632,8 @@
       "def": 4,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 134,
@@ -6218,7 +6680,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 135,
@@ -6265,7 +6728,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 136,
@@ -6312,7 +6776,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 137,
@@ -6359,7 +6824,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 138,
@@ -6406,7 +6872,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Vulor",
+        "condition": "+14 Levels"
+      }
+    ]
   },
   {
     "id": 139,
@@ -6453,7 +6925,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Vulcrane",
+        "condition": "+28 Levels"
+      }
+    ]
   },
   {
     "id": 140,
@@ -6500,7 +6978,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 141,
@@ -6546,7 +7025,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 142,
@@ -6593,7 +7073,8 @@
       "def": 0,
       "spatk": 1,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 143,
@@ -6639,7 +7120,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 144,
@@ -6686,7 +7168,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 3
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 145,
@@ -6733,7 +7216,13 @@
       "def": 1,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Waspeen",
+        "condition": "+15 Levels"
+      }
+    ]
   },
   {
     "id": 146,
@@ -6780,7 +7269,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 147,
@@ -6827,7 +7317,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Mawmense",
+        "condition": "+16 Levels"
+      }
+    ]
   },
   {
     "id": 148,
@@ -6874,7 +7370,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 149,
@@ -6921,7 +7418,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 150,
@@ -6967,7 +7465,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Minox",
+        "condition": "+12 Levels"
+      }
+    ]
   },
   {
     "id": 151,
@@ -7014,7 +7518,13 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Minothor",
+        "condition": "+13 Levels"
+      }
+    ]
   },
   {
     "id": 152,
@@ -7061,7 +7571,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 153,
@@ -7108,7 +7619,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 154,
@@ -7154,7 +7666,17 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Venmet",
+        "condition": "+17 Levels (Parrier)"
+      },
+      {
+        "name": "Vental",
+        "condition": "+17 Levels (Arcane Wrap)"
+      }
+    ]
   },
   {
     "id": 155,
@@ -7201,7 +7723,8 @@
       "def": 2,
       "spatk": 0,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 156,
@@ -7248,7 +7771,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 157,
@@ -7295,7 +7819,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 158,
@@ -7342,7 +7867,8 @@
       "def": 0,
       "spatk": 3,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 159,
@@ -7389,7 +7915,13 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Monkko",
+        "condition": "+20 Levels"
+      }
+    ]
   },
   {
     "id": 160,
@@ -7436,7 +7968,8 @@
       "def": 0,
       "spatk": 2,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 161,
@@ -7483,7 +8016,13 @@
       "def": 2,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": [
+      {
+        "name": "Anatan",
+        "condition": "1000 TVs"
+      }
+    ]
   },
   {
     "id": 162,
@@ -7530,7 +8069,8 @@
       "def": 3,
       "spatk": 0,
       "spdef": 2
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 163,
@@ -7577,7 +8117,8 @@
       "def": 0,
       "spatk": 0,
       "spdef": 1
-    }
+    },
+    "evolutions": []
   },
   {
     "id": 164,
@@ -7623,6 +8164,7 @@
       "def": 0,
       "spatk": 4,
       "spdef": 0
-    }
+    },
+    "evolutions": []
   }
 ]
