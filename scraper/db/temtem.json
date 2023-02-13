@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Mimit": {
     "id": 1,
     "name": "Mimit",
     "description": "Mimit has the honor of being the very first Digital ever created. The genomic reservoir contained in its tail allows it an unequalled ability to replicate any other Temtem species, making it the ultimate breeder.",
@@ -7,8 +7,14 @@
       "Digital type"
     ],
     "traits": [
-      "Striking Transmog",
-      "Landing Transmog"
+      {
+        "name": "Striking Transmog",
+        "description": "When attacking an individual Temtem with a physical technique, Mimit transforms into the target."
+      },
+      {
+        "name": "Landing Transmog",
+        "description": "When entering the battlefield, Mimit transforms into the next Temtem in clockwise order."
+      }
     ],
     "details": {
       "gender": null,
@@ -43,7 +49,7 @@
     },
     "evolutions": []
   },
-  {
+  "Oree": {
     "id": 2,
     "name": "Oree",
     "description": "One of the first prototypes created in Nanto Labs, Oree's early versions were the forerunners of Digital Temtem. Inquisitive creatures by design, they show great curiosity and a boundless appetite for information.",
@@ -51,8 +57,14 @@
       "Digital type"
     ],
     "traits": [
-      "Attack<T>",
-      "Fast Charge"
+      {
+        "name": "Attack<T>",
+        "description": "Changes the Temtem's second type to the type of the technique it's about to use."
+      },
+      {
+        "name": "Fast Charge",
+        "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -95,7 +107,7 @@
       }
     ]
   },
-  {
+  "Zaobian": {
     "id": 3,
     "name": "Zaobian",
     "description": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
@@ -103,8 +115,14 @@
       "Digital type"
     ],
     "traits": [
-      "Attack<T>",
-      "Voltaic Charge"
+      {
+        "name": "Attack<T>",
+        "description": "Changes the Temtem's second type to the type of the technique it's about to use."
+      },
+      {
+        "name": "Voltaic Charge",
+        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+      }
     ],
     "details": {
       "gender": {
@@ -142,16 +160,23 @@
     },
     "evolutions": []
   },
-  {
+  "Chromeon (Neutral)": {
     "id": 4,
-    "name": "Chromeon",
+    "name": "Chromeon (Neutral)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type"
+      "Digital type",
+      "Neutral type"
     ],
     "traits": [
-      "Synertyper",
-      "Pigment Inverter"
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
     ],
     "details": {
       "gender": {
@@ -189,7 +214,600 @@
     },
     "evolutions": []
   },
-  {
+  "Chromeon (Wind)": {
+    "id": 4,
+    "name": "Chromeon (Wind)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Wind type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Earth)": {
+    "id": 4,
+    "name": "Chromeon (Earth)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Earth type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Water)": {
+    "id": 4,
+    "name": "Chromeon (Water)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Water type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Fire)": {
+    "id": 4,
+    "name": "Chromeon (Fire)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Fire type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Nature)": {
+    "id": 4,
+    "name": "Chromeon (Nature)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Nature type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Electric)": {
+    "id": 4,
+    "name": "Chromeon (Electric)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Electric type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Mental)": {
+    "id": 4,
+    "name": "Chromeon (Mental)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Mental type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Digital)": {
+    "id": 4,
+    "name": "Chromeon (Digital)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Melee)": {
+    "id": 4,
+    "name": "Chromeon (Melee)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Melee type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Crystal)": {
+    "id": 4,
+    "name": "Chromeon (Crystal)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Crystal type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Chromeon (Toxic)": {
+    "id": 4,
+    "name": "Chromeon (Toxic)",
+    "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
+    "types": [
+      "Digital type",
+      "Toxic type"
+    ],
+    "traits": [
+      {
+        "name": "Synertyper",
+        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+      },
+      {
+        "name": "Pigment Inverter",
+        "description": "When attacking, type resistances for the target Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 80,
+      "height": {
+        "cm": 77,
+        "inches": 30.31
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79.38
+      }
+    },
+    "stats": {
+      "hp": 61,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 437
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Halzhi": {
     "id": 5,
     "name": "Halzhi",
     "description": "This is a newer model from Nanto Labs, specifically designed for Dojo tamers. More intelligent and empathic than older Digitals, it is much more responsive to human commands, and those fortunate enough to have one as a friend wouldn't change it for any other.",
@@ -197,8 +815,14 @@
       "Digital type"
     ],
     "traits": [
-      "Parrier",
-      "Neutrality"
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      },
+      {
+        "name": "Neutrality",
+        "description": "Prevent all negative status conditions."
+      }
     ],
     "details": {
       "gender": {
@@ -241,7 +865,7 @@
       }
     ]
   },
-  {
+  "Molgu": {
     "id": 6,
     "name": "Molgu",
     "description": "This model represents a significant upgrade from Halzhi. Surprisingly, Nanto Labs found examples of escaped Molgu evolving on their own, further proving the point thatDigital Temtem are every bit as \"alive\" and \"natural\" as other varieties.",
@@ -249,8 +873,14 @@
       "Digital type"
     ],
     "traits": [
-      "Splitter",
-      "Sentinel"
+      {
+        "name": "Splitter",
+        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+      },
+      {
+        "name": "Sentinel",
+        "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself."
+      }
     ],
     "details": {
       "gender": {
@@ -288,7 +918,7 @@
     },
     "evolutions": []
   },
-  {
+  "Platypet": {
     "id": 7,
     "name": "Platypet",
     "description": "Platypet was popularized by a cartoon series, and ever since then it has been one of the most popular Temtem with kids. The series had an educative purpose: to teach children that Toxic Temtem are also valid and can be good friends.",
@@ -297,8 +927,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Toxic Affinity",
-      "Amphibian"
+      {
+        "name": "Toxic Affinity",
+        "description": "Toxic techniques get type damage boost."
+      },
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -341,7 +977,7 @@
       }
     ]
   },
-  {
+  "Platox": {
     "id": 8,
     "name": "Platox",
     "description": "Platox share common ancestors with Saipat, but the species diverged centuries ago. While Saipat developed opposable thumbs, Platox specialized in surviving polluted environments. Today they are the most successful feathered Temtem of Tucma.",
@@ -350,8 +986,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Resistant",
-      "Resilient"
+      {
+        "name": "Resistant",
+        "description": "When getting a negative status condition, decreases its turns by 1."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -394,7 +1036,7 @@
       }
     ]
   },
-  {
+  "Platimous": {
     "id": 9,
     "name": "Platimous",
     "description": "Charles Temwin described them as \"Platox, but more so\". This is usually taken as classic Arburian understatement: Platimous were amongst the most successful apex predators before large-scale taming, and remain very effective fighters.",
@@ -403,8 +1045,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Zen",
-      "Determined"
+      {
+        "name": "Zen",
+        "description": "When getting an asleep status condition, gets DEF and SPDEF."
+      },
+      {
+        "name": "Determined",
+        "description": "Prevents negative stat stage changes."
+      }
     ],
     "details": {
       "gender": {
@@ -442,7 +1090,7 @@
     },
     "evolutions": []
   },
-  {
+  "Swali": {
     "id": 10,
     "name": "Swali",
     "description": "When the harvest season is on, Omninesian fruit-pickers are always careful not to accidentally damage the delicate, chrysalis-like Swali. They grow on certain vines of the rainforest canopy, dropping to the jungle floor once mature and mobile.",
@@ -450,8 +1098,14 @@
       "Nature type"
     ],
     "traits": [
-      "Shared Pain",
-      "Mithridatism"
+      {
+        "name": "Shared Pain",
+        "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally."
+      },
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -494,7 +1148,7 @@
       }
     ]
   },
-  {
+  "Loali": {
     "id": 11,
     "name": "Loali",
     "description": "Delicate and graceful creatures, Loali are all wings and eyes - and natural charmers. Their hypnotic eyes can completely dazzle their enemies and their constantly fluttering wings allow them to change course in an instant.",
@@ -503,8 +1157,14 @@
       "Wind type"
     ],
     "traits": [
-      "Botanist",
-      "Toxic Farewell"
+      {
+        "name": "Botanist",
+        "description": "Damage done with Nature techniques is increased by 15%."
+      },
+      {
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -542,7 +1202,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tateru": {
     "id": 12,
     "name": "Tateru",
     "description": "Despite their impressive height, Tateru are quite shy and not naturally aggressive. That's why they need proper training before battle. Wild Tateru are recognized for their upright position and sensitive antennae, always alert.",
@@ -550,8 +1210,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Soft Touch",
-      "Resilient"
+      {
+        "name": "Soft Touch",
+        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -589,7 +1255,7 @@
     },
     "evolutions": []
   },
-  {
+  "Gharunder": {
     "id": 13,
     "name": "Gharunder",
     "description": "Popularly known as \"the monster of the sewers\", this species descends from proto-Temtemic lifeforms of the Xolot Reservoir. It is no surprise it has adapted to an extremely toxic ecosystem.",
@@ -598,8 +1264,14 @@
       "Electric type"
     ],
     "traits": [
-      "Brumation",
-      "Thick Skin"
+      {
+        "name": "Brumation",
+        "description": "When resting, gets DEF and -1 hold."
+      },
+      {
+        "name": "Thick Skin",
+        "description": "Damage taken by Wind techniques is reduced by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -637,7 +1309,7 @@
     },
     "evolutions": []
   },
-  {
+  "Mosu": {
     "id": 14,
     "name": "Mosu",
     "description": "The adorable Mosu descends from the primeval pachyderms that roamed the Greenglen Forest back when it was part of a great boreal forest spanning almost half of Paninsula.",
@@ -645,8 +1317,14 @@
       "Melee type"
     ],
     "traits": [
-      "Punch Bag",
-      "Parrier"
+      {
+        "name": "Punch Bag",
+        "description": "Damage taken from Melee techniques is reduced by 30%."
+      },
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -689,7 +1367,7 @@
       }
     ]
   },
-  {
+  "Magmut": {
     "id": 15,
     "name": "Magmut",
     "description": "Temtemologists believe Magmut developed their characteristic flaming mane as an adaptation to the colder and wetter climate of the Lochburg moors.",
@@ -698,8 +1376,14 @@
       "Fire type"
     ],
     "traits": [
-      "Specgulp",
-      "Physgulp"
+      {
+        "name": "Specgulp",
+        "description": "When attacked with a special technique, restores 8% of max HP."
+      },
+      {
+        "name": "Physgulp",
+        "description": "When attacked with a physical technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -737,7 +1421,7 @@
     },
     "evolutions": []
   },
-  {
+  "Paharo": {
     "id": 16,
     "name": "Paharo",
     "description": "Paharo tend to hide in treetops and lurk, their green \"mask\" allowing them to blend in with the foliage. Often the only way to locate them is to look for the telltale gleam of their eyes.",
@@ -745,8 +1429,14 @@
       "Wind type"
     ],
     "traits": [
-      "Hover",
-      "Friendship"
+      {
+        "name": "Hover",
+        "description": "Damage taken from Earth techniques is reduced by 50%."
+      },
+      {
+        "name": "Friendship",
+        "description": "Immune to ally's offensive techniques."
+      }
     ],
     "details": {
       "gender": {
@@ -789,7 +1479,7 @@
       }
     ]
   },
-  {
+  "Paharac": {
     "id": 17,
     "name": "Paharac",
     "description": "Due to their bigger size and stronger physique, Paharac doesn’t actually need camouflage, but they still love to flaunt their turquoise facial feathers with great pride.",
@@ -797,8 +1487,14 @@
       "Wind type"
     ],
     "traits": [
-      "Caffeinated",
-      "Camaraderie"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Camaraderie",
+        "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+      }
     ],
     "details": {
       "gender": {
@@ -841,7 +1537,7 @@
       }
     ]
   },
-  {
+  "Granpah": {
     "id": 18,
     "name": "Granpah",
     "description": "The authoritative stare of a Granpah portrays the long time and many battles that it takes to achieve this evolutionary stage. They have earned their respect among younger Wind Temtem.",
@@ -849,8 +1545,14 @@
       "Wind type"
     ],
     "traits": [
-      "Last Rush",
-      "Bully"
+      {
+        "name": "Last Rush",
+        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+      },
+      {
+        "name": "Bully",
+        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+      }
     ],
     "details": {
       "gender": {
@@ -888,7 +1590,7 @@
     },
     "evolutions": []
   },
-  {
+  "Ampling": {
     "id": 19,
     "name": "Ampling",
     "description": "Native to the steep slopes of the Iwaba highlands, Ampling are as adorable as electrifying. Neoedo children are familiar with them, thanks to regular school trips to observe these charming creatures in their natural habitat.",
@@ -896,8 +1598,14 @@
       "Electric type"
     ],
     "traits": [
-      "Caffeinated",
-      "Dreaded Alarm"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Dreaded Alarm",
+        "description": "When a rival rests, they lose 25% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -940,7 +1648,7 @@
       }
     ]
   },
-  {
+  "Amphatyr": {
     "id": 20,
     "name": "Amphatyr",
     "description": "Amphatyr are a prime example of 'cervus electricus', agile and majestic. Their mating habit of locking horns causes beautiful displays of electric sparks and discharge arcs that have been compared to tiny aurorae.",
@@ -949,8 +1657,14 @@
       "Nature type"
     ],
     "traits": [
-      "Relaxed",
-      "Infectious"
+      {
+        "name": "Relaxed",
+        "description": "Restores 15% of max HP after not receiving any rival attacks during the turn."
+      },
+      {
+        "name": "Infectious",
+        "description": "Invalidates the regenerating effect on rivals."
+      }
     ],
     "details": {
       "gender": {
@@ -988,7 +1702,7 @@
     },
     "evolutions": []
   },
-  {
+  "Bunbun": {
     "id": 21,
     "name": "Bunbun",
     "description": "These adorable creatures are probably a remnant from the times Tucma and Kisiwa were a single island. While their strong Earth DNA is clearly of Kisiwan origin, the crystalline contents in their paws betray a definite Tucmani influence. They are social and easy to tame.",
@@ -997,8 +1711,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Caffeinated",
-      "Resilient"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -1041,7 +1761,7 @@
       }
     ]
   },
-  {
+  "Mudrid": {
     "id": 22,
     "name": "Mudrid",
     "description": "Bigger and more resilient than Bunbun, Mudrid are hardy Temtem, used to extreme weather conditions. Their extremely fine sense of hearing makes them very valuable scouting Temtem once tamed... but also harder to catch in the wild.",
@@ -1050,8 +1770,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Receptive",
-      "Resistant"
+      {
+        "name": "Receptive",
+        "description": "When getting a favorable status condition, increases its turns by 1."
+      },
+      {
+        "name": "Resistant",
+        "description": "When getting a negative status condition, decreases its turns by 1."
+      }
     ],
     "details": {
       "gender": {
@@ -1089,7 +1815,7 @@
     },
     "evolutions": []
   },
-  {
+  "Hidody": {
     "id": 23,
     "name": "Hidody",
     "description": "This cutie is an adept climber, thanks to the little suckers located in each of its eight stubby legs. For the same reason, Omninesian children quickly learn to hide their cookies instead of putting them on the higher shelf...",
@@ -1097,8 +1823,14 @@
       "Nature type"
     ],
     "traits": [
-      "Electric Synthesize",
-      "Botanist"
+      {
+        "name": "Electric Synthesize",
+        "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+      },
+      {
+        "name": "Botanist",
+        "description": "Damage done with Nature techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -1141,7 +1873,7 @@
       }
     ]
   },
-  {
+  "Taifu": {
     "id": 24,
     "name": "Taifu",
     "description": "Brought up on a steady diet of stolen cookies, Hidody evolves into the more agile Taifu. They are naughty but cute creatures, naturally given to light-hearted mischief... but very serious opponents in battle.",
@@ -1149,8 +1881,14 @@
       "Nature type"
     ],
     "traits": [
-      "Toxic Farewell",
-      "Resilient"
+      {
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -1188,7 +1926,7 @@
     },
     "evolutions": []
   },
-  {
+  "Fomu": {
     "id": 25,
     "name": "Fomu",
     "description": "These Temtem are known for their capacity to generate vapor, like charming little steam engines. Since that means losing a lot of moisture, this species prefers to remain in the water and use steam jets for propulsion rather than its short legs.",
@@ -1196,8 +1934,14 @@
       "Water type"
     ],
     "traits": [
-      "Amphibian",
-      "Hydrologist"
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      },
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -1240,7 +1984,7 @@
       }
     ]
   },
-  {
+  "Wiplump": {
     "id": 26,
     "name": "Wiplump",
     "description": "Wiplump takes Fomu's clever use of water vapor one step further - flying on steam wings, this species boasts increased range and speed, paired with a stronger attack thanks to its sturdier horn.",
@@ -1249,8 +1993,14 @@
       "Wind type"
     ],
     "traits": [
-      "Plethoric",
-      "Patient"
+      {
+        "name": "Plethoric",
+        "description": "Increases SPD by 30% while HP is over 70%."
+      },
+      {
+        "name": "Patient",
+        "description": "Restores 15% of max STA when using a Hold technique."
+      }
     ],
     "details": {
       "gender": {
@@ -1288,7 +2038,7 @@
     },
     "evolutions": []
   },
-  {
+  "Skail": {
     "id": 27,
     "name": "Skail",
     "description": "This species of Temtem is notoriously bad-tempered, and tamers need all their skills to handle them. Once tamed, these muscular creatures can deliver powerful tail blows in battle.",
@@ -1296,8 +2046,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Furor",
-      "Scavenger"
+      {
+        "name": "Furor",
+        "description": "When HP is below 33%, techniques do 33% more damage."
+      },
+      {
+        "name": "Scavenger",
+        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      }
     ],
     "details": {
       "gender": {
@@ -1340,7 +2096,7 @@
       }
     ]
   },
-  {
+  "Skunch": {
     "id": 28,
     "name": "Skunch",
     "description": "Unlike their lesser brethren, Skunch are capable of bipedalism and can even stand on their muscular tails. This evolution allows them to pummel enemies with their massive fists... but it's done nothing to ameliorate their aggressive mood.",
@@ -1349,8 +2105,14 @@
       "Melee type"
     ],
     "traits": [
-      "Brawny",
-      "Bully"
+      {
+        "name": "Brawny",
+        "description": "Damage done with physical techniques is increased by 15%."
+      },
+      {
+        "name": "Bully",
+        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+      }
     ],
     "details": {
       "gender": {
@@ -1388,7 +2150,7 @@
     },
     "evolutions": []
   },
-  {
+  "Goty": {
     "id": 29,
     "name": "Goty",
     "description": "Voted Best Temtem every year by Neutral enthusiasts, Goty is as effective as it is cute. This little crowd-pleaser is particularly popular among casual Kisiwan tamers.",
@@ -1396,8 +2158,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Rested",
-      "Plethoric"
+      {
+        "name": "Rested",
+        "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+      },
+      {
+        "name": "Plethoric",
+        "description": "Increases SPD by 30% while HP is over 70%."
+      }
     ],
     "details": {
       "gender": {
@@ -1440,7 +2208,7 @@
       }
     ]
   },
-  {
+  "Mouflank": {
     "id": 30,
     "name": "Mouflank",
     "description": "With their imposing horns, grazing Mouflank herds used to be serious natural hazards of the Kisiwan plains. The tribes soon learned how to tame them to avoid dangerous stampedes.",
@@ -1448,8 +2216,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Hurry-wart",
-      "Unnoticed"
+      {
+        "name": "Hurry-wart",
+        "description": "When entering the battlefield, the Temtem gets -1 Hold."
+      },
+      {
+        "name": "Unnoticed",
+        "description": "Gets SPD after not receiving any rival attacks during the turn."
+      }
     ],
     "details": {
       "gender": {
@@ -1487,7 +2261,7 @@
     },
     "evolutions": []
   },
-  {
+  "Rhoulder": {
     "id": 31,
     "name": "Rhoulder",
     "description": "Once king of the Kisiwan savannah, this species boasts incredibly hard lamellar plates. Before the time of Chacha Turay, they were used in tribal warfare as armored cavalry.",
@@ -1496,8 +2270,14 @@
       "Earth type"
     ],
     "traits": [
-      "Tardy Rush",
-      "Thick Skin"
+      {
+        "name": "Tardy Rush",
+        "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield."
+      },
+      {
+        "name": "Thick Skin",
+        "description": "Damage taken by Wind techniques is reduced by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -1535,7 +2315,7 @@
     },
     "evolutions": []
   },
-  {
+  "Houchic": {
     "id": 32,
     "name": "Houchic",
     "description": "Clever but somehow naive, the gentle Houchic are ideal as the first Mental Temtem for novice trainers. They are emphatic and intuitive, capable of understanding the subtleties of mentalism.",
@@ -1543,8 +2323,14 @@
       "Mental type"
     ],
     "traits": [
-      "Mental Alliance",
-      "Soft Touch"
+      {
+        "name": "Mental Alliance",
+        "description": "Increases SPATK by 15% if ally is Mental."
+      },
+      {
+        "name": "Soft Touch",
+        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+      }
     ],
     "details": {
       "gender": {
@@ -1587,7 +2373,7 @@
       }
     ]
   },
-  {
+  "Tental": {
     "id": 33,
     "name": "Tental",
     "description": "Houchic eventually evolves into the more mature Tental - shrewder creatures, whose writhing tentacles serve as apt metaphors for their ever-twisting, sibylline minds.",
@@ -1595,8 +2381,14 @@
       "Mental type"
     ],
     "traits": [
-      "Avenger",
-      "Water Affinity"
+      {
+        "name": "Avenger",
+        "description": "When an ally is knocked-out, gets SPATK and SPD."
+      },
+      {
+        "name": "Water Affinity",
+        "description": "Water techniques get type damage boost."
+      }
     ],
     "details": {
       "gender": {
@@ -1639,7 +2431,7 @@
       }
     ]
   },
-  {
+  "Nagaise": {
     "id": 34,
     "name": "Nagaise",
     "description": "Cipanki legends are full of sage Nagaise giving cryptic advice to folk heroes - an early example of the traditional association of this species with wisdom, insight, and spirituality.",
@@ -1648,8 +2440,14 @@
       "Water type"
     ],
     "traits": [
-      "Deceit Aura",
-      "Water Custodian"
+      {
+        "name": "Deceit Aura",
+        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. And while HP is full, when entering the battlefield, loses 50%."
+      },
+      {
+        "name": "Water Custodian",
+        "description": "Water techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+      }
     ],
     "details": {
       "gender": {
@@ -1687,7 +2485,7 @@
     },
     "evolutions": []
   },
-  {
+  "Orphyll": {
     "id": 35,
     "name": "Orphyll",
     "description": "Probably a mutation from an ancient serpentine strand of Nature Temtem, Orphyll show remarkable adaptation to noxious conditions. They feature prominently in the art of ancient proto-Arburian cultures, who feared and revered them.",
@@ -1696,8 +2494,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Toxic Affinity",
-      "Apothecary"
+      {
+        "name": "Toxic Affinity",
+        "description": "Toxic techniques get type damage boost."
+      },
+      {
+        "name": "Apothecary",
+        "description": "After attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself."
+      }
     ],
     "details": {
       "gender": {
@@ -1740,7 +2544,7 @@
       }
     ]
   },
-  {
+  "Nidrasil": {
     "id": 36,
     "name": "Nidrasil",
     "description": "Long considered to be a legend, this species was scientifically verified just decades ago. Temtemologists are still debating how the nervous system of Nidrasil copes with three separate encephalic centers.",
@@ -1749,8 +2553,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Toxic Farewell",
-      "Tri-Apothecary"
+      {
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+      },
+      {
+        "name": "Tri-Apothecary",
+        "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself."
+      }
     ],
     "details": {
       "gender": {
@@ -1788,7 +2598,7 @@
     },
     "evolutions": []
   },
-  {
+  "Banapi": {
     "id": 37,
     "name": "Banapi",
     "description": "Capricious and stubborn, these Temtem roam the side of the Anak volcano, grazing on burning coals instead of grass. Notably difficult to tame, they set the right expectations for prospective Fire Temtem tamers...",
@@ -1796,8 +2606,14 @@
       "Fire type"
     ],
     "traits": [
-      "Pyromaniac",
-      "Settling"
+      {
+        "name": "Pyromaniac",
+        "description": "Damage done with Fire techniques is increased by 15%."
+      },
+      {
+        "name": "Settling",
+        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -1840,7 +2656,7 @@
       }
     ]
   },
-  {
+  "Capyre": {
     "id": 38,
     "name": "Capyre",
     "description": "These temperamental creatures often appear in Myrislan folklore as tricksters, their unreliable nature embedded deeply in the culture. Highly territorial, they breed in Anak and make sure any visitors know just how unwelcome they are.",
@@ -1848,8 +2664,14 @@
       "Fire type"
     ],
     "traits": [
-      "Last Rush",
-      "Resilient"
+      {
+        "name": "Last Rush",
+        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -1887,7 +2709,7 @@
     },
     "evolutions": []
   },
-  {
+  "Lapinite": {
     "id": 39,
     "name": "Lapinite",
     "description": "Extremely common in Tucma, these little creatures are often the first Temtem of every young Quetzaleño. They are cheerful and resistant playmates for toddlers, and it is common practise to lightly file off the edges of their crystals to ensure safety.",
@@ -1895,8 +2717,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Scavenger",
-      "Electric Synthesize"
+      {
+        "name": "Scavenger",
+        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      },
+      {
+        "name": "Electric Synthesize",
+        "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+      }
     ],
     "details": {
       "gender": {
@@ -1939,7 +2767,7 @@
       }
     ]
   },
-  {
+  "Azuroc": {
     "id": 40,
     "name": "Azuroc",
     "description": "This Temtem is a common sight in the Mines of Quetzal, where miners appreciate their skill when dislodging big chunks of ore and gemstones. Its correct and expert handling is a professional requisite for most of them.",
@@ -1947,8 +2775,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Mirroring",
-      "Fainted Curse"
+      {
+        "name": "Mirroring",
+        "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+      },
+      {
+        "name": "Fainted Curse",
+        "description": "When knocked-out, the attacker loses 30% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -1991,7 +2825,7 @@
       }
     ]
   },
-  {
+  "Zenoreth": {
     "id": 41,
     "name": "Zenoreth",
     "description": "Any given night at the Jaguar Lounge, drunken miners whisper tall tales about great crystalline behemoths lurking in the darkest abyss under the city. This Temtem is probably the base of all those urban legends... probably.",
@@ -1999,8 +2833,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Channeler",
-      "Wrecked Farewell"
+      {
+        "name": "Channeler",
+        "description": "Damage done with special techniques is increased by 25%."
+      },
+      {
+        "name": "Wrecked Farewell",
+        "description": "When self knocked-out, rivals lose 25% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -2038,7 +2878,7 @@
     },
     "evolutions": []
   },
-  {
+  "Reval": {
     "id": 42,
     "name": "Reval",
     "description": "Related to diverse (now extinct) subspecies of Cipanki 'vulpes mentalis', Reval used to be hunted by the Counts of House Braeside. Nowadays, they are protected and thrive in the forests of eastern Arbury.",
@@ -2046,8 +2886,14 @@
       "Mental type"
     ],
     "traits": [
-      "Heat Discharge",
-      "Enraged"
+      {
+        "name": "Heat Discharge",
+        "description": "When knocked-out, the attacker gets burned for 3 turns."
+      },
+      {
+        "name": "Enraged",
+        "description": "While HP is below 30%, damage done is increased by 30%."
+      }
     ],
     "details": {
       "gender": {
@@ -2090,7 +2936,7 @@
       }
     ]
   },
-  {
+  "Aohi": {
     "id": 43,
     "name": "Aohi",
     "description": "Fast and sinuous like wildfire, Aohi are cunning and sly creatures who routinely outsmart all but the most seasoned of tamers. Even in the wild, they delight in tricking the more gullible Reval.",
@@ -2099,8 +2945,14 @@
       "Fire type"
     ],
     "traits": [
-      "Warm Gift",
-      "Ignis Fatuus"
+      {
+        "name": "Warm Gift",
+        "description": "When a rival exits the battlefield, they get burned for 3 turns."
+      },
+      {
+        "name": "Ignis Fatuus",
+        "description": "When another Temtem is knocked-out, gets evading for 1 turn."
+      }
     ],
     "details": {
       "gender": {
@@ -2138,7 +2990,7 @@
     },
     "evolutions": []
   },
-  {
+  "Bigu": {
     "id": 44,
     "name": "Bigu",
     "description": "If there's an easily underestimated Temtem, that's Bigu. Comically ill-tempered, many tamers have found to their cost that these gastropods compensate their slow pace with outstanding tenacity in battle.",
@@ -2146,8 +2998,14 @@
       "Nature type"
     ],
     "traits": [
-      "Warm-Blooded",
-      "Amphibian"
+      {
+        "name": "Warm-Blooded",
+        "description": "Prevents the Cold and Frozen status condition."
+      },
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -2190,7 +3048,7 @@
       }
     ]
   },
-  {
+  "Babawa": {
     "id": 45,
     "name": "Babawa",
     "description": "These Temtem are flamboyant creatures with a funky sense of humor and boundless love for pranks and practical jokes. Many a naughty kid has donned a Babawa costume to cause havoc in the Quetzal Carnival.",
@@ -2199,8 +3057,14 @@
       "Water type"
     ],
     "traits": [
-      "Mucous",
-      "Withdrawal"
+      {
+        "name": "Mucous",
+        "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold and burned status condition."
+      },
+      {
+        "name": "Withdrawal",
+        "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions."
+      }
     ],
     "details": {
       "gender": {
@@ -2238,7 +3102,7 @@
     },
     "evolutions": []
   },
-  {
+  "0b1": {
     "id": 46,
     "name": "0b1",
     "description": "0b1's simple and friendly appearance belies their boldness as a creation - they are the Digital embodiment of a subatomic particle, whose very existence raises almost as many questions as it answers for physics modeling.",
@@ -2247,8 +3111,14 @@
       "Electric type"
     ],
     "traits": [
-      "Fast Charge",
-      "Sentinel"
+      {
+        "name": "Fast Charge",
+        "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD."
+      },
+      {
+        "name": "Sentinel",
+        "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself."
+      }
     ],
     "details": {
       "gender": {
@@ -2291,7 +3161,7 @@
       }
     ]
   },
-  {
+  "0b10": {
     "id": 47,
     "name": "0b10",
     "description": "Conventional physics can't explain why 0b10 is a two-in-one Temtem, or how their attraction/repulsion dynamics actually work. Tamers don't really care, since this 'Tem is empathetic enough to be tameable... not to mention off-the-charts cute!",
@@ -2300,8 +3170,14 @@
       "Electric type"
     ],
     "traits": [
-      "Source Replicator",
-      "Target Replicator"
+      {
+        "name": "Source Replicator",
+        "description": "When getting a positive status condition, adds the change to the ally too."
+      },
+      {
+        "name": "Target Replicator",
+        "description": "When the ally gets a positive status condition, adds the change to the Temtem too."
+      }
     ],
     "details": {
       "gender": {
@@ -2339,7 +3215,7 @@
     },
     "evolutions": []
   },
-  {
+  "Kaku": {
     "id": 48,
     "name": "Kaku",
     "description": "Less known than its evolution, Kaku are delightful creatures, cute beyond description. They tend to keep their petals wrapped around the body for protection, although no sane person would ever want to hurt a Kaku.",
@@ -2347,8 +3223,14 @@
       "Nature type"
     ],
     "traits": [
-      "Caffeinated",
-      "Mithridatism"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -2391,7 +3273,7 @@
       }
     ]
   },
-  {
+  "Saku": {
     "id": 49,
     "name": "Saku",
     "description": "Some say the first airship designs were inspired by this Temtem's ability to inflate air pockets within its body, allowing it to float and drift with the prevailing winds.",
@@ -2400,8 +3282,14 @@
       "Wind type"
     ],
     "traits": [
-      "Air Specialist",
-      "Botanist"
+      {
+        "name": "Air Specialist",
+        "description": "Damage done with Wind techniques is increased by 15%."
+      },
+      {
+        "name": "Botanist",
+        "description": "Damage done with Nature techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -2439,7 +3327,7 @@
     },
     "evolutions": []
   },
-  {
+  "Valash": {
     "id": 50,
     "name": "Valash",
     "description": "A fascinating offshoot, Valash is a rare case of bipedal hybrid, documented only recently. The care with which it keeps its forearm crystals sharpened betrays some sort of primitive sentience.",
@@ -2448,8 +3336,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Scavenger",
-      "Determined"
+      {
+        "name": "Scavenger",
+        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      },
+      {
+        "name": "Determined",
+        "description": "Prevents negative stat stage changes."
+      }
     ],
     "details": {
       "gender": {
@@ -2487,7 +3381,7 @@
     },
     "evolutions": []
   },
-  {
+  "Towly": {
     "id": 51,
     "name": "Towly",
     "description": "Propertonian toddlers are taught not to be afraid of this gentle species, in spite of the unnerving appearance of their large, shiny eyes when encountered in the forest at night.",
@@ -2496,8 +3390,14 @@
       "Mental type"
     ],
     "traits": [
-      "Hypnotist",
-      "Tag Team"
+      {
+        "name": "Hypnotist",
+        "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn."
+      },
+      {
+        "name": "Tag Team",
+        "description": "Damage taken from techniques is reduced by 15% if both allies share a type."
+      }
     ],
     "details": {
       "gender": {
@@ -2544,7 +3444,7 @@
       }
     ]
   },
-  {
+  "Owlhe": {
     "id": 52,
     "name": "Owlhe",
     "description": "This lordly Temtem reigns supreme over the Arburian skies and is said to possess almost-human intelligence. Some tamers are known to have even invited Owlhe over for afternoon tea...",
@@ -2553,8 +3453,14 @@
       "Melee type"
     ],
     "traits": [
-      "Determined",
-      "Bruiser"
+      {
+        "name": "Determined",
+        "description": "Prevents negative stat stage changes."
+      },
+      {
+        "name": "Bruiser",
+        "description": "Damage done with Melee techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -2592,7 +3498,7 @@
     },
     "evolutions": []
   },
-  {
+  "Barnshe": {
     "id": 53,
     "name": "Barnshe",
     "description": "Traditionally associated with the University of Arbury as its heraldic Temtem, this species has a deep, piercing stare. Although winged, it prefers to keep to the ground and use its mind as a weapon - a symbolism the academics are very fond of.",
@@ -2601,8 +3507,14 @@
       "Mental type"
     ],
     "traits": [
-      "Neutrality",
-      "Air Specialist"
+      {
+        "name": "Neutrality",
+        "description": "Prevent all negative status conditions."
+      },
+      {
+        "name": "Air Specialist",
+        "description": "Damage done with Wind techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -2640,7 +3552,7 @@
     },
     "evolutions": []
   },
-  {
+  "Gyalis": {
     "id": 54,
     "name": "Gyalis",
     "description": "Gyalis have appeared in many horror movies. Sadly, this has resulted in a bad reputation as a \"scary evil monster\", not helped by its menacing appearance - but in the hands of a kind tamer, Gyalis can be every bit as tender and loving as the plushest of Pigepics.",
@@ -2649,8 +3561,14 @@
       "Melee type"
     ],
     "traits": [
-      "Mirroring",
-      "Resistant"
+      {
+        "name": "Mirroring",
+        "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+      },
+      {
+        "name": "Resistant",
+        "description": "When getting a negative status condition, decreases its turns by 1."
+      }
     ],
     "details": {
       "gender": {
@@ -2688,7 +3606,7 @@
     },
     "evolutions": []
   },
-  {
+  "Occlura": {
     "id": 55,
     "name": "Occlura",
     "description": "Despite its creepy appearance, Occlura are mineral-eaters that never pose any danger to humans. Their tame nature and their appetite for raw rock make them valuable assets for mining purposes, as the Tucmani know very well.",
@@ -2696,8 +3614,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Warm-Blooded",
-      "Scavenger"
+      {
+        "name": "Warm-Blooded",
+        "description": "Prevents the Cold and Frozen status condition."
+      },
+      {
+        "name": "Scavenger",
+        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      }
     ],
     "details": {
       "gender": {
@@ -2740,7 +3664,7 @@
       }
     ]
   },
-  {
+  "Myx": {
     "id": 56,
     "name": "Myx",
     "description": "The oldest written records in Tucma indicate religious awe of Myx, considered to be embodiments of the \"dark spirits\". Some were considered to be celestial emissaries of Highabove, some evil messengers of Downbelow... but all were feared. With good reason.",
@@ -2749,8 +3673,14 @@
       "Mental type"
     ],
     "traits": [
-      "Puppet Master",
-      "Rejuvenate"
+      {
+        "name": "Puppet Master",
+        "description": "While HP is below 40%, received rival techniques get redirected to the ally."
+      },
+      {
+        "name": "Rejuvenate",
+        "description": "After attacking with a special technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -2788,7 +3718,7 @@
     },
     "evolutions": []
   },
-  {
+  "Raiber": {
     "id": 57,
     "name": "Raiber",
     "description": "Raiber is often given to novice tamers in Omninesian Dojos because it is relatively mild-mannered for a Fire Temtem. Easier to handle than the mightier varieties, it is nevertheless a loyal companion and decent fighter.",
@@ -2796,8 +3726,14 @@
       "Fire type"
     ],
     "traits": [
-      "Camaraderie",
-      "Rested"
+      {
+        "name": "Camaraderie",
+        "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+      },
+      {
+        "name": "Rested",
+        "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -2840,7 +3776,7 @@
       }
     ]
   },
-  {
+  "Raize": {
     "id": 58,
     "name": "Raize",
     "description": "Fierce and indomitable as the fire, Raize are difficult to tame but extremely valuable as fighting Temtem. Each has a characteristic birthmark on the snout, as unique as the movements of a single flame.",
@@ -2848,8 +3784,14 @@
       "Fire type"
     ],
     "traits": [
-      "Furor",
-      "Demoralize"
+      {
+        "name": "Furor",
+        "description": "When HP is below 33%, techniques do 33% more damage."
+      },
+      {
+        "name": "Demoralize",
+        "description": "When entering the battlefield, rivals get SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -2892,7 +3834,7 @@
       }
     ]
   },
-  {
+  "Raican": {
     "id": 59,
     "name": "Raican",
     "description": "As the Tucmani legend goes, at the beginning of time, Tucma and Kisiwa were one single fire plain where huge herds of Raican ran wild and free, flame and Temtem being one until the Archipelago cooled and these noble creatures emigrated underground.",
@@ -2900,8 +3842,14 @@
       "Fire type"
     ],
     "traits": [
-      "Prideful",
-      "Motivator"
+      {
+        "name": "Prideful",
+        "description": "When attacking, gets ATK, SPATK and SPD if the target gets knocked-out."
+      },
+      {
+        "name": "Motivator",
+        "description": "At the start of the turn, allies restore 10% of max STA."
+      }
     ],
     "details": {
       "gender": {
@@ -2939,7 +3887,7 @@
     },
     "evolutions": []
   },
-  {
+  "Pewki": {
     "id": 60,
     "name": "Pewki",
     "description": "Their flat shape allows Pewki to float right under the water surface, while they scout around using their huge, widely spaced eyes. Their iconic tall fins are often the only way to tell them apart from driftwood.",
@@ -2947,8 +3895,14 @@
       "Water type"
     ],
     "traits": [
-      "Hydrologist",
-      "Rested"
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      },
+      {
+        "name": "Rested",
+        "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -2991,7 +3945,7 @@
       }
     ]
   },
-  {
+  "Piraniant": {
     "id": 61,
     "name": "Piraniant",
     "description": "A native species of Deniz, this Temtem tends to drift with the Sillaro current, to conserve energy... but once brought into battle, its size makes it a powerful fighter.",
@@ -2999,8 +3953,14 @@
       "Water type"
     ],
     "traits": [
-      "Patient",
-      "Energy Reserves"
+      {
+        "name": "Patient",
+        "description": "Restores 15% of max STA when using a Hold technique."
+      },
+      {
+        "name": "Energy Reserves",
+        "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -3038,7 +3998,7 @@
     },
     "evolutions": []
   },
-  {
+  "Scarawatt": {
     "id": 62,
     "name": "Scarawatt",
     "description": "As the old joke goes, \"when you're a tamer in Cipanku, it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
@@ -3046,8 +4006,14 @@
       "Electric type"
     ],
     "traits": [
-      "Immunity",
-      "Strong Liver"
+      {
+        "name": "Immunity",
+        "description": "Resists damage from Toxic techniques and prevents poisoned."
+      },
+      {
+        "name": "Strong Liver",
+        "description": "When attacked with a Toxic technique, restores HP instead of receiving damage."
+      }
     ],
     "details": {
       "gender": {
@@ -3090,7 +4056,7 @@
       }
     ]
   },
-  {
+  "Scaravolt": {
     "id": 63,
     "name": "Scaravolt",
     "description": "Initially mistaken as a minor mutation of Scarawatt, Scaravolt is strongly associated with Miyako and the bonfires the yamabushi would light on the mountaintops on cold nights. On such an occasion, a sighting of this Temtem was considered a good omen.",
@@ -3099,8 +4065,14 @@
       "Fire type"
     ],
     "traits": [
-      "Half Full",
-      "Good Friend"
+      {
+        "name": "Half Full",
+        "description": "Once per battle and while HP is full, when entering the battlefield, loses 50% of max HP and gets ATK, DEF, SPATK, and SPDEF."
+      },
+      {
+        "name": "Good Friend",
+        "description": "After the ally receives a rival attack, the next one during the same turn gets redirected to the Temtem."
+      }
     ],
     "details": {
       "gender": {
@@ -3138,7 +4110,7 @@
     },
     "evolutions": []
   },
-  {
+  "Hoglip": {
     "id": 64,
     "name": "Hoglip",
     "description": "Some of the first Digital Temtem were prone to accidentally catching fire. Hoglip is the answer to this problem, a little friend who is totally at home in a blaze. Given that feature, it's often used for rescue by fire crews.",
@@ -3147,8 +4119,14 @@
       "Fire type"
     ],
     "traits": [
-      "Gotta Go Fast",
-      "Fast Charge"
+      {
+        "name": "Gotta Go Fast",
+        "description": "Changes the Temtem's very low, low and normal priority techniques to high priority."
+      },
+      {
+        "name": "Fast Charge",
+        "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -3191,7 +4169,7 @@
       }
     ]
   },
-  {
+  "Hedgine": {
     "id": 65,
     "name": "Hedgine",
     "description": "Mischievous but sweet, Hedgine are so kawaii tamers are regularly reminded to don fireproof gloves before petting them, to avoid getting first-degree burns. They are also instructed to keep them supervised in wooden areas.",
@@ -3200,8 +4178,14 @@
       "Fire type"
     ],
     "traits": [
-      "Gotta Go Fast",
-      "Going Away Gift"
+      {
+        "name": "Gotta Go Fast",
+        "description": "Changes the Temtem's very low, low and normal priority techniques to high priority."
+      },
+      {
+        "name": "Going Away Gift",
+        "description": "When knocked-out, adds the Temtem positive stat stage changes to the ally."
+      }
     ],
     "details": {
       "gender": {
@@ -3239,7 +4223,7 @@
     },
     "evolutions": []
   },
-  {
+  "Osuchi": {
     "id": 66,
     "name": "Osuchi",
     "description": "Shy and unassuming, Osuchi are generally considered benevolent, steadfast friends. Often confused with rock outcroppings by the untrained eye, they are at home in the Jino Gap.",
@@ -3247,8 +4231,14 @@
       "Earth type"
     ],
     "traits": [
-      "Caffeinated",
-      "Brawny"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Brawny",
+        "description": "Damage done with physical techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -3291,7 +4281,7 @@
       }
     ]
   },
-  {
+  "Osukan": {
     "id": 67,
     "name": "Osukan",
     "description": "Osukan are the perfect embodiment of the endurance and grit of the best Temtem fighters. They are sturdy, obstinate creatures that love nothing better than to show their prowess in a hard, honest battle against a worthy rival.",
@@ -3300,8 +4290,14 @@
       "Melee type"
     ],
     "traits": [
-      "Furor",
-      "Parrier"
+      {
+        "name": "Furor",
+        "description": "When HP is below 33%, techniques do 33% more damage."
+      },
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -3344,7 +4340,7 @@
       }
     ]
   },
-  {
+  "Osukai": {
     "id": 68,
     "name": "Osukai",
     "description": "Massive, four-armed Osukai are as hard as granite. They are credited with much of the boring heavy-lifting during the construction of the tunnels under the Kilima Range.",
@@ -3353,8 +4349,14 @@
       "Melee type"
     ],
     "traits": [
-      "Sensei",
-      "Body Stretch"
+      {
+        "name": "Sensei",
+        "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a Special technique, uses the ATK."
+      },
+      {
+        "name": "Body Stretch",
+        "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn."
+      }
     ],
     "details": {
       "gender": {
@@ -3392,7 +4394,7 @@
     },
     "evolutions": []
   },
-  {
+  "Saipat": {
     "id": 69,
     "name": "Saipat",
     "description": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
@@ -3401,8 +4403,14 @@
       "Melee type"
     ],
     "traits": [
-      "Amphibian",
-      "Toxic Affinity"
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      },
+      {
+        "name": "Toxic Affinity",
+        "description": "Toxic techniques get type damage boost."
+      }
     ],
     "details": {
       "gender": {
@@ -3440,7 +4448,7 @@
     },
     "evolutions": []
   },
-  {
+  "Pycko": {
     "id": 70,
     "name": "Pycko",
     "description": "Bubbly and cheerful, this Temtem is the protagonist of an animation series aimed at warning children of the dangers of fire. It has been a lifelong friend to many first-time tamers.",
@@ -3449,8 +4457,14 @@
       "Fire type"
     ],
     "traits": [
-      "Furor",
-      "Tireless"
+      {
+        "name": "Furor",
+        "description": "When HP is below 33%, techniques do 33% more damage."
+      },
+      {
+        "name": "Tireless",
+        "description": "When overexerted, prevents the turn penalization and gets ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -3493,7 +4507,7 @@
       }
     ]
   },
-  {
+  "Drakash": {
     "id": 71,
     "name": "Drakash",
     "description": "Selective breeding for bipedalism meant this variety of Temtem is faster and more suited for human tasks than its predecessors. Often given as a New Year's gift between Kisiwans and Tucmani.",
@@ -3502,8 +4516,14 @@
       "Fire type"
     ],
     "traits": [
-      "Heat Discharge",
-      "Sentinel"
+      {
+        "name": "Heat Discharge",
+        "description": "When knocked-out, the attacker gets burned for 3 turns."
+      },
+      {
+        "name": "Sentinel",
+        "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself."
+      }
     ],
     "details": {
       "gender": {
@@ -3541,7 +4561,7 @@
     },
     "evolutions": []
   },
-  {
+  "Crystle": {
     "id": 72,
     "name": "Crystle",
     "description": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
@@ -3549,8 +4569,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Amphibian",
-      "Rested"
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      },
+      {
+        "name": "Rested",
+        "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -3593,7 +4619,7 @@
       }
     ]
   },
-  {
+  "Sherald": {
     "id": 73,
     "name": "Sherald",
     "description": "Sherald are known to evolve from Crystle- in the wild, as a result of exposure to the harsh environmental conditions of Tucma. They extract nutrients from the chemical interactions of metamorphic rocks and volcanic ashes.",
@@ -3601,8 +4627,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Mirroring",
-      "Provident"
+      {
+        "name": "Mirroring",
+        "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+      },
+      {
+        "name": "Provident",
+        "description": "After being attacked with a Fire, Earth or Melee technique, gets SPDEF."
+      }
     ],
     "details": {
       "gender": {
@@ -3645,7 +4677,7 @@
       }
     ]
   },
-  {
+  "Tortenite": {
     "id": 74,
     "name": "Tortenite",
     "description": "Tortenite are lumbering creatures, often employed by Tucmani miners as work companions. In the wild, they are often spotted herding Sherald as pack leaders.",
@@ -3654,8 +4686,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Confined",
-      "Efficient"
+      {
+        "name": "Confined",
+        "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself."
+      },
+      {
+        "name": "Efficient",
+        "description": "When attacking, STA cost is reduced by 30%."
+      }
     ],
     "details": {
       "gender": {
@@ -3693,7 +4731,7 @@
     },
     "evolutions": []
   },
-  {
+  "Innki": {
     "id": 75,
     "name": "Innki",
     "description": "Known as the most elusive Temtem in Cipanku, possession of an Innki is the ultimate marker of mastery amongst Neoedo tamers.",
@@ -3702,8 +4740,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Physmaster",
-      "Specmaster"
+      {
+        "name": "Physmaster",
+        "description": "Damage done with physical techniques is increased by 50%."
+      },
+      {
+        "name": "Specmaster",
+        "description": "Damage done with special techniques is increased by 50%"
+      }
     ],
     "details": {
       "gender": {
@@ -3741,7 +4785,7 @@
     },
     "evolutions": []
   },
-  {
+  "Shaolite": {
     "id": 76,
     "name": "Shaolite",
     "description": "If there is a Temtem whose reputation as \"a cutie\" overshadows its proficiency, it's Shaolite. \"Oooh, look, smol karateka! <3\" is often heard right before a crushing defeat.",
@@ -3749,8 +4793,14 @@
       "Melee type"
     ],
     "traits": [
-      "Coward's Rest",
-      "Parrier"
+      {
+        "name": "Coward's Rest",
+        "description": "When resting, gets evading and invigorated for 2 turns."
+      },
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -3793,7 +4843,7 @@
       }
     ]
   },
-  {
+  "Shaolant": {
     "id": 77,
     "name": "Shaolant",
     "description": "Bigger and meaner than Shaolite, Shaolant have become the darlings of the tamers of Lochburg Dojo who want to command respect for their choice of squad.",
@@ -3801,8 +4851,14 @@
       "Melee type"
     ],
     "traits": [
-      "Welcomer",
-      "Bruiser"
+      {
+        "name": "Welcomer",
+        "description": "Once per battle, when an ally enters the battlefield, the ally gets evading for 1 turn."
+      },
+      {
+        "name": "Bruiser",
+        "description": "Damage done with Melee techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -3840,7 +4896,7 @@
     },
     "evolutions": []
   },
-  {
+  "Cycrox": {
     "id": 78,
     "name": "Cycrox",
     "description": "One rumor tells of a Mimit that fell into a Xolot. Another one, of a Nanto boffin accidentally spilling coffee on some circuitry. Be as it may, Cycrox is as close as it gets to a computer virus, but in the flesh... and in the silicon.",
@@ -3849,8 +4905,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Neurotoxins",
-      "Water Synthesizer"
+      {
+        "name": "Neurotoxins",
+        "description": "Instead of applying poison, the target gets doomed for 4 turns instead."
+      },
+      {
+        "name": "Water Synthesizer",
+        "description": "When attacked with a Water technique, restores HP instead of receiving damage."
+      }
     ],
     "details": {
       "gender": {
@@ -3888,7 +4950,7 @@
     },
     "evolutions": []
   },
-  {
+  "Hocus": {
     "id": 79,
     "name": "Hocus",
     "description": "Arcane and blue-blooded, Hocus have been selectively bred for generations and kept as dynastic heirlooms of the House of Braeside. They are fine weapons, trained to be battle Temtem for the ancient aristocracy, a rare sight nowadays.",
@@ -3896,8 +4958,14 @@
       "Mental type"
     ],
     "traits": [
-      "Soft Touch",
-      "Mirroring"
+      {
+        "name": "Soft Touch",
+        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+      },
+      {
+        "name": "Mirroring",
+        "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+      }
     ],
     "details": {
       "gender": {
@@ -3940,7 +5008,7 @@
       }
     ]
   },
-  {
+  "Pocus": {
     "id": 80,
     "name": "Pocus",
     "description": "Pocus was considered blue-blooded among the blue bloods, and was traditionally given only to the male heirs of the House of Braeside. When the lineage fell, they mostly went extinct... until recently.",
@@ -3948,8 +5016,14 @@
       "Mental type"
     ],
     "traits": [
-      "Dreaded Alarm",
-      "Rejuvenate"
+      {
+        "name": "Dreaded Alarm",
+        "description": "When a rival rests, they lose 25% of max HP."
+      },
+      {
+        "name": "Rejuvenate",
+        "description": "After attacking with a special technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -3987,7 +5061,7 @@
     },
     "evolutions": []
   },
-  {
+  "Smolzy": {
     "id": 81,
     "name": "Smolzy",
     "description": "Few Temtem look so deceptively comical as Smolzy - underestimating it in battle is the mark of the rookie tamer. Beyond their adorably helpless appearance, they are appreciated as some of the most reliable Electrical Temtem for daily use.",
@@ -3995,8 +5069,14 @@
       "Electric type"
     ],
     "traits": [
-      "Caffeinated",
-      "Electric Synthesize"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Electric Synthesize",
+        "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+      }
     ],
     "details": {
       "gender": {
@@ -4039,7 +5119,7 @@
       }
     ]
   },
-  {
+  "Sparzy": {
     "id": 82,
     "name": "Sparzy",
     "description": "Also known familiarly as \"Sparky\", this Temtem is a common sight in Cipanku. Children are warned to keep away from them. Although normally good-natured and cheerful, they can involuntarily discharge considerable electric shocks.",
@@ -4047,8 +5127,14 @@
       "Electric type"
     ],
     "traits": [
-      "Last Rush",
-      "Inductor"
+      {
+        "name": "Last Rush",
+        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+      },
+      {
+        "name": "Inductor",
+        "description": "After attacking with a Electric technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -4091,7 +5177,7 @@
       }
     ]
   },
-  {
+  "Golzy": {
     "id": 83,
     "name": "Golzy",
     "description": "Bred by the patient priests of Miyaka from local varieties of Electric Temtem, Golzy is a gentle giant that helps the villagers carry heavy loads through the difficult mountain passes. Their consistant presence has become a symbol of the Monastery.",
@@ -4100,8 +5186,14 @@
       "Melee type"
     ],
     "traits": [
-      "Defuser",
-      "Voltaic Charge"
+      {
+        "name": "Defuser",
+        "description": "When attacking with a physical technique, the target gets seized for 3 turns."
+      },
+      {
+        "name": "Voltaic Charge",
+        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+      }
     ],
     "details": {
       "gender": {
@@ -4139,7 +5231,7 @@
     },
     "evolutions": []
   },
-  {
+  "Mushi": {
     "id": 84,
     "name": "Mushi",
     "description": "Closely related to the non-sentient fungi of the Corrupted Badlands, Mushi are shy but territorial. Always mineral-hungry, wise tamers keep them well away from Crystal Temtem.",
@@ -4147,8 +5239,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Resistant",
-      "Resilient"
+      {
+        "name": "Resistant",
+        "description": "When getting a negative status condition, decreases its turns by 1."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -4191,7 +5289,7 @@
       }
     ]
   },
-  {
+  "Mushook": {
     "id": 85,
     "name": "Mushook",
     "description": "Mushook are a hybrid variety, developed at the Quetzal Dojo by expert breeders. Strong and single-minded, some of the bigger specimens are occasionally employed by the Guards as static sentries at strategic points.",
@@ -4200,8 +5298,14 @@
       "Melee type"
     ],
     "traits": [
-      "Parrier",
-      "Tireless"
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      },
+      {
+        "name": "Tireless",
+        "description": "When overexerted, prevents the turn penalization and gets ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -4239,7 +5343,7 @@
     },
     "evolutions": []
   },
-  {
+  "Magmis": {
     "id": 86,
     "name": "Magmis",
     "description": "Magmis' original habitat was in the lava rivers under the Anak caldera, but now they can be found all around the Archipelago, as foundry operators in Quetzal, heating systems in Arbury... And, of course, in Temtem battles.",
@@ -4247,8 +5351,14 @@
       "Fire type"
     ],
     "traits": [
-      "Caffeinated",
-      "Thick Skin"
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      },
+      {
+        "name": "Thick Skin",
+        "description": "Damage taken by Wind techniques is reduced by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -4291,7 +5401,7 @@
       }
     ]
   },
-  {
+  "Mastione": {
     "id": 87,
     "name": "Mastione",
     "description": "Mastione are fire-loving Temtem, at home in the fiercest of blazes. They can be found grazing in woods devoured by wildfire. The tamed varieties learn to rein in their destructive tendencies - but even then, trainers should exercise care.",
@@ -4300,8 +5410,14 @@
       "Water type"
     ],
     "traits": [
-      "Solidifier",
-      "Pyromaniac"
+      {
+        "name": "Solidifier",
+        "description": "When attacking with a Water Special technique, uses the ATK."
+      },
+      {
+        "name": "Pyromaniac",
+        "description": "Damage done with Fire techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -4339,7 +5455,7 @@
     },
     "evolutions": []
   },
-  {
+  "Umishi": {
     "id": 88,
     "name": "Umishi",
     "description": "The Umishi feature in many Denizan tales, usually saving drowning sailors and helping them get to shore. These so-called \"sea-angels\" are dependable friends, and the Riverine Fellowship recommends every member keep at least one in their squad.",
@@ -4347,8 +5463,14 @@
       "Water type"
     ],
     "traits": [
-      "Shared Pain",
-      "Caffeinated"
+      {
+        "name": "Shared Pain",
+        "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally."
+      },
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      }
     ],
     "details": {
       "gender": {
@@ -4391,7 +5513,7 @@
       }
     ]
   },
-  {
+  "Ukama": {
     "id": 89,
     "name": "Ukama",
     "description": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
@@ -4399,8 +5521,14 @@
       "Water type"
     ],
     "traits": [
-      "Hydrologist",
-      "Plethoric"
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      },
+      {
+        "name": "Plethoric",
+        "description": "Increases SPD by 30% while HP is over 70%."
+      }
     ],
     "details": {
       "gender": {
@@ -4438,7 +5566,7 @@
     },
     "evolutions": []
   },
-  {
+  "Galvanid": {
     "id": 90,
     "name": "Galvanid",
     "description": "Often paired for comedic effect, Galvanid is the downer counterpart to Sparzy's manic persona. Given its usually serious expression, this 'Tem is the perfect butt of all jokes... which conceals a very effective range of attacks.",
@@ -4446,8 +5574,14 @@
       "Electric type"
     ],
     "traits": [
-      "Efficient",
-      "Inductor"
+      {
+        "name": "Efficient",
+        "description": "When attacking, STA cost is reduced by 30%."
+      },
+      {
+        "name": "Inductor",
+        "description": "After attacking with a Electric technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -4490,7 +5624,7 @@
       }
     ]
   },
-  {
+  "Raignet": {
     "id": 91,
     "name": "Raignet",
     "description": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
@@ -4498,8 +5632,14 @@
       "Electric type"
     ],
     "traits": [
-      "Kinetic Transfer",
-      "Electric Custodian"
+      {
+        "name": "Kinetic Transfer",
+        "description": "When attacked, restores 10% of max STA and the attacker loses 10% of max STA."
+      },
+      {
+        "name": "Electric Custodian",
+        "description": "Electric techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+      }
     ],
     "details": {
       "gender": {
@@ -4537,7 +5677,7 @@
     },
     "evolutions": []
   },
-  {
+  "Smazee": {
     "id": 92,
     "name": "Smazee",
     "description": "These little darlings have been bred for generations as playmates and babysitters for children - although capable fighters, Smazee are naturally cheerful and love playing and monkeying around.",
@@ -4545,8 +5685,14 @@
       "Melee type"
     ],
     "traits": [
-      "Fever Rush",
-      "Friendship"
+      {
+        "name": "Fever Rush",
+        "description": "When getting a status condition, gets ATK."
+      },
+      {
+        "name": "Friendship",
+        "description": "Immune to ally's offensive techniques."
+      }
     ],
     "details": {
       "gender": {
@@ -4589,7 +5735,7 @@
       }
     ]
   },
-  {
+  "Baboong": {
     "id": 93,
     "name": "Baboong",
     "description": "Baboong are evolved, street-fighting Temtem, very popular in Lochburg, where they are often employed by pub bouncers. Although naturally good-tempered, they are as fierce as their hot-headed tamers.",
@@ -4597,8 +5743,14 @@
       "Melee type"
     ],
     "traits": [
-      "Brawny",
-      "Warm-Blooded"
+      {
+        "name": "Brawny",
+        "description": "Damage done with physical techniques is increased by 15%."
+      },
+      {
+        "name": "Warm-Blooded",
+        "description": "Prevents the Cold and Frozen status condition."
+      }
     ],
     "details": {
       "gender": {
@@ -4641,7 +5793,7 @@
       }
     ]
   },
-  {
+  "Seismunch": {
     "id": 94,
     "name": "Seismunch",
     "description": "Seismunch are great apes, genetically close to humans and much more sophisticated than their lesser brethren. Highly imitative of human behavior, some are said to be nearing proto-human cognition.",
@@ -4650,8 +5802,14 @@
       "Earth type"
     ],
     "traits": [
-      "Self-Esteem",
-      "Earthbound"
+      {
+        "name": "Self-Esteem",
+        "description": "When attacking, removes all negative status conditions if the target gets knocked-out."
+      },
+      {
+        "name": "Earthbound",
+        "description": "After attacking with a Earth technique, gets DEF."
+      }
     ],
     "details": {
       "gender": {
@@ -4689,7 +5847,7 @@
     },
     "evolutions": []
   },
-  {
+  "Zizare": {
     "id": 95,
     "name": "Zizare",
     "description": "One of the most remarkable inhabitants of the Kisiwan savanna, the powerful Zizare are the biggest creeping Temtem. Proud and territorial, they make for staunch friends.",
@@ -4697,8 +5855,14 @@
       "Earth type"
     ],
     "traits": [
-      "Rested",
-      "Electric Custodian"
+      {
+        "name": "Rested",
+        "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+      },
+      {
+        "name": "Electric Custodian",
+        "description": "Electric techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+      }
     ],
     "details": {
       "gender": {
@@ -4736,7 +5900,7 @@
     },
     "evolutions": []
   },
-  {
+  "Gorong": {
     "id": 96,
     "name": "Gorong",
     "description": "Angry and with a red nose, Gorong attracts many jokes about how much it looks like a Lochburg pub patron. Usually a couple of assaults are enough to put an end to such taunts for good.",
@@ -4744,8 +5908,14 @@
       "Melee type"
     ],
     "traits": [
-      "Seismic",
-      "Tireless"
+      {
+        "name": "Seismic",
+        "description": "When entering the battlefield, rivals lose 7% of their max HP. This effect cannot knock out Temtem."
+      },
+      {
+        "name": "Tireless",
+        "description": "When overexerted, prevents the turn penalization and gets ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -4783,7 +5953,7 @@
     },
     "evolutions": []
   },
-  {
+  "Mitty": {
     "id": 97,
     "name": "Mitty",
     "description": "Often derided by Lochburgian tamers as a \"typically Propertonian cuteboi that packs no punch!\", Mitty are gentle and curious Temtem, but also fast learners and extremely effective in the hands of an experienced tamer.",
@@ -4791,8 +5961,14 @@
       "Mental type"
     ],
     "traits": [
-      "Soft Touch",
-      "Skull Helmet"
+      {
+        "name": "Soft Touch",
+        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+      },
+      {
+        "name": "Skull Helmet",
+        "description": "Damage taken from Mental or Melee techniques is reduced by 25%."
+      }
     ],
     "details": {
       "gender": {
@@ -4835,7 +6011,7 @@
       }
     ]
   },
-  {
+  "Sanbi": {
     "id": 98,
     "name": "Sanbi",
     "description": "Capable of communicating moods and intentions via complex patterns of its triple tail, these Temtem are aloof creatures who prefer the solitudes of the Arbury highlands. Although they mostly keep to themselves, their mindpower is formidable.",
@@ -4843,8 +6019,14 @@
       "Mental type"
     ],
     "traits": [
-      "Dozing Hit",
-      "Inner Shield"
+      {
+        "name": "Dozing Hit",
+        "description": "After using an effective or super-effective technique, the target gets asleep for 1 turn."
+      },
+      {
+        "name": "Inner Shield",
+        "description": "Prevents Rival status techniques."
+      }
     ],
     "details": {
       "gender": {
@@ -4882,7 +6064,7 @@
     },
     "evolutions": []
   },
-  {
+  "Momo": {
     "id": 99,
     "name": "Momo",
     "description": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
@@ -4890,8 +6072,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Stabmaster",
-      "Snowstorm"
+      {
+        "name": "Stabmaster",
+        "description": "Damage done with matching type techniques is increased by 40%."
+      },
+      {
+        "name": "Snowstorm",
+        "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 3 turns if they aren't cold already."
+      }
     ],
     "details": {
       "gender": {
@@ -4929,7 +6117,7 @@
     },
     "evolutions": []
   },
-  {
+  "Kuri": {
     "id": 100,
     "name": "Kuri",
     "description": "Another great example of adaptation to the environment, these little Temtem select and carve rocks to use as protection for their heads and snouts.",
@@ -4937,8 +6125,14 @@
       "Earth type"
     ],
     "traits": [
-      "Camaraderie",
-      "Callosity"
+      {
+        "name": "Camaraderie",
+        "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+      },
+      {
+        "name": "Callosity",
+        "description": "After being attacked with a physical technique, gets DEF."
+      }
     ],
     "details": {
       "gender": {
@@ -4981,7 +6175,7 @@
       }
     ]
   },
-  {
+  "Kauren": {
     "id": 101,
     "name": "Kauren",
     "description": "Not to be confused with their previous evolution stage, Kauren develops stone-hard horns and skull extensions - used for digging out roots, defense and status-signalling within the herd.",
@@ -4989,8 +6183,14 @@
       "Earth type"
     ],
     "traits": [
-      "Scavenger",
-      "Skull Helmet"
+      {
+        "name": "Scavenger",
+        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      },
+      {
+        "name": "Skull Helmet",
+        "description": "Damage taken from Mental or Melee techniques is reduced by 25%."
+      }
     ],
     "details": {
       "gender": {
@@ -5028,7 +6228,7 @@
     },
     "evolutions": []
   },
-  {
+  "Spriole": {
     "id": 102,
     "name": "Spriole",
     "description": "These little sprouts are a common sight along the Omninesian canopy, and the locals are always gentle with them. These little pups are playful and juvenile.",
@@ -5036,8 +6236,14 @@
       "Nature type"
     ],
     "traits": [
-      "Camaraderie",
-      "Botanist"
+      {
+        "name": "Camaraderie",
+        "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+      },
+      {
+        "name": "Botanist",
+        "description": "Damage done with Nature techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -5080,7 +6286,7 @@
       }
     ]
   },
-  {
+  "Deendre": {
     "id": 103,
     "name": "Deendre",
     "description": "The young adult version of Spriole, Deendre are fascinating plant-animal hybrids that use their encephalic leaves to produce healing and nourishing components via photosynthesis.",
@@ -5088,8 +6294,14 @@
       "Nature type"
     ],
     "traits": [
-      "Mithridatism",
-      "Settling"
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      },
+      {
+        "name": "Settling",
+        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -5132,7 +6344,7 @@
       }
     ]
   },
-  {
+  "Cerneaf": {
     "id": 104,
     "name": "Cerneaf",
     "description": "Few Temtem are closer to flora than this species, a fascinating plant-animal hybrid that uses its encephalic leaves to produce healing and nourishing components via photosynthesis.",
@@ -5140,8 +6352,14 @@
       "Nature type"
     ],
     "traits": [
-      "Callosity",
-      "Settling"
+      {
+        "name": "Callosity",
+        "description": "After being attacked with a physical technique, gets DEF."
+      },
+      {
+        "name": "Settling",
+        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -5179,7 +6397,7 @@
     },
     "evolutions": []
   },
-  {
+  "Toxolotl": {
     "id": 105,
     "name": "Toxolotl",
     "description": "Perhaps no other Temtem is as representative of Tucma as the colorful Toxolotl. Each strand in its mane is supposed to signify one of the original Tucmani tribes that first excavated and settled Quetzal after the Anak cataclysm.",
@@ -5187,8 +6405,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Power Nap",
-      "Toxic Farewell"
+      {
+        "name": "Power Nap",
+        "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem."
+      },
+      {
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -5231,7 +6455,7 @@
       }
     ]
   },
-  {
+  "Noxolotl": {
     "id": 106,
     "name": "Noxolotl",
     "description": "Noxolotl are noble, dignified creatures. They are taken to exemplify the resilience and spirit of the Tucmani people, as \"a beauty born of the foulest depths of Xolot, a light in the abyss\", in the words of the poetess Itzia.",
@@ -5239,8 +6463,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Trance",
-      "Toxic Skin"
+      {
+        "name": "Trance",
+        "description": "Once per battle, if the Temtem is attacked and HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF."
+      },
+      {
+        "name": "Toxic Skin",
+        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -5278,7 +6508,7 @@
     },
     "evolutions": []
   },
-  {
+  "Blooze": {
     "id": 107,
     "name": "Blooze",
     "description": "Blooze represent the opposite evolutionary path as compared to Toxolotl - blobby and bipedal, they are probably the oldest lifeform of Xolot, an atavic variety still largely unexplained by science.",
@@ -5286,8 +6516,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Toxic Skin",
-      "Bully"
+      {
+        "name": "Toxic Skin",
+        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+      },
+      {
+        "name": "Bully",
+        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+      }
     ],
     "details": {
       "gender": {
@@ -5330,7 +6566,7 @@
       }
     ]
   },
-  {
+  "Goolder": {
     "id": 108,
     "name": "Goolder",
     "description": "Not many agree to classify Goolder as an \"evolution\", for many of its traits seem to be vestigial features of a more complex organism, devolved to a more primitive or atrophied state. Its lack of legs is usually cited as an example... but its haphazard appearance conceals great strength.",
@@ -5338,8 +6574,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Strong Liver",
-      "Punch Bag"
+      {
+        "name": "Strong Liver",
+        "description": "When attacked with a Toxic technique, restores HP instead of receiving damage."
+      },
+      {
+        "name": "Punch Bag",
+        "description": "Damage taken from Melee techniques is reduced by 30%."
+      }
     ],
     "details": {
       "gender": {
@@ -5377,7 +6619,7 @@
     },
     "evolutions": []
   },
-  {
+  "Zephyruff": {
     "id": 109,
     "name": "Zephyruff",
     "description": "Awkward fliers at best, Zephyruff rely on their speed and sharp claws to defend themselves. The sturdy, cloud-like tissue around the neck serves a double purpose, offering protection for the mother Temtem as well as a roosting point for Zephyruff chicks.",
@@ -5386,8 +6628,14 @@
       "Wind type"
     ],
     "traits": [
-      "Toxic Affinity",
-      "Air Specialist"
+      {
+        "name": "Toxic Affinity",
+        "description": "Toxic techniques get type damage boost."
+      },
+      {
+        "name": "Air Specialist",
+        "description": "Damage done with Wind techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -5430,7 +6678,7 @@
       }
     ]
   },
-  {
+  "Volarend": {
     "id": 110,
     "name": "Volarend",
     "description": "Volarend are impressive avians of great wingspan, strong enough to carry humans in flight. However, they are temperamental and picky mounts, and tamers are well-advised to treat them kindly, lest they are given a one-way ticket to the Downbelow...",
@@ -5439,8 +6687,14 @@
       "Wind type"
     ],
     "traits": [
-      "Aerobic",
-      "Anaerobic"
+      {
+        "name": "Aerobic",
+        "description": "After attacking with a Wind technique, gets SPDEF and SPD."
+      },
+      {
+        "name": "Anaerobic",
+        "description": "After attacking with a Toxic technique, gets SPDEF and SPATK."
+      }
     ],
     "details": {
       "gender": {
@@ -5478,7 +6732,7 @@
     },
     "evolutions": []
   },
-  {
+  "Grumvel": {
     "id": 111,
     "name": "Grumvel",
     "description": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
@@ -5486,8 +6740,14 @@
       "Earth type"
     ],
     "traits": [
-      "Energy Reserves",
-      "Settling"
+      {
+        "name": "Energy Reserves",
+        "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns."
+      },
+      {
+        "name": "Settling",
+        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -5530,7 +6790,7 @@
       }
     ]
   },
-  {
+  "Grumper": {
     "id": 112,
     "name": "Grumper",
     "description": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
@@ -5539,8 +6799,14 @@
       "Electric type"
     ],
     "traits": [
-      "Inductor",
-      "Coward's Rest"
+      {
+        "name": "Inductor",
+        "description": "After attacking with a Electric technique, restores 8% of max HP."
+      },
+      {
+        "name": "Coward's Rest",
+        "description": "When resting, gets evading and invigorated for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -5578,7 +6844,7 @@
     },
     "evolutions": []
   },
-  {
+  "Ganki": {
     "id": 113,
     "name": "Ganki",
     "description": "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them.",
@@ -5587,8 +6853,14 @@
       "Wind type"
     ],
     "traits": [
-      "Resistant",
-      "Inductor"
+      {
+        "name": "Resistant",
+        "description": "When getting a negative status condition, decreases its turns by 1."
+      },
+      {
+        "name": "Inductor",
+        "description": "After attacking with a Electric technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -5631,7 +6903,7 @@
       }
     ]
   },
-  {
+  "Gazuma": {
     "id": 114,
     "name": "Gazuma",
     "description": "Even in the wild, younger Ganki seem to instinctively respect them as their elders. In the hills of Iwaba, one can often spot Gazuma leading small flocks of Ganki, a clear indication of their status among Electric Temtem.",
@@ -5640,8 +6912,14 @@
       "Wind type"
     ],
     "traits": [
-      "Receptive",
-      "Fast Charge"
+      {
+        "name": "Receptive",
+        "description": "When getting a favorable status condition, increases its turns by 1."
+      },
+      {
+        "name": "Fast Charge",
+        "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -5679,7 +6957,7 @@
     },
     "evolutions": []
   },
-  {
+  "Oceara": {
     "id": 115,
     "name": "Oceara",
     "description": "Very rarely seen in Deniz, Oceara are believed to be the basis for the legendary \"serbatiyo\" of the Sea-Queen legend. Their possession is a mark of distinction and prestige among Water Temtem experts.",
@@ -5687,8 +6965,14 @@
       "Water type"
     ],
     "traits": [
-      "Hydrologist",
-      "Hurry-wart"
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      },
+      {
+        "name": "Hurry-wart",
+        "description": "When entering the battlefield, the Temtem gets -1 Hold."
+      }
     ],
     "details": {
       "gender": {
@@ -5726,7 +7010,7 @@
     },
     "evolutions": []
   },
-  {
+  "Yowlar": {
     "id": 116,
     "name": "Yowlar",
     "description": "Considered vanishingly rare until Linnaea's work, this lonesome Temtem inhabits the most inaccessible Kilima peaks, where they keep large, fiercely defended hunting ranges.",
@@ -5734,8 +7018,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Comebacker",
-      "Warm-Blooded"
+      {
+        "name": "Comebacker",
+        "description": "When damaged by a technique, damage done to the attacker is increased by 32% during the same turn."
+      },
+      {
+        "name": "Warm-Blooded",
+        "description": "Prevents the Cold and Frozen status condition."
+      }
     ],
     "details": {
       "gender": {
@@ -5773,7 +7063,7 @@
     },
     "evolutions": []
   },
-  {
+  "Droply": {
     "id": 117,
     "name": "Droply",
     "description": "Although not particularly popular among tamers, Droply is used by many scholars as a prime example of an early Archipelagian amphibian, a crucial link in the evolution of earthborne Temtem.",
@@ -5782,8 +7072,14 @@
       "Earth type"
     ],
     "traits": [
-      "Water Affinity",
-      "Amphibian"
+      {
+        "name": "Water Affinity",
+        "description": "Water techniques get type damage boost."
+      },
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -5826,7 +7122,7 @@
       }
     ]
   },
-  {
+  "Garyo": {
     "id": 118,
     "name": "Garyo",
     "description": "Semiaquatic and very gregarious, they are often found along the shores of Lake Moyo, where local farmers train them to harvest seaweed and warn away any boats with their sonorous hisses.",
@@ -5835,8 +7131,14 @@
       "Earth type"
     ],
     "traits": [
-      "Autotomy",
-      "Marathonist"
+      {
+        "name": "Autotomy",
+        "description": "Once per battle, when entering the battlefield, gets evading for 2 turns."
+      },
+      {
+        "name": "Marathonist",
+        "description": "When attacking, gets SPD, and STA cost is reduced by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -5874,7 +7176,7 @@
     },
     "evolutions": []
   },
-  {
+  "Broccoblin": {
     "id": 119,
     "name": "Broccoblin",
     "description": "At home in the denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
@@ -5882,8 +7184,14 @@
       "Nature type"
     ],
     "traits": [
-      "Withdrawal",
-      "Autotomy"
+      {
+        "name": "Withdrawal",
+        "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions."
+      },
+      {
+        "name": "Autotomy",
+        "description": "Once per battle, when entering the battlefield, gets evading for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -5926,7 +7234,7 @@
       }
     ]
   },
-  {
+  "Broccorc": {
     "id": 120,
     "name": "Broccorc",
     "description": "Bigger and more agile, this variety still lives in symbiosis with its surrounding flora, but it is generally more sociable and easier to train. A favorite of Properton grannies who love gardening!",
@@ -5935,8 +7243,14 @@
       "Melee type"
     ],
     "traits": [
-      "Immunity",
-      "Coward's Rest"
+      {
+        "name": "Immunity",
+        "description": "Resists damage from Toxic techniques and prevents poisoned."
+      },
+      {
+        "name": "Coward's Rest",
+        "description": "When resting, gets evading and invigorated for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -5979,7 +7293,7 @@
       }
     ]
   },
-  {
+  "Broccolem": {
     "id": 121,
     "name": "Broccolem",
     "description": "Probably the origin of old legends about dryads and forest trolls, this Temtem is a hulking quasi-arboreal of impressive strength and resilience. Like an oak, if oaks could punch.",
@@ -5988,8 +7302,14 @@
       "Melee type"
     ],
     "traits": [
-      "Mithridatism",
-      "Camouflage"
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      },
+      {
+        "name": "Camouflage",
+        "description": "When attacked with a physical technique, gets evading for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -6027,7 +7347,7 @@
     },
     "evolutions": []
   },
-  {
+  "Shuine": {
     "id": 122,
     "name": "Shuine",
     "description": "Colorful Shuine are a sight to behold, their bright scales reflecting Pansunlight as they frolic in the Kakama Cenote. They feed off the acidic components of Xolotic water, acting as natural filters and keeping cenote waters clean and fit for human consumption almost as effectively as the layers of volcanic rock.",
@@ -6036,8 +7356,14 @@
       "Water type"
     ],
     "traits": [
-      "Immunity",
-      "Guardian"
+      {
+        "name": "Immunity",
+        "description": "Resists damage from Toxic techniques and prevents poisoned."
+      },
+      {
+        "name": "Guardian",
+        "description": "Prevents negative stat stage changes and the cold, Frozen, burned, poisoned, and doomed status conditions on the ally."
+      }
     ],
     "details": {
       "gender": {
@@ -6075,7 +7401,7 @@
     },
     "evolutions": []
   },
-  {
+  "Nessla": {
     "id": 123,
     "name": "Nessla",
     "description": "Water and electricity are always a dangerous mix - and it's never as true as in the case of Nessla. These undulating, majestic creatures are at home in open waters, where their powerful electric discharges are most effective.",
@@ -6084,8 +7410,14 @@
       "Electric type"
     ],
     "traits": [
-      "Electric Synthesize",
-      "Hydrologist"
+      {
+        "name": "Electric Synthesize",
+        "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+      },
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -6123,7 +7455,7 @@
     },
     "evolutions": []
   },
-  {
+  "Valiar": {
     "id": 124,
     "name": "Valiar",
     "description": "Although nobody has managed to decipher their language, the Valiar are assumed to be extremely intelligent. The Arburian dons are still trying to come up with a scientific explanation for the way Valiar use their expanding ears to boost their minds.",
@@ -6131,8 +7463,14 @@
       "Mental type"
     ],
     "traits": [
-      "Effective Denial",
-      "Inhibiter"
+      {
+        "name": "Effective Denial",
+        "description": "Damage taken from effective techniques is reduced by 30%."
+      },
+      {
+        "name": "Inhibiter",
+        "description": "Once per battle, when attacking a Temtem, disables its trait."
+      }
     ],
     "details": {
       "gender": {
@@ -6170,7 +7508,7 @@
     },
     "evolutions": []
   },
-  {
+  "Pupoise": {
     "id": 125,
     "name": "Pupoise",
     "description": "Nature finds a way... particularly when Nature meets some of the most advanced circuitry. Pupoise are adaptive and are known to use simple tools and other innovations in the wild.",
@@ -6179,8 +7517,14 @@
       "Nature type"
     ],
     "traits": [
-      "Thick Skin",
-      "Amphibian"
+      {
+        "name": "Thick Skin",
+        "description": "Damage taken by Wind techniques is reduced by 50%."
+      },
+      {
+        "name": "Amphibian",
+        "description": "After being attacked with a Water technique, gets SPD and ATK."
+      }
     ],
     "details": {
       "gender": {
@@ -6223,7 +7567,7 @@
       }
     ]
   },
-  {
+  "Loatle": {
     "id": 126,
     "name": "Loatle",
     "description": "This Temtem straddles the twilight zone between natural and artificial intelligence, life and death... and the fact it resembles a dark creature from ancient lore doesn't help its reputation one bit...",
@@ -6232,8 +7576,14 @@
       "Mental type"
     ],
     "traits": [
-      "Seppuku",
-      "Voodoo"
+      {
+        "name": "Seppuku",
+        "description": "When attacking and being knocked-out due to overexertion, the target gets doomed for 2 turns."
+      },
+      {
+        "name": "Voodoo",
+        "description": "When attacking an ally, 75% of the damage is replicated to each rival."
+      }
     ],
     "details": {
       "gender": {
@@ -6271,7 +7621,7 @@
     },
     "evolutions": []
   },
-  {
+  "Kalazu": {
     "id": 127,
     "name": "Kalazu",
     "description": "Kalazu show remarkable fine motor skills with each of their tentacles. \"Send Kalazu!\" is a common expression of woe in Deniz. When you face a hard task, you might need a hand - when you need eight hands... well, you're in trouble.",
@@ -6279,8 +7629,14 @@
       "Water type"
     ],
     "traits": [
-      "Mithridatism",
-      "Hydrologist"
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      },
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -6323,7 +7679,7 @@
       }
     ]
   },
-  {
+  "Kalabyss": {
     "id": 128,
     "name": "Kalabyss",
     "description": "How did Sillarian octopoda come in contact with mutagenic material is a matter of debate, but Kalabyss stand as an example of extreme adaption to the harshest environments - they have been known to survive a swim in Xolot Reservoir.",
@@ -6332,8 +7688,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Toxic Skin",
-      "Mucous"
+      {
+        "name": "Toxic Skin",
+        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+      },
+      {
+        "name": "Mucous",
+        "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold and burned status condition."
+      }
     ],
     "details": {
       "gender": {
@@ -6371,7 +7733,7 @@
     },
     "evolutions": []
   },
-  {
+  "Adoroboros": {
     "id": 129,
     "name": "Adoroboros",
     "description": "Few Temtem are as deceptive as Adoroboros - an unusual mix of cute and deadly, combining the most sophisticated Mental tricks with the basest Toxic traits. They are a fine example of the incredible natural diversity of the Archipelago.",
@@ -6380,8 +7742,14 @@
       "Mental type"
     ],
     "traits": [
-      "Synergy Master",
-      "Toxic Skin"
+      {
+        "name": "Synergy Master",
+        "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Toxic Skin",
+        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -6419,7 +7787,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tuwai": {
     "id": 130,
     "name": "Tuwai",
     "description": "Professor Konstantinos described Tuwai as “taxonomically Wind, but also the only Denizan Temtem with meta-mimetic properties.” He theorized about the possibility of Tuwai changing dramatically “if the relevant Place of Power” could be found.",
@@ -6427,8 +7795,14 @@
       "Wind type"
     ],
     "traits": [
-      "Spoilsport",
-      "Resilient"
+      {
+        "name": "Spoilsport",
+        "description": "Damage done with multi-target techniques is increased by 25%."
+      },
+      {
+        "name": "Resilient",
+        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -6491,7 +7865,7 @@
       }
     ]
   },
-  {
+  "Tukai": {
     "id": 131,
     "name": "Tukai",
     "description": "It is unclear whether Professor Konstantinos ever discovered this evolution, with its flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
@@ -6500,8 +7874,14 @@
       "Water type"
     ],
     "traits": [
-      "Spreader",
-      "Hydrologist"
+      {
+        "name": "Spreader",
+        "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 20%."
+      },
+      {
+        "name": "Hydrologist",
+        "description": "Damage done with Water techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -6539,7 +7919,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tulcan": {
     "id": 132,
     "name": "Tulcan",
     "description": "Some Temtemologists argue that Tulcan are the remains of an extinct species endemic to the upper slopes of Anak before the breakup of the island, alluded to Myrislan myth as 'firebreezers' and Cipanki folklore as 'flame kami'.",
@@ -6548,8 +7928,14 @@
       "Fire type"
     ],
     "traits": [
-      "Heater",
-      "Pyromaniac"
+      {
+        "name": "Heater",
+        "description": "Once per battle, when entering the battlefield, all other Temtem get burned for 1 turn."
+      },
+      {
+        "name": "Pyromaniac",
+        "description": "Damage done with Fire techniques is increased by 15%."
+      }
     ],
     "details": {
       "gender": {
@@ -6587,7 +7973,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tuvine": {
     "id": 133,
     "name": "Tuvine",
     "description": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
@@ -6596,8 +7982,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Receptive",
-      "Determined"
+      {
+        "name": "Receptive",
+        "description": "When getting a favorable status condition, increases its turns by 1."
+      },
+      {
+        "name": "Determined",
+        "description": "Prevents negative stat stage changes."
+      }
     ],
     "details": {
       "gender": {
@@ -6635,7 +8027,7 @@
     },
     "evolutions": []
   },
-  {
+  "Turoc": {
     "id": 134,
     "name": "Turoc",
     "description": "Turoc is, in the words of Linnaea, \"a meeting of opposites - a flying rock, stone on wings - an impossibility, and yet, a reality (...) further proof of the marvelous diversity of Temtem lifeforms.\"",
@@ -6644,8 +8036,14 @@
       "Earth type"
     ],
     "traits": [
-      "Escapist",
-      "Tactical Strike"
+      {
+        "name": "Escapist",
+        "description": "When entering the battlefield, removes the trapped status condition on the ally and prevents the trapped status condition on the ally and itself."
+      },
+      {
+        "name": "Tactical Strike",
+        "description": "Damage done with Hold techniques is increased by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -6683,7 +8081,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tuwire": {
     "id": 135,
     "name": "Tuwire",
     "description": "One of the strangest evolutionary paths, Tuwire descends from escaped Digital Temtem crossing with wild Wind varieties. Aerodynamically speaking, they shouldn't be able to fly... but they do.",
@@ -6692,8 +8090,14 @@
       "Digital type"
     ],
     "traits": [
-      "Splitter",
-      "Common Factor"
+      {
+        "name": "Splitter",
+        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+      },
+      {
+        "name": "Common Factor",
+        "description": "When entering the battlefield, all Temtem get nullified for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -6731,7 +8135,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tutsu": {
     "id": 136,
     "name": "Tutsu",
     "description": "First described by reputed breeder Nalla of Vumbi, Tutsu is \"like a sudden storm, a nimble yet mighty bird of prey, fiery even when facing much bigger opponents\". It is said that all Tutsu are descended from Nalla's...",
@@ -6740,8 +8144,14 @@
       "Melee type"
     ],
     "traits": [
-      "Tag Team",
-      "Contemplation"
+      {
+        "name": "Tag Team",
+        "description": "Damage taken from techniques is reduced by 15% if both allies share a type."
+      },
+      {
+        "name": "Contemplation",
+        "description": "Once per battle, when resting, gets ATK and SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -6779,7 +8189,7 @@
     },
     "evolutions": []
   },
-  {
+  "Kinu": {
     "id": 137,
     "name": "Kinu",
     "description": "The elusive Kinu are some of the rarest Nature Temtem in the Myrisles - to the point that some tamers think they're a mere legend. When they do show up, Omninesians treat them with the respect reserved for the guardian spirits of the Banyan.",
@@ -6788,8 +8198,14 @@
       "Mental type"
     ],
     "traits": [
-      "Protector",
-      "Benefactor"
+      {
+        "name": "Protector",
+        "description": "Once per battle, when entering the battlefield, the ally gets DEF and SPDEF."
+      },
+      {
+        "name": "Benefactor",
+        "description": "When an ally is damaged by a technique, restores 8% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -6827,7 +8243,7 @@
     },
     "evolutions": []
   },
-  {
+  "Vulvir": {
     "id": 138,
     "name": "Vulvir",
     "description": "Some academics speculate that this is the last remnant of a long-lost \"Draconic\" variety of Temtem. In practice terms, most tamers classify them as Fire-Earth, which is an accurate designation for these mighty but shy creatures.",
@@ -6836,8 +8252,14 @@
       "Earth type"
     ],
     "traits": [
-      "Camaraderie",
-      "Caffeinated"
+      {
+        "name": "Camaraderie",
+        "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+      },
+      {
+        "name": "Caffeinated",
+        "description": "Prevents the asleep status condition."
+      }
     ],
     "details": {
       "gender": {
@@ -6880,7 +8302,7 @@
       }
     ]
   },
-  {
+  "Vulor": {
     "id": 139,
     "name": "Vulor",
     "description": "Although they hide their faces in hollow rocks like their lesser brethren, these Temtem have very little to fear from their environment. Tough as stone and destructive as fire, they are a force to be reckoned with.",
@@ -6889,8 +8311,14 @@
       "Earth type"
     ],
     "traits": [
-      "Pyromaniac",
-      "Individualist"
+      {
+        "name": "Pyromaniac",
+        "description": "Damage done with Fire techniques is increased by 15%."
+      },
+      {
+        "name": "Individualist",
+        "description": "Techniques targeting the ally will fail."
+      }
     ],
     "details": {
       "gender": {
@@ -6933,7 +8361,7 @@
       }
     ]
   },
-  {
+  "Vulcrane": {
     "id": 140,
     "name": "Vulcrane",
     "description": "Vulcrane are sometimes described as \"Anak on two legs\". If a variety of draconic-looking Temtem ever existed, they couldn't have been much fiercer than this advanced, flaming beast.",
@@ -6942,8 +8370,14 @@
       "Earth type"
     ],
     "traits": [
-      "Receptive",
-      "Vigorous"
+      {
+        "name": "Receptive",
+        "description": "When getting a favorable status condition, increases its turns by 1."
+      },
+      {
+        "name": "Vigorous",
+        "description": "Damage done when overexerting is increased by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -6981,7 +8415,7 @@
     },
     "evolutions": []
   },
-  {
+  "Pigepic": {
     "id": 141,
     "name": "Pigepic",
     "description": "The absolute favourites of toddlers all around the Archipelago, Pigepic are fluffy, soft and absolutely adorable. Voluminous and cumbersome, they normally float low over the ground, making them ideal playmates for small children.",
@@ -6989,8 +8423,14 @@
       "Wind type"
     ],
     "traits": [
-      "Friendship",
-      "Fainted Curse"
+      {
+        "name": "Friendship",
+        "description": "Immune to ally's offensive techniques."
+      },
+      {
+        "name": "Fainted Curse",
+        "description": "When knocked-out, the attacker loses 30% of max HP."
+      }
     ],
     "details": {
       "gender": {
@@ -7028,7 +8468,7 @@
     },
     "evolutions": []
   },
-  {
+  "Akranox": {
     "id": 142,
     "name": "Akranox",
     "description": "Well-armed with a mighty stinger and protected by rugged rock-like armor, Akranox can afford to have flash colored pincers and a cocky attitude, making them a favorite of Archipelagian teens.",
@@ -7037,8 +8477,14 @@
       "Toxic type"
     ],
     "traits": [
-      "Book Lungs",
-      "Cobweb"
+      {
+        "name": "Book Lungs",
+        "description": "Damage taken from Water techniques is reduced by 50%."
+      },
+      {
+        "name": "Cobweb",
+        "description": "When poisoning or attacking a poisoned Temtem, the target also gets trapped for 2 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -7076,16 +8522,23 @@
     },
     "evolutions": []
   },
-  {
+  "Koish (Neutral)": {
     "id": 143,
-    "name": "Koish",
+    "name": "Koish (Neutral)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type"
+      "Water type",
+      "Neutral type"
     ],
     "traits": [
-      "Synergy Adept",
-      "Iridescence"
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
     ],
     "details": {
       "gender": {
@@ -7123,7 +8576,600 @@
     },
     "evolutions": []
   },
-  {
+  "Koish (Wind)": {
+    "id": 143,
+    "name": "Koish (Wind)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Wind type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Earth)": {
+    "id": 143,
+    "name": "Koish (Earth)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Earth type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Water)": {
+    "id": 143,
+    "name": "Koish (Water)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Fire)": {
+    "id": 143,
+    "name": "Koish (Fire)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Fire type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Nature)": {
+    "id": 143,
+    "name": "Koish (Nature)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Nature type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Electric)": {
+    "id": 143,
+    "name": "Koish (Electric)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Electric type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Mental)": {
+    "id": 143,
+    "name": "Koish (Mental)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Mental type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Digital)": {
+    "id": 143,
+    "name": "Koish (Digital)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Digital type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Melee)": {
+    "id": 143,
+    "name": "Koish (Melee)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Melee type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Crystal)": {
+    "id": 143,
+    "name": "Koish (Crystal)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Crystal type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Koish (Toxic)": {
+    "id": 143,
+    "name": "Koish (Toxic)",
+    "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "types": [
+      "Water type",
+      "Toxic type"
+    ],
+    "traits": [
+      {
+        "name": "Synergy Adept",
+        "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+      },
+      {
+        "name": "Iridescence",
+        "description": "Type resistances for the Temtem are reversed."
+      }
+    ],
+    "details": {
+      "gender": {
+        "male": 50,
+        "female": 50
+      },
+      "catchRate": 100,
+      "height": {
+        "cm": 110,
+        "inches": 43.31
+      },
+      "weight": {
+        "kg": 63,
+        "lbs": 138.92
+      }
+    },
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 83,
+      "def": 68,
+      "spatk": 70,
+      "spdef": 54,
+      "total": 447
+    },
+    "tvs": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "evolutions": []
+  },
+  "Vulffy": {
     "id": 144,
     "name": "Vulffy",
     "description": "Extremely perceptive and aware, this species flourishes (in all senses of the word) in the great expanses of wild land - although they are inquisitive by nature, and never shy away from human contact.",
@@ -7132,8 +9178,14 @@
       "Nature type"
     ],
     "traits": [
-      "Burglar",
-      "Team Elusive"
+      {
+        "name": "Burglar",
+        "description": "When attacking an asleep or exhausted Temtem, disables its gear."
+      },
+      {
+        "name": "Team Elusive",
+        "description": "Prevents multi-target offensive techniques."
+      }
     ],
     "details": {
       "gender": {
@@ -7171,7 +9223,7 @@
     },
     "evolutions": []
   },
-  {
+  "Chubee": {
     "id": 145,
     "name": "Chubee",
     "description": "What started as an experiment in artificial pollination has resulted in the birth of this endearingly round fluffyboi. Although not great flyers, Chubee compensate their cumbersomeness with Digital reliability.",
@@ -7180,8 +9232,14 @@
       "Wind type"
     ],
     "traits": [
-      "Hover",
-      "Going Away Gift"
+      {
+        "name": "Hover",
+        "description": "Damage taken from Earth techniques is reduced by 50%."
+      },
+      {
+        "name": "Going Away Gift",
+        "description": "When knocked-out, adds the Temtem positive stat stage changes to the ally."
+      }
     ],
     "details": {
       "gender": {
@@ -7224,7 +9282,7 @@
       }
     ]
   },
-  {
+  "Waspeen": {
     "id": 146,
     "name": "Waspeen",
     "description": "Not even Professor Konstantinos could guess this evolutionary stage - while Waspeen loses its predecessors' flight, it develops powerful crystal spikes.",
@@ -7233,8 +9291,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Royal Jelly",
-      "Wax Bath"
+      {
+        "name": "Royal Jelly",
+        "description": "At the start of the turn, allies restore 5% of max HP."
+      },
+      {
+        "name": "Wax Bath",
+        "description": "When an ally rests, they get SPDEF."
+      }
     ],
     "details": {
       "gender": {
@@ -7272,7 +9336,7 @@
     },
     "evolutions": []
   },
-  {
+  "Mawtle": {
     "id": 147,
     "name": "Mawtle",
     "description": "Mawtle's smiley face has become a meme amongst the youngest generation of every Dojo, making this species feel hackneyed to some. Regardless of any fads, it remains a solid choice for any tamer, as well as a tech wonder.",
@@ -7281,8 +9345,14 @@
       "Nature type"
     ],
     "traits": [
-      "Mithridatism",
-      "Body Stretch"
+      {
+        "name": "Mithridatism",
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+      },
+      {
+        "name": "Body Stretch",
+        "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn."
+      }
     ],
     "details": {
       "gender": {
@@ -7325,7 +9395,7 @@
       }
     ]
   },
-  {
+  "Mawmense": {
     "id": 148,
     "name": "Mawmense",
     "description": "Visesia herself rides a Mawmense into battle in \"Endaira II\", making it extremely cool and sought-after. Temtemologists argue it's an anachronism, since this is a very recent variety... but who listens to Temtemologists anyway?",
@@ -7334,8 +9404,14 @@
       "Nature type"
     ],
     "traits": [
-      "Viral Combustion",
-      "Refurbished"
+      {
+        "name": "Viral Combustion",
+        "description": "When getting a poison status condition, the attacker gets burned for 4 turns."
+      },
+      {
+        "name": "Refurbished",
+        "description": "Once per battle, regenerating for 4 turns after 3 consecutive turns on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -7373,7 +9449,7 @@
     },
     "evolutions": []
   },
-  {
+  "Hazrat": {
     "id": 149,
     "name": "Hazrat",
     "description": "If Temtem can develop in the Xolot Reservoir, why wouldn't they thrive in the sewers of Properton? WARNING: all specimens of this species are required to undergo a Dojo-approved detox process to make them safe to handle.",
@@ -7382,8 +9458,14 @@
       "Fire type"
     ],
     "traits": [
-      "Contagious",
-      "Toxic Farewell"
+      {
+        "name": "Contagious",
+        "description": "When a rival exits the battlefield, they get poisoned for 1 turn."
+      },
+      {
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+      }
     ],
     "details": {
       "gender": {
@@ -7421,7 +9503,7 @@
     },
     "evolutions": []
   },
-  {
+  "Minttle": {
     "id": 150,
     "name": "Minttle",
     "description": "A sweet, innocent appearance that conceals a great brainpower, this species has roamed the Greenglen Forest for centuries in small herds, grazing peacefully in the undergrowth and following the bigger Minox.",
@@ -7429,8 +9511,14 @@
       "Mental type"
     ],
     "traits": [
-      "Withdrawal",
-      "Relaxed"
+      {
+        "name": "Withdrawal",
+        "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions."
+      },
+      {
+        "name": "Relaxed",
+        "description": "Restores 15% of max HP after not receiving any rival attacks during the turn."
+      }
     ],
     "details": {
       "gender": {
@@ -7473,7 +9561,7 @@
       }
     ]
   },
-  {
+  "Minox": {
     "id": 151,
     "name": "Minox",
     "description": "Charles Temwin developed his theory of Temtem evolution by establishing a genetic link between the little, gentle Minttle and this mighty, bullish evolutionary stage.",
@@ -7482,8 +9570,14 @@
       "Electric type"
     ],
     "traits": [
-      "Body Stretch",
-      "Unnoticed"
+      {
+        "name": "Body Stretch",
+        "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn."
+      },
+      {
+        "name": "Unnoticed",
+        "description": "Gets SPD after not receiving any rival attacks during the turn."
+      }
     ],
     "details": {
       "gender": {
@@ -7526,7 +9620,7 @@
       }
     ]
   },
-  {
+  "Minothor": {
     "id": 152,
     "name": "Minothor",
     "description": "Some of the oldest cave paintings in the Chini Grotto are said to represent prehistorical Minothor. Its ability to transform Mental power into electricity and vice versa must have looked like magic to early humans...",
@@ -7535,8 +9629,14 @@
       "Electric type"
     ],
     "traits": [
-      "Ruminant",
-      "Rusher"
+      {
+        "name": "Ruminant",
+        "description": "When attacking a Nature Temtem rival, gets regenerating for 2 turns."
+      },
+      {
+        "name": "Rusher",
+        "description": "When the Temtem exits the battlefield, gets SPD, and when a rival enters the battlefield, gets SPD."
+      }
     ],
     "details": {
       "gender": {
@@ -7574,7 +9674,7 @@
     },
     "evolutions": []
   },
-  {
+  "Maoala": {
     "id": 153,
     "name": "Maoala",
     "description": "A favorite of Lochburgian tamers, Maoala are companionable Temtem, always up for a fun party or a hearty battle, equally at home in the dojo and in the pub.",
@@ -7583,8 +9683,14 @@
       "Mental type"
     ],
     "traits": [
-      "Hypnotist",
-      "Haka"
+      {
+        "name": "Hypnotist",
+        "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn."
+      },
+      {
+        "name": "Haka",
+        "description": "Once per battle, when entering the battlefield, the ally gets ATK and SPATK."
+      }
     ],
     "details": {
       "gender": {
@@ -7622,7 +9728,7 @@
     },
     "evolutions": []
   },
-  {
+  "Venx": {
     "id": 154,
     "name": "Venx",
     "description": "This cute little warrior is popular among young tamers, who love to customize their own with bandages of different colors and patterns. Some Dojos are enforcing a more formal white-bandage code for serious competition.",
@@ -7630,8 +9736,14 @@
       "Neutral type"
     ],
     "traits": [
-      "Parrier",
-      "Arcane Wrap"
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      },
+      {
+        "name": "Arcane Wrap",
+        "description": "Damage taken from special techniques is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -7678,7 +9790,7 @@
       }
     ]
   },
-  {
+  "Venmet": {
     "id": 155,
     "name": "Venmet",
     "description": "Sometimes more is more – and this evolution makes for a winning combination of resilience and sheer power. Some historians suggest this species was widely used by reivers on both sides during the turbulent era of Chieftain Mac Aed.",
@@ -7687,8 +9799,14 @@
       "Melee type"
     ],
     "traits": [
-      "Parrier",
-      "Aggressor"
+      {
+        "name": "Parrier",
+        "description": "Damage taken from physical techniques is reduced by 20%."
+      },
+      {
+        "name": "Aggressor",
+        "description": "When entering the battlefield, gets ATK and DEF."
+      }
     ],
     "details": {
       "gender": {
@@ -7726,7 +9844,7 @@
     },
     "evolutions": []
   },
-  {
+  "Vental": {
     "id": 156,
     "name": "Vental",
     "description": "Lady Cathrine of Properton herself popularized this species among the fashionable tamers of her age. Nowadays, it is considered one of the timeless classics of Arburian Temtem breeds.",
@@ -7735,8 +9853,14 @@
       "Mental type"
     ],
     "traits": [
-      "Spiritual",
-      "Arcane Wrap"
+      {
+        "name": "Spiritual",
+        "description": "When entering the battlefield, gets SPATK and SPDEF."
+      },
+      {
+        "name": "Arcane Wrap",
+        "description": "Damage taken from special techniques is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -7774,7 +9898,7 @@
     },
     "evolutions": []
   },
-  {
+  "Chimurian": {
     "id": 157,
     "name": "Chimurian",
     "description": "Some urban legends claim this variety wasn't tamed or bred as much as extracted from mineral ores in the deepest pits of Quetzal. Just how its roots interface with the crystals of its body is still a subject of scientific study.",
@@ -7783,8 +9907,14 @@
       "Crystal type"
     ],
     "traits": [
-      "Disgrace",
-      "Hostile"
+      {
+        "name": "Disgrace",
+        "description": "When a rival exits the battlefield, they get DEF and SPDEF."
+      },
+      {
+        "name": "Hostile",
+        "description": "Once per battle, when entering the battlefield, gets ATK and SPATK."
+      }
     ],
     "details": {
       "gender": {
@@ -7822,7 +9952,7 @@
     },
     "evolutions": []
   },
-  {
+  "Arachnyte": {
     "id": 158,
     "name": "Arachnyte",
     "description": "With way too many legs for anyone's liking, Arachnyte includes multi-core processing to coordinate movement, visual input, and combat subroutines - all in one efficient package of Arburian design.",
@@ -7831,8 +9961,14 @@
       "Digital type"
     ],
     "traits": [
-      "Digi-Protection",
-      "Adaptive"
+      {
+        "name": "Digi-Protection",
+        "description": "Damage taken from Digital techniques is reduced by 75%."
+      },
+      {
+        "name": "Adaptive",
+        "description": "Once per battle, after being attacked, changes the Temtem's second type to the type of the received technique and gets SPATK."
+      }
     ],
     "details": {
       "gender": {
@@ -7870,7 +10006,7 @@
     },
     "evolutions": []
   },
-  {
+  "Thaiko": {
     "id": 159,
     "name": "Thaiko",
     "description": "Developed as a joint project between Lochburg and Neoedo, this little furry bruiser combines feline breeding savoir-faire with cutting edge technology. A hotfix to prevent hairballs is expected any time now.",
@@ -7879,8 +10015,14 @@
       "Melee type"
     ],
     "traits": [
-      "Zen",
-      "Mental Alliance"
+      {
+        "name": "Zen",
+        "description": "When getting an asleep status condition, gets DEF and SPDEF."
+      },
+      {
+        "name": "Mental Alliance",
+        "description": "Increases SPATK by 15% if ally is Mental."
+      }
     ],
     "details": {
       "gender": {
@@ -7923,7 +10065,7 @@
       }
     ]
   },
-  {
+  "Monkko": {
     "id": 160,
     "name": "Monkko",
     "description": "Advanced martial arts training after breeding ensures that this Temtem is a cut above its less educated predecessors. Although the priests of Miyako frown at new Temtem species, Monkko's kung-fu is based on their techniques.",
@@ -7932,8 +10074,14 @@
       "Melee type"
     ],
     "traits": [
-      "Meditation",
-      "Shaolin"
+      {
+        "name": "Meditation",
+        "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn."
+      },
+      {
+        "name": "Shaolin",
+        "description": "Damage done with special techniques is increased by 10%."
+      }
     ],
     "details": {
       "gender": {
@@ -7971,7 +10119,7 @@
     },
     "evolutions": []
   },
-  {
+  "Anahir": {
     "id": 161,
     "name": "Anahir",
     "description": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
@@ -7980,8 +10128,14 @@
       "Fire type"
     ],
     "traits": [
-      "Trauma",
-      "Flawed Crystal"
+      {
+        "name": "Trauma",
+        "description": "After being attacked if hit by a Physical technique gets DEF; if hit by a Special technique, SPDEF."
+      },
+      {
+        "name": "Flawed Crystal",
+        "description": "Damage taken from Mental, Toxic, or Electric techniques is increased by 50%."
+      }
     ],
     "details": {
       "gender": {
@@ -8024,7 +10178,7 @@
       }
     ]
   },
-  {
+  "Anatan": {
     "id": 162,
     "name": "Anatan",
     "description": "Through the care and kindness of its tamer, Anahir overcame its traumatic origins. This happy Anatan stands as living proof of the healing power of love.",
@@ -8033,8 +10187,14 @@
       "Fire type"
     ],
     "traits": [
-      "Self-Care",
-      "Protective Crystal"
+      {
+        "name": "Self-Care",
+        "description": "When attacked with a physical or special technique, gets regenerating for 1 turn."
+      },
+      {
+        "name": "Protective Crystal",
+        "description": "When an ally is damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
+      }
     ],
     "details": {
       "gender": {
@@ -8072,7 +10232,7 @@
     },
     "evolutions": []
   },
-  {
+  "Tyranak": {
     "id": 163,
     "name": "Tyranak",
     "description": "Probably the last living relic from a distant pre-human past, when MegaTem roamed the unbroken Paninsula. Most Temtemologists considered it to be cryptofauna until... well, until now.",
@@ -8081,8 +10241,14 @@
       "Nature type"
     ],
     "traits": [
-      "Intimidator",
-      "Frightening"
+      {
+        "name": "Intimidator",
+        "description": "Traits from the rivals and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+      },
+      {
+        "name": "Frightening",
+        "description": "Gears from the rival and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+      }
     ],
     "details": {
       "gender": {
@@ -8120,7 +10286,7 @@
     },
     "evolutions": []
   },
-  {
+  "Volgon": {
     "id": 164,
     "name": "Volgon",
     "description": "In Cipanki lore, dragons are born of lightning to roam the vast reaches of heaven. Sometimes, a curious member of their race will visit the Archipelago and befriend a human. They are never considered \"tamed\" - they merely consent to accompanying a tamer for a few years or even decades.",
@@ -8128,8 +10294,14 @@
       "Electric type"
     ],
     "traits": [
-      "Short Circuit",
-      "Superconductivity"
+      {
+        "name": "Short Circuit",
+        "description": "Prevents all stat changes on all Temtem."
+      },
+      {
+        "name": "Superconductivity",
+        "description": "When an ally uses a technique, the temtem counts as all types for its synergy."
+      }
     ],
     "details": {
       "gender": {
@@ -8167,4 +10339,4 @@
     },
     "evolutions": []
   }
-]
+}
