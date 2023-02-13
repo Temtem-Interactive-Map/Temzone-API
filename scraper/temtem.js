@@ -1,56 +1,36 @@
+import { findTrait } from "./traits.js";
 import { cleanText, scrape } from "./utils/index.js";
 
 export async function getAllTemtem() {
-  const results = [];
+  const creatures = {};
   const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
 
   for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
     const href = $(el).attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    let types;
+    let types = [""];
 
-    switch (href) {
-      case "/wiki/Chromeon":
-        types = [
-          "",
-          "Neutral",
-          "Wind",
-          "Earth",
-          "Water",
-          "Fire",
-          "Nature",
-          "Electric",
-          "Mental",
-          "Melee",
-          "Crystal",
-          "Toxic",
-        ];
-        break;
-      case "/wiki/Koish":
-        types = [
-          "",
-          "Neutral",
-          "Wind",
-          "Earth",
-          "Fire",
-          "Nature",
-          "Electric",
-          "Mental",
-          "Digital",
-          "Melee",
-          "Crystal",
-          "Toxic",
-        ];
-        break;
-      default:
-        types = [""];
-        break;
+    if (href === "/wiki/Chromeon" || href === "/wiki/Koish") {
+      types = [
+        "Neutral",
+        "Wind",
+        "Earth",
+        "Water",
+        "Fire",
+        "Nature",
+        "Electric",
+        "Mental",
+        "Digital",
+        "Melee",
+        "Crystal",
+        "Toxic",
+      ];
     }
 
     types.forEach((subtype) => {
       const temtem = new Temtem($temtem, subtype);
 
-      results.push({
+      creatures[temtem.name] = {
         id: temtem.id,
         name: temtem.name,
         description: temtem.description,
@@ -65,11 +45,11 @@ export async function getAllTemtem() {
         stats: temtem.stats,
         tvs: temtem.tvs,
         evolutions: temtem.evolutions,
-      });
+      };
     });
   }
 
-  return results;
+  return creatures;
 }
 
 class Temtem {
@@ -91,15 +71,12 @@ class Temtem {
   }
 
   get name() {
-    const rawName =
-      this.$(
-        "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
-      ).text() +
-      " " +
-      this.subtype;
+    const rawName = this.$(
+      "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
+    ).text();
     const name = cleanText(rawName);
 
-    return name;
+    return this.subtype === "" ? name : name + " (" + this.subtype + ")";
   }
 
   get description() {
@@ -121,7 +98,7 @@ class Temtem {
         return type;
       });
 
-    if (this.subtype !== "") {
+    if (this.subtype !== "" && !types.includes(this.subtype + " type")) {
       types.push(this.subtype + " type");
     }
 
@@ -137,7 +114,7 @@ class Temtem {
         const rawTrait = this.$(el).text();
         const trait = cleanText(rawTrait);
 
-        return trait;
+        return findTrait(trait);
       });
 
     return traits;
