@@ -1,30 +1,71 @@
 import { cleanText, scrape } from "./utils/index.js";
 
-export async function getAllTemtem($) {
+export async function getAllTemtem() {
   const results = [];
-  const $rows = $("table.wikitable > tbody > tr > td:nth-child(2) > a");
+  const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
 
-  for (const el of $rows) {
-    const $el = $(el);
-    const href = $el.attr("href");
+  for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
+    const href = $(el).attr("href");
     const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    const temtem = new Temtem($temtem);
+    let types;
 
-    results.push({
-      id: temtem.id,
-      name: temtem.name,
-      description: temtem.description,
-      types: temtem.types,
-      traits: temtem.traits,
-      details: {
-        gender: temtem.gender,
-        catchRate: temtem.catchRate,
-        height: temtem.height,
-        weight: temtem.weight,
-      },
-      stats: temtem.stats,
-      tvs: temtem.tvs,
-      evolutions: temtem.evolutions,
+    switch (href) {
+      case "/wiki/Chromeon":
+        types = [
+          "",
+          "Neutral",
+          "Wind",
+          "Earth",
+          "Water",
+          "Fire",
+          "Nature",
+          "Electric",
+          "Mental",
+          "Melee",
+          "Crystal",
+          "Toxic",
+        ];
+        break;
+      case "/wiki/Koish":
+        types = [
+          "",
+          "Neutral",
+          "Wind",
+          "Earth",
+          "Fire",
+          "Nature",
+          "Electric",
+          "Mental",
+          "Digital",
+          "Melee",
+          "Crystal",
+          "Toxic",
+        ];
+        break;
+      default:
+        types = [""];
+        break;
+    }
+
+    types.forEach((subtype) => {
+      const temtem = new Temtem($temtem, subtype);
+
+      results.push({
+        id: temtem.id,
+        name: temtem.name,
+        description: temtem.description,
+        types: temtem.types,
+        traits: temtem.traits,
+        details: {
+          gender: temtem.gender,
+          catchRate: temtem.catchRate,
+          height: temtem.height,
+          weight: temtem.weight,
+        },
+        stats: temtem.stats,
+        tvs: temtem.tvs,
+        evolutions: temtem.evolutions,
+      });
     });
   }
 
@@ -32,8 +73,9 @@ export async function getAllTemtem($) {
 }
 
 class Temtem {
-  constructor($) {
+  constructor($, subtype) {
     this.$ = $;
+    this.subtype = subtype;
   }
 
   get id() {
@@ -49,9 +91,12 @@ class Temtem {
   }
 
   get name() {
-    const rawName = this.$(
-      "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
-    ).text();
+    const rawName =
+      this.$(
+        "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
+      ).text() +
+      " " +
+      this.subtype;
     const name = cleanText(rawName);
 
     return name;
@@ -75,6 +120,10 @@ class Temtem {
 
         return type;
       });
+
+    if (this.subtype !== "") {
+      types.push(this.subtype + " type");
+    }
 
     return types;
   }
@@ -221,6 +270,7 @@ class Temtem {
 
         return condition;
       });
+
     const evolutions = this.$(
       "div.infobox.temtem > table > tbody > tr:contains('Evolves to') > td > a"
     )
