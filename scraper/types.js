@@ -1,7 +1,12 @@
 import { join } from "node:path";
 import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import { cleanText, getUrlExtension, scrape } from "./utils/index.js";
+import {
+  cleanText,
+  generateFileName,
+  scrape,
+  shortUrl,
+} from "./utils/index.js";
 
 export class TypesDB {
   static async scrape() {
@@ -21,11 +26,11 @@ export class TypesDB {
       const rawName = $el.attr("title");
       const name = cleanText(rawName);
       const rawUrl = $el.find("img").attr("src");
-      const url = cleanText(rawUrl);
-      const extension = getUrlExtension(url);
-      const fileName = name.replace(" ", "-").toLowerCase() + "." + extension;
+      const cleanUrl = cleanText(rawUrl);
+      const url = shortUrl(cleanUrl);
+      const fileName = generateFileName(url);
 
-      logWarning("- Writing [" + fileName + "] to database...");
+      logWarning("- Writing [" + fileName + "] to assets...");
       await writeDBImage(
         join("types", fileName),
         "https://temtem.wiki.gg/" + url
