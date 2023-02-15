@@ -1,0 +1,726 @@
+{
+  "Adaptive": {
+    "name": "Adaptive",
+    "description": "Once per battle, after being attacked, changes the Temtem's second type to the type of the received technique and gets SPATK."
+  },
+  "Aerobic": {
+    "name": "Aerobic",
+    "description": "After attacking with a Wind technique, gets SPDEF and SPD."
+  },
+  "Aggressor": {
+    "name": "Aggressor",
+    "description": "When entering the battlefield, gets ATK and DEF."
+  },
+  "Air Specialist": {
+    "name": "Air Specialist",
+    "description": "Damage done with Wind techniques is increased by 15%."
+  },
+  "Amphibian": {
+    "name": "Amphibian",
+    "description": "After being attacked with a Water technique, gets SPD and ATK."
+  },
+  "Anaerobic": {
+    "name": "Anaerobic",
+    "description": "After attacking with a Toxic technique, gets SPDEF and SPATK."
+  },
+  "Antibodies": {
+    "name": "Antibodies",
+    "description": "When attacked with an Toxic technique, gets DEF and SPDEF."
+  },
+  "Apothecary": {
+    "name": "Apothecary",
+    "description": "After attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself."
+  },
+  "Arcane Wrap": {
+    "name": "Arcane Wrap",
+    "description": "Damage taken from special techniques is reduced by 20%."
+  },
+  "Attack<T>": {
+    "name": "Attack<T>",
+    "description": "Changes the Temtem's second type to the type of the technique it's about to use."
+  },
+  "Autotomy": {
+    "name": "Autotomy",
+    "description": "Once per battle, when entering the battlefield, gets evading for 2 turns."
+  },
+  "Avenger": {
+    "name": "Avenger",
+    "description": "When an ally is knocked-out, gets SPATK and SPD."
+  },
+  "Benefactor": {
+    "name": "Benefactor",
+    "description": "When an ally is damaged by a technique, restores 8% of max HP."
+  },
+  "Body Stretch": {
+    "name": "Body Stretch",
+    "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn."
+  },
+  "Book Lungs": {
+    "name": "Book Lungs",
+    "description": "Damage taken from Water techniques is reduced by 50%."
+  },
+  "Botanist": {
+    "name": "Botanist",
+    "description": "Damage done with Nature techniques is increased by 15%."
+  },
+  "Botanophobia": {
+    "name": "Botanophobia",
+    "description": "Damage taken from Nature techniques is increased by 50%."
+  },
+  "Brawny": {
+    "name": "Brawny",
+    "description": "Damage done with physical techniques is increased by 15%."
+  },
+  "Bruiser": {
+    "name": "Bruiser",
+    "description": "Damage done with Melee techniques is increased by 15%."
+  },
+  "Brumation": {
+    "name": "Brumation",
+    "description": "When resting, gets DEF and -1 hold."
+  },
+  "Bully": {
+    "name": "Bully",
+    "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+  },
+  "Burglar": {
+    "name": "Burglar",
+    "description": "When attacking an asleep or exhausted Temtem, disables its gear."
+  },
+  "Caffeinated": {
+    "name": "Caffeinated",
+    "description": "Prevents the asleep status condition."
+  },
+  "Callosity": {
+    "name": "Callosity",
+    "description": "After being attacked with a physical technique, gets DEF."
+  },
+  "Camaraderie": {
+    "name": "Camaraderie",
+    "description": "When attacked, reduces damage taken by 50% if both allies are part of the same evolutionary line."
+  },
+  "Camouflage": {
+    "name": "Camouflage",
+    "description": "When attacked with a physical technique, gets evading for 2 turns."
+  },
+  "Channeler": {
+    "name": "Channeler",
+    "description": "Damage done with special techniques is increased by 25%."
+  },
+  "Cobweb": {
+    "name": "Cobweb",
+    "description": "When poisoning or attacking a poisoned Temtem, the target also gets trapped for 2 turns."
+  },
+  "Cold-Blooded": {
+    "name": "Cold-Blooded",
+    "description": "Instead of getting cold or frozen, the Temtem regenerates for 1 turn."
+  },
+  "Cold-Natured": {
+    "name": "Cold-Natured",
+    "description": "Instead of getting cold, the Temtem gets frozen."
+  },
+  "Comebacker": {
+    "name": "Comebacker",
+    "description": "When damaged by a technique, damage done to the attacker is increased by 32% during the same turn."
+  },
+  "Common Factor": {
+    "name": "Common Factor",
+    "description": "When entering the battlefield, all Temtem get nullified for 2 turns."
+  },
+  "Confident": {
+    "name": "Confident",
+    "description": "When using an effective or super effective technique, gets SPD."
+  },
+  "Confined": {
+    "name": "Confined",
+    "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself."
+  },
+  "Contagious": {
+    "name": "Contagious",
+    "description": "When a rival exits the battlefield, they get poisoned for 1 turn."
+  },
+  "Contemplation": {
+    "name": "Contemplation",
+    "description": "Once per battle, when resting, gets ATK and SPD."
+  },
+  "Coward's Rest": {
+    "name": "Coward's Rest",
+    "description": "When resting, gets evading and invigorated for 2 turns."
+  },
+  "Deceit Aura": {
+    "name": "Deceit Aura",
+    "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. And while HP is full, when entering the battlefield, loses 50%."
+  },
+  "Defuser": {
+    "name": "Defuser",
+    "description": "When attacking with a physical technique, the target gets seized for 3 turns."
+  },
+  "Demoralize": {
+    "name": "Demoralize",
+    "description": "When entering the battlefield, rivals get SPD."
+  },
+  "Determined": {
+    "name": "Determined",
+    "description": "Prevents negative stat stage changes."
+  },
+  "Digi-Protection": {
+    "name": "Digi-Protection",
+    "description": "Damage taken from Digital techniques is reduced by 75%."
+  },
+  "Disgrace": {
+    "name": "Disgrace",
+    "description": "When a rival exits the battlefield, they get DEF and SPDEF."
+  },
+  "Dozing Hit": {
+    "name": "Dozing Hit",
+    "description": "After using an effective or super-effective technique, the target gets asleep for 1 turn."
+  },
+  "Dreaded Alarm": {
+    "name": "Dreaded Alarm",
+    "description": "When a rival rests, they lose 25% of max HP."
+  },
+  "Earthbound": {
+    "name": "Earthbound",
+    "description": "After attacking with a Earth technique, gets DEF."
+  },
+  "Effective Denial": {
+    "name": "Effective Denial",
+    "description": "Damage taken from effective techniques is reduced by 30%."
+  },
+  "Efficient": {
+    "name": "Efficient",
+    "description": "When attacking, STA cost is reduced by 30%."
+  },
+  "Electric Custodian": {
+    "name": "Electric Custodian",
+    "description": "Electric techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+  },
+  "Electric Synthesize": {
+    "name": "Electric Synthesize",
+    "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+  },
+  "Energized": {
+    "name": "Energized",
+    "description": "At the start of the turn, restores 6% of max HP."
+  },
+  "Energy Reserves": {
+    "name": "Energy Reserves",
+    "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns."
+  },
+  "Enraged": {
+    "name": "Enraged",
+    "description": "While HP is below 30%, damage done is increased by 30%."
+  },
+  "Escapist": {
+    "name": "Escapist",
+    "description": "When entering the battlefield, removes the trapped status condition on the ally and prevents the trapped status condition on the ally and itself."
+  },
+  "Fainted Curse": {
+    "name": "Fainted Curse",
+    "description": "When knocked-out, the attacker loses 30% of max HP."
+  },
+  "Fast Charge": {
+    "name": "Fast Charge",
+    "description": "Once per battle, when a Digital ally enters the battlefield, gets SPD."
+  },
+  "Fever Rush": {
+    "name": "Fever Rush",
+    "description": "When getting a status condition, gets ATK."
+  },
+  "Final Stand": {
+    "name": "Final Stand",
+    "description": "At the start of the turn, while HP is below 30%, gets DEF and SPDEF."
+  },
+  "Flawed Crystal": {
+    "name": "Flawed Crystal",
+    "description": "Damage taken from Mental, Toxic, or Electric techniques is increased by 50%."
+  },
+  "Friendship": {
+    "name": "Friendship",
+    "description": "Immune to ally's offensive techniques."
+  },
+  "Frightening": {
+    "name": "Frightening",
+    "description": "Gears from the rival and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+  },
+  "Furor": {
+    "name": "Furor",
+    "description": "When HP is below 33%, techniques do 33% more damage."
+  },
+  "Going Away Gift": {
+    "name": "Going Away Gift",
+    "description": "When knocked-out, adds the Temtem positive stat stage changes to the ally."
+  },
+  "Good Friend": {
+    "name": "Good Friend",
+    "description": "After the ally receives a rival attack, the next one during the same turn gets redirected to the Temtem."
+  },
+  "Gotta Go Fast": {
+    "name": "Gotta Go Fast",
+    "description": "Changes the Temtem's very low, low and normal priority techniques to high priority."
+  },
+  "Guardian": {
+    "name": "Guardian",
+    "description": "Prevents negative stat stage changes and the cold, Frozen, burned, poisoned, and doomed status conditions on the ally."
+  },
+  "Haka": {
+    "name": "Haka",
+    "description": "Once per battle, when entering the battlefield, the ally gets ATK and SPATK."
+  },
+  "Half Full": {
+    "name": "Half Full",
+    "description": "Once per battle and while HP is full, when entering the battlefield, loses 50% of max HP and gets ATK, DEF, SPATK, and SPDEF."
+  },
+  "Heat Discharge": {
+    "name": "Heat Discharge",
+    "description": "When knocked-out, the attacker gets burned for 3 turns."
+  },
+  "Heater": {
+    "name": "Heater",
+    "description": "Once per battle, when entering the battlefield, all other Temtem get burned for 1 turn."
+  },
+  "Hostile": {
+    "name": "Hostile",
+    "description": "Once per battle, when entering the battlefield, gets ATK and SPATK."
+  },
+  "Hover": {
+    "name": "Hover",
+    "description": "Damage taken from Earth techniques is reduced by 50%."
+  },
+  "Hurry-wart": {
+    "name": "Hurry-wart",
+    "description": "When entering the battlefield, the Temtem gets -1 Hold."
+  },
+  "Hydrologist": {
+    "name": "Hydrologist",
+    "description": "Damage done with Water techniques is increased by 15%."
+  },
+  "Hypnotist": {
+    "name": "Hypnotist",
+    "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn."
+  },
+  "Ignis Fatuus": {
+    "name": "Ignis Fatuus",
+    "description": "When another Temtem is knocked-out, gets evading for 1 turn."
+  },
+  "Immunity": {
+    "name": "Immunity",
+    "description": "Resists damage from Toxic techniques and prevents poisoned."
+  },
+  "Individualist": {
+    "name": "Individualist",
+    "description": "Techniques targeting the ally will fail."
+  },
+  "Inductor": {
+    "name": "Inductor",
+    "description": "After attacking with a Electric technique, restores 8% of max HP."
+  },
+  "Infectious": {
+    "name": "Infectious",
+    "description": "Invalidates the regenerating effect on rivals."
+  },
+  "Inhibiter": {
+    "name": "Inhibiter",
+    "description": "Once per battle, when attacking a Temtem, disables its trait."
+  },
+  "Inner Shield": {
+    "name": "Inner Shield",
+    "description": "Prevents Rival status techniques."
+  },
+  "Intimidator": {
+    "name": "Intimidator",
+    "description": "Traits from the rivals and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+  },
+  "Iridescence": {
+    "name": "Iridescence",
+    "description": "Type resistances for the Temtem are reversed."
+  },
+  "Kinetic Transfer": {
+    "name": "Kinetic Transfer",
+    "description": "When attacked, restores 10% of max STA and the attacker loses 10% of max STA."
+  },
+  "Landing Transmog": {
+    "name": "Landing Transmog",
+    "description": "When entering the battlefield, Mimit transforms into the next Temtem in clockwise order."
+  },
+  "Last Rush": {
+    "name": "Last Rush",
+    "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+  },
+  "Loneliness": {
+    "name": "Loneliness",
+    "description": "Synergies won't work on both allies."
+  },
+  "Marathonist": {
+    "name": "Marathonist",
+    "description": "When attacking, gets SPD, and STA cost is reduced by 50%."
+  },
+  "Meditation": {
+    "name": "Meditation",
+    "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn."
+  },
+  "Mental Alliance": {
+    "name": "Mental Alliance",
+    "description": "Increases SPATK by 15% if ally is Mental."
+  },
+  "Mineral Crusher": {
+    "name": "Mineral Crusher",
+    "description": "Damage done to Earth or Crystal Temtem is increased by 25%."
+  },
+  "Mirroring": {
+    "name": "Mirroring",
+    "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+  },
+  "Mithridatism": {
+    "name": "Mithridatism",
+    "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+  },
+  "Motivator": {
+    "name": "Motivator",
+    "description": "At the start of the turn, allies restore 10% of max STA."
+  },
+  "Mucous": {
+    "name": "Mucous",
+    "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold and burned status condition."
+  },
+  "Neurotoxins": {
+    "name": "Neurotoxins",
+    "description": "Instead of applying poison, the target gets doomed for 4 turns instead."
+  },
+  "Neutrality": {
+    "name": "Neutrality",
+    "description": "Prevent all negative status conditions."
+  },
+  "Parrier": {
+    "name": "Parrier",
+    "description": "Damage taken from physical techniques is reduced by 20%."
+  },
+  "Patient": {
+    "name": "Patient",
+    "description": "Restores 15% of max STA when using a Hold technique."
+  },
+  "Physgulp": {
+    "name": "Physgulp",
+    "description": "When attacked with a physical technique, restores 8% of max HP."
+  },
+  "Physmaster": {
+    "name": "Physmaster",
+    "description": "Damage done with physical techniques is increased by 50%."
+  },
+  "Pigment Inverter": {
+    "name": "Pigment Inverter",
+    "description": "When attacking, type resistances for the target Temtem are reversed."
+  },
+  "Plethoric": {
+    "name": "Plethoric",
+    "description": "Increases SPD by 30% while HP is over 70%."
+  },
+  "Power Nap": {
+    "name": "Power Nap",
+    "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem."
+  },
+  "Predatory": {
+    "name": "Predatory",
+    "description": "Restores HP by 30% upon knocking out a Temtem."
+  },
+  "Prideful": {
+    "name": "Prideful",
+    "description": "When attacking, gets ATK, SPATK and SPD if the target gets knocked-out."
+  },
+  "Protective Crystal": {
+    "name": "Protective Crystal",
+    "description": "When an ally is damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
+  },
+  "Protector": {
+    "name": "Protector",
+    "description": "Once per battle, when entering the battlefield, the ally gets DEF and SPDEF."
+  },
+  "Provident": {
+    "name": "Provident",
+    "description": "After being attacked with a Fire, Earth or Melee technique, gets SPDEF."
+  },
+  "Punch Bag": {
+    "name": "Punch Bag",
+    "description": "Damage taken from Melee techniques is reduced by 30%."
+  },
+  "Puppet Master": {
+    "name": "Puppet Master",
+    "description": "While HP is below 40%, received rival techniques get redirected to the ally."
+  },
+  "Pyromaniac": {
+    "name": "Pyromaniac",
+    "description": "Damage done with Fire techniques is increased by 15%."
+  },
+  "Receptive": {
+    "name": "Receptive",
+    "description": "When getting a favorable status condition, increases its turns by 1."
+  },
+  "Refurbished": {
+    "name": "Refurbished",
+    "description": "Once per battle, regenerating for 4 turns after 3 consecutive turns on the battlefield."
+  },
+  "Rejuvenate": {
+    "name": "Rejuvenate",
+    "description": "After attacking with a special technique, restores 8% of max HP."
+  },
+  "Relaxed": {
+    "name": "Relaxed",
+    "description": "Restores 15% of max HP after not receiving any rival attacks during the turn."
+  },
+  "Resilient": {
+    "name": "Resilient",
+    "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+  },
+  "Resistant": {
+    "name": "Resistant",
+    "description": "When getting a negative status condition, decreases its turns by 1."
+  },
+  "Rested": {
+    "name": "Rested",
+    "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+  },
+  "Royal Jelly": {
+    "name": "Royal Jelly",
+    "description": "At the start of the turn, allies restore 5% of max HP."
+  },
+  "Ruminant": {
+    "name": "Ruminant",
+    "description": "When attacking a Nature Temtem rival, gets regenerating for 2 turns."
+  },
+  "Rusher": {
+    "name": "Rusher",
+    "description": "When the Temtem exits the battlefield, gets SPD, and when a rival enters the battlefield, gets SPD."
+  },
+  "Scavenger": {
+    "name": "Scavenger",
+    "description": "Restores 17% of max HP if another Temtem is knocked-out."
+  },
+  "Seismic": {
+    "name": "Seismic",
+    "description": "When entering the battlefield, rivals lose 7% of their max HP. This effect cannot knock out Temtem."
+  },
+  "Self-Care": {
+    "name": "Self-Care",
+    "description": "When attacked with a physical or special technique, gets regenerating for 1 turn."
+  },
+  "Self-Esteem": {
+    "name": "Self-Esteem",
+    "description": "When attacking, removes all negative status conditions if the target gets knocked-out."
+  },
+  "Sensei": {
+    "name": "Sensei",
+    "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a Special technique, uses the ATK."
+  },
+  "Sentinel": {
+    "name": "Sentinel",
+    "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself."
+  },
+  "Seppuku": {
+    "name": "Seppuku",
+    "description": "When attacking and being knocked-out due to overexertion, the target gets doomed for 2 turns."
+  },
+  "Settling": {
+    "name": "Settling",
+    "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+  },
+  "Shaolin": {
+    "name": "Shaolin",
+    "description": "Damage done with special techniques is increased by 10%."
+  },
+  "Shared Pain": {
+    "name": "Shared Pain",
+    "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally."
+  },
+  "Short Circuit": {
+    "name": "Short Circuit",
+    "description": "Prevents all stat changes on all Temtem."
+  },
+  "Skull Helmet": {
+    "name": "Skull Helmet",
+    "description": "Damage taken from Mental or Melee techniques is reduced by 25%."
+  },
+  "Snowstorm": {
+    "name": "Snowstorm",
+    "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 3 turns if they aren't cold already."
+  },
+  "Soft Touch": {
+    "name": "Soft Touch",
+    "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+  },
+  "Solidifier": {
+    "name": "Solidifier",
+    "description": "When attacking with a Water Special technique, uses the ATK."
+  },
+  "Source Replicator": {
+    "name": "Source Replicator",
+    "description": "When getting a positive status condition, adds the change to the ally too."
+  },
+  "Specgulp": {
+    "name": "Specgulp",
+    "description": "When attacked with a special technique, restores 8% of max HP."
+  },
+  "Specmaster": {
+    "name": "Specmaster",
+    "description": "Damage done with special techniques is increased by 50%"
+  },
+  "Spiritual": {
+    "name": "Spiritual",
+    "description": "When entering the battlefield, gets SPATK and SPDEF."
+  },
+  "Splitter": {
+    "name": "Splitter",
+    "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+  },
+  "Spoilsport": {
+    "name": "Spoilsport",
+    "description": "Damage done with multi-target techniques is increased by 25%."
+  },
+  "Spreader": {
+    "name": "Spreader",
+    "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 20%."
+  },
+  "Stabmaster": {
+    "name": "Stabmaster",
+    "description": "Damage done with matching type techniques is increased by 40%."
+  },
+  "Striking Transmog": {
+    "name": "Striking Transmog",
+    "description": "When attacking an individual Temtem with a physical technique, Mimit transforms into the target."
+  },
+  "Strong Liver": {
+    "name": "Strong Liver",
+    "description": "When attacked with a Toxic technique, restores HP instead of receiving damage."
+  },
+  "Superconductivity": {
+    "name": "Superconductivity",
+    "description": "When an ally uses a technique, the temtem counts as all types for its synergy."
+  },
+  "Synergy Adept": {
+    "name": "Synergy Adept",
+    "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy."
+  },
+  "Synergy Master": {
+    "name": "Synergy Master",
+    "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy."
+  },
+  "Synertyper": {
+    "name": "Synertyper",
+    "description": "Damage done with techniques is increased by 30% if both allies share a type."
+  },
+  "Tactical Strike": {
+    "name": "Tactical Strike",
+    "description": "Damage done with Hold techniques is increased by 20%."
+  },
+  "Tag Team": {
+    "name": "Tag Team",
+    "description": "Damage taken from techniques is reduced by 15% if both allies share a type."
+  },
+  "Tardy Rush": {
+    "name": "Tardy Rush",
+    "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield."
+  },
+  "Target Replicator": {
+    "name": "Target Replicator",
+    "description": "When the ally gets a positive status condition, adds the change to the Temtem too."
+  },
+  "Team Elusive": {
+    "name": "Team Elusive",
+    "description": "Prevents multi-target offensive techniques."
+  },
+  "Thick Skin": {
+    "name": "Thick Skin",
+    "description": "Damage taken by Wind techniques is reduced by 50%."
+  },
+  "Tireless": {
+    "name": "Tireless",
+    "description": "When overexerted, prevents the turn penalization and gets ATK."
+  },
+  "Toxic Affinity": {
+    "name": "Toxic Affinity",
+    "description": "Toxic techniques get type damage boost."
+  },
+  "Toxic Farewell": {
+    "name": "Toxic Farewell",
+    "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+  },
+  "Toxic Skin": {
+    "name": "Toxic Skin",
+    "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+  },
+  "Toxin Crusher": {
+    "name": "Toxin Crusher",
+    "description": "Damage done to Toxic Temtem is increased by 50%."
+  },
+  "Trance": {
+    "name": "Trance",
+    "description": "Once per battle, if the Temtem is attacked and HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF."
+  },
+  "Trauma": {
+    "name": "Trauma",
+    "description": "After being attacked if hit by a Physical technique gets DEF; if hit by a Special technique, SPDEF."
+  },
+  "Tri-Apothecary": {
+    "name": "Tri-Apothecary",
+    "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself."
+  },
+  "Unnoticed": {
+    "name": "Unnoticed",
+    "description": "Gets SPD after not receiving any rival attacks during the turn."
+  },
+  "Vigorous": {
+    "name": "Vigorous",
+    "description": "Damage done when overexerting is increased by 50%."
+  },
+  "Viral Combustion": {
+    "name": "Viral Combustion",
+    "description": "When getting a poison status condition, the attacker gets burned for 4 turns."
+  },
+  "Voltaic Charge": {
+    "name": "Voltaic Charge",
+    "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+  },
+  "Voodoo": {
+    "name": "Voodoo",
+    "description": "When attacking an ally, 75% of the damage is replicated to each rival."
+  },
+  "Warm Gift": {
+    "name": "Warm Gift",
+    "description": "When a rival exits the battlefield, they get burned for 3 turns."
+  },
+  "Warm-Blooded": {
+    "name": "Warm-Blooded",
+    "description": "Prevents the Cold and Frozen status condition."
+  },
+  "Water Affinity": {
+    "name": "Water Affinity",
+    "description": "Water techniques get type damage boost."
+  },
+  "Water Custodian": {
+    "name": "Water Custodian",
+    "description": "Water techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+  },
+  "Water Synthesizer": {
+    "name": "Water Synthesizer",
+    "description": "When attacked with a Water technique, restores HP instead of receiving damage."
+  },
+  "Wax Bath": {
+    "name": "Wax Bath",
+    "description": "When an ally rests, they get SPDEF."
+  },
+  "Welcomer": {
+    "name": "Welcomer",
+    "description": "Once per battle, when an ally enters the battlefield, the ally gets evading for 1 turn."
+  },
+  "Withdrawal": {
+    "name": "Withdrawal",
+    "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions."
+  },
+  "Wrecked Farewell": {
+    "name": "Wrecked Farewell",
+    "description": "When self knocked-out, rivals lose 25% of max HP."
+  },
+  "Zen": {
+    "name": "Zen",
+    "description": "When getting an asleep status condition, gets DEF and SPDEF."
+  }
+}
