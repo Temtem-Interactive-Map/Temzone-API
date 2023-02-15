@@ -1,4 +1,3 @@
-import { writeDBFile } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { cleanText, scrape } from "./utils/index.js";
 
@@ -32,12 +31,6 @@ export class TraitsDB {
     logSuccess("[traits] scraped successfully");
 
     return this.traits;
-  }
-
-  static async write() {
-    logInfo("Writing [traits] to database...");
-    await writeDBFile("traits", this.traits);
-    logSuccess("[traits] written successfully");
   }
 
   static find(name) {
