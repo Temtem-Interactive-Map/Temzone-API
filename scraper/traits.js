@@ -1,33 +1,46 @@
+import { writeDBFile } from "./db/index.js";
+import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { cleanText, scrape } from "./utils/index.js";
 
-async function getAllTraits() {
-  const traits = {};
-  const $ = await scrape("https://temtem.wiki.gg/wiki/Traits");
-  const traitSelectors = {
-    name: "td:nth-child(1)",
-    description: "td:nth-child(2)",
-  };
-  const traitSelectorEntries = Object.entries(traitSelectors);
+export class TraitsDB {
+  static async scrape() {
+    if (this.traits) return logWarning("[traits] already scraped");
 
-  $("table.wikitable > tbody > tr:not(:first-child)")
-    .toArray()
-    .forEach((el) => {
-      const traitEntries = traitSelectorEntries.map(([key, selector]) => {
-        const rawValue = $(el).find(selector).text();
-        const value = cleanText(rawValue);
+    logInfo("Scraping [traits]...");
+    this.traits = {};
 
-        return [key, value];
+    const $ = await scrape("https://temtem.wiki.gg/wiki/Traits");
+    const traitSelectors = {
+      name: "td:nth-child(1)",
+      description: "td:nth-child(2)",
+    };
+    const traitSelectorEntries = Object.entries(traitSelectors);
+
+    $("table.wikitable > tbody > tr:not(:first-child)")
+      .toArray()
+      .forEach((el) => {
+        const $el = $(el);
+        const traitEntries = traitSelectorEntries.map(([key, selector]) => {
+          const rawValue = $el.find(selector).text();
+          const value = cleanText(rawValue);
+
+          return [key, value];
+        });
+        const trait = Object.fromEntries(traitEntries);
+
+        this.traits[trait.name] = trait;
       });
-      const trait = Object.fromEntries(traitEntries);
 
-      traits[trait.name] = trait;
-    });
+    logSuccess("[traits] scraped successfully");
+  }
 
-  return traits;
-}
+  static async write() {
+    logInfo("Writing [traits] to database...");
+    await writeDBFile("traits", this.traits);
+    logSuccess("[traits] written successfully");
+  }
 
-const traits = Object.freeze(await getAllTraits());
-
-export function findTrait(name) {
-  return traits[name];
+  static find(name) {
+    return this.traits[name];
+  }
 }
