@@ -1,5 +1,5 @@
 import { join } from "node:path";
-import { removeDBContent, writeDBFile, writeDBImage } from "./db/index.js";
+import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { cleanText, getUrlExtension, scrape } from "./utils/index.js";
 
@@ -38,12 +38,8 @@ export class TypesDB {
     }
 
     logSuccess("[types] scraped successfully");
-  }
 
-  static async write() {
-    logInfo("Writing [types] to database...");
-    await writeDBFile("types", this.types);
-    logSuccess("[types] written successfully");
+    return this.types;
   }
 
   static find(name) {
