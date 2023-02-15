@@ -1,55 +1,78 @@
-import { findTrait } from "./traits.js";
+import { writeDBFile } from "./db/index.js";
+import { logInfo, logSuccess, logWarning } from "./log/index.js";
+import { TraitsDB } from "./traits.js";
+import { TypesDB } from "./types.js";
 import { cleanText, scrape } from "./utils/index.js";
 
-export async function getAllTemtem() {
-  const creatures = {};
-  const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
+export class TemtemDB {
+  static async scrape() {
+    if (this.creatures) return logWarning("[temtem] already scraped");
 
-  for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
-    const href = $(el).attr("href");
-    const $temtem = await scrape("https://temtem.wiki.gg" + href);
-    let types = [""];
+    await TypesDB.scrape();
+    await TraitsDB.scrape();
 
-    if (href === "/wiki/Chromeon" || href === "/wiki/Koish") {
-      types = [
-        "Neutral",
-        "Wind",
-        "Earth",
-        "Water",
-        "Fire",
-        "Nature",
-        "Electric",
-        "Mental",
-        "Digital",
-        "Melee",
-        "Crystal",
-        "Toxic",
-      ];
+    logInfo("Scraping [temtem]...");
+    this.creatures = {};
+
+    const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
+
+    for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
+      const $el = $(el);
+      const href = $el.attr("href");
+      const $temtem = await scrape("https://temtem.wiki.gg" + href);
+      let types = [""];
+
+      if (href === "/wiki/Chromeon" || href === "/wiki/Koish") {
+        types = [
+          "Neutral",
+          "Wind",
+          "Earth",
+          "Water",
+          "Fire",
+          "Nature",
+          "Electric",
+          "Mental",
+          "Digital",
+          "Melee",
+          "Crystal",
+          "Toxic",
+        ];
+      }
+
+      types.forEach((subtype) => {
+        const temtem = new Temtem($temtem, subtype);
+
+        this.creatures[temtem.name] = {
+          id: temtem.id,
+          name: temtem.name,
+          description: temtem.description,
+          types: temtem.types,
+          traits: temtem.traits,
+          details: {
+            gender: temtem.gender,
+            catchRate: temtem.catchRate,
+            height: temtem.height,
+            weight: temtem.weight,
+          },
+          stats: temtem.stats,
+          tvs: temtem.tvs,
+          evolutions: temtem.evolutions,
+        };
+      });
     }
 
-    types.forEach((subtype) => {
-      const temtem = new Temtem($temtem, subtype);
-
-      creatures[temtem.name] = {
-        id: temtem.id,
-        name: temtem.name,
-        description: temtem.description,
-        types: temtem.types,
-        traits: temtem.traits,
-        details: {
-          gender: temtem.gender,
-          catchRate: temtem.catchRate,
-          height: temtem.height,
-          weight: temtem.weight,
-        },
-        stats: temtem.stats,
-        tvs: temtem.tvs,
-        evolutions: temtem.evolutions,
-      };
-    });
+    logSuccess("[temtem] scraped successfully");
   }
 
-  return creatures;
+  static async write() {
+    logInfo("Writing [temtem] to database...");
+    await writeDBFile("temtems", this.creatures);
+    logSuccess("[temtem] written successfully");
+  }
+
+  static find(name) {
+    return this.creatures[name];
+  }
 }
 
 class Temtem {
@@ -92,7 +115,8 @@ class Temtem {
     )
       .toArray()
       .map((el) => {
-        const rawType = this.$(el).attr("title");
+        const $el = this.$(el);
+        const rawType = $el.attr("title");
         const type = cleanText(rawType);
 
         return type;
@@ -102,7 +126,7 @@ class Temtem {
       types.push(this.subtype + " type");
     }
 
-    return types;
+    return types.map((type) => TypesDB.find(type));
   }
 
   get traits() {
@@ -111,10 +135,11 @@ class Temtem {
     )
       .toArray()
       .map((el) => {
-        const rawTrait = this.$(el).text();
+        const $el = this.$(el);
+        const rawTrait = $el.text();
         const trait = cleanText(rawTrait);
 
-        return findTrait(trait);
+        return TraitsDB.find(trait);
       });
 
     return traits;
@@ -203,7 +228,8 @@ class Temtem {
     };
     const statsSelectorEntries = Object.entries(statsSelectors);
     const statsEntries = statsSelectorEntries.map(([key, selector]) => {
-      const rawValue = this.$(selector).text();
+      const $el = this.$(selector);
+      const rawValue = $el.text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue);
 
@@ -226,7 +252,8 @@ class Temtem {
     };
     const tvSelectorEntries = Object.entries(tvSelectors);
     const tvEntries = tvSelectorEntries.map(([key, selector]) => {
-      const rawValue = this.$(selector).text();
+      const $el = this.$(selector);
+      const rawValue = $el.text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue) || 0;
 
@@ -242,7 +269,8 @@ class Temtem {
       .next()
       .toArray()
       .map((el) => {
-        const rawCondition = this.$(el).text().replace("levels", "Levels");
+        const $el = this.$(el);
+        const rawCondition = $el.text().replace("levels", "Levels");
         const condition = cleanText(rawCondition);
 
         return condition;
@@ -253,7 +281,8 @@ class Temtem {
     )
       .toArray()
       .map((el, i) => {
-        const rawName = this.$(el).text();
+        const $el = this.$(el);
+        const rawName = $el.text();
         const name = cleanText(rawName);
         let condition;
 
