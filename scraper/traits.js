@@ -32,6 +32,8 @@ export class TraitsDB {
       });
 
     logSuccess("[traits] scraped successfully");
+
+    return this.traits;
   }
 
   static async write() {
