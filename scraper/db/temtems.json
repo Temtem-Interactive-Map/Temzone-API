@@ -4,7 +4,10 @@
     "name": "Mimit",
     "description": "Mimit has the honor of being the very first Digital ever created. The genomic reservoir contained in its tail allows it an unequalled ability to replicate any other Temtem species, making it the ultimate breeder.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -54,7 +57,10 @@
     "name": "Oree",
     "description": "One of the first prototypes created in Nanto Labs, Oree's early versions were the forerunners of Digital Temtem. Inquisitive creatures by design, they show great curiosity and a boundless appetite for information.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -112,7 +118,10 @@
     "name": "Zaobian",
     "description": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -165,8 +174,14 @@
     "name": "Chromeon (Neutral)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Neutral type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -219,8 +234,14 @@
     "name": "Chromeon (Wind)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Wind type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -273,8 +294,14 @@
     "name": "Chromeon (Earth)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Earth type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -327,8 +354,14 @@
     "name": "Chromeon (Water)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Water type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -381,8 +414,14 @@
     "name": "Chromeon (Fire)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Fire type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -435,8 +474,14 @@
     "name": "Chromeon (Nature)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Nature type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -489,8 +534,14 @@
     "name": "Chromeon (Electric)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Electric type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -543,8 +594,14 @@
     "name": "Chromeon (Mental)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Mental type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -597,7 +654,10 @@
     "name": "Chromeon (Digital)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -650,8 +710,14 @@
     "name": "Chromeon (Melee)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Melee type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -704,8 +770,14 @@
     "name": "Chromeon (Crystal)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Crystal type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -758,8 +830,14 @@
     "name": "Chromeon (Toxic)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
-      "Digital type",
-      "Toxic type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -812,7 +890,10 @@
     "name": "Halzhi",
     "description": "This is a newer model from Nanto Labs, specifically designed for Dojo tamers. More intelligent and empathic than older Digitals, it is much more responsive to human commands, and those fortunate enough to have one as a friend wouldn't change it for any other.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -870,7 +951,10 @@
     "name": "Molgu",
     "description": "This model represents a significant upgrade from Halzhi. Surprisingly, Nanto Labs found examples of escaped Molgu evolving on their own, further proving the point thatDigital Temtem are every bit as \"alive\" and \"natural\" as other varieties.",
     "types": [
-      "Digital type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -923,8 +1007,14 @@
     "name": "Platypet",
     "description": "Platypet was popularized by a cartoon series, and ever since then it has been one of the most popular Temtem with kids. The series had an educative purpose: to teach children that Toxic Temtem are also valid and can be good friends.",
     "types": [
-      "Water type",
-      "Toxic type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -982,8 +1072,14 @@
     "name": "Platox",
     "description": "Platox share common ancestors with Saipat, but the species diverged centuries ago. While Saipat developed opposable thumbs, Platox specialized in surviving polluted environments. Today they are the most successful feathered Temtem of Tucma.",
     "types": [
-      "Water type",
-      "Toxic type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -1041,8 +1137,14 @@
     "name": "Platimous",
     "description": "Charles Temwin described them as \"Platox, but more so\". This is usually taken as classic Arburian understatement: Platimous were amongst the most successful apex predators before large-scale taming, and remain very effective fighters.",
     "types": [
-      "Water type",
-      "Toxic type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -1095,7 +1197,10 @@
     "name": "Swali",
     "description": "When the harvest season is on, Omninesian fruit-pickers are always careful not to accidentally damage the delicate, chrysalis-like Swali. They grow on certain vines of the rainforest canopy, dropping to the jungle floor once mature and mobile.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -1153,8 +1258,14 @@
     "name": "Loali",
     "description": "Delicate and graceful creatures, Loali are all wings and eyes - and natural charmers. Their hypnotic eyes can completely dazzle their enemies and their constantly fluttering wings allow them to change course in an instant.",
     "types": [
-      "Nature type",
-      "Wind type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -1207,7 +1318,10 @@
     "name": "Tateru",
     "description": "Despite their impressive height, Tateru are quite shy and not naturally aggressive. That's why they need proper training before battle. Wild Tateru are recognized for their upright position and sensitive antennae, always alert.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -1260,8 +1374,14 @@
     "name": "Gharunder",
     "description": "Popularly known as \"the monster of the sewers\", this species descends from proto-Temtemic lifeforms of the Xolot Reservoir. It is no surprise it has adapted to an extremely toxic ecosystem.",
     "types": [
-      "Toxic type",
-      "Electric type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -1314,7 +1434,10 @@
     "name": "Mosu",
     "description": "The adorable Mosu descends from the primeval pachyderms that roamed the Greenglen Forest back when it was part of a great boreal forest spanning almost half of Paninsula.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -1372,8 +1495,14 @@
     "name": "Magmut",
     "description": "Temtemologists believe Magmut developed their characteristic flaming mane as an adaptation to the colder and wetter climate of the Lochburg moors.",
     "types": [
-      "Melee type",
-      "Fire type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -1426,7 +1555,10 @@
     "name": "Paharo",
     "description": "Paharo tend to hide in treetops and lurk, their green \"mask\" allowing them to blend in with the foliage. Often the only way to locate them is to look for the telltale gleam of their eyes.",
     "types": [
-      "Wind type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -1484,7 +1616,10 @@
     "name": "Paharac",
     "description": "Due to their bigger size and stronger physique, Paharac doesn’t actually need camouflage, but they still love to flaunt their turquoise facial feathers with great pride.",
     "types": [
-      "Wind type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -1542,7 +1677,10 @@
     "name": "Granpah",
     "description": "The authoritative stare of a Granpah portrays the long time and many battles that it takes to achieve this evolutionary stage. They have earned their respect among younger Wind Temtem.",
     "types": [
-      "Wind type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -1595,7 +1733,10 @@
     "name": "Ampling",
     "description": "Native to the steep slopes of the Iwaba highlands, Ampling are as adorable as electrifying. Neoedo children are familiar with them, thanks to regular school trips to observe these charming creatures in their natural habitat.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -1653,8 +1794,14 @@
     "name": "Amphatyr",
     "description": "Amphatyr are a prime example of 'cervus electricus', agile and majestic. Their mating habit of locking horns causes beautiful displays of electric sparks and discharge arcs that have been compared to tiny aurorae.",
     "types": [
-      "Electric type",
-      "Nature type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -1707,8 +1854,14 @@
     "name": "Bunbun",
     "description": "These adorable creatures are probably a remnant from the times Tucma and Kisiwa were a single island. While their strong Earth DNA is clearly of Kisiwan origin, the crystalline contents in their paws betray a definite Tucmani influence. They are social and easy to tame.",
     "types": [
-      "Earth type",
-      "Crystal type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -1766,8 +1919,14 @@
     "name": "Mudrid",
     "description": "Bigger and more resilient than Bunbun, Mudrid are hardy Temtem, used to extreme weather conditions. Their extremely fine sense of hearing makes them very valuable scouting Temtem once tamed... but also harder to catch in the wild.",
     "types": [
-      "Earth type",
-      "Crystal type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -1820,7 +1979,10 @@
     "name": "Hidody",
     "description": "This cutie is an adept climber, thanks to the little suckers located in each of its eight stubby legs. For the same reason, Omninesian children quickly learn to hide their cookies instead of putting them on the higher shelf...",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -1878,7 +2040,10 @@
     "name": "Taifu",
     "description": "Brought up on a steady diet of stolen cookies, Hidody evolves into the more agile Taifu. They are naughty but cute creatures, naturally given to light-hearted mischief... but very serious opponents in battle.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -1931,7 +2096,10 @@
     "name": "Fomu",
     "description": "These Temtem are known for their capacity to generate vapor, like charming little steam engines. Since that means losing a lot of moisture, this species prefers to remain in the water and use steam jets for propulsion rather than its short legs.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -1989,8 +2157,14 @@
     "name": "Wiplump",
     "description": "Wiplump takes Fomu's clever use of water vapor one step further - flying on steam wings, this species boasts increased range and speed, paired with a stronger attack thanks to its sturdier horn.",
     "types": [
-      "Water type",
-      "Wind type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -2043,7 +2217,10 @@
     "name": "Skail",
     "description": "This species of Temtem is notoriously bad-tempered, and tamers need all their skills to handle them. Once tamed, these muscular creatures can deliver powerful tail blows in battle.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -2101,8 +2278,14 @@
     "name": "Skunch",
     "description": "Unlike their lesser brethren, Skunch are capable of bipedalism and can even stand on their muscular tails. This evolution allows them to pummel enemies with their massive fists... but it's done nothing to ameliorate their aggressive mood.",
     "types": [
-      "Neutral type",
-      "Melee type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -2155,7 +2338,10 @@
     "name": "Goty",
     "description": "Voted Best Temtem every year by Neutral enthusiasts, Goty is as effective as it is cute. This little crowd-pleaser is particularly popular among casual Kisiwan tamers.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -2213,7 +2399,10 @@
     "name": "Mouflank",
     "description": "With their imposing horns, grazing Mouflank herds used to be serious natural hazards of the Kisiwan plains. The tribes soon learned how to tame them to avoid dangerous stampedes.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -2266,8 +2455,14 @@
     "name": "Rhoulder",
     "description": "Once king of the Kisiwan savannah, this species boasts incredibly hard lamellar plates. Before the time of Chacha Turay, they were used in tribal warfare as armored cavalry.",
     "types": [
-      "Neutral type",
-      "Earth type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -2320,7 +2515,10 @@
     "name": "Houchic",
     "description": "Clever but somehow naive, the gentle Houchic are ideal as the first Mental Temtem for novice trainers. They are emphatic and intuitive, capable of understanding the subtleties of mentalism.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -2378,7 +2576,10 @@
     "name": "Tental",
     "description": "Houchic eventually evolves into the more mature Tental - shrewder creatures, whose writhing tentacles serve as apt metaphors for their ever-twisting, sibylline minds.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -2436,8 +2637,14 @@
     "name": "Nagaise",
     "description": "Cipanki legends are full of sage Nagaise giving cryptic advice to folk heroes - an early example of the traditional association of this species with wisdom, insight, and spirituality.",
     "types": [
-      "Mental type",
-      "Water type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -2490,8 +2697,14 @@
     "name": "Orphyll",
     "description": "Probably a mutation from an ancient serpentine strand of Nature Temtem, Orphyll show remarkable adaptation to noxious conditions. They feature prominently in the art of ancient proto-Arburian cultures, who feared and revered them.",
     "types": [
-      "Nature type",
-      "Toxic type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -2549,8 +2762,14 @@
     "name": "Nidrasil",
     "description": "Long considered to be a legend, this species was scientifically verified just decades ago. Temtemologists are still debating how the nervous system of Nidrasil copes with three separate encephalic centers.",
     "types": [
-      "Nature type",
-      "Toxic type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -2603,7 +2822,10 @@
     "name": "Banapi",
     "description": "Capricious and stubborn, these Temtem roam the side of the Anak volcano, grazing on burning coals instead of grass. Notably difficult to tame, they set the right expectations for prospective Fire Temtem tamers...",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -2661,7 +2883,10 @@
     "name": "Capyre",
     "description": "These temperamental creatures often appear in Myrislan folklore as tricksters, their unreliable nature embedded deeply in the culture. Highly territorial, they breed in Anak and make sure any visitors know just how unwelcome they are.",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -2714,7 +2939,10 @@
     "name": "Lapinite",
     "description": "Extremely common in Tucma, these little creatures are often the first Temtem of every young Quetzaleño. They are cheerful and resistant playmates for toddlers, and it is common practise to lightly file off the edges of their crystals to ensure safety.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -2772,7 +3000,10 @@
     "name": "Azuroc",
     "description": "This Temtem is a common sight in the Mines of Quetzal, where miners appreciate their skill when dislodging big chunks of ore and gemstones. Its correct and expert handling is a professional requisite for most of them.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -2830,7 +3061,10 @@
     "name": "Zenoreth",
     "description": "Any given night at the Jaguar Lounge, drunken miners whisper tall tales about great crystalline behemoths lurking in the darkest abyss under the city. This Temtem is probably the base of all those urban legends... probably.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -2883,7 +3117,10 @@
     "name": "Reval",
     "description": "Related to diverse (now extinct) subspecies of Cipanki 'vulpes mentalis', Reval used to be hunted by the Counts of House Braeside. Nowadays, they are protected and thrive in the forests of eastern Arbury.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -2941,8 +3178,14 @@
     "name": "Aohi",
     "description": "Fast and sinuous like wildfire, Aohi are cunning and sly creatures who routinely outsmart all but the most seasoned of tamers. Even in the wild, they delight in tricking the more gullible Reval.",
     "types": [
-      "Mental type",
-      "Fire type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -2995,7 +3238,10 @@
     "name": "Bigu",
     "description": "If there's an easily underestimated Temtem, that's Bigu. Comically ill-tempered, many tamers have found to their cost that these gastropods compensate their slow pace with outstanding tenacity in battle.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -3053,8 +3299,14 @@
     "name": "Babawa",
     "description": "These Temtem are flamboyant creatures with a funky sense of humor and boundless love for pranks and practical jokes. Many a naughty kid has donned a Babawa costume to cause havoc in the Quetzal Carnival.",
     "types": [
-      "Nature type",
-      "Water type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -3107,8 +3359,14 @@
     "name": "0b1",
     "description": "0b1's simple and friendly appearance belies their boldness as a creation - they are the Digital embodiment of a subatomic particle, whose very existence raises almost as many questions as it answers for physics modeling.",
     "types": [
-      "Digital type",
-      "Electric type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -3166,8 +3424,14 @@
     "name": "0b10",
     "description": "Conventional physics can't explain why 0b10 is a two-in-one Temtem, or how their attraction/repulsion dynamics actually work. Tamers don't really care, since this 'Tem is empathetic enough to be tameable... not to mention off-the-charts cute!",
     "types": [
-      "Digital type",
-      "Electric type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -3220,7 +3484,10 @@
     "name": "Kaku",
     "description": "Less known than its evolution, Kaku are delightful creatures, cute beyond description. They tend to keep their petals wrapped around the body for protection, although no sane person would ever want to hurt a Kaku.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -3278,8 +3545,14 @@
     "name": "Saku",
     "description": "Some say the first airship designs were inspired by this Temtem's ability to inflate air pockets within its body, allowing it to float and drift with the prevailing winds.",
     "types": [
-      "Nature type",
-      "Wind type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -3332,8 +3605,14 @@
     "name": "Valash",
     "description": "A fascinating offshoot, Valash is a rare case of bipedal hybrid, documented only recently. The care with which it keeps its forearm crystals sharpened betrays some sort of primitive sentience.",
     "types": [
-      "Neutral type",
-      "Crystal type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -3386,8 +3665,14 @@
     "name": "Towly",
     "description": "Propertonian toddlers are taught not to be afraid of this gentle species, in spite of the unnerving appearance of their large, shiny eyes when encountered in the forest at night.",
     "types": [
-      "Melee type",
-      "Mental type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -3449,8 +3734,14 @@
     "name": "Owlhe",
     "description": "This lordly Temtem reigns supreme over the Arburian skies and is said to possess almost-human intelligence. Some tamers are known to have even invited Owlhe over for afternoon tea...",
     "types": [
-      "Wind type",
-      "Melee type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -3503,8 +3794,14 @@
     "name": "Barnshe",
     "description": "Traditionally associated with the University of Arbury as its heraldic Temtem, this species has a deep, piercing stare. Although winged, it prefers to keep to the ground and use its mind as a weapon - a symbolism the academics are very fond of.",
     "types": [
-      "Wind type",
-      "Mental type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -3557,8 +3854,14 @@
     "name": "Gyalis",
     "description": "Gyalis have appeared in many horror movies. Sadly, this has resulted in a bad reputation as a \"scary evil monster\", not helped by its menacing appearance - but in the hands of a kind tamer, Gyalis can be every bit as tender and loving as the plushest of Pigepics.",
     "types": [
-      "Crystal type",
-      "Melee type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -3611,7 +3914,10 @@
     "name": "Occlura",
     "description": "Despite its creepy appearance, Occlura are mineral-eaters that never pose any danger to humans. Their tame nature and their appetite for raw rock make them valuable assets for mining purposes, as the Tucmani know very well.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -3669,8 +3975,14 @@
     "name": "Myx",
     "description": "The oldest written records in Tucma indicate religious awe of Myx, considered to be embodiments of the \"dark spirits\". Some were considered to be celestial emissaries of Highabove, some evil messengers of Downbelow... but all were feared. With good reason.",
     "types": [
-      "Crystal type",
-      "Mental type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -3723,7 +4035,10 @@
     "name": "Raiber",
     "description": "Raiber is often given to novice tamers in Omninesian Dojos because it is relatively mild-mannered for a Fire Temtem. Easier to handle than the mightier varieties, it is nevertheless a loyal companion and decent fighter.",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -3781,7 +4096,10 @@
     "name": "Raize",
     "description": "Fierce and indomitable as the fire, Raize are difficult to tame but extremely valuable as fighting Temtem. Each has a characteristic birthmark on the snout, as unique as the movements of a single flame.",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -3839,7 +4157,10 @@
     "name": "Raican",
     "description": "As the Tucmani legend goes, at the beginning of time, Tucma and Kisiwa were one single fire plain where huge herds of Raican ran wild and free, flame and Temtem being one until the Archipelago cooled and these noble creatures emigrated underground.",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -3892,7 +4213,10 @@
     "name": "Pewki",
     "description": "Their flat shape allows Pewki to float right under the water surface, while they scout around using their huge, widely spaced eyes. Their iconic tall fins are often the only way to tell them apart from driftwood.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -3950,7 +4274,10 @@
     "name": "Piraniant",
     "description": "A native species of Deniz, this Temtem tends to drift with the Sillaro current, to conserve energy... but once brought into battle, its size makes it a powerful fighter.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -4003,7 +4330,10 @@
     "name": "Scarawatt",
     "description": "As the old joke goes, \"when you're a tamer in Cipanku, it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -4061,8 +4391,14 @@
     "name": "Scaravolt",
     "description": "Initially mistaken as a minor mutation of Scarawatt, Scaravolt is strongly associated with Miyako and the bonfires the yamabushi would light on the mountaintops on cold nights. On such an occasion, a sighting of this Temtem was considered a good omen.",
     "types": [
-      "Electric type",
-      "Fire type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -4115,8 +4451,14 @@
     "name": "Hoglip",
     "description": "Some of the first Digital Temtem were prone to accidentally catching fire. Hoglip is the answer to this problem, a little friend who is totally at home in a blaze. Given that feature, it's often used for rescue by fire crews.",
     "types": [
-      "Digital type",
-      "Fire type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -4174,8 +4516,14 @@
     "name": "Hedgine",
     "description": "Mischievous but sweet, Hedgine are so kawaii tamers are regularly reminded to don fireproof gloves before petting them, to avoid getting first-degree burns. They are also instructed to keep them supervised in wooden areas.",
     "types": [
-      "Digital type",
-      "Fire type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -4228,7 +4576,10 @@
     "name": "Osuchi",
     "description": "Shy and unassuming, Osuchi are generally considered benevolent, steadfast friends. Often confused with rock outcroppings by the untrained eye, they are at home in the Jino Gap.",
     "types": [
-      "Earth type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -4286,8 +4637,14 @@
     "name": "Osukan",
     "description": "Osukan are the perfect embodiment of the endurance and grit of the best Temtem fighters. They are sturdy, obstinate creatures that love nothing better than to show their prowess in a hard, honest battle against a worthy rival.",
     "types": [
-      "Earth type",
-      "Melee type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -4345,8 +4702,14 @@
     "name": "Osukai",
     "description": "Massive, four-armed Osukai are as hard as granite. They are credited with much of the boring heavy-lifting during the construction of the tunnels under the Kilima Range.",
     "types": [
-      "Earth type",
-      "Melee type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -4399,8 +4762,14 @@
     "name": "Saipat",
     "description": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
     "types": [
-      "Water type",
-      "Melee type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -4453,8 +4822,14 @@
     "name": "Pycko",
     "description": "Bubbly and cheerful, this Temtem is the protagonist of an animation series aimed at warning children of the dangers of fire. It has been a lifelong friend to many first-time tamers.",
     "types": [
-      "Earth type",
-      "Fire type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -4512,8 +4887,14 @@
     "name": "Drakash",
     "description": "Selective breeding for bipedalism meant this variety of Temtem is faster and more suited for human tasks than its predecessors. Often given as a New Year's gift between Kisiwans and Tucmani.",
     "types": [
-      "Earth type",
-      "Fire type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -4566,7 +4947,10 @@
     "name": "Crystle",
     "description": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -4624,7 +5008,10 @@
     "name": "Sherald",
     "description": "Sherald are known to evolve from Crystle- in the wild, as a result of exposure to the harsh environmental conditions of Tucma. They extract nutrients from the chemical interactions of metamorphic rocks and volcanic ashes.",
     "types": [
-      "Crystal type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -4682,8 +5069,14 @@
     "name": "Tortenite",
     "description": "Tortenite are lumbering creatures, often employed by Tucmani miners as work companions. In the wild, they are often spotted herding Sherald as pack leaders.",
     "types": [
-      "Crystal type",
-      "Toxic type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -4736,8 +5129,14 @@
     "name": "Innki",
     "description": "Known as the most elusive Temtem in Cipanku, possession of an Innki is the ultimate marker of mastery amongst Neoedo tamers.",
     "types": [
-      "Electric type",
-      "Crystal type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -4790,7 +5189,10 @@
     "name": "Shaolite",
     "description": "If there is a Temtem whose reputation as \"a cutie\" overshadows its proficiency, it's Shaolite. \"Oooh, look, smol karateka! <3\" is often heard right before a crushing defeat.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -4848,7 +5250,10 @@
     "name": "Shaolant",
     "description": "Bigger and meaner than Shaolite, Shaolant have become the darlings of the tamers of Lochburg Dojo who want to command respect for their choice of squad.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -4901,8 +5306,14 @@
     "name": "Cycrox",
     "description": "One rumor tells of a Mimit that fell into a Xolot. Another one, of a Nanto boffin accidentally spilling coffee on some circuitry. Be as it may, Cycrox is as close as it gets to a computer virus, but in the flesh... and in the silicon.",
     "types": [
-      "Digital type",
-      "Toxic type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -4955,7 +5366,10 @@
     "name": "Hocus",
     "description": "Arcane and blue-blooded, Hocus have been selectively bred for generations and kept as dynastic heirlooms of the House of Braeside. They are fine weapons, trained to be battle Temtem for the ancient aristocracy, a rare sight nowadays.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -5013,7 +5427,10 @@
     "name": "Pocus",
     "description": "Pocus was considered blue-blooded among the blue bloods, and was traditionally given only to the male heirs of the House of Braeside. When the lineage fell, they mostly went extinct... until recently.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -5066,7 +5483,10 @@
     "name": "Smolzy",
     "description": "Few Temtem look so deceptively comical as Smolzy - underestimating it in battle is the mark of the rookie tamer. Beyond their adorably helpless appearance, they are appreciated as some of the most reliable Electrical Temtem for daily use.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -5124,7 +5544,10 @@
     "name": "Sparzy",
     "description": "Also known familiarly as \"Sparky\", this Temtem is a common sight in Cipanku. Children are warned to keep away from them. Although normally good-natured and cheerful, they can involuntarily discharge considerable electric shocks.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -5182,8 +5605,14 @@
     "name": "Golzy",
     "description": "Bred by the patient priests of Miyaka from local varieties of Electric Temtem, Golzy is a gentle giant that helps the villagers carry heavy loads through the difficult mountain passes. Their consistant presence has become a symbol of the Monastery.",
     "types": [
-      "Electric type",
-      "Melee type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -5236,7 +5665,10 @@
     "name": "Mushi",
     "description": "Closely related to the non-sentient fungi of the Corrupted Badlands, Mushi are shy but territorial. Always mineral-hungry, wise tamers keep them well away from Crystal Temtem.",
     "types": [
-      "Toxic type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -5294,8 +5726,14 @@
     "name": "Mushook",
     "description": "Mushook are a hybrid variety, developed at the Quetzal Dojo by expert breeders. Strong and single-minded, some of the bigger specimens are occasionally employed by the Guards as static sentries at strategic points.",
     "types": [
-      "Toxic type",
-      "Melee type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -5348,7 +5786,10 @@
     "name": "Magmis",
     "description": "Magmis' original habitat was in the lava rivers under the Anak caldera, but now they can be found all around the Archipelago, as foundry operators in Quetzal, heating systems in Arbury... And, of course, in Temtem battles.",
     "types": [
-      "Fire type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -5406,8 +5847,14 @@
     "name": "Mastione",
     "description": "Mastione are fire-loving Temtem, at home in the fiercest of blazes. They can be found grazing in woods devoured by wildfire. The tamed varieties learn to rein in their destructive tendencies - but even then, trainers should exercise care.",
     "types": [
-      "Fire type",
-      "Water type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -5460,7 +5907,10 @@
     "name": "Umishi",
     "description": "The Umishi feature in many Denizan tales, usually saving drowning sailors and helping them get to shore. These so-called \"sea-angels\" are dependable friends, and the Riverine Fellowship recommends every member keep at least one in their squad.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -5518,7 +5968,10 @@
     "name": "Ukama",
     "description": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -5571,7 +6024,10 @@
     "name": "Galvanid",
     "description": "Often paired for comedic effect, Galvanid is the downer counterpart to Sparzy's manic persona. Given its usually serious expression, this 'Tem is the perfect butt of all jokes... which conceals a very effective range of attacks.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -5629,7 +6085,10 @@
     "name": "Raignet",
     "description": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -5682,7 +6141,10 @@
     "name": "Smazee",
     "description": "These little darlings have been bred for generations as playmates and babysitters for children - although capable fighters, Smazee are naturally cheerful and love playing and monkeying around.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -5740,7 +6202,10 @@
     "name": "Baboong",
     "description": "Baboong are evolved, street-fighting Temtem, very popular in Lochburg, where they are often employed by pub bouncers. Although naturally good-tempered, they are as fierce as their hot-headed tamers.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -5798,8 +6263,14 @@
     "name": "Seismunch",
     "description": "Seismunch are great apes, genetically close to humans and much more sophisticated than their lesser brethren. Highly imitative of human behavior, some are said to be nearing proto-human cognition.",
     "types": [
-      "Melee type",
-      "Earth type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -5852,7 +6323,10 @@
     "name": "Zizare",
     "description": "One of the most remarkable inhabitants of the Kisiwan savanna, the powerful Zizare are the biggest creeping Temtem. Proud and territorial, they make for staunch friends.",
     "types": [
-      "Earth type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -5905,7 +6379,10 @@
     "name": "Gorong",
     "description": "Angry and with a red nose, Gorong attracts many jokes about how much it looks like a Lochburg pub patron. Usually a couple of assaults are enough to put an end to such taunts for good.",
     "types": [
-      "Melee type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -5958,7 +6435,10 @@
     "name": "Mitty",
     "description": "Often derided by Lochburgian tamers as a \"typically Propertonian cuteboi that packs no punch!\", Mitty are gentle and curious Temtem, but also fast learners and extremely effective in the hands of an experienced tamer.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -6016,7 +6496,10 @@
     "name": "Sanbi",
     "description": "Capable of communicating moods and intentions via complex patterns of its triple tail, these Temtem are aloof creatures who prefer the solitudes of the Arbury highlands. Although they mostly keep to themselves, their mindpower is formidable.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -6069,7 +6552,10 @@
     "name": "Momo",
     "description": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -6122,7 +6608,10 @@
     "name": "Kuri",
     "description": "Another great example of adaptation to the environment, these little Temtem select and carve rocks to use as protection for their heads and snouts.",
     "types": [
-      "Earth type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -6180,7 +6669,10 @@
     "name": "Kauren",
     "description": "Not to be confused with their previous evolution stage, Kauren develops stone-hard horns and skull extensions - used for digging out roots, defense and status-signalling within the herd.",
     "types": [
-      "Earth type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -6233,7 +6725,10 @@
     "name": "Spriole",
     "description": "These little sprouts are a common sight along the Omninesian canopy, and the locals are always gentle with them. These little pups are playful and juvenile.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -6291,7 +6786,10 @@
     "name": "Deendre",
     "description": "The young adult version of Spriole, Deendre are fascinating plant-animal hybrids that use their encephalic leaves to produce healing and nourishing components via photosynthesis.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -6349,7 +6847,10 @@
     "name": "Cerneaf",
     "description": "Few Temtem are closer to flora than this species, a fascinating plant-animal hybrid that uses its encephalic leaves to produce healing and nourishing components via photosynthesis.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -6402,7 +6903,10 @@
     "name": "Toxolotl",
     "description": "Perhaps no other Temtem is as representative of Tucma as the colorful Toxolotl. Each strand in its mane is supposed to signify one of the original Tucmani tribes that first excavated and settled Quetzal after the Anak cataclysm.",
     "types": [
-      "Toxic type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -6460,7 +6964,10 @@
     "name": "Noxolotl",
     "description": "Noxolotl are noble, dignified creatures. They are taken to exemplify the resilience and spirit of the Tucmani people, as \"a beauty born of the foulest depths of Xolot, a light in the abyss\", in the words of the poetess Itzia.",
     "types": [
-      "Toxic type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -6513,7 +7020,10 @@
     "name": "Blooze",
     "description": "Blooze represent the opposite evolutionary path as compared to Toxolotl - blobby and bipedal, they are probably the oldest lifeform of Xolot, an atavic variety still largely unexplained by science.",
     "types": [
-      "Toxic type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -6571,7 +7081,10 @@
     "name": "Goolder",
     "description": "Not many agree to classify Goolder as an \"evolution\", for many of its traits seem to be vestigial features of a more complex organism, devolved to a more primitive or atrophied state. Its lack of legs is usually cited as an example... but its haphazard appearance conceals great strength.",
     "types": [
-      "Toxic type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -6624,8 +7137,14 @@
     "name": "Zephyruff",
     "description": "Awkward fliers at best, Zephyruff rely on their speed and sharp claws to defend themselves. The sturdy, cloud-like tissue around the neck serves a double purpose, offering protection for the mother Temtem as well as a roosting point for Zephyruff chicks.",
     "types": [
-      "Toxic type",
-      "Wind type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -6683,8 +7202,14 @@
     "name": "Volarend",
     "description": "Volarend are impressive avians of great wingspan, strong enough to carry humans in flight. However, they are temperamental and picky mounts, and tamers are well-advised to treat them kindly, lest they are given a one-way ticket to the Downbelow...",
     "types": [
-      "Toxic type",
-      "Wind type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -6737,7 +7262,10 @@
     "name": "Grumvel",
     "description": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
     "types": [
-      "Earth type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -6795,8 +7323,14 @@
     "name": "Grumper",
     "description": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
     "types": [
-      "Earth type",
-      "Electric type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -6849,8 +7383,14 @@
     "name": "Ganki",
     "description": "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them.",
     "types": [
-      "Electric type",
-      "Wind type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -6908,8 +7448,14 @@
     "name": "Gazuma",
     "description": "Even in the wild, younger Ganki seem to instinctively respect them as their elders. In the hills of Iwaba, one can often spot Gazuma leading small flocks of Ganki, a clear indication of their status among Electric Temtem.",
     "types": [
-      "Electric type",
-      "Wind type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -6962,7 +7508,10 @@
     "name": "Oceara",
     "description": "Very rarely seen in Deniz, Oceara are believed to be the basis for the legendary \"serbatiyo\" of the Sea-Queen legend. Their possession is a mark of distinction and prestige among Water Temtem experts.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -7015,7 +7564,10 @@
     "name": "Yowlar",
     "description": "Considered vanishingly rare until Linnaea's work, this lonesome Temtem inhabits the most inaccessible Kilima peaks, where they keep large, fiercely defended hunting ranges.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -7068,8 +7620,14 @@
     "name": "Droply",
     "description": "Although not particularly popular among tamers, Droply is used by many scholars as a prime example of an early Archipelagian amphibian, a crucial link in the evolution of earthborne Temtem.",
     "types": [
-      "Water type",
-      "Earth type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -7127,8 +7685,14 @@
     "name": "Garyo",
     "description": "Semiaquatic and very gregarious, they are often found along the shores of Lake Moyo, where local farmers train them to harvest seaweed and warn away any boats with their sonorous hisses.",
     "types": [
-      "Water type",
-      "Earth type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -7181,7 +7745,10 @@
     "name": "Broccoblin",
     "description": "At home in the denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
     "types": [
-      "Nature type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -7239,8 +7806,14 @@
     "name": "Broccorc",
     "description": "Bigger and more agile, this variety still lives in symbiosis with its surrounding flora, but it is generally more sociable and easier to train. A favorite of Properton grannies who love gardening!",
     "types": [
-      "Nature type",
-      "Melee type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -7298,8 +7871,14 @@
     "name": "Broccolem",
     "description": "Probably the origin of old legends about dryads and forest trolls, this Temtem is a hulking quasi-arboreal of impressive strength and resilience. Like an oak, if oaks could punch.",
     "types": [
-      "Nature type",
-      "Melee type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -7352,8 +7931,14 @@
     "name": "Shuine",
     "description": "Colorful Shuine are a sight to behold, their bright scales reflecting Pansunlight as they frolic in the Kakama Cenote. They feed off the acidic components of Xolotic water, acting as natural filters and keeping cenote waters clean and fit for human consumption almost as effectively as the layers of volcanic rock.",
     "types": [
-      "Crystal type",
-      "Water type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -7406,8 +7991,14 @@
     "name": "Nessla",
     "description": "Water and electricity are always a dangerous mix - and it's never as true as in the case of Nessla. These undulating, majestic creatures are at home in open waters, where their powerful electric discharges are most effective.",
     "types": [
-      "Water type",
-      "Electric type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -7460,7 +8051,10 @@
     "name": "Valiar",
     "description": "Although nobody has managed to decipher their language, the Valiar are assumed to be extremely intelligent. The Arburian dons are still trying to come up with a scientific explanation for the way Valiar use their expanding ears to boost their minds.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -7513,8 +8107,14 @@
     "name": "Pupoise",
     "description": "Nature finds a way... particularly when Nature meets some of the most advanced circuitry. Pupoise are adaptive and are known to use simple tools and other innovations in the wild.",
     "types": [
-      "Digital type",
-      "Nature type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -7572,8 +8172,14 @@
     "name": "Loatle",
     "description": "This Temtem straddles the twilight zone between natural and artificial intelligence, life and death... and the fact it resembles a dark creature from ancient lore doesn't help its reputation one bit...",
     "types": [
-      "Digital type",
-      "Mental type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -7626,7 +8232,10 @@
     "name": "Kalazu",
     "description": "Kalazu show remarkable fine motor skills with each of their tentacles. \"Send Kalazu!\" is a common expression of woe in Deniz. When you face a hard task, you might need a hand - when you need eight hands... well, you're in trouble.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -7684,8 +8293,14 @@
     "name": "Kalabyss",
     "description": "How did Sillarian octopoda come in contact with mutagenic material is a matter of debate, but Kalabyss stand as an example of extreme adaption to the harshest environments - they have been known to survive a swim in Xolot Reservoir.",
     "types": [
-      "Water type",
-      "Toxic type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -7738,8 +8353,14 @@
     "name": "Adoroboros",
     "description": "Few Temtem are as deceptive as Adoroboros - an unusual mix of cute and deadly, combining the most sophisticated Mental tricks with the basest Toxic traits. They are a fine example of the incredible natural diversity of the Archipelago.",
     "types": [
-      "Toxic type",
-      "Mental type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -7792,7 +8413,10 @@
     "name": "Tuwai",
     "description": "Professor Konstantinos described Tuwai as “taxonomically Wind, but also the only Denizan Temtem with meta-mimetic properties.” He theorized about the possibility of Tuwai changing dramatically “if the relevant Place of Power” could be found.",
     "types": [
-      "Wind type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -7870,8 +8494,14 @@
     "name": "Tukai",
     "description": "It is unclear whether Professor Konstantinos ever discovered this evolution, with its flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
     "types": [
-      "Wind type",
-      "Water type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -7924,8 +8554,14 @@
     "name": "Tulcan",
     "description": "Some Temtemologists argue that Tulcan are the remains of an extinct species endemic to the upper slopes of Anak before the breakup of the island, alluded to Myrislan myth as 'firebreezers' and Cipanki folklore as 'flame kami'.",
     "types": [
-      "Wind type",
-      "Fire type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -7978,8 +8614,14 @@
     "name": "Tuvine",
     "description": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
     "types": [
-      "Wind type",
-      "Crystal type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -8032,8 +8674,14 @@
     "name": "Turoc",
     "description": "Turoc is, in the words of Linnaea, \"a meeting of opposites - a flying rock, stone on wings - an impossibility, and yet, a reality (...) further proof of the marvelous diversity of Temtem lifeforms.\"",
     "types": [
-      "Wind type",
-      "Earth type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -8086,8 +8734,14 @@
     "name": "Tuwire",
     "description": "One of the strangest evolutionary paths, Tuwire descends from escaped Digital Temtem crossing with wild Wind varieties. Aerodynamically speaking, they shouldn't be able to fly... but they do.",
     "types": [
-      "Wind type",
-      "Digital type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -8140,8 +8794,14 @@
     "name": "Tutsu",
     "description": "First described by reputed breeder Nalla of Vumbi, Tutsu is \"like a sudden storm, a nimble yet mighty bird of prey, fiery even when facing much bigger opponents\". It is said that all Tutsu are descended from Nalla's...",
     "types": [
-      "Wind type",
-      "Melee type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -8194,8 +8854,14 @@
     "name": "Kinu",
     "description": "The elusive Kinu are some of the rarest Nature Temtem in the Myrisles - to the point that some tamers think they're a mere legend. When they do show up, Omninesians treat them with the respect reserved for the guardian spirits of the Banyan.",
     "types": [
-      "Nature type",
-      "Mental type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -8248,8 +8914,14 @@
     "name": "Vulvir",
     "description": "Some academics speculate that this is the last remnant of a long-lost \"Draconic\" variety of Temtem. In practice terms, most tamers classify them as Fire-Earth, which is an accurate designation for these mighty but shy creatures.",
     "types": [
-      "Fire type",
-      "Earth type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -8307,8 +8979,14 @@
     "name": "Vulor",
     "description": "Although they hide their faces in hollow rocks like their lesser brethren, these Temtem have very little to fear from their environment. Tough as stone and destructive as fire, they are a force to be reckoned with.",
     "types": [
-      "Fire type",
-      "Earth type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -8366,8 +9044,14 @@
     "name": "Vulcrane",
     "description": "Vulcrane are sometimes described as \"Anak on two legs\". If a variety of draconic-looking Temtem ever existed, they couldn't have been much fiercer than this advanced, flaming beast.",
     "types": [
-      "Fire type",
-      "Earth type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -8420,7 +9104,10 @@
     "name": "Pigepic",
     "description": "The absolute favourites of toddlers all around the Archipelago, Pigepic are fluffy, soft and absolutely adorable. Voluminous and cumbersome, they normally float low over the ground, making them ideal playmates for small children.",
     "types": [
-      "Wind type"
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -8473,8 +9160,14 @@
     "name": "Akranox",
     "description": "Well-armed with a mighty stinger and protected by rugged rock-like armor, Akranox can afford to have flash colored pincers and a cocky attitude, making them a favorite of Archipelagian teens.",
     "types": [
-      "Earth type",
-      "Toxic type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -8527,8 +9220,14 @@
     "name": "Koish (Neutral)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Neutral type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -8581,8 +9280,14 @@
     "name": "Koish (Wind)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Wind type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -8635,8 +9340,14 @@
     "name": "Koish (Earth)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Earth type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      }
     ],
     "traits": [
       {
@@ -8689,7 +9400,10 @@
     "name": "Koish (Water)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      }
     ],
     "traits": [
       {
@@ -8742,8 +9456,14 @@
     "name": "Koish (Fire)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Fire type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -8796,8 +9516,14 @@
     "name": "Koish (Nature)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Nature type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -8850,8 +9576,14 @@
     "name": "Koish (Electric)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Electric type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -8904,8 +9636,14 @@
     "name": "Koish (Mental)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Mental type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -8958,8 +9696,14 @@
     "name": "Koish (Digital)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Digital type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -9012,8 +9756,14 @@
     "name": "Koish (Melee)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Melee type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -9066,8 +9816,14 @@
     "name": "Koish (Crystal)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Crystal type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -9120,8 +9876,14 @@
     "name": "Koish (Toxic)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
-      "Water type",
-      "Toxic type"
+      {
+        "name": "Water type",
+        "image": "static/types/water-type.png"
+      },
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      }
     ],
     "traits": [
       {
@@ -9174,8 +9936,14 @@
     "name": "Vulffy",
     "description": "Extremely perceptive and aware, this species flourishes (in all senses of the word) in the great expanses of wild land - although they are inquisitive by nature, and never shy away from human contact.",
     "types": [
-      "Earth type",
-      "Nature type"
+      {
+        "name": "Earth type",
+        "image": "static/types/earth-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -9228,8 +9996,14 @@
     "name": "Chubee",
     "description": "What started as an experiment in artificial pollination has resulted in the birth of this endearingly round fluffyboi. Although not great flyers, Chubee compensate their cumbersomeness with Digital reliability.",
     "types": [
-      "Digital type",
-      "Wind type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Wind type",
+        "image": "static/types/wind-type.png"
+      }
     ],
     "traits": [
       {
@@ -9287,8 +10061,14 @@
     "name": "Waspeen",
     "description": "Not even Professor Konstantinos could guess this evolutionary stage - while Waspeen loses its predecessors' flight, it develops powerful crystal spikes.",
     "types": [
-      "Digital type",
-      "Crystal type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -9341,8 +10121,14 @@
     "name": "Mawtle",
     "description": "Mawtle's smiley face has become a meme amongst the youngest generation of every Dojo, making this species feel hackneyed to some. Regardless of any fads, it remains a solid choice for any tamer, as well as a tech wonder.",
     "types": [
-      "Digital type",
-      "Nature type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -9400,8 +10186,14 @@
     "name": "Mawmense",
     "description": "Visesia herself rides a Mawmense into battle in \"Endaira II\", making it extremely cool and sought-after. Temtemologists argue it's an anachronism, since this is a very recent variety... but who listens to Temtemologists anyway?",
     "types": [
-      "Digital type",
-      "Nature type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -9454,8 +10246,14 @@
     "name": "Hazrat",
     "description": "If Temtem can develop in the Xolot Reservoir, why wouldn't they thrive in the sewers of Properton? WARNING: all specimens of this species are required to undergo a Dojo-approved detox process to make them safe to handle.",
     "types": [
-      "Toxic type",
-      "Fire type"
+      {
+        "name": "Toxic type",
+        "image": "static/types/toxic-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -9508,7 +10306,10 @@
     "name": "Minttle",
     "description": "A sweet, innocent appearance that conceals a great brainpower, this species has roamed the Greenglen Forest for centuries in small herds, grazing peacefully in the undergrowth and following the bigger Minox.",
     "types": [
-      "Mental type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -9566,8 +10367,14 @@
     "name": "Minox",
     "description": "Charles Temwin developed his theory of Temtem evolution by establishing a genetic link between the little, gentle Minttle and this mighty, bullish evolutionary stage.",
     "types": [
-      "Mental type",
-      "Electric type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -9625,8 +10432,14 @@
     "name": "Minothor",
     "description": "Some of the oldest cave paintings in the Chini Grotto are said to represent prehistorical Minothor. Its ability to transform Mental power into electricity and vice versa must have looked like magic to early humans...",
     "types": [
-      "Mental type",
-      "Electric type"
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      },
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
@@ -9679,8 +10492,14 @@
     "name": "Maoala",
     "description": "A favorite of Lochburgian tamers, Maoala are companionable Temtem, always up for a fun party or a hearty battle, equally at home in the dojo and in the pub.",
     "types": [
-      "Melee type",
-      "Mental type"
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -9733,7 +10552,10 @@
     "name": "Venx",
     "description": "This cute little warrior is popular among young tamers, who love to customize their own with bandages of different colors and patterns. Some Dojos are enforcing a more formal white-bandage code for serious competition.",
     "types": [
-      "Neutral type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      }
     ],
     "traits": [
       {
@@ -9795,8 +10617,14 @@
     "name": "Venmet",
     "description": "Sometimes more is more – and this evolution makes for a winning combination of resilience and sheer power. Some historians suggest this species was widely used by reivers on both sides during the turbulent era of Chieftain Mac Aed.",
     "types": [
-      "Neutral type",
-      "Melee type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -9849,8 +10677,14 @@
     "name": "Vental",
     "description": "Lady Cathrine of Properton herself popularized this species among the fashionable tamers of her age. Nowadays, it is considered one of the timeless classics of Arburian Temtem breeds.",
     "types": [
-      "Neutral type",
-      "Mental type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Mental type",
+        "image": "static/types/mental-type.png"
+      }
     ],
     "traits": [
       {
@@ -9903,8 +10737,14 @@
     "name": "Chimurian",
     "description": "Some urban legends claim this variety wasn't tamed or bred as much as extracted from mineral ores in the deepest pits of Quetzal. Just how its roots interface with the crystals of its body is still a subject of scientific study.",
     "types": [
-      "Nature type",
-      "Crystal type"
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      },
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      }
     ],
     "traits": [
       {
@@ -9957,8 +10797,14 @@
     "name": "Arachnyte",
     "description": "With way too many legs for anyone's liking, Arachnyte includes multi-core processing to coordinate movement, visual input, and combat subroutines - all in one efficient package of Arburian design.",
     "types": [
-      "Neutral type",
-      "Digital type"
+      {
+        "name": "Neutral type",
+        "image": "static/types/neutral-type.png"
+      },
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      }
     ],
     "traits": [
       {
@@ -10011,8 +10857,14 @@
     "name": "Thaiko",
     "description": "Developed as a joint project between Lochburg and Neoedo, this little furry bruiser combines feline breeding savoir-faire with cutting edge technology. A hotfix to prevent hairballs is expected any time now.",
     "types": [
-      "Digital type",
-      "Melee type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -10070,8 +10922,14 @@
     "name": "Monkko",
     "description": "Advanced martial arts training after breeding ensures that this Temtem is a cut above its less educated predecessors. Although the priests of Miyako frown at new Temtem species, Monkko's kung-fu is based on their techniques.",
     "types": [
-      "Digital type",
-      "Melee type"
+      {
+        "name": "Digital type",
+        "image": "static/types/digital-type.png"
+      },
+      {
+        "name": "Melee type",
+        "image": "static/types/melee-type.png"
+      }
     ],
     "traits": [
       {
@@ -10124,8 +10982,14 @@
     "name": "Anahir",
     "description": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
     "types": [
-      "Crystal type",
-      "Fire type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -10183,8 +11047,14 @@
     "name": "Anatan",
     "description": "Through the care and kindness of its tamer, Anahir overcame its traumatic origins. This happy Anatan stands as living proof of the healing power of love.",
     "types": [
-      "Crystal type",
-      "Fire type"
+      {
+        "name": "Crystal type",
+        "image": "static/types/crystal-type.png"
+      },
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      }
     ],
     "traits": [
       {
@@ -10237,8 +11107,14 @@
     "name": "Tyranak",
     "description": "Probably the last living relic from a distant pre-human past, when MegaTem roamed the unbroken Paninsula. Most Temtemologists considered it to be cryptofauna until... well, until now.",
     "types": [
-      "Fire type",
-      "Nature type"
+      {
+        "name": "Fire type",
+        "image": "static/types/fire-type.png"
+      },
+      {
+        "name": "Nature type",
+        "image": "static/types/nature-type.png"
+      }
     ],
     "traits": [
       {
@@ -10291,7 +11167,10 @@
     "name": "Volgon",
     "description": "In Cipanki lore, dragons are born of lightning to roam the vast reaches of heaven. Sometimes, a curious member of their race will visit the Archipelago and befriend a human. They are never considered \"tamed\" - they merely consent to accompanying a tamer for a few years or even decades.",
     "types": [
-      "Electric type"
+      {
+        "name": "Electric type",
+        "image": "static/types/electric-type.png"
+      }
     ],
     "traits": [
       {
