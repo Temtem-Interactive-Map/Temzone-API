@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "scrape": "node --no-warnings scraper/index.js",
-    "dev": "wrangler dev --local --persist",
+    "dev": "wrangler dev --local",
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.json,.yml",
     "test": "vitest",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "hono": "2.7.8",
-    "jose": "4.11.4",
+    "jose": "4.12.0",
     "realm-web": "2.0.0"
   },
   "devDependencies": {
