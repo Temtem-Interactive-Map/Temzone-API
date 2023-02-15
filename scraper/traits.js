@@ -16,20 +16,18 @@ export class TraitsDB {
     };
     const traitSelectorEntries = Object.entries(traitSelectors);
 
-    $("table.wikitable > tbody > tr:not(:first-child)")
-      .toArray()
-      .forEach((el) => {
-        const $el = $(el);
-        const traitEntries = traitSelectorEntries.map(([key, selector]) => {
-          const rawValue = $el.find(selector).text();
-          const value = cleanText(rawValue);
+    for (const el of $("table.wikitable > tbody > tr:not(:first-child)")) {
+      const $el = $(el);
+      const traitEntries = traitSelectorEntries.map(([key, selector]) => {
+        const rawValue = $el.find(selector).text();
+        const value = cleanText(rawValue);
 
-          return [key, value];
-        });
-        const trait = Object.fromEntries(traitEntries);
-
-        this.traits[trait.name] = trait;
+        return [key, value];
       });
+      const trait = Object.fromEntries(traitEntries);
+
+      this.traits[trait.name] = trait;
+    }
 
     logSuccess("[traits] scraped successfully");
 
