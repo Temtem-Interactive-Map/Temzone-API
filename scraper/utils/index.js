@@ -7,6 +7,10 @@ export async function scrape(url) {
   return load(html);
 }
 
+export function getUrlExtension(url) {
+  return url.split(/[#?]/)[0].split(".").pop().trim();
+}
+
 export function cleanText(text) {
   return text
     .replace(/\t|\n|\u200a/g, "")
