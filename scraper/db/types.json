@@ -1,0 +1,50 @@
+{
+  "Neutral type": {
+    "name": "Neutral type",
+    "image": "static/types/neutral-type.png"
+  },
+  "Wind type": {
+    "name": "Wind type",
+    "image": "static/types/wind-type.png"
+  },
+  "Earth type": {
+    "name": "Earth type",
+    "image": "static/types/earth-type.png"
+  },
+  "Water type": {
+    "name": "Water type",
+    "image": "static/types/water-type.png"
+  },
+  "Fire type": {
+    "name": "Fire type",
+    "image": "static/types/fire-type.png"
+  },
+  "Nature type": {
+    "name": "Nature type",
+    "image": "static/types/nature-type.png"
+  },
+  "Electric type": {
+    "name": "Electric type",
+    "image": "static/types/electric-type.png"
+  },
+  "Mental type": {
+    "name": "Mental type",
+    "image": "static/types/mental-type.png"
+  },
+  "Digital type": {
+    "name": "Digital type",
+    "image": "static/types/digital-type.png"
+  },
+  "Melee type": {
+    "name": "Melee type",
+    "image": "static/types/melee-type.png"
+  },
+  "Crystal type": {
+    "name": "Crystal type",
+    "image": "static/types/crystal-type.png"
+  },
+  "Toxic type": {
+    "name": "Toxic type",
+    "image": "static/types/toxic-type.png"
+  }
+}
