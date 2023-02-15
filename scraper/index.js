@@ -1,4 +1,5 @@
-import { logError, logInfo } from "./log/index.js";
+import { writeDBFile } from "./db/index.js";
+import { logError, logInfo, logSuccess } from "./log/index.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
@@ -16,9 +17,11 @@ async function scrapeAndSave(name) {
 
   try {
     const scraper = SCRAPERS[name];
+    const content = await scraper.scrape();
 
-    await scraper.scrape();
-    await scraper.write();
+    logInfo("Writing [" + name + "] to database...");
+    await writeDBFile(name, content);
+    logSuccess("[" + name + "] written successfully");
   } catch (error) {
     logError("Error scraping [" + name + "]");
     logError(error);
