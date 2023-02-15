@@ -1,9 +1,12 @@
-import { writeDBFile } from "./db/index.js";
-import { logError, logInfo, logSuccess } from "./log/index.js";
-import { getAllTemtem } from "./temtem.js";
+import { logError, logInfo } from "./log/index.js";
+import { TemtemDB } from "./temtem.js";
+import { TraitsDB } from "./traits.js";
+import { TypesDB } from "./types.js";
 
 const SCRAPERS = {
-  temtem: getAllTemtem,
+  types: TypesDB,
+  traits: TraitsDB,
+  temtem: TemtemDB,
   saipark: null,
   landmarks: null,
 };
@@ -14,13 +17,8 @@ async function scrapeAndSave(name) {
   try {
     const scraper = SCRAPERS[name];
 
-    logInfo("Scraping [" + name + "]...");
-    const content = await scraper();
-    logSuccess("[" + name + "] scraped successfully");
-
-    logInfo("Writing [" + name + "] to database...");
-    await writeDBFile(name, content);
-    logSuccess("[" + name + "] written successfully");
+    await scraper.scrape();
+    await scraper.write();
   } catch (error) {
     logError("Error scraping [" + name + "]");
     logError(error);
