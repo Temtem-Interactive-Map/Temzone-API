@@ -25,12 +25,11 @@ export class TypesDB {
       const extension = getUrlExtension(url);
       const fileName = name.replace(" ", "-").toLowerCase() + "." + extension;
 
-      logInfo("- Writing [" + fileName + "] to database...");
+      logWarning("- Writing [" + fileName + "] to database...");
       await writeDBImage(
         join("types", fileName),
         "https://temtem.wiki.gg/" + url
       );
-      logSuccess("- [" + fileName + "] written successfully");
 
       this.types[name] = {
         name,
