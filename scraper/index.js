@@ -34,7 +34,7 @@ async function scrapeAndSave(name) {
   }
 }
 
-const name = process.argv.at(-1);
+const name = process.argv.pop();
 
 if (SCRAPERS[name]) {
   logInfo("Scraping [" + name + "] data from the Official Temtem Wiki...");
