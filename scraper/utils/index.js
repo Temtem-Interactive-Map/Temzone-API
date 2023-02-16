@@ -7,13 +7,20 @@ export async function scrape(url) {
   return load(html);
 }
 
-export function getUrlExtension(url) {
-  return url.split(/[#?]/)[0].split(".").pop().trim();
-}
-
 export function cleanText(text) {
   return text
     .replace(/\t|\n|\u200a/g, "")
     .replace(/\s\s+/g, " ")
     .trim();
+}
+
+export function shortUrl(rawUrl) {
+  const url = rawUrl.split(/[#?]/).shift().trim();
+  const index = url.lastIndexOf("/");
+
+  return url.substring(0, index).replace("/thumb", "");
+}
+
+export function getUrlExtension(url) {
+  return url.split(/[#?]/).shift().split(".").pop().trim();
 }
