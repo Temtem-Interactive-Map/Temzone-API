@@ -7,9 +7,9 @@ export class TypesDB {
   static async scrape() {
     if (this.types) return logWarning("[types] already scraped");
 
-    logWarning("Removing [types] database...");
+    logWarning("Removing [types] assets...");
     await removeDBContent("types");
-    logSuccess("[types] database removed successfully");
+    logSuccess("[types] assets removed successfully");
 
     logInfo("Scraping [types]...");
     this.types = {};
