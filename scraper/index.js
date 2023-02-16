@@ -1,7 +1,7 @@
-import { AreasDB } from "./areas.js";
 import { writeDBFile } from "./db/index.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
 import { SaiparkDB } from "./saipark.js";
+import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
@@ -10,7 +10,7 @@ const SCRAPERS = {
   types: TypesDB,
   traits: TraitsDB,
   temtem: TemtemDB,
-  areas: AreasDB,
+  spawns: SpawnsDB,
   saipark: SaiparkDB,
   landmarks: null,
 };
