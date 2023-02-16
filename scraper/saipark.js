@@ -1,8 +1,10 @@
-import { logInfo, logSuccess } from "./log/index.js";
+import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { cleanText, scrape } from "./utils/index.js";
 
 export class SaiparkDB {
   static async scrape() {
+    if (this.saipark) return logWarning("[saipark] already scraped");
+
     logInfo("Scraping [saipark]...");
     this.saipark = [];
 
@@ -19,7 +21,13 @@ export class SaiparkDB {
           "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > p"
         )
         .text();
-      const name = cleanText(rawName);
+      const cleanName = cleanText(rawName);
+      const name =
+        cleanName === "Chromeon"
+          ? "Chromeon (Digital)"
+          : cleanName === "Koish"
+          ? "Koish (Water)"
+          : cleanName;
 
       const rawRate = $table
         .find(
@@ -58,12 +66,7 @@ export class SaiparkDB {
 
       this.saipark.push({
         area,
-        name:
-          name === "Chromeon"
-            ? "Chromeon (Digital)"
-            : name === "Koish"
-            ? "Koish (Water)"
-            : name,
+        name,
         rate,
         lumaRate,
         minSVs,
