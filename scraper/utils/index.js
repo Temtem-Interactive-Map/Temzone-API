@@ -16,6 +16,9 @@ export function cleanText(text) {
 
 export function shortUrl(rawUrl) {
   const url = rawUrl.split(/[#?]/).shift().trim();
+
+  if (!url.includes("/thumb")) return url;
+
   const index = url.lastIndexOf("/");
 
   return url.substring(0, index).replace("/thumb", "");
