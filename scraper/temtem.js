@@ -72,7 +72,8 @@ export class TemtemDB {
         const temtemEvolution = this.creatures[evolution.name];
 
         return {
-          ...evolution,
+          name: evolution.name,
+          condition: evolution.condition,
           image: temtemEvolution.images.default,
           traits: temtemEvolution.traits.map((trait) => trait.name),
         };
