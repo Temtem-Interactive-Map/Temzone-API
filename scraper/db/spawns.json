@@ -1,0 +1,1022 @@
+[
+  {
+    "location": "Iwaba",
+    "area": "Area 1",
+    "image": "static/types/iwaba-area-1.png"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 2",
+    "image": "static/types/iwaba-area-2.png"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 3",
+    "image": "static/types/iwaba-area-3.png"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 4",
+    "image": "static/types/iwaba-area-4.png"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 5",
+    "image": "static/types/iwaba-area-5.png"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 1",
+    "image": "static/types/rice-fields-area-1.png"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 2",
+    "image": "static/types/rice-fields-area-2.png"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 3",
+    "image": "static/types/rice-fields-area-3.png"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 4",
+    "image": "static/types/rice-fields-area-4.png"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 5",
+    "image": "static/types/rice-fields-area-5.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 1",
+    "image": "static/types/pillars-of-highabove-area-1.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 2",
+    "image": "static/types/pillars-of-highabove-area-2.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 3",
+    "image": "static/types/pillars-of-highabove-area-3.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 4",
+    "image": "static/types/pillars-of-highabove-area-4.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 5",
+    "image": "static/types/pillars-of-highabove-area-5.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 6",
+    "image": "static/types/pillars-of-highabove-area-6.png"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 7",
+    "image": "static/types/pillars-of-highabove-area-7.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 1",
+    "image": "static/types/gifted-bridges-area-1.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 2",
+    "image": "static/types/gifted-bridges-area-2.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 3",
+    "image": "static/types/gifted-bridges-area-3.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 4",
+    "image": "static/types/gifted-bridges-area-4.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 5",
+    "image": "static/types/gifted-bridges-area-5.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 6",
+    "image": "static/types/gifted-bridges-area-6.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 7",
+    "image": "static/types/gifted-bridges-area-7.png"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 8",
+    "image": "static/types/gifted-bridges-area-8.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 1",
+    "image": "static/types/corrupted-badlands-area-1.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 2",
+    "image": "static/types/corrupted-badlands-area-2.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 3",
+    "image": "static/types/corrupted-badlands-area-3.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 4",
+    "image": "static/types/corrupted-badlands-area-4.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 5",
+    "image": "static/types/corrupted-badlands-area-5.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 6",
+    "image": "static/types/corrupted-badlands-area-6.png"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 7",
+    "image": "static/types/corrupted-badlands-area-7.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 1",
+    "image": "static/types/xolot-reservoir-area-1.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 2",
+    "image": "static/types/xolot-reservoir-area-2.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 3",
+    "image": "static/types/xolot-reservoir-area-3.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 4",
+    "image": "static/types/xolot-reservoir-area-4.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 5",
+    "image": "static/types/xolot-reservoir-area-5.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 6",
+    "image": "static/types/xolot-reservoir-area-6.png"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 7",
+    "image": "static/types/xolot-reservoir-area-7.png"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 1",
+    "image": "static/types/mines-of-mictlan-area-1.png"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 2",
+    "image": "static/types/mines-of-mictlan-area-2.png"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 3",
+    "image": "static/types/mines-of-mictlan-area-3.png"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 4",
+    "image": "static/types/mines-of-mictlan-area-4.png"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 1",
+    "image": "static/types/gardens-of-aztlan-area-1.png"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 2",
+    "image": "static/types/gardens-of-aztlan-area-2.png"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 3",
+    "image": "static/types/gardens-of-aztlan-area-3.png"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 1",
+    "image": "static/types/saipark-area-1.png"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 2",
+    "image": "static/types/saipark-area-2.png"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 3",
+    "image": "static/types/saipark-area-3.png"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 4",
+    "image": "static/types/saipark-area-4.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 1",
+    "image": "static/types/sillaro-river-area-1.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 2",
+    "image": "static/types/sillaro-river-area-2.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 3",
+    "image": "static/types/sillaro-river-area-3.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 4",
+    "image": "static/types/sillaro-river-area-4.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 5",
+    "image": "static/types/sillaro-river-area-5.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 6",
+    "image": "static/types/sillaro-river-area-6.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 7",
+    "image": "static/types/sillaro-river-area-7.png"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 8",
+    "image": "static/types/sillaro-river-area-8.png"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png"
+  },
+  {
+    "location": "Dabmis' Rest",
+    "area": "Area 1",
+    "image": "static/types/dabmis-rest-area-1.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 1",
+    "image": "static/types/prasine-coast-area-1.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 2",
+    "image": "static/types/prasine-coast-area-2.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 3",
+    "image": "static/types/prasine-coast-area-3.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 4",
+    "image": "static/types/prasine-coast-area-4.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 5",
+    "image": "static/types/prasine-coast-area-5.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 6",
+    "image": "static/types/prasine-coast-area-6.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 7",
+    "image": "static/types/prasine-coast-area-7.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 8",
+    "image": "static/types/prasine-coast-area-8.png"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 9",
+    "image": "static/types/prasine-coast-area-9.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 1",
+    "image": "static/types/thalassian-cliffs-area-1.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 2",
+    "image": "static/types/thalassian-cliffs-area-2.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 3",
+    "image": "static/types/thalassian-cliffs-area-3.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 4",
+    "image": "static/types/thalassian-cliffs-area-4.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 5",
+    "image": "static/types/thalassian-cliffs-area-5.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 6",
+    "image": "static/types/thalassian-cliffs-area-6.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 7",
+    "image": "static/types/thalassian-cliffs-area-7.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 8",
+    "image": "static/types/thalassian-cliffs-area-8.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 9",
+    "image": "static/types/thalassian-cliffs-area-9.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 10",
+    "image": "static/types/thalassian-cliffs-area-10.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 11",
+    "image": "static/types/thalassian-cliffs-area-11.png"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 12",
+    "image": "static/types/thalassian-cliffs-area-12.png"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 1",
+    "image": "static/types/the-canopath-area-1.png"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 2",
+    "image": "static/types/the-canopath-area-2.png"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 3",
+    "image": "static/types/the-canopath-area-3.png"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 4",
+    "image": "static/types/the-canopath-area-4.png"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 1",
+    "image": "static/types/the-flywalk-area-1.png"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 2",
+    "image": "static/types/the-flywalk-area-2.png"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 3",
+    "image": "static/types/the-flywalk-area-3.png"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 4",
+    "image": "static/types/the-flywalk-area-4.png"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 5",
+    "image": "static/types/the-flywalk-area-5.png"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 1",
+    "image": "static/types/the-hangroad-area-1.png"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 2",
+    "image": "static/types/the-hangroad-area-2.png"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 3",
+    "image": "static/types/the-hangroad-area-3.png"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 1",
+    "image": "static/types/the-glassyway-area-1.png"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 2",
+    "image": "static/types/the-glassyway-area-2.png"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 3",
+    "image": "static/types/the-glassyway-area-3.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 1",
+    "image": "static/types/windward-fort-area-1.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 2",
+    "image": "static/types/windward-fort-area-2.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 3",
+    "image": "static/types/windward-fort-area-3.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 4",
+    "image": "static/types/windward-fort-area-4.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 5",
+    "image": "static/types/windward-fort-area-5.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 6",
+    "image": "static/types/windward-fort-area-6.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 7",
+    "image": "static/types/windward-fort-area-7.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 8",
+    "image": "static/types/windward-fort-area-8.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 9",
+    "image": "static/types/windward-fort-area-9.png"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 10",
+    "image": "static/types/windward-fort-area-10.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 1",
+    "image": "static/types/aguamarina-caves-area-1.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 2",
+    "image": "static/types/aguamarina-caves-area-2.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 3",
+    "image": "static/types/aguamarina-caves-area-3.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 4",
+    "image": "static/types/aguamarina-caves-area-4.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 5",
+    "image": "static/types/aguamarina-caves-area-5.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 6",
+    "image": "static/types/aguamarina-caves-area-6.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 7",
+    "image": "static/types/aguamarina-caves-area-7.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 8",
+    "image": "static/types/aguamarina-caves-area-8.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 9",
+    "image": "static/types/aguamarina-caves-area-9.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 10",
+    "image": "static/types/aguamarina-caves-area-10.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 11",
+    "image": "static/types/aguamarina-caves-area-11.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 12",
+    "image": "static/types/aguamarina-caves-area-12.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 13",
+    "image": "static/types/aguamarina-caves-area-13.png"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 14",
+    "image": "static/types/aguamarina-caves-area-14.png"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 1",
+    "image": "static/types/jino-gap-area-1.png"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 2",
+    "image": "static/types/jino-gap-area-2.png"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 3",
+    "image": "static/types/jino-gap-area-3.png"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 4",
+    "image": "static/types/jino-gap-area-4.png"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 1",
+    "image": "static/types/kilima-peaks-area-1.png"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 2",
+    "image": "static/types/kilima-peaks-area-2.png"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 3",
+    "image": "static/types/kilima-peaks-area-3.png"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 4",
+    "image": "static/types/kilima-peaks-area-4.png"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 1",
+    "image": "static/types/sewers-of-properton-area-1.png"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 2",
+    "image": "static/types/sewers-of-properton-area-2.png"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 3",
+    "image": "static/types/sewers-of-properton-area-3.png"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 1",
+    "image": "static/types/mac-aeds-crags-area-1.png"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 2",
+    "image": "static/types/mac-aeds-crags-area-2.png"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 3",
+    "image": "static/types/mac-aeds-crags-area-3.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 1",
+    "image": "static/types/greenglen-forest-area-1.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 2",
+    "image": "static/types/greenglen-forest-area-2.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 3",
+    "image": "static/types/greenglen-forest-area-3.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 4",
+    "image": "static/types/greenglen-forest-area-4.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 5",
+    "image": "static/types/greenglen-forest-area-5.png"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 6",
+    "image": "static/types/greenglen-forest-area-6.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 1",
+    "image": "static/types/kwea-uplands-area-1.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 2",
+    "image": "static/types/kwea-uplands-area-2.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 3",
+    "image": "static/types/kwea-uplands-area-3.png"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 1",
+    "image": "static/types/kakama-cenote-area-1.png"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 2",
+    "image": "static/types/kakama-cenote-area-2.png"
+  },
+  {
+    "location": "Barafu Glacier",
+    "area": "Area 1",
+    "image": "static/types/barafu-glacier-area-1.png"
+  },
+  {
+    "location": "Giant Banyan",
+    "area": "Area 1",
+    "image": "static/types/giant-banyan-area-1.png"
+  },
+  {
+    "location": "The Highbelow?",
+    "area": "Area 1",
+    "image": "static/types/the-highbelow-area-1.png"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 1",
+    "image": "static/types/mawingu-islets-area-1.png"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 2",
+    "image": "static/types/mawingu-islets-area-2.png"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 3",
+    "image": "static/types/mawingu-islets-area-3.png"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 4",
+    "image": "static/types/mawingu-islets-area-4.png"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 5",
+    "image": "static/types/mawingu-islets-area-5.png"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 1",
+    "image": "static/types/chini-grotto-area-1.png"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 2",
+    "image": "static/types/chini-grotto-area-2.png"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 3",
+    "image": "static/types/chini-grotto-area-3.png"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 4",
+    "image": "static/types/chini-grotto-area-4.png"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 5",
+    "image": "static/types/chini-grotto-area-5.png"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 1",
+    "image": "static/types/matope-road-area-1.png"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 2",
+    "image": "static/types/matope-road-area-2.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 1",
+    "image": "static/types/tasa-desert-area-1.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 2",
+    "image": "static/types/tasa-desert-area-2.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 3",
+    "image": "static/types/tasa-desert-area-3.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 4",
+    "image": "static/types/tasa-desert-area-4.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 5",
+    "image": "static/types/tasa-desert-area-5.png"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 6",
+    "image": "static/types/tasa-desert-area-6.png"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 1",
+    "image": "static/types/meadowdale-area-1.png"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 2",
+    "image": "static/types/meadowdale-area-2.png"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 3",
+    "image": "static/types/meadowdale-area-3.png"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 4",
+    "image": "static/types/meadowdale-area-4.png"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 5",
+    "image": "static/types/meadowdale-area-5.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 1",
+    "image": "static/types/anak-volcano-area-1.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 2",
+    "image": "static/types/anak-volcano-area-2.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 3",
+    "image": "static/types/anak-volcano-area-3.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 4",
+    "image": "static/types/anak-volcano-area-4.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 5",
+    "image": "static/types/anak-volcano-area-5.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 6",
+    "image": "static/types/anak-volcano-area-6.png"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 7",
+    "image": "static/types/anak-volcano-area-7.png"
+  },
+  {
+    "location": "Anak Caldera",
+    "area": "Area 1",
+    "image": "static/types/anak-caldera-area-1.png"
+  },
+  {
+    "location": "Sons of Crystal",
+    "area": "Area 1",
+    "image": "static/types/sons-of-crystal-area-1.png"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 1",
+    "image": "static/types/kupeleleza-area-1.png"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 2",
+    "image": "static/types/kupeleleza-area-2.png"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 3",
+    "image": "static/types/kupeleleza-area-3.png"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 4",
+    "image": "static/types/kupeleleza-area-4.png"
+  },
+  {
+    "location": "Altar of the Inner Flame",
+    "area": "Area 1",
+    "image": "static/types/altar-of-the-inner-flame-area-1.png"
+  },
+  {
+    "location": "Aisha's Hearth",
+    "area": "Area 1",
+    "image": "static/types/aishas-hearth-area-1.png"
+  },
+  {
+    "location": "Arissola Dojo",
+    "area": "Area 1",
+    "image": "static/types/arissola-dojo-area-1.png"
+  },
+  {
+    "location": "Loch Aduar",
+    "area": "Area 1",
+    "image": "static/types/loch-aduar-area-1.png"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 1",
+    "image": "static/types/braeside-castle-area-1.png"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 2",
+    "image": "static/types/braeside-castle-area-2.png"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 3",
+    "image": "static/types/braeside-castle-area-3.png"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 4",
+    "image": "static/types/braeside-castle-area-4.png"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 5",
+    "image": "static/types/braeside-castle-area-5.png"
+  },
+  {
+    "location": "Sacred Lake",
+    "area": "Area 1",
+    "image": "static/types/sacred-lake-area-1.png"
+  },
+  {
+    "location": "Digital Kami Shrine",
+    "area": "Area 1",
+    "image": "static/types/digital-kami-shrine-area-1.png"
+  },
+  {
+    "location": "Juu Tunnel",
+    "area": "Area 1",
+    "image": "static/types/juu-tunnel-area-1.png"
+  },
+  {
+    "location": "Juu Tunnel",
+    "area": "Area 2",
+    "image": "static/types/juu-tunnel-area-2.png"
+  },
+  {
+    "location": "Juu Tunnel",
+    "area": "Area 3",
+    "image": "static/types/juu-tunnel-area-3.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 1",
+    "image": "static/types/kwea-uplands-area-1.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 2",
+    "image": "static/types/kwea-uplands-area-2.png"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 3",
+    "image": "static/types/kwea-uplands-area-3.png"
+  },
+  {
+    "location": "Moyo Lake",
+    "area": "Area 1",
+    "image": "static/types/moyo-lake-area-1.png"
+  },
+  {
+    "location": "Chieftain's Barrow",
+    "area": "Area 1",
+    "image": "static/types/chieftains-barrow-area-1.png"
+  },
+  {
+    "location": "Nuru Lodge",
+    "area": "Area 1",
+    "image": "static/types/nuru-lodge-area-1.png"
+  }
+]
