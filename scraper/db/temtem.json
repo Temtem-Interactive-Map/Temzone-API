@@ -6,9 +6,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mimit.png",
+      "animation": "static/temtem/mimit.gif"
+    },
     "traits": [
       {
         "name": "Striking Transmog",
@@ -59,9 +63,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/oree.png",
+      "animation": "static/temtem/oree.gif"
+    },
     "traits": [
       {
         "name": "Attack<T>",
@@ -109,7 +117,12 @@
     "evolutions": [
       {
         "name": "Zaobian",
-        "condition": "+35 Levels"
+        "condition": "+35 Levels",
+        "image": "static/temtem/zaobian.png",
+        "traits": [
+          "Attack<T>",
+          "Voltaic Charge"
+        ]
       }
     ]
   },
@@ -120,9 +133,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/zaobian.png",
+      "animation": "static/temtem/zaobian.gif"
+    },
     "traits": [
       {
         "name": "Attack<T>",
@@ -176,13 +193,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-neutral.png",
+      "animation": "static/temtem/chromeon-neutral.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -236,13 +257,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-wind.png",
+      "animation": "static/temtem/chromeon-wind.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -296,13 +321,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-earth.png",
+      "animation": "static/temtem/chromeon-earth.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -356,13 +385,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-water.png",
+      "animation": "static/temtem/chromeon-water.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -416,13 +449,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-fire.png",
+      "animation": "static/temtem/chromeon-fire.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -476,13 +513,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-nature.png",
+      "animation": "static/temtem/chromeon-nature.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -536,13 +577,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-electric.png",
+      "animation": "static/temtem/chromeon-electric.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -596,13 +641,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-mental.png",
+      "animation": "static/temtem/chromeon-mental.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -656,9 +705,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-digital.png",
+      "animation": "static/temtem/chromeon-digital.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -712,13 +765,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-melee.png",
+      "animation": "static/temtem/chromeon-melee.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -772,13 +829,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-crystal.png",
+      "animation": "static/temtem/chromeon-crystal.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -832,13 +893,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chromeon-toxic.png",
+      "animation": "static/temtem/chromeon-toxic.gif"
+    },
     "traits": [
       {
         "name": "Synertyper",
@@ -892,9 +957,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/halzhi.png",
+      "animation": "static/temtem/halzhi.gif"
+    },
     "traits": [
       {
         "name": "Parrier",
@@ -942,7 +1011,12 @@
     "evolutions": [
       {
         "name": "Molgu",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/molgu.png",
+        "traits": [
+          "Splitter",
+          "Sentinel"
+        ]
       }
     ]
   },
@@ -953,9 +1027,13 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/molgu.png",
+      "animation": "static/temtem/molgu.gif"
+    },
     "traits": [
       {
         "name": "Splitter",
@@ -1009,13 +1087,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/platypet.png",
+      "animation": "static/temtem/platypet.gif"
+    },
     "traits": [
       {
         "name": "Toxic Affinity",
@@ -1063,7 +1145,12 @@
     "evolutions": [
       {
         "name": "Platox",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/platox.png",
+        "traits": [
+          "Resistant",
+          "Resilient"
+        ]
       }
     ]
   },
@@ -1074,13 +1161,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/platox.png",
+      "animation": "static/temtem/platox.gif"
+    },
     "traits": [
       {
         "name": "Resistant",
@@ -1128,7 +1219,12 @@
     "evolutions": [
       {
         "name": "Platimous",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/platimous.png",
+        "traits": [
+          "Zen",
+          "Determined"
+        ]
       }
     ]
   },
@@ -1139,13 +1235,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/platimous.png",
+      "animation": "static/temtem/platimous.gif"
+    },
     "traits": [
       {
         "name": "Zen",
@@ -1199,9 +1299,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/swali.png",
+      "animation": "static/temtem/swali.gif"
+    },
     "traits": [
       {
         "name": "Shared Pain",
@@ -1249,7 +1353,12 @@
     "evolutions": [
       {
         "name": "Loali",
-        "condition": "+8 Levels"
+        "condition": "+8 Levels",
+        "image": "static/temtem/loali.png",
+        "traits": [
+          "Botanist",
+          "Toxic Farewell"
+        ]
       }
     ]
   },
@@ -1260,13 +1369,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/loali.png",
+      "animation": "static/temtem/loali.gif"
+    },
     "traits": [
       {
         "name": "Botanist",
@@ -1320,9 +1433,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tateru.png",
+      "animation": "static/temtem/tateru.gif"
+    },
     "traits": [
       {
         "name": "Soft Touch",
@@ -1376,13 +1493,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/gharunder.png",
+      "animation": "static/temtem/gharunder.gif"
+    },
     "traits": [
       {
         "name": "Brumation",
@@ -1436,9 +1557,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mosu.png",
+      "animation": "static/temtem/mosu.gif"
+    },
     "traits": [
       {
         "name": "Punch Bag",
@@ -1486,7 +1611,12 @@
     "evolutions": [
       {
         "name": "Magmut",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/magmut.png",
+        "traits": [
+          "Specgulp",
+          "Physgulp"
+        ]
       }
     ]
   },
@@ -1497,13 +1627,17 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/magmut.png",
+      "animation": "static/temtem/magmut.gif"
+    },
     "traits": [
       {
         "name": "Specgulp",
@@ -1557,9 +1691,13 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/paharo.png",
+      "animation": "static/temtem/paharo.gif"
+    },
     "traits": [
       {
         "name": "Hover",
@@ -1607,7 +1745,12 @@
     "evolutions": [
       {
         "name": "Paharac",
-        "condition": "+7 Levels"
+        "condition": "+7 Levels",
+        "image": "static/temtem/paharac.png",
+        "traits": [
+          "Caffeinated",
+          "Camaraderie"
+        ]
       }
     ]
   },
@@ -1618,9 +1761,13 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/paharac.png",
+      "animation": "static/temtem/paharac.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -1668,7 +1815,12 @@
     "evolutions": [
       {
         "name": "Granpah",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/granpah.png",
+        "traits": [
+          "Last Rush",
+          "Bully"
+        ]
       }
     ]
   },
@@ -1679,9 +1831,13 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/granpah.png",
+      "animation": "static/temtem/granpah.gif"
+    },
     "traits": [
       {
         "name": "Last Rush",
@@ -1735,9 +1891,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/ampling.png",
+      "animation": "static/temtem/ampling.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -1785,7 +1945,12 @@
     "evolutions": [
       {
         "name": "Amphatyr",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/amphatyr.png",
+        "traits": [
+          "Relaxed",
+          "Infectious"
+        ]
       }
     ]
   },
@@ -1796,13 +1961,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/amphatyr.png",
+      "animation": "static/temtem/amphatyr.gif"
+    },
     "traits": [
       {
         "name": "Relaxed",
@@ -1856,13 +2025,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/bunbun.png",
+      "animation": "static/temtem/bunbun.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -1910,7 +2083,12 @@
     "evolutions": [
       {
         "name": "Mudrid",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/mudrid.png",
+        "traits": [
+          "Receptive",
+          "Resistant"
+        ]
       }
     ]
   },
@@ -1921,13 +2099,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mudrid.png",
+      "animation": "static/temtem/mudrid.gif"
+    },
     "traits": [
       {
         "name": "Receptive",
@@ -1981,9 +2163,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/hidody.png",
+      "animation": "static/temtem/hidody.gif"
+    },
     "traits": [
       {
         "name": "Electric Synthesize",
@@ -2031,7 +2217,12 @@
     "evolutions": [
       {
         "name": "Taifu",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/taifu.png",
+        "traits": [
+          "Toxic Farewell",
+          "Resilient"
+        ]
       }
     ]
   },
@@ -2042,9 +2233,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/taifu.png",
+      "animation": "static/temtem/taifu.gif"
+    },
     "traits": [
       {
         "name": "Toxic Farewell",
@@ -2098,9 +2293,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/fomu.png",
+      "animation": "static/temtem/fomu.gif"
+    },
     "traits": [
       {
         "name": "Amphibian",
@@ -2148,7 +2347,12 @@
     "evolutions": [
       {
         "name": "Wiplump",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/wiplump.png",
+        "traits": [
+          "Plethoric",
+          "Patient"
+        ]
       }
     ]
   },
@@ -2159,13 +2363,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/wiplump.png",
+      "animation": "static/temtem/wiplump.gif"
+    },
     "traits": [
       {
         "name": "Plethoric",
@@ -2219,9 +2427,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/skail.png",
+      "animation": "static/temtem/skail.gif"
+    },
     "traits": [
       {
         "name": "Furor",
@@ -2269,7 +2481,12 @@
     "evolutions": [
       {
         "name": "Skunch",
-        "condition": "+17 Levels"
+        "condition": "+17 Levels",
+        "image": "static/temtem/skunch.png",
+        "traits": [
+          "Brawny",
+          "Bully"
+        ]
       }
     ]
   },
@@ -2280,13 +2497,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/skunch.png",
+      "animation": "static/temtem/skunch.gif"
+    },
     "traits": [
       {
         "name": "Brawny",
@@ -2340,9 +2561,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/goty.png",
+      "animation": "static/temtem/goty.gif"
+    },
     "traits": [
       {
         "name": "Rested",
@@ -2390,7 +2615,12 @@
     "evolutions": [
       {
         "name": "Mouflank",
-        "condition": "+13 Levels"
+        "condition": "+13 Levels",
+        "image": "static/temtem/mouflank.png",
+        "traits": [
+          "Hurry-wart",
+          "Unnoticed"
+        ]
       }
     ]
   },
@@ -2401,9 +2631,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mouflank.png",
+      "animation": "static/temtem/mouflank.gif"
+    },
     "traits": [
       {
         "name": "Hurry-wart",
@@ -2457,13 +2691,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/rhoulder.png",
+      "animation": "static/temtem/rhoulder.gif"
+    },
     "traits": [
       {
         "name": "Tardy Rush",
@@ -2517,9 +2755,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/houchic.png",
+      "animation": "static/temtem/houchic.gif"
+    },
     "traits": [
       {
         "name": "Mental Alliance",
@@ -2567,7 +2809,12 @@
     "evolutions": [
       {
         "name": "Tental",
-        "condition": "+29 Levels"
+        "condition": "+29 Levels",
+        "image": "static/temtem/tental.png",
+        "traits": [
+          "Avenger",
+          "Water Affinity"
+        ]
       }
     ]
   },
@@ -2578,9 +2825,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tental.png",
+      "animation": "static/temtem/tental.gif"
+    },
     "traits": [
       {
         "name": "Avenger",
@@ -2628,7 +2879,12 @@
     "evolutions": [
       {
         "name": "Nagaise",
-        "condition": "+24 Levels"
+        "condition": "+24 Levels",
+        "image": "static/temtem/nagaise.png",
+        "traits": [
+          "Deceit Aura",
+          "Water Custodian"
+        ]
       }
     ]
   },
@@ -2639,13 +2895,17 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/nagaise.png",
+      "animation": "static/temtem/nagaise.gif"
+    },
     "traits": [
       {
         "name": "Deceit Aura",
@@ -2699,13 +2959,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/orphyll.png",
+      "animation": "static/temtem/orphyll.gif"
+    },
     "traits": [
       {
         "name": "Toxic Affinity",
@@ -2753,7 +3017,12 @@
     "evolutions": [
       {
         "name": "Nidrasil",
-        "condition": "+22 Levels"
+        "condition": "+22 Levels",
+        "image": "static/temtem/nidrasil.png",
+        "traits": [
+          "Toxic Farewell",
+          "Tri-Apothecary"
+        ]
       }
     ]
   },
@@ -2764,13 +3033,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/nidrasil.png",
+      "animation": "static/temtem/nidrasil.gif"
+    },
     "traits": [
       {
         "name": "Toxic Farewell",
@@ -2824,9 +3097,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/banapi.png",
+      "animation": "static/temtem/banapi.gif"
+    },
     "traits": [
       {
         "name": "Pyromaniac",
@@ -2874,7 +3151,12 @@
     "evolutions": [
       {
         "name": "Capyre",
-        "condition": "+17 Levels"
+        "condition": "+17 Levels",
+        "image": "static/temtem/capyre.png",
+        "traits": [
+          "Last Rush",
+          "Resilient"
+        ]
       }
     ]
   },
@@ -2885,9 +3167,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/capyre.png",
+      "animation": "static/temtem/capyre.gif"
+    },
     "traits": [
       {
         "name": "Last Rush",
@@ -2941,9 +3227,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/lapinite.png",
+      "animation": "static/temtem/lapinite.gif"
+    },
     "traits": [
       {
         "name": "Scavenger",
@@ -2991,7 +3281,12 @@
     "evolutions": [
       {
         "name": "Azuroc",
-        "condition": "+25 Levels"
+        "condition": "+25 Levels",
+        "image": "static/temtem/azuroc.png",
+        "traits": [
+          "Mirroring",
+          "Fainted Curse"
+        ]
       }
     ]
   },
@@ -3002,9 +3297,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/azuroc.png",
+      "animation": "static/temtem/azuroc.gif"
+    },
     "traits": [
       {
         "name": "Mirroring",
@@ -3052,7 +3351,12 @@
     "evolutions": [
       {
         "name": "Zenoreth",
-        "condition": "Trade"
+        "condition": "Trade",
+        "image": "static/temtem/zenoreth.png",
+        "traits": [
+          "Channeler",
+          "Wrecked Farewell"
+        ]
       }
     ]
   },
@@ -3063,9 +3367,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/zenoreth.png",
+      "animation": "static/temtem/zenoreth.gif"
+    },
     "traits": [
       {
         "name": "Channeler",
@@ -3119,9 +3427,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/reval.png",
+      "animation": "static/temtem/reval.gif"
+    },
     "traits": [
       {
         "name": "Heat Discharge",
@@ -3169,7 +3481,12 @@
     "evolutions": [
       {
         "name": "Aohi",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/aohi.png",
+        "traits": [
+          "Warm Gift",
+          "Ignis Fatuus"
+        ]
       }
     ]
   },
@@ -3180,13 +3497,17 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/aohi.png",
+      "animation": "static/temtem/aohi.gif"
+    },
     "traits": [
       {
         "name": "Warm Gift",
@@ -3240,9 +3561,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/bigu.png",
+      "animation": "static/temtem/bigu.gif"
+    },
     "traits": [
       {
         "name": "Warm-Blooded",
@@ -3290,7 +3615,12 @@
     "evolutions": [
       {
         "name": "Babawa",
-        "condition": "+18 Levels"
+        "condition": "+18 Levels",
+        "image": "static/temtem/babawa.png",
+        "traits": [
+          "Mucous",
+          "Withdrawal"
+        ]
       }
     ]
   },
@@ -3301,13 +3631,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/babawa.png",
+      "animation": "static/temtem/babawa.gif"
+    },
     "traits": [
       {
         "name": "Mucous",
@@ -3361,13 +3695,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/0b1.png",
+      "animation": "static/temtem/0b1.gif"
+    },
     "traits": [
       {
         "name": "Fast Charge",
@@ -3415,7 +3753,12 @@
     "evolutions": [
       {
         "name": "0b10",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/0b10.png",
+        "traits": [
+          "Source Replicator",
+          "Target Replicator"
+        ]
       }
     ]
   },
@@ -3426,13 +3769,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/0b10.png",
+      "animation": "static/temtem/0b10.gif"
+    },
     "traits": [
       {
         "name": "Source Replicator",
@@ -3486,9 +3833,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kaku.png",
+      "animation": "static/temtem/kaku.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -3536,7 +3887,12 @@
     "evolutions": [
       {
         "name": "Saku",
-        "condition": "+11 Levels"
+        "condition": "+11 Levels",
+        "image": "static/temtem/saku.png",
+        "traits": [
+          "Air Specialist",
+          "Botanist"
+        ]
       }
     ]
   },
@@ -3547,13 +3903,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/saku.png",
+      "animation": "static/temtem/saku.gif"
+    },
     "traits": [
       {
         "name": "Air Specialist",
@@ -3607,13 +3967,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/valash.png",
+      "animation": "static/temtem/valash.gif"
+    },
     "traits": [
       {
         "name": "Scavenger",
@@ -3667,13 +4031,17 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/towly.png",
+      "animation": "static/temtem/towly.gif"
+    },
     "traits": [
       {
         "name": "Hypnotist",
@@ -3721,11 +4089,21 @@
     "evolutions": [
       {
         "name": "Owlhe",
-        "condition": "+10 Levels (Male)"
+        "condition": "+10 Levels (Male)",
+        "image": "static/temtem/owlhe.png",
+        "traits": [
+          "Determined",
+          "Bruiser"
+        ]
       },
       {
         "name": "Barnshe",
-        "condition": "+10 Levels (Female)"
+        "condition": "+10 Levels (Female)",
+        "image": "static/temtem/barnshe.png",
+        "traits": [
+          "Neutrality",
+          "Air Specialist"
+        ]
       }
     ]
   },
@@ -3736,13 +4114,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/owlhe.png",
+      "animation": "static/temtem/owlhe.gif"
+    },
     "traits": [
       {
         "name": "Determined",
@@ -3796,13 +4178,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/barnshe.png",
+      "animation": "static/temtem/barnshe.gif"
+    },
     "traits": [
       {
         "name": "Neutrality",
@@ -3856,13 +4242,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/gyalis.png",
+      "animation": "static/temtem/gyalis.gif"
+    },
     "traits": [
       {
         "name": "Mirroring",
@@ -3916,9 +4306,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/occlura.png",
+      "animation": "static/temtem/occlura.gif"
+    },
     "traits": [
       {
         "name": "Warm-Blooded",
@@ -3966,7 +4360,12 @@
     "evolutions": [
       {
         "name": "Myx",
-        "condition": "+18 Levels"
+        "condition": "+18 Levels",
+        "image": "static/temtem/myx.png",
+        "traits": [
+          "Puppet Master",
+          "Rejuvenate"
+        ]
       }
     ]
   },
@@ -3977,13 +4376,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/myx.png",
+      "animation": "static/temtem/myx.gif"
+    },
     "traits": [
       {
         "name": "Puppet Master",
@@ -4037,9 +4440,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/raiber.png",
+      "animation": "static/temtem/raiber.gif"
+    },
     "traits": [
       {
         "name": "Camaraderie",
@@ -4087,7 +4494,12 @@
     "evolutions": [
       {
         "name": "Raize",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/raize.png",
+        "traits": [
+          "Furor",
+          "Demoralize"
+        ]
       }
     ]
   },
@@ -4098,9 +4510,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/raize.png",
+      "animation": "static/temtem/raize.gif"
+    },
     "traits": [
       {
         "name": "Furor",
@@ -4148,7 +4564,12 @@
     "evolutions": [
       {
         "name": "Raican",
-        "condition": "+25 Levels"
+        "condition": "+25 Levels",
+        "image": "static/temtem/raican.png",
+        "traits": [
+          "Prideful",
+          "Motivator"
+        ]
       }
     ]
   },
@@ -4159,9 +4580,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/raican.png",
+      "animation": "static/temtem/raican.gif"
+    },
     "traits": [
       {
         "name": "Prideful",
@@ -4215,9 +4640,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/pewki.png",
+      "animation": "static/temtem/pewki.gif"
+    },
     "traits": [
       {
         "name": "Hydrologist",
@@ -4265,7 +4694,12 @@
     "evolutions": [
       {
         "name": "Piraniant",
-        "condition": "+13 Levels"
+        "condition": "+13 Levels",
+        "image": "static/temtem/piraniant.png",
+        "traits": [
+          "Patient",
+          "Energy Reserves"
+        ]
       }
     ]
   },
@@ -4276,9 +4710,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/piraniant.png",
+      "animation": "static/temtem/piraniant.gif"
+    },
     "traits": [
       {
         "name": "Patient",
@@ -4332,9 +4770,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/scarawatt.png",
+      "animation": "static/temtem/scarawatt.gif"
+    },
     "traits": [
       {
         "name": "Immunity",
@@ -4382,7 +4824,12 @@
     "evolutions": [
       {
         "name": "Scaravolt",
-        "condition": "+12 Levels"
+        "condition": "+12 Levels",
+        "image": "static/temtem/scaravolt.png",
+        "traits": [
+          "Half Full",
+          "Good Friend"
+        ]
       }
     ]
   },
@@ -4393,13 +4840,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/scaravolt.png",
+      "animation": "static/temtem/scaravolt.gif"
+    },
     "traits": [
       {
         "name": "Half Full",
@@ -4453,13 +4904,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/hoglip.png",
+      "animation": "static/temtem/hoglip.gif"
+    },
     "traits": [
       {
         "name": "Gotta Go Fast",
@@ -4507,7 +4962,12 @@
     "evolutions": [
       {
         "name": "Hedgine",
-        "condition": "+13 Levels"
+        "condition": "+13 Levels",
+        "image": "static/temtem/hedgine.png",
+        "traits": [
+          "Gotta Go Fast",
+          "Going Away Gift"
+        ]
       }
     ]
   },
@@ -4518,13 +4978,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/hedgine.png",
+      "animation": "static/temtem/hedgine.gif"
+    },
     "traits": [
       {
         "name": "Gotta Go Fast",
@@ -4578,9 +5042,13 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/osuchi.png",
+      "animation": "static/temtem/osuchi.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -4628,7 +5096,12 @@
     "evolutions": [
       {
         "name": "Osukan",
-        "condition": "+12 Levels"
+        "condition": "+12 Levels",
+        "image": "static/temtem/osukan.png",
+        "traits": [
+          "Furor",
+          "Parrier"
+        ]
       }
     ]
   },
@@ -4639,13 +5112,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/osukan.png",
+      "animation": "static/temtem/osukan.gif"
+    },
     "traits": [
       {
         "name": "Furor",
@@ -4693,7 +5170,12 @@
     "evolutions": [
       {
         "name": "Osukai",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/osukai.png",
+        "traits": [
+          "Sensei",
+          "Body Stretch"
+        ]
       }
     ]
   },
@@ -4704,13 +5186,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/osukai.png",
+      "animation": "static/temtem/osukai.gif"
+    },
     "traits": [
       {
         "name": "Sensei",
@@ -4764,13 +5250,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/saipat.png",
+      "animation": "static/temtem/saipat.gif"
+    },
     "traits": [
       {
         "name": "Amphibian",
@@ -4824,13 +5314,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/pycko.png",
+      "animation": "static/temtem/pycko.gif"
+    },
     "traits": [
       {
         "name": "Furor",
@@ -4878,7 +5372,12 @@
     "evolutions": [
       {
         "name": "Drakash",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/drakash.png",
+        "traits": [
+          "Heat Discharge",
+          "Sentinel"
+        ]
       }
     ]
   },
@@ -4889,13 +5388,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/drakash.png",
+      "animation": "static/temtem/drakash.gif"
+    },
     "traits": [
       {
         "name": "Heat Discharge",
@@ -4949,9 +5452,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/crystle.png",
+      "animation": "static/temtem/crystle.gif"
+    },
     "traits": [
       {
         "name": "Amphibian",
@@ -4999,7 +5506,12 @@
     "evolutions": [
       {
         "name": "Sherald",
-        "condition": "+30 Levels"
+        "condition": "+30 Levels",
+        "image": "static/temtem/sherald.png",
+        "traits": [
+          "Mirroring",
+          "Provident"
+        ]
       }
     ]
   },
@@ -5010,9 +5522,13 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/sherald.png",
+      "animation": "static/temtem/sherald.gif"
+    },
     "traits": [
       {
         "name": "Mirroring",
@@ -5060,7 +5576,12 @@
     "evolutions": [
       {
         "name": "Tortenite",
-        "condition": "+21 Levels"
+        "condition": "+21 Levels",
+        "image": "static/temtem/tortenite.png",
+        "traits": [
+          "Confined",
+          "Efficient"
+        ]
       }
     ]
   },
@@ -5071,13 +5592,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tortenite.png",
+      "animation": "static/temtem/tortenite.gif"
+    },
     "traits": [
       {
         "name": "Confined",
@@ -5131,13 +5656,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/innki.png",
+      "animation": "static/temtem/innki.gif"
+    },
     "traits": [
       {
         "name": "Physmaster",
@@ -5191,9 +5720,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/shaolite.png",
+      "animation": "static/temtem/shaolite.gif"
+    },
     "traits": [
       {
         "name": "Coward's Rest",
@@ -5241,7 +5774,12 @@
     "evolutions": [
       {
         "name": "Shaolant",
-        "condition": "+12 Levels"
+        "condition": "+12 Levels",
+        "image": "static/temtem/shaolant.png",
+        "traits": [
+          "Welcomer",
+          "Bruiser"
+        ]
       }
     ]
   },
@@ -5252,9 +5790,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/shaolant.png",
+      "animation": "static/temtem/shaolant.gif"
+    },
     "traits": [
       {
         "name": "Welcomer",
@@ -5308,13 +5850,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/cycrox.png",
+      "animation": "static/temtem/cycrox.gif"
+    },
     "traits": [
       {
         "name": "Neurotoxins",
@@ -5368,9 +5914,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/hocus.png",
+      "animation": "static/temtem/hocus.gif"
+    },
     "traits": [
       {
         "name": "Soft Touch",
@@ -5418,7 +5968,12 @@
     "evolutions": [
       {
         "name": "Pocus",
-        "condition": "+21 Levels"
+        "condition": "+21 Levels",
+        "image": "static/temtem/pocus.png",
+        "traits": [
+          "Dreaded Alarm",
+          "Rejuvenate"
+        ]
       }
     ]
   },
@@ -5429,9 +5984,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/pocus.png",
+      "animation": "static/temtem/pocus.gif"
+    },
     "traits": [
       {
         "name": "Dreaded Alarm",
@@ -5485,9 +6044,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/smolzy.png",
+      "animation": "static/temtem/smolzy.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -5535,7 +6098,12 @@
     "evolutions": [
       {
         "name": "Sparzy",
-        "condition": "+30 Levels"
+        "condition": "+30 Levels",
+        "image": "static/temtem/sparzy.png",
+        "traits": [
+          "Last Rush",
+          "Inductor"
+        ]
       }
     ]
   },
@@ -5546,9 +6114,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/sparzy.png",
+      "animation": "static/temtem/sparzy.gif"
+    },
     "traits": [
       {
         "name": "Last Rush",
@@ -5596,7 +6168,12 @@
     "evolutions": [
       {
         "name": "Golzy",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/golzy.png",
+        "traits": [
+          "Defuser",
+          "Voltaic Charge"
+        ]
       }
     ]
   },
@@ -5607,13 +6184,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/golzy.png",
+      "animation": "static/temtem/golzy.gif"
+    },
     "traits": [
       {
         "name": "Defuser",
@@ -5667,9 +6248,13 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mushi.png",
+      "animation": "static/temtem/mushi.gif"
+    },
     "traits": [
       {
         "name": "Resistant",
@@ -5717,7 +6302,12 @@
     "evolutions": [
       {
         "name": "Mushook",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/mushook.png",
+        "traits": [
+          "Parrier",
+          "Tireless"
+        ]
       }
     ]
   },
@@ -5728,13 +6318,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mushook.png",
+      "animation": "static/temtem/mushook.gif"
+    },
     "traits": [
       {
         "name": "Parrier",
@@ -5788,9 +6382,13 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/magmis.png",
+      "animation": "static/temtem/magmis.gif"
+    },
     "traits": [
       {
         "name": "Caffeinated",
@@ -5838,7 +6436,12 @@
     "evolutions": [
       {
         "name": "Mastione",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/mastione.png",
+        "traits": [
+          "Solidifier",
+          "Pyromaniac"
+        ]
       }
     ]
   },
@@ -5849,13 +6452,17 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mastione.png",
+      "animation": "static/temtem/mastione.gif"
+    },
     "traits": [
       {
         "name": "Solidifier",
@@ -5909,9 +6516,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/umishi.png",
+      "animation": "static/temtem/umishi.gif"
+    },
     "traits": [
       {
         "name": "Shared Pain",
@@ -5959,7 +6570,12 @@
     "evolutions": [
       {
         "name": "Ukama",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/ukama.png",
+        "traits": [
+          "Hydrologist",
+          "Plethoric"
+        ]
       }
     ]
   },
@@ -5970,9 +6586,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/ukama.png",
+      "animation": "static/temtem/ukama.gif"
+    },
     "traits": [
       {
         "name": "Hydrologist",
@@ -6026,9 +6646,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/galvanid.png",
+      "animation": "static/temtem/galvanid.gif"
+    },
     "traits": [
       {
         "name": "Efficient",
@@ -6076,7 +6700,12 @@
     "evolutions": [
       {
         "name": "Raignet",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/raignet.png",
+        "traits": [
+          "Kinetic Transfer",
+          "Electric Custodian"
+        ]
       }
     ]
   },
@@ -6087,9 +6716,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/raignet.png",
+      "animation": "static/temtem/raignet.gif"
+    },
     "traits": [
       {
         "name": "Kinetic Transfer",
@@ -6143,9 +6776,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/smazee.png",
+      "animation": "static/temtem/smazee.gif"
+    },
     "traits": [
       {
         "name": "Fever Rush",
@@ -6193,7 +6830,12 @@
     "evolutions": [
       {
         "name": "Baboong",
-        "condition": "+29 Levels"
+        "condition": "+29 Levels",
+        "image": "static/temtem/baboong.png",
+        "traits": [
+          "Brawny",
+          "Warm-Blooded"
+        ]
       }
     ]
   },
@@ -6204,9 +6846,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/baboong.png",
+      "animation": "static/temtem/baboong.gif"
+    },
     "traits": [
       {
         "name": "Brawny",
@@ -6254,7 +6900,12 @@
     "evolutions": [
       {
         "name": "Seismunch",
-        "condition": "+23 Levels"
+        "condition": "+23 Levels",
+        "image": "static/temtem/seismunch.png",
+        "traits": [
+          "Self-Esteem",
+          "Earthbound"
+        ]
       }
     ]
   },
@@ -6265,13 +6916,17 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/seismunch.png",
+      "animation": "static/temtem/seismunch.gif"
+    },
     "traits": [
       {
         "name": "Self-Esteem",
@@ -6325,9 +6980,13 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/zizare.png",
+      "animation": "static/temtem/zizare.gif"
+    },
     "traits": [
       {
         "name": "Rested",
@@ -6381,9 +7040,13 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/gorong.png",
+      "animation": "static/temtem/gorong.gif"
+    },
     "traits": [
       {
         "name": "Seismic",
@@ -6437,9 +7100,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mitty.png",
+      "animation": "static/temtem/mitty.gif"
+    },
     "traits": [
       {
         "name": "Soft Touch",
@@ -6487,7 +7154,12 @@
     "evolutions": [
       {
         "name": "Sanbi",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/sanbi.png",
+        "traits": [
+          "Dozing Hit",
+          "Inner Shield"
+        ]
       }
     ]
   },
@@ -6498,9 +7170,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/sanbi.png",
+      "animation": "static/temtem/sanbi.gif"
+    },
     "traits": [
       {
         "name": "Dozing Hit",
@@ -6554,9 +7230,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/momo.png",
+      "animation": "static/temtem/momo.gif"
+    },
     "traits": [
       {
         "name": "Stabmaster",
@@ -6610,9 +7290,13 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kuri.png",
+      "animation": "static/temtem/kuri.gif"
+    },
     "traits": [
       {
         "name": "Camaraderie",
@@ -6660,7 +7344,12 @@
     "evolutions": [
       {
         "name": "Kauren",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/kauren.png",
+        "traits": [
+          "Scavenger",
+          "Skull Helmet"
+        ]
       }
     ]
   },
@@ -6671,9 +7360,13 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kauren.png",
+      "animation": "static/temtem/kauren.gif"
+    },
     "traits": [
       {
         "name": "Scavenger",
@@ -6727,9 +7420,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/spriole.png",
+      "animation": "static/temtem/spriole.gif"
+    },
     "traits": [
       {
         "name": "Camaraderie",
@@ -6777,7 +7474,12 @@
     "evolutions": [
       {
         "name": "Deendre",
-        "condition": "+12 Levels"
+        "condition": "+12 Levels",
+        "image": "static/temtem/deendre.png",
+        "traits": [
+          "Mithridatism",
+          "Settling"
+        ]
       }
     ]
   },
@@ -6788,9 +7490,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/deendre.png",
+      "animation": "static/temtem/deendre.gif"
+    },
     "traits": [
       {
         "name": "Mithridatism",
@@ -6838,7 +7544,12 @@
     "evolutions": [
       {
         "name": "Cerneaf",
-        "condition": "+25 Levels"
+        "condition": "+25 Levels",
+        "image": "static/temtem/cerneaf.png",
+        "traits": [
+          "Callosity",
+          "Settling"
+        ]
       }
     ]
   },
@@ -6849,9 +7560,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/cerneaf.png",
+      "animation": "static/temtem/cerneaf.gif"
+    },
     "traits": [
       {
         "name": "Callosity",
@@ -6905,9 +7620,13 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/toxolotl.png",
+      "animation": "static/temtem/toxolotl.gif"
+    },
     "traits": [
       {
         "name": "Power Nap",
@@ -6955,7 +7674,12 @@
     "evolutions": [
       {
         "name": "Noxolotl",
-        "condition": "+30 Levels"
+        "condition": "+30 Levels",
+        "image": "static/temtem/noxolotl.png",
+        "traits": [
+          "Trance",
+          "Toxic Skin"
+        ]
       }
     ]
   },
@@ -6966,9 +7690,13 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/noxolotl.png",
+      "animation": "static/temtem/noxolotl.gif"
+    },
     "traits": [
       {
         "name": "Trance",
@@ -7022,9 +7750,13 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/blooze.png",
+      "animation": "static/temtem/blooze.gif"
+    },
     "traits": [
       {
         "name": "Toxic Skin",
@@ -7072,7 +7804,12 @@
     "evolutions": [
       {
         "name": "Goolder",
-        "condition": "+25 Levels"
+        "condition": "+25 Levels",
+        "image": "static/temtem/goolder.png",
+        "traits": [
+          "Strong Liver",
+          "Punch Bag"
+        ]
       }
     ]
   },
@@ -7083,9 +7820,13 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/goolder.png",
+      "animation": "static/temtem/goolder.gif"
+    },
     "traits": [
       {
         "name": "Strong Liver",
@@ -7139,13 +7880,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/zephyruff.png",
+      "animation": "static/temtem/zephyruff.gif"
+    },
     "traits": [
       {
         "name": "Toxic Affinity",
@@ -7193,7 +7938,12 @@
     "evolutions": [
       {
         "name": "Volarend",
-        "condition": "+22 Levels"
+        "condition": "+22 Levels",
+        "image": "static/temtem/volarend.png",
+        "traits": [
+          "Aerobic",
+          "Anaerobic"
+        ]
       }
     ]
   },
@@ -7204,13 +7954,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/volarend.png",
+      "animation": "static/temtem/volarend.gif"
+    },
     "traits": [
       {
         "name": "Aerobic",
@@ -7264,9 +8018,13 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/grumvel.png",
+      "animation": "static/temtem/grumvel.gif"
+    },
     "traits": [
       {
         "name": "Energy Reserves",
@@ -7314,7 +8072,12 @@
     "evolutions": [
       {
         "name": "Grumper",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/grumper.png",
+        "traits": [
+          "Inductor",
+          "Coward's Rest"
+        ]
       }
     ]
   },
@@ -7325,13 +8088,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/grumper.png",
+      "animation": "static/temtem/grumper.gif"
+    },
     "traits": [
       {
         "name": "Inductor",
@@ -7385,13 +8152,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/ganki.png",
+      "animation": "static/temtem/ganki.gif"
+    },
     "traits": [
       {
         "name": "Resistant",
@@ -7439,7 +8210,12 @@
     "evolutions": [
       {
         "name": "Gazuma",
-        "condition": "+27 Levels"
+        "condition": "+27 Levels",
+        "image": "static/temtem/gazuma.png",
+        "traits": [
+          "Receptive",
+          "Fast Charge"
+        ]
       }
     ]
   },
@@ -7450,13 +8226,17 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/gazuma.png",
+      "animation": "static/temtem/gazuma.gif"
+    },
     "traits": [
       {
         "name": "Receptive",
@@ -7510,9 +8290,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/oceara.png",
+      "animation": "static/temtem/oceara.gif"
+    },
     "traits": [
       {
         "name": "Hydrologist",
@@ -7566,9 +8350,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/yowlar.png",
+      "animation": "static/temtem/yowlar.gif"
+    },
     "traits": [
       {
         "name": "Comebacker",
@@ -7622,13 +8410,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/droply.png",
+      "animation": "static/temtem/droply.gif"
+    },
     "traits": [
       {
         "name": "Water Affinity",
@@ -7676,7 +8468,12 @@
     "evolutions": [
       {
         "name": "Garyo",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/garyo.png",
+        "traits": [
+          "Autotomy",
+          "Marathonist"
+        ]
       }
     ]
   },
@@ -7687,13 +8484,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/garyo.png",
+      "animation": "static/temtem/garyo.gif"
+    },
     "traits": [
       {
         "name": "Autotomy",
@@ -7747,9 +8548,13 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/broccoblin.png",
+      "animation": "static/temtem/broccoblin.gif"
+    },
     "traits": [
       {
         "name": "Withdrawal",
@@ -7797,7 +8602,12 @@
     "evolutions": [
       {
         "name": "Broccorc",
-        "condition": "+10 Levels"
+        "condition": "+10 Levels",
+        "image": "static/temtem/broccorc.png",
+        "traits": [
+          "Immunity",
+          "Coward's Rest"
+        ]
       }
     ]
   },
@@ -7808,13 +8618,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/broccorc.png",
+      "animation": "static/temtem/broccorc.gif"
+    },
     "traits": [
       {
         "name": "Immunity",
@@ -7862,7 +8676,12 @@
     "evolutions": [
       {
         "name": "Broccolem",
-        "condition": "+10 Levels"
+        "condition": "+10 Levels",
+        "image": "static/temtem/broccolem.png",
+        "traits": [
+          "Mithridatism",
+          "Camouflage"
+        ]
       }
     ]
   },
@@ -7873,13 +8692,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/broccolem.png",
+      "animation": "static/temtem/broccolem.gif"
+    },
     "traits": [
       {
         "name": "Mithridatism",
@@ -7933,13 +8756,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/shuine.png",
+      "animation": "static/temtem/shuine.gif"
+    },
     "traits": [
       {
         "name": "Immunity",
@@ -7993,13 +8820,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/nessla.png",
+      "animation": "static/temtem/nessla.gif"
+    },
     "traits": [
       {
         "name": "Electric Synthesize",
@@ -8053,9 +8884,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/valiar.png",
+      "animation": "static/temtem/valiar.gif"
+    },
     "traits": [
       {
         "name": "Effective Denial",
@@ -8109,13 +8944,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/pupoise.png",
+      "animation": "static/temtem/pupoise.gif"
+    },
     "traits": [
       {
         "name": "Thick Skin",
@@ -8163,7 +9002,12 @@
     "evolutions": [
       {
         "name": "Loatle",
-        "condition": "+18 Levels"
+        "condition": "+18 Levels",
+        "image": "static/temtem/loatle.png",
+        "traits": [
+          "Seppuku",
+          "Voodoo"
+        ]
       }
     ]
   },
@@ -8174,13 +9018,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/loatle.png",
+      "animation": "static/temtem/loatle.gif"
+    },
     "traits": [
       {
         "name": "Seppuku",
@@ -8234,9 +9082,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kalazu.png",
+      "animation": "static/temtem/kalazu.gif"
+    },
     "traits": [
       {
         "name": "Mithridatism",
@@ -8284,7 +9136,12 @@
     "evolutions": [
       {
         "name": "Kalabyss",
-        "condition": "+18 Levels"
+        "condition": "+18 Levels",
+        "image": "static/temtem/kalabyss.png",
+        "traits": [
+          "Toxic Skin",
+          "Mucous"
+        ]
       }
     ]
   },
@@ -8295,13 +9152,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kalabyss.png",
+      "animation": "static/temtem/kalabyss.gif"
+    },
     "traits": [
       {
         "name": "Toxic Skin",
@@ -8355,13 +9216,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/adoroboros.png",
+      "animation": "static/temtem/adoroboros.gif"
+    },
     "traits": [
       {
         "name": "Synergy Master",
@@ -8415,9 +9280,13 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tuwai.png",
+      "animation": "static/temtem/tuwai.gif"
+    },
     "traits": [
       {
         "name": "Spoilsport",
@@ -8465,27 +9334,57 @@
     "evolutions": [
       {
         "name": "Tukai",
-        "condition": "Shrine at Dabmis' Rest"
+        "condition": "Shrine at Dabmis' Rest",
+        "image": "static/temtem/tukai.png",
+        "traits": [
+          "Spreader",
+          "Hydrologist"
+        ]
       },
       {
         "name": "Tulcan",
-        "condition": "Shrine at Altar of the Inner Flame"
+        "condition": "Shrine at Altar of the Inner Flame",
+        "image": "static/temtem/tulcan.png",
+        "traits": [
+          "Heater",
+          "Pyromaniac"
+        ]
       },
       {
         "name": "Tuvine",
-        "condition": "Shrine at Sons of Crystal"
+        "condition": "Shrine at Sons of Crystal",
+        "image": "static/temtem/tuvine.png",
+        "traits": [
+          "Receptive",
+          "Determined"
+        ]
       },
       {
         "name": "Turoc",
-        "condition": "Shrine at Aisha's Hearth"
+        "condition": "Shrine at Aisha's Hearth",
+        "image": "static/temtem/turoc.png",
+        "traits": [
+          "Escapist",
+          "Tactical Strike"
+        ]
       },
       {
         "name": "Tuwire",
-        "condition": "Shrine at Digital Kami Shrine"
+        "condition": "Shrine at Digital Kami Shrine",
+        "image": "static/temtem/tuwire.png",
+        "traits": [
+          "Splitter",
+          "Common Factor"
+        ]
       },
       {
         "name": "Tutsu",
-        "condition": "Shrine at Chieftain's Barrow"
+        "condition": "Shrine at Chieftain's Barrow",
+        "image": "static/temtem/tutsu.png",
+        "traits": [
+          "Tag Team",
+          "Contemplation"
+        ]
       }
     ]
   },
@@ -8496,13 +9395,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tukai.png",
+      "animation": "static/temtem/tukai.gif"
+    },
     "traits": [
       {
         "name": "Spreader",
@@ -8556,13 +9459,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tulcan.png",
+      "animation": "static/temtem/tulcan.gif"
+    },
     "traits": [
       {
         "name": "Heater",
@@ -8616,13 +9523,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tuvine.png",
+      "animation": "static/temtem/tuvine.gif"
+    },
     "traits": [
       {
         "name": "Receptive",
@@ -8676,13 +9587,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/turoc.png",
+      "animation": "static/temtem/turoc.gif"
+    },
     "traits": [
       {
         "name": "Escapist",
@@ -8736,13 +9651,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tuwire.png",
+      "animation": "static/temtem/tuwire.gif"
+    },
     "traits": [
       {
         "name": "Splitter",
@@ -8796,13 +9715,17 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tutsu.png",
+      "animation": "static/temtem/tutsu.gif"
+    },
     "traits": [
       {
         "name": "Tag Team",
@@ -8856,13 +9779,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/kinu.png",
+      "animation": "static/temtem/kinu.gif"
+    },
     "traits": [
       {
         "name": "Protector",
@@ -8916,13 +9843,17 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/vulvir.png",
+      "animation": "static/temtem/vulvir.gif"
+    },
     "traits": [
       {
         "name": "Camaraderie",
@@ -8970,7 +9901,12 @@
     "evolutions": [
       {
         "name": "Vulor",
-        "condition": "+14 Levels"
+        "condition": "+14 Levels",
+        "image": "static/temtem/vulor.png",
+        "traits": [
+          "Pyromaniac",
+          "Individualist"
+        ]
       }
     ]
   },
@@ -8981,13 +9917,17 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/vulor.png",
+      "animation": "static/temtem/vulor.gif"
+    },
     "traits": [
       {
         "name": "Pyromaniac",
@@ -9035,7 +9975,12 @@
     "evolutions": [
       {
         "name": "Vulcrane",
-        "condition": "+28 Levels"
+        "condition": "+28 Levels",
+        "image": "static/temtem/vulcrane.png",
+        "traits": [
+          "Receptive",
+          "Vigorous"
+        ]
       }
     ]
   },
@@ -9046,13 +9991,17 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/vulcrane.png",
+      "animation": "static/temtem/vulcrane.gif"
+    },
     "traits": [
       {
         "name": "Receptive",
@@ -9106,9 +10055,13 @@
     "types": [
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/pigepic.png",
+      "animation": "static/temtem/pigepic.gif"
+    },
     "traits": [
       {
         "name": "Friendship",
@@ -9162,13 +10115,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/akranox.png",
+      "animation": "static/temtem/akranox.gif"
+    },
     "traits": [
       {
         "name": "Book Lungs",
@@ -9222,13 +10179,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-neutral.png",
+      "animation": "static/temtem/koish-neutral.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9282,13 +10243,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-wind.png",
+      "animation": "static/temtem/koish-wind.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9342,13 +10307,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-earth.png",
+      "animation": "static/temtem/koish-earth.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9402,9 +10371,13 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-water.png",
+      "animation": "static/temtem/koish-water.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9458,13 +10431,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-fire.png",
+      "animation": "static/temtem/koish-fire.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9518,13 +10495,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-nature.png",
+      "animation": "static/temtem/koish-nature.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9578,13 +10559,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-electric.png",
+      "animation": "static/temtem/koish-electric.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9638,13 +10623,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-mental.png",
+      "animation": "static/temtem/koish-mental.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9698,13 +10687,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-digital.png",
+      "animation": "static/temtem/koish-digital.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9758,13 +10751,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-melee.png",
+      "animation": "static/temtem/koish-melee.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9818,13 +10815,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-crystal.png",
+      "animation": "static/temtem/koish-crystal.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9878,13 +10879,17 @@
     "types": [
       {
         "name": "Water type",
-        "image": "static/types/water-type.png"
+        "image": "static/types/water.png"
       },
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/koish-toxic.png",
+      "animation": "static/temtem/koish-toxic.gif"
+    },
     "traits": [
       {
         "name": "Synergy Adept",
@@ -9938,13 +10943,17 @@
     "types": [
       {
         "name": "Earth type",
-        "image": "static/types/earth-type.png"
+        "image": "static/types/earth.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/vulffy.png",
+      "animation": "static/temtem/vulffy.gif"
+    },
     "traits": [
       {
         "name": "Burglar",
@@ -9998,13 +11007,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Wind type",
-        "image": "static/types/wind-type.png"
+        "image": "static/types/wind.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chubee.png",
+      "animation": "static/temtem/chubee.gif"
+    },
     "traits": [
       {
         "name": "Hover",
@@ -10052,7 +11065,12 @@
     "evolutions": [
       {
         "name": "Waspeen",
-        "condition": "+15 Levels"
+        "condition": "+15 Levels",
+        "image": "static/temtem/waspeen.png",
+        "traits": [
+          "Royal Jelly",
+          "Wax Bath"
+        ]
       }
     ]
   },
@@ -10063,13 +11081,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/waspeen.png",
+      "animation": "static/temtem/waspeen.gif"
+    },
     "traits": [
       {
         "name": "Royal Jelly",
@@ -10123,13 +11145,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mawtle.png",
+      "animation": "static/temtem/mawtle.gif"
+    },
     "traits": [
       {
         "name": "Mithridatism",
@@ -10177,7 +11203,12 @@
     "evolutions": [
       {
         "name": "Mawmense",
-        "condition": "+16 Levels"
+        "condition": "+16 Levels",
+        "image": "static/temtem/mawmense.png",
+        "traits": [
+          "Viral Combustion",
+          "Refurbished"
+        ]
       }
     ]
   },
@@ -10188,13 +11219,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/mawmense.png",
+      "animation": "static/temtem/mawmense.gif"
+    },
     "traits": [
       {
         "name": "Viral Combustion",
@@ -10248,13 +11283,17 @@
     "types": [
       {
         "name": "Toxic type",
-        "image": "static/types/toxic-type.png"
+        "image": "static/types/toxic.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/hazrat.png",
+      "animation": "static/temtem/hazrat.gif"
+    },
     "traits": [
       {
         "name": "Contagious",
@@ -10308,9 +11347,13 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/minttle.png",
+      "animation": "static/temtem/minttle.gif"
+    },
     "traits": [
       {
         "name": "Withdrawal",
@@ -10358,7 +11401,12 @@
     "evolutions": [
       {
         "name": "Minox",
-        "condition": "+12 Levels"
+        "condition": "+12 Levels",
+        "image": "static/temtem/minox.png",
+        "traits": [
+          "Body Stretch",
+          "Unnoticed"
+        ]
       }
     ]
   },
@@ -10369,13 +11417,17 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/minox.png",
+      "animation": "static/temtem/minox.gif"
+    },
     "traits": [
       {
         "name": "Body Stretch",
@@ -10423,7 +11475,12 @@
     "evolutions": [
       {
         "name": "Minothor",
-        "condition": "+13 Levels"
+        "condition": "+13 Levels",
+        "image": "static/temtem/minothor.png",
+        "traits": [
+          "Ruminant",
+          "Rusher"
+        ]
       }
     ]
   },
@@ -10434,13 +11491,17 @@
     "types": [
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       },
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/minothor.png",
+      "animation": "static/temtem/minothor.gif"
+    },
     "traits": [
       {
         "name": "Ruminant",
@@ -10494,13 +11555,17 @@
     "types": [
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/maoala.png",
+      "animation": "static/temtem/maoala.gif"
+    },
     "traits": [
       {
         "name": "Hypnotist",
@@ -10554,9 +11619,13 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/venx.png",
+      "animation": "static/temtem/venx.gif"
+    },
     "traits": [
       {
         "name": "Parrier",
@@ -10604,11 +11673,21 @@
     "evolutions": [
       {
         "name": "Venmet",
-        "condition": "+17 Levels (Parrier)"
+        "condition": "+17 Levels (Parrier)",
+        "image": "static/temtem/venmet.png",
+        "traits": [
+          "Parrier",
+          "Aggressor"
+        ]
       },
       {
         "name": "Vental",
-        "condition": "+17 Levels (Arcane Wrap)"
+        "condition": "+17 Levels (Arcane Wrap)",
+        "image": "static/temtem/vental.png",
+        "traits": [
+          "Spiritual",
+          "Arcane Wrap"
+        ]
       }
     ]
   },
@@ -10619,13 +11698,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/venmet.png",
+      "animation": "static/temtem/venmet.gif"
+    },
     "traits": [
       {
         "name": "Parrier",
@@ -10679,13 +11762,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Mental type",
-        "image": "static/types/mental-type.png"
+        "image": "static/types/mental.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/vental.png",
+      "animation": "static/temtem/vental.gif"
+    },
     "traits": [
       {
         "name": "Spiritual",
@@ -10739,13 +11826,17 @@
     "types": [
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       },
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/chimurian.png",
+      "animation": "static/temtem/chimurian.gif"
+    },
     "traits": [
       {
         "name": "Disgrace",
@@ -10799,13 +11890,17 @@
     "types": [
       {
         "name": "Neutral type",
-        "image": "static/types/neutral-type.png"
+        "image": "static/types/neutral.png"
       },
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/arachnyte.png",
+      "animation": "static/temtem/arachnyte.gif"
+    },
     "traits": [
       {
         "name": "Digi-Protection",
@@ -10859,13 +11954,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/thaiko.png",
+      "animation": "static/temtem/thaiko.gif"
+    },
     "traits": [
       {
         "name": "Zen",
@@ -10913,7 +12012,12 @@
     "evolutions": [
       {
         "name": "Monkko",
-        "condition": "+20 Levels"
+        "condition": "+20 Levels",
+        "image": "static/temtem/monkko.png",
+        "traits": [
+          "Meditation",
+          "Shaolin"
+        ]
       }
     ]
   },
@@ -10924,13 +12028,17 @@
     "types": [
       {
         "name": "Digital type",
-        "image": "static/types/digital-type.png"
+        "image": "static/types/digital.png"
       },
       {
         "name": "Melee type",
-        "image": "static/types/melee-type.png"
+        "image": "static/types/melee.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/monkko.png",
+      "animation": "static/temtem/monkko.gif"
+    },
     "traits": [
       {
         "name": "Meditation",
@@ -10984,13 +12092,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/anahir.png",
+      "animation": "static/temtem/anahir.gif"
+    },
     "traits": [
       {
         "name": "Trauma",
@@ -11038,7 +12150,12 @@
     "evolutions": [
       {
         "name": "Anatan",
-        "condition": "1000 TVs"
+        "condition": "1000 TVs",
+        "image": "static/temtem/anatan.png",
+        "traits": [
+          "Self-Care",
+          "Protective Crystal"
+        ]
       }
     ]
   },
@@ -11049,13 +12166,17 @@
     "types": [
       {
         "name": "Crystal type",
-        "image": "static/types/crystal-type.png"
+        "image": "static/types/crystal.png"
       },
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/anatan.png",
+      "animation": "static/temtem/anatan.gif"
+    },
     "traits": [
       {
         "name": "Self-Care",
@@ -11109,13 +12230,17 @@
     "types": [
       {
         "name": "Fire type",
-        "image": "static/types/fire-type.png"
+        "image": "static/types/fire.png"
       },
       {
         "name": "Nature type",
-        "image": "static/types/nature-type.png"
+        "image": "static/types/nature.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/tyranak.png",
+      "animation": "static/temtem/tyranak.gif"
+    },
     "traits": [
       {
         "name": "Intimidator",
@@ -11169,9 +12294,13 @@
     "types": [
       {
         "name": "Electric type",
-        "image": "static/types/electric-type.png"
+        "image": "static/types/electric.png"
       }
     ],
+    "images": {
+      "default": "static/temtem/volgon.png",
+      "animation": "static/temtem/volgon.gif"
+    },
     "traits": [
       {
         "name": "Short Circuit",
