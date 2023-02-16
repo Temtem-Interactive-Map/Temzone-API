@@ -1,8 +1,9 @@
-import { writeDBFile } from "./db/index.js";
+import { join } from "node:path";
+import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
-import { cleanText, scrape } from "./utils/index.js";
+import { cleanText, getUrlExtension, scrape, shortUrl } from "./utils/index.js";
 
 export class TemtemDB {
   static async scrape() {
@@ -10,6 +11,10 @@ export class TemtemDB {
 
     await TypesDB.scrape();
     await TraitsDB.scrape();
+
+    logWarning("Removing [temtem] database...");
+    await removeDBContent("temtem");
+    logSuccess("[temtem] database removed successfully");
 
     logInfo("Scraping [temtem]...");
     this.creatures = {};
@@ -47,6 +52,7 @@ export class TemtemDB {
           name: temtem.name,
           description: temtem.description,
           types: temtem.types,
+          images: temtem.images,
           traits: temtem.traits,
           details: {
             gender: temtem.gender,
@@ -61,13 +67,21 @@ export class TemtemDB {
       });
     }
 
-    logSuccess("[temtem] scraped successfully");
-  }
+    Object.values(this.creatures).forEach((temtem) => {
+      temtem.evolutions = temtem.evolutions.map((evolution) => {
+        const temtemEvolution = this.creatures[evolution.name];
 
-  static async write() {
-    logInfo("Writing [temtem] to database...");
-    await writeDBFile("temtems", this.creatures);
-    logSuccess("[temtem] written successfully");
+        return {
+          ...evolution,
+          image: temtemEvolution.images.default,
+          traits: temtemEvolution.traits.map((trait) => trait.name),
+        };
+      });
+    });
+
+    logSuccess("[temtem] scraped successfully");
+
+    return this.creatures;
   }
 
   static find(name) {
@@ -115,8 +129,7 @@ class Temtem {
     )
       .toArray()
       .map((el) => {
-        const $el = this.$(el);
-        const rawType = $el.attr("title");
+        const rawType = this.$(el).attr("title");
         const type = cleanText(rawType);
 
         return type;
@@ -129,14 +142,55 @@ class Temtem {
     return types.map((type) => TypesDB.find(type));
   }
 
+  get images() {
+    const imageSelectors = {
+      default: "li:nth-child(1) > div > div > div > a > img",
+      animation: "li:nth-child(2) > div > div > div > a > img",
+    };
+    const imageSelectorEntries = Object.entries(imageSelectors);
+    const $el = this.$("#Renders").parent().next();
+    const imageEntries = imageSelectorEntries.map(([key, selector]) => {
+      const $gallery = $el.find(selector);
+      const rawUrl =
+        $gallery
+          .toArray()
+          .map((el) => this.$(el).attr("src"))
+          .find((src) => {
+            if (this.subtype === "") return true;
+
+            return src.includes(this.subtype);
+          }) || $gallery.attr("src");
+      const cleanUrl = cleanText(rawUrl);
+      const url = shortUrl(cleanUrl);
+      const extension = getUrlExtension(url);
+      const fileName =
+        this.name.replace(/\(|\)/g, "").replace(" ", "-").toLowerCase() +
+        "." +
+        extension;
+      const value = "static/temtem/" + fileName;
+
+      logWarning("- Writing [" + fileName + "] to assets...");
+      (async () => {
+        await writeDBImage(
+          join("temtem", fileName),
+          "https://temtem.wiki.gg/" + url
+        );
+      })();
+
+      return [key, value];
+    });
+    const images = Object.fromEntries(imageEntries);
+
+    return images;
+  }
+
   get traits() {
     const traits = this.$(
       "div.infobox.temtem > table > tbody > tr:contains('Traits') > td > a"
     )
       .toArray()
       .map((el) => {
-        const $el = this.$(el);
-        const rawTrait = $el.text();
+        const rawTrait = this.$(el).text();
         const trait = cleanText(rawTrait);
 
         return TraitsDB.find(trait);
@@ -228,8 +282,7 @@ class Temtem {
     };
     const statsSelectorEntries = Object.entries(statsSelectors);
     const statsEntries = statsSelectorEntries.map(([key, selector]) => {
-      const $el = this.$(selector);
-      const rawValue = $el.text();
+      const rawValue = this.$(selector).text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue);
 
@@ -252,8 +305,7 @@ class Temtem {
     };
     const tvSelectorEntries = Object.entries(tvSelectors);
     const tvEntries = tvSelectorEntries.map(([key, selector]) => {
-      const $el = this.$(selector);
-      const rawValue = $el.text();
+      const rawValue = this.$(selector).text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue) || 0;
 
@@ -269,9 +321,9 @@ class Temtem {
       .next()
       .toArray()
       .map((el) => {
-        const $el = this.$(el);
-        const rawCondition = $el.text().replace("levels", "Levels");
-        const condition = cleanText(rawCondition);
+        const rawCondition = this.$(el).text();
+        const cleanCondition = cleanText(rawCondition);
+        const condition = cleanCondition.replace("levels", "Levels");
 
         return condition;
       });
@@ -281,8 +333,7 @@ class Temtem {
     )
       .toArray()
       .map((el, i) => {
-        const $el = this.$(el);
-        const rawName = $el.text();
+        const rawName = this.$(el).text();
         const name = cleanText(rawName);
         let condition;
 
