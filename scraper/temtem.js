@@ -12,9 +12,9 @@ export class TemtemDB {
     await TypesDB.scrape();
     await TraitsDB.scrape();
 
-    logWarning("Removing [temtem] database...");
+    logWarning("Removing [temtem] assets...");
     await removeDBContent("temtem");
-    logSuccess("[temtem] database removed successfully");
+    logSuccess("[temtem] assets removed successfully");
 
     logInfo("Scraping [temtem]...");
     this.creatures = {};
