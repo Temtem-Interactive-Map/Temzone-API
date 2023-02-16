@@ -151,16 +151,16 @@ class Temtem {
     const imageSelectorEntries = Object.entries(imageSelectors);
     const $el = this.$("#Renders").parent().next();
     const imageEntries = imageSelectorEntries.map(([key, selector]) => {
-      const $gallery = $el.find(selector);
+      const $renders = $el.find(selector);
       const rawUrl =
-        $gallery
+        $renders
           .toArray()
           .map((el) => this.$(el).attr("src"))
           .find((src) => {
             if (this.subtype === "") return true;
 
             return src.includes(this.subtype);
-          }) || $gallery.attr("src");
+          }) || $renders.attr("src");
       const cleanUrl = cleanText(rawUrl);
       const url = shortUrl(cleanUrl);
       const extension = getUrlExtension(url);
