@@ -13,3 +13,14 @@ export function cleanText(text) {
     .replace(/\s\s+/g, " ")
     .trim();
 }
+
+export function shortUrl(rawUrl) {
+  const url = rawUrl.split(/[#?]/).shift().trim();
+  const index = url.lastIndexOf("/");
+
+  return url.substring(0, index).replace("/thumb", "");
+}
+
+export function getUrlExtension(url) {
+  return url.split(/[#?]/).shift().split(".").pop().trim();
+}

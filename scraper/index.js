@@ -1,45 +1,27 @@
 import { writeDBFile } from "./db/index.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
-import { getAllTemtem } from "./temtem.js";
-import { getAllTraits } from "./traits.js";
-import { scrape } from "./utils/index.js";
+import { TemtemDB } from "./temtem.js";
+import { TraitsDB } from "./traits.js";
+import { TypesDB } from "./types.js";
 
-const SCRAPINGS = {
-  traits: {
-    urls: ["https://temtem.wiki.gg/wiki/Traits"],
-    scraper: getAllTraits,
-  },
-  temtem: {
-    urls: ["https://temtem.wiki.gg/wiki/Temtem_(creatures)"],
-    scraper: getAllTemtem,
-  },
-  saipark: {
-    urls: ["https://temtem.wiki.gg/wiki/Saipark"],
-    scraper: null,
-  },
-  landmarks: {
-    urls: [],
-    scraper: null,
-  },
+const SCRAPERS = {
+  types: TypesDB,
+  traits: TraitsDB,
+  temtem: TemtemDB,
+  saipark: null,
+  landmarks: null,
 };
 
 async function scrapeAndSave(name) {
   const start = performance.now();
 
   try {
-    const { urls, scraper } = SCRAPINGS[name];
+    const scraper = SCRAPERS[name];
+    const content = await scraper.scrape();
 
-    logInfo("Scraping [" + name + "]...");
-    for (const url of urls) {
-      const $ = await scrape(url);
-      const content = await scraper($);
-
-      logSuccess("[" + name + "] scraped successfully");
-
-      logInfo("Writing [" + name + "] to database...");
-      await writeDBFile(name, content);
-      logSuccess("[" + name + "] written successfully");
-    }
+    logInfo("Writing [" + name + "] to database...");
+    await writeDBFile(name, content);
+    logSuccess("[" + name + "] written successfully");
   } catch (error) {
     logError("Error scraping [" + name + "]");
     logError(error);
@@ -50,18 +32,16 @@ async function scrapeAndSave(name) {
   }
 }
 
-const scrapeParameter = process.argv.at(-1);
+const name = process.argv.at(-1);
 
-if (SCRAPINGS[scrapeParameter]) {
-  logInfo(
-    "Scraping [" + scrapeParameter + "] data from the Official Temtem Wiki..."
-  );
+if (SCRAPERS[name]) {
+  logInfo("Scraping [" + name + "] data from the Official Temtem Wiki...");
 
-  await scrapeAndSave(scrapeParameter);
+  await scrapeAndSave(name);
 } else {
   logInfo("Scraping all data from the Official Temtem Wiki...");
 
-  for (const infoToScrape of Object.keys(SCRAPINGS)) {
+  for (const infoToScrape of Object.keys(SCRAPERS)) {
     await scrapeAndSave(infoToScrape);
   }
 }

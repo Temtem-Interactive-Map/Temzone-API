@@ -2,6 +2,9 @@ name = "temzone-api"
 main = "src/api/index.js"
 compatibility_date = "2023-01-20"
 
+[site]
+bucket = "assets"
+
 [env.dev]
 name = "temzone-api-dev"
 

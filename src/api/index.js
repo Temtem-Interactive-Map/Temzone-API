@@ -8,6 +8,7 @@ import {
 } from "api/responses";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import { serveStatic } from "hono/serve-static.module";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
 const app = new Hono();
@@ -48,6 +49,8 @@ app.use("*", async (ctx, next) => {
     return unauthorized(ctx);
   }
 });
+
+app.get("/static/*", serveStatic({ root: "./" }));
 
 app.get("/markers", (ctx) => {
   const type = ctx.req.query("type");
