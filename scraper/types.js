@@ -1,12 +1,7 @@
 import { join } from "node:path";
 import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import {
-  cleanText,
-  generateFileName,
-  scrape,
-  shortUrl,
-} from "./utils/index.js";
+import { cleanText, getUrlExtension, scrape, shortUrl } from "./utils/index.js";
 
 export class TypesDB {
   static async scrape() {
@@ -28,7 +23,8 @@ export class TypesDB {
       const rawUrl = $el.find("img").attr("src");
       const cleanUrl = cleanText(rawUrl);
       const url = shortUrl(cleanUrl);
-      const fileName = generateFileName(url);
+      const extension = getUrlExtension(url);
+      const fileName = name.split(" ").shift().toLowerCase() + "." + extension;
 
       logWarning("- Writing [" + fileName + "] to assets...");
       await writeDBImage(
