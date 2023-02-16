@@ -145,8 +145,8 @@ class Temtem {
 
   get images() {
     const imageSelectors = {
-      default: "li:nth-child(1) > div > div > div > a > img",
-      animation: "li:nth-child(2) > div > div > div > a > img",
+      png: "li:nth-child(1) > div > div > div > a > img",
+      gif: "li:nth-child(2) > div > div > div > a > img",
     };
     const imageSelectorEntries = Object.entries(imageSelectors);
     const $el = this.$("#Renders").parent().next();
