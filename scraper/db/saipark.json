@@ -1,18 +1,22 @@
-[
-  {
-    "area": "Water",
-    "name": "Koish (Water)",
-    "rate": 100,
-    "lumaRate": 4,
-    "minSVs": 0,
-    "eggMoves": 0
-  },
-  {
-    "area": "Hills",
-    "name": "Scarawatt",
-    "rate": 90,
-    "lumaRate": 4,
-    "minSVs": 0,
-    "eggMoves": 16
+{
+  "saipark": {
+    "title": "Saipark",
+    "subtitle": "West from Praise Coast",
+    "temtemA": {
+      "area": "Water",
+      "name": "Koish (Water)",
+      "rate": 100,
+      "lumaRate": 4,
+      "minSVs": 0,
+      "eggMoves": 0
+    },
+    "temtemB": {
+      "area": "Hills",
+      "name": "Scarawatt",
+      "rate": 90,
+      "lumaRate": 4,
+      "minSVs": 0,
+      "eggMoves": 16
+    }
   }
-]
+}
