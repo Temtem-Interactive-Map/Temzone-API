@@ -27,3 +27,10 @@ export function shortUrl(rawUrl) {
 export function getUrlExtension(url) {
   return url.split(/[#?]/).shift().split(".").pop().trim();
 }
+
+export function generateId(id) {
+  return id
+    .replace(/[^a-zA-Z0-9 ]/g, "")
+    .replace(/ /g, "-")
+    .toLowerCase();
+}
