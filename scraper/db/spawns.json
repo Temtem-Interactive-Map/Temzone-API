@@ -2,1021 +2,3133 @@
   {
     "location": "Iwaba",
     "area": "Area 1",
-    "image": "static/types/iwaba-area-1.png"
+    "image": "static/types/iwaba-area-1.png",
+    "name": "Scarawatt"
   },
   {
     "location": "Iwaba",
     "area": "Area 2",
-    "image": "static/types/iwaba-area-2.png"
+    "image": "static/types/iwaba-area-2.png",
+    "name": "Ampling"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 2",
+    "image": "static/types/iwaba-area-2.png",
+    "name": "Scarawatt"
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
-    "image": "static/types/iwaba-area-3.png"
+    "image": "static/types/iwaba-area-3.png",
+    "name": "Mimit"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 3",
+    "image": "static/types/iwaba-area-3.png",
+    "name": "Galvanid"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 3",
+    "image": "static/types/iwaba-area-3.png",
+    "name": "Ampling"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 3",
+    "image": "static/types/iwaba-area-3.png",
+    "name": "Scarawatt"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 3",
+    "image": "static/types/iwaba-area-3.png",
+    "name": "Sparzy"
   },
   {
     "location": "Iwaba",
     "area": "Area 4",
-    "image": "static/types/iwaba-area-4.png"
+    "image": "static/types/iwaba-area-4.png",
+    "name": "Scarawatt"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 4",
+    "image": "static/types/iwaba-area-4.png",
+    "name": "Sparzy"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 4",
+    "image": "static/types/iwaba-area-4.png",
+    "name": "Galvanid"
   },
   {
     "location": "Iwaba",
     "area": "Area 5",
-    "image": "static/types/iwaba-area-5.png"
+    "image": "static/types/iwaba-area-5.png",
+    "name": "Ampling"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 5",
+    "image": "static/types/iwaba-area-5.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "Iwaba",
+    "area": "Area 5",
+    "image": "static/types/iwaba-area-5.png",
+    "name": "Sparzy"
   },
   {
     "location": "Rice Fields",
     "area": "Area 1",
-    "image": "static/types/rice-fields-area-1.png"
+    "image": "static/types/rice-fields-area-1.png",
+    "name": "Oree"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 1",
+    "image": "static/types/rice-fields-area-1.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 1",
+    "image": "static/types/rice-fields-area-1.png",
+    "name": "Babawa"
   },
   {
     "location": "Rice Fields",
     "area": "Area 2",
-    "image": "static/types/rice-fields-area-2.png"
+    "image": "static/types/rice-fields-area-2.png",
+    "name": "Halzhi"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 2",
+    "image": "static/types/rice-fields-area-2.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 2",
+    "image": "static/types/rice-fields-area-2.png",
+    "name": "Babawa"
   },
   {
     "location": "Rice Fields",
     "area": "Area 3",
-    "image": "static/types/rice-fields-area-3.png"
+    "image": "static/types/rice-fields-area-3.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 3",
+    "image": "static/types/rice-fields-area-3.png",
+    "name": "Wiplump"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 3",
+    "image": "static/types/rice-fields-area-3.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 3",
+    "image": "static/types/rice-fields-area-3.png",
+    "name": "Pupoise"
   },
   {
     "location": "Rice Fields",
     "area": "Area 4",
-    "image": "static/types/rice-fields-area-4.png"
+    "image": "static/types/rice-fields-area-4.png",
+    "name": "Cycrox"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 4",
+    "image": "static/types/rice-fields-area-4.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 4",
+    "image": "static/types/rice-fields-area-4.png",
+    "name": "Babawa"
   },
   {
     "location": "Rice Fields",
     "area": "Area 5",
-    "image": "static/types/rice-fields-area-5.png"
+    "image": "static/types/rice-fields-area-5.png",
+    "name": "Cycrox"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 5",
+    "image": "static/types/rice-fields-area-5.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Rice Fields",
+    "area": "Area 5",
+    "image": "static/types/rice-fields-area-5.png",
+    "name": "Babawa"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 1",
-    "image": "static/types/pillars-of-highabove-area-1.png"
+    "image": "static/types/pillars-of-highabove-area-1.png",
+    "name": "Oree"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 1",
+    "image": "static/types/pillars-of-highabove-area-1.png",
+    "name": "Scarawatt"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 1",
+    "image": "static/types/pillars-of-highabove-area-1.png",
+    "name": "Gazuma"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 2",
-    "image": "static/types/pillars-of-highabove-area-2.png"
+    "image": "static/types/pillars-of-highabove-area-2.png",
+    "name": "Oree"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 2",
+    "image": "static/types/pillars-of-highabove-area-2.png",
+    "name": "Scarawatt"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 2",
+    "image": "static/types/pillars-of-highabove-area-2.png",
+    "name": "Gazuma"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 3",
-    "image": "static/types/pillars-of-highabove-area-3.png"
+    "image": "static/types/pillars-of-highabove-area-3.png",
+    "name": "Hoglip"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 3",
+    "image": "static/types/pillars-of-highabove-area-3.png",
+    "name": "Galvanid"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 3",
+    "image": "static/types/pillars-of-highabove-area-3.png",
+    "name": "Sparzy"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 4",
-    "image": "static/types/pillars-of-highabove-area-4.png"
+    "image": "static/types/pillars-of-highabove-area-4.png",
+    "name": "Chubee"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 4",
+    "image": "static/types/pillars-of-highabove-area-4.png",
+    "name": "Mudrid"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 4",
+    "image": "static/types/pillars-of-highabove-area-4.png",
+    "name": "Innki"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 5",
-    "image": "static/types/pillars-of-highabove-area-5.png"
+    "image": "static/types/pillars-of-highabove-area-5.png",
+    "name": "0b1"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 5",
+    "image": "static/types/pillars-of-highabove-area-5.png",
+    "name": "Gazuma"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 5",
+    "image": "static/types/pillars-of-highabove-area-5.png",
+    "name": "Paharac"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 6",
-    "image": "static/types/pillars-of-highabove-area-6.png"
+    "image": "static/types/pillars-of-highabove-area-6.png",
+    "name": "0b1"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 6",
+    "image": "static/types/pillars-of-highabove-area-6.png",
+    "name": "Gazuma"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 6",
+    "image": "static/types/pillars-of-highabove-area-6.png",
+    "name": "Paharac"
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 7",
-    "image": "static/types/pillars-of-highabove-area-7.png"
+    "image": "static/types/pillars-of-highabove-area-7.png",
+    "name": "Sparzy"
+  },
+  {
+    "location": "Pillars of Highabove",
+    "area": "Area 7",
+    "image": "static/types/pillars-of-highabove-area-7.png",
+    "name": "Chromeon (Digital)"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 1",
-    "image": "static/types/gifted-bridges-area-1.png"
+    "image": "static/types/gifted-bridges-area-1.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 1",
+    "image": "static/types/gifted-bridges-area-1.png",
+    "name": "Paharac"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 2",
-    "image": "static/types/gifted-bridges-area-2.png"
+    "image": "static/types/gifted-bridges-area-2.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 2",
+    "image": "static/types/gifted-bridges-area-2.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 2",
+    "image": "static/types/gifted-bridges-area-2.png",
+    "name": "Skail"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 3",
-    "image": "static/types/gifted-bridges-area-3.png"
+    "image": "static/types/gifted-bridges-area-3.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 3",
+    "image": "static/types/gifted-bridges-area-3.png",
+    "name": "Kaku"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 4",
-    "image": "static/types/gifted-bridges-area-4.png"
+    "image": "static/types/gifted-bridges-area-4.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 4",
+    "image": "static/types/gifted-bridges-area-4.png",
+    "name": "Hocus"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 5",
-    "image": "static/types/gifted-bridges-area-5.png"
+    "image": "static/types/gifted-bridges-area-5.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 5",
+    "image": "static/types/gifted-bridges-area-5.png",
+    "name": "Kaku"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 6",
-    "image": "static/types/gifted-bridges-area-6.png"
+    "image": "static/types/gifted-bridges-area-6.png",
+    "name": "Pigepic"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 6",
+    "image": "static/types/gifted-bridges-area-6.png",
+    "name": "Saipat"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 7",
-    "image": "static/types/gifted-bridges-area-7.png"
+    "image": "static/types/gifted-bridges-area-7.png",
+    "name": "Fomu"
+  },
+  {
+    "location": "Gifted Bridges",
+    "area": "Area 7",
+    "image": "static/types/gifted-bridges-area-7.png",
+    "name": "Saipat"
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 8",
-    "image": "static/types/gifted-bridges-area-8.png"
+    "image": "static/types/gifted-bridges-area-8.png",
+    "name": "Saipat"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 1",
-    "image": "static/types/corrupted-badlands-area-1.png"
+    "image": "static/types/corrupted-badlands-area-1.png",
+    "name": "Orphyll"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 1",
+    "image": "static/types/corrupted-badlands-area-1.png",
+    "name": "Mushi"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 1",
+    "image": "static/types/corrupted-badlands-area-1.png",
+    "name": "Blooze"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 2",
-    "image": "static/types/corrupted-badlands-area-2.png"
+    "image": "static/types/corrupted-badlands-area-2.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 2",
+    "image": "static/types/corrupted-badlands-area-2.png",
+    "name": "Orphyll"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 2",
+    "image": "static/types/corrupted-badlands-area-2.png",
+    "name": "Skunch"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 3",
-    "image": "static/types/corrupted-badlands-area-3.png"
+    "image": "static/types/corrupted-badlands-area-3.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 3",
+    "image": "static/types/corrupted-badlands-area-3.png",
+    "name": "Mushi"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 4",
-    "image": "static/types/corrupted-badlands-area-4.png"
+    "image": "static/types/corrupted-badlands-area-4.png",
+    "name": "Orphyll"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 4",
+    "image": "static/types/corrupted-badlands-area-4.png",
+    "name": "Blooze"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 5",
-    "image": "static/types/corrupted-badlands-area-5.png"
+    "image": "static/types/corrupted-badlands-area-5.png",
+    "name": "Mushi"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 5",
+    "image": "static/types/corrupted-badlands-area-5.png",
+    "name": "Blooze"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 6",
-    "image": "static/types/corrupted-badlands-area-6.png"
+    "image": "static/types/corrupted-badlands-area-6.png",
+    "name": "Zenoreth"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 6",
+    "image": "static/types/corrupted-badlands-area-6.png",
+    "name": "Tuwai"
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 7",
-    "image": "static/types/corrupted-badlands-area-7.png"
+    "image": "static/types/corrupted-badlands-area-7.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 7",
+    "image": "static/types/corrupted-badlands-area-7.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Corrupted Badlands",
+    "area": "Area 7",
+    "image": "static/types/corrupted-badlands-area-7.png",
+    "name": "Koish (Toxic)"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 1",
-    "image": "static/types/xolot-reservoir-area-1.png"
+    "image": "static/types/xolot-reservoir-area-1.png",
+    "name": "Toxolotl"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 1",
+    "image": "static/types/xolot-reservoir-area-1.png",
+    "name": "Skunch"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 2",
-    "image": "static/types/xolot-reservoir-area-2.png"
+    "image": "static/types/xolot-reservoir-area-2.png",
+    "name": "Toxolotl"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 2",
+    "image": "static/types/xolot-reservoir-area-2.png",
+    "name": "Orphyll"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 3",
-    "image": "static/types/xolot-reservoir-area-3.png"
+    "image": "static/types/xolot-reservoir-area-3.png",
+    "name": "Toxolotl"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 4",
-    "image": "static/types/xolot-reservoir-area-4.png"
+    "image": "static/types/xolot-reservoir-area-4.png",
+    "name": "Mushi"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 4",
+    "image": "static/types/xolot-reservoir-area-4.png",
+    "name": "Adoroboros"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 5",
-    "image": "static/types/xolot-reservoir-area-5.png"
+    "image": "static/types/xolot-reservoir-area-5.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 5",
+    "image": "static/types/xolot-reservoir-area-5.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 5",
+    "image": "static/types/xolot-reservoir-area-5.png",
+    "name": "Koish (Toxic)"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 6",
-    "image": "static/types/xolot-reservoir-area-6.png"
+    "image": "static/types/xolot-reservoir-area-6.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 6",
+    "image": "static/types/xolot-reservoir-area-6.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 6",
+    "image": "static/types/xolot-reservoir-area-6.png",
+    "name": "Kalabyss"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 6",
+    "image": "static/types/xolot-reservoir-area-6.png",
+    "name": "Koish (Toxic)"
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 7",
-    "image": "static/types/xolot-reservoir-area-7.png"
+    "image": "static/types/xolot-reservoir-area-7.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 7",
+    "image": "static/types/xolot-reservoir-area-7.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 7",
+    "image": "static/types/xolot-reservoir-area-7.png",
+    "name": "Kalabyss"
+  },
+  {
+    "location": "Xolot Reservoir",
+    "area": "Area 7",
+    "image": "static/types/xolot-reservoir-area-7.png",
+    "name": "Koish (Toxic)"
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 1",
-    "image": "static/types/mines-of-mictlan-area-1.png"
+    "image": "static/types/mines-of-mictlan-area-1.png",
+    "name": "Bunbun"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 1",
+    "image": "static/types/mines-of-mictlan-area-1.png",
+    "name": "Vulor"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 1",
+    "image": "static/types/mines-of-mictlan-area-1.png",
+    "name": "Mudrid"
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 2",
-    "image": "static/types/mines-of-mictlan-area-2.png"
+    "image": "static/types/mines-of-mictlan-area-2.png",
+    "name": "Lapinite"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 2",
+    "image": "static/types/mines-of-mictlan-area-2.png",
+    "name": "Gyalis"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 2",
+    "image": "static/types/mines-of-mictlan-area-2.png",
+    "name": "Crystle"
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 3",
-    "image": "static/types/mines-of-mictlan-area-3.png"
+    "image": "static/types/mines-of-mictlan-area-3.png",
+    "name": "Lapinite"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 3",
+    "image": "static/types/mines-of-mictlan-area-3.png",
+    "name": "Valash"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 3",
+    "image": "static/types/mines-of-mictlan-area-3.png",
+    "name": "Azuroc"
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 4",
-    "image": "static/types/mines-of-mictlan-area-4.png"
+    "image": "static/types/mines-of-mictlan-area-4.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Mines of Mictlan",
+    "area": "Area 4",
+    "image": "static/types/mines-of-mictlan-area-4.png",
+    "name": "Koish (Crystal)"
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 1",
-    "image": "static/types/gardens-of-aztlan-area-1.png"
+    "image": "static/types/gardens-of-aztlan-area-1.png",
+    "name": "Bunbun"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 1",
+    "image": "static/types/gardens-of-aztlan-area-1.png",
+    "name": "Lapinite"
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 2",
-    "image": "static/types/gardens-of-aztlan-area-2.png"
+    "image": "static/types/gardens-of-aztlan-area-2.png",
+    "name": "Platypet"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 2",
+    "image": "static/types/gardens-of-aztlan-area-2.png",
+    "name": "Koish (Crystal)"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 2",
+    "image": "static/types/gardens-of-aztlan-area-2.png",
+    "name": "Droply"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 2",
+    "image": "static/types/gardens-of-aztlan-area-2.png",
+    "name": "Kalabyss"
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 3",
-    "image": "static/types/gardens-of-aztlan-area-3.png"
+    "image": "static/types/gardens-of-aztlan-area-3.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Gardens of Aztlan",
+    "area": "Area 3",
+    "image": "static/types/gardens-of-aztlan-area-3.png",
+    "name": "Occlura"
   },
   {
     "location": "Saipark",
     "area": "Area 1",
-    "image": "static/types/saipark-area-1.png"
+    "image": "static/types/saipark-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 1",
+    "image": "static/types/saipark-area-1.png",
+    "name": "Tateru"
   },
   {
     "location": "Saipark",
     "area": "Area 2",
-    "image": "static/types/saipark-area-2.png"
+    "image": "static/types/saipark-area-2.png",
+    "name": "Pigepic"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 2",
+    "image": "static/types/saipark-area-2.png",
+    "name": "Paharac"
   },
   {
     "location": "Saipark",
     "area": "Area 3",
-    "image": "static/types/saipark-area-3.png"
+    "image": "static/types/saipark-area-3.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 3",
+    "image": "static/types/saipark-area-3.png",
+    "name": "Platox"
   },
   {
     "location": "Saipark",
     "area": "Area 4",
-    "image": "static/types/saipark-area-4.png"
+    "image": "static/types/saipark-area-4.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Saipark",
+    "area": "Area 4",
+    "image": "static/types/saipark-area-4.png",
+    "name": "Platox"
   },
   {
     "location": "Sillaro River",
     "area": "Area 1",
-    "image": "static/types/sillaro-river-area-1.png"
+    "image": "static/types/sillaro-river-area-1.png",
+    "name": "Fomu"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 1",
+    "image": "static/types/sillaro-river-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 1",
+    "image": "static/types/sillaro-river-area-1.png",
+    "name": "Wiplump"
   },
   {
     "location": "Sillaro River",
     "area": "Area 2",
-    "image": "static/types/sillaro-river-area-2.png"
+    "image": "static/types/sillaro-river-area-2.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 2",
+    "image": "static/types/sillaro-river-area-2.png",
+    "name": "Umishi"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 2",
+    "image": "static/types/sillaro-river-area-2.png",
+    "name": "Pewki"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 2",
+    "image": "static/types/sillaro-river-area-2.png",
+    "name": "Koish (Water)"
   },
   {
     "location": "Sillaro River",
     "area": "Area 3",
-    "image": "static/types/sillaro-river-area-3.png"
+    "image": "static/types/sillaro-river-area-3.png",
+    "name": "Saipat"
   },
   {
     "location": "Sillaro River",
     "area": "Area 4",
-    "image": "static/types/sillaro-river-area-4.png"
+    "image": "static/types/sillaro-river-area-4.png",
+    "name": "Fomu"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 4",
+    "image": "static/types/sillaro-river-area-4.png",
+    "name": "Nessla"
   },
   {
     "location": "Sillaro River",
     "area": "Area 5",
-    "image": "static/types/sillaro-river-area-5.png"
+    "image": "static/types/sillaro-river-area-5.png",
+    "name": "Wiplump"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 5",
+    "image": "static/types/sillaro-river-area-5.png",
+    "name": "Platox"
   },
   {
     "location": "Sillaro River",
     "area": "Area 6",
-    "image": "static/types/sillaro-river-area-6.png"
+    "image": "static/types/sillaro-river-area-6.png",
+    "name": "Fomu"
   },
   {
     "location": "Sillaro River",
     "area": "Area 7",
-    "image": "static/types/sillaro-river-area-7.png"
+    "image": "static/types/sillaro-river-area-7.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 7",
+    "image": "static/types/sillaro-river-area-7.png",
+    "name": "Umishi"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 7",
+    "image": "static/types/sillaro-river-area-7.png",
+    "name": "Pewki"
+  },
+  {
+    "location": "Sillaro River",
+    "area": "Area 7",
+    "image": "static/types/sillaro-river-area-7.png",
+    "name": "Koish (Water)"
   },
   {
     "location": "Sillaro River",
     "area": "Area 8",
-    "image": "static/types/sillaro-river-area-8.png"
+    "image": "static/types/sillaro-river-area-8.png",
+    "name": "Fomu"
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
-    "image": "static/types/seaqueens-aquarium-area-1.png"
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Platox"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Fomu"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Piraniant"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Ukama"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Garyo"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Kalabyss"
+  },
+  {
+    "location": "Sea-Queen's Aquarium",
+    "area": "Area 1",
+    "image": "static/types/seaqueens-aquarium-area-1.png",
+    "name": "Koish"
   },
   {
     "location": "Dabmis' Rest",
     "area": "Area 1",
-    "image": "static/types/dabmis-rest-area-1.png"
+    "image": "static/types/dabmis-rest-area-1.png",
+    "name": "Platimous"
+  },
+  {
+    "location": "Dabmis' Rest",
+    "area": "Area 1",
+    "image": "static/types/dabmis-rest-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 1",
-    "image": "static/types/prasine-coast-area-1.png"
+    "image": "static/types/prasine-coast-area-1.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 1",
+    "image": "static/types/prasine-coast-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 1",
+    "image": "static/types/prasine-coast-area-1.png",
+    "name": "Tateru"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 2",
-    "image": "static/types/prasine-coast-area-2.png"
+    "image": "static/types/prasine-coast-area-2.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 2",
+    "image": "static/types/prasine-coast-area-2.png",
+    "name": "Tateru"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 3",
-    "image": "static/types/prasine-coast-area-3.png"
+    "image": "static/types/prasine-coast-area-3.png",
+    "name": "Kaku"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 3",
+    "image": "static/types/prasine-coast-area-3.png",
+    "name": "Swali"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 3",
+    "image": "static/types/prasine-coast-area-3.png",
+    "name": "Saipat"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 4",
-    "image": "static/types/prasine-coast-area-4.png"
+    "image": "static/types/prasine-coast-area-4.png",
+    "name": "Taifu"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 4",
+    "image": "static/types/prasine-coast-area-4.png",
+    "name": "Paharac"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 5",
-    "image": "static/types/prasine-coast-area-5.png"
+    "image": "static/types/prasine-coast-area-5.png",
+    "name": "Kaku"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 5",
+    "image": "static/types/prasine-coast-area-5.png",
+    "name": "Swali"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 5",
+    "image": "static/types/prasine-coast-area-5.png",
+    "name": "Paharo"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 6",
-    "image": "static/types/prasine-coast-area-6.png"
+    "image": "static/types/prasine-coast-area-6.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 6",
+    "image": "static/types/prasine-coast-area-6.png",
+    "name": "Pigepic"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 6",
+    "image": "static/types/prasine-coast-area-6.png",
+    "name": "Skail"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 7",
-    "image": "static/types/prasine-coast-area-7.png"
+    "image": "static/types/prasine-coast-area-7.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 7",
+    "image": "static/types/prasine-coast-area-7.png",
+    "name": "Saipat"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 8",
-    "image": "static/types/prasine-coast-area-8.png"
+    "image": "static/types/prasine-coast-area-8.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Prasine Coast",
+    "area": "Area 8",
+    "image": "static/types/prasine-coast-area-8.png",
+    "name": "Saipat"
   },
   {
     "location": "Prasine Coast",
     "area": "Area 9",
-    "image": "static/types/prasine-coast-area-9.png"
+    "image": "static/types/prasine-coast-area-9.png",
+    "name": "Pewki"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 1",
-    "image": "static/types/thalassian-cliffs-area-1.png"
+    "image": "static/types/thalassian-cliffs-area-1.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 1",
+    "image": "static/types/thalassian-cliffs-area-1.png",
+    "name": "Skail"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 2",
-    "image": "static/types/thalassian-cliffs-area-2.png"
+    "image": "static/types/thalassian-cliffs-area-2.png",
+    "name": "Paharo"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 2",
+    "image": "static/types/thalassian-cliffs-area-2.png",
+    "name": "Pigepic"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 3",
-    "image": "static/types/thalassian-cliffs-area-3.png"
+    "image": "static/types/thalassian-cliffs-area-3.png",
+    "name": "Pigepic"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 3",
+    "image": "static/types/thalassian-cliffs-area-3.png",
+    "name": "Swali"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 4",
-    "image": "static/types/thalassian-cliffs-area-4.png"
+    "image": "static/types/thalassian-cliffs-area-4.png",
+    "name": "Ganki"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 5",
-    "image": "static/types/thalassian-cliffs-area-5.png"
+    "image": "static/types/thalassian-cliffs-area-5.png",
+    "name": "Kaku"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 5",
+    "image": "static/types/thalassian-cliffs-area-5.png",
+    "name": "Saipat"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 6",
-    "image": "static/types/thalassian-cliffs-area-6.png"
+    "image": "static/types/thalassian-cliffs-area-6.png",
+    "name": "Umishi"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 6",
+    "image": "static/types/thalassian-cliffs-area-6.png",
+    "name": "Nessla"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 7",
-    "image": "static/types/thalassian-cliffs-area-7.png"
+    "image": "static/types/thalassian-cliffs-area-7.png",
+    "name": "Ganki"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 8",
-    "image": "static/types/thalassian-cliffs-area-8.png"
+    "image": "static/types/thalassian-cliffs-area-8.png",
+    "name": "Pigepic"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 9",
-    "image": "static/types/thalassian-cliffs-area-9.png"
+    "image": "static/types/thalassian-cliffs-area-9.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 9",
+    "image": "static/types/thalassian-cliffs-area-9.png",
+    "name": "Swali"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 10",
-    "image": "static/types/thalassian-cliffs-area-10.png"
+    "image": "static/types/thalassian-cliffs-area-10.png",
+    "name": "Pigepic"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 10",
+    "image": "static/types/thalassian-cliffs-area-10.png",
+    "name": "Skail"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 11",
-    "image": "static/types/thalassian-cliffs-area-11.png"
+    "image": "static/types/thalassian-cliffs-area-11.png",
+    "name": "Ganki"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 11",
+    "image": "static/types/thalassian-cliffs-area-11.png",
+    "name": "Paharac"
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 12",
-    "image": "static/types/thalassian-cliffs-area-12.png"
+    "image": "static/types/thalassian-cliffs-area-12.png",
+    "name": "Umishi"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 12",
+    "image": "static/types/thalassian-cliffs-area-12.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Thalassian Cliffs",
+    "area": "Area 12",
+    "image": "static/types/thalassian-cliffs-area-12.png",
+    "name": "Koish (Wind)"
   },
   {
     "location": "The Canopath",
     "area": "Area 1",
-    "image": "static/types/the-canopath-area-1.png"
+    "image": "static/types/the-canopath-area-1.png",
+    "name": "Hidody"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 1",
+    "image": "static/types/the-canopath-area-1.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 1",
+    "image": "static/types/the-canopath-area-1.png",
+    "name": "Loali"
   },
   {
     "location": "The Canopath",
     "area": "Area 2",
-    "image": "static/types/the-canopath-area-2.png"
+    "image": "static/types/the-canopath-area-2.png",
+    "name": "Kaku"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 2",
+    "image": "static/types/the-canopath-area-2.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 2",
+    "image": "static/types/the-canopath-area-2.png",
+    "name": "Saku"
   },
   {
     "location": "The Canopath",
     "area": "Area 3",
-    "image": "static/types/the-canopath-area-3.png"
+    "image": "static/types/the-canopath-area-3.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 3",
+    "image": "static/types/the-canopath-area-3.png",
+    "name": "Deendre"
   },
   {
     "location": "The Canopath",
     "area": "Area 4",
-    "image": "static/types/the-canopath-area-4.png"
+    "image": "static/types/the-canopath-area-4.png",
+    "name": "Hidody"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 4",
+    "image": "static/types/the-canopath-area-4.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Canopath",
+    "area": "Area 4",
+    "image": "static/types/the-canopath-area-4.png",
+    "name": "Loali"
   },
   {
     "location": "The Flywalk",
     "area": "Area 1",
-    "image": "static/types/the-flywalk-area-1.png"
+    "image": "static/types/the-flywalk-area-1.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 1",
+    "image": "static/types/the-flywalk-area-1.png",
+    "name": "Babawa"
   },
   {
     "location": "The Flywalk",
     "area": "Area 2",
-    "image": "static/types/the-flywalk-area-2.png"
+    "image": "static/types/the-flywalk-area-2.png",
+    "name": "Pewki"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 2",
+    "image": "static/types/the-flywalk-area-2.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 2",
+    "image": "static/types/the-flywalk-area-2.png",
+    "name": "Koish (Nature)"
   },
   {
     "location": "The Flywalk",
     "area": "Area 3",
-    "image": "static/types/the-flywalk-area-3.png"
+    "image": "static/types/the-flywalk-area-3.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 3",
+    "image": "static/types/the-flywalk-area-3.png",
+    "name": "Deendre"
   },
   {
     "location": "The Flywalk",
     "area": "Area 4",
-    "image": "static/types/the-flywalk-area-4.png"
+    "image": "static/types/the-flywalk-area-4.png",
+    "name": "Kaku"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 4",
+    "image": "static/types/the-flywalk-area-4.png",
+    "name": "Loali"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 4",
+    "image": "static/types/the-flywalk-area-4.png",
+    "name": "Paharac"
   },
   {
     "location": "The Flywalk",
     "area": "Area 5",
-    "image": "static/types/the-flywalk-area-5.png"
+    "image": "static/types/the-flywalk-area-5.png",
+    "name": "Deendre"
+  },
+  {
+    "location": "The Flywalk",
+    "area": "Area 5",
+    "image": "static/types/the-flywalk-area-5.png",
+    "name": "Loali"
   },
   {
     "location": "The Hangroad",
     "area": "Area 1",
-    "image": "static/types/the-hangroad-area-1.png"
+    "image": "static/types/the-hangroad-area-1.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 1",
+    "image": "static/types/the-hangroad-area-1.png",
+    "name": "Loali"
   },
   {
     "location": "The Hangroad",
     "area": "Area 2",
-    "image": "static/types/the-hangroad-area-2.png"
+    "image": "static/types/the-hangroad-area-2.png",
+    "name": "Pewki"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 2",
+    "image": "static/types/the-hangroad-area-2.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 2",
+    "image": "static/types/the-hangroad-area-2.png",
+    "name": "Koish (Fire)"
   },
   {
     "location": "The Hangroad",
     "area": "Area 3",
-    "image": "static/types/the-hangroad-area-3.png"
+    "image": "static/types/the-hangroad-area-3.png",
+    "name": "Banapi"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 3",
+    "image": "static/types/the-hangroad-area-3.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Hangroad",
+    "area": "Area 3",
+    "image": "static/types/the-hangroad-area-3.png",
+    "name": "Deendre"
   },
   {
     "location": "The Glassyway",
     "area": "Area 1",
-    "image": "static/types/the-glassyway-area-1.png"
+    "image": "static/types/the-glassyway-area-1.png",
+    "name": "Loali"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 1",
+    "image": "static/types/the-glassyway-area-1.png",
+    "name": "Paharac"
   },
   {
     "location": "The Glassyway",
     "area": "Area 2",
-    "image": "static/types/the-glassyway-area-2.png"
+    "image": "static/types/the-glassyway-area-2.png",
+    "name": "Hidody"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 2",
+    "image": "static/types/the-glassyway-area-2.png",
+    "name": "Saku"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 2",
+    "image": "static/types/the-glassyway-area-2.png",
+    "name": "Taifu"
   },
   {
     "location": "The Glassyway",
     "area": "Area 3",
-    "image": "static/types/the-glassyway-area-3.png"
+    "image": "static/types/the-glassyway-area-3.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 3",
+    "image": "static/types/the-glassyway-area-3.png",
+    "name": "Raiber"
+  },
+  {
+    "location": "The Glassyway",
+    "area": "Area 3",
+    "image": "static/types/the-glassyway-area-3.png",
+    "name": "Banapi"
   },
   {
     "location": "Windward Fort",
     "area": "Area 1",
-    "image": "static/types/windward-fort-area-1.png"
+    "image": "static/types/windward-fort-area-1.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 1",
+    "image": "static/types/windward-fort-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 1",
+    "image": "static/types/windward-fort-area-1.png",
+    "name": "Fomu"
   },
   {
     "location": "Windward Fort",
     "area": "Area 2",
-    "image": "static/types/windward-fort-area-2.png"
+    "image": "static/types/windward-fort-area-2.png",
+    "name": "Fomu"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 2",
+    "image": "static/types/windward-fort-area-2.png",
+    "name": "Saipat"
   },
   {
     "location": "Windward Fort",
     "area": "Area 3",
-    "image": "static/types/windward-fort-area-3.png"
+    "image": "static/types/windward-fort-area-3.png",
+    "name": "Fomu"
   },
   {
     "location": "Windward Fort",
     "area": "Area 4",
-    "image": "static/types/windward-fort-area-4.png"
+    "image": "static/types/windward-fort-area-4.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 4",
+    "image": "static/types/windward-fort-area-4.png",
+    "name": "Tateru"
   },
   {
     "location": "Windward Fort",
     "area": "Area 5",
-    "image": "static/types/windward-fort-area-5.png"
+    "image": "static/types/windward-fort-area-5.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 5",
+    "image": "static/types/windward-fort-area-5.png",
+    "name": "Scarawatt"
   },
   {
     "location": "Windward Fort",
     "area": "Area 6",
-    "image": "static/types/windward-fort-area-6.png"
+    "image": "static/types/windward-fort-area-6.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 6",
+    "image": "static/types/windward-fort-area-6.png",
+    "name": "Scarawatt"
   },
   {
     "location": "Windward Fort",
     "area": "Area 7",
-    "image": "static/types/windward-fort-area-7.png"
+    "image": "static/types/windward-fort-area-7.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 7",
+    "image": "static/types/windward-fort-area-7.png",
+    "name": "Ganki"
   },
   {
     "location": "Windward Fort",
     "area": "Area 8",
-    "image": "static/types/windward-fort-area-8.png"
+    "image": "static/types/windward-fort-area-8.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 8",
+    "image": "static/types/windward-fort-area-8.png",
+    "name": "Scarawatt"
   },
   {
     "location": "Windward Fort",
     "area": "Area 9",
-    "image": "static/types/windward-fort-area-9.png"
+    "image": "static/types/windward-fort-area-9.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 9",
+    "image": "static/types/windward-fort-area-9.png",
+    "name": "Ganki"
   },
   {
     "location": "Windward Fort",
     "area": "Area 10",
-    "image": "static/types/windward-fort-area-10.png"
+    "image": "static/types/windward-fort-area-10.png",
+    "name": "Ganki"
+  },
+  {
+    "location": "Windward Fort",
+    "area": "Area 10",
+    "image": "static/types/windward-fort-area-10.png",
+    "name": "Barnshe"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 1",
-    "image": "static/types/aguamarina-caves-area-1.png"
+    "image": "static/types/aguamarina-caves-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 1",
+    "image": "static/types/aguamarina-caves-area-1.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 1",
+    "image": "static/types/aguamarina-caves-area-1.png",
+    "name": "Skail"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 2",
-    "image": "static/types/aguamarina-caves-area-2.png"
+    "image": "static/types/aguamarina-caves-area-2.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 2",
+    "image": "static/types/aguamarina-caves-area-2.png",
+    "name": "Oceara"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 3",
-    "image": "static/types/aguamarina-caves-area-3.png"
+    "image": "static/types/aguamarina-caves-area-3.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 3",
+    "image": "static/types/aguamarina-caves-area-3.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 3",
+    "image": "static/types/aguamarina-caves-area-3.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 4",
-    "image": "static/types/aguamarina-caves-area-4.png"
+    "image": "static/types/aguamarina-caves-area-4.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 4",
+    "image": "static/types/aguamarina-caves-area-4.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 4",
+    "image": "static/types/aguamarina-caves-area-4.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 5",
-    "image": "static/types/aguamarina-caves-area-5.png"
+    "image": "static/types/aguamarina-caves-area-5.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 5",
+    "image": "static/types/aguamarina-caves-area-5.png",
+    "name": "Saipat"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 6",
-    "image": "static/types/aguamarina-caves-area-6.png"
+    "image": "static/types/aguamarina-caves-area-6.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 6",
+    "image": "static/types/aguamarina-caves-area-6.png",
+    "name": "Saipat"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 7",
-    "image": "static/types/aguamarina-caves-area-7.png"
+    "image": "static/types/aguamarina-caves-area-7.png",
+    "name": "Kalazu"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 8",
-    "image": "static/types/aguamarina-caves-area-8.png"
+    "image": "static/types/aguamarina-caves-area-8.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 8",
+    "image": "static/types/aguamarina-caves-area-8.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 8",
+    "image": "static/types/aguamarina-caves-area-8.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 8",
+    "image": "static/types/aguamarina-caves-area-8.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 9",
-    "image": "static/types/aguamarina-caves-area-9.png"
+    "image": "static/types/aguamarina-caves-area-9.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 9",
+    "image": "static/types/aguamarina-caves-area-9.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 9",
+    "image": "static/types/aguamarina-caves-area-9.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 9",
+    "image": "static/types/aguamarina-caves-area-9.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 10",
-    "image": "static/types/aguamarina-caves-area-10.png"
+    "image": "static/types/aguamarina-caves-area-10.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 10",
+    "image": "static/types/aguamarina-caves-area-10.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 10",
+    "image": "static/types/aguamarina-caves-area-10.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 10",
+    "image": "static/types/aguamarina-caves-area-10.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 11",
-    "image": "static/types/aguamarina-caves-area-11.png"
+    "image": "static/types/aguamarina-caves-area-11.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 11",
+    "image": "static/types/aguamarina-caves-area-11.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 11",
+    "image": "static/types/aguamarina-caves-area-11.png",
+    "name": "Skunch"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 12",
-    "image": "static/types/aguamarina-caves-area-12.png"
+    "image": "static/types/aguamarina-caves-area-12.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 12",
+    "image": "static/types/aguamarina-caves-area-12.png",
+    "name": "Skail"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 12",
+    "image": "static/types/aguamarina-caves-area-12.png",
+    "name": "Tateru"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 13",
-    "image": "static/types/aguamarina-caves-area-13.png"
+    "image": "static/types/aguamarina-caves-area-13.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 13",
+    "image": "static/types/aguamarina-caves-area-13.png",
+    "name": "Oceara"
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 14",
-    "image": "static/types/aguamarina-caves-area-14.png"
+    "image": "static/types/aguamarina-caves-area-14.png",
+    "name": "Platimous"
+  },
+  {
+    "location": "Aguamarina Caves",
+    "area": "Area 14",
+    "image": "static/types/aguamarina-caves-area-14.png",
+    "name": "Tuwai"
   },
   {
     "location": "Jino Gap",
     "area": "Area 1",
-    "image": "static/types/jino-gap-area-1.png"
+    "image": "static/types/jino-gap-area-1.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 1",
+    "image": "static/types/jino-gap-area-1.png",
+    "name": "Kuri"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 1",
+    "image": "static/types/jino-gap-area-1.png",
+    "name": "Zizare"
   },
   {
     "location": "Jino Gap",
     "area": "Area 2",
-    "image": "static/types/jino-gap-area-2.png"
+    "image": "static/types/jino-gap-area-2.png",
+    "name": "Osuchi"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 2",
+    "image": "static/types/jino-gap-area-2.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 2",
+    "image": "static/types/jino-gap-area-2.png",
+    "name": "Zephyruff"
   },
   {
     "location": "Jino Gap",
     "area": "Area 3",
-    "image": "static/types/jino-gap-area-3.png"
+    "image": "static/types/jino-gap-area-3.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 3",
+    "image": "static/types/jino-gap-area-3.png",
+    "name": "Kuri"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 3",
+    "image": "static/types/jino-gap-area-3.png",
+    "name": "Zizare"
   },
   {
     "location": "Jino Gap",
     "area": "Area 4",
-    "image": "static/types/jino-gap-area-4.png"
+    "image": "static/types/jino-gap-area-4.png",
+    "name": "Tateru"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 4",
+    "image": "static/types/jino-gap-area-4.png",
+    "name": "Vulffy"
+  },
+  {
+    "location": "Jino Gap",
+    "area": "Area 4",
+    "image": "static/types/jino-gap-area-4.png",
+    "name": "Zizare"
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 1",
-    "image": "static/types/kilima-peaks-area-1.png"
+    "image": "static/types/kilima-peaks-area-1.png",
+    "name": "Momo"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 1",
+    "image": "static/types/kilima-peaks-area-1.png",
+    "name": "Skunch"
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
-    "image": "static/types/kilima-peaks-area-2.png"
+    "image": "static/types/kilima-peaks-area-2.png",
+    "name": "Momo"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 2",
+    "image": "static/types/kilima-peaks-area-2.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 2",
+    "image": "static/types/kilima-peaks-area-2.png",
+    "name": "Zizare"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 2",
+    "image": "static/types/kilima-peaks-area-2.png",
+    "name": "Osukan"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 2",
+    "image": "static/types/kilima-peaks-area-2.png",
+    "name": "Tateru"
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 3",
-    "image": "static/types/kilima-peaks-area-3.png"
+    "image": "static/types/kilima-peaks-area-3.png",
+    "name": "Zizare"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 3",
+    "image": "static/types/kilima-peaks-area-3.png",
+    "name": "Osukan"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 3",
+    "image": "static/types/kilima-peaks-area-3.png",
+    "name": "Momo"
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 4",
-    "image": "static/types/kilima-peaks-area-4.png"
+    "image": "static/types/kilima-peaks-area-4.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Kilima Peaks",
+    "area": "Area 4",
+    "image": "static/types/kilima-peaks-area-4.png",
+    "name": "Volarend"
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 1",
-    "image": "static/types/sewers-of-properton-area-1.png"
+    "image": "static/types/sewers-of-properton-area-1.png",
+    "name": "Shaolite"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 1",
+    "image": "static/types/sewers-of-properton-area-1.png",
+    "name": "Venx"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 1",
+    "image": "static/types/sewers-of-properton-area-1.png",
+    "name": "Mushook"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 1",
+    "image": "static/types/sewers-of-properton-area-1.png",
+    "name": "Hazrat"
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 2",
-    "image": "static/types/sewers-of-properton-area-2.png"
+    "image": "static/types/sewers-of-properton-area-2.png",
+    "name": "Shaolite"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 2",
+    "image": "static/types/sewers-of-properton-area-2.png",
+    "name": "Mushook"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 2",
+    "image": "static/types/sewers-of-properton-area-2.png",
+    "name": "Hazrat"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 2",
+    "image": "static/types/sewers-of-properton-area-2.png",
+    "name": "Gharunder"
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 3",
-    "image": "static/types/sewers-of-properton-area-3.png"
+    "image": "static/types/sewers-of-properton-area-3.png",
+    "name": "Shaolite"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 3",
+    "image": "static/types/sewers-of-properton-area-3.png",
+    "name": "Mushook"
+  },
+  {
+    "location": "Sewers of Properton",
+    "area": "Area 3",
+    "image": "static/types/sewers-of-properton-area-3.png",
+    "name": "Hazrat"
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 1",
-    "image": "static/types/mac-aeds-crags-area-1.png"
+    "image": "static/types/mac-aeds-crags-area-1.png",
+    "name": "Minttle"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 1",
+    "image": "static/types/mac-aeds-crags-area-1.png",
+    "name": "Mosu"
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 2",
-    "image": "static/types/mac-aeds-crags-area-2.png"
+    "image": "static/types/mac-aeds-crags-area-2.png",
+    "name": "Mitty"
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 3",
-    "image": "static/types/mac-aeds-crags-area-3.png"
+    "image": "static/types/mac-aeds-crags-area-3.png",
+    "name": "Mitty"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 3",
+    "image": "static/types/mac-aeds-crags-area-3.png",
+    "name": "Barnshe"
+  },
+  {
+    "location": "Mac Aed's Crags",
+    "area": "Area 3",
+    "image": "static/types/mac-aeds-crags-area-3.png",
+    "name": "Towly"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 1",
-    "image": "static/types/greenglen-forest-area-1.png"
+    "image": "static/types/greenglen-forest-area-1.png",
+    "name": "Broccoblin"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 1",
+    "image": "static/types/greenglen-forest-area-1.png",
+    "name": "Mawtle"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 1",
+    "image": "static/types/greenglen-forest-area-1.png",
+    "name": "Momo"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 2",
-    "image": "static/types/greenglen-forest-area-2.png"
+    "image": "static/types/greenglen-forest-area-2.png",
+    "name": "Gorong"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 2",
+    "image": "static/types/greenglen-forest-area-2.png",
+    "name": "Broccoblin"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 2",
+    "image": "static/types/greenglen-forest-area-2.png",
+    "name": "Smazee"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 3",
-    "image": "static/types/greenglen-forest-area-3.png"
+    "image": "static/types/greenglen-forest-area-3.png",
+    "name": "Gorong"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 3",
+    "image": "static/types/greenglen-forest-area-3.png",
+    "name": "Mawtle"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 3",
+    "image": "static/types/greenglen-forest-area-3.png",
+    "name": "Mosu"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 4",
-    "image": "static/types/greenglen-forest-area-4.png"
+    "image": "static/types/greenglen-forest-area-4.png",
+    "name": "Broccoblin"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 4",
+    "image": "static/types/greenglen-forest-area-4.png",
+    "name": "Chimurian"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 5",
-    "image": "static/types/greenglen-forest-area-5.png"
+    "image": "static/types/greenglen-forest-area-5.png",
+    "name": "Mosu"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 5",
+    "image": "static/types/greenglen-forest-area-5.png",
+    "name": "Mawtle"
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 6",
-    "image": "static/types/greenglen-forest-area-6.png"
+    "image": "static/types/greenglen-forest-area-6.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 6",
+    "image": "static/types/greenglen-forest-area-6.png",
+    "name": "Koish (Melee)"
+  },
+  {
+    "location": "Greenglen Forest",
+    "area": "Area 6",
+    "image": "static/types/greenglen-forest-area-6.png",
+    "name": "Koish (Mental)"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
-    "image": "static/types/kwea-uplands-area-1.png"
+    "image": "static/types/kwea-uplands-area-1.png",
+    "name": "Kuri"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 1",
+    "image": "static/types/kwea-uplands-area-1.png",
+    "name": "Goty"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
-    "image": "static/types/kwea-uplands-area-2.png"
+    "image": "static/types/kwea-uplands-area-2.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 2",
+    "image": "static/types/kwea-uplands-area-2.png",
+    "name": "Zizare"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
-    "image": "static/types/kwea-uplands-area-3.png"
+    "image": "static/types/kwea-uplands-area-3.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 3",
+    "image": "static/types/kwea-uplands-area-3.png",
+    "name": "Kuri"
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 1",
-    "image": "static/types/kakama-cenote-area-1.png"
+    "image": "static/types/kakama-cenote-area-1.png",
+    "name": "Bunbun"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 1",
+    "image": "static/types/kakama-cenote-area-1.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 1",
+    "image": "static/types/kakama-cenote-area-1.png",
+    "name": "Shuine"
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 2",
-    "image": "static/types/kakama-cenote-area-2.png"
+    "image": "static/types/kakama-cenote-area-2.png",
+    "name": "Ukama"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 2",
+    "image": "static/types/kakama-cenote-area-2.png",
+    "name": "Wiplump"
+  },
+  {
+    "location": "Kakama Cenote",
+    "area": "Area 2",
+    "image": "static/types/kakama-cenote-area-2.png",
+    "name": "Shuine"
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
-    "image": "static/types/barafu-glacier-area-1.png"
+    "image": "static/types/barafu-glacier-area-1.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Barafu Glacier",
+    "area": "Area 1",
+    "image": "static/types/barafu-glacier-area-1.png",
+    "name": "Mudrid"
+  },
+  {
+    "location": "Barafu Glacier",
+    "area": "Area 1",
+    "image": "static/types/barafu-glacier-area-1.png",
+    "name": "Zizare"
+  },
+  {
+    "location": "Barafu Glacier",
+    "area": "Area 1",
+    "image": "static/types/barafu-glacier-area-1.png",
+    "name": "Momo"
+  },
+  {
+    "location": "Barafu Glacier",
+    "area": "Area 1",
+    "image": "static/types/barafu-glacier-area-1.png",
+    "name": "Yowlar"
   },
   {
     "location": "Giant Banyan",
     "area": "Area 1",
-    "image": "static/types/giant-banyan-area-1.png"
+    "image": "static/types/giant-banyan-area-1.png",
+    "name": "Spriole"
+  },
+  {
+    "location": "Giant Banyan",
+    "area": "Area 1",
+    "image": "static/types/giant-banyan-area-1.png",
+    "name": "Hidody"
+  },
+  {
+    "location": "Giant Banyan",
+    "area": "Area 1",
+    "image": "static/types/giant-banyan-area-1.png",
+    "name": "Kinu"
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
-    "image": "static/types/the-highbelow-area-1.png"
+    "image": "static/types/the-highbelow-area-1.png",
+    "name": "Garyo"
+  },
+  {
+    "location": "The Highbelow?",
+    "area": "Area 1",
+    "image": "static/types/the-highbelow-area-1.png",
+    "name": "Wiplump"
+  },
+  {
+    "location": "The Highbelow?",
+    "area": "Area 1",
+    "image": "static/types/the-highbelow-area-1.png",
+    "name": "Cycrox"
+  },
+  {
+    "location": "The Highbelow?",
+    "area": "Area 1",
+    "image": "static/types/the-highbelow-area-1.png",
+    "name": "Grumper"
+  },
+  {
+    "location": "The Highbelow?",
+    "area": "Area 1",
+    "image": "static/types/the-highbelow-area-1.png",
+    "name": "Sparzy"
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 1",
-    "image": "static/types/mawingu-islets-area-1.png"
+    "image": "static/types/mawingu-islets-area-1.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 1",
+    "image": "static/types/mawingu-islets-area-1.png",
+    "name": "Kuri"
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 2",
-    "image": "static/types/mawingu-islets-area-2.png"
+    "image": "static/types/mawingu-islets-area-2.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 2",
+    "image": "static/types/mawingu-islets-area-2.png",
+    "name": "Zephyruff"
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 3",
-    "image": "static/types/mawingu-islets-area-3.png"
+    "image": "static/types/mawingu-islets-area-3.png",
+    "name": "Osuchi"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 3",
+    "image": "static/types/mawingu-islets-area-3.png",
+    "name": "Volarend"
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 4",
-    "image": "static/types/mawingu-islets-area-4.png"
+    "image": "static/types/mawingu-islets-area-4.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 4",
+    "image": "static/types/mawingu-islets-area-4.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 4",
+    "image": "static/types/mawingu-islets-area-4.png",
+    "name": "Droply"
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 5",
-    "image": "static/types/mawingu-islets-area-5.png"
+    "image": "static/types/mawingu-islets-area-5.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 5",
+    "image": "static/types/mawingu-islets-area-5.png",
+    "name": "Droply"
+  },
+  {
+    "location": "Mawingu Islets",
+    "area": "Area 5",
+    "image": "static/types/mawingu-islets-area-5.png",
+    "name": "Koish (Earth)"
   },
   {
     "location": "Chini Grotto",
     "area": "Area 1",
-    "image": "static/types/chini-grotto-area-1.png"
+    "image": "static/types/chini-grotto-area-1.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 1",
+    "image": "static/types/chini-grotto-area-1.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 1",
+    "image": "static/types/chini-grotto-area-1.png",
+    "name": "Zizare"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 1",
+    "image": "static/types/chini-grotto-area-1.png",
+    "name": "Pycko"
   },
   {
     "location": "Chini Grotto",
     "area": "Area 2",
-    "image": "static/types/chini-grotto-area-2.png"
+    "image": "static/types/chini-grotto-area-2.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 2",
+    "image": "static/types/chini-grotto-area-2.png",
+    "name": "Skunch"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 2",
+    "image": "static/types/chini-grotto-area-2.png",
+    "name": "Zizare"
   },
   {
     "location": "Chini Grotto",
     "area": "Area 3",
-    "image": "static/types/chini-grotto-area-3.png"
+    "image": "static/types/chini-grotto-area-3.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 3",
+    "image": "static/types/chini-grotto-area-3.png",
+    "name": "Zizare"
   },
   {
     "location": "Chini Grotto",
     "area": "Area 4",
-    "image": "static/types/chini-grotto-area-4.png"
+    "image": "static/types/chini-grotto-area-4.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 4",
+    "image": "static/types/chini-grotto-area-4.png",
+    "name": "Zizare"
   },
   {
     "location": "Chini Grotto",
     "area": "Area 5",
-    "image": "static/types/chini-grotto-area-5.png"
+    "image": "static/types/chini-grotto-area-5.png",
+    "name": "Osukai"
+  },
+  {
+    "location": "Chini Grotto",
+    "area": "Area 5",
+    "image": "static/types/chini-grotto-area-5.png",
+    "name": "Tuwai"
   },
   {
     "location": "Matope Road",
     "area": "Area 1",
-    "image": "static/types/matope-road-area-1.png"
+    "image": "static/types/matope-road-area-1.png",
+    "name": "Droply"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 1",
+    "image": "static/types/matope-road-area-1.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 1",
+    "image": "static/types/matope-road-area-1.png",
+    "name": "Kuri"
   },
   {
     "location": "Matope Road",
     "area": "Area 2",
-    "image": "static/types/matope-road-area-2.png"
+    "image": "static/types/matope-road-area-2.png",
+    "name": "Osuchi"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 2",
+    "image": "static/types/matope-road-area-2.png",
+    "name": "Kuri"
+  },
+  {
+    "location": "Matope Road",
+    "area": "Area 2",
+    "image": "static/types/matope-road-area-2.png",
+    "name": "Gazuma"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 1",
-    "image": "static/types/tasa-desert-area-1.png"
+    "image": "static/types/tasa-desert-area-1.png",
+    "name": "Akranox"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 1",
+    "image": "static/types/tasa-desert-area-1.png",
+    "name": "Pycko"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 2",
-    "image": "static/types/tasa-desert-area-2.png"
+    "image": "static/types/tasa-desert-area-2.png",
+    "name": "Vulffy"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 2",
+    "image": "static/types/tasa-desert-area-2.png",
+    "name": "Pycko"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 3",
-    "image": "static/types/tasa-desert-area-3.png"
+    "image": "static/types/tasa-desert-area-3.png",
+    "name": "Akranox"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 3",
+    "image": "static/types/tasa-desert-area-3.png",
+    "name": "Pycko"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 3",
+    "image": "static/types/tasa-desert-area-3.png",
+    "name": "Vulffy"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 4",
-    "image": "static/types/tasa-desert-area-4.png"
+    "image": "static/types/tasa-desert-area-4.png",
+    "name": "Vulffy"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 4",
+    "image": "static/types/tasa-desert-area-4.png",
+    "name": "Pycko"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 5",
-    "image": "static/types/tasa-desert-area-5.png"
+    "image": "static/types/tasa-desert-area-5.png",
+    "name": "Akranox"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 5",
+    "image": "static/types/tasa-desert-area-5.png",
+    "name": "Vulffy"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 5",
+    "image": "static/types/tasa-desert-area-5.png",
+    "name": "Pycko"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 5",
+    "image": "static/types/tasa-desert-area-5.png",
+    "name": "Rhoulder"
   },
   {
     "location": "Tasa Desert",
     "area": "Area 6",
-    "image": "static/types/tasa-desert-area-6.png"
+    "image": "static/types/tasa-desert-area-6.png",
+    "name": "Akranox"
+  },
+  {
+    "location": "Tasa Desert",
+    "area": "Area 6",
+    "image": "static/types/tasa-desert-area-6.png",
+    "name": "Pycko"
   },
   {
     "location": "Meadowdale",
     "area": "Area 1",
-    "image": "static/types/meadowdale-area-1.png"
+    "image": "static/types/meadowdale-area-1.png",
+    "name": "Maoala"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 1",
+    "image": "static/types/meadowdale-area-1.png",
+    "name": "Thaiko"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 1",
+    "image": "static/types/meadowdale-area-1.png",
+    "name": "Houchic"
   },
   {
     "location": "Meadowdale",
     "area": "Area 2",
-    "image": "static/types/meadowdale-area-2.png"
+    "image": "static/types/meadowdale-area-2.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 2",
+    "image": "static/types/meadowdale-area-2.png",
+    "name": "Saipat"
   },
   {
     "location": "Meadowdale",
     "area": "Area 3",
-    "image": "static/types/meadowdale-area-3.png"
+    "image": "static/types/meadowdale-area-3.png",
+    "name": "Reval"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 3",
+    "image": "static/types/meadowdale-area-3.png",
+    "name": "Saipat"
   },
   {
     "location": "Meadowdale",
     "area": "Area 4",
-    "image": "static/types/meadowdale-area-4.png"
+    "image": "static/types/meadowdale-area-4.png",
+    "name": "Maoala"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 4",
+    "image": "static/types/meadowdale-area-4.png",
+    "name": "Thaiko"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 4",
+    "image": "static/types/meadowdale-area-4.png",
+    "name": "Owlhe"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 4",
+    "image": "static/types/meadowdale-area-4.png",
+    "name": "Towly"
   },
   {
     "location": "Meadowdale",
     "area": "Area 5",
-    "image": "static/types/meadowdale-area-5.png"
+    "image": "static/types/meadowdale-area-5.png",
+    "name": "Babawa"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 5",
+    "image": "static/types/meadowdale-area-5.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 5",
+    "image": "static/types/meadowdale-area-5.png",
+    "name": "Koish (Melee)"
+  },
+  {
+    "location": "Meadowdale",
+    "area": "Area 5",
+    "image": "static/types/meadowdale-area-5.png",
+    "name": "Koish (Mental)"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 1",
-    "image": "static/types/anak-volcano-area-1.png"
+    "image": "static/types/anak-volcano-area-1.png",
+    "name": "Banapi"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 1",
+    "image": "static/types/anak-volcano-area-1.png",
+    "name": "Raiber"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 2",
-    "image": "static/types/anak-volcano-area-2.png"
+    "image": "static/types/anak-volcano-area-2.png",
+    "name": "Vulvir"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 2",
+    "image": "static/types/anak-volcano-area-2.png",
+    "name": "Raiber"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 2",
+    "image": "static/types/anak-volcano-area-2.png",
+    "name": "Banapi"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 3",
-    "image": "static/types/anak-volcano-area-3.png"
+    "image": "static/types/anak-volcano-area-3.png",
+    "name": "Magmis"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 3",
+    "image": "static/types/anak-volcano-area-3.png",
+    "name": "Raiber"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 3",
+    "image": "static/types/anak-volcano-area-3.png",
+    "name": "Banapi"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 4",
-    "image": "static/types/anak-volcano-area-4.png"
+    "image": "static/types/anak-volcano-area-4.png",
+    "name": "Capyre"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 4",
+    "image": "static/types/anak-volcano-area-4.png",
+    "name": "Raize"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 4",
+    "image": "static/types/anak-volcano-area-4.png",
+    "name": "Mastione"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 5",
-    "image": "static/types/anak-volcano-area-5.png"
+    "image": "static/types/anak-volcano-area-5.png",
+    "name": "Capyre"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 5",
+    "image": "static/types/anak-volcano-area-5.png",
+    "name": "Vulor"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 5",
+    "image": "static/types/anak-volcano-area-5.png",
+    "name": "Mastione"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 6",
-    "image": "static/types/anak-volcano-area-6.png"
+    "image": "static/types/anak-volcano-area-6.png",
+    "name": "Vulor"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 6",
+    "image": "static/types/anak-volcano-area-6.png",
+    "name": "Mastione"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 6",
+    "image": "static/types/anak-volcano-area-6.png",
+    "name": "Drakash"
   },
   {
     "location": "Anak Volcano",
     "area": "Area 7",
-    "image": "static/types/anak-volcano-area-7.png"
+    "image": "static/types/anak-volcano-area-7.png",
+    "name": "Raican"
+  },
+  {
+    "location": "Anak Volcano",
+    "area": "Area 7",
+    "image": "static/types/anak-volcano-area-7.png",
+    "name": "Tuwai"
   },
   {
     "location": "Anak Caldera",
     "area": "Area 1",
-    "image": "static/types/anak-caldera-area-1.png"
+    "image": "static/types/anak-caldera-area-1.png",
+    "name": "Vulor"
+  },
+  {
+    "location": "Anak Caldera",
+    "area": "Area 1",
+    "image": "static/types/anak-caldera-area-1.png",
+    "name": "Mastione"
+  },
+  {
+    "location": "Anak Caldera",
+    "area": "Area 1",
+    "image": "static/types/anak-caldera-area-1.png",
+    "name": "Capyre"
+  },
+  {
+    "location": "Anak Caldera",
+    "area": "Area 1",
+    "image": "static/types/anak-caldera-area-1.png",
+    "name": "Raize"
   },
   {
     "location": "Sons of Crystal",
     "area": "Area 1",
-    "image": "static/types/sons-of-crystal-area-1.png"
+    "image": "static/types/sons-of-crystal-area-1.png",
+    "name": "Zenoreth"
+  },
+  {
+    "location": "Sons of Crystal",
+    "area": "Area 1",
+    "image": "static/types/sons-of-crystal-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Kupeleleza",
     "area": "Area 1",
-    "image": "static/types/kupeleleza-area-1.png"
+    "image": "static/types/kupeleleza-area-1.png",
+    "name": "Occlura"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 1",
+    "image": "static/types/kupeleleza-area-1.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 1",
+    "image": "static/types/kupeleleza-area-1.png",
+    "name": "Crystle"
   },
   {
     "location": "Kupeleleza",
     "area": "Area 2",
-    "image": "static/types/kupeleleza-area-2.png"
+    "image": "static/types/kupeleleza-area-2.png",
+    "name": "Mushi"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 2",
+    "image": "static/types/kupeleleza-area-2.png",
+    "name": "Zephyruff"
   },
   {
     "location": "Kupeleleza",
     "area": "Area 3",
-    "image": "static/types/kupeleleza-area-3.png"
+    "image": "static/types/kupeleleza-area-3.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 3",
+    "image": "static/types/kupeleleza-area-3.png",
+    "name": "Saku"
   },
   {
     "location": "Kupeleleza",
     "area": "Area 4",
-    "image": "static/types/kupeleleza-area-4.png"
+    "image": "static/types/kupeleleza-area-4.png",
+    "name": "Zephyruff"
+  },
+  {
+    "location": "Kupeleleza",
+    "area": "Area 4",
+    "image": "static/types/kupeleleza-area-4.png",
+    "name": "Volarend"
   },
   {
     "location": "Altar of the Inner Flame",
     "area": "Area 1",
-    "image": "static/types/altar-of-the-inner-flame-area-1.png"
+    "image": "static/types/altar-of-the-inner-flame-area-1.png",
+    "name": "Raican"
+  },
+  {
+    "location": "Altar of the Inner Flame",
+    "area": "Area 1",
+    "image": "static/types/altar-of-the-inner-flame-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Aisha's Hearth",
     "area": "Area 1",
-    "image": "static/types/aishas-hearth-area-1.png"
+    "image": "static/types/aishas-hearth-area-1.png",
+    "name": "Osukai"
+  },
+  {
+    "location": "Aisha's Hearth",
+    "area": "Area 1",
+    "image": "static/types/aishas-hearth-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Arissola Dojo",
     "area": "Area 1",
-    "image": "static/types/arissola-dojo-area-1.png"
+    "image": "static/types/arissola-dojo-area-1.png",
+    "name": "Kalazu"
+  },
+  {
+    "location": "Arissola Dojo",
+    "area": "Area 1",
+    "image": "static/types/arissola-dojo-area-1.png",
+    "name": "Saipat"
   },
   {
     "location": "Loch Aduar",
     "area": "Area 1",
-    "image": "static/types/loch-aduar-area-1.png"
+    "image": "static/types/loch-aduar-area-1.png",
+    "name": "Saipat"
+  },
+  {
+    "location": "Loch Aduar",
+    "area": "Area 1",
+    "image": "static/types/loch-aduar-area-1.png",
+    "name": "Koish (Melee)"
+  },
+  {
+    "location": "Loch Aduar",
+    "area": "Area 1",
+    "image": "static/types/loch-aduar-area-1.png",
+    "name": "Koish (Mental)"
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
-    "image": "static/types/braeside-castle-area-1.png"
+    "image": "static/types/braeside-castle-area-1.png",
+    "name": "Hazrat"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 1",
+    "image": "static/types/braeside-castle-area-1.png",
+    "name": "Arachnyte"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 1",
+    "image": "static/types/braeside-castle-area-1.png",
+    "name": "Valiar"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 1",
+    "image": "static/types/braeside-castle-area-1.png",
+    "name": "Hocus"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 1",
+    "image": "static/types/braeside-castle-area-1.png",
+    "name": "Shaolite"
   },
   {
     "location": "Braeside Castle",
     "area": "Area 2",
-    "image": "static/types/braeside-castle-area-2.png"
+    "image": "static/types/braeside-castle-area-2.png",
+    "name": "Hazrat"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 2",
+    "image": "static/types/braeside-castle-area-2.png",
+    "name": "Shaolite"
   },
   {
     "location": "Braeside Castle",
     "area": "Area 3",
-    "image": "static/types/braeside-castle-area-3.png"
+    "image": "static/types/braeside-castle-area-3.png",
+    "name": "Valiar"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 3",
+    "image": "static/types/braeside-castle-area-3.png",
+    "name": "Hocus"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 3",
+    "image": "static/types/braeside-castle-area-3.png",
+    "name": "Arachnyte"
   },
   {
     "location": "Braeside Castle",
     "area": "Area 4",
-    "image": "static/types/braeside-castle-area-4.png"
+    "image": "static/types/braeside-castle-area-4.png",
+    "name": "Shaolite"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 4",
+    "image": "static/types/braeside-castle-area-4.png",
+    "name": "Hazrat"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 4",
+    "image": "static/types/braeside-castle-area-4.png",
+    "name": "Hocus"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 4",
+    "image": "static/types/braeside-castle-area-4.png",
+    "name": "Adoroboros"
   },
   {
     "location": "Braeside Castle",
     "area": "Area 5",
-    "image": "static/types/braeside-castle-area-5.png"
+    "image": "static/types/braeside-castle-area-5.png",
+    "name": "Shaolite"
+  },
+  {
+    "location": "Braeside Castle",
+    "area": "Area 5",
+    "image": "static/types/braeside-castle-area-5.png",
+    "name": "Hazrat"
   },
   {
     "location": "Sacred Lake",
     "area": "Area 1",
-    "image": "static/types/sacred-lake-area-1.png"
+    "image": "static/types/sacred-lake-area-1.png",
+    "name": "Nessla"
+  },
+  {
+    "location": "Sacred Lake",
+    "area": "Area 1",
+    "image": "static/types/sacred-lake-area-1.png",
+    "name": "Cycrox"
+  },
+  {
+    "location": "Sacred Lake",
+    "area": "Area 1",
+    "image": "static/types/sacred-lake-area-1.png",
+    "name": "Koish (Electric)"
+  },
+  {
+    "location": "Sacred Lake",
+    "area": "Area 1",
+    "image": "static/types/sacred-lake-area-1.png",
+    "name": "Koish (Digital)"
   },
   {
     "location": "Digital Kami Shrine",
     "area": "Area 1",
-    "image": "static/types/digital-kami-shrine-area-1.png"
+    "image": "static/types/digital-kami-shrine-area-1.png",
+    "name": "Golzy"
+  },
+  {
+    "location": "Digital Kami Shrine",
+    "area": "Area 1",
+    "image": "static/types/digital-kami-shrine-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 1",
-    "image": "static/types/juu-tunnel-area-1.png"
+    "image": "static/types/juu-tunnel-area-1.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Juu Tunnel",
+    "area": "Area 1",
+    "image": "static/types/juu-tunnel-area-1.png",
+    "name": "Zizare"
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 2",
-    "image": "static/types/juu-tunnel-area-2.png"
+    "image": "static/types/juu-tunnel-area-2.png",
+    "name": "Grumvel"
+  },
+  {
+    "location": "Juu Tunnel",
+    "area": "Area 2",
+    "image": "static/types/juu-tunnel-area-2.png",
+    "name": "Droply"
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 3",
-    "image": "static/types/juu-tunnel-area-3.png"
+    "image": "static/types/juu-tunnel-area-3.png",
+    "name": "Droply"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
-    "image": "static/types/kwea-uplands-area-1.png"
+    "image": "static/types/kwea-uplands-area-1.png",
+    "name": "Kuri"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 1",
+    "image": "static/types/kwea-uplands-area-1.png",
+    "name": "Goty"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
-    "image": "static/types/kwea-uplands-area-2.png"
+    "image": "static/types/kwea-uplands-area-2.png",
+    "name": "Paharac"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 2",
+    "image": "static/types/kwea-uplands-area-2.png",
+    "name": "Zizare"
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
-    "image": "static/types/kwea-uplands-area-3.png"
+    "image": "static/types/kwea-uplands-area-3.png",
+    "name": "Goty"
+  },
+  {
+    "location": "Kwea Uplands",
+    "area": "Area 3",
+    "image": "static/types/kwea-uplands-area-3.png",
+    "name": "Kuri"
   },
   {
     "location": "Moyo Lake",
     "area": "Area 1",
-    "image": "static/types/moyo-lake-area-1.png"
+    "image": "static/types/moyo-lake-area-1.png",
+    "name": "Droply"
+  },
+  {
+    "location": "Moyo Lake",
+    "area": "Area 1",
+    "image": "static/types/moyo-lake-area-1.png",
+    "name": "Koish (Neutral)"
   },
   {
     "location": "Chieftain's Barrow",
     "area": "Area 1",
-    "image": "static/types/chieftains-barrow-area-1.png"
+    "image": "static/types/chieftains-barrow-area-1.png",
+    "name": "Broccolem"
+  },
+  {
+    "location": "Chieftain's Barrow",
+    "area": "Area 1",
+    "image": "static/types/chieftains-barrow-area-1.png",
+    "name": "Tuwai"
   },
   {
     "location": "Nuru Lodge",
     "area": "Area 1",
-    "image": "static/types/nuru-lodge-area-1.png"
+    "image": "static/types/nuru-lodge-area-1.png",
+    "name": "Koish"
   }
 ]
