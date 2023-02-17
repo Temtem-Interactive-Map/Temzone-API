@@ -63,11 +63,19 @@ export class SpawnsDB {
             "https://temtem.wiki.gg/" + url
           );
 
-          this.spawns.push({
-            location,
-            area,
-            image: "static/types/" + fileName,
-          });
+          $el
+            .find("td.encounters > table")
+            .toArray()
+            .forEach((el) => {
+              const spawn = new Spawn($(el));
+
+              this.spawns.push({
+                location,
+                area,
+                image: "static/types/" + fileName,
+                name: spawn.name,
+              });
+            });
         }
       }
     }
@@ -81,5 +89,14 @@ export class SpawnsDB {
 class Spawn {
   constructor($) {
     this.$ = $;
+  }
+
+  get name() {
+    const rawName = this.$.find(
+      "tbody > tr:nth-child(1) > td > a > span"
+    ).text();
+    const name = cleanText(rawName);
+
+    return name === "Chromeon" ? "Chromeon (Digital)" : name;
   }
 }
