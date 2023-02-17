@@ -1,7 +1,13 @@
 import { join } from "node:path";
 import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import { cleanText, getUrlExtension, scrape, shortUrl } from "./utils/index.js";
+import {
+  cleanText,
+  generateId,
+  getUrlExtension,
+  scrape,
+  shortUrl,
+} from "./utils/index.js";
 
 export class TypesDB {
   static async scrape() {
@@ -32,7 +38,9 @@ export class TypesDB {
         "https://temtem.wiki.gg/" + url
       );
 
-      this.types[name] = {
+      const id = generateId(name);
+
+      this.types[id] = {
         name,
         image: "static/types/" + fileName,
       };
