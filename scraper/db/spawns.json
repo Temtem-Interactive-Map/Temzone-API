@@ -3,3132 +3,3654 @@
     "location": "Iwaba",
     "area": "Area 1",
     "image": "static/types/iwaba-area-1.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 100
   },
   {
     "location": "Iwaba",
     "area": "Area 2",
     "image": "static/types/iwaba-area-2.png",
-    "name": "Ampling"
+    "name": "Ampling",
+    "rate": 80
   },
   {
     "location": "Iwaba",
     "area": "Area 2",
     "image": "static/types/iwaba-area-2.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 20
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
     "image": "static/types/iwaba-area-3.png",
-    "name": "Mimit"
+    "name": "Mimit",
+    "rate": 0
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
     "image": "static/types/iwaba-area-3.png",
-    "name": "Galvanid"
+    "name": "Galvanid",
+    "rate": 25
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
     "image": "static/types/iwaba-area-3.png",
-    "name": "Ampling"
+    "name": "Ampling",
+    "rate": 25
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
     "image": "static/types/iwaba-area-3.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 25
   },
   {
     "location": "Iwaba",
     "area": "Area 3",
     "image": "static/types/iwaba-area-3.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 25
   },
   {
     "location": "Iwaba",
     "area": "Area 4",
     "image": "static/types/iwaba-area-4.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 60
   },
   {
     "location": "Iwaba",
     "area": "Area 4",
     "image": "static/types/iwaba-area-4.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 20
   },
   {
     "location": "Iwaba",
     "area": "Area 4",
     "image": "static/types/iwaba-area-4.png",
-    "name": "Galvanid"
+    "name": "Galvanid",
+    "rate": 20
   },
   {
     "location": "Iwaba",
     "area": "Area 5",
     "image": "static/types/iwaba-area-5.png",
-    "name": "Ampling"
+    "name": "Ampling",
+    "rate": 70
   },
   {
     "location": "Iwaba",
     "area": "Area 5",
     "image": "static/types/iwaba-area-5.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 15
   },
   {
     "location": "Iwaba",
     "area": "Area 5",
     "image": "static/types/iwaba-area-5.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 15
   },
   {
     "location": "Rice Fields",
     "area": "Area 1",
     "image": "static/types/rice-fields-area-1.png",
-    "name": "Oree"
+    "name": "Oree",
+    "rate": 60
   },
   {
     "location": "Rice Fields",
     "area": "Area 1",
     "image": "static/types/rice-fields-area-1.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 1",
     "image": "static/types/rice-fields-area-1.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 2",
     "image": "static/types/rice-fields-area-2.png",
-    "name": "Halzhi"
+    "name": "Halzhi",
+    "rate": 60
   },
   {
     "location": "Rice Fields",
     "area": "Area 2",
     "image": "static/types/rice-fields-area-2.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 2",
     "image": "static/types/rice-fields-area-2.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 3",
     "image": "static/types/rice-fields-area-3.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 35
   },
   {
     "location": "Rice Fields",
     "area": "Area 3",
     "image": "static/types/rice-fields-area-3.png",
-    "name": "Wiplump"
+    "name": "Wiplump",
+    "rate": 35
   },
   {
     "location": "Rice Fields",
     "area": "Area 3",
     "image": "static/types/rice-fields-area-3.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 3",
     "image": "static/types/rice-fields-area-3.png",
-    "name": "Pupoise"
+    "name": "Pupoise",
+    "rate": 10
   },
   {
     "location": "Rice Fields",
     "area": "Area 4",
     "image": "static/types/rice-fields-area-4.png",
-    "name": "Cycrox"
+    "name": "Cycrox",
+    "rate": 60
   },
   {
     "location": "Rice Fields",
     "area": "Area 4",
     "image": "static/types/rice-fields-area-4.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 4",
     "image": "static/types/rice-fields-area-4.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 5",
     "image": "static/types/rice-fields-area-5.png",
-    "name": "Cycrox"
+    "name": "Cycrox",
+    "rate": 60
   },
   {
     "location": "Rice Fields",
     "area": "Area 5",
     "image": "static/types/rice-fields-area-5.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 20
   },
   {
     "location": "Rice Fields",
     "area": "Area 5",
     "image": "static/types/rice-fields-area-5.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 20
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 1",
     "image": "static/types/pillars-of-highabove-area-1.png",
-    "name": "Oree"
+    "name": "Oree",
+    "rate": 50
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 1",
     "image": "static/types/pillars-of-highabove-area-1.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 25
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 1",
     "image": "static/types/pillars-of-highabove-area-1.png",
-    "name": "Gazuma"
+    "name": "Gazuma",
+    "rate": 25
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 2",
     "image": "static/types/pillars-of-highabove-area-2.png",
-    "name": "Oree"
+    "name": "Oree",
+    "rate": 50
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 2",
     "image": "static/types/pillars-of-highabove-area-2.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 25
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 2",
     "image": "static/types/pillars-of-highabove-area-2.png",
-    "name": "Gazuma"
+    "name": "Gazuma",
+    "rate": 25
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 3",
     "image": "static/types/pillars-of-highabove-area-3.png",
-    "name": "Hoglip"
+    "name": "Hoglip",
+    "rate": 60
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 3",
     "image": "static/types/pillars-of-highabove-area-3.png",
-    "name": "Galvanid"
+    "name": "Galvanid",
+    "rate": 30
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 3",
     "image": "static/types/pillars-of-highabove-area-3.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 10
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 4",
     "image": "static/types/pillars-of-highabove-area-4.png",
-    "name": "Chubee"
+    "name": "Chubee",
+    "rate": 60
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 4",
     "image": "static/types/pillars-of-highabove-area-4.png",
-    "name": "Mudrid"
+    "name": "Mudrid",
+    "rate": 35
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 4",
     "image": "static/types/pillars-of-highabove-area-4.png",
-    "name": "Innki"
+    "name": "Innki",
+    "rate": 5
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 5",
     "image": "static/types/pillars-of-highabove-area-5.png",
-    "name": "0b1"
+    "name": "0b1",
+    "rate": 70
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 5",
     "image": "static/types/pillars-of-highabove-area-5.png",
-    "name": "Gazuma"
+    "name": "Gazuma",
+    "rate": 20
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 5",
     "image": "static/types/pillars-of-highabove-area-5.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 10
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 6",
     "image": "static/types/pillars-of-highabove-area-6.png",
-    "name": "0b1"
+    "name": "0b1",
+    "rate": 70
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 6",
     "image": "static/types/pillars-of-highabove-area-6.png",
-    "name": "Gazuma"
+    "name": "Gazuma",
+    "rate": 20
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 6",
     "image": "static/types/pillars-of-highabove-area-6.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 10
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 7",
     "image": "static/types/pillars-of-highabove-area-7.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 50
   },
   {
     "location": "Pillars of Highabove",
     "area": "Area 7",
     "image": "static/types/pillars-of-highabove-area-7.png",
-    "name": "Chromeon (Digital)"
+    "name": "Chromeon (Digital)",
+    "rate": 50
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 1",
     "image": "static/types/gifted-bridges-area-1.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 95
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 1",
     "image": "static/types/gifted-bridges-area-1.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 5
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 2",
     "image": "static/types/gifted-bridges-area-2.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 40
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 2",
     "image": "static/types/gifted-bridges-area-2.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 30
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 2",
     "image": "static/types/gifted-bridges-area-2.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 30
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 3",
     "image": "static/types/gifted-bridges-area-3.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 70
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 3",
     "image": "static/types/gifted-bridges-area-3.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 30
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 4",
     "image": "static/types/gifted-bridges-area-4.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 95
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 4",
     "image": "static/types/gifted-bridges-area-4.png",
-    "name": "Hocus"
+    "name": "Hocus",
+    "rate": 5
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 5",
     "image": "static/types/gifted-bridges-area-5.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 70
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 5",
     "image": "static/types/gifted-bridges-area-5.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 30
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 6",
     "image": "static/types/gifted-bridges-area-6.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 85
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 6",
     "image": "static/types/gifted-bridges-area-6.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 15
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 7",
     "image": "static/types/gifted-bridges-area-7.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 80
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 7",
     "image": "static/types/gifted-bridges-area-7.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Gifted Bridges",
     "area": "Area 8",
     "image": "static/types/gifted-bridges-area-8.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 100
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 1",
     "image": "static/types/corrupted-badlands-area-1.png",
-    "name": "Orphyll"
+    "name": "Orphyll",
+    "rate": 45
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 1",
     "image": "static/types/corrupted-badlands-area-1.png",
-    "name": "Mushi"
+    "name": "Mushi",
+    "rate": 45
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 1",
     "image": "static/types/corrupted-badlands-area-1.png",
-    "name": "Blooze"
+    "name": "Blooze",
+    "rate": 10
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 2",
     "image": "static/types/corrupted-badlands-area-2.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 60
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 2",
     "image": "static/types/corrupted-badlands-area-2.png",
-    "name": "Orphyll"
+    "name": "Orphyll",
+    "rate": 20
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 2",
     "image": "static/types/corrupted-badlands-area-2.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 20
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 3",
     "image": "static/types/corrupted-badlands-area-3.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 60
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 3",
     "image": "static/types/corrupted-badlands-area-3.png",
-    "name": "Mushi"
+    "name": "Mushi",
+    "rate": 40
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 4",
     "image": "static/types/corrupted-badlands-area-4.png",
-    "name": "Orphyll"
+    "name": "Orphyll",
+    "rate": 75
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 4",
     "image": "static/types/corrupted-badlands-area-4.png",
-    "name": "Blooze"
+    "name": "Blooze",
+    "rate": 25
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 5",
     "image": "static/types/corrupted-badlands-area-5.png",
-    "name": "Mushi"
+    "name": "Mushi",
+    "rate": 50
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 5",
     "image": "static/types/corrupted-badlands-area-5.png",
-    "name": "Blooze"
+    "name": "Blooze",
+    "rate": 50
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 6",
     "image": "static/types/corrupted-badlands-area-6.png",
-    "name": "Zenoreth"
+    "name": "Zenoreth",
+    "rate": 95
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 6",
     "image": "static/types/corrupted-badlands-area-6.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 7",
     "image": "static/types/corrupted-badlands-area-7.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 50
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 7",
     "image": "static/types/corrupted-badlands-area-7.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 30
   },
   {
     "location": "Corrupted Badlands",
     "area": "Area 7",
     "image": "static/types/corrupted-badlands-area-7.png",
-    "name": "Koish (Toxic)"
+    "name": "Koish (Toxic)",
+    "rate": 20
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 1",
     "image": "static/types/xolot-reservoir-area-1.png",
-    "name": "Toxolotl"
+    "name": "Toxolotl",
+    "rate": 50
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 1",
     "image": "static/types/xolot-reservoir-area-1.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 50
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 2",
     "image": "static/types/xolot-reservoir-area-2.png",
-    "name": "Toxolotl"
+    "name": "Toxolotl",
+    "rate": 50
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 2",
     "image": "static/types/xolot-reservoir-area-2.png",
-    "name": "Orphyll"
+    "name": "Orphyll",
+    "rate": 50
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 3",
     "image": "static/types/xolot-reservoir-area-3.png",
-    "name": "Toxolotl"
+    "name": "Toxolotl",
+    "rate": 100
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 4",
     "image": "static/types/xolot-reservoir-area-4.png",
-    "name": "Mushi"
+    "name": "Mushi",
+    "rate": 65
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 4",
     "image": "static/types/xolot-reservoir-area-4.png",
-    "name": "Adoroboros"
+    "name": "Adoroboros",
+    "rate": 35
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 5",
     "image": "static/types/xolot-reservoir-area-5.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 70
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 5",
     "image": "static/types/xolot-reservoir-area-5.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 5",
     "image": "static/types/xolot-reservoir-area-5.png",
-    "name": "Koish (Toxic)"
+    "name": "Koish (Toxic)",
+    "rate": 10
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 6",
     "image": "static/types/xolot-reservoir-area-6.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 40
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 6",
     "image": "static/types/xolot-reservoir-area-6.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 40
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 6",
     "image": "static/types/xolot-reservoir-area-6.png",
-    "name": "Kalabyss"
+    "name": "Kalabyss",
+    "rate": 10
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 6",
     "image": "static/types/xolot-reservoir-area-6.png",
-    "name": "Koish (Toxic)"
+    "name": "Koish (Toxic)",
+    "rate": 10
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 7",
     "image": "static/types/xolot-reservoir-area-7.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 40
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 7",
     "image": "static/types/xolot-reservoir-area-7.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 40
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 7",
     "image": "static/types/xolot-reservoir-area-7.png",
-    "name": "Kalabyss"
+    "name": "Kalabyss",
+    "rate": 10
   },
   {
     "location": "Xolot Reservoir",
     "area": "Area 7",
     "image": "static/types/xolot-reservoir-area-7.png",
-    "name": "Koish (Toxic)"
+    "name": "Koish (Toxic)",
+    "rate": 10
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 1",
     "image": "static/types/mines-of-mictlan-area-1.png",
-    "name": "Bunbun"
+    "name": "Bunbun",
+    "rate": 70
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 1",
     "image": "static/types/mines-of-mictlan-area-1.png",
-    "name": "Vulor"
+    "name": "Vulor",
+    "rate": 25
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 1",
     "image": "static/types/mines-of-mictlan-area-1.png",
-    "name": "Mudrid"
+    "name": "Mudrid",
+    "rate": 5
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 2",
     "image": "static/types/mines-of-mictlan-area-2.png",
-    "name": "Lapinite"
+    "name": "Lapinite",
+    "rate": 85
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 2",
     "image": "static/types/mines-of-mictlan-area-2.png",
-    "name": "Gyalis"
+    "name": "Gyalis",
+    "rate": 10
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 2",
     "image": "static/types/mines-of-mictlan-area-2.png",
-    "name": "Crystle"
+    "name": "Crystle",
+    "rate": 5
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 3",
     "image": "static/types/mines-of-mictlan-area-3.png",
-    "name": "Lapinite"
+    "name": "Lapinite",
+    "rate": 85
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 3",
     "image": "static/types/mines-of-mictlan-area-3.png",
-    "name": "Valash"
+    "name": "Valash",
+    "rate": 10
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 3",
     "image": "static/types/mines-of-mictlan-area-3.png",
-    "name": "Azuroc"
+    "name": "Azuroc",
+    "rate": 5
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 4",
     "image": "static/types/mines-of-mictlan-area-4.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 85
   },
   {
     "location": "Mines of Mictlan",
     "area": "Area 4",
     "image": "static/types/mines-of-mictlan-area-4.png",
-    "name": "Koish (Crystal)"
+    "name": "Koish (Crystal)",
+    "rate": 15
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 1",
     "image": "static/types/gardens-of-aztlan-area-1.png",
-    "name": "Bunbun"
+    "name": "Bunbun",
+    "rate": 50
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 1",
     "image": "static/types/gardens-of-aztlan-area-1.png",
-    "name": "Lapinite"
+    "name": "Lapinite",
+    "rate": 50
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 2",
     "image": "static/types/gardens-of-aztlan-area-2.png",
-    "name": "Platypet"
+    "name": "Platypet",
+    "rate": 60
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 2",
     "image": "static/types/gardens-of-aztlan-area-2.png",
-    "name": "Koish (Crystal)"
+    "name": "Koish (Crystal)",
+    "rate": 20
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 2",
     "image": "static/types/gardens-of-aztlan-area-2.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 10
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 2",
     "image": "static/types/gardens-of-aztlan-area-2.png",
-    "name": "Kalabyss"
+    "name": "Kalabyss",
+    "rate": 10
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 3",
     "image": "static/types/gardens-of-aztlan-area-3.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 50
   },
   {
     "location": "Gardens of Aztlan",
     "area": "Area 3",
     "image": "static/types/gardens-of-aztlan-area-3.png",
-    "name": "Occlura"
+    "name": "Occlura",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 1",
     "image": "static/types/saipark-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 1",
     "image": "static/types/saipark-area-1.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 2",
     "image": "static/types/saipark-area-2.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 2",
     "image": "static/types/saipark-area-2.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 3",
     "image": "static/types/saipark-area-3.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 3",
     "image": "static/types/saipark-area-3.png",
-    "name": "Platox"
+    "name": "Platox",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 4",
     "image": "static/types/saipark-area-4.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 50
   },
   {
     "location": "Saipark",
     "area": "Area 4",
     "image": "static/types/saipark-area-4.png",
-    "name": "Platox"
+    "name": "Platox",
+    "rate": 50
   },
   {
     "location": "Sillaro River",
     "area": "Area 1",
     "image": "static/types/sillaro-river-area-1.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 50
   },
   {
     "location": "Sillaro River",
     "area": "Area 1",
     "image": "static/types/sillaro-river-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 45
   },
   {
     "location": "Sillaro River",
     "area": "Area 1",
     "image": "static/types/sillaro-river-area-1.png",
-    "name": "Wiplump"
+    "name": "Wiplump",
+    "rate": 5
   },
   {
     "location": "Sillaro River",
     "area": "Area 2",
     "image": "static/types/sillaro-river-area-2.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 30
   },
   {
     "location": "Sillaro River",
     "area": "Area 2",
     "image": "static/types/sillaro-river-area-2.png",
-    "name": "Umishi"
+    "name": "Umishi",
+    "rate": 25
   },
   {
     "location": "Sillaro River",
     "area": "Area 2",
     "image": "static/types/sillaro-river-area-2.png",
-    "name": "Pewki"
+    "name": "Pewki",
+    "rate": 25
   },
   {
     "location": "Sillaro River",
     "area": "Area 2",
     "image": "static/types/sillaro-river-area-2.png",
-    "name": "Koish (Water)"
+    "name": "Koish (Water)",
+    "rate": 20
   },
   {
     "location": "Sillaro River",
     "area": "Area 3",
     "image": "static/types/sillaro-river-area-3.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 100
   },
   {
     "location": "Sillaro River",
     "area": "Area 4",
     "image": "static/types/sillaro-river-area-4.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 90
   },
   {
     "location": "Sillaro River",
     "area": "Area 4",
     "image": "static/types/sillaro-river-area-4.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 10
   },
   {
     "location": "Sillaro River",
     "area": "Area 5",
     "image": "static/types/sillaro-river-area-5.png",
-    "name": "Wiplump"
+    "name": "Wiplump",
+    "rate": 85
   },
   {
     "location": "Sillaro River",
     "area": "Area 5",
     "image": "static/types/sillaro-river-area-5.png",
-    "name": "Platox"
+    "name": "Platox",
+    "rate": 15
   },
   {
     "location": "Sillaro River",
     "area": "Area 6",
     "image": "static/types/sillaro-river-area-6.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 100
   },
   {
     "location": "Sillaro River",
     "area": "Area 7",
     "image": "static/types/sillaro-river-area-7.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 30
   },
   {
     "location": "Sillaro River",
     "area": "Area 7",
     "image": "static/types/sillaro-river-area-7.png",
-    "name": "Umishi"
+    "name": "Umishi",
+    "rate": 25
   },
   {
     "location": "Sillaro River",
     "area": "Area 7",
     "image": "static/types/sillaro-river-area-7.png",
-    "name": "Pewki"
+    "name": "Pewki",
+    "rate": 25
   },
   {
     "location": "Sillaro River",
     "area": "Area 7",
     "image": "static/types/sillaro-river-area-7.png",
-    "name": "Koish (Water)"
+    "name": "Koish (Water)",
+    "rate": 20
   },
   {
     "location": "Sillaro River",
     "area": "Area 8",
     "image": "static/types/sillaro-river-area-8.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 100
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Platox"
+    "name": "Platox",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Piraniant"
+    "name": "Piraniant",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Ukama"
+    "name": "Ukama",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Garyo"
+    "name": "Garyo",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Kalabyss"
+    "name": "Kalabyss",
+    "rate": 10
   },
   {
     "location": "Sea-Queen's Aquarium",
     "area": "Area 1",
     "image": "static/types/seaqueens-aquarium-area-1.png",
-    "name": "Koish"
+    "name": "Koish",
+    "rate": 10
   },
   {
     "location": "Dabmis' Rest",
     "area": "Area 1",
     "image": "static/types/dabmis-rest-area-1.png",
-    "name": "Platimous"
+    "name": "Platimous",
+    "rate": 95
   },
   {
     "location": "Dabmis' Rest",
     "area": "Area 1",
     "image": "static/types/dabmis-rest-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Prasine Coast",
     "area": "Area 1",
     "image": "static/types/prasine-coast-area-1.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 35
   },
   {
     "location": "Prasine Coast",
     "area": "Area 1",
     "image": "static/types/prasine-coast-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 35
   },
   {
     "location": "Prasine Coast",
     "area": "Area 1",
     "image": "static/types/prasine-coast-area-1.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Prasine Coast",
     "area": "Area 2",
     "image": "static/types/prasine-coast-area-2.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 70
   },
   {
     "location": "Prasine Coast",
     "area": "Area 2",
     "image": "static/types/prasine-coast-area-2.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Prasine Coast",
     "area": "Area 3",
     "image": "static/types/prasine-coast-area-3.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 40
   },
   {
     "location": "Prasine Coast",
     "area": "Area 3",
     "image": "static/types/prasine-coast-area-3.png",
-    "name": "Swali"
+    "name": "Swali",
+    "rate": 40
   },
   {
     "location": "Prasine Coast",
     "area": "Area 3",
     "image": "static/types/prasine-coast-area-3.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Prasine Coast",
     "area": "Area 4",
     "image": "static/types/prasine-coast-area-4.png",
-    "name": "Taifu"
+    "name": "Taifu",
+    "rate": 85
   },
   {
     "location": "Prasine Coast",
     "area": "Area 4",
     "image": "static/types/prasine-coast-area-4.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 15
   },
   {
     "location": "Prasine Coast",
     "area": "Area 5",
     "image": "static/types/prasine-coast-area-5.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 40
   },
   {
     "location": "Prasine Coast",
     "area": "Area 5",
     "image": "static/types/prasine-coast-area-5.png",
-    "name": "Swali"
+    "name": "Swali",
+    "rate": 40
   },
   {
     "location": "Prasine Coast",
     "area": "Area 5",
     "image": "static/types/prasine-coast-area-5.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 20
   },
   {
     "location": "Prasine Coast",
     "area": "Area 6",
     "image": "static/types/prasine-coast-area-6.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 90
   },
   {
     "location": "Prasine Coast",
     "area": "Area 6",
     "image": "static/types/prasine-coast-area-6.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 5
   },
   {
     "location": "Prasine Coast",
     "area": "Area 6",
     "image": "static/types/prasine-coast-area-6.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 5
   },
   {
     "location": "Prasine Coast",
     "area": "Area 7",
     "image": "static/types/prasine-coast-area-7.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 50
   },
   {
     "location": "Prasine Coast",
     "area": "Area 7",
     "image": "static/types/prasine-coast-area-7.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Prasine Coast",
     "area": "Area 8",
     "image": "static/types/prasine-coast-area-8.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 50
   },
   {
     "location": "Prasine Coast",
     "area": "Area 8",
     "image": "static/types/prasine-coast-area-8.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Prasine Coast",
     "area": "Area 9",
     "image": "static/types/prasine-coast-area-9.png",
-    "name": "Pewki"
+    "name": "Pewki",
+    "rate": 100
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 1",
     "image": "static/types/thalassian-cliffs-area-1.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 70
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 1",
     "image": "static/types/thalassian-cliffs-area-1.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 30
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 2",
     "image": "static/types/thalassian-cliffs-area-2.png",
-    "name": "Paharo"
+    "name": "Paharo",
+    "rate": 90
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 2",
     "image": "static/types/thalassian-cliffs-area-2.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 10
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 3",
     "image": "static/types/thalassian-cliffs-area-3.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 70
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 3",
     "image": "static/types/thalassian-cliffs-area-3.png",
-    "name": "Swali"
+    "name": "Swali",
+    "rate": 30
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 4",
     "image": "static/types/thalassian-cliffs-area-4.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 100
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 5",
     "image": "static/types/thalassian-cliffs-area-5.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 95
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 5",
     "image": "static/types/thalassian-cliffs-area-5.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 5
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 6",
     "image": "static/types/thalassian-cliffs-area-6.png",
-    "name": "Umishi"
+    "name": "Umishi",
+    "rate": 90
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 6",
     "image": "static/types/thalassian-cliffs-area-6.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 10
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 7",
     "image": "static/types/thalassian-cliffs-area-7.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 100
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 8",
     "image": "static/types/thalassian-cliffs-area-8.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 100
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 9",
     "image": "static/types/thalassian-cliffs-area-9.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 80
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 9",
     "image": "static/types/thalassian-cliffs-area-9.png",
-    "name": "Swali"
+    "name": "Swali",
+    "rate": 20
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 10",
     "image": "static/types/thalassian-cliffs-area-10.png",
-    "name": "Pigepic"
+    "name": "Pigepic",
+    "rate": 50
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 10",
     "image": "static/types/thalassian-cliffs-area-10.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 50
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 11",
     "image": "static/types/thalassian-cliffs-area-11.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 80
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 11",
     "image": "static/types/thalassian-cliffs-area-11.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 20
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 12",
     "image": "static/types/thalassian-cliffs-area-12.png",
-    "name": "Umishi"
+    "name": "Umishi",
+    "rate": 35
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 12",
     "image": "static/types/thalassian-cliffs-area-12.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 35
   },
   {
     "location": "Thalassian Cliffs",
     "area": "Area 12",
     "image": "static/types/thalassian-cliffs-area-12.png",
-    "name": "Koish (Wind)"
+    "name": "Koish (Wind)",
+    "rate": 30
   },
   {
     "location": "The Canopath",
     "area": "Area 1",
     "image": "static/types/the-canopath-area-1.png",
-    "name": "Hidody"
+    "name": "Hidody",
+    "rate": 40
   },
   {
     "location": "The Canopath",
     "area": "Area 1",
     "image": "static/types/the-canopath-area-1.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 40
   },
   {
     "location": "The Canopath",
     "area": "Area 1",
     "image": "static/types/the-canopath-area-1.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 20
   },
   {
     "location": "The Canopath",
     "area": "Area 2",
     "image": "static/types/the-canopath-area-2.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 75
   },
   {
     "location": "The Canopath",
     "area": "Area 2",
     "image": "static/types/the-canopath-area-2.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 20
   },
   {
     "location": "The Canopath",
     "area": "Area 2",
     "image": "static/types/the-canopath-area-2.png",
-    "name": "Saku"
+    "name": "Saku",
+    "rate": 5
   },
   {
     "location": "The Canopath",
     "area": "Area 3",
     "image": "static/types/the-canopath-area-3.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 95
   },
   {
     "location": "The Canopath",
     "area": "Area 3",
     "image": "static/types/the-canopath-area-3.png",
-    "name": "Deendre"
+    "name": "Deendre",
+    "rate": 5
   },
   {
     "location": "The Canopath",
     "area": "Area 4",
     "image": "static/types/the-canopath-area-4.png",
-    "name": "Hidody"
+    "name": "Hidody",
+    "rate": 40
   },
   {
     "location": "The Canopath",
     "area": "Area 4",
     "image": "static/types/the-canopath-area-4.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 40
   },
   {
     "location": "The Canopath",
     "area": "Area 4",
     "image": "static/types/the-canopath-area-4.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 20
   },
   {
     "location": "The Flywalk",
     "area": "Area 1",
     "image": "static/types/the-flywalk-area-1.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 70
   },
   {
     "location": "The Flywalk",
     "area": "Area 1",
     "image": "static/types/the-flywalk-area-1.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 30
   },
   {
     "location": "The Flywalk",
     "area": "Area 2",
     "image": "static/types/the-flywalk-area-2.png",
-    "name": "Pewki"
+    "name": "Pewki",
+    "rate": 60
   },
   {
     "location": "The Flywalk",
     "area": "Area 2",
     "image": "static/types/the-flywalk-area-2.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 25
   },
   {
     "location": "The Flywalk",
     "area": "Area 2",
     "image": "static/types/the-flywalk-area-2.png",
-    "name": "Koish (Nature)"
+    "name": "Koish (Nature)",
+    "rate": 15
   },
   {
     "location": "The Flywalk",
     "area": "Area 3",
     "image": "static/types/the-flywalk-area-3.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 95
   },
   {
     "location": "The Flywalk",
     "area": "Area 3",
     "image": "static/types/the-flywalk-area-3.png",
-    "name": "Deendre"
+    "name": "Deendre",
+    "rate": 5
   },
   {
     "location": "The Flywalk",
     "area": "Area 4",
     "image": "static/types/the-flywalk-area-4.png",
-    "name": "Kaku"
+    "name": "Kaku",
+    "rate": 50
   },
   {
     "location": "The Flywalk",
     "area": "Area 4",
     "image": "static/types/the-flywalk-area-4.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 30
   },
   {
     "location": "The Flywalk",
     "area": "Area 4",
     "image": "static/types/the-flywalk-area-4.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 20
   },
   {
     "location": "The Flywalk",
     "area": "Area 5",
     "image": "static/types/the-flywalk-area-5.png",
-    "name": "Deendre"
+    "name": "Deendre",
+    "rate": 50
   },
   {
     "location": "The Flywalk",
     "area": "Area 5",
     "image": "static/types/the-flywalk-area-5.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 50
   },
   {
     "location": "The Hangroad",
     "area": "Area 1",
     "image": "static/types/the-hangroad-area-1.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 80
   },
   {
     "location": "The Hangroad",
     "area": "Area 1",
     "image": "static/types/the-hangroad-area-1.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 20
   },
   {
     "location": "The Hangroad",
     "area": "Area 2",
     "image": "static/types/the-hangroad-area-2.png",
-    "name": "Pewki"
+    "name": "Pewki",
+    "rate": 60
   },
   {
     "location": "The Hangroad",
     "area": "Area 2",
     "image": "static/types/the-hangroad-area-2.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 25
   },
   {
     "location": "The Hangroad",
     "area": "Area 2",
     "image": "static/types/the-hangroad-area-2.png",
-    "name": "Koish (Fire)"
+    "name": "Koish (Fire)",
+    "rate": 15
   },
   {
     "location": "The Hangroad",
     "area": "Area 3",
     "image": "static/types/the-hangroad-area-3.png",
-    "name": "Banapi"
+    "name": "Banapi",
+    "rate": 65
   },
   {
     "location": "The Hangroad",
     "area": "Area 3",
     "image": "static/types/the-hangroad-area-3.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 30
   },
   {
     "location": "The Hangroad",
     "area": "Area 3",
     "image": "static/types/the-hangroad-area-3.png",
-    "name": "Deendre"
+    "name": "Deendre",
+    "rate": 5
   },
   {
     "location": "The Glassyway",
     "area": "Area 1",
     "image": "static/types/the-glassyway-area-1.png",
-    "name": "Loali"
+    "name": "Loali",
+    "rate": 80
   },
   {
     "location": "The Glassyway",
     "area": "Area 1",
     "image": "static/types/the-glassyway-area-1.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 20
   },
   {
     "location": "The Glassyway",
     "area": "Area 2",
     "image": "static/types/the-glassyway-area-2.png",
-    "name": "Hidody"
+    "name": "Hidody",
+    "rate": 50
   },
   {
     "location": "The Glassyway",
     "area": "Area 2",
     "image": "static/types/the-glassyway-area-2.png",
-    "name": "Saku"
+    "name": "Saku",
+    "rate": 25
   },
   {
     "location": "The Glassyway",
     "area": "Area 2",
     "image": "static/types/the-glassyway-area-2.png",
-    "name": "Taifu"
+    "name": "Taifu",
+    "rate": 25
   },
   {
     "location": "The Glassyway",
     "area": "Area 3",
     "image": "static/types/the-glassyway-area-3.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 40
   },
   {
     "location": "The Glassyway",
     "area": "Area 3",
     "image": "static/types/the-glassyway-area-3.png",
-    "name": "Raiber"
+    "name": "Raiber",
+    "rate": 30
   },
   {
     "location": "The Glassyway",
     "area": "Area 3",
     "image": "static/types/the-glassyway-area-3.png",
-    "name": "Banapi"
+    "name": "Banapi",
+    "rate": 30
   },
   {
     "location": "Windward Fort",
     "area": "Area 1",
     "image": "static/types/windward-fort-area-1.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 70
   },
   {
     "location": "Windward Fort",
     "area": "Area 1",
     "image": "static/types/windward-fort-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Windward Fort",
     "area": "Area 1",
     "image": "static/types/windward-fort-area-1.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 10
   },
   {
     "location": "Windward Fort",
     "area": "Area 2",
     "image": "static/types/windward-fort-area-2.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 50
   },
   {
     "location": "Windward Fort",
     "area": "Area 2",
     "image": "static/types/windward-fort-area-2.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Windward Fort",
     "area": "Area 3",
     "image": "static/types/windward-fort-area-3.png",
-    "name": "Fomu"
+    "name": "Fomu",
+    "rate": 100
   },
   {
     "location": "Windward Fort",
     "area": "Area 4",
     "image": "static/types/windward-fort-area-4.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 80
   },
   {
     "location": "Windward Fort",
     "area": "Area 4",
     "image": "static/types/windward-fort-area-4.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 20
   },
   {
     "location": "Windward Fort",
     "area": "Area 5",
     "image": "static/types/windward-fort-area-5.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 70
   },
   {
     "location": "Windward Fort",
     "area": "Area 5",
     "image": "static/types/windward-fort-area-5.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 30
   },
   {
     "location": "Windward Fort",
     "area": "Area 6",
     "image": "static/types/windward-fort-area-6.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 70
   },
   {
     "location": "Windward Fort",
     "area": "Area 6",
     "image": "static/types/windward-fort-area-6.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 30
   },
   {
     "location": "Windward Fort",
     "area": "Area 7",
     "image": "static/types/windward-fort-area-7.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 80
   },
   {
     "location": "Windward Fort",
     "area": "Area 7",
     "image": "static/types/windward-fort-area-7.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 20
   },
   {
     "location": "Windward Fort",
     "area": "Area 8",
     "image": "static/types/windward-fort-area-8.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 70
   },
   {
     "location": "Windward Fort",
     "area": "Area 8",
     "image": "static/types/windward-fort-area-8.png",
-    "name": "Scarawatt"
+    "name": "Scarawatt",
+    "rate": 30
   },
   {
     "location": "Windward Fort",
     "area": "Area 9",
     "image": "static/types/windward-fort-area-9.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 50
   },
   {
     "location": "Windward Fort",
     "area": "Area 9",
     "image": "static/types/windward-fort-area-9.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 50
   },
   {
     "location": "Windward Fort",
     "area": "Area 10",
     "image": "static/types/windward-fort-area-10.png",
-    "name": "Ganki"
+    "name": "Ganki",
+    "rate": 90
   },
   {
     "location": "Windward Fort",
     "area": "Area 10",
     "image": "static/types/windward-fort-area-10.png",
-    "name": "Barnshe"
+    "name": "Barnshe",
+    "rate": 10
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 1",
     "image": "static/types/aguamarina-caves-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 40
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 1",
     "image": "static/types/aguamarina-caves-area-1.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 1",
     "image": "static/types/aguamarina-caves-area-1.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 2",
     "image": "static/types/aguamarina-caves-area-2.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 95
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 2",
     "image": "static/types/aguamarina-caves-area-2.png",
-    "name": "Oceara"
+    "name": "Oceara",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 3",
     "image": "static/types/aguamarina-caves-area-3.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 65
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 3",
     "image": "static/types/aguamarina-caves-area-3.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 3",
     "image": "static/types/aguamarina-caves-area-3.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 4",
     "image": "static/types/aguamarina-caves-area-4.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 65
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 4",
     "image": "static/types/aguamarina-caves-area-4.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 4",
     "image": "static/types/aguamarina-caves-area-4.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 5",
     "image": "static/types/aguamarina-caves-area-5.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 65
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 5",
     "image": "static/types/aguamarina-caves-area-5.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 35
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 6",
     "image": "static/types/aguamarina-caves-area-6.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 65
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 6",
     "image": "static/types/aguamarina-caves-area-6.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 35
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 7",
     "image": "static/types/aguamarina-caves-area-7.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 100
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 8",
     "image": "static/types/aguamarina-caves-area-8.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 55
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 8",
     "image": "static/types/aguamarina-caves-area-8.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 8",
     "image": "static/types/aguamarina-caves-area-8.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 8",
     "image": "static/types/aguamarina-caves-area-8.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 9",
     "image": "static/types/aguamarina-caves-area-9.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 55
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 9",
     "image": "static/types/aguamarina-caves-area-9.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 9",
     "image": "static/types/aguamarina-caves-area-9.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 9",
     "image": "static/types/aguamarina-caves-area-9.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 10",
     "image": "static/types/aguamarina-caves-area-10.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 55
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 10",
     "image": "static/types/aguamarina-caves-area-10.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 10",
     "image": "static/types/aguamarina-caves-area-10.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 10",
     "image": "static/types/aguamarina-caves-area-10.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 11",
     "image": "static/types/aguamarina-caves-area-11.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 65
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 11",
     "image": "static/types/aguamarina-caves-area-11.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 11",
     "image": "static/types/aguamarina-caves-area-11.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 12",
     "image": "static/types/aguamarina-caves-area-12.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 40
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 12",
     "image": "static/types/aguamarina-caves-area-12.png",
-    "name": "Skail"
+    "name": "Skail",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 12",
     "image": "static/types/aguamarina-caves-area-12.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 30
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 13",
     "image": "static/types/aguamarina-caves-area-13.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 95
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 13",
     "image": "static/types/aguamarina-caves-area-13.png",
-    "name": "Oceara"
+    "name": "Oceara",
+    "rate": 5
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 14",
     "image": "static/types/aguamarina-caves-area-14.png",
-    "name": "Platimous"
+    "name": "Platimous",
+    "rate": 95
   },
   {
     "location": "Aguamarina Caves",
     "area": "Area 14",
     "image": "static/types/aguamarina-caves-area-14.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Jino Gap",
     "area": "Area 1",
     "image": "static/types/jino-gap-area-1.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 1",
     "image": "static/types/jino-gap-area-1.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 1",
     "image": "static/types/jino-gap-area-1.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 20
   },
   {
     "location": "Jino Gap",
     "area": "Area 2",
     "image": "static/types/jino-gap-area-2.png",
-    "name": "Osuchi"
+    "name": "Osuchi",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 2",
     "image": "static/types/jino-gap-area-2.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 2",
     "image": "static/types/jino-gap-area-2.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 20
   },
   {
     "location": "Jino Gap",
     "area": "Area 3",
     "image": "static/types/jino-gap-area-3.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 3",
     "image": "static/types/jino-gap-area-3.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 40
   },
   {
     "location": "Jino Gap",
     "area": "Area 3",
     "image": "static/types/jino-gap-area-3.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 20
   },
   {
     "location": "Jino Gap",
     "area": "Area 4",
     "image": "static/types/jino-gap-area-4.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 80
   },
   {
     "location": "Jino Gap",
     "area": "Area 4",
     "image": "static/types/jino-gap-area-4.png",
-    "name": "Vulffy"
+    "name": "Vulffy",
+    "rate": 10
   },
   {
     "location": "Jino Gap",
     "area": "Area 4",
     "image": "static/types/jino-gap-area-4.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 10
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 1",
     "image": "static/types/kilima-peaks-area-1.png",
-    "name": "Momo"
+    "name": "Momo",
+    "rate": 50
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 1",
     "image": "static/types/kilima-peaks-area-1.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 50
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
     "image": "static/types/kilima-peaks-area-2.png",
-    "name": "Momo"
+    "name": "Momo",
+    "rate": 20
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
     "image": "static/types/kilima-peaks-area-2.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 20
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
     "image": "static/types/kilima-peaks-area-2.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 20
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
     "image": "static/types/kilima-peaks-area-2.png",
-    "name": "Osukan"
+    "name": "Osukan",
+    "rate": 20
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 2",
     "image": "static/types/kilima-peaks-area-2.png",
-    "name": "Tateru"
+    "name": "Tateru",
+    "rate": 20
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 3",
     "image": "static/types/kilima-peaks-area-3.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 35
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 3",
     "image": "static/types/kilima-peaks-area-3.png",
-    "name": "Osukan"
+    "name": "Osukan",
+    "rate": 35
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 3",
     "image": "static/types/kilima-peaks-area-3.png",
-    "name": "Momo"
+    "name": "Momo",
+    "rate": 30
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 4",
     "image": "static/types/kilima-peaks-area-4.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 70
   },
   {
     "location": "Kilima Peaks",
     "area": "Area 4",
     "image": "static/types/kilima-peaks-area-4.png",
-    "name": "Volarend"
+    "name": "Volarend",
+    "rate": 30
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 1",
     "image": "static/types/sewers-of-properton-area-1.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 60
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 1",
     "image": "static/types/sewers-of-properton-area-1.png",
-    "name": "Venx"
+    "name": "Venx",
+    "rate": 20
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 1",
     "image": "static/types/sewers-of-properton-area-1.png",
-    "name": "Mushook"
+    "name": "Mushook",
+    "rate": 10
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 1",
     "image": "static/types/sewers-of-properton-area-1.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 10
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 2",
     "image": "static/types/sewers-of-properton-area-2.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 65
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 2",
     "image": "static/types/sewers-of-properton-area-2.png",
-    "name": "Mushook"
+    "name": "Mushook",
+    "rate": 15
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 2",
     "image": "static/types/sewers-of-properton-area-2.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 15
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 2",
     "image": "static/types/sewers-of-properton-area-2.png",
-    "name": "Gharunder"
+    "name": "Gharunder",
+    "rate": 5
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 3",
     "image": "static/types/sewers-of-properton-area-3.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 65
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 3",
     "image": "static/types/sewers-of-properton-area-3.png",
-    "name": "Mushook"
+    "name": "Mushook",
+    "rate": 20
   },
   {
     "location": "Sewers of Properton",
     "area": "Area 3",
     "image": "static/types/sewers-of-properton-area-3.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 15
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 1",
     "image": "static/types/mac-aeds-crags-area-1.png",
-    "name": "Minttle"
+    "name": "Minttle",
+    "rate": 75
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 1",
     "image": "static/types/mac-aeds-crags-area-1.png",
-    "name": "Mosu"
+    "name": "Mosu",
+    "rate": 25
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 2",
     "image": "static/types/mac-aeds-crags-area-2.png",
-    "name": "Mitty"
+    "name": "Mitty",
+    "rate": 100
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 3",
     "image": "static/types/mac-aeds-crags-area-3.png",
-    "name": "Mitty"
+    "name": "Mitty",
+    "rate": 80
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 3",
     "image": "static/types/mac-aeds-crags-area-3.png",
-    "name": "Barnshe"
+    "name": "Barnshe",
+    "rate": 10
   },
   {
     "location": "Mac Aed's Crags",
     "area": "Area 3",
     "image": "static/types/mac-aeds-crags-area-3.png",
-    "name": "Towly"
+    "name": "Towly",
+    "rate": 10
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 1",
     "image": "static/types/greenglen-forest-area-1.png",
-    "name": "Broccoblin"
+    "name": "Broccoblin",
+    "rate": 50
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 1",
     "image": "static/types/greenglen-forest-area-1.png",
-    "name": "Mawtle"
+    "name": "Mawtle",
+    "rate": 30
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 1",
     "image": "static/types/greenglen-forest-area-1.png",
-    "name": "Momo"
+    "name": "Momo",
+    "rate": 20
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 2",
     "image": "static/types/greenglen-forest-area-2.png",
-    "name": "Gorong"
+    "name": "Gorong",
+    "rate": 65
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 2",
     "image": "static/types/greenglen-forest-area-2.png",
-    "name": "Broccoblin"
+    "name": "Broccoblin",
+    "rate": 30
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 2",
     "image": "static/types/greenglen-forest-area-2.png",
-    "name": "Smazee"
+    "name": "Smazee",
+    "rate": 5
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 3",
     "image": "static/types/greenglen-forest-area-3.png",
-    "name": "Gorong"
+    "name": "Gorong",
+    "rate": 80
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 3",
     "image": "static/types/greenglen-forest-area-3.png",
-    "name": "Mawtle"
+    "name": "Mawtle",
+    "rate": 10
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 3",
     "image": "static/types/greenglen-forest-area-3.png",
-    "name": "Mosu"
+    "name": "Mosu",
+    "rate": 10
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 4",
     "image": "static/types/greenglen-forest-area-4.png",
-    "name": "Broccoblin"
+    "name": "Broccoblin",
+    "rate": 70
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 4",
     "image": "static/types/greenglen-forest-area-4.png",
-    "name": "Chimurian"
+    "name": "Chimurian",
+    "rate": 30
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 5",
     "image": "static/types/greenglen-forest-area-5.png",
-    "name": "Mosu"
+    "name": "Mosu",
+    "rate": 80
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 5",
     "image": "static/types/greenglen-forest-area-5.png",
-    "name": "Mawtle"
+    "name": "Mawtle",
+    "rate": 20
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 6",
     "image": "static/types/greenglen-forest-area-6.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 60
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 6",
     "image": "static/types/greenglen-forest-area-6.png",
-    "name": "Koish (Melee)"
+    "name": "Koish (Melee)",
+    "rate": 20
   },
   {
     "location": "Greenglen Forest",
     "area": "Area 6",
     "image": "static/types/greenglen-forest-area-6.png",
-    "name": "Koish (Mental)"
+    "name": "Koish (Mental)",
+    "rate": 20
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
     "image": "static/types/kwea-uplands-area-1.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 80
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
     "image": "static/types/kwea-uplands-area-1.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 20
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
     "image": "static/types/kwea-uplands-area-2.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 70
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
     "image": "static/types/kwea-uplands-area-2.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 30
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
     "image": "static/types/kwea-uplands-area-3.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 80
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
     "image": "static/types/kwea-uplands-area-3.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 20
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 1",
     "image": "static/types/kakama-cenote-area-1.png",
-    "name": "Bunbun"
+    "name": "Bunbun",
+    "rate": 75
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 1",
     "image": "static/types/kakama-cenote-area-1.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 20
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 1",
     "image": "static/types/kakama-cenote-area-1.png",
-    "name": "Shuine"
+    "name": "Shuine",
+    "rate": 5
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 2",
     "image": "static/types/kakama-cenote-area-2.png",
-    "name": "Ukama"
+    "name": "Ukama",
+    "rate": 55
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 2",
     "image": "static/types/kakama-cenote-area-2.png",
-    "name": "Wiplump"
+    "name": "Wiplump",
+    "rate": 40
   },
   {
     "location": "Kakama Cenote",
     "area": "Area 2",
     "image": "static/types/kakama-cenote-area-2.png",
-    "name": "Shuine"
+    "name": "Shuine",
+    "rate": 5
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
     "image": "static/types/barafu-glacier-area-1.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 65
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
     "image": "static/types/barafu-glacier-area-1.png",
-    "name": "Mudrid"
+    "name": "Mudrid",
+    "rate": 15
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
     "image": "static/types/barafu-glacier-area-1.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 10
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
     "image": "static/types/barafu-glacier-area-1.png",
-    "name": "Momo"
+    "name": "Momo",
+    "rate": 5
   },
   {
     "location": "Barafu Glacier",
     "area": "Area 1",
     "image": "static/types/barafu-glacier-area-1.png",
-    "name": "Yowlar"
+    "name": "Yowlar",
+    "rate": 5
   },
   {
     "location": "Giant Banyan",
     "area": "Area 1",
     "image": "static/types/giant-banyan-area-1.png",
-    "name": "Spriole"
+    "name": "Spriole",
+    "rate": 55
   },
   {
     "location": "Giant Banyan",
     "area": "Area 1",
     "image": "static/types/giant-banyan-area-1.png",
-    "name": "Hidody"
+    "name": "Hidody",
+    "rate": 40
   },
   {
     "location": "Giant Banyan",
     "area": "Area 1",
     "image": "static/types/giant-banyan-area-1.png",
-    "name": "Kinu"
+    "name": "Kinu",
+    "rate": 5
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
     "image": "static/types/the-highbelow-area-1.png",
-    "name": "Garyo"
+    "name": "Garyo",
+    "rate": 20
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
     "image": "static/types/the-highbelow-area-1.png",
-    "name": "Wiplump"
+    "name": "Wiplump",
+    "rate": 20
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
     "image": "static/types/the-highbelow-area-1.png",
-    "name": "Cycrox"
+    "name": "Cycrox",
+    "rate": 20
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
     "image": "static/types/the-highbelow-area-1.png",
-    "name": "Grumper"
+    "name": "Grumper",
+    "rate": 20
   },
   {
     "location": "The Highbelow?",
     "area": "Area 1",
     "image": "static/types/the-highbelow-area-1.png",
-    "name": "Sparzy"
+    "name": "Sparzy",
+    "rate": 20
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 1",
     "image": "static/types/mawingu-islets-area-1.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 50
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 1",
     "image": "static/types/mawingu-islets-area-1.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 50
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 2",
     "image": "static/types/mawingu-islets-area-2.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 50
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 2",
     "image": "static/types/mawingu-islets-area-2.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 50
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 3",
     "image": "static/types/mawingu-islets-area-3.png",
-    "name": "Osuchi"
+    "name": "Osuchi",
+    "rate": 75
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 3",
     "image": "static/types/mawingu-islets-area-3.png",
-    "name": "Volarend"
+    "name": "Volarend",
+    "rate": 25
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 4",
     "image": "static/types/mawingu-islets-area-4.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 50
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 4",
     "image": "static/types/mawingu-islets-area-4.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 30
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 4",
     "image": "static/types/mawingu-islets-area-4.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 20
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 5",
     "image": "static/types/mawingu-islets-area-5.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 40
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 5",
     "image": "static/types/mawingu-islets-area-5.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 40
   },
   {
     "location": "Mawingu Islets",
     "area": "Area 5",
     "image": "static/types/mawingu-islets-area-5.png",
-    "name": "Koish (Earth)"
+    "name": "Koish (Earth)",
+    "rate": 20
   },
   {
     "location": "Chini Grotto",
     "area": "Area 1",
     "image": "static/types/chini-grotto-area-1.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 60
   },
   {
     "location": "Chini Grotto",
     "area": "Area 1",
     "image": "static/types/chini-grotto-area-1.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 20
   },
   {
     "location": "Chini Grotto",
     "area": "Area 1",
     "image": "static/types/chini-grotto-area-1.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 15
   },
   {
     "location": "Chini Grotto",
     "area": "Area 1",
     "image": "static/types/chini-grotto-area-1.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 5
   },
   {
     "location": "Chini Grotto",
     "area": "Area 2",
     "image": "static/types/chini-grotto-area-2.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 60
   },
   {
     "location": "Chini Grotto",
     "area": "Area 2",
     "image": "static/types/chini-grotto-area-2.png",
-    "name": "Skunch"
+    "name": "Skunch",
+    "rate": 20
   },
   {
     "location": "Chini Grotto",
     "area": "Area 2",
     "image": "static/types/chini-grotto-area-2.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 20
   },
   {
     "location": "Chini Grotto",
     "area": "Area 3",
     "image": "static/types/chini-grotto-area-3.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 90
   },
   {
     "location": "Chini Grotto",
     "area": "Area 3",
     "image": "static/types/chini-grotto-area-3.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 10
   },
   {
     "location": "Chini Grotto",
     "area": "Area 4",
     "image": "static/types/chini-grotto-area-4.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 70
   },
   {
     "location": "Chini Grotto",
     "area": "Area 4",
     "image": "static/types/chini-grotto-area-4.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 30
   },
   {
     "location": "Chini Grotto",
     "area": "Area 5",
     "image": "static/types/chini-grotto-area-5.png",
-    "name": "Osukai"
+    "name": "Osukai",
+    "rate": 95
   },
   {
     "location": "Chini Grotto",
     "area": "Area 5",
     "image": "static/types/chini-grotto-area-5.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Matope Road",
     "area": "Area 1",
     "image": "static/types/matope-road-area-1.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 50
   },
   {
     "location": "Matope Road",
     "area": "Area 1",
     "image": "static/types/matope-road-area-1.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 25
   },
   {
     "location": "Matope Road",
     "area": "Area 1",
     "image": "static/types/matope-road-area-1.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 25
   },
   {
     "location": "Matope Road",
     "area": "Area 2",
     "image": "static/types/matope-road-area-2.png",
-    "name": "Osuchi"
+    "name": "Osuchi",
+    "rate": 50
   },
   {
     "location": "Matope Road",
     "area": "Area 2",
     "image": "static/types/matope-road-area-2.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 30
   },
   {
     "location": "Matope Road",
     "area": "Area 2",
     "image": "static/types/matope-road-area-2.png",
-    "name": "Gazuma"
+    "name": "Gazuma",
+    "rate": 20
   },
   {
     "location": "Tasa Desert",
     "area": "Area 1",
     "image": "static/types/tasa-desert-area-1.png",
-    "name": "Akranox"
+    "name": "Akranox",
+    "rate": 75
   },
   {
     "location": "Tasa Desert",
     "area": "Area 1",
     "image": "static/types/tasa-desert-area-1.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 25
   },
   {
     "location": "Tasa Desert",
     "area": "Area 2",
     "image": "static/types/tasa-desert-area-2.png",
-    "name": "Vulffy"
+    "name": "Vulffy",
+    "rate": 75
   },
   {
     "location": "Tasa Desert",
     "area": "Area 2",
     "image": "static/types/tasa-desert-area-2.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 25
   },
   {
     "location": "Tasa Desert",
     "area": "Area 3",
     "image": "static/types/tasa-desert-area-3.png",
-    "name": "Akranox"
+    "name": "Akranox",
+    "rate": 40
   },
   {
     "location": "Tasa Desert",
     "area": "Area 3",
     "image": "static/types/tasa-desert-area-3.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 40
   },
   {
     "location": "Tasa Desert",
     "area": "Area 3",
     "image": "static/types/tasa-desert-area-3.png",
-    "name": "Vulffy"
+    "name": "Vulffy",
+    "rate": 20
   },
   {
     "location": "Tasa Desert",
     "area": "Area 4",
     "image": "static/types/tasa-desert-area-4.png",
-    "name": "Vulffy"
+    "name": "Vulffy",
+    "rate": 75
   },
   {
     "location": "Tasa Desert",
     "area": "Area 4",
     "image": "static/types/tasa-desert-area-4.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 25
   },
   {
     "location": "Tasa Desert",
     "area": "Area 5",
     "image": "static/types/tasa-desert-area-5.png",
-    "name": "Akranox"
+    "name": "Akranox",
+    "rate": 40
   },
   {
     "location": "Tasa Desert",
     "area": "Area 5",
     "image": "static/types/tasa-desert-area-5.png",
-    "name": "Vulffy"
+    "name": "Vulffy",
+    "rate": 40
   },
   {
     "location": "Tasa Desert",
     "area": "Area 5",
     "image": "static/types/tasa-desert-area-5.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 15
   },
   {
     "location": "Tasa Desert",
     "area": "Area 5",
     "image": "static/types/tasa-desert-area-5.png",
-    "name": "Rhoulder"
+    "name": "Rhoulder",
+    "rate": 5
   },
   {
     "location": "Tasa Desert",
     "area": "Area 6",
     "image": "static/types/tasa-desert-area-6.png",
-    "name": "Akranox"
+    "name": "Akranox",
+    "rate": 75
   },
   {
     "location": "Tasa Desert",
     "area": "Area 6",
     "image": "static/types/tasa-desert-area-6.png",
-    "name": "Pycko"
+    "name": "Pycko",
+    "rate": 25
   },
   {
     "location": "Meadowdale",
     "area": "Area 1",
     "image": "static/types/meadowdale-area-1.png",
-    "name": "Maoala"
+    "name": "Maoala",
+    "rate": 75
   },
   {
     "location": "Meadowdale",
     "area": "Area 1",
     "image": "static/types/meadowdale-area-1.png",
-    "name": "Thaiko"
+    "name": "Thaiko",
+    "rate": 20
   },
   {
     "location": "Meadowdale",
     "area": "Area 1",
     "image": "static/types/meadowdale-area-1.png",
-    "name": "Houchic"
+    "name": "Houchic",
+    "rate": 5
   },
   {
     "location": "Meadowdale",
     "area": "Area 2",
     "image": "static/types/meadowdale-area-2.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 50
   },
   {
     "location": "Meadowdale",
     "area": "Area 2",
     "image": "static/types/meadowdale-area-2.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 50
   },
   {
     "location": "Meadowdale",
     "area": "Area 3",
     "image": "static/types/meadowdale-area-3.png",
-    "name": "Reval"
+    "name": "Reval",
+    "rate": 80
   },
   {
     "location": "Meadowdale",
     "area": "Area 3",
     "image": "static/types/meadowdale-area-3.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 20
   },
   {
     "location": "Meadowdale",
     "area": "Area 4",
     "image": "static/types/meadowdale-area-4.png",
-    "name": "Maoala"
+    "name": "Maoala",
+    "rate": 60
   },
   {
     "location": "Meadowdale",
     "area": "Area 4",
     "image": "static/types/meadowdale-area-4.png",
-    "name": "Thaiko"
+    "name": "Thaiko",
+    "rate": 20
   },
   {
     "location": "Meadowdale",
     "area": "Area 4",
     "image": "static/types/meadowdale-area-4.png",
-    "name": "Owlhe"
+    "name": "Owlhe",
+    "rate": 10
   },
   {
     "location": "Meadowdale",
     "area": "Area 4",
     "image": "static/types/meadowdale-area-4.png",
-    "name": "Towly"
+    "name": "Towly",
+    "rate": 10
   },
   {
     "location": "Meadowdale",
     "area": "Area 5",
     "image": "static/types/meadowdale-area-5.png",
-    "name": "Babawa"
+    "name": "Babawa",
+    "rate": 30
   },
   {
     "location": "Meadowdale",
     "area": "Area 5",
     "image": "static/types/meadowdale-area-5.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 30
   },
   {
     "location": "Meadowdale",
     "area": "Area 5",
     "image": "static/types/meadowdale-area-5.png",
-    "name": "Koish (Melee)"
+    "name": "Koish (Melee)",
+    "rate": 20
   },
   {
     "location": "Meadowdale",
     "area": "Area 5",
     "image": "static/types/meadowdale-area-5.png",
-    "name": "Koish (Mental)"
+    "name": "Koish (Mental)",
+    "rate": 20
   },
   {
     "location": "Anak Volcano",
     "area": "Area 1",
     "image": "static/types/anak-volcano-area-1.png",
-    "name": "Banapi"
+    "name": "Banapi",
+    "rate": 50
   },
   {
     "location": "Anak Volcano",
     "area": "Area 1",
     "image": "static/types/anak-volcano-area-1.png",
-    "name": "Raiber"
+    "name": "Raiber",
+    "rate": 50
   },
   {
     "location": "Anak Volcano",
     "area": "Area 2",
     "image": "static/types/anak-volcano-area-2.png",
-    "name": "Vulvir"
+    "name": "Vulvir",
+    "rate": 80
   },
   {
     "location": "Anak Volcano",
     "area": "Area 2",
     "image": "static/types/anak-volcano-area-2.png",
-    "name": "Raiber"
+    "name": "Raiber",
+    "rate": 10
   },
   {
     "location": "Anak Volcano",
     "area": "Area 2",
     "image": "static/types/anak-volcano-area-2.png",
-    "name": "Banapi"
+    "name": "Banapi",
+    "rate": 10
   },
   {
     "location": "Anak Volcano",
     "area": "Area 3",
     "image": "static/types/anak-volcano-area-3.png",
-    "name": "Magmis"
+    "name": "Magmis",
+    "rate": 80
   },
   {
     "location": "Anak Volcano",
     "area": "Area 3",
     "image": "static/types/anak-volcano-area-3.png",
-    "name": "Raiber"
+    "name": "Raiber",
+    "rate": 10
   },
   {
     "location": "Anak Volcano",
     "area": "Area 3",
     "image": "static/types/anak-volcano-area-3.png",
-    "name": "Banapi"
+    "name": "Banapi",
+    "rate": 10
   },
   {
     "location": "Anak Volcano",
     "area": "Area 4",
     "image": "static/types/anak-volcano-area-4.png",
-    "name": "Capyre"
+    "name": "Capyre",
+    "rate": 50
   },
   {
     "location": "Anak Volcano",
     "area": "Area 4",
     "image": "static/types/anak-volcano-area-4.png",
-    "name": "Raize"
+    "name": "Raize",
+    "rate": 25
   },
   {
     "location": "Anak Volcano",
     "area": "Area 4",
     "image": "static/types/anak-volcano-area-4.png",
-    "name": "Mastione"
+    "name": "Mastione",
+    "rate": 25
   },
   {
     "location": "Anak Volcano",
     "area": "Area 5",
     "image": "static/types/anak-volcano-area-5.png",
-    "name": "Capyre"
+    "name": "Capyre",
+    "rate": 50
   },
   {
     "location": "Anak Volcano",
     "area": "Area 5",
     "image": "static/types/anak-volcano-area-5.png",
-    "name": "Vulor"
+    "name": "Vulor",
+    "rate": 25
   },
   {
     "location": "Anak Volcano",
     "area": "Area 5",
     "image": "static/types/anak-volcano-area-5.png",
-    "name": "Mastione"
+    "name": "Mastione",
+    "rate": 25
   },
   {
     "location": "Anak Volcano",
     "area": "Area 6",
     "image": "static/types/anak-volcano-area-6.png",
-    "name": "Vulor"
+    "name": "Vulor",
+    "rate": 35
   },
   {
     "location": "Anak Volcano",
     "area": "Area 6",
     "image": "static/types/anak-volcano-area-6.png",
-    "name": "Mastione"
+    "name": "Mastione",
+    "rate": 35
   },
   {
     "location": "Anak Volcano",
     "area": "Area 6",
     "image": "static/types/anak-volcano-area-6.png",
-    "name": "Drakash"
+    "name": "Drakash",
+    "rate": 30
   },
   {
     "location": "Anak Volcano",
     "area": "Area 7",
     "image": "static/types/anak-volcano-area-7.png",
-    "name": "Raican"
+    "name": "Raican",
+    "rate": 95
   },
   {
     "location": "Anak Volcano",
     "area": "Area 7",
     "image": "static/types/anak-volcano-area-7.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Anak Caldera",
     "area": "Area 1",
     "image": "static/types/anak-caldera-area-1.png",
-    "name": "Vulor"
+    "name": "Vulor",
+    "rate": 25
   },
   {
     "location": "Anak Caldera",
     "area": "Area 1",
     "image": "static/types/anak-caldera-area-1.png",
-    "name": "Mastione"
+    "name": "Mastione",
+    "rate": 25
   },
   {
     "location": "Anak Caldera",
     "area": "Area 1",
     "image": "static/types/anak-caldera-area-1.png",
-    "name": "Capyre"
+    "name": "Capyre",
+    "rate": 25
   },
   {
     "location": "Anak Caldera",
     "area": "Area 1",
     "image": "static/types/anak-caldera-area-1.png",
-    "name": "Raize"
+    "name": "Raize",
+    "rate": 25
   },
   {
     "location": "Sons of Crystal",
     "area": "Area 1",
     "image": "static/types/sons-of-crystal-area-1.png",
-    "name": "Zenoreth"
+    "name": "Zenoreth",
+    "rate": 95
   },
   {
     "location": "Sons of Crystal",
     "area": "Area 1",
     "image": "static/types/sons-of-crystal-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Kupeleleza",
     "area": "Area 1",
     "image": "static/types/kupeleleza-area-1.png",
-    "name": "Occlura"
+    "name": "Occlura",
+    "rate": 60
   },
   {
     "location": "Kupeleleza",
     "area": "Area 1",
     "image": "static/types/kupeleleza-area-1.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 35
   },
   {
     "location": "Kupeleleza",
     "area": "Area 1",
     "image": "static/types/kupeleleza-area-1.png",
-    "name": "Crystle"
+    "name": "Crystle",
+    "rate": 5
   },
   {
     "location": "Kupeleleza",
     "area": "Area 2",
     "image": "static/types/kupeleleza-area-2.png",
-    "name": "Mushi"
+    "name": "Mushi",
+    "rate": 60
   },
   {
     "location": "Kupeleleza",
     "area": "Area 2",
     "image": "static/types/kupeleleza-area-2.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 40
   },
   {
     "location": "Kupeleleza",
     "area": "Area 3",
     "image": "static/types/kupeleleza-area-3.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 60
   },
   {
     "location": "Kupeleleza",
     "area": "Area 3",
     "image": "static/types/kupeleleza-area-3.png",
-    "name": "Saku"
+    "name": "Saku",
+    "rate": 40
   },
   {
     "location": "Kupeleleza",
     "area": "Area 4",
     "image": "static/types/kupeleleza-area-4.png",
-    "name": "Zephyruff"
+    "name": "Zephyruff",
+    "rate": 95
   },
   {
     "location": "Kupeleleza",
     "area": "Area 4",
     "image": "static/types/kupeleleza-area-4.png",
-    "name": "Volarend"
+    "name": "Volarend",
+    "rate": 5
   },
   {
     "location": "Altar of the Inner Flame",
     "area": "Area 1",
     "image": "static/types/altar-of-the-inner-flame-area-1.png",
-    "name": "Raican"
+    "name": "Raican",
+    "rate": 95
   },
   {
     "location": "Altar of the Inner Flame",
     "area": "Area 1",
     "image": "static/types/altar-of-the-inner-flame-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Aisha's Hearth",
     "area": "Area 1",
     "image": "static/types/aishas-hearth-area-1.png",
-    "name": "Osukai"
+    "name": "Osukai",
+    "rate": 95
   },
   {
     "location": "Aisha's Hearth",
     "area": "Area 1",
     "image": "static/types/aishas-hearth-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Arissola Dojo",
     "area": "Area 1",
     "image": "static/types/arissola-dojo-area-1.png",
-    "name": "Kalazu"
+    "name": "Kalazu",
+    "rate": 65
   },
   {
     "location": "Arissola Dojo",
     "area": "Area 1",
     "image": "static/types/arissola-dojo-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 35
   },
   {
     "location": "Loch Aduar",
     "area": "Area 1",
     "image": "static/types/loch-aduar-area-1.png",
-    "name": "Saipat"
+    "name": "Saipat",
+    "rate": 60
   },
   {
     "location": "Loch Aduar",
     "area": "Area 1",
     "image": "static/types/loch-aduar-area-1.png",
-    "name": "Koish (Melee)"
+    "name": "Koish (Melee)",
+    "rate": 20
   },
   {
     "location": "Loch Aduar",
     "area": "Area 1",
     "image": "static/types/loch-aduar-area-1.png",
-    "name": "Koish (Mental)"
+    "name": "Koish (Mental)",
+    "rate": 20
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
     "image": "static/types/braeside-castle-area-1.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 40
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
     "image": "static/types/braeside-castle-area-1.png",
-    "name": "Arachnyte"
+    "name": "Arachnyte",
+    "rate": 30
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
     "image": "static/types/braeside-castle-area-1.png",
-    "name": "Valiar"
+    "name": "Valiar",
+    "rate": 10
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
     "image": "static/types/braeside-castle-area-1.png",
-    "name": "Hocus"
+    "name": "Hocus",
+    "rate": 10
   },
   {
     "location": "Braeside Castle",
     "area": "Area 1",
     "image": "static/types/braeside-castle-area-1.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 10
   },
   {
     "location": "Braeside Castle",
     "area": "Area 2",
     "image": "static/types/braeside-castle-area-2.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 90
   },
   {
     "location": "Braeside Castle",
     "area": "Area 2",
     "image": "static/types/braeside-castle-area-2.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 10
   },
   {
     "location": "Braeside Castle",
     "area": "Area 3",
     "image": "static/types/braeside-castle-area-3.png",
-    "name": "Valiar"
+    "name": "Valiar",
+    "rate": 35
   },
   {
     "location": "Braeside Castle",
     "area": "Area 3",
     "image": "static/types/braeside-castle-area-3.png",
-    "name": "Hocus"
+    "name": "Hocus",
+    "rate": 35
   },
   {
     "location": "Braeside Castle",
     "area": "Area 3",
     "image": "static/types/braeside-castle-area-3.png",
-    "name": "Arachnyte"
+    "name": "Arachnyte",
+    "rate": 30
   },
   {
     "location": "Braeside Castle",
     "area": "Area 4",
     "image": "static/types/braeside-castle-area-4.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 30
   },
   {
     "location": "Braeside Castle",
     "area": "Area 4",
     "image": "static/types/braeside-castle-area-4.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 25
   },
   {
     "location": "Braeside Castle",
     "area": "Area 4",
     "image": "static/types/braeside-castle-area-4.png",
-    "name": "Hocus"
+    "name": "Hocus",
+    "rate": 25
   },
   {
     "location": "Braeside Castle",
     "area": "Area 4",
     "image": "static/types/braeside-castle-area-4.png",
-    "name": "Adoroboros"
+    "name": "Adoroboros",
+    "rate": 20
   },
   {
     "location": "Braeside Castle",
     "area": "Area 5",
     "image": "static/types/braeside-castle-area-5.png",
-    "name": "Shaolite"
+    "name": "Shaolite",
+    "rate": 90
   },
   {
     "location": "Braeside Castle",
     "area": "Area 5",
     "image": "static/types/braeside-castle-area-5.png",
-    "name": "Hazrat"
+    "name": "Hazrat",
+    "rate": 10
   },
   {
     "location": "Sacred Lake",
     "area": "Area 1",
     "image": "static/types/sacred-lake-area-1.png",
-    "name": "Nessla"
+    "name": "Nessla",
+    "rate": 40
   },
   {
     "location": "Sacred Lake",
     "area": "Area 1",
     "image": "static/types/sacred-lake-area-1.png",
-    "name": "Cycrox"
+    "name": "Cycrox",
+    "rate": 30
   },
   {
     "location": "Sacred Lake",
     "area": "Area 1",
     "image": "static/types/sacred-lake-area-1.png",
-    "name": "Koish (Electric)"
+    "name": "Koish (Electric)",
+    "rate": 15
   },
   {
     "location": "Sacred Lake",
     "area": "Area 1",
     "image": "static/types/sacred-lake-area-1.png",
-    "name": "Koish (Digital)"
+    "name": "Koish (Digital)",
+    "rate": 15
   },
   {
     "location": "Digital Kami Shrine",
     "area": "Area 1",
     "image": "static/types/digital-kami-shrine-area-1.png",
-    "name": "Golzy"
+    "name": "Golzy",
+    "rate": 95
   },
   {
     "location": "Digital Kami Shrine",
     "area": "Area 1",
     "image": "static/types/digital-kami-shrine-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 1",
     "image": "static/types/juu-tunnel-area-1.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 80
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 1",
     "image": "static/types/juu-tunnel-area-1.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 20
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 2",
     "image": "static/types/juu-tunnel-area-2.png",
-    "name": "Grumvel"
+    "name": "Grumvel",
+    "rate": 80
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 2",
     "image": "static/types/juu-tunnel-area-2.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 20
   },
   {
     "location": "Juu Tunnel",
     "area": "Area 3",
     "image": "static/types/juu-tunnel-area-3.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 100
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
     "image": "static/types/kwea-uplands-area-1.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 80
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 1",
     "image": "static/types/kwea-uplands-area-1.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 20
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
     "image": "static/types/kwea-uplands-area-2.png",
-    "name": "Paharac"
+    "name": "Paharac",
+    "rate": 70
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 2",
     "image": "static/types/kwea-uplands-area-2.png",
-    "name": "Zizare"
+    "name": "Zizare",
+    "rate": 30
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
     "image": "static/types/kwea-uplands-area-3.png",
-    "name": "Goty"
+    "name": "Goty",
+    "rate": 80
   },
   {
     "location": "Kwea Uplands",
     "area": "Area 3",
     "image": "static/types/kwea-uplands-area-3.png",
-    "name": "Kuri"
+    "name": "Kuri",
+    "rate": 20
   },
   {
     "location": "Moyo Lake",
     "area": "Area 1",
     "image": "static/types/moyo-lake-area-1.png",
-    "name": "Droply"
+    "name": "Droply",
+    "rate": 75
   },
   {
     "location": "Moyo Lake",
     "area": "Area 1",
     "image": "static/types/moyo-lake-area-1.png",
-    "name": "Koish (Neutral)"
+    "name": "Koish (Neutral)",
+    "rate": 25
   },
   {
     "location": "Chieftain's Barrow",
     "area": "Area 1",
     "image": "static/types/chieftains-barrow-area-1.png",
-    "name": "Broccolem"
+    "name": "Broccolem",
+    "rate": 95
   },
   {
     "location": "Chieftain's Barrow",
     "area": "Area 1",
     "image": "static/types/chieftains-barrow-area-1.png",
-    "name": "Tuwai"
+    "name": "Tuwai",
+    "rate": 5
   },
   {
     "location": "Nuru Lodge",
     "area": "Area 1",
     "image": "static/types/nuru-lodge-area-1.png",
-    "name": "Koish"
+    "name": "Koish",
+    "rate": 100
   }
 ]
