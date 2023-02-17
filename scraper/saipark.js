@@ -6,22 +6,33 @@ export class SaiparkDB {
     if (this.saipark) return logWarning("[saipark] already scraped");
 
     logInfo("Scraping [saipark]...");
-    this.saipark = [];
+    this.saipark = {};
 
     const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
 
-    for (const $table of [$("table:nth-child(12)"), $("table:nth-child(13)")]) {
-      const saipark = new Saipark($table);
+    const saiparkTemtemA = new Saipark($("table:nth-child(12)"));
+    const saiparkTemtemB = new Saipark($("table:nth-child(13)"));
 
-      this.saipark.push({
-        area: saipark.area,
-        name: saipark.name,
-        rate: saipark.rate,
-        lumaRate: saipark.lumaRate,
-        minSVs: saipark.minSVs,
-        eggMoves: saipark.eggMoves,
-      });
-    }
+    this.saipark.saipark = {
+      title: "Saipark",
+      subtitle: "West from Praise Coast",
+      temtemA: {
+        area: saiparkTemtemA.area,
+        name: saiparkTemtemA.name,
+        rate: saiparkTemtemA.rate,
+        lumaRate: saiparkTemtemA.lumaRate,
+        minSVs: saiparkTemtemA.minSVs,
+        eggMoves: saiparkTemtemA.eggMoves,
+      },
+      temtemB: {
+        area: saiparkTemtemB.area,
+        name: saiparkTemtemB.name,
+        rate: saiparkTemtemB.rate,
+        lumaRate: saiparkTemtemB.lumaRate,
+        minSVs: saiparkTemtemB.minSVs,
+        eggMoves: saiparkTemtemB.eggMoves,
+      },
+    };
 
     logSuccess("[saipark] scraped successfully");
 
