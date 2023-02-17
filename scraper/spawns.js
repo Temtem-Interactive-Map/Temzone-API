@@ -74,6 +74,7 @@ export class SpawnsDB {
                 area,
                 image: "static/types/" + fileName,
                 name: spawn.name,
+                rate: spawn.rate,
               });
             });
         }
@@ -98,5 +99,14 @@ class Spawn {
     const name = cleanText(rawName);
 
     return name === "Chromeon" ? "Chromeon (Digital)" : name;
+  }
+
+  get rate() {
+    const rawRate = this.$.find("tbody > tr:nth-child(4) > td").text();
+    const cleanRate = cleanText(rawRate);
+    const textRate = cleanRate.replace("%", "");
+    const rate = parseInt(textRate);
+
+    return rate;
   }
 }
