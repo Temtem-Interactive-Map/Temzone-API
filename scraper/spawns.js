@@ -12,7 +12,7 @@ export class SpawnsDB {
     logSuccess("[areas] assets removed successfully");
 
     logInfo("Scraping [spawns]...");
-    this.spawns = [];
+    this.spawns = {};
 
     const urls = new Set();
     const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
@@ -68,14 +68,15 @@ export class SpawnsDB {
             .toArray()
             .forEach((el) => {
               const spawn = new Spawn($(el));
+              const key = location + " (" + area + ") - " + spawn.name;
 
-              this.spawns.push({
-                location,
-                area,
-                image: "static/types/" + fileName,
-                name: spawn.name,
+              this.spawns[key] = {
+                title: spawn.name,
+                subtitle: location + ", " + area,
                 rate: spawn.rate,
-              });
+                level: spawn.level,
+                image: "static/types/" + fileName,
+              };
             });
         }
       }
@@ -104,9 +105,40 @@ class Spawn {
   get rate() {
     const rawRate = this.$.find("tbody > tr:nth-child(4) > td").text();
     const cleanRate = cleanText(rawRate);
-    const textRate = cleanRate.replace("%", "");
-    const rate = parseInt(textRate);
+    const rate = cleanRate.split("/").map((rawRate) => {
+      const cleanRate = cleanText(rawRate);
+      const textRate = cleanRate.replace("%", "");
+      const rate = parseInt(textRate);
+
+      return rate;
+    });
 
     return rate;
+  }
+
+  get level() {
+    const rawLevels = this.$.find("tbody > tr:nth-child(5) > td").text();
+    const cleanLevels = cleanText(rawLevels);
+
+    if (cleanLevels.includes("-")) {
+      const [rawMinLevel, rawMaxLevel] = cleanLevels.split("-");
+      const cleanMinLevel = cleanText(rawMinLevel);
+      const cleanMaxLevel = cleanText(rawMaxLevel);
+      const minLevel = parseInt(cleanMinLevel);
+      const maxLevel = parseInt(cleanMaxLevel);
+
+      return {
+        min: minLevel,
+        max: maxLevel,
+      };
+    } else {
+      const cleanLevel = cleanText(rawLevels);
+      const level = parseInt(cleanLevel);
+
+      return {
+        min: level,
+        max: level,
+      };
+    }
   }
 }
