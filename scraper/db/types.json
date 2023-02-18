@@ -1,49 +1,49 @@
 {
-  "neutral-type": {
+  "c4997f3f-03d9-53f9-92ec-70e70c73e408": {
     "name": "Neutral type",
     "image": "static/types/neutral.png"
   },
-  "wind-type": {
+  "59d4443e-2005-5847-956e-91be65f6f495": {
     "name": "Wind type",
     "image": "static/types/wind.png"
   },
-  "earth-type": {
+  "4640c8d6-7c46-5b79-a577-1c6ee75f40a5": {
     "name": "Earth type",
     "image": "static/types/earth.png"
   },
-  "water-type": {
+  "9fd23e3d-c889-509c-98a6-ee9ba64fb816": {
     "name": "Water type",
     "image": "static/types/water.png"
   },
-  "fire-type": {
+  "65a4f02c-11e2-50fe-8f1c-602ad4c41136": {
     "name": "Fire type",
     "image": "static/types/fire.png"
   },
-  "nature-type": {
+  "8cd49b69-0363-5c62-8e70-53f3e5e2126b": {
     "name": "Nature type",
     "image": "static/types/nature.png"
   },
-  "electric-type": {
+  "e6003844-ab01-5c45-9858-7801221f7aab": {
     "name": "Electric type",
     "image": "static/types/electric.png"
   },
-  "mental-type": {
+  "c2ddf3f2-940e-5191-ae72-a5652389fc27": {
     "name": "Mental type",
     "image": "static/types/mental.png"
   },
-  "digital-type": {
+  "6d4f12eb-ccfc-5774-972d-26bbbbac4491": {
     "name": "Digital type",
     "image": "static/types/digital.png"
   },
-  "melee-type": {
+  "d52086cc-2867-589e-81d8-efe02bcade5d": {
     "name": "Melee type",
     "image": "static/types/melee.png"
   },
-  "crystal-type": {
+  "68e3e1d4-bae3-5834-a464-03e6428454dd": {
     "name": "Crystal type",
     "image": "static/types/crystal.png"
   },
-  "toxic-type": {
+  "d53b9884-24c9-5662-8ca8-e8eebbede58b": {
     "name": "Toxic type",
     "image": "static/types/toxic.png"
   }
