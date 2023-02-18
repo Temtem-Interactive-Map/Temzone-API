@@ -1,22 +1,22 @@
 {
-  "saipark": {
+  "31bf1631-972e-56e1-9838-ded1c799356f": {
     "title": "Saipark",
     "subtitle": "West from Praise Coast",
     "temtemA": {
       "area": "Water",
-      "name": "Koish (Water)",
       "rate": 100,
       "lumaRate": 4,
       "minSVs": 0,
-      "eggMoves": 0
+      "eggMoves": 0,
+      "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
     },
     "temtemB": {
       "area": "Hills",
-      "name": "Scarawatt",
       "rate": 90,
       "lumaRate": 4,
       "minSVs": 0,
-      "eggMoves": 16
+      "eggMoves": 16,
+      "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
     }
   }
 }
