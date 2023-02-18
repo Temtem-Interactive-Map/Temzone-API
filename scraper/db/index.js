@@ -1,25 +1,33 @@
-import { readdir, unlink, writeFile } from "node:fs/promises";
+import { readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-export async function writeDBFile(fileName, data) {
-  const path = join(process.cwd(), "scraper", "db", fileName + ".json");
+const DB_PATH = join(process.cwd(), "scraper", "db");
+const STATIC_PATH = join(process.cwd(), "assets", "static");
 
-  await writeFile(path, JSON.stringify(data, null, 2));
+export async function writeDBFile(fileName, data) {
+  const path = join(DB_PATH, fileName + ".json");
+
+  return await writeFile(path, JSON.stringify(data, null, 2));
+}
+
+export async function readDBFile(fileName) {
+  const path = join(DB_PATH, fileName + ".json");
+
+  return await readFile(path).then((data) => JSON.parse(data));
 }
 
 export async function removeDBContent(directory) {
-  const path = join(process.cwd(), "assets", "static", directory);
+  const path = join(STATIC_PATH, directory);
+  const files = await readdir(path);
 
-  for (const file of await readdir(path)) {
-    await unlink(join(path, file));
-  }
+  return await Promise.all(files.map((file) => unlink(join(path, file))));
 }
 
 export async function writeDBImage(fileName, url) {
-  const path = join(process.cwd(), "assets", "static", fileName);
-  const response = await fetch(url);
-  const arrayBuffer = await response.arrayBuffer();
-  const buffer = Buffer.from(arrayBuffer);
+  const path = join(STATIC_PATH, fileName);
 
-  await writeFile(path, buffer);
+  return await fetch(url)
+    .then((res) => res.arrayBuffer())
+    .then((buffer) => Buffer.from(buffer))
+    .then((buffer) => writeFile(path, buffer));
 }
