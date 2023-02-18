@@ -48,7 +48,7 @@ export class TemtemDB {
         ];
       }
 
-      types.forEach(async (subtype) => {
+      for (const subtype of types) {
         const temtem = new Temtem();
         await temtem.scrape($temtem, subtype);
         const id = generateId(temtem.name);
@@ -70,7 +70,7 @@ export class TemtemDB {
           tvs: temtem.tvs,
           evolutions: temtem.evolutions,
         };
-      });
+      }
     }
 
     Object.values(this.creatures).forEach((temtem) => {
@@ -119,7 +119,7 @@ class Temtem {
 
   #id($) {
     const rawId = $(
-      "div.infobox.temtem > table > tbody > tr:contains('No.') > td"
+      "div.infobox > table > tbody > tr:contains('No.') > td"
     ).text();
     const cleanId = cleanText(rawId);
     const indexId = cleanId.indexOf("#");
@@ -131,7 +131,7 @@ class Temtem {
 
   #name($, subtype) {
     const rawName = $(
-      "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
+      "div.infobox > table > tbody > tr:nth-child(1) > th"
     ).text();
     const cleanName = cleanText(rawName);
     const name = subtype === "" ? cleanName : cleanName + " (" + subtype + ")";
@@ -148,7 +148,7 @@ class Temtem {
 
   #types($, subtype) {
     const rawTypes = $(
-      "div.infobox.temtem > table > tbody > tr:contains('Type') > td > a"
+      "div.infobox > table > tbody > tr:contains('Type') > td > a"
     )
       .toArray()
       .map((el) => {
@@ -171,46 +171,77 @@ class Temtem {
     return types;
   }
 
-  #images($, subtype, name) {
-    const imageSelectors = {
-      png: "li:nth-child(1) > div > div > div > a > img",
-      gif: "li:nth-child(2) > div > div > div > a > img",
+  async #images($, subtype, name) {
+    const png = await this.#png($, subtype, name);
+    const gif = await this.#gif($, subtype, name);
+
+    return {
+      png,
+      gif,
     };
-    const imageSelectorEntries = Object.entries(imageSelectors);
-    const $el = $("#Renders").parent().next();
-    const imageEntries = imageSelectorEntries.map(async ([key, selector]) => {
-      const $renders = $el.find(selector);
-      const rawUrl =
-        $renders
-          .toArray()
-          .map((el) => $(el).attr("src"))
-          .find((src) => {
-            if (subtype === "") return true;
+  }
 
-            return src.includes(subtype);
-          }) || $renders.attr("src");
-      const cleanUrl = cleanText(rawUrl);
-      const url = shortUrl(cleanUrl);
-      const extension = getUrlExtension(url);
-      const fileName = generateFileName(name) + "." + extension;
-      const value = "static/temtem/" + fileName;
+  async #png($, subtype, name) {
+    const rawUrl =
+      subtype !== ""
+        ? $("#Subspecies_Variations")
+            .parent()
+            .next()
+            .next()
+            .find(
+              "table.wikitable > tbody > tr:nth-child(2) > td:nth-child(odd) > span > a > img"
+            )
+            .toArray()
+            .map((el) => $(el).attr("src"))
+            .find((src) => src.includes(subtype))
+        : $(
+            "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img"
+          ).attr("src");
+    const cleanUrl = cleanText(rawUrl);
+    const url = shortUrl(cleanUrl);
+    const extension = getUrlExtension(url);
+    const fileName = generateFileName(name) + "." + extension;
 
-      logWarning("- Writing [" + fileName + "] to assets...");
-      await writeDBImage(
-        join("temtem", fileName),
-        "https://temtem.wiki.gg/" + url
-      );
+    logWarning("- Writing [" + fileName + "] to assets...");
+    await writeDBImage(
+      join("temtem", fileName),
+      "https://temtem.wiki.gg/" + url
+    );
 
-      return [key, value];
-    });
-    const images = Object.fromEntries(imageEntries);
+    return "static/temtem/" + fileName;
+  }
 
-    return images;
+  async #gif($, subtype, name) {
+    const $renders = $("#Renders")
+      .parent()
+      .next()
+      .find("li:nth-child(2) > div > div > div > a > img");
+    const rawUrl =
+      $renders
+        .toArray()
+        .map((el) => $(el).attr("src"))
+        .find((src) => {
+          if (subtype === "") return true;
+
+          return src.includes(subtype);
+        }) || $renders.attr("src");
+    const cleanUrl = cleanText(rawUrl);
+    const url = shortUrl(cleanUrl);
+    const extension = getUrlExtension(url);
+    const fileName = generateFileName(name) + "." + extension;
+
+    logWarning("- Writing [" + fileName + "] to assets...");
+    await writeDBImage(
+      join("temtem", fileName),
+      "https://temtem.wiki.gg/" + url
+    );
+
+    return "static/temtem/" + fileName;
   }
 
   #traits($) {
     const traits = $(
-      "div.infobox.temtem > table > tbody > tr:contains('Traits') > td > a"
+      "div.infobox > table > tbody > tr:contains('Traits') > td > a"
     )
       .toArray()
       .map((el) => {
@@ -226,7 +257,7 @@ class Temtem {
 
   #gender($) {
     const rawGender = $(
-      "div.infobox.temtem > table > tbody > tr:contains('Gender Ratio') > td"
+      "div.infobox > table > tbody > tr:contains('Gender Ratio') > td"
     ).text();
     const cleanGender = cleanText(rawGender);
 
@@ -250,7 +281,7 @@ class Temtem {
 
   #catchRate($) {
     const rawCatchRate = $(
-      "div.infobox.temtem > table > tbody > tr:contains('Catch Rate') > td"
+      "div.infobox > table > tbody > tr:contains('Catch Rate') > td"
     ).text();
     const cleanCatchRate = cleanText(rawCatchRate);
     const catchRate = parseInt(cleanCatchRate);
@@ -354,7 +385,7 @@ class Temtem {
       });
 
     const evolutions = $(
-      "div.infobox.temtem > table > tbody > tr:contains('Evolves to') > td > a"
+      "div.infobox > table > tbody > tr:contains('Evolves to') > td > a"
     )
       .toArray()
       .map((el, i) => {
