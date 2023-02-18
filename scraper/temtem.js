@@ -1,16 +1,21 @@
 import { join } from "node:path";
-import { removeDBContent, writeDBImage } from "./db/index.js";
+import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
-import { cleanText, getUrlExtension, scrape, shortUrl } from "./utils/index.js";
+import {
+  cleanText,
+  generateFileName,
+  generateId,
+  getUrlExtension,
+  scrape,
+  shortUrl,
+} from "./utils/index.js";
 
 export class TemtemDB {
   static async scrape() {
-    if (this.creatures) return logWarning("[temtem] already scraped");
-
-    await TypesDB.scrape();
-    await TraitsDB.scrape();
+    await TypesDB.load();
+    await TraitsDB.load();
 
     logWarning("Removing [temtem] assets...");
     await removeDBContent("temtem");
@@ -22,8 +27,7 @@ export class TemtemDB {
     const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
 
     for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
-      const $el = $(el);
-      const href = $el.attr("href");
+      const href = $(el).attr("href");
       const $temtem = await scrape("https://temtem.wiki.gg" + href);
       let types = [""];
 
@@ -44,10 +48,12 @@ export class TemtemDB {
         ];
       }
 
-      types.forEach((subtype) => {
-        const temtem = new Temtem($temtem, subtype);
+      types.forEach(async (subtype) => {
+        const temtem = new Temtem();
+        await temtem.scrape($temtem, subtype);
+        const id = generateId(temtem.name);
 
-        this.creatures[temtem.name] = {
+        this.creatures[id] = {
           id: temtem.id,
           name: temtem.name,
           description: temtem.description,
@@ -69,7 +75,7 @@ export class TemtemDB {
 
     Object.values(this.creatures).forEach((temtem) => {
       temtem.evolutions = temtem.evolutions.map((evolution) => {
-        const temtemEvolution = this.creatures[evolution.name];
+        const temtemEvolution = this.creatures[evolution.id];
 
         return {
           name: evolution.name,
@@ -85,19 +91,34 @@ export class TemtemDB {
     return this.creatures;
   }
 
-  static find(name) {
-    return this.creatures[name];
+  static async load() {
+    this.creatures = await readDBFile("temtem");
+  }
+
+  static find(id) {
+    return this.creatures[id];
   }
 }
 
 class Temtem {
-  constructor($, subtype) {
-    this.$ = $;
-    this.subtype = subtype;
+  async scrape($, subtype) {
+    this.id = this.#id($);
+    this.name = this.#name($, subtype);
+    this.description = this.#description($);
+    this.types = this.#types($, subtype);
+    this.images = await this.#images($, subtype, this.name);
+    this.traits = this.#traits($);
+    this.gender = this.#gender($);
+    this.catchRate = this.#catchRate($);
+    this.height = this.#height($);
+    this.weight = this.#weight($);
+    this.stats = this.#stats($);
+    this.tvs = this.#tvs($);
+    this.evolutions = this.#evolutions($, this.id);
   }
 
-  get id() {
-    const rawId = this.$(
+  #id($) {
+    const rawId = $(
       "div.infobox.temtem > table > tbody > tr:contains('No.') > td"
     ).text();
     const cleanId = cleanText(rawId);
@@ -108,75 +129,77 @@ class Temtem {
     return id;
   }
 
-  get name() {
-    const rawName = this.$(
+  #name($, subtype) {
+    const rawName = $(
       "div.infobox.temtem > table > tbody > tr:nth-child(1) > th"
     ).text();
-    const name = cleanText(rawName);
+    const cleanName = cleanText(rawName);
+    const name = subtype === "" ? cleanName : cleanName + " (" + subtype + ")";
 
-    return this.subtype === "" ? name : name + " (" + this.subtype + ")";
+    return name;
   }
 
-  get description() {
-    const rawDescription = this.$("#Tempedia").parent().next().text();
+  #description($) {
+    const rawDescription = $("#Tempedia").parent().next().text();
     const description = cleanText(rawDescription);
 
     return description;
   }
 
-  get types() {
-    const types = this.$(
+  #types($, subtype) {
+    const rawTypes = $(
       "div.infobox.temtem > table > tbody > tr:contains('Type') > td > a"
     )
       .toArray()
       .map((el) => {
-        const rawType = this.$(el).attr("title");
+        const rawType = $(el).attr("title");
         const type = cleanText(rawType);
 
         return type;
       });
 
-    if (this.subtype !== "" && !types.includes(this.subtype + " type")) {
-      types.push(this.subtype + " type");
+    if (subtype !== "" && !rawTypes.includes(subtype + " type")) {
+      rawTypes.push(subtype + " type");
     }
 
-    return types.map((type) => TypesDB.find(type));
+    const types = rawTypes.map((type) => {
+      const id = generateId(type);
+
+      return TypesDB.find(id);
+    });
+
+    return types;
   }
 
-  get images() {
+  #images($, subtype, name) {
     const imageSelectors = {
       png: "li:nth-child(1) > div > div > div > a > img",
       gif: "li:nth-child(2) > div > div > div > a > img",
     };
     const imageSelectorEntries = Object.entries(imageSelectors);
-    const $el = this.$("#Renders").parent().next();
-    const imageEntries = imageSelectorEntries.map(([key, selector]) => {
+    const $el = $("#Renders").parent().next();
+    const imageEntries = imageSelectorEntries.map(async ([key, selector]) => {
       const $renders = $el.find(selector);
       const rawUrl =
         $renders
           .toArray()
-          .map((el) => this.$(el).attr("src"))
+          .map((el) => $(el).attr("src"))
           .find((src) => {
-            if (this.subtype === "") return true;
+            if (subtype === "") return true;
 
-            return src.includes(this.subtype);
+            return src.includes(subtype);
           }) || $renders.attr("src");
       const cleanUrl = cleanText(rawUrl);
       const url = shortUrl(cleanUrl);
       const extension = getUrlExtension(url);
-      const fileName =
-        this.name.replace(/\(|\)/g, "").replace(" ", "-").toLowerCase() +
-        "." +
-        extension;
+      const fileName = generateFileName(name) + "." + extension;
       const value = "static/temtem/" + fileName;
 
       logWarning("- Writing [" + fileName + "] to assets...");
-      (async () => {
-        await writeDBImage(
-          join("temtem", fileName),
-          "https://temtem.wiki.gg/" + url
-        );
-      })();
+      await writeDBImage(
+        join("temtem", fileName),
+        "https://temtem.wiki.gg/" + url
+      );
 
       return [key, value];
     });
@@ -185,23 +208,24 @@ class Temtem {
     return images;
   }
 
-  get traits() {
-    const traits = this.$(
+  #traits($) {
+    const traits = $(
       "div.infobox.temtem > table > tbody > tr:contains('Traits') > td > a"
     )
       .toArray()
       .map((el) => {
-        const rawTrait = this.$(el).text();
+        const rawTrait = $(el).text();
         const trait = cleanText(rawTrait);
+        const id = generateId(trait);
 
-        return TraitsDB.find(trait);
+        return TraitsDB.find(id);
       });
 
     return traits;
   }
 
-  get gender() {
-    const rawGender = this.$(
+  #gender($) {
+    const rawGender = $(
       "div.infobox.temtem > table > tbody > tr:contains('Gender Ratio') > td"
     ).text();
     const cleanGender = cleanText(rawGender);
@@ -224,8 +248,8 @@ class Temtem {
     }
   }
 
-  get catchRate() {
-    const rawCatchRate = this.$(
+  #catchRate($) {
+    const rawCatchRate = $(
       "div.infobox.temtem > table > tbody > tr:contains('Catch Rate') > td"
     ).text();
     const cleanCatchRate = cleanText(rawCatchRate);
@@ -234,8 +258,8 @@ class Temtem {
     return catchRate;
   }
 
-  get height() {
-    const rawHeight = this.$(
+  #height($) {
+    const rawHeight = $(
       "table.infobox-half-row:contains('Height') > tbody > tr:nth-child(2) > td"
     ).text();
     const [rawCm, rawInches] = rawHeight.split("/");
@@ -252,8 +276,8 @@ class Temtem {
     };
   }
 
-  get weight() {
-    const rawWeight = this.$(
+  #weight($) {
+    const rawWeight = $(
       "table.infobox-half-row:contains('Weight') > tbody > tr:nth-child(2) > td"
     ).text();
     const [rawKg, rawLbs] = rawWeight.split("/");
@@ -270,7 +294,7 @@ class Temtem {
     };
   }
 
-  get stats() {
+  #stats($) {
     const statsSelectors = {
       hp: "table.statbox > tbody > tr:nth-child(3) > th > div:nth-child(2)",
       sta: "table.statbox > tbody > tr:nth-child(4) > th > div:nth-child(2)",
@@ -283,7 +307,7 @@ class Temtem {
     };
     const statsSelectorEntries = Object.entries(statsSelectors);
     const statsEntries = statsSelectorEntries.map(([key, selector]) => {
-      const rawValue = this.$(selector).text();
+      const rawValue = $(selector).text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue);
 
@@ -294,7 +318,7 @@ class Temtem {
     return stats;
   }
 
-  get tvs() {
+  #tvs($) {
     const tvSelectors = {
       hp: "table.tv-table > tbody > tr > td:nth-child(1)",
       sta: "table.tv-table > tbody > tr > td:nth-child(2)",
@@ -306,7 +330,7 @@ class Temtem {
     };
     const tvSelectorEntries = Object.entries(tvSelectors);
     const tvEntries = tvSelectorEntries.map(([key, selector]) => {
-      const rawValue = this.$(selector).text();
+      const rawValue = $(selector).text();
       const cleanValue = cleanText(rawValue);
       const value = parseInt(cleanValue) || 0;
 
@@ -317,28 +341,26 @@ class Temtem {
     return tvs;
   }
 
-  get evolutions() {
-    const conditions = this.$("div.evobox-container > table.evobox.selected")
+  #evolutions($, id) {
+    const conditions = $("div.evobox-container > table.evobox.selected")
       .next()
       .toArray()
       .map((el) => {
-        const rawCondition = this.$(el).text();
+        const rawCondition = $(el).text();
         const cleanCondition = cleanText(rawCondition);
         const condition = cleanCondition.replace("levels", "Levels");
 
         return condition;
       });
 
-    const evolutions = this.$(
+    const evolutions = $(
       "div.infobox.temtem > table > tbody > tr:contains('Evolves to') > td > a"
     )
       .toArray()
       .map((el, i) => {
-        const rawName = this.$(el).text();
-        const name = cleanText(rawName);
         let condition;
 
-        switch (this.id) {
+        switch (id) {
           case 51:
             condition = conditions[i]
               .replace("Male", " (Male)")
@@ -355,8 +377,11 @@ class Temtem {
             break;
         }
 
+        const rawName = $(el).text();
+        const name = cleanText(rawName);
+
         return {
-          name,
+          id: generateId(name),
           condition,
         };
       });

@@ -1,12 +1,17 @@
 import { join } from "node:path";
-import { removeDBContent, writeDBImage } from "./db/index.js";
+import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import { cleanText, getUrlExtension, scrape, shortUrl } from "./utils/index.js";
+import {
+  cleanText,
+  generateFileName,
+  generateId,
+  getUrlExtension,
+  scrape,
+  shortUrl,
+} from "./utils/index.js";
 
 export class SpawnsDB {
   static async scrape() {
-    if (this.spawns) return logWarning("[spawns] already scraped");
-
     logWarning("Removing [areas] assets...");
     await removeDBContent("areas");
     logSuccess("[areas] assets removed successfully");
@@ -18,13 +23,14 @@ export class SpawnsDB {
     const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
 
     for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
-      const href = $(el).attr("href");
-      const $temtem = await scrape("https://temtem.wiki.gg" + href);
+      const temtemHref = $(el).attr("href");
+      const $temtem = await scrape("https://temtem.wiki.gg" + temtemHref);
 
       for (const el of $temtem(
         "table.locationTable > tbody > tr > td:nth-child(1):not(:last-child) > a"
       )) {
-        const url = "https://temtem.wiki.gg" + $(el).attr("href");
+        const locationHref = $(el).attr("href");
+        const url = "https://temtem.wiki.gg" + locationHref;
 
         if (urls.has(url)) continue;
         urls.add(url);
@@ -47,15 +53,7 @@ export class SpawnsDB {
           const cleanUrl = cleanText(rawUrl);
           const url = shortUrl(cleanUrl);
           const extension = getUrlExtension(url);
-          const fileName =
-            location
-              .replace(/[^a-zA-Z0-9 ]/g, "")
-              .replace(/ /g, "-")
-              .toLowerCase() +
-            "-" +
-            area.replace(/ /g, "-").toLowerCase() +
-            "." +
-            extension;
+          const fileName = generateFileName(location, area) + "." + extension;
 
           logWarning("- Writing [" + fileName + "] to assets...");
           await writeDBImage(
@@ -66,16 +64,18 @@ export class SpawnsDB {
           $el
             .find("td.encounters > table")
             .toArray()
-            .forEach((el) => {
-              const spawn = new Spawn($(el));
-              const key = location + " (" + area + ") - " + spawn.name;
+            .forEach(async (el) => {
+              const spawn = new Spawn();
+              await spawn.scrape($(el));
+              const id = generateId(location, area, spawn.name);
 
-              this.spawns[key] = {
+              this.spawns[id] = {
                 title: spawn.name,
                 subtitle: location + ", " + area,
                 rate: spawn.rate,
                 level: spawn.level,
                 image: "static/types/" + fileName,
+                temtemId: generateId(spawn.name),
               };
             });
         }
@@ -86,24 +86,33 @@ export class SpawnsDB {
 
     return this.spawns;
   }
+
+  static async load() {
+    this.spawns = await readDBFile("saipark");
+  }
+
+  static find(id) {
+    return this.spawns[id];
+  }
 }
 
 class Spawn {
-  constructor($) {
-    this.$ = $;
+  async scrape($) {
+    this.name = this.#name($);
+    this.rate = this.#rate($);
+    this.level = this.#level($);
   }
 
-  get name() {
-    const rawName = this.$.find(
-      "tbody > tr:nth-child(1) > td > a > span"
-    ).text();
-    const name = cleanText(rawName);
+  #name($) {
+    const rawName = $.find("tbody > tr:nth-child(1) > td > a > span").text();
+    const cleanName = cleanText(rawName);
+    const name = cleanName === "Chromeon" ? "Chromeon (Digital)" : cleanName;
 
-    return name === "Chromeon" ? "Chromeon (Digital)" : name;
+    return name;
   }
 
-  get rate() {
-    const rawRate = this.$.find("tbody > tr:nth-child(4) > td").text();
+  #rate($) {
+    const rawRate = $.find("tbody > tr:nth-child(4) > td").text();
     const cleanRate = cleanText(rawRate);
     const rate = cleanRate.split("/").map((rawRate) => {
       const cleanRate = cleanText(rawRate);
@@ -116,8 +125,8 @@ class Spawn {
     return rate;
   }
 
-  get level() {
-    const rawLevels = this.$.find("tbody > tr:nth-child(5) > td").text();
+  #level($) {
+    const rawLevels = $.find("tbody > tr:nth-child(5) > td").text();
     const cleanLevels = cleanText(rawLevels);
 
     if (cleanLevels.includes("-")) {
