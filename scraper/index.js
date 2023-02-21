@@ -43,6 +43,11 @@ try {
   logError(error);
 } finally {
   const end = performance.now();
-  const time = Math.round((end - start) / 10) / 100;
-  logInfo("[" + name + "] scraped in " + time + " seconds");
+  const seconds = Math.round((end - start) / 10) / 100;
+
+  if (SCRAPERS[name]) {
+    logInfo("[" + name + "] scraped in " + seconds + " seconds");
+  } else {
+    logInfo("All data scraped in " + seconds + " seconds");
+  }
 }
