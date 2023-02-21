@@ -5,9 +5,10 @@ import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
 import {
   cleanText,
+  fetchGif,
   generateFileName,
   generateId,
-  getUrlExtension,
+  generatePortrait,
   scrape,
   shortUrl,
 } from "./utils/index.js";
@@ -172,17 +173,7 @@ class Temtem {
   }
 
   async #images($, subtype, name) {
-    const png = await this.#png($, subtype, name);
-    const gif = await this.#gif($, subtype, name);
-
-    return {
-      png,
-      gif,
-    };
-  }
-
-  async #png($, subtype, name) {
-    const rawUrl =
+    const rawPngUrl =
       subtype !== ""
         ? $("#Subspecies_Variations")
             .parent()
@@ -197,26 +188,19 @@ class Temtem {
         : $(
             "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img"
           ).attr("src");
-    const cleanUrl = cleanText(rawUrl);
-    const url = shortUrl(cleanUrl);
-    const extension = getUrlExtension(url);
-    const fileName = generateFileName(name) + "." + extension;
+    const cleanPngUrl = cleanText(rawPngUrl);
+    const pngUrl = shortUrl(cleanPngUrl);
+    const png = await generatePortrait("https://temtem.wiki.gg/" + pngUrl);
+    const pngFileName = generateFileName(name) + ".png";
 
-    logWarning("- Writing [" + fileName + "] to assets...");
-    await writeDBImage(
-      join("temtem", fileName),
-      "https://temtem.wiki.gg/" + url
-    );
+    logWarning("- Writing [" + pngFileName + "] to assets...");
+    await writeDBImage(join("temtem", pngFileName), png);
 
-    return "static/temtem/" + fileName;
-  }
-
-  async #gif($, subtype, name) {
     const $renders = $("#Renders")
       .parent()
       .next()
       .find("li:nth-child(2) > div > div > div > a > img");
-    const rawUrl =
+    const rawGifUrl =
       $renders
         .toArray()
         .map((el) => $(el).attr("src"))
@@ -225,18 +209,18 @@ class Temtem {
 
           return src.includes(subtype);
         }) || $renders.attr("src");
-    const cleanUrl = cleanText(rawUrl);
-    const url = shortUrl(cleanUrl);
-    const extension = getUrlExtension(url);
-    const fileName = generateFileName(name) + "." + extension;
+    const cleanGifUrl = cleanText(rawGifUrl);
+    const gifUrl = shortUrl(cleanGifUrl);
+    const gif = await fetchGif("https://temtem.wiki.gg/" + gifUrl, 480);
+    const gifFileName = generateFileName(name) + ".gif";
 
-    logWarning("- Writing [" + fileName + "] to assets...");
-    await writeDBImage(
-      join("temtem", fileName),
-      "https://temtem.wiki.gg/" + url
-    );
+    logWarning("- Writing [" + gifFileName + "] to assets...");
+    await writeDBImage(join("temtem", gifFileName), gif);
 
-    return "static/temtem/" + fileName;
+    return {
+      png: "static/temtem/" + pngFileName,
+      gif: "static/temtem/" + gifFileName,
+    };
   }
 
   #traits($) {
