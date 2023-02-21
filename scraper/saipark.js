@@ -42,6 +42,8 @@ export class SaiparkDB {
 
   static async load() {
     this.saipark = await readDBFile("saipark");
+
+    return this.saipark;
   }
 
   static find(id) {
