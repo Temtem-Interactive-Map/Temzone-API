@@ -23,11 +23,8 @@ export async function removeDBContent(directory) {
   return await Promise.all(files.map((file) => unlink(join(path, file))));
 }
 
-export async function writeDBImage(fileName, url) {
+export async function writeDBImage(fileName, buffer) {
   const path = join(STATIC_PATH, fileName);
 
-  return await fetch(url)
-    .then((res) => res.arrayBuffer())
-    .then((buffer) => Buffer.from(buffer))
-    .then((buffer) => writeFile(path, buffer));
+  return await writeFile(path, buffer);
 }
