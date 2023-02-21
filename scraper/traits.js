@@ -1,31 +1,23 @@
-import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import { cleanText, scrape } from "./utils/index.js";
+import { readDBFile } from "./db/index.js";
+import { logInfo, logSuccess } from "./log/index.js";
+import { cleanText, generateId, scrape } from "./utils/index.js";
 
 export class TraitsDB {
   static async scrape() {
-    if (this.traits) return logWarning("[traits] already scraped");
-
     logInfo("Scraping [traits]...");
     this.traits = {};
 
     const $ = await scrape("https://temtem.wiki.gg/wiki/Traits");
-    const traitSelectors = {
-      name: "td:nth-child(1)",
-      description: "td:nth-child(2)",
-    };
-    const traitSelectorEntries = Object.entries(traitSelectors);
 
     for (const el of $("table.wikitable > tbody > tr:not(:first-child)")) {
-      const $el = $(el);
-      const traitEntries = traitSelectorEntries.map(([key, selector]) => {
-        const rawValue = $el.find(selector).text();
-        const value = cleanText(rawValue);
+      const trait = new Trait();
+      await trait.scrape($(el));
+      const id = generateId(trait.name);
 
-        return [key, value];
-      });
-      const trait = Object.fromEntries(traitEntries);
-
-      this.traits[trait.name] = trait;
+      this.traits[id] = {
+        name: trait.name,
+        description: trait.description,
+      };
     }
 
     logSuccess("[traits] scraped successfully");
@@ -33,7 +25,32 @@ export class TraitsDB {
     return this.traits;
   }
 
-  static find(name) {
-    return this.traits[name];
+  static async load() {
+    this.traits = await readDBFile("traits");
+  }
+
+  static find(id) {
+    return this.traits[id];
+  }
+}
+
+class Trait {
+  async scrape($) {
+    this.name = this.#name($);
+    this.description = this.#description($);
+  }
+
+  #name($) {
+    const rawName = $.find("td:nth-child(1)").text();
+    const name = cleanText(rawName);
+
+    return name;
+  }
+
+  #description($) {
+    const rawDescription = $.find("td:nth-child(2)").text();
+    const description = cleanText(rawDescription);
+
+    return description;
   }
 }
