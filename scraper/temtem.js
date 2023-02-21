@@ -94,6 +94,8 @@ export class TemtemDB {
 
   static async load() {
     this.creatures = await readDBFile("temtem");
+
+    return this.creatures;
   }
 
   static find(id) {
