@@ -27,6 +27,8 @@ export class TraitsDB {
 
   static async load() {
     this.traits = await readDBFile("traits");
+
+    return this.traits;
   }
 
   static find(id) {
