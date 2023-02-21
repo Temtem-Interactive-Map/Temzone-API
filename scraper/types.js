@@ -39,6 +39,8 @@ export class TypesDB {
 
   static async load() {
     this.types = await readDBFile("types");
+
+    return this.types;
   }
 
   static find(id) {
