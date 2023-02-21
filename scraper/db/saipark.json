@@ -5,18 +5,18 @@
     "temtemA": {
       "area": "Water",
       "rate": 100,
-      "lumaRate": 4,
-      "minSVs": 0,
-      "eggMoves": 0,
-      "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
+      "lumaRate": 1,
+      "minSVs": 39,
+      "eggMoves": 11,
+      "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
     },
     "temtemB": {
-      "area": "Hills",
-      "rate": 90,
-      "lumaRate": 4,
-      "minSVs": 0,
-      "eggMoves": 16,
-      "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
+      "area": "Caves",
+      "rate": 100,
+      "lumaRate": 1,
+      "minSVs": 39,
+      "eggMoves": 7,
+      "temtemId": "ebdffebc-cf34-5541-b946-ea559a328e4c"
     }
   }
 }
