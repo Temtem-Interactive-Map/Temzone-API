@@ -1,4 +1,6 @@
 import { load } from "cheerio";
+import { join } from "path";
+import sharp from "sharp";
 import { v5 as uuidv5 } from "uuid";
 
 export async function scrape(url) {
@@ -24,8 +26,61 @@ export function shortUrl(rawUrl) {
   return url.substring(0, index).replace("/thumb", "");
 }
 
-export function getUrlExtension(url) {
-  return url.split(/[#?]/).shift().split(".").pop().trim();
+async function fetchImage(url) {
+  const arrayBuffer = await fetch(url).then((res) => res.arrayBuffer());
+  const buffer = Buffer.from(arrayBuffer);
+
+  return buffer;
+}
+
+export async function fetchPng(url, size) {
+  const buffer = await fetchImage(url);
+  const resizedBuffer = await sharp(buffer)
+    .resize({
+      width: size,
+      height: size,
+      fit: "inside",
+    })
+    .toBuffer();
+
+  return resizedBuffer;
+}
+
+export async function fetchGif(url, size) {
+  const buffer = await fetchImage(url);
+  const resizedBuffer = await sharp(buffer, { animated: true })
+    .resize({
+      width: size,
+      height: size,
+      fit: "inside",
+    })
+    .toBuffer();
+
+  return resizedBuffer;
+}
+
+export async function generatePortrait(url) {
+  const portraitBackgroundPath = join(
+    process.cwd(),
+    "scraper",
+    "utils",
+    "portrait_background.png"
+  );
+  const portraitBorderPath = join(
+    process.cwd(),
+    "scraper",
+    "utils",
+    "portrait_border.png"
+  );
+  const temtemBuffer = await fetchPng(url, 240);
+  const temtemPortraitBuffer = await sharp(portraitBackgroundPath)
+    .composite([{ input: temtemBuffer, blend: "in" }])
+    .toBuffer();
+  const portraitBuffer = await sharp(portraitBackgroundPath)
+    .composite([{ input: temtemPortraitBuffer }, { input: portraitBorderPath }])
+    .toBuffer();
+
+  return portraitBuffer;
 }
 
 export function generateFileName(...args) {
