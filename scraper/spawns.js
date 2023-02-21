@@ -3,9 +3,9 @@ import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
   cleanText,
+  fetchPng,
   generateFileName,
   generateId,
-  getUrlExtension,
   scrape,
   shortUrl,
 } from "./utils/index.js";
@@ -52,14 +52,11 @@ export class SpawnsDB {
           const rawUrl = $el.find("td.map > div > div > a > img").attr("src");
           const cleanUrl = cleanText(rawUrl);
           const url = shortUrl(cleanUrl);
-          const extension = getUrlExtension(url);
-          const fileName = generateFileName(location, area) + "." + extension;
+          const png = await fetchPng("https://temtem.wiki.gg/" + url, 480);
+          const fileName = generateFileName(location, area) + ".png";
 
           logWarning("- Writing [" + fileName + "] to assets...");
-          await writeDBImage(
-            join("areas", fileName),
-            "https://temtem.wiki.gg/" + url
-          );
+          await writeDBImage(join("areas", fileName), png);
 
           $el
             .find("td.encounters > table")
@@ -74,7 +71,7 @@ export class SpawnsDB {
                 subtitle: location + ", " + area,
                 rate: spawn.rate,
                 level: spawn.level,
-                image: "static/types/" + fileName,
+                image: "static/areas/" + fileName,
                 temtemId: generateId(spawn.name),
               };
             });
