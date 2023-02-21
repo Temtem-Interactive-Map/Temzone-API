@@ -1,4 +1,5 @@
 import { writeDBFile } from "./db/index.js";
+import { LandmarksDB } from "./landmarks.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
@@ -12,6 +13,7 @@ const SCRAPERS = {
   temtem: TemtemDB,
   spawns: SpawnsDB,
   saipark: SaiparkDB,
+  landmarks: LandmarksDB,
 };
 
 async function scrapeAndSave(name) {
