@@ -85,7 +85,9 @@ export class SpawnsDB {
   }
 
   static async load() {
-    this.spawns = await readDBFile("saipark");
+    this.spawns = await readDBFile("spawns");
+
+    return this.spawns;
   }
 
   static find(id) {
