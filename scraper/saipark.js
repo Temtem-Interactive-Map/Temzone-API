@@ -15,6 +15,7 @@ export class SaiparkDB {
     const id = generateId("Saipark");
 
     this.saipark[id] = {
+      id,
       title: "Saipark",
       subtitle: "West from Praise Coast",
       temtemA: {
@@ -44,10 +45,6 @@ export class SaiparkDB {
     this.saipark = await readDBFile("saipark");
 
     return this.saipark;
-  }
-
-  static find(id) {
-    return this.saipark[id];
   }
 }
 
