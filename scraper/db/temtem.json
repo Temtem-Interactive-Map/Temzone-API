@@ -1,6 +1,7 @@
 {
   "b44c1aa3-a925-549a-ba4f-3727db5211e6": {
-    "id": 1,
+    "id": "b44c1aa3-a925-549a-ba4f-3727db5211e6",
+    "tempediaId": 1,
     "name": "Mimit",
     "description": "Mimit has the honor of being the very first Digital ever created. The genomic reservoir contained in its tail allows it an unequalled ability to replicate any other Temtem species, making it the ultimate breeder.",
     "types": [
@@ -57,7 +58,8 @@
     "evolutions": []
   },
   "f4528ad9-c749-5827-852b-5607bfc135f6": {
-    "id": 2,
+    "id": "f4528ad9-c749-5827-852b-5607bfc135f6",
+    "tempediaId": 2,
     "name": "Oree",
     "description": "One of the first prototypes created in Nanto Labs, Oree's early versions were the forerunners of Digital Temtem. Inquisitive creatures by design, they show great curiosity and a boundless appetite for information.",
     "types": [
@@ -125,7 +127,8 @@
     ]
   },
   "67b2e11a-dd17-576b-85a6-aee3bda1aeec": {
-    "id": 3,
+    "id": "67b2e11a-dd17-576b-85a6-aee3bda1aeec",
+    "tempediaId": 3,
     "name": "Zaobian",
     "description": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
     "types": [
@@ -185,7 +188,8 @@
     "evolutions": []
   },
   "06e903c7-1cdf-5501-9a7f-3a9f0cfc6179": {
-    "id": 4,
+    "id": "06e903c7-1cdf-5501-9a7f-3a9f0cfc6179",
+    "tempediaId": 4,
     "name": "Chromeon (Neutral)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -249,7 +253,8 @@
     "evolutions": []
   },
   "42dcd40d-7510-5efb-87e8-5bb176a341f2": {
-    "id": 4,
+    "id": "42dcd40d-7510-5efb-87e8-5bb176a341f2",
+    "tempediaId": 4,
     "name": "Chromeon (Wind)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -313,7 +318,8 @@
     "evolutions": []
   },
   "3963986a-bc49-5558-b89b-73995370fb84": {
-    "id": 4,
+    "id": "3963986a-bc49-5558-b89b-73995370fb84",
+    "tempediaId": 4,
     "name": "Chromeon (Earth)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -377,7 +383,8 @@
     "evolutions": []
   },
   "945b72c2-311f-5d6d-a1c5-c112232ed8d2": {
-    "id": 4,
+    "id": "945b72c2-311f-5d6d-a1c5-c112232ed8d2",
+    "tempediaId": 4,
     "name": "Chromeon (Water)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -441,7 +448,8 @@
     "evolutions": []
   },
   "528f8d1f-58f1-5846-b951-be3e03b635f5": {
-    "id": 4,
+    "id": "528f8d1f-58f1-5846-b951-be3e03b635f5",
+    "tempediaId": 4,
     "name": "Chromeon (Fire)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -505,7 +513,8 @@
     "evolutions": []
   },
   "df9a68bc-556c-5406-8373-3415dada50e8": {
-    "id": 4,
+    "id": "df9a68bc-556c-5406-8373-3415dada50e8",
+    "tempediaId": 4,
     "name": "Chromeon (Nature)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -569,7 +578,8 @@
     "evolutions": []
   },
   "ee43cb03-0406-5002-8ea4-8f104f028ed8": {
-    "id": 4,
+    "id": "ee43cb03-0406-5002-8ea4-8f104f028ed8",
+    "tempediaId": 4,
     "name": "Chromeon (Electric)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -633,7 +643,8 @@
     "evolutions": []
   },
   "0025dcb2-3da9-5c0e-a37f-8193d856ff9c": {
-    "id": 4,
+    "id": "0025dcb2-3da9-5c0e-a37f-8193d856ff9c",
+    "tempediaId": 4,
     "name": "Chromeon (Mental)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -697,7 +708,8 @@
     "evolutions": []
   },
   "6a45e250-c227-5c56-a804-5ac48db7c35e": {
-    "id": 4,
+    "id": "6a45e250-c227-5c56-a804-5ac48db7c35e",
+    "tempediaId": 4,
     "name": "Chromeon (Digital)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -757,7 +769,8 @@
     "evolutions": []
   },
   "2ade5841-ec13-5aa9-8151-78805635c878": {
-    "id": 4,
+    "id": "2ade5841-ec13-5aa9-8151-78805635c878",
+    "tempediaId": 4,
     "name": "Chromeon (Melee)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -821,7 +834,8 @@
     "evolutions": []
   },
   "83555088-bda5-51cb-9166-6f172b902223": {
-    "id": 4,
+    "id": "83555088-bda5-51cb-9166-6f172b902223",
+    "tempediaId": 4,
     "name": "Chromeon (Crystal)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -885,7 +899,8 @@
     "evolutions": []
   },
   "56f67645-3331-5e5f-8a2b-1e7813d61b9b": {
-    "id": 4,
+    "id": "56f67645-3331-5e5f-8a2b-1e7813d61b9b",
+    "tempediaId": 4,
     "name": "Chromeon (Toxic)",
     "description": "Chrome-chrome-Chromeoooon, you come and gooo...' This recent breakthrough of Nanto Labs uses modified Koish DNA to create a Digital Temtem with a variable second-typing for maximum versatility.",
     "types": [
@@ -949,7 +964,8 @@
     "evolutions": []
   },
   "d58047e7-9f16-5ee1-8982-0cfa59e93db1": {
-    "id": 5,
+    "id": "d58047e7-9f16-5ee1-8982-0cfa59e93db1",
+    "tempediaId": 5,
     "name": "Halzhi",
     "description": "This is a newer model from Nanto Labs, specifically designed for Dojo tamers. More intelligent and empathic than older Digitals, it is much more responsive to human commands, and those fortunate enough to have one as a friend wouldn't change it for any other.",
     "types": [
@@ -1017,7 +1033,8 @@
     ]
   },
   "780654ce-2184-5cde-bbab-b07c26ef4360": {
-    "id": 6,
+    "id": "780654ce-2184-5cde-bbab-b07c26ef4360",
+    "tempediaId": 6,
     "name": "Molgu",
     "description": "This model represents a significant upgrade from Halzhi. Surprisingly, Nanto Labs found examples of escaped Molgu evolving on their own, further proving the point thatDigital Temtem are every bit as \"alive\" and \"natural\" as other varieties.",
     "types": [
@@ -1077,7 +1094,8 @@
     "evolutions": []
   },
   "57e0c657-90b2-50b5-adcd-399d9c25a6ce": {
-    "id": 7,
+    "id": "57e0c657-90b2-50b5-adcd-399d9c25a6ce",
+    "tempediaId": 7,
     "name": "Platypet",
     "description": "Platypet was popularized by a cartoon series, and ever since then it has been one of the most popular Temtem with kids. The series had an educative purpose: to teach children that Toxic Temtem are also valid and can be good friends.",
     "types": [
@@ -1149,7 +1167,8 @@
     ]
   },
   "18d74861-d87d-573f-93ce-03fb231b7ed0": {
-    "id": 8,
+    "id": "18d74861-d87d-573f-93ce-03fb231b7ed0",
+    "tempediaId": 8,
     "name": "Platox",
     "description": "Platox share common ancestors with Saipat, but the species diverged centuries ago. While Saipat developed opposable thumbs, Platox specialized in surviving polluted environments. Today they are the most successful feathered Temtem of Tucma.",
     "types": [
@@ -1221,7 +1240,8 @@
     ]
   },
   "58823bcc-0480-5caa-ba37-2d66763df73b": {
-    "id": 9,
+    "id": "58823bcc-0480-5caa-ba37-2d66763df73b",
+    "tempediaId": 9,
     "name": "Platimous",
     "description": "Charles Temwin described them as \"Platox, but more so\". This is usually taken as classic Arburian understatement: Platimous were amongst the most successful apex predators before large-scale taming, and remain very effective fighters.",
     "types": [
@@ -1285,7 +1305,8 @@
     "evolutions": []
   },
   "30d24e81-03e9-597e-b3f2-40ae118c0183": {
-    "id": 10,
+    "id": "30d24e81-03e9-597e-b3f2-40ae118c0183",
+    "tempediaId": 10,
     "name": "Swali",
     "description": "When the harvest season is on, Omninesian fruit-pickers are always careful not to accidentally damage the delicate, chrysalis-like Swali. They grow on certain vines of the rainforest canopy, dropping to the jungle floor once mature and mobile.",
     "types": [
@@ -1353,7 +1374,8 @@
     ]
   },
   "7514875d-21f6-576f-9188-e134dacb015f": {
-    "id": 11,
+    "id": "7514875d-21f6-576f-9188-e134dacb015f",
+    "tempediaId": 11,
     "name": "Loali",
     "description": "Delicate and graceful creatures, Loali are all wings and eyes - and natural charmers. Their hypnotic eyes can completely dazzle their enemies and their constantly fluttering wings allow them to change course in an instant.",
     "types": [
@@ -1417,7 +1439,8 @@
     "evolutions": []
   },
   "aea0fa7b-24d6-5515-b240-c0313ac6a4ac": {
-    "id": 12,
+    "id": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac",
+    "tempediaId": 12,
     "name": "Tateru",
     "description": "Despite their impressive height, Tateru are quite shy and not naturally aggressive. That's why they need proper training before battle. Wild Tateru are recognized for their upright position and sensitive antennae, always alert.",
     "types": [
@@ -1477,7 +1500,8 @@
     "evolutions": []
   },
   "92518c91-5b6c-5fa7-b1ab-57fc13636e07": {
-    "id": 13,
+    "id": "92518c91-5b6c-5fa7-b1ab-57fc13636e07",
+    "tempediaId": 13,
     "name": "Gharunder",
     "description": "Popularly known as \"the monster of the sewers\", this species descends from proto-Temtemic lifeforms of the Xolot Reservoir. It is no surprise it has adapted to an extremely toxic ecosystem.",
     "types": [
@@ -1541,7 +1565,8 @@
     "evolutions": []
   },
   "84510839-3f75-5e99-a8aa-e22744c5c8c6": {
-    "id": 14,
+    "id": "84510839-3f75-5e99-a8aa-e22744c5c8c6",
+    "tempediaId": 14,
     "name": "Mosu",
     "description": "The adorable Mosu descends from the primeval pachyderms that roamed the Greenglen Forest back when it was part of a great boreal forest spanning almost half of Paninsula.",
     "types": [
@@ -1609,7 +1634,8 @@
     ]
   },
   "54228b3b-b94c-522f-9cd7-84394419fce0": {
-    "id": 15,
+    "id": "54228b3b-b94c-522f-9cd7-84394419fce0",
+    "tempediaId": 15,
     "name": "Magmut",
     "description": "Temtemologists believe Magmut developed their characteristic flaming mane as an adaptation to the colder and wetter climate of the Lochburg moors.",
     "types": [
@@ -1673,7 +1699,8 @@
     "evolutions": []
   },
   "40c0b1ae-4d7e-59d4-bbe3-62381be81e03": {
-    "id": 16,
+    "id": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03",
+    "tempediaId": 16,
     "name": "Paharo",
     "description": "Paharo tend to hide in treetops and lurk, their green \"mask\" allowing them to blend in with the foliage. Often the only way to locate them is to look for the telltale gleam of their eyes.",
     "types": [
@@ -1741,7 +1768,8 @@
     ]
   },
   "849291ca-eab3-5baf-80cd-d92f6966a586": {
-    "id": 17,
+    "id": "849291ca-eab3-5baf-80cd-d92f6966a586",
+    "tempediaId": 17,
     "name": "Paharac",
     "description": "Due to their bigger size and stronger physique, Paharac doesn’t actually need camouflage, but they still love to flaunt their turquoise facial feathers with great pride.",
     "types": [
@@ -1809,7 +1837,8 @@
     ]
   },
   "ee70478e-811e-5c41-9cdb-8b72cc39cc09": {
-    "id": 18,
+    "id": "ee70478e-811e-5c41-9cdb-8b72cc39cc09",
+    "tempediaId": 18,
     "name": "Granpah",
     "description": "The authoritative stare of a Granpah portrays the long time and many battles that it takes to achieve this evolutionary stage. They have earned their respect among younger Wind Temtem.",
     "types": [
@@ -1869,7 +1898,8 @@
     "evolutions": []
   },
   "64863ac2-0aeb-568a-9b99-e7860d690fc7": {
-    "id": 19,
+    "id": "64863ac2-0aeb-568a-9b99-e7860d690fc7",
+    "tempediaId": 19,
     "name": "Ampling",
     "description": "Native to the steep slopes of the Iwaba highlands, Ampling are as adorable as electrifying. Neoedo children are familiar with them, thanks to regular school trips to observe these charming creatures in their natural habitat.",
     "types": [
@@ -1937,7 +1967,8 @@
     ]
   },
   "04ae6468-f5ec-5d75-80b1-2aa34a231a1d": {
-    "id": 20,
+    "id": "04ae6468-f5ec-5d75-80b1-2aa34a231a1d",
+    "tempediaId": 20,
     "name": "Amphatyr",
     "description": "Amphatyr are a prime example of 'cervus electricus', agile and majestic. Their mating habit of locking horns causes beautiful displays of electric sparks and discharge arcs that have been compared to tiny aurorae.",
     "types": [
@@ -2001,7 +2032,8 @@
     "evolutions": []
   },
   "c9a067dc-184f-517a-b077-004f2aeb9b2e": {
-    "id": 21,
+    "id": "c9a067dc-184f-517a-b077-004f2aeb9b2e",
+    "tempediaId": 21,
     "name": "Bunbun",
     "description": "These adorable creatures are probably a remnant from the times Tucma and Kisiwa were a single island. While their strong Earth DNA is clearly of Kisiwan origin, the crystalline contents in their paws betray a definite Tucmani influence. They are social and easy to tame.",
     "types": [
@@ -2073,7 +2105,8 @@
     ]
   },
   "69bc04d8-6e1b-5a28-87db-9a49d8f1c1f3": {
-    "id": 22,
+    "id": "69bc04d8-6e1b-5a28-87db-9a49d8f1c1f3",
+    "tempediaId": 22,
     "name": "Mudrid",
     "description": "Bigger and more resilient than Bunbun, Mudrid are hardy Temtem, used to extreme weather conditions. Their extremely fine sense of hearing makes them very valuable scouting Temtem once tamed... but also harder to catch in the wild.",
     "types": [
@@ -2137,7 +2170,8 @@
     "evolutions": []
   },
   "049f4c56-6032-5726-a5bf-0edeb37ded41": {
-    "id": 23,
+    "id": "049f4c56-6032-5726-a5bf-0edeb37ded41",
+    "tempediaId": 23,
     "name": "Hidody",
     "description": "This cutie is an adept climber, thanks to the little suckers located in each of its eight stubby legs. For the same reason, Omninesian children quickly learn to hide their cookies instead of putting them on the higher shelf...",
     "types": [
@@ -2205,7 +2239,8 @@
     ]
   },
   "1f71d7c2-ba29-5987-9cba-364701c57b42": {
-    "id": 24,
+    "id": "1f71d7c2-ba29-5987-9cba-364701c57b42",
+    "tempediaId": 24,
     "name": "Taifu",
     "description": "Brought up on a steady diet of stolen cookies, Hidody evolves into the more agile Taifu. They are naughty but cute creatures, naturally given to light-hearted mischief... but very serious opponents in battle.",
     "types": [
@@ -2265,7 +2300,8 @@
     "evolutions": []
   },
   "7e24bfc7-8111-5730-9cb4-05ea3066552d": {
-    "id": 25,
+    "id": "7e24bfc7-8111-5730-9cb4-05ea3066552d",
+    "tempediaId": 25,
     "name": "Fomu",
     "description": "These Temtem are known for their capacity to generate vapor, like charming little steam engines. Since that means losing a lot of moisture, this species prefers to remain in the water and use steam jets for propulsion rather than its short legs.",
     "types": [
@@ -2333,7 +2369,8 @@
     ]
   },
   "1280c782-7f02-51bb-807d-34b2bb1c9111": {
-    "id": 26,
+    "id": "1280c782-7f02-51bb-807d-34b2bb1c9111",
+    "tempediaId": 26,
     "name": "Wiplump",
     "description": "Wiplump takes Fomu's clever use of water vapor one step further - flying on steam wings, this species boasts increased range and speed, paired with a stronger attack thanks to its sturdier horn.",
     "types": [
@@ -2397,7 +2434,8 @@
     "evolutions": []
   },
   "0fcda6ca-8a5b-5321-ac3f-c460163cbee0": {
-    "id": 27,
+    "id": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0",
+    "tempediaId": 27,
     "name": "Skail",
     "description": "This species of Temtem is notoriously bad-tempered, and tamers need all their skills to handle them. Once tamed, these muscular creatures can deliver powerful tail blows in battle.",
     "types": [
@@ -2465,7 +2503,8 @@
     ]
   },
   "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6": {
-    "id": 28,
+    "id": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6",
+    "tempediaId": 28,
     "name": "Skunch",
     "description": "Unlike their lesser brethren, Skunch are capable of bipedalism and can even stand on their muscular tails. This evolution allows them to pummel enemies with their massive fists... but it's done nothing to ameliorate their aggressive mood.",
     "types": [
@@ -2529,7 +2568,8 @@
     "evolutions": []
   },
   "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc": {
-    "id": 29,
+    "id": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc",
+    "tempediaId": 29,
     "name": "Goty",
     "description": "Voted Best Temtem every year by Neutral enthusiasts, Goty is as effective as it is cute. This little crowd-pleaser is particularly popular among casual Kisiwan tamers.",
     "types": [
@@ -2597,7 +2637,8 @@
     ]
   },
   "68392908-e4ab-5d11-8fc6-ae7a50ce5595": {
-    "id": 30,
+    "id": "68392908-e4ab-5d11-8fc6-ae7a50ce5595",
+    "tempediaId": 30,
     "name": "Mouflank",
     "description": "With their imposing horns, grazing Mouflank herds used to be serious natural hazards of the Kisiwan plains. The tribes soon learned how to tame them to avoid dangerous stampedes.",
     "types": [
@@ -2657,7 +2698,8 @@
     "evolutions": []
   },
   "f7795b8c-3db5-5ca0-8507-53abd7535d22": {
-    "id": 31,
+    "id": "f7795b8c-3db5-5ca0-8507-53abd7535d22",
+    "tempediaId": 31,
     "name": "Rhoulder",
     "description": "Once king of the Kisiwan savannah, this species boasts incredibly hard lamellar plates. Before the time of Chacha Turay, they were used in tribal warfare as armored cavalry.",
     "types": [
@@ -2721,7 +2763,8 @@
     "evolutions": []
   },
   "6c1ef2f1-6d8d-5e6e-a1c1-6879cef895d5": {
-    "id": 32,
+    "id": "6c1ef2f1-6d8d-5e6e-a1c1-6879cef895d5",
+    "tempediaId": 32,
     "name": "Houchic",
     "description": "Clever but somehow naive, the gentle Houchic are ideal as the first Mental Temtem for novice trainers. They are emphatic and intuitive, capable of understanding the subtleties of mentalism.",
     "types": [
@@ -2789,7 +2832,8 @@
     ]
   },
   "d3387bad-488f-51c4-a001-0a8eae57c4b0": {
-    "id": 33,
+    "id": "d3387bad-488f-51c4-a001-0a8eae57c4b0",
+    "tempediaId": 33,
     "name": "Tental",
     "description": "Houchic eventually evolves into the more mature Tental - shrewder creatures, whose writhing tentacles serve as apt metaphors for their ever-twisting, sibylline minds.",
     "types": [
@@ -2857,7 +2901,8 @@
     ]
   },
   "5c09f252-615b-5e99-9119-e4f343c6b722": {
-    "id": 34,
+    "id": "5c09f252-615b-5e99-9119-e4f343c6b722",
+    "tempediaId": 34,
     "name": "Nagaise",
     "description": "Cipanki legends are full of sage Nagaise giving cryptic advice to folk heroes - an early example of the traditional association of this species with wisdom, insight, and spirituality.",
     "types": [
@@ -2921,7 +2966,8 @@
     "evolutions": []
   },
   "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3": {
-    "id": 35,
+    "id": "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3",
+    "tempediaId": 35,
     "name": "Orphyll",
     "description": "Probably a mutation from an ancient serpentine strand of Nature Temtem, Orphyll show remarkable adaptation to noxious conditions. They feature prominently in the art of ancient proto-Arburian cultures, who feared and revered them.",
     "types": [
@@ -2993,7 +3039,8 @@
     ]
   },
   "34341744-5378-5cf0-b98e-511910915389": {
-    "id": 36,
+    "id": "34341744-5378-5cf0-b98e-511910915389",
+    "tempediaId": 36,
     "name": "Nidrasil",
     "description": "Long considered to be a legend, this species was scientifically verified just decades ago. Temtemologists are still debating how the nervous system of Nidrasil copes with three separate encephalic centers.",
     "types": [
@@ -3057,7 +3104,8 @@
     "evolutions": []
   },
   "c6929b50-96da-5fe4-9839-ba9251a81eed": {
-    "id": 37,
+    "id": "c6929b50-96da-5fe4-9839-ba9251a81eed",
+    "tempediaId": 37,
     "name": "Banapi",
     "description": "Capricious and stubborn, these Temtem roam the side of the Anak volcano, grazing on burning coals instead of grass. Notably difficult to tame, they set the right expectations for prospective Fire Temtem tamers...",
     "types": [
@@ -3125,7 +3173,8 @@
     ]
   },
   "9ca7cba9-069b-52e2-b47a-d2c80b56d81f": {
-    "id": 38,
+    "id": "9ca7cba9-069b-52e2-b47a-d2c80b56d81f",
+    "tempediaId": 38,
     "name": "Capyre",
     "description": "These temperamental creatures often appear in Myrislan folklore as tricksters, their unreliable nature embedded deeply in the culture. Highly territorial, they breed in Anak and make sure any visitors know just how unwelcome they are.",
     "types": [
@@ -3185,7 +3234,8 @@
     "evolutions": []
   },
   "11f998ce-0ada-5d4a-adb9-df7a76b55b70": {
-    "id": 39,
+    "id": "11f998ce-0ada-5d4a-adb9-df7a76b55b70",
+    "tempediaId": 39,
     "name": "Lapinite",
     "description": "Extremely common in Tucma, these little creatures are often the first Temtem of every young Quetzaleño. They are cheerful and resistant playmates for toddlers, and it is common practise to lightly file off the edges of their crystals to ensure safety.",
     "types": [
@@ -3253,7 +3303,8 @@
     ]
   },
   "44e79fec-8eca-5e01-ac6e-bc8588cfc8a5": {
-    "id": 40,
+    "id": "44e79fec-8eca-5e01-ac6e-bc8588cfc8a5",
+    "tempediaId": 40,
     "name": "Azuroc",
     "description": "This Temtem is a common sight in the Mines of Quetzal, where miners appreciate their skill when dislodging big chunks of ore and gemstones. Its correct and expert handling is a professional requisite for most of them.",
     "types": [
@@ -3321,7 +3372,8 @@
     ]
   },
   "91726c0d-7535-59e6-a36b-e694333d2f28": {
-    "id": 41,
+    "id": "91726c0d-7535-59e6-a36b-e694333d2f28",
+    "tempediaId": 41,
     "name": "Zenoreth",
     "description": "Any given night at the Jaguar Lounge, drunken miners whisper tall tales about great crystalline behemoths lurking in the darkest abyss under the city. This Temtem is probably the base of all those urban legends... probably.",
     "types": [
@@ -3381,7 +3433,8 @@
     "evolutions": []
   },
   "ea3a6000-de03-5753-8c78-da6a78a8b79e": {
-    "id": 42,
+    "id": "ea3a6000-de03-5753-8c78-da6a78a8b79e",
+    "tempediaId": 42,
     "name": "Reval",
     "description": "Related to diverse (now extinct) subspecies of Cipanki 'vulpes mentalis', Reval used to be hunted by the Counts of House Braeside. Nowadays, they are protected and thrive in the forests of eastern Arbury.",
     "types": [
@@ -3449,7 +3502,8 @@
     ]
   },
   "a8125878-10eb-57ee-a39f-f0588d8576a6": {
-    "id": 43,
+    "id": "a8125878-10eb-57ee-a39f-f0588d8576a6",
+    "tempediaId": 43,
     "name": "Aohi",
     "description": "Fast and sinuous like wildfire, Aohi are cunning and sly creatures who routinely outsmart all but the most seasoned of tamers. Even in the wild, they delight in tricking the more gullible Reval.",
     "types": [
@@ -3513,7 +3567,8 @@
     "evolutions": []
   },
   "779934f7-a8f1-5d8d-8e79-5e99778e9b38": {
-    "id": 44,
+    "id": "779934f7-a8f1-5d8d-8e79-5e99778e9b38",
+    "tempediaId": 44,
     "name": "Bigu",
     "description": "If there's an easily underestimated Temtem, that's Bigu. Comically ill-tempered, many tamers have found to their cost that these gastropods compensate their slow pace with outstanding tenacity in battle.",
     "types": [
@@ -3581,7 +3636,8 @@
     ]
   },
   "6ccf348d-d441-5af7-bbe1-4a12a661d7e9": {
-    "id": 45,
+    "id": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9",
+    "tempediaId": 45,
     "name": "Babawa",
     "description": "These Temtem are flamboyant creatures with a funky sense of humor and boundless love for pranks and practical jokes. Many a naughty kid has donned a Babawa costume to cause havoc in the Quetzal Carnival.",
     "types": [
@@ -3645,7 +3701,8 @@
     "evolutions": []
   },
   "3bedbb17-8c2e-59dd-a7ec-77702c881165": {
-    "id": 46,
+    "id": "3bedbb17-8c2e-59dd-a7ec-77702c881165",
+    "tempediaId": 46,
     "name": "0b1",
     "description": "0b1's simple and friendly appearance belies their boldness as a creation - they are the Digital embodiment of a subatomic particle, whose very existence raises almost as many questions as it answers for physics modeling.",
     "types": [
@@ -3717,7 +3774,8 @@
     ]
   },
   "8e6cdc7c-8ee7-5911-955a-5035eae03356": {
-    "id": 47,
+    "id": "8e6cdc7c-8ee7-5911-955a-5035eae03356",
+    "tempediaId": 47,
     "name": "0b10",
     "description": "Conventional physics can't explain why 0b10 is a two-in-one Temtem, or how their attraction/repulsion dynamics actually work. Tamers don't really care, since this 'Tem is empathetic enough to be tameable... not to mention off-the-charts cute!",
     "types": [
@@ -3781,7 +3839,8 @@
     "evolutions": []
   },
   "96992559-d9cd-5674-9000-989efbced1ea": {
-    "id": 48,
+    "id": "96992559-d9cd-5674-9000-989efbced1ea",
+    "tempediaId": 48,
     "name": "Kaku",
     "description": "Less known than its evolution, Kaku are delightful creatures, cute beyond description. They tend to keep their petals wrapped around the body for protection, although no sane person would ever want to hurt a Kaku.",
     "types": [
@@ -3849,7 +3908,8 @@
     ]
   },
   "130bf39f-dde8-50d4-b7db-c035830ce064": {
-    "id": 49,
+    "id": "130bf39f-dde8-50d4-b7db-c035830ce064",
+    "tempediaId": 49,
     "name": "Saku",
     "description": "Some say the first airship designs were inspired by this Temtem's ability to inflate air pockets within its body, allowing it to float and drift with the prevailing winds.",
     "types": [
@@ -3913,7 +3973,8 @@
     "evolutions": []
   },
   "6e7ac684-7f54-5fc0-8925-804eefd3f7c3": {
-    "id": 50,
+    "id": "6e7ac684-7f54-5fc0-8925-804eefd3f7c3",
+    "tempediaId": 50,
     "name": "Valash",
     "description": "A fascinating offshoot, Valash is a rare case of bipedal hybrid, documented only recently. The care with which it keeps its forearm crystals sharpened betrays some sort of primitive sentience.",
     "types": [
@@ -3977,7 +4038,8 @@
     "evolutions": []
   },
   "f4652878-55e9-5e6c-a883-dbd77cbbf180": {
-    "id": 51,
+    "id": "f4652878-55e9-5e6c-a883-dbd77cbbf180",
+    "tempediaId": 51,
     "name": "Towly",
     "description": "Propertonian toddlers are taught not to be afraid of this gentle species, in spite of the unnerving appearance of their large, shiny eyes when encountered in the forest at night.",
     "types": [
@@ -4056,7 +4118,8 @@
     ]
   },
   "6766ad83-c512-52fa-8a23-967663d0308c": {
-    "id": 52,
+    "id": "6766ad83-c512-52fa-8a23-967663d0308c",
+    "tempediaId": 52,
     "name": "Owlhe",
     "description": "This lordly Temtem reigns supreme over the Arburian skies and is said to possess almost-human intelligence. Some tamers are known to have even invited Owlhe over for afternoon tea...",
     "types": [
@@ -4120,7 +4183,8 @@
     "evolutions": []
   },
   "1bf74090-ebad-5215-9216-72b11c2857ed": {
-    "id": 53,
+    "id": "1bf74090-ebad-5215-9216-72b11c2857ed",
+    "tempediaId": 53,
     "name": "Barnshe",
     "description": "Traditionally associated with the University of Arbury as its heraldic Temtem, this species has a deep, piercing stare. Although winged, it prefers to keep to the ground and use its mind as a weapon - a symbolism the academics are very fond of.",
     "types": [
@@ -4184,7 +4248,8 @@
     "evolutions": []
   },
   "a5ae0dea-07f1-5934-9b93-52e89c7d6409": {
-    "id": 54,
+    "id": "a5ae0dea-07f1-5934-9b93-52e89c7d6409",
+    "tempediaId": 54,
     "name": "Gyalis",
     "description": "Gyalis have appeared in many horror movies. Sadly, this has resulted in a bad reputation as a \"scary evil monster\", not helped by its menacing appearance - but in the hands of a kind tamer, Gyalis can be every bit as tender and loving as the plushest of Pigepics.",
     "types": [
@@ -4248,7 +4313,8 @@
     "evolutions": []
   },
   "18664e6d-77b6-5158-aa68-ebeb9b1d1ca6": {
-    "id": 55,
+    "id": "18664e6d-77b6-5158-aa68-ebeb9b1d1ca6",
+    "tempediaId": 55,
     "name": "Occlura",
     "description": "Despite its creepy appearance, Occlura are mineral-eaters that never pose any danger to humans. Their tame nature and their appetite for raw rock make them valuable assets for mining purposes, as the Tucmani know very well.",
     "types": [
@@ -4316,7 +4382,8 @@
     ]
   },
   "a8ad134a-f546-5160-a215-683d369ee12c": {
-    "id": 56,
+    "id": "a8ad134a-f546-5160-a215-683d369ee12c",
+    "tempediaId": 56,
     "name": "Myx",
     "description": "The oldest written records in Tucma indicate religious awe of Myx, considered to be embodiments of the \"dark spirits\". Some were considered to be celestial emissaries of Highabove, some evil messengers of Downbelow... but all were feared. With good reason.",
     "types": [
@@ -4380,7 +4447,8 @@
     "evolutions": []
   },
   "56163cb7-af61-58aa-843a-bf1b64057fdc": {
-    "id": 57,
+    "id": "56163cb7-af61-58aa-843a-bf1b64057fdc",
+    "tempediaId": 57,
     "name": "Raiber",
     "description": "Raiber is often given to novice tamers in Omninesian Dojos because it is relatively mild-mannered for a Fire Temtem. Easier to handle than the mightier varieties, it is nevertheless a loyal companion and decent fighter.",
     "types": [
@@ -4448,7 +4516,8 @@
     ]
   },
   "da2b197d-b5d8-5193-879d-175814b37961": {
-    "id": 58,
+    "id": "da2b197d-b5d8-5193-879d-175814b37961",
+    "tempediaId": 58,
     "name": "Raize",
     "description": "Fierce and indomitable as the fire, Raize are difficult to tame but extremely valuable as fighting Temtem. Each has a characteristic birthmark on the snout, as unique as the movements of a single flame.",
     "types": [
@@ -4516,7 +4585,8 @@
     ]
   },
   "3ae2f2d6-fa28-5639-825e-a88bd734cdd5": {
-    "id": 59,
+    "id": "3ae2f2d6-fa28-5639-825e-a88bd734cdd5",
+    "tempediaId": 59,
     "name": "Raican",
     "description": "As the Tucmani legend goes, at the beginning of time, Tucma and Kisiwa were one single fire plain where huge herds of Raican ran wild and free, flame and Temtem being one until the Archipelago cooled and these noble creatures emigrated underground.",
     "types": [
@@ -4576,7 +4646,8 @@
     "evolutions": []
   },
   "88f0f654-be8c-5fa7-b604-4c50639dc7c4": {
-    "id": 60,
+    "id": "88f0f654-be8c-5fa7-b604-4c50639dc7c4",
+    "tempediaId": 60,
     "name": "Pewki",
     "description": "Their flat shape allows Pewki to float right under the water surface, while they scout around using their huge, widely spaced eyes. Their iconic tall fins are often the only way to tell them apart from driftwood.",
     "types": [
@@ -4644,7 +4715,8 @@
     ]
   },
   "6c0eb66a-1523-5afd-a6df-788ea9966c2f": {
-    "id": 61,
+    "id": "6c0eb66a-1523-5afd-a6df-788ea9966c2f",
+    "tempediaId": 61,
     "name": "Piraniant",
     "description": "A native species of Deniz, this Temtem tends to drift with the Sillaro current, to conserve energy... but once brought into battle, its size makes it a powerful fighter.",
     "types": [
@@ -4704,7 +4776,8 @@
     "evolutions": []
   },
   "a416a6cc-b092-5960-8fd1-77ae8f7f1c98": {
-    "id": 62,
+    "id": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98",
+    "tempediaId": 62,
     "name": "Scarawatt",
     "description": "As the old joke goes, \"when you're a tamer in Cipanku, it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
     "types": [
@@ -4772,7 +4845,8 @@
     ]
   },
   "974b6dca-41da-53e5-887a-d0ca3fc21c4e": {
-    "id": 63,
+    "id": "974b6dca-41da-53e5-887a-d0ca3fc21c4e",
+    "tempediaId": 63,
     "name": "Scaravolt",
     "description": "Initially mistaken as a minor mutation of Scarawatt, Scaravolt is strongly associated with Miyako and the bonfires the yamabushi would light on the mountaintops on cold nights. On such an occasion, a sighting of this Temtem was considered a good omen.",
     "types": [
@@ -4836,7 +4910,8 @@
     "evolutions": []
   },
   "cf955924-227e-5616-b5c0-3f833ad2110c": {
-    "id": 64,
+    "id": "cf955924-227e-5616-b5c0-3f833ad2110c",
+    "tempediaId": 64,
     "name": "Hoglip",
     "description": "Some of the first Digital Temtem were prone to accidentally catching fire. Hoglip is the answer to this problem, a little friend who is totally at home in a blaze. Given that feature, it's often used for rescue by fire crews.",
     "types": [
@@ -4908,7 +4983,8 @@
     ]
   },
   "2a67bc40-6788-5825-bddf-44685fd90a7f": {
-    "id": 65,
+    "id": "2a67bc40-6788-5825-bddf-44685fd90a7f",
+    "tempediaId": 65,
     "name": "Hedgine",
     "description": "Mischievous but sweet, Hedgine are so kawaii tamers are regularly reminded to don fireproof gloves before petting them, to avoid getting first-degree burns. They are also instructed to keep them supervised in wooden areas.",
     "types": [
@@ -4972,7 +5048,8 @@
     "evolutions": []
   },
   "01f11b06-be83-504e-b896-9bdce6db0506": {
-    "id": 66,
+    "id": "01f11b06-be83-504e-b896-9bdce6db0506",
+    "tempediaId": 66,
     "name": "Osuchi",
     "description": "Shy and unassuming, Osuchi are generally considered benevolent, steadfast friends. Often confused with rock outcroppings by the untrained eye, they are at home in the Jino Gap.",
     "types": [
@@ -5040,7 +5117,8 @@
     ]
   },
   "8cc63fb3-0539-5805-a33e-dc3785c0bc7d": {
-    "id": 67,
+    "id": "8cc63fb3-0539-5805-a33e-dc3785c0bc7d",
+    "tempediaId": 67,
     "name": "Osukan",
     "description": "Osukan are the perfect embodiment of the endurance and grit of the best Temtem fighters. They are sturdy, obstinate creatures that love nothing better than to show their prowess in a hard, honest battle against a worthy rival.",
     "types": [
@@ -5112,7 +5190,8 @@
     ]
   },
   "7619c1ae-d946-5980-be4a-f811600c5454": {
-    "id": 68,
+    "id": "7619c1ae-d946-5980-be4a-f811600c5454",
+    "tempediaId": 68,
     "name": "Osukai",
     "description": "Massive, four-armed Osukai are as hard as granite. They are credited with much of the boring heavy-lifting during the construction of the tunnels under the Kilima Range.",
     "types": [
@@ -5176,7 +5255,8 @@
     "evolutions": []
   },
   "e82f1767-a39a-5d80-879f-1e94cf10e376": {
-    "id": 69,
+    "id": "e82f1767-a39a-5d80-879f-1e94cf10e376",
+    "tempediaId": 69,
     "name": "Saipat",
     "description": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
     "types": [
@@ -5240,7 +5320,8 @@
     "evolutions": []
   },
   "c27575df-d6e8-555c-9124-dff07670c594": {
-    "id": 70,
+    "id": "c27575df-d6e8-555c-9124-dff07670c594",
+    "tempediaId": 70,
     "name": "Pycko",
     "description": "Bubbly and cheerful, this Temtem is the protagonist of an animation series aimed at warning children of the dangers of fire. It has been a lifelong friend to many first-time tamers.",
     "types": [
@@ -5312,7 +5393,8 @@
     ]
   },
   "a516f2a9-28b0-5180-a0f7-5ee60a353ed9": {
-    "id": 71,
+    "id": "a516f2a9-28b0-5180-a0f7-5ee60a353ed9",
+    "tempediaId": 71,
     "name": "Drakash",
     "description": "Selective breeding for bipedalism meant this variety of Temtem is faster and more suited for human tasks than its predecessors. Often given as a New Year's gift between Kisiwans and Tucmani.",
     "types": [
@@ -5376,7 +5458,8 @@
     "evolutions": []
   },
   "75f505b9-17ad-599c-b0db-24f353e3a856": {
-    "id": 72,
+    "id": "75f505b9-17ad-599c-b0db-24f353e3a856",
+    "tempediaId": 72,
     "name": "Crystle",
     "description": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
     "types": [
@@ -5444,7 +5527,8 @@
     ]
   },
   "970d611e-6210-5253-b4e2-ba1b2e44160d": {
-    "id": 73,
+    "id": "970d611e-6210-5253-b4e2-ba1b2e44160d",
+    "tempediaId": 73,
     "name": "Sherald",
     "description": "Sherald are known to evolve from Crystle- in the wild, as a result of exposure to the harsh environmental conditions of Tucma. They extract nutrients from the chemical interactions of metamorphic rocks and volcanic ashes.",
     "types": [
@@ -5512,7 +5596,8 @@
     ]
   },
   "a6022ddf-082d-5e4d-b65b-370baa606017": {
-    "id": 74,
+    "id": "a6022ddf-082d-5e4d-b65b-370baa606017",
+    "tempediaId": 74,
     "name": "Tortenite",
     "description": "Tortenite are lumbering creatures, often employed by Tucmani miners as work companions. In the wild, they are often spotted herding Sherald as pack leaders.",
     "types": [
@@ -5576,7 +5661,8 @@
     "evolutions": []
   },
   "453b6a39-ffbe-5d3a-bcbd-84c5496d151c": {
-    "id": 75,
+    "id": "453b6a39-ffbe-5d3a-bcbd-84c5496d151c",
+    "tempediaId": 75,
     "name": "Innki",
     "description": "Known as the most elusive Temtem in Cipanku, possession of an Innki is the ultimate marker of mastery amongst Neoedo tamers.",
     "types": [
@@ -5640,7 +5726,8 @@
     "evolutions": []
   },
   "ade8b755-de0e-5cb7-a8ae-99f11a9403ef": {
-    "id": 76,
+    "id": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef",
+    "tempediaId": 76,
     "name": "Shaolite",
     "description": "If there is a Temtem whose reputation as \"a cutie\" overshadows its proficiency, it's Shaolite. \"Oooh, look, smol karateka! <3\" is often heard right before a crushing defeat.",
     "types": [
@@ -5708,7 +5795,8 @@
     ]
   },
   "fef996f7-2de9-5ab4-98a8-c8aeca1d4442": {
-    "id": 77,
+    "id": "fef996f7-2de9-5ab4-98a8-c8aeca1d4442",
+    "tempediaId": 77,
     "name": "Shaolant",
     "description": "Bigger and meaner than Shaolite, Shaolant have become the darlings of the tamers of Lochburg Dojo who want to command respect for their choice of squad.",
     "types": [
@@ -5768,7 +5856,8 @@
     "evolutions": []
   },
   "ac52113f-98c4-532e-a721-0cf71b01015b": {
-    "id": 78,
+    "id": "ac52113f-98c4-532e-a721-0cf71b01015b",
+    "tempediaId": 78,
     "name": "Cycrox",
     "description": "One rumor tells of a Mimit that fell into a Xolot. Another one, of a Nanto boffin accidentally spilling coffee on some circuitry. Be as it may, Cycrox is as close as it gets to a computer virus, but in the flesh... and in the silicon.",
     "types": [
@@ -5832,7 +5921,8 @@
     "evolutions": []
   },
   "3fd9e4d1-eb64-50f4-905a-50a3f64dd096": {
-    "id": 79,
+    "id": "3fd9e4d1-eb64-50f4-905a-50a3f64dd096",
+    "tempediaId": 79,
     "name": "Hocus",
     "description": "Arcane and blue-blooded, Hocus have been selectively bred for generations and kept as dynastic heirlooms of the House of Braeside. They are fine weapons, trained to be battle Temtem for the ancient aristocracy, a rare sight nowadays.",
     "types": [
@@ -5900,7 +5990,8 @@
     ]
   },
   "ab38979d-4076-54d2-bfc5-cbb4022acaa5": {
-    "id": 80,
+    "id": "ab38979d-4076-54d2-bfc5-cbb4022acaa5",
+    "tempediaId": 80,
     "name": "Pocus",
     "description": "Pocus was considered blue-blooded among the blue bloods, and was traditionally given only to the male heirs of the House of Braeside. When the lineage fell, they mostly went extinct... until recently.",
     "types": [
@@ -5960,7 +6051,8 @@
     "evolutions": []
   },
   "9cb87985-9079-5de9-8c44-2c35f1ed19fd": {
-    "id": 81,
+    "id": "9cb87985-9079-5de9-8c44-2c35f1ed19fd",
+    "tempediaId": 81,
     "name": "Smolzy",
     "description": "Few Temtem look so deceptively comical as Smolzy - underestimating it in battle is the mark of the rookie tamer. Beyond their adorably helpless appearance, they are appreciated as some of the most reliable Electrical Temtem for daily use.",
     "types": [
@@ -6028,7 +6120,8 @@
     ]
   },
   "0df92eba-27e0-5f08-a1f3-f1aab08b0942": {
-    "id": 82,
+    "id": "0df92eba-27e0-5f08-a1f3-f1aab08b0942",
+    "tempediaId": 82,
     "name": "Sparzy",
     "description": "Also known familiarly as \"Sparky\", this Temtem is a common sight in Cipanku. Children are warned to keep away from them. Although normally good-natured and cheerful, they can involuntarily discharge considerable electric shocks.",
     "types": [
@@ -6096,7 +6189,8 @@
     ]
   },
   "6275a174-bc73-5eaa-8d68-8ed137fbef8f": {
-    "id": 83,
+    "id": "6275a174-bc73-5eaa-8d68-8ed137fbef8f",
+    "tempediaId": 83,
     "name": "Golzy",
     "description": "Bred by the patient priests of Miyaka from local varieties of Electric Temtem, Golzy is a gentle giant that helps the villagers carry heavy loads through the difficult mountain passes. Their consistant presence has become a symbol of the Monastery.",
     "types": [
@@ -6160,7 +6254,8 @@
     "evolutions": []
   },
   "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9": {
-    "id": 84,
+    "id": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9",
+    "tempediaId": 84,
     "name": "Mushi",
     "description": "Closely related to the non-sentient fungi of the Corrupted Badlands, Mushi are shy but territorial. Always mineral-hungry, wise tamers keep them well away from Crystal Temtem.",
     "types": [
@@ -6228,7 +6323,8 @@
     ]
   },
   "ddad0c18-86fd-5bd5-9d78-7f01da618807": {
-    "id": 85,
+    "id": "ddad0c18-86fd-5bd5-9d78-7f01da618807",
+    "tempediaId": 85,
     "name": "Mushook",
     "description": "Mushook are a hybrid variety, developed at the Quetzal Dojo by expert breeders. Strong and single-minded, some of the bigger specimens are occasionally employed by the Guards as static sentries at strategic points.",
     "types": [
@@ -6292,7 +6388,8 @@
     "evolutions": []
   },
   "af562386-7dbd-5107-80a2-6f416ef1db1d": {
-    "id": 86,
+    "id": "af562386-7dbd-5107-80a2-6f416ef1db1d",
+    "tempediaId": 86,
     "name": "Magmis",
     "description": "Magmis' original habitat was in the lava rivers under the Anak caldera, but now they can be found all around the Archipelago, as foundry operators in Quetzal, heating systems in Arbury... And, of course, in Temtem battles.",
     "types": [
@@ -6360,7 +6457,8 @@
     ]
   },
   "0efbd4ff-fc46-5efa-87eb-edd084dd0786": {
-    "id": 87,
+    "id": "0efbd4ff-fc46-5efa-87eb-edd084dd0786",
+    "tempediaId": 87,
     "name": "Mastione",
     "description": "Mastione are fire-loving Temtem, at home in the fiercest of blazes. They can be found grazing in woods devoured by wildfire. The tamed varieties learn to rein in their destructive tendencies - but even then, trainers should exercise care.",
     "types": [
@@ -6424,7 +6522,8 @@
     "evolutions": []
   },
   "adb00f39-8371-55f6-9c2f-c8f31654154a": {
-    "id": 88,
+    "id": "adb00f39-8371-55f6-9c2f-c8f31654154a",
+    "tempediaId": 88,
     "name": "Umishi",
     "description": "The Umishi feature in many Denizan tales, usually saving drowning sailors and helping them get to shore. These so-called \"sea-angels\" are dependable friends, and the Riverine Fellowship recommends every member keep at least one in their squad.",
     "types": [
@@ -6492,7 +6591,8 @@
     ]
   },
   "817b1abe-eafe-595f-ba93-992dce189610": {
-    "id": 89,
+    "id": "817b1abe-eafe-595f-ba93-992dce189610",
+    "tempediaId": 89,
     "name": "Ukama",
     "description": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
     "types": [
@@ -6552,7 +6652,8 @@
     "evolutions": []
   },
   "f25b58f0-e1ec-592b-a04e-4ec0b8264011": {
-    "id": 90,
+    "id": "f25b58f0-e1ec-592b-a04e-4ec0b8264011",
+    "tempediaId": 90,
     "name": "Galvanid",
     "description": "Often paired for comedic effect, Galvanid is the downer counterpart to Sparzy's manic persona. Given its usually serious expression, this 'Tem is the perfect butt of all jokes... which conceals a very effective range of attacks.",
     "types": [
@@ -6620,7 +6721,8 @@
     ]
   },
   "65a7352d-58f2-596d-aea0-c964b85f0bd8": {
-    "id": 91,
+    "id": "65a7352d-58f2-596d-aea0-c964b85f0bd8",
+    "tempediaId": 91,
     "name": "Raignet",
     "description": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
     "types": [
@@ -6680,7 +6782,8 @@
     "evolutions": []
   },
   "482cd7ea-4ee6-5f25-873c-e4d8100b9408": {
-    "id": 92,
+    "id": "482cd7ea-4ee6-5f25-873c-e4d8100b9408",
+    "tempediaId": 92,
     "name": "Smazee",
     "description": "These little darlings have been bred for generations as playmates and babysitters for children - although capable fighters, Smazee are naturally cheerful and love playing and monkeying around.",
     "types": [
@@ -6748,7 +6851,8 @@
     ]
   },
   "6331564a-6e2c-5110-84bd-563238ff9d85": {
-    "id": 93,
+    "id": "6331564a-6e2c-5110-84bd-563238ff9d85",
+    "tempediaId": 93,
     "name": "Baboong",
     "description": "Baboong are evolved, street-fighting Temtem, very popular in Lochburg, where they are often employed by pub bouncers. Although naturally good-tempered, they are as fierce as their hot-headed tamers.",
     "types": [
@@ -6816,7 +6920,8 @@
     ]
   },
   "79766758-cc3d-5b63-8416-9ade545cd92b": {
-    "id": 94,
+    "id": "79766758-cc3d-5b63-8416-9ade545cd92b",
+    "tempediaId": 94,
     "name": "Seismunch",
     "description": "Seismunch are great apes, genetically close to humans and much more sophisticated than their lesser brethren. Highly imitative of human behavior, some are said to be nearing proto-human cognition.",
     "types": [
@@ -6880,7 +6985,8 @@
     "evolutions": []
   },
   "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9": {
-    "id": 95,
+    "id": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9",
+    "tempediaId": 95,
     "name": "Zizare",
     "description": "One of the most remarkable inhabitants of the Kisiwan savanna, the powerful Zizare are the biggest creeping Temtem. Proud and territorial, they make for staunch friends.",
     "types": [
@@ -6940,7 +7046,8 @@
     "evolutions": []
   },
   "a199326c-2df2-5f5c-bdad-3df01059dfa6": {
-    "id": 96,
+    "id": "a199326c-2df2-5f5c-bdad-3df01059dfa6",
+    "tempediaId": 96,
     "name": "Gorong",
     "description": "Angry and with a red nose, Gorong attracts many jokes about how much it looks like a Lochburg pub patron. Usually a couple of assaults are enough to put an end to such taunts for good.",
     "types": [
@@ -7000,7 +7107,8 @@
     "evolutions": []
   },
   "f88b68cb-a120-53c7-b303-9dc19e517190": {
-    "id": 97,
+    "id": "f88b68cb-a120-53c7-b303-9dc19e517190",
+    "tempediaId": 97,
     "name": "Mitty",
     "description": "Often derided by Lochburgian tamers as a \"typically Propertonian cuteboi that packs no punch!\", Mitty are gentle and curious Temtem, but also fast learners and extremely effective in the hands of an experienced tamer.",
     "types": [
@@ -7068,7 +7176,8 @@
     ]
   },
   "900f44fa-22ea-5790-b251-4d203708062f": {
-    "id": 98,
+    "id": "900f44fa-22ea-5790-b251-4d203708062f",
+    "tempediaId": 98,
     "name": "Sanbi",
     "description": "Capable of communicating moods and intentions via complex patterns of its triple tail, these Temtem are aloof creatures who prefer the solitudes of the Arbury highlands. Although they mostly keep to themselves, their mindpower is formidable.",
     "types": [
@@ -7128,7 +7237,8 @@
     "evolutions": []
   },
   "2b992990-a54c-51e7-be9b-27e8b7a9c7ee": {
-    "id": 99,
+    "id": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee",
+    "tempediaId": 99,
     "name": "Momo",
     "description": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
     "types": [
@@ -7188,7 +7298,8 @@
     "evolutions": []
   },
   "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b": {
-    "id": 100,
+    "id": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b",
+    "tempediaId": 100,
     "name": "Kuri",
     "description": "Another great example of adaptation to the environment, these little Temtem select and carve rocks to use as protection for their heads and snouts.",
     "types": [
@@ -7256,7 +7367,8 @@
     ]
   },
   "ff6223eb-da65-5b62-a7e3-03b1ecb47a56": {
-    "id": 101,
+    "id": "ff6223eb-da65-5b62-a7e3-03b1ecb47a56",
+    "tempediaId": 101,
     "name": "Kauren",
     "description": "Not to be confused with their previous evolution stage, Kauren develops stone-hard horns and skull extensions - used for digging out roots, defense and status-signalling within the herd.",
     "types": [
@@ -7316,7 +7428,8 @@
     "evolutions": []
   },
   "a6e2c515-e6c8-56b3-9f39-23bb9deca27c": {
-    "id": 102,
+    "id": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c",
+    "tempediaId": 102,
     "name": "Spriole",
     "description": "These little sprouts are a common sight along the Omninesian canopy, and the locals are always gentle with them. These little pups are playful and juvenile.",
     "types": [
@@ -7384,7 +7497,8 @@
     ]
   },
   "00999174-0283-504f-aaca-e2b7fd45b54c": {
-    "id": 103,
+    "id": "00999174-0283-504f-aaca-e2b7fd45b54c",
+    "tempediaId": 103,
     "name": "Deendre",
     "description": "The young adult version of Spriole, Deendre are fascinating plant-animal hybrids that use their encephalic leaves to produce healing and nourishing components via photosynthesis.",
     "types": [
@@ -7452,7 +7566,8 @@
     ]
   },
   "0d5bc941-de4c-509f-b2a1-731d8e60e94a": {
-    "id": 104,
+    "id": "0d5bc941-de4c-509f-b2a1-731d8e60e94a",
+    "tempediaId": 104,
     "name": "Cerneaf",
     "description": "Few Temtem are closer to flora than this species, a fascinating plant-animal hybrid that uses its encephalic leaves to produce healing and nourishing components via photosynthesis.",
     "types": [
@@ -7512,7 +7627,8 @@
     "evolutions": []
   },
   "ebdffebc-cf34-5541-b946-ea559a328e4c": {
-    "id": 105,
+    "id": "ebdffebc-cf34-5541-b946-ea559a328e4c",
+    "tempediaId": 105,
     "name": "Toxolotl",
     "description": "Perhaps no other Temtem is as representative of Tucma as the colorful Toxolotl. Each strand in its mane is supposed to signify one of the original Tucmani tribes that first excavated and settled Quetzal after the Anak cataclysm.",
     "types": [
@@ -7580,7 +7696,8 @@
     ]
   },
   "b2d2850c-ee1f-5c07-b102-6bff7a467378": {
-    "id": 106,
+    "id": "b2d2850c-ee1f-5c07-b102-6bff7a467378",
+    "tempediaId": 106,
     "name": "Noxolotl",
     "description": "Noxolotl are noble, dignified creatures. They are taken to exemplify the resilience and spirit of the Tucmani people, as \"a beauty born of the foulest depths of Xolot, a light in the abyss\", in the words of the poetess Itzia.",
     "types": [
@@ -7640,7 +7757,8 @@
     "evolutions": []
   },
   "d5e664b5-d567-516e-9e83-37b3bbf7c45a": {
-    "id": 107,
+    "id": "d5e664b5-d567-516e-9e83-37b3bbf7c45a",
+    "tempediaId": 107,
     "name": "Blooze",
     "description": "Blooze represent the opposite evolutionary path as compared to Toxolotl - blobby and bipedal, they are probably the oldest lifeform of Xolot, an atavic variety still largely unexplained by science.",
     "types": [
@@ -7708,7 +7826,8 @@
     ]
   },
   "c50bf77a-ffc9-59bb-9581-6e873ee8fe3f": {
-    "id": 108,
+    "id": "c50bf77a-ffc9-59bb-9581-6e873ee8fe3f",
+    "tempediaId": 108,
     "name": "Goolder",
     "description": "Not many agree to classify Goolder as an \"evolution\", for many of its traits seem to be vestigial features of a more complex organism, devolved to a more primitive or atrophied state. Its lack of legs is usually cited as an example... but its haphazard appearance conceals great strength.",
     "types": [
@@ -7768,7 +7887,8 @@
     "evolutions": []
   },
   "3d14374b-a07e-5b21-a21a-4eca7a9db842": {
-    "id": 109,
+    "id": "3d14374b-a07e-5b21-a21a-4eca7a9db842",
+    "tempediaId": 109,
     "name": "Zephyruff",
     "description": "Awkward fliers at best, Zephyruff rely on their speed and sharp claws to defend themselves. The sturdy, cloud-like tissue around the neck serves a double purpose, offering protection for the mother Temtem as well as a roosting point for Zephyruff chicks.",
     "types": [
@@ -7840,7 +7960,8 @@
     ]
   },
   "7c7a3c22-5536-55bc-9b11-358602548afa": {
-    "id": 110,
+    "id": "7c7a3c22-5536-55bc-9b11-358602548afa",
+    "tempediaId": 110,
     "name": "Volarend",
     "description": "Volarend are impressive avians of great wingspan, strong enough to carry humans in flight. However, they are temperamental and picky mounts, and tamers are well-advised to treat them kindly, lest they are given a one-way ticket to the Downbelow...",
     "types": [
@@ -7904,7 +8025,8 @@
     "evolutions": []
   },
   "ec9bc4bc-d752-56ee-88ed-58f0df77ff83": {
-    "id": 111,
+    "id": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83",
+    "tempediaId": 111,
     "name": "Grumvel",
     "description": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
     "types": [
@@ -7972,7 +8094,8 @@
     ]
   },
   "73e138f7-97eb-5b53-ac75-01a2f2d55029": {
-    "id": 112,
+    "id": "73e138f7-97eb-5b53-ac75-01a2f2d55029",
+    "tempediaId": 112,
     "name": "Grumper",
     "description": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
     "types": [
@@ -8036,7 +8159,8 @@
     "evolutions": []
   },
   "8b3e4365-6149-548f-8e24-9aa8684ebf84": {
-    "id": 113,
+    "id": "8b3e4365-6149-548f-8e24-9aa8684ebf84",
+    "tempediaId": 113,
     "name": "Ganki",
     "description": "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them.",
     "types": [
@@ -8108,7 +8232,8 @@
     ]
   },
   "e4acac6d-7c98-5dca-814c-88662f8ec0f4": {
-    "id": 114,
+    "id": "e4acac6d-7c98-5dca-814c-88662f8ec0f4",
+    "tempediaId": 114,
     "name": "Gazuma",
     "description": "Even in the wild, younger Ganki seem to instinctively respect them as their elders. In the hills of Iwaba, one can often spot Gazuma leading small flocks of Ganki, a clear indication of their status among Electric Temtem.",
     "types": [
@@ -8172,7 +8297,8 @@
     "evolutions": []
   },
   "b1dc1a9b-10ac-5d5e-89de-d361e2300813": {
-    "id": 115,
+    "id": "b1dc1a9b-10ac-5d5e-89de-d361e2300813",
+    "tempediaId": 115,
     "name": "Oceara",
     "description": "Very rarely seen in Deniz, Oceara are believed to be the basis for the legendary \"serbatiyo\" of the Sea-Queen legend. Their possession is a mark of distinction and prestige among Water Temtem experts.",
     "types": [
@@ -8232,7 +8358,8 @@
     "evolutions": []
   },
   "a13b901f-8fd0-5986-a678-5f2ffb8833a5": {
-    "id": 116,
+    "id": "a13b901f-8fd0-5986-a678-5f2ffb8833a5",
+    "tempediaId": 116,
     "name": "Yowlar",
     "description": "Considered vanishingly rare until Linnaea's work, this lonesome Temtem inhabits the most inaccessible Kilima peaks, where they keep large, fiercely defended hunting ranges.",
     "types": [
@@ -8292,7 +8419,8 @@
     "evolutions": []
   },
   "c273532b-5b15-5e7a-b4eb-4b017f78a2fc": {
-    "id": 117,
+    "id": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc",
+    "tempediaId": 117,
     "name": "Droply",
     "description": "Although not particularly popular among tamers, Droply is used by many scholars as a prime example of an early Archipelagian amphibian, a crucial link in the evolution of earthborne Temtem.",
     "types": [
@@ -8364,7 +8492,8 @@
     ]
   },
   "89aca495-5083-5d2f-9c43-de183e7b6665": {
-    "id": 118,
+    "id": "89aca495-5083-5d2f-9c43-de183e7b6665",
+    "tempediaId": 118,
     "name": "Garyo",
     "description": "Semiaquatic and very gregarious, they are often found along the shores of Lake Moyo, where local farmers train them to harvest seaweed and warn away any boats with their sonorous hisses.",
     "types": [
@@ -8428,7 +8557,8 @@
     "evolutions": []
   },
   "6bde3b73-8c20-5faa-9254-08023db11c27": {
-    "id": 119,
+    "id": "6bde3b73-8c20-5faa-9254-08023db11c27",
+    "tempediaId": 119,
     "name": "Broccoblin",
     "description": "At home in the denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
     "types": [
@@ -8496,7 +8626,8 @@
     ]
   },
   "3982d126-6a78-5e0d-b165-a9165638ab98": {
-    "id": 120,
+    "id": "3982d126-6a78-5e0d-b165-a9165638ab98",
+    "tempediaId": 120,
     "name": "Broccorc",
     "description": "Bigger and more agile, this variety still lives in symbiosis with its surrounding flora, but it is generally more sociable and easier to train. A favorite of Properton grannies who love gardening!",
     "types": [
@@ -8568,7 +8699,8 @@
     ]
   },
   "0acfb7db-c5bc-5bdc-8053-7ee7868b937b": {
-    "id": 121,
+    "id": "0acfb7db-c5bc-5bdc-8053-7ee7868b937b",
+    "tempediaId": 121,
     "name": "Broccolem",
     "description": "Probably the origin of old legends about dryads and forest trolls, this Temtem is a hulking quasi-arboreal of impressive strength and resilience. Like an oak, if oaks could punch.",
     "types": [
@@ -8632,7 +8764,8 @@
     "evolutions": []
   },
   "63dffd57-24be-5cad-ad70-ea9fb1a54b01": {
-    "id": 122,
+    "id": "63dffd57-24be-5cad-ad70-ea9fb1a54b01",
+    "tempediaId": 122,
     "name": "Shuine",
     "description": "Colorful Shuine are a sight to behold, their bright scales reflecting Pansunlight as they frolic in the Kakama Cenote. They feed off the acidic components of Xolotic water, acting as natural filters and keeping cenote waters clean and fit for human consumption almost as effectively as the layers of volcanic rock.",
     "types": [
@@ -8696,7 +8829,8 @@
     "evolutions": []
   },
   "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa": {
-    "id": 123,
+    "id": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa",
+    "tempediaId": 123,
     "name": "Nessla",
     "description": "Water and electricity are always a dangerous mix - and it's never as true as in the case of Nessla. These undulating, majestic creatures are at home in open waters, where their powerful electric discharges are most effective.",
     "types": [
@@ -8760,7 +8894,8 @@
     "evolutions": []
   },
   "6cf4172a-a608-5bec-b772-369755187bf3": {
-    "id": 124,
+    "id": "6cf4172a-a608-5bec-b772-369755187bf3",
+    "tempediaId": 124,
     "name": "Valiar",
     "description": "Although nobody has managed to decipher their language, the Valiar are assumed to be extremely intelligent. The Arburian dons are still trying to come up with a scientific explanation for the way Valiar use their expanding ears to boost their minds.",
     "types": [
@@ -8820,7 +8955,8 @@
     "evolutions": []
   },
   "a36b7160-c4c9-5f24-9015-cf333a87f3ca": {
-    "id": 125,
+    "id": "a36b7160-c4c9-5f24-9015-cf333a87f3ca",
+    "tempediaId": 125,
     "name": "Pupoise",
     "description": "Nature finds a way... particularly when Nature meets some of the most advanced circuitry. Pupoise are adaptive and are known to use simple tools and other innovations in the wild.",
     "types": [
@@ -8892,7 +9028,8 @@
     ]
   },
   "0bc08eaf-fc43-5e3d-9f23-008381b305ee": {
-    "id": 126,
+    "id": "0bc08eaf-fc43-5e3d-9f23-008381b305ee",
+    "tempediaId": 126,
     "name": "Loatle",
     "description": "This Temtem straddles the twilight zone between natural and artificial intelligence, life and death... and the fact it resembles a dark creature from ancient lore doesn't help its reputation one bit...",
     "types": [
@@ -8956,7 +9093,8 @@
     "evolutions": []
   },
   "72606cfd-0073-5805-9a82-3b1f32be921f": {
-    "id": 127,
+    "id": "72606cfd-0073-5805-9a82-3b1f32be921f",
+    "tempediaId": 127,
     "name": "Kalazu",
     "description": "Kalazu show remarkable fine motor skills with each of their tentacles. \"Send Kalazu!\" is a common expression of woe in Deniz. When you face a hard task, you might need a hand - when you need eight hands... well, you're in trouble.",
     "types": [
@@ -9024,7 +9162,8 @@
     ]
   },
   "8fb4d600-881b-541b-9759-4cb962089695": {
-    "id": 128,
+    "id": "8fb4d600-881b-541b-9759-4cb962089695",
+    "tempediaId": 128,
     "name": "Kalabyss",
     "description": "How did Sillarian octopoda come in contact with mutagenic material is a matter of debate, but Kalabyss stand as an example of extreme adaption to the harshest environments - they have been known to survive a swim in Xolot Reservoir.",
     "types": [
@@ -9088,7 +9227,8 @@
     "evolutions": []
   },
   "cb82f3a7-54b2-5361-8d23-dd3c14457594": {
-    "id": 129,
+    "id": "cb82f3a7-54b2-5361-8d23-dd3c14457594",
+    "tempediaId": 129,
     "name": "Adoroboros",
     "description": "Few Temtem are as deceptive as Adoroboros - an unusual mix of cute and deadly, combining the most sophisticated Mental tricks with the basest Toxic traits. They are a fine example of the incredible natural diversity of the Archipelago.",
     "types": [
@@ -9152,7 +9292,8 @@
     "evolutions": []
   },
   "717ba812-35f3-5036-ae99-5b9206176447": {
-    "id": 130,
+    "id": "717ba812-35f3-5036-ae99-5b9206176447",
+    "tempediaId": 130,
     "name": "Tuwai",
     "description": "Professor Konstantinos described Tuwai as “taxonomically Wind, but also the only Denizan Temtem with meta-mimetic properties.” He theorized about the possibility of Tuwai changing dramatically “if the relevant Place of Power” could be found.",
     "types": [
@@ -9255,7 +9396,8 @@
     ]
   },
   "d89c74a4-c83a-524c-aaa6-9741a4105e2b": {
-    "id": 131,
+    "id": "d89c74a4-c83a-524c-aaa6-9741a4105e2b",
+    "tempediaId": 131,
     "name": "Tukai",
     "description": "It is unclear whether Professor Konstantinos ever discovered this evolution, with its flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
     "types": [
@@ -9319,7 +9461,8 @@
     "evolutions": []
   },
   "3e24de8c-b8bd-508d-a1cc-56f96b4dc2cd": {
-    "id": 132,
+    "id": "3e24de8c-b8bd-508d-a1cc-56f96b4dc2cd",
+    "tempediaId": 132,
     "name": "Tulcan",
     "description": "Some Temtemologists argue that Tulcan are the remains of an extinct species endemic to the upper slopes of Anak before the breakup of the island, alluded to Myrislan myth as 'firebreezers' and Cipanki folklore as 'flame kami'.",
     "types": [
@@ -9383,7 +9526,8 @@
     "evolutions": []
   },
   "10404c01-be58-5ef9-9054-945599266a84": {
-    "id": 133,
+    "id": "10404c01-be58-5ef9-9054-945599266a84",
+    "tempediaId": 133,
     "name": "Tuvine",
     "description": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
     "types": [
@@ -9447,7 +9591,8 @@
     "evolutions": []
   },
   "b829f9ed-0da2-5486-aa28-fe3de75590be": {
-    "id": 134,
+    "id": "b829f9ed-0da2-5486-aa28-fe3de75590be",
+    "tempediaId": 134,
     "name": "Turoc",
     "description": "Turoc is, in the words of Linnaea, \"a meeting of opposites - a flying rock, stone on wings - an impossibility, and yet, a reality (...) further proof of the marvelous diversity of Temtem lifeforms.\"",
     "types": [
@@ -9511,7 +9656,8 @@
     "evolutions": []
   },
   "6e7b868f-4109-5462-9cc6-12cb8a35e905": {
-    "id": 135,
+    "id": "6e7b868f-4109-5462-9cc6-12cb8a35e905",
+    "tempediaId": 135,
     "name": "Tuwire",
     "description": "One of the strangest evolutionary paths, Tuwire descends from escaped Digital Temtem crossing with wild Wind varieties. Aerodynamically speaking, they shouldn't be able to fly... but they do.",
     "types": [
@@ -9575,7 +9721,8 @@
     "evolutions": []
   },
   "b9e80e6c-4288-51ac-bd42-378922a0009b": {
-    "id": 136,
+    "id": "b9e80e6c-4288-51ac-bd42-378922a0009b",
+    "tempediaId": 136,
     "name": "Tutsu",
     "description": "First described by reputed breeder Nalla of Vumbi, Tutsu is \"like a sudden storm, a nimble yet mighty bird of prey, fiery even when facing much bigger opponents\". It is said that all Tutsu are descended from Nalla's...",
     "types": [
@@ -9639,7 +9786,8 @@
     "evolutions": []
   },
   "ca8128e8-8b89-5b9f-bd74-7710aa377ab0": {
-    "id": 137,
+    "id": "ca8128e8-8b89-5b9f-bd74-7710aa377ab0",
+    "tempediaId": 137,
     "name": "Kinu",
     "description": "The elusive Kinu are some of the rarest Nature Temtem in the Myrisles - to the point that some tamers think they're a mere legend. When they do show up, Omninesians treat them with the respect reserved for the guardian spirits of the Banyan.",
     "types": [
@@ -9703,7 +9851,8 @@
     "evolutions": []
   },
   "7b6044d4-2db9-5bf6-a33a-1837825f8c17": {
-    "id": 138,
+    "id": "7b6044d4-2db9-5bf6-a33a-1837825f8c17",
+    "tempediaId": 138,
     "name": "Vulvir",
     "description": "Some academics speculate that this is the last remnant of a long-lost \"Draconic\" variety of Temtem. In practice terms, most tamers classify them as Fire-Earth, which is an accurate designation for these mighty but shy creatures.",
     "types": [
@@ -9775,7 +9924,8 @@
     ]
   },
   "4e342785-5534-53a0-ba68-02424fbac04d": {
-    "id": 139,
+    "id": "4e342785-5534-53a0-ba68-02424fbac04d",
+    "tempediaId": 139,
     "name": "Vulor",
     "description": "Although they hide their faces in hollow rocks like their lesser brethren, these Temtem have very little to fear from their environment. Tough as stone and destructive as fire, they are a force to be reckoned with.",
     "types": [
@@ -9847,7 +9997,8 @@
     ]
   },
   "e023921f-2e27-58f2-8dd8-5086173fe592": {
-    "id": 140,
+    "id": "e023921f-2e27-58f2-8dd8-5086173fe592",
+    "tempediaId": 140,
     "name": "Vulcrane",
     "description": "Vulcrane are sometimes described as \"Anak on two legs\". If a variety of draconic-looking Temtem ever existed, they couldn't have been much fiercer than this advanced, flaming beast.",
     "types": [
@@ -9911,7 +10062,8 @@
     "evolutions": []
   },
   "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9": {
-    "id": 141,
+    "id": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9",
+    "tempediaId": 141,
     "name": "Pigepic",
     "description": "The absolute favourites of toddlers all around the Archipelago, Pigepic are fluffy, soft and absolutely adorable. Voluminous and cumbersome, they normally float low over the ground, making them ideal playmates for small children.",
     "types": [
@@ -9971,7 +10123,8 @@
     "evolutions": []
   },
   "dcb0742f-b081-503f-90ed-6edd0596d6a7": {
-    "id": 142,
+    "id": "dcb0742f-b081-503f-90ed-6edd0596d6a7",
+    "tempediaId": 142,
     "name": "Akranox",
     "description": "Well-armed with a mighty stinger and protected by rugged rock-like armor, Akranox can afford to have flash colored pincers and a cocky attitude, making them a favorite of Archipelagian teens.",
     "types": [
@@ -10035,7 +10188,8 @@
     "evolutions": []
   },
   "ac696e5b-135a-5dbd-9f0a-e514c0eaccce": {
-    "id": 143,
+    "id": "ac696e5b-135a-5dbd-9f0a-e514c0eaccce",
+    "tempediaId": 143,
     "name": "Koish (Neutral)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10099,7 +10253,8 @@
     "evolutions": []
   },
   "ae30cbf8-9623-5e49-be41-bf0ab903a999": {
-    "id": 143,
+    "id": "ae30cbf8-9623-5e49-be41-bf0ab903a999",
+    "tempediaId": 143,
     "name": "Koish (Wind)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10163,7 +10318,8 @@
     "evolutions": []
   },
   "36b5f145-262e-5a32-9a10-7a59ce0d4c6d": {
-    "id": 143,
+    "id": "36b5f145-262e-5a32-9a10-7a59ce0d4c6d",
+    "tempediaId": 143,
     "name": "Koish (Earth)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10227,7 +10383,8 @@
     "evolutions": []
   },
   "aa070924-ef6c-5053-be64-242a90593549": {
-    "id": 143,
+    "id": "aa070924-ef6c-5053-be64-242a90593549",
+    "tempediaId": 143,
     "name": "Koish (Water)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10287,7 +10444,8 @@
     "evolutions": []
   },
   "20d6e3e8-ce83-523d-aa2e-b0297c2a5049": {
-    "id": 143,
+    "id": "20d6e3e8-ce83-523d-aa2e-b0297c2a5049",
+    "tempediaId": 143,
     "name": "Koish (Fire)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10351,7 +10509,8 @@
     "evolutions": []
   },
   "8a36989b-3bb0-5be5-95b0-d4bd38b46a27": {
-    "id": 143,
+    "id": "8a36989b-3bb0-5be5-95b0-d4bd38b46a27",
+    "tempediaId": 143,
     "name": "Koish (Nature)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10415,7 +10574,8 @@
     "evolutions": []
   },
   "f4f7b04b-4f3c-55d3-ab49-d91bc53e546f": {
-    "id": 143,
+    "id": "f4f7b04b-4f3c-55d3-ab49-d91bc53e546f",
+    "tempediaId": 143,
     "name": "Koish (Electric)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10479,7 +10639,8 @@
     "evolutions": []
   },
   "62a738fe-5d7f-5631-bd3c-1ce591043db1": {
-    "id": 143,
+    "id": "62a738fe-5d7f-5631-bd3c-1ce591043db1",
+    "tempediaId": 143,
     "name": "Koish (Mental)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10543,7 +10704,8 @@
     "evolutions": []
   },
   "a0d1ff9b-c104-5fd1-9b0d-1e430d65adfa": {
-    "id": 143,
+    "id": "a0d1ff9b-c104-5fd1-9b0d-1e430d65adfa",
+    "tempediaId": 143,
     "name": "Koish (Digital)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10607,7 +10769,8 @@
     "evolutions": []
   },
   "6cc8e42d-a3e2-5b53-982d-31fd498912fd": {
-    "id": 143,
+    "id": "6cc8e42d-a3e2-5b53-982d-31fd498912fd",
+    "tempediaId": 143,
     "name": "Koish (Melee)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10671,7 +10834,8 @@
     "evolutions": []
   },
   "2aab1fed-4aef-5600-bc40-dd264a72a993": {
-    "id": 143,
+    "id": "2aab1fed-4aef-5600-bc40-dd264a72a993",
+    "tempediaId": 143,
     "name": "Koish (Crystal)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10735,7 +10899,8 @@
     "evolutions": []
   },
   "ba64c803-4826-56a4-b814-db5e575dfc55": {
-    "id": 143,
+    "id": "ba64c803-4826-56a4-b814-db5e575dfc55",
+    "tempediaId": 143,
     "name": "Koish (Toxic)",
     "description": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
     "types": [
@@ -10799,7 +10964,8 @@
     "evolutions": []
   },
   "e8711930-66ae-5bef-b7c9-4ad60a654e51": {
-    "id": 144,
+    "id": "e8711930-66ae-5bef-b7c9-4ad60a654e51",
+    "tempediaId": 144,
     "name": "Vulffy",
     "description": "Extremely perceptive and aware, this species flourishes (in all senses of the word) in the great expanses of wild land - although they are inquisitive by nature, and never shy away from human contact.",
     "types": [
@@ -10863,7 +11029,8 @@
     "evolutions": []
   },
   "0d12ce2b-83bf-5eff-9887-b4be8429da33": {
-    "id": 145,
+    "id": "0d12ce2b-83bf-5eff-9887-b4be8429da33",
+    "tempediaId": 145,
     "name": "Chubee",
     "description": "What started as an experiment in artificial pollination has resulted in the birth of this endearingly round fluffyboi. Although not great flyers, Chubee compensate their cumbersomeness with Digital reliability.",
     "types": [
@@ -10935,7 +11102,8 @@
     ]
   },
   "c3a940d5-5c63-5b99-b642-a1100d77aba0": {
-    "id": 146,
+    "id": "c3a940d5-5c63-5b99-b642-a1100d77aba0",
+    "tempediaId": 146,
     "name": "Waspeen",
     "description": "Not even Professor Konstantinos could guess this evolutionary stage - while Waspeen loses its predecessors' flight, it develops powerful crystal spikes.",
     "types": [
@@ -10999,7 +11167,8 @@
     "evolutions": []
   },
   "a1e9b6eb-261b-52dd-9d8b-993a25e4aff8": {
-    "id": 147,
+    "id": "a1e9b6eb-261b-52dd-9d8b-993a25e4aff8",
+    "tempediaId": 147,
     "name": "Mawtle",
     "description": "Mawtle's smiley face has become a meme amongst the youngest generation of every Dojo, making this species feel hackneyed to some. Regardless of any fads, it remains a solid choice for any tamer, as well as a tech wonder.",
     "types": [
@@ -11071,7 +11240,8 @@
     ]
   },
   "5a9be64c-cbc2-5e2b-a268-b5779f793d27": {
-    "id": 148,
+    "id": "5a9be64c-cbc2-5e2b-a268-b5779f793d27",
+    "tempediaId": 148,
     "name": "Mawmense",
     "description": "Visesia herself rides a Mawmense into battle in \"Endaira II\", making it extremely cool and sought-after. Temtemologists argue it's an anachronism, since this is a very recent variety... but who listens to Temtemologists anyway?",
     "types": [
@@ -11135,7 +11305,8 @@
     "evolutions": []
   },
   "d8575fea-c539-5146-a212-b6c21cc3a6e8": {
-    "id": 149,
+    "id": "d8575fea-c539-5146-a212-b6c21cc3a6e8",
+    "tempediaId": 149,
     "name": "Hazrat",
     "description": "If Temtem can develop in the Xolot Reservoir, why wouldn't they thrive in the sewers of Properton? WARNING: all specimens of this species are required to undergo a Dojo-approved detox process to make them safe to handle.",
     "types": [
@@ -11199,7 +11370,8 @@
     "evolutions": []
   },
   "3053e210-9625-5e2a-ad97-40e4463c4254": {
-    "id": 150,
+    "id": "3053e210-9625-5e2a-ad97-40e4463c4254",
+    "tempediaId": 150,
     "name": "Minttle",
     "description": "A sweet, innocent appearance that conceals a great brainpower, this species has roamed the Greenglen Forest for centuries in small herds, grazing peacefully in the undergrowth and following the bigger Minox.",
     "types": [
@@ -11267,7 +11439,8 @@
     ]
   },
   "11964813-5e1d-581f-90f7-698aeabb2cf1": {
-    "id": 151,
+    "id": "11964813-5e1d-581f-90f7-698aeabb2cf1",
+    "tempediaId": 151,
     "name": "Minox",
     "description": "Charles Temwin developed his theory of Temtem evolution by establishing a genetic link between the little, gentle Minttle and this mighty, bullish evolutionary stage.",
     "types": [
@@ -11339,7 +11512,8 @@
     ]
   },
   "2bffc8e4-5452-5335-a5a9-9a5148c39fc1": {
-    "id": 152,
+    "id": "2bffc8e4-5452-5335-a5a9-9a5148c39fc1",
+    "tempediaId": 152,
     "name": "Minothor",
     "description": "Some of the oldest cave paintings in the Chini Grotto are said to represent prehistorical Minothor. Its ability to transform Mental power into electricity and vice versa must have looked like magic to early humans...",
     "types": [
@@ -11403,7 +11577,8 @@
     "evolutions": []
   },
   "dda46ac4-956c-51c2-a9ac-c9d34724856d": {
-    "id": 153,
+    "id": "dda46ac4-956c-51c2-a9ac-c9d34724856d",
+    "tempediaId": 153,
     "name": "Maoala",
     "description": "Most tamers wouldn't think of cute little Maoala when asked about fighting prowess or mental capabilities. Most tamers would be wrong, as everyone who faces this wunderkind of a Temtem knows well...",
     "types": [
@@ -11467,7 +11642,8 @@
     "evolutions": []
   },
   "cd30862a-7867-5f82-8e93-4671d2025267": {
-    "id": 154,
+    "id": "cd30862a-7867-5f82-8e93-4671d2025267",
+    "tempediaId": 154,
     "name": "Venx",
     "description": "This cute little warrior is popular among young tamers, who love to customize their own with bandages of different colors and patterns. Some Dojos are enforcing a more formal white-bandage code for serious competition.",
     "types": [
@@ -11542,7 +11718,8 @@
     ]
   },
   "d61fa13f-ce02-5552-a1f3-6a4f85619cd9": {
-    "id": 155,
+    "id": "d61fa13f-ce02-5552-a1f3-6a4f85619cd9",
+    "tempediaId": 155,
     "name": "Venmet",
     "description": "Sometimes more is more – and this evolution makes for a winning combination of resilience and sheer power. Some historians suggest this species was widely used by reivers on both sides during the turbulent era of Chieftain Mac Aed.",
     "types": [
@@ -11606,7 +11783,8 @@
     "evolutions": []
   },
   "288ce5d5-5687-5295-b3c1-8032a03a346e": {
-    "id": 156,
+    "id": "288ce5d5-5687-5295-b3c1-8032a03a346e",
+    "tempediaId": 156,
     "name": "Vental",
     "description": "Lady Cathrine of Properton herself popularized this species among the fashionable tamers of her age. Nowadays, it is considered one of the timeless classics of Arburian Temtem breeds.",
     "types": [
@@ -11670,7 +11848,8 @@
     "evolutions": []
   },
   "2f96d145-f9d9-5ebb-9676-2c6f0b2c9ed0": {
-    "id": 157,
+    "id": "2f96d145-f9d9-5ebb-9676-2c6f0b2c9ed0",
+    "tempediaId": 157,
     "name": "Chimurian",
     "description": "Some urban legends claim this variety wasn't tamed or bred as much as extracted from mineral ores in the deepest pits of Quetzal. Just how its roots interface with the crystals of its body is still a subject of scientific study.",
     "types": [
@@ -11734,7 +11913,8 @@
     "evolutions": []
   },
   "f439b52b-a0fb-5b19-a8fd-f22e7b71eecf": {
-    "id": 158,
+    "id": "f439b52b-a0fb-5b19-a8fd-f22e7b71eecf",
+    "tempediaId": 158,
     "name": "Arachnyte",
     "description": "With way too many legs for anyone's liking, Arachnyte includes multi-core processing to coordinate movement, visual input, and combat subroutines - all in one efficient package of Arburian design.",
     "types": [
@@ -11798,7 +11978,8 @@
     "evolutions": []
   },
   "cc9bb567-2852-500b-8dea-978e844af8ef": {
-    "id": 159,
+    "id": "cc9bb567-2852-500b-8dea-978e844af8ef",
+    "tempediaId": 159,
     "name": "Thaiko",
     "description": "Developed as a joint project between Lochburg and Neoedo, this little furry bruiser combines feline breeding savoir-faire with cutting edge technology. A hotfix to prevent hairballs is expected any time now.",
     "types": [
@@ -11870,7 +12051,8 @@
     ]
   },
   "40ddba71-63cd-5484-bdbc-2d0c7fd62c87": {
-    "id": 160,
+    "id": "40ddba71-63cd-5484-bdbc-2d0c7fd62c87",
+    "tempediaId": 160,
     "name": "Monkko",
     "description": "Advanced martial arts training after breeding ensures that this Temtem is a cut above its less educated predecessors. Although the priests of Miyako frown at new Temtem species, Monkko's kung-fu is based on their techniques.",
     "types": [
@@ -11934,7 +12116,8 @@
     "evolutions": []
   },
   "50f1451f-8878-58be-acd9-2e0975af8fae": {
-    "id": 161,
+    "id": "50f1451f-8878-58be-acd9-2e0975af8fae",
+    "tempediaId": 161,
     "name": "Anahir",
     "description": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
     "types": [
@@ -12006,7 +12189,8 @@
     ]
   },
   "a164fd41-0b77-5b4f-a617-646f28589ca9": {
-    "id": 162,
+    "id": "a164fd41-0b77-5b4f-a617-646f28589ca9",
+    "tempediaId": 162,
     "name": "Anatan",
     "description": "Through the care and kindness of its tamer, Anahir overcame its traumatic origins. This happy Anatan stands as living proof of the healing power of love.",
     "types": [
@@ -12070,7 +12254,8 @@
     "evolutions": []
   },
   "24df71f4-90d6-59af-8cff-6f4477168554": {
-    "id": 163,
+    "id": "24df71f4-90d6-59af-8cff-6f4477168554",
+    "tempediaId": 163,
     "name": "Tyranak",
     "description": "Probably the last living relic from a distant pre-human past, when MegaTem roamed the unbroken Paninsula. Most Temtemologists considered it to be cryptofauna until... well, until now.",
     "types": [
@@ -12134,7 +12319,8 @@
     "evolutions": []
   },
   "9ba3e44c-4ee9-56d5-b3de-0b74e8187ac4": {
-    "id": 164,
+    "id": "9ba3e44c-4ee9-56d5-b3de-0b74e8187ac4",
+    "tempediaId": 164,
     "name": "Volgon",
     "description": "In Cipanki lore, dragons are born of lightning to roam the vast reaches of heaven. Sometimes, a curious member of their race will visit the Archipelago and befriend a human. They are never considered \"tamed\" - they merely consent to accompanying a tamer for a few years or even decades.",
     "types": [
