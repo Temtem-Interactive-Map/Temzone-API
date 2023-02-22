@@ -27,6 +27,7 @@ export class TypesDB {
       const id = generateId(type.name);
 
       this.types[id] = {
+        id,
         name: type.name,
         image: type.image,
       };
@@ -41,10 +42,6 @@ export class TypesDB {
     this.types = await readDBFile("types");
 
     return this.types;
-  }
-
-  static find(id) {
-    return this.types[id];
   }
 }
 
