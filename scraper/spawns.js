@@ -67,6 +67,7 @@ export class SpawnsDB {
               const id = generateId(location, area, spawn.name);
 
               this.spawns[id] = {
+                id,
                 title: spawn.name,
                 subtitle: location + ", " + area,
                 rate: spawn.rate,
@@ -88,10 +89,6 @@ export class SpawnsDB {
     this.spawns = await readDBFile("spawns");
 
     return this.spawns;
-  }
-
-  static find(id) {
-    return this.spawns[id];
   }
 }
 
