@@ -15,6 +15,7 @@ export class TraitsDB {
       const id = generateId(trait.name);
 
       this.traits[id] = {
+        id,
         name: trait.name,
         description: trait.description,
       };
@@ -29,10 +30,6 @@ export class TraitsDB {
     this.traits = await readDBFile("traits");
 
     return this.traits;
-  }
-
-  static find(id) {
-    return this.traits[id];
   }
 }
 
