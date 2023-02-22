@@ -15,8 +15,8 @@ import {
 
 export class TemtemDB {
   static async scrape() {
-    await TypesDB.load();
-    await TraitsDB.load();
+    const typesDB = await TypesDB.load();
+    const traitsDB = await TraitsDB.load();
 
     logWarning("Removing [temtem] assets...");
     await removeDBContent("temtem");
@@ -50,12 +50,13 @@ export class TemtemDB {
       }
 
       for (const subtype of types) {
-        const temtem = new Temtem();
+        const temtem = new Temtem(typesDB, traitsDB);
         await temtem.scrape($temtem, subtype);
         const id = generateId(temtem.name);
 
         this.creatures[id] = {
-          id: temtem.id,
+          id,
+          tempediaId: temtem.id,
           name: temtem.name,
           description: temtem.description,
           types: temtem.types,
@@ -97,13 +98,14 @@ export class TemtemDB {
 
     return this.creatures;
   }
-
-  static find(id) {
-    return this.creatures[id];
-  }
 }
 
 class Temtem {
+  constructor(types, traits) {
+    this.types = types;
+    this.traits = traits;
+  }
+
   async scrape($, subtype) {
     this.id = this.#id($);
     this.name = this.#name($, subtype);
@@ -150,7 +152,7 @@ class Temtem {
   }
 
   #types($, subtype) {
-    const rawTypes = $(
+    const typeNames = $(
       "div.infobox > table > tbody > tr:contains('Type') > td > a"
     )
       .toArray()
@@ -161,14 +163,18 @@ class Temtem {
         return type;
       });
 
-    if (subtype !== "" && !rawTypes.includes(subtype + " type")) {
-      rawTypes.push(subtype + " type");
+    if (subtype !== "" && !typeNames.includes(subtype + " type")) {
+      typeNames.push(subtype + " type");
     }
 
-    const types = rawTypes.map((type) => {
-      const id = generateId(type);
+    const types = typeNames.map((typeName) => {
+      const id = generateId(typeName);
+      const type = this.types[id];
 
-      return TypesDB.find(id);
+      return {
+        name: type.name,
+        image: type.image,
+      };
     });
 
     return types;
@@ -232,10 +238,14 @@ class Temtem {
       .toArray()
       .map((el) => {
         const rawTrait = $(el).text();
-        const trait = cleanText(rawTrait);
-        const id = generateId(trait);
+        const traitName = cleanText(rawTrait);
+        const id = generateId(traitName);
+        const trait = this.traits[id];
 
-        return TraitsDB.find(id);
+        return {
+          name: trait.name,
+          description: trait.description,
+        };
       });
 
     return traits;
