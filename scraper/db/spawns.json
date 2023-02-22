@@ -1,5 +1,6 @@
 {
   "84181c19-eb7f-58c4-aba0-19e189154df2": {
+    "id": "84181c19-eb7f-58c4-aba0-19e189154df2",
     "title": "Scarawatt",
     "subtitle": "Iwaba, Area 1",
     "rate": [
@@ -13,6 +14,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "5bd4650d-3105-5c0c-8a42-141a33180873": {
+    "id": "5bd4650d-3105-5c0c-8a42-141a33180873",
     "title": "Ampling",
     "subtitle": "Iwaba, Area 2",
     "rate": [
@@ -26,6 +28,7 @@
     "temtemId": "64863ac2-0aeb-568a-9b99-e7860d690fc7"
   },
   "1ce3c627-7dbd-522f-b0dd-7972c95df3cc": {
+    "id": "1ce3c627-7dbd-522f-b0dd-7972c95df3cc",
     "title": "Scarawatt",
     "subtitle": "Iwaba, Area 2",
     "rate": [
@@ -39,6 +42,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "7f45ffbb-94ca-5144-80b5-167cbdc0472f": {
+    "id": "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
     "title": "Mimit",
     "subtitle": "Iwaba, Area 3",
     "rate": [
@@ -53,6 +57,7 @@
     "temtemId": "b44c1aa3-a925-549a-ba4f-3727db5211e6"
   },
   "ccf5f406-34ae-5206-9184-090f17ef1da9": {
+    "id": "ccf5f406-34ae-5206-9184-090f17ef1da9",
     "title": "Galvanid",
     "subtitle": "Iwaba, Area 3",
     "rate": [
@@ -67,6 +72,7 @@
     "temtemId": "f25b58f0-e1ec-592b-a04e-4ec0b8264011"
   },
   "a4cb814a-538e-57b2-aa64-d96498c06922": {
+    "id": "a4cb814a-538e-57b2-aa64-d96498c06922",
     "title": "Ampling",
     "subtitle": "Iwaba, Area 3",
     "rate": [
@@ -81,6 +87,7 @@
     "temtemId": "64863ac2-0aeb-568a-9b99-e7860d690fc7"
   },
   "c7285744-4133-5a5b-872c-ad924ee54f25": {
+    "id": "c7285744-4133-5a5b-872c-ad924ee54f25",
     "title": "Scarawatt",
     "subtitle": "Iwaba, Area 3",
     "rate": [
@@ -95,6 +102,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "23545107-2d0d-5896-a939-ce03fe5a448f": {
+    "id": "23545107-2d0d-5896-a939-ce03fe5a448f",
     "title": "Sparzy",
     "subtitle": "Iwaba, Area 3",
     "rate": [
@@ -109,6 +117,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "e09bb4f1-a4ef-5550-8d8a-2282b1d35370": {
+    "id": "e09bb4f1-a4ef-5550-8d8a-2282b1d35370",
     "title": "Scarawatt",
     "subtitle": "Iwaba, Area 4",
     "rate": [
@@ -122,6 +131,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "10563d7a-ef52-5cbc-bbcd-182b88cf6871": {
+    "id": "10563d7a-ef52-5cbc-bbcd-182b88cf6871",
     "title": "Sparzy",
     "subtitle": "Iwaba, Area 4",
     "rate": [
@@ -135,6 +145,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "e9c2c700-04e8-51da-9a72-5ba398aaa1e2": {
+    "id": "e9c2c700-04e8-51da-9a72-5ba398aaa1e2",
     "title": "Galvanid",
     "subtitle": "Iwaba, Area 4",
     "rate": [
@@ -148,6 +159,7 @@
     "temtemId": "f25b58f0-e1ec-592b-a04e-4ec0b8264011"
   },
   "3e360a0c-ddd9-59bb-b672-1e28b9197938": {
+    "id": "3e360a0c-ddd9-59bb-b672-1e28b9197938",
     "title": "Ampling",
     "subtitle": "Iwaba, Area 5",
     "rate": [
@@ -161,6 +173,7 @@
     "temtemId": "64863ac2-0aeb-568a-9b99-e7860d690fc7"
   },
   "a3b48b49-80af-5d68-b1d2-f5169004a651": {
+    "id": "a3b48b49-80af-5d68-b1d2-f5169004a651",
     "title": "Paharac",
     "subtitle": "Iwaba, Area 5",
     "rate": [
@@ -174,6 +187,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "8b3cce13-f1e7-52b9-96f6-0219e17380c2": {
+    "id": "8b3cce13-f1e7-52b9-96f6-0219e17380c2",
     "title": "Sparzy",
     "subtitle": "Iwaba, Area 5",
     "rate": [
@@ -187,6 +201,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "fbc8db2b-4ee7-5f09-8782-4c0358cb7ebb": {
+    "id": "fbc8db2b-4ee7-5f09-8782-4c0358cb7ebb",
     "title": "Oree",
     "subtitle": "Rice Fields, Area 1",
     "rate": [
@@ -200,6 +215,7 @@
     "temtemId": "f4528ad9-c749-5827-852b-5607bfc135f6"
   },
   "a74a027a-8fe0-59a0-a06b-0d774203acfc": {
+    "id": "a74a027a-8fe0-59a0-a06b-0d774203acfc",
     "title": "Nessla",
     "subtitle": "Rice Fields, Area 1",
     "rate": [
@@ -213,6 +229,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "86e3c918-c0f3-5b15-b89f-61dc4d55694b": {
+    "id": "86e3c918-c0f3-5b15-b89f-61dc4d55694b",
     "title": "Babawa",
     "subtitle": "Rice Fields, Area 1",
     "rate": [
@@ -226,6 +243,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "645e93e7-e485-5b94-af68-f97e232ee00a": {
+    "id": "645e93e7-e485-5b94-af68-f97e232ee00a",
     "title": "Halzhi",
     "subtitle": "Rice Fields, Area 2",
     "rate": [
@@ -239,6 +257,7 @@
     "temtemId": "d58047e7-9f16-5ee1-8982-0cfa59e93db1"
   },
   "3c876908-7259-5266-ba1e-8c61cc95c69a": {
+    "id": "3c876908-7259-5266-ba1e-8c61cc95c69a",
     "title": "Nessla",
     "subtitle": "Rice Fields, Area 2",
     "rate": [
@@ -252,6 +271,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "a874b6c6-b3e6-5a9b-8a3e-50fa83abc08c": {
+    "id": "a874b6c6-b3e6-5a9b-8a3e-50fa83abc08c",
     "title": "Babawa",
     "subtitle": "Rice Fields, Area 2",
     "rate": [
@@ -265,6 +285,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "a70bfc2f-37cb-530c-9421-a4bd6ee55fce": {
+    "id": "a70bfc2f-37cb-530c-9421-a4bd6ee55fce",
     "title": "Saipat",
     "subtitle": "Rice Fields, Area 3",
     "rate": [
@@ -278,6 +299,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "7c1f663f-af9c-5788-b98b-751a2d0b401c": {
+    "id": "7c1f663f-af9c-5788-b98b-751a2d0b401c",
     "title": "Wiplump",
     "subtitle": "Rice Fields, Area 3",
     "rate": [
@@ -291,6 +313,7 @@
     "temtemId": "1280c782-7f02-51bb-807d-34b2bb1c9111"
   },
   "1dd094a9-5b80-5214-8cd0-aa4fb0d4a4fe": {
+    "id": "1dd094a9-5b80-5214-8cd0-aa4fb0d4a4fe",
     "title": "Nessla",
     "subtitle": "Rice Fields, Area 3",
     "rate": [
@@ -304,6 +327,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "d7b294d9-edef-59d4-8ff7-96c4732eb7f5": {
+    "id": "d7b294d9-edef-59d4-8ff7-96c4732eb7f5",
     "title": "Pupoise",
     "subtitle": "Rice Fields, Area 3",
     "rate": [
@@ -317,6 +341,7 @@
     "temtemId": "a36b7160-c4c9-5f24-9015-cf333a87f3ca"
   },
   "b83ad493-1e46-53db-b0ab-27346bd56637": {
+    "id": "b83ad493-1e46-53db-b0ab-27346bd56637",
     "title": "Cycrox",
     "subtitle": "Rice Fields, Area 4",
     "rate": [
@@ -330,6 +355,7 @@
     "temtemId": "ac52113f-98c4-532e-a721-0cf71b01015b"
   },
   "377a44dd-33e5-5757-b0bf-9821006a4239": {
+    "id": "377a44dd-33e5-5757-b0bf-9821006a4239",
     "title": "Nessla",
     "subtitle": "Rice Fields, Area 4",
     "rate": [
@@ -343,6 +369,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "8d38e76b-4313-5305-af4a-fe8be5bbbc3a": {
+    "id": "8d38e76b-4313-5305-af4a-fe8be5bbbc3a",
     "title": "Babawa",
     "subtitle": "Rice Fields, Area 4",
     "rate": [
@@ -356,6 +383,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "5989d6c9-8d14-591e-83ca-ed027cf072f0": {
+    "id": "5989d6c9-8d14-591e-83ca-ed027cf072f0",
     "title": "Cycrox",
     "subtitle": "Rice Fields, Area 5",
     "rate": [
@@ -369,6 +397,7 @@
     "temtemId": "ac52113f-98c4-532e-a721-0cf71b01015b"
   },
   "fbb13e51-9ce6-57cd-9b85-73fd178a0963": {
+    "id": "fbb13e51-9ce6-57cd-9b85-73fd178a0963",
     "title": "Nessla",
     "subtitle": "Rice Fields, Area 5",
     "rate": [
@@ -382,6 +411,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "0acb38af-d14e-5961-b256-4963d4557af8": {
+    "id": "0acb38af-d14e-5961-b256-4963d4557af8",
     "title": "Babawa",
     "subtitle": "Rice Fields, Area 5",
     "rate": [
@@ -395,6 +425,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "bbd0d8f9-2034-5369-9fb4-db66326af968": {
+    "id": "bbd0d8f9-2034-5369-9fb4-db66326af968",
     "title": "Oree",
     "subtitle": "Pillars of Highabove, Area 1",
     "rate": [
@@ -408,6 +439,7 @@
     "temtemId": "f4528ad9-c749-5827-852b-5607bfc135f6"
   },
   "6633a2b4-ab62-535e-b72e-2dc59dd815c1": {
+    "id": "6633a2b4-ab62-535e-b72e-2dc59dd815c1",
     "title": "Scarawatt",
     "subtitle": "Pillars of Highabove, Area 1",
     "rate": [
@@ -421,6 +453,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "9616cfac-05fa-554c-85c7-e1857ad3d4d2": {
+    "id": "9616cfac-05fa-554c-85c7-e1857ad3d4d2",
     "title": "Gazuma",
     "subtitle": "Pillars of Highabove, Area 1",
     "rate": [
@@ -434,6 +467,7 @@
     "temtemId": "e4acac6d-7c98-5dca-814c-88662f8ec0f4"
   },
   "087634ff-d631-51cb-987c-c5671371178d": {
+    "id": "087634ff-d631-51cb-987c-c5671371178d",
     "title": "Oree",
     "subtitle": "Pillars of Highabove, Area 2",
     "rate": [
@@ -447,6 +481,7 @@
     "temtemId": "f4528ad9-c749-5827-852b-5607bfc135f6"
   },
   "52e8e74e-a639-5940-bcb4-2cb38645c763": {
+    "id": "52e8e74e-a639-5940-bcb4-2cb38645c763",
     "title": "Scarawatt",
     "subtitle": "Pillars of Highabove, Area 2",
     "rate": [
@@ -460,6 +495,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "12c14964-0783-5685-8b99-611d0164ec21": {
+    "id": "12c14964-0783-5685-8b99-611d0164ec21",
     "title": "Gazuma",
     "subtitle": "Pillars of Highabove, Area 2",
     "rate": [
@@ -473,6 +509,7 @@
     "temtemId": "e4acac6d-7c98-5dca-814c-88662f8ec0f4"
   },
   "7839f502-d901-5f2c-aa9c-25e31b7a7a64": {
+    "id": "7839f502-d901-5f2c-aa9c-25e31b7a7a64",
     "title": "Hoglip",
     "subtitle": "Pillars of Highabove, Area 3",
     "rate": [
@@ -486,6 +523,7 @@
     "temtemId": "cf955924-227e-5616-b5c0-3f833ad2110c"
   },
   "93085bbf-fd4e-5c40-9a2b-181d695b4e64": {
+    "id": "93085bbf-fd4e-5c40-9a2b-181d695b4e64",
     "title": "Galvanid",
     "subtitle": "Pillars of Highabove, Area 3",
     "rate": [
@@ -499,6 +537,7 @@
     "temtemId": "f25b58f0-e1ec-592b-a04e-4ec0b8264011"
   },
   "fe15d224-5203-53ab-9a16-6f97b7798b1e": {
+    "id": "fe15d224-5203-53ab-9a16-6f97b7798b1e",
     "title": "Sparzy",
     "subtitle": "Pillars of Highabove, Area 3",
     "rate": [
@@ -512,6 +551,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "957013d4-8dad-5254-bcbc-bc5100541796": {
+    "id": "957013d4-8dad-5254-bcbc-bc5100541796",
     "title": "Chubee",
     "subtitle": "Pillars of Highabove, Area 4",
     "rate": [
@@ -525,6 +565,7 @@
     "temtemId": "0d12ce2b-83bf-5eff-9887-b4be8429da33"
   },
   "70b7e43b-0412-5983-b646-fe5dee5a74f3": {
+    "id": "70b7e43b-0412-5983-b646-fe5dee5a74f3",
     "title": "Mudrid",
     "subtitle": "Pillars of Highabove, Area 4",
     "rate": [
@@ -538,6 +579,7 @@
     "temtemId": "69bc04d8-6e1b-5a28-87db-9a49d8f1c1f3"
   },
   "df3540c9-941b-5fbc-827c-bdf22ae922c3": {
+    "id": "df3540c9-941b-5fbc-827c-bdf22ae922c3",
     "title": "Innki",
     "subtitle": "Pillars of Highabove, Area 4",
     "rate": [
@@ -551,6 +593,7 @@
     "temtemId": "453b6a39-ffbe-5d3a-bcbd-84c5496d151c"
   },
   "10309edc-b22b-587e-bae8-bb1bfcbcb44f": {
+    "id": "10309edc-b22b-587e-bae8-bb1bfcbcb44f",
     "title": "0b1",
     "subtitle": "Pillars of Highabove, Area 5",
     "rate": [
@@ -564,6 +607,7 @@
     "temtemId": "3bedbb17-8c2e-59dd-a7ec-77702c881165"
   },
   "71381f23-b68f-5de7-8022-a1bffdf58b35": {
+    "id": "71381f23-b68f-5de7-8022-a1bffdf58b35",
     "title": "Gazuma",
     "subtitle": "Pillars of Highabove, Area 5",
     "rate": [
@@ -577,6 +621,7 @@
     "temtemId": "e4acac6d-7c98-5dca-814c-88662f8ec0f4"
   },
   "55a14fbe-9975-560f-a4fd-b4ca2e7067d0": {
+    "id": "55a14fbe-9975-560f-a4fd-b4ca2e7067d0",
     "title": "Paharac",
     "subtitle": "Pillars of Highabove, Area 5",
     "rate": [
@@ -590,6 +635,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "cf6cd59a-9307-548c-a458-b3a7e94431ce": {
+    "id": "cf6cd59a-9307-548c-a458-b3a7e94431ce",
     "title": "0b1",
     "subtitle": "Pillars of Highabove, Area 6",
     "rate": [
@@ -603,6 +649,7 @@
     "temtemId": "3bedbb17-8c2e-59dd-a7ec-77702c881165"
   },
   "60ad815a-342d-51af-ad0a-2844febe7a2b": {
+    "id": "60ad815a-342d-51af-ad0a-2844febe7a2b",
     "title": "Gazuma",
     "subtitle": "Pillars of Highabove, Area 6",
     "rate": [
@@ -616,6 +663,7 @@
     "temtemId": "e4acac6d-7c98-5dca-814c-88662f8ec0f4"
   },
   "0f6dd692-6b08-5550-8fd7-f03417fdbf8d": {
+    "id": "0f6dd692-6b08-5550-8fd7-f03417fdbf8d",
     "title": "Paharac",
     "subtitle": "Pillars of Highabove, Area 6",
     "rate": [
@@ -629,6 +677,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "39525561-12e6-5de1-9b5e-4c9b82442607": {
+    "id": "39525561-12e6-5de1-9b5e-4c9b82442607",
     "title": "Sparzy",
     "subtitle": "Pillars of Highabove, Area 7",
     "rate": [
@@ -642,6 +691,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "b62c248c-a90f-5a9a-a002-72e93b2ab901": {
+    "id": "b62c248c-a90f-5a9a-a002-72e93b2ab901",
     "title": "Chromeon (Digital)",
     "subtitle": "Pillars of Highabove, Area 7",
     "rate": [
@@ -655,6 +705,7 @@
     "temtemId": "6a45e250-c227-5c56-a804-5ac48db7c35e"
   },
   "e37e9c01-5320-565d-a75a-21d9b2cd780e": {
+    "id": "e37e9c01-5320-565d-a75a-21d9b2cd780e",
     "title": "Paharo",
     "subtitle": "Gifted Bridges, Area 1",
     "rate": [
@@ -668,6 +719,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "94f05076-60c1-572d-ac5b-804400403704": {
+    "id": "94f05076-60c1-572d-ac5b-804400403704",
     "title": "Paharac",
     "subtitle": "Gifted Bridges, Area 1",
     "rate": [
@@ -681,6 +733,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "d24ed868-c6b2-5cf8-9bc7-7849eb790776": {
+    "id": "d24ed868-c6b2-5cf8-9bc7-7849eb790776",
     "title": "Tateru",
     "subtitle": "Gifted Bridges, Area 2",
     "rate": [
@@ -694,6 +747,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "25eb849b-ea7c-5c80-b630-57870da94260": {
+    "id": "25eb849b-ea7c-5c80-b630-57870da94260",
     "title": "Paharo",
     "subtitle": "Gifted Bridges, Area 2",
     "rate": [
@@ -707,6 +761,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "5758c264-67db-5cbf-a747-80eb6de0e7a2": {
+    "id": "5758c264-67db-5cbf-a747-80eb6de0e7a2",
     "title": "Skail",
     "subtitle": "Gifted Bridges, Area 2",
     "rate": [
@@ -720,6 +775,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "7390d7ef-ecb3-5fc5-8efc-5eb2acfa3408": {
+    "id": "7390d7ef-ecb3-5fc5-8efc-5eb2acfa3408",
     "title": "Platypet",
     "subtitle": "Gifted Bridges, Area 3",
     "rate": [
@@ -733,6 +789,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "391840ba-3b9d-5a9d-8264-637042e4a2e8": {
+    "id": "391840ba-3b9d-5a9d-8264-637042e4a2e8",
     "title": "Kaku",
     "subtitle": "Gifted Bridges, Area 3",
     "rate": [
@@ -746,6 +803,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "7ce47ddb-3869-512b-a408-a3c503ba8ce4": {
+    "id": "7ce47ddb-3869-512b-a408-a3c503ba8ce4",
     "title": "Paharac",
     "subtitle": "Gifted Bridges, Area 4",
     "rate": [
@@ -759,6 +817,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "ab453094-44f1-56be-9913-c79adcbe42ee": {
+    "id": "ab453094-44f1-56be-9913-c79adcbe42ee",
     "title": "Hocus",
     "subtitle": "Gifted Bridges, Area 4",
     "rate": [
@@ -772,6 +831,7 @@
     "temtemId": "3fd9e4d1-eb64-50f4-905a-50a3f64dd096"
   },
   "4fc7ba9e-2a8a-50b5-b21f-2e4f810e7680": {
+    "id": "4fc7ba9e-2a8a-50b5-b21f-2e4f810e7680",
     "title": "Platypet",
     "subtitle": "Gifted Bridges, Area 5",
     "rate": [
@@ -785,6 +845,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "ea26c771-696f-53cd-8c84-c1c344162789": {
+    "id": "ea26c771-696f-53cd-8c84-c1c344162789",
     "title": "Kaku",
     "subtitle": "Gifted Bridges, Area 5",
     "rate": [
@@ -798,6 +859,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "22bee99c-712e-572c-8b03-dbd03e9bac93": {
+    "id": "22bee99c-712e-572c-8b03-dbd03e9bac93",
     "title": "Pigepic",
     "subtitle": "Gifted Bridges, Area 6",
     "rate": [
@@ -811,6 +873,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "d4497b35-7345-5018-a5a2-06bc9cb94733": {
+    "id": "d4497b35-7345-5018-a5a2-06bc9cb94733",
     "title": "Saipat",
     "subtitle": "Gifted Bridges, Area 6",
     "rate": [
@@ -824,6 +887,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "5950a657-6083-5def-a415-fd9cf3dfe6ae": {
+    "id": "5950a657-6083-5def-a415-fd9cf3dfe6ae",
     "title": "Fomu",
     "subtitle": "Gifted Bridges, Area 7",
     "rate": [
@@ -837,6 +901,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "fcf7ee0c-331d-517d-b61b-f6e3e99c4286": {
+    "id": "fcf7ee0c-331d-517d-b61b-f6e3e99c4286",
     "title": "Saipat",
     "subtitle": "Gifted Bridges, Area 7",
     "rate": [
@@ -850,6 +915,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "8275ecfb-92d6-5905-ab09-eecff433c0d9": {
+    "id": "8275ecfb-92d6-5905-ab09-eecff433c0d9",
     "title": "Saipat",
     "subtitle": "Gifted Bridges, Area 8",
     "rate": [
@@ -863,6 +929,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "29772712-cf5a-5e72-8496-fb49c2939963": {
+    "id": "29772712-cf5a-5e72-8496-fb49c2939963",
     "title": "Orphyll",
     "subtitle": "Corrupted Badlands, Area 1",
     "rate": [
@@ -876,6 +943,7 @@
     "temtemId": "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3"
   },
   "0229393f-e5db-5468-8785-197d49c96a74": {
+    "id": "0229393f-e5db-5468-8785-197d49c96a74",
     "title": "Mushi",
     "subtitle": "Corrupted Badlands, Area 1",
     "rate": [
@@ -889,6 +957,7 @@
     "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
   },
   "54996a1a-8646-5605-a6e8-d1b80e8bfad2": {
+    "id": "54996a1a-8646-5605-a6e8-d1b80e8bfad2",
     "title": "Blooze",
     "subtitle": "Corrupted Badlands, Area 1",
     "rate": [
@@ -902,6 +971,7 @@
     "temtemId": "d5e664b5-d567-516e-9e83-37b3bbf7c45a"
   },
   "80184ec4-76c3-5e1d-bfa0-9a476d31e360": {
+    "id": "80184ec4-76c3-5e1d-bfa0-9a476d31e360",
     "title": "Zephyruff",
     "subtitle": "Corrupted Badlands, Area 2",
     "rate": [
@@ -915,6 +985,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "258af668-8031-5e4c-8f79-35b6caf442eb": {
+    "id": "258af668-8031-5e4c-8f79-35b6caf442eb",
     "title": "Orphyll",
     "subtitle": "Corrupted Badlands, Area 2",
     "rate": [
@@ -928,6 +999,7 @@
     "temtemId": "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3"
   },
   "56eaaf3a-ca00-5b49-88b5-d986b6662437": {
+    "id": "56eaaf3a-ca00-5b49-88b5-d986b6662437",
     "title": "Skunch",
     "subtitle": "Corrupted Badlands, Area 2",
     "rate": [
@@ -941,6 +1013,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "8c76418a-f635-5a14-a500-e40572465636": {
+    "id": "8c76418a-f635-5a14-a500-e40572465636",
     "title": "Zephyruff",
     "subtitle": "Corrupted Badlands, Area 3",
     "rate": [
@@ -954,6 +1027,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "8bff550e-bf51-53e4-a262-23acf976c13c": {
+    "id": "8bff550e-bf51-53e4-a262-23acf976c13c",
     "title": "Mushi",
     "subtitle": "Corrupted Badlands, Area 3",
     "rate": [
@@ -967,6 +1041,7 @@
     "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
   },
   "bc3df1dd-9681-5d20-b3db-5e9354b6dc85": {
+    "id": "bc3df1dd-9681-5d20-b3db-5e9354b6dc85",
     "title": "Orphyll",
     "subtitle": "Corrupted Badlands, Area 4",
     "rate": [
@@ -980,6 +1055,7 @@
     "temtemId": "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3"
   },
   "8d6b48e5-7a3a-5e00-b296-4e3943f50d24": {
+    "id": "8d6b48e5-7a3a-5e00-b296-4e3943f50d24",
     "title": "Blooze",
     "subtitle": "Corrupted Badlands, Area 4",
     "rate": [
@@ -993,6 +1069,7 @@
     "temtemId": "d5e664b5-d567-516e-9e83-37b3bbf7c45a"
   },
   "6bc1edf5-f14d-56c2-b718-2e597a2f1f25": {
+    "id": "6bc1edf5-f14d-56c2-b718-2e597a2f1f25",
     "title": "Mushi",
     "subtitle": "Corrupted Badlands, Area 5",
     "rate": [
@@ -1006,6 +1083,7 @@
     "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
   },
   "61c09198-0048-56af-bcc1-a913d46de2fa": {
+    "id": "61c09198-0048-56af-bcc1-a913d46de2fa",
     "title": "Blooze",
     "subtitle": "Corrupted Badlands, Area 5",
     "rate": [
@@ -1019,6 +1097,7 @@
     "temtemId": "d5e664b5-d567-516e-9e83-37b3bbf7c45a"
   },
   "3d885946-4da7-5c63-a641-c363c63776df": {
+    "id": "3d885946-4da7-5c63-a641-c363c63776df",
     "title": "Zenoreth",
     "subtitle": "Corrupted Badlands, Area 6",
     "rate": [
@@ -1032,6 +1111,7 @@
     "temtemId": "91726c0d-7535-59e6-a36b-e694333d2f28"
   },
   "b1da5c72-f9e7-5b4b-91de-a62afa5800f6": {
+    "id": "b1da5c72-f9e7-5b4b-91de-a62afa5800f6",
     "title": "Tuwai",
     "subtitle": "Corrupted Badlands, Area 6",
     "rate": [
@@ -1045,6 +1125,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "74f8d561-4314-5f36-9792-9dfb42d9ba4b": {
+    "id": "74f8d561-4314-5f36-9792-9dfb42d9ba4b",
     "title": "Kalazu",
     "subtitle": "Corrupted Badlands, Area 7",
     "rate": [
@@ -1058,6 +1139,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "96aa903d-174b-50bd-bd18-31c4486a4c43": {
+    "id": "96aa903d-174b-50bd-bd18-31c4486a4c43",
     "title": "Platypet",
     "subtitle": "Corrupted Badlands, Area 7",
     "rate": [
@@ -1071,6 +1153,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "afda6a8a-a842-544d-b7c3-3b34685301da": {
+    "id": "afda6a8a-a842-544d-b7c3-3b34685301da",
     "title": "Koish (Toxic)",
     "subtitle": "Corrupted Badlands, Area 7",
     "rate": [
@@ -1084,6 +1167,7 @@
     "temtemId": "ba64c803-4826-56a4-b814-db5e575dfc55"
   },
   "486e4986-4807-5e4b-af41-55c8b1403334": {
+    "id": "486e4986-4807-5e4b-af41-55c8b1403334",
     "title": "Toxolotl",
     "subtitle": "Xolot Reservoir, Area 1",
     "rate": [
@@ -1097,6 +1181,7 @@
     "temtemId": "ebdffebc-cf34-5541-b946-ea559a328e4c"
   },
   "245930ce-2e2e-596e-8401-9dd64d346d50": {
+    "id": "245930ce-2e2e-596e-8401-9dd64d346d50",
     "title": "Skunch",
     "subtitle": "Xolot Reservoir, Area 1",
     "rate": [
@@ -1110,6 +1195,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "46539284-23e0-5d4b-b06b-5c074791b38a": {
+    "id": "46539284-23e0-5d4b-b06b-5c074791b38a",
     "title": "Toxolotl",
     "subtitle": "Xolot Reservoir, Area 2",
     "rate": [
@@ -1123,6 +1209,7 @@
     "temtemId": "ebdffebc-cf34-5541-b946-ea559a328e4c"
   },
   "70303d48-f8a9-578b-a0e2-6e015edf9a70": {
+    "id": "70303d48-f8a9-578b-a0e2-6e015edf9a70",
     "title": "Orphyll",
     "subtitle": "Xolot Reservoir, Area 2",
     "rate": [
@@ -1136,6 +1223,7 @@
     "temtemId": "a72c76e9-22c2-537a-93f2-cee6dfd2b0e3"
   },
   "301e07ec-af9c-5f74-b460-f9374d0847e5": {
+    "id": "301e07ec-af9c-5f74-b460-f9374d0847e5",
     "title": "Toxolotl",
     "subtitle": "Xolot Reservoir, Area 3",
     "rate": [
@@ -1149,6 +1237,7 @@
     "temtemId": "ebdffebc-cf34-5541-b946-ea559a328e4c"
   },
   "fb227e1f-15a4-5618-a3bc-9ec202ba1227": {
+    "id": "fb227e1f-15a4-5618-a3bc-9ec202ba1227",
     "title": "Mushi",
     "subtitle": "Xolot Reservoir, Area 4",
     "rate": [
@@ -1162,6 +1251,7 @@
     "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
   },
   "73f353d2-879c-544e-a7f2-0041fd57b3c4": {
+    "id": "73f353d2-879c-544e-a7f2-0041fd57b3c4",
     "title": "Adoroboros",
     "subtitle": "Xolot Reservoir, Area 4",
     "rate": [
@@ -1175,6 +1265,7 @@
     "temtemId": "cb82f3a7-54b2-5361-8d23-dd3c14457594"
   },
   "fdc74f1e-5570-5329-9050-07a58f23f18e": {
+    "id": "fdc74f1e-5570-5329-9050-07a58f23f18e",
     "title": "Platypet",
     "subtitle": "Xolot Reservoir, Area 5",
     "rate": [
@@ -1188,6 +1279,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "ccae00a8-9ea4-5ee3-ba88-5aca5560e0f7": {
+    "id": "ccae00a8-9ea4-5ee3-ba88-5aca5560e0f7",
     "title": "Saipat",
     "subtitle": "Xolot Reservoir, Area 5",
     "rate": [
@@ -1201,6 +1293,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "31b05e87-34a8-5c1f-80e6-f9d65891f46a": {
+    "id": "31b05e87-34a8-5c1f-80e6-f9d65891f46a",
     "title": "Koish (Toxic)",
     "subtitle": "Xolot Reservoir, Area 5",
     "rate": [
@@ -1214,6 +1307,7 @@
     "temtemId": "ba64c803-4826-56a4-b814-db5e575dfc55"
   },
   "e1c560d1-139a-51ad-a3bb-6e53b0d1c260": {
+    "id": "e1c560d1-139a-51ad-a3bb-6e53b0d1c260",
     "title": "Platypet",
     "subtitle": "Xolot Reservoir, Area 6",
     "rate": [
@@ -1227,6 +1321,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "6ae7ed72-4642-5331-b850-a025469b62c1": {
+    "id": "6ae7ed72-4642-5331-b850-a025469b62c1",
     "title": "Kalazu",
     "subtitle": "Xolot Reservoir, Area 6",
     "rate": [
@@ -1240,6 +1335,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "5cce2ed3-82f3-5387-af46-fe1f066769a8": {
+    "id": "5cce2ed3-82f3-5387-af46-fe1f066769a8",
     "title": "Kalabyss",
     "subtitle": "Xolot Reservoir, Area 6",
     "rate": [
@@ -1253,6 +1349,7 @@
     "temtemId": "8fb4d600-881b-541b-9759-4cb962089695"
   },
   "c72c89a6-c6aa-52c9-ab2d-68b019d5d3a2": {
+    "id": "c72c89a6-c6aa-52c9-ab2d-68b019d5d3a2",
     "title": "Koish (Toxic)",
     "subtitle": "Xolot Reservoir, Area 6",
     "rate": [
@@ -1266,6 +1363,7 @@
     "temtemId": "ba64c803-4826-56a4-b814-db5e575dfc55"
   },
   "67a89f88-0e69-5463-960c-1ff6b0757fef": {
+    "id": "67a89f88-0e69-5463-960c-1ff6b0757fef",
     "title": "Platypet",
     "subtitle": "Xolot Reservoir, Area 7",
     "rate": [
@@ -1279,6 +1377,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "edeb7038-cd09-5d2c-bca0-45863aa94661": {
+    "id": "edeb7038-cd09-5d2c-bca0-45863aa94661",
     "title": "Saipat",
     "subtitle": "Xolot Reservoir, Area 7",
     "rate": [
@@ -1292,6 +1391,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "ba17af76-e58a-5f86-a01c-750dbfce5008": {
+    "id": "ba17af76-e58a-5f86-a01c-750dbfce5008",
     "title": "Kalabyss",
     "subtitle": "Xolot Reservoir, Area 7",
     "rate": [
@@ -1305,6 +1405,7 @@
     "temtemId": "8fb4d600-881b-541b-9759-4cb962089695"
   },
   "a328a903-1be7-50ed-8627-f9e2db6c8357": {
+    "id": "a328a903-1be7-50ed-8627-f9e2db6c8357",
     "title": "Koish (Toxic)",
     "subtitle": "Xolot Reservoir, Area 7",
     "rate": [
@@ -1318,6 +1419,7 @@
     "temtemId": "ba64c803-4826-56a4-b814-db5e575dfc55"
   },
   "491a6de0-33fa-5607-85be-c07c8c511c1d": {
+    "id": "491a6de0-33fa-5607-85be-c07c8c511c1d",
     "title": "Bunbun",
     "subtitle": "Mines of Mictlan, Area 1",
     "rate": [
@@ -1331,6 +1433,7 @@
     "temtemId": "c9a067dc-184f-517a-b077-004f2aeb9b2e"
   },
   "f74e5121-a6cb-54d7-ab6a-3ff5519f5a4d": {
+    "id": "f74e5121-a6cb-54d7-ab6a-3ff5519f5a4d",
     "title": "Vulor",
     "subtitle": "Mines of Mictlan, Area 1",
     "rate": [
@@ -1344,6 +1447,7 @@
     "temtemId": "4e342785-5534-53a0-ba68-02424fbac04d"
   },
   "13eec4cf-0540-5b93-9e9c-70ae5e915a68": {
+    "id": "13eec4cf-0540-5b93-9e9c-70ae5e915a68",
     "title": "Mudrid",
     "subtitle": "Mines of Mictlan, Area 1",
     "rate": [
@@ -1357,6 +1461,7 @@
     "temtemId": "69bc04d8-6e1b-5a28-87db-9a49d8f1c1f3"
   },
   "5af9b98e-2e73-500a-bc68-535e55f29980": {
+    "id": "5af9b98e-2e73-500a-bc68-535e55f29980",
     "title": "Lapinite",
     "subtitle": "Mines of Mictlan, Area 2",
     "rate": [
@@ -1370,6 +1475,7 @@
     "temtemId": "11f998ce-0ada-5d4a-adb9-df7a76b55b70"
   },
   "a0896fc5-a066-5d9f-a6d0-1643c66c6fd8": {
+    "id": "a0896fc5-a066-5d9f-a6d0-1643c66c6fd8",
     "title": "Gyalis",
     "subtitle": "Mines of Mictlan, Area 2",
     "rate": [
@@ -1383,6 +1489,7 @@
     "temtemId": "a5ae0dea-07f1-5934-9b93-52e89c7d6409"
   },
   "d20dd508-661c-5392-9378-1d4572e3b1d8": {
+    "id": "d20dd508-661c-5392-9378-1d4572e3b1d8",
     "title": "Crystle",
     "subtitle": "Mines of Mictlan, Area 2",
     "rate": [
@@ -1396,6 +1503,7 @@
     "temtemId": "75f505b9-17ad-599c-b0db-24f353e3a856"
   },
   "9ff9c1ad-b7f9-5538-a95c-92c1e2c01a27": {
+    "id": "9ff9c1ad-b7f9-5538-a95c-92c1e2c01a27",
     "title": "Lapinite",
     "subtitle": "Mines of Mictlan, Area 3",
     "rate": [
@@ -1409,6 +1517,7 @@
     "temtemId": "11f998ce-0ada-5d4a-adb9-df7a76b55b70"
   },
   "161308a2-879e-52f5-9c0c-892e32d546c5": {
+    "id": "161308a2-879e-52f5-9c0c-892e32d546c5",
     "title": "Valash",
     "subtitle": "Mines of Mictlan, Area 3",
     "rate": [
@@ -1422,6 +1531,7 @@
     "temtemId": "6e7ac684-7f54-5fc0-8925-804eefd3f7c3"
   },
   "005cf0aa-6203-516d-ad61-44bd02707acd": {
+    "id": "005cf0aa-6203-516d-ad61-44bd02707acd",
     "title": "Azuroc",
     "subtitle": "Mines of Mictlan, Area 3",
     "rate": [
@@ -1435,6 +1545,7 @@
     "temtemId": "44e79fec-8eca-5e01-ac6e-bc8588cfc8a5"
   },
   "adf7f6ff-e6ec-5d42-bc5d-68f1f4ce47c8": {
+    "id": "adf7f6ff-e6ec-5d42-bc5d-68f1f4ce47c8",
     "title": "Platypet",
     "subtitle": "Mines of Mictlan, Area 4",
     "rate": [
@@ -1448,6 +1559,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "bd38ff55-b6ca-5985-a015-4482ab510f1b": {
+    "id": "bd38ff55-b6ca-5985-a015-4482ab510f1b",
     "title": "Koish (Crystal)",
     "subtitle": "Mines of Mictlan, Area 4",
     "rate": [
@@ -1461,6 +1573,7 @@
     "temtemId": "2aab1fed-4aef-5600-bc40-dd264a72a993"
   },
   "9f481a8b-d813-5a56-9522-383ed7781417": {
+    "id": "9f481a8b-d813-5a56-9522-383ed7781417",
     "title": "Bunbun",
     "subtitle": "Gardens of Aztlan, Area 1",
     "rate": [
@@ -1474,6 +1587,7 @@
     "temtemId": "c9a067dc-184f-517a-b077-004f2aeb9b2e"
   },
   "cd87a80d-aa2b-58d0-9d70-da015b3277f4": {
+    "id": "cd87a80d-aa2b-58d0-9d70-da015b3277f4",
     "title": "Lapinite",
     "subtitle": "Gardens of Aztlan, Area 1",
     "rate": [
@@ -1487,6 +1601,7 @@
     "temtemId": "11f998ce-0ada-5d4a-adb9-df7a76b55b70"
   },
   "39f8d7ab-12e4-5cca-94cf-c4c2fb7d2554": {
+    "id": "39f8d7ab-12e4-5cca-94cf-c4c2fb7d2554",
     "title": "Platypet",
     "subtitle": "Gardens of Aztlan, Area 2",
     "rate": [
@@ -1500,6 +1615,7 @@
     "temtemId": "57e0c657-90b2-50b5-adcd-399d9c25a6ce"
   },
   "015adf78-d47a-5dbb-879e-94eddcd1fd86": {
+    "id": "015adf78-d47a-5dbb-879e-94eddcd1fd86",
     "title": "Koish (Crystal)",
     "subtitle": "Gardens of Aztlan, Area 2",
     "rate": [
@@ -1513,6 +1629,7 @@
     "temtemId": "2aab1fed-4aef-5600-bc40-dd264a72a993"
   },
   "dd063dd8-6f02-5052-8945-d1ecb9402ea7": {
+    "id": "dd063dd8-6f02-5052-8945-d1ecb9402ea7",
     "title": "Droply",
     "subtitle": "Gardens of Aztlan, Area 2",
     "rate": [
@@ -1526,6 +1643,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "354ceb6e-613f-57da-99df-796074503177": {
+    "id": "354ceb6e-613f-57da-99df-796074503177",
     "title": "Kalabyss",
     "subtitle": "Gardens of Aztlan, Area 2",
     "rate": [
@@ -1539,6 +1657,7 @@
     "temtemId": "8fb4d600-881b-541b-9759-4cb962089695"
   },
   "02d0d85d-8194-5a4c-876c-63edf3402348": {
+    "id": "02d0d85d-8194-5a4c-876c-63edf3402348",
     "title": "Zephyruff",
     "subtitle": "Gardens of Aztlan, Area 3",
     "rate": [
@@ -1552,6 +1671,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "2c7016c6-251c-507f-acd0-25e3842f79b4": {
+    "id": "2c7016c6-251c-507f-acd0-25e3842f79b4",
     "title": "Occlura",
     "subtitle": "Gardens of Aztlan, Area 3",
     "rate": [
@@ -1565,6 +1685,7 @@
     "temtemId": "18664e6d-77b6-5158-aa68-ebeb9b1d1ca6"
   },
   "dcb8aecc-20c4-573d-8011-b101c8e07e22": {
+    "id": "dcb8aecc-20c4-573d-8011-b101c8e07e22",
     "title": "Saipat",
     "subtitle": "Saipark, Area 1",
     "rate": [
@@ -1578,6 +1699,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "a6d01c0c-3c12-5076-bbf8-59bced100fab": {
+    "id": "a6d01c0c-3c12-5076-bbf8-59bced100fab",
     "title": "Tateru",
     "subtitle": "Saipark, Area 1",
     "rate": [
@@ -1591,6 +1713,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "3263d31c-cfd6-5ce6-910b-633ef12094d8": {
+    "id": "3263d31c-cfd6-5ce6-910b-633ef12094d8",
     "title": "Pigepic",
     "subtitle": "Saipark, Area 2",
     "rate": [
@@ -1604,6 +1727,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "8d59025f-4ec4-5c0a-b49b-e4fd3bc1f0f8": {
+    "id": "8d59025f-4ec4-5c0a-b49b-e4fd3bc1f0f8",
     "title": "Paharac",
     "subtitle": "Saipark, Area 2",
     "rate": [
@@ -1617,6 +1741,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "8e35909f-fc4f-5769-a986-ecc7dcccf2ec": {
+    "id": "8e35909f-fc4f-5769-a986-ecc7dcccf2ec",
     "title": "Saipat",
     "subtitle": "Saipark, Area 3",
     "rate": [
@@ -1630,6 +1755,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "a3ccd101-835c-59e8-b87e-d8d3eb6e5230": {
+    "id": "a3ccd101-835c-59e8-b87e-d8d3eb6e5230",
     "title": "Platox",
     "subtitle": "Saipark, Area 3",
     "rate": [
@@ -1643,6 +1769,7 @@
     "temtemId": "18d74861-d87d-573f-93ce-03fb231b7ed0"
   },
   "475e6e8a-e0bc-519b-9229-30c5b2191508": {
+    "id": "475e6e8a-e0bc-519b-9229-30c5b2191508",
     "title": "Skail",
     "subtitle": "Saipark, Area 4",
     "rate": [
@@ -1656,6 +1783,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "5a71b5f5-840c-5d4b-b819-5b8c3fbc894a": {
+    "id": "5a71b5f5-840c-5d4b-b819-5b8c3fbc894a",
     "title": "Platox",
     "subtitle": "Saipark, Area 4",
     "rate": [
@@ -1669,6 +1797,7 @@
     "temtemId": "18d74861-d87d-573f-93ce-03fb231b7ed0"
   },
   "7f592d67-fa60-5894-9539-71c2b5a8b589": {
+    "id": "7f592d67-fa60-5894-9539-71c2b5a8b589",
     "title": "Fomu",
     "subtitle": "Sillaro River, Area 1",
     "rate": [
@@ -1682,6 +1811,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "e6fbaa9f-9587-5a07-bc3c-4875cd72990f": {
+    "id": "e6fbaa9f-9587-5a07-bc3c-4875cd72990f",
     "title": "Saipat",
     "subtitle": "Sillaro River, Area 1",
     "rate": [
@@ -1695,6 +1825,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "d68979dc-7f7d-545f-8479-d33e3efc3190": {
+    "id": "d68979dc-7f7d-545f-8479-d33e3efc3190",
     "title": "Wiplump",
     "subtitle": "Sillaro River, Area 1",
     "rate": [
@@ -1708,6 +1839,7 @@
     "temtemId": "1280c782-7f02-51bb-807d-34b2bb1c9111"
   },
   "a96d803e-9f1f-5f23-ba7e-461e68691f89": {
+    "id": "a96d803e-9f1f-5f23-ba7e-461e68691f89",
     "title": "Kalazu",
     "subtitle": "Sillaro River, Area 2",
     "rate": [
@@ -1721,6 +1853,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "21434dd3-7ed8-5e89-a821-2396e3808dd9": {
+    "id": "21434dd3-7ed8-5e89-a821-2396e3808dd9",
     "title": "Umishi",
     "subtitle": "Sillaro River, Area 2",
     "rate": [
@@ -1734,6 +1867,7 @@
     "temtemId": "adb00f39-8371-55f6-9c2f-c8f31654154a"
   },
   "82277e08-dd2f-5a7a-9216-76a93ed5137b": {
+    "id": "82277e08-dd2f-5a7a-9216-76a93ed5137b",
     "title": "Pewki",
     "subtitle": "Sillaro River, Area 2",
     "rate": [
@@ -1747,6 +1881,7 @@
     "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
   },
   "3a63fab2-e7cb-5661-8ab0-b613ea07cb74": {
+    "id": "3a63fab2-e7cb-5661-8ab0-b613ea07cb74",
     "title": "Koish (Water)",
     "subtitle": "Sillaro River, Area 2",
     "rate": [
@@ -1760,6 +1895,7 @@
     "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
   },
   "997660b5-7a7a-5026-8584-43bc85a06e13": {
+    "id": "997660b5-7a7a-5026-8584-43bc85a06e13",
     "title": "Saipat",
     "subtitle": "Sillaro River, Area 3",
     "rate": [
@@ -1773,6 +1909,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "b8f2ebf7-b7ae-5525-80f8-8d4122779fe5": {
+    "id": "b8f2ebf7-b7ae-5525-80f8-8d4122779fe5",
     "title": "Fomu",
     "subtitle": "Sillaro River, Area 4",
     "rate": [
@@ -1786,6 +1923,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "27174cf7-c3f3-5b07-9e4f-04c071e65350": {
+    "id": "27174cf7-c3f3-5b07-9e4f-04c071e65350",
     "title": "Nessla",
     "subtitle": "Sillaro River, Area 4",
     "rate": [
@@ -1799,6 +1937,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "f72c9ee9-bbec-50a7-b75f-602459bf9a80": {
+    "id": "f72c9ee9-bbec-50a7-b75f-602459bf9a80",
     "title": "Wiplump",
     "subtitle": "Sillaro River, Area 5",
     "rate": [
@@ -1812,6 +1951,7 @@
     "temtemId": "1280c782-7f02-51bb-807d-34b2bb1c9111"
   },
   "10df0d46-ac3b-565d-8ff9-25739a644938": {
+    "id": "10df0d46-ac3b-565d-8ff9-25739a644938",
     "title": "Platox",
     "subtitle": "Sillaro River, Area 5",
     "rate": [
@@ -1825,6 +1965,7 @@
     "temtemId": "18d74861-d87d-573f-93ce-03fb231b7ed0"
   },
   "0e44f046-671f-5827-a4fb-491599e01e99": {
+    "id": "0e44f046-671f-5827-a4fb-491599e01e99",
     "title": "Fomu",
     "subtitle": "Sillaro River, Area 6",
     "rate": [
@@ -1838,6 +1979,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "193666ee-f23d-58bb-9ee6-e0f29e5161e6": {
+    "id": "193666ee-f23d-58bb-9ee6-e0f29e5161e6",
     "title": "Kalazu",
     "subtitle": "Sillaro River, Area 7",
     "rate": [
@@ -1851,6 +1993,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "fb9ef9a8-8f03-5c08-8d5e-87c31d3214c9": {
+    "id": "fb9ef9a8-8f03-5c08-8d5e-87c31d3214c9",
     "title": "Umishi",
     "subtitle": "Sillaro River, Area 7",
     "rate": [
@@ -1864,6 +2007,7 @@
     "temtemId": "adb00f39-8371-55f6-9c2f-c8f31654154a"
   },
   "c1689efa-624a-5f95-8cb4-a3cbeba9d40e": {
+    "id": "c1689efa-624a-5f95-8cb4-a3cbeba9d40e",
     "title": "Pewki",
     "subtitle": "Sillaro River, Area 7",
     "rate": [
@@ -1877,6 +2021,7 @@
     "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
   },
   "e95aea82-78d7-5d91-ab49-15407676657a": {
+    "id": "e95aea82-78d7-5d91-ab49-15407676657a",
     "title": "Koish (Water)",
     "subtitle": "Sillaro River, Area 7",
     "rate": [
@@ -1890,6 +2035,7 @@
     "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
   },
   "2a8f2e63-5885-55b6-be96-5e7d76d8c05d": {
+    "id": "2a8f2e63-5885-55b6-be96-5e7d76d8c05d",
     "title": "Fomu",
     "subtitle": "Sillaro River, Area 8",
     "rate": [
@@ -1903,6 +2049,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "3f84bf50-0821-5893-8739-96e4019bb694": {
+    "id": "3f84bf50-0821-5893-8739-96e4019bb694",
     "title": "Platox",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1916,6 +2063,7 @@
     "temtemId": "18d74861-d87d-573f-93ce-03fb231b7ed0"
   },
   "8ec102ed-177c-5915-a397-ed6d3dfa1734": {
+    "id": "8ec102ed-177c-5915-a397-ed6d3dfa1734",
     "title": "Fomu",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1929,6 +2077,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "acb2c377-8aff-53aa-97fe-ad92666033a6": {
+    "id": "acb2c377-8aff-53aa-97fe-ad92666033a6",
     "title": "Babawa",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1942,6 +2091,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "ac434020-679a-5ccb-9919-7902cc5d95ea": {
+    "id": "ac434020-679a-5ccb-9919-7902cc5d95ea",
     "title": "Piraniant",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1955,6 +2105,7 @@
     "temtemId": "6c0eb66a-1523-5afd-a6df-788ea9966c2f"
   },
   "9ae354bd-5189-5d45-a0fa-b819ff1763cf": {
+    "id": "9ae354bd-5189-5d45-a0fa-b819ff1763cf",
     "title": "Saipat",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1968,6 +2119,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "e448724e-0a6f-5601-8a91-11d906bc230a": {
+    "id": "e448724e-0a6f-5601-8a91-11d906bc230a",
     "title": "Ukama",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1981,6 +2133,7 @@
     "temtemId": "817b1abe-eafe-595f-ba93-992dce189610"
   },
   "deb0a626-ce76-5d95-84a4-2db7454a359b": {
+    "id": "deb0a626-ce76-5d95-84a4-2db7454a359b",
     "title": "Garyo",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -1994,6 +2147,7 @@
     "temtemId": "89aca495-5083-5d2f-9c43-de183e7b6665"
   },
   "93c4dc71-c427-5f14-940d-37018e5e29e6": {
+    "id": "93c4dc71-c427-5f14-940d-37018e5e29e6",
     "title": "Nessla",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -2007,6 +2161,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "6c2afed4-55bf-5244-8520-8c97d2241f11": {
+    "id": "6c2afed4-55bf-5244-8520-8c97d2241f11",
     "title": "Kalabyss",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -2020,6 +2175,7 @@
     "temtemId": "8fb4d600-881b-541b-9759-4cb962089695"
   },
   "5f4d124d-85e2-56e9-a61f-bd4d3fa6759e": {
+    "id": "5f4d124d-85e2-56e9-a61f-bd4d3fa6759e",
     "title": "Koish",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
@@ -2033,6 +2189,7 @@
     "temtemId": "7815f275-23f5-5eee-8fb9-1d464d328b23"
   },
   "a9f11aa5-1322-5e2b-b5ef-53ed6268f46c": {
+    "id": "a9f11aa5-1322-5e2b-b5ef-53ed6268f46c",
     "title": "Platimous",
     "subtitle": "Dabmis' Rest, Area 1",
     "rate": [
@@ -2046,6 +2203,7 @@
     "temtemId": "58823bcc-0480-5caa-ba37-2d66763df73b"
   },
   "f66774d0-10dd-540e-8ee8-7943da546433": {
+    "id": "f66774d0-10dd-540e-8ee8-7943da546433",
     "title": "Tuwai",
     "subtitle": "Dabmis' Rest, Area 1",
     "rate": [
@@ -2059,6 +2217,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "0654c5b1-5cab-5d39-883d-7e0de78a01cf": {
+    "id": "0654c5b1-5cab-5d39-883d-7e0de78a01cf",
     "title": "Paharo",
     "subtitle": "Prasine Coast, Area 1",
     "rate": [
@@ -2072,6 +2231,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "8b77387d-8598-5e71-a52e-6517e65e4d62": {
+    "id": "8b77387d-8598-5e71-a52e-6517e65e4d62",
     "title": "Saipat",
     "subtitle": "Prasine Coast, Area 1",
     "rate": [
@@ -2085,6 +2245,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "7cfb8fbb-5542-5d94-9090-73c5651ec10e": {
+    "id": "7cfb8fbb-5542-5d94-9090-73c5651ec10e",
     "title": "Tateru",
     "subtitle": "Prasine Coast, Area 1",
     "rate": [
@@ -2098,6 +2259,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "7a278e7c-af6d-5218-8471-306a71d15b38": {
+    "id": "7a278e7c-af6d-5218-8471-306a71d15b38",
     "title": "Paharo",
     "subtitle": "Prasine Coast, Area 2",
     "rate": [
@@ -2111,6 +2273,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "3256ec24-6606-587c-8101-433dcdc18437": {
+    "id": "3256ec24-6606-587c-8101-433dcdc18437",
     "title": "Tateru",
     "subtitle": "Prasine Coast, Area 2",
     "rate": [
@@ -2124,6 +2287,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "0800f4e7-2d31-5171-9f31-ec46fc6fcdb1": {
+    "id": "0800f4e7-2d31-5171-9f31-ec46fc6fcdb1",
     "title": "Kaku",
     "subtitle": "Prasine Coast, Area 3",
     "rate": [
@@ -2137,6 +2301,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "f1067c40-7598-570e-84cc-8dbe8232cfc5": {
+    "id": "f1067c40-7598-570e-84cc-8dbe8232cfc5",
     "title": "Swali",
     "subtitle": "Prasine Coast, Area 3",
     "rate": [
@@ -2150,6 +2315,7 @@
     "temtemId": "30d24e81-03e9-597e-b3f2-40ae118c0183"
   },
   "deab99e5-633d-57bd-9210-31a48eb1bde3": {
+    "id": "deab99e5-633d-57bd-9210-31a48eb1bde3",
     "title": "Saipat",
     "subtitle": "Prasine Coast, Area 3",
     "rate": [
@@ -2163,6 +2329,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "b04f7300-3cc9-5221-804a-36f57eb2318e": {
+    "id": "b04f7300-3cc9-5221-804a-36f57eb2318e",
     "title": "Taifu",
     "subtitle": "Prasine Coast, Area 4",
     "rate": [
@@ -2176,6 +2343,7 @@
     "temtemId": "1f71d7c2-ba29-5987-9cba-364701c57b42"
   },
   "86e664d4-1866-515f-8c41-43b4d15e6f88": {
+    "id": "86e664d4-1866-515f-8c41-43b4d15e6f88",
     "title": "Paharac",
     "subtitle": "Prasine Coast, Area 4",
     "rate": [
@@ -2189,6 +2357,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "cb23a29f-72d6-57c2-a0ef-05170cd096cd": {
+    "id": "cb23a29f-72d6-57c2-a0ef-05170cd096cd",
     "title": "Kaku",
     "subtitle": "Prasine Coast, Area 5",
     "rate": [
@@ -2202,6 +2371,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "180a9843-ca8a-550a-b66a-e2d8784458ec": {
+    "id": "180a9843-ca8a-550a-b66a-e2d8784458ec",
     "title": "Swali",
     "subtitle": "Prasine Coast, Area 5",
     "rate": [
@@ -2215,6 +2385,7 @@
     "temtemId": "30d24e81-03e9-597e-b3f2-40ae118c0183"
   },
   "64047fb1-7fab-5ad3-bae8-88340cfc4caa": {
+    "id": "64047fb1-7fab-5ad3-bae8-88340cfc4caa",
     "title": "Paharo",
     "subtitle": "Prasine Coast, Area 5",
     "rate": [
@@ -2228,6 +2399,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "201d486d-fd62-5f12-a268-a799a460cad9": {
+    "id": "201d486d-fd62-5f12-a268-a799a460cad9",
     "title": "Paharo",
     "subtitle": "Prasine Coast, Area 6",
     "rate": [
@@ -2241,6 +2413,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "bad73b53-ff6e-513c-b963-fcf7c2513aa4": {
+    "id": "bad73b53-ff6e-513c-b963-fcf7c2513aa4",
     "title": "Pigepic",
     "subtitle": "Prasine Coast, Area 6",
     "rate": [
@@ -2254,6 +2427,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "7bdd3a5f-b315-5119-ada3-a2040c8e9327": {
+    "id": "7bdd3a5f-b315-5119-ada3-a2040c8e9327",
     "title": "Skail",
     "subtitle": "Prasine Coast, Area 6",
     "rate": [
@@ -2267,6 +2441,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "3d558af5-00be-5d20-a3e8-c7f2ff8ac75a": {
+    "id": "3d558af5-00be-5d20-a3e8-c7f2ff8ac75a",
     "title": "Tateru",
     "subtitle": "Prasine Coast, Area 7",
     "rate": [
@@ -2280,6 +2455,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "eb71d11e-6c31-5bd7-aa3f-f701804d1e95": {
+    "id": "eb71d11e-6c31-5bd7-aa3f-f701804d1e95",
     "title": "Saipat",
     "subtitle": "Prasine Coast, Area 7",
     "rate": [
@@ -2293,6 +2469,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "df46ab30-c139-5dd4-a305-31764db6c4e6": {
+    "id": "df46ab30-c139-5dd4-a305-31764db6c4e6",
     "title": "Paharo",
     "subtitle": "Prasine Coast, Area 8",
     "rate": [
@@ -2306,6 +2483,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "b84051d9-506c-551c-b4a3-b97ce934b6d5": {
+    "id": "b84051d9-506c-551c-b4a3-b97ce934b6d5",
     "title": "Saipat",
     "subtitle": "Prasine Coast, Area 8",
     "rate": [
@@ -2319,6 +2497,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "d1cd9d19-80ec-540e-b5b8-19f4ebafd12c": {
+    "id": "d1cd9d19-80ec-540e-b5b8-19f4ebafd12c",
     "title": "Pewki",
     "subtitle": "Prasine Coast, Area 9",
     "rate": [
@@ -2332,6 +2511,7 @@
     "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
   },
   "66ef35b7-d009-5962-8b7b-b5bf21c9c070": {
+    "id": "66ef35b7-d009-5962-8b7b-b5bf21c9c070",
     "title": "Tateru",
     "subtitle": "Thalassian Cliffs, Area 1",
     "rate": [
@@ -2345,6 +2525,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "0d2cc560-ddec-5de2-979f-ed386a9d8128": {
+    "id": "0d2cc560-ddec-5de2-979f-ed386a9d8128",
     "title": "Skail",
     "subtitle": "Thalassian Cliffs, Area 1",
     "rate": [
@@ -2358,6 +2539,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "84c95f98-2602-52ba-b6db-9deb1af10957": {
+    "id": "84c95f98-2602-52ba-b6db-9deb1af10957",
     "title": "Paharo",
     "subtitle": "Thalassian Cliffs, Area 2",
     "rate": [
@@ -2371,6 +2553,7 @@
     "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
   },
   "7e6c4ab2-1d58-5a9c-8f02-bc5619d1fd36": {
+    "id": "7e6c4ab2-1d58-5a9c-8f02-bc5619d1fd36",
     "title": "Pigepic",
     "subtitle": "Thalassian Cliffs, Area 2",
     "rate": [
@@ -2384,6 +2567,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "9df67a78-15e7-5cf9-9d3b-d083d148d714": {
+    "id": "9df67a78-15e7-5cf9-9d3b-d083d148d714",
     "title": "Pigepic",
     "subtitle": "Thalassian Cliffs, Area 3",
     "rate": [
@@ -2397,6 +2581,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "1b15c7d6-d403-5194-8fde-f6a32cf2821e": {
+    "id": "1b15c7d6-d403-5194-8fde-f6a32cf2821e",
     "title": "Swali",
     "subtitle": "Thalassian Cliffs, Area 3",
     "rate": [
@@ -2410,6 +2595,7 @@
     "temtemId": "30d24e81-03e9-597e-b3f2-40ae118c0183"
   },
   "0b0e57a2-3b3b-5a37-8b86-2554342081e7": {
+    "id": "0b0e57a2-3b3b-5a37-8b86-2554342081e7",
     "title": "Ganki",
     "subtitle": "Thalassian Cliffs, Area 4",
     "rate": [
@@ -2423,6 +2609,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "8ac8b60e-1ec8-576e-a4ea-27d4f335e125": {
+    "id": "8ac8b60e-1ec8-576e-a4ea-27d4f335e125",
     "title": "Kaku",
     "subtitle": "Thalassian Cliffs, Area 5",
     "rate": [
@@ -2436,6 +2623,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "3f24d54a-f0b5-543a-949a-cf86f45662d7": {
+    "id": "3f24d54a-f0b5-543a-949a-cf86f45662d7",
     "title": "Saipat",
     "subtitle": "Thalassian Cliffs, Area 5",
     "rate": [
@@ -2449,6 +2637,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "1b9f68c9-a69b-51c4-9d24-a4a0b7eddcea": {
+    "id": "1b9f68c9-a69b-51c4-9d24-a4a0b7eddcea",
     "title": "Umishi",
     "subtitle": "Thalassian Cliffs, Area 6",
     "rate": [
@@ -2462,6 +2651,7 @@
     "temtemId": "adb00f39-8371-55f6-9c2f-c8f31654154a"
   },
   "fcbeacea-cd14-57c1-9fb4-b69e7661e236": {
+    "id": "fcbeacea-cd14-57c1-9fb4-b69e7661e236",
     "title": "Nessla",
     "subtitle": "Thalassian Cliffs, Area 6",
     "rate": [
@@ -2475,6 +2665,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "491c3414-e55c-56b3-88f3-74a13a61aeb7": {
+    "id": "491c3414-e55c-56b3-88f3-74a13a61aeb7",
     "title": "Ganki",
     "subtitle": "Thalassian Cliffs, Area 7",
     "rate": [
@@ -2488,6 +2679,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "752d2ec1-9556-57e9-9215-54784b708fad": {
+    "id": "752d2ec1-9556-57e9-9215-54784b708fad",
     "title": "Pigepic",
     "subtitle": "Thalassian Cliffs, Area 8",
     "rate": [
@@ -2501,6 +2693,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "ff250257-2ea3-5094-a6f8-21cd3aed2d56": {
+    "id": "ff250257-2ea3-5094-a6f8-21cd3aed2d56",
     "title": "Skail",
     "subtitle": "Thalassian Cliffs, Area 9",
     "rate": [
@@ -2514,6 +2707,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "331527e1-837f-5bc3-bbc6-c38042180d9d": {
+    "id": "331527e1-837f-5bc3-bbc6-c38042180d9d",
     "title": "Swali",
     "subtitle": "Thalassian Cliffs, Area 9",
     "rate": [
@@ -2527,6 +2721,7 @@
     "temtemId": "30d24e81-03e9-597e-b3f2-40ae118c0183"
   },
   "0398f6a0-13c7-57c9-b0b4-14500b19b21b": {
+    "id": "0398f6a0-13c7-57c9-b0b4-14500b19b21b",
     "title": "Pigepic",
     "subtitle": "Thalassian Cliffs, Area 10",
     "rate": [
@@ -2540,6 +2735,7 @@
     "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
   },
   "1d5677bb-38b9-5adf-bf71-eba059e485ce": {
+    "id": "1d5677bb-38b9-5adf-bf71-eba059e485ce",
     "title": "Skail",
     "subtitle": "Thalassian Cliffs, Area 10",
     "rate": [
@@ -2553,6 +2749,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "1077c186-cc14-53d1-816e-c0a993bf2658": {
+    "id": "1077c186-cc14-53d1-816e-c0a993bf2658",
     "title": "Ganki",
     "subtitle": "Thalassian Cliffs, Area 11",
     "rate": [
@@ -2566,6 +2763,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "8cc31232-52b1-5d90-bac8-19bdcaa64e04": {
+    "id": "8cc31232-52b1-5d90-bac8-19bdcaa64e04",
     "title": "Paharac",
     "subtitle": "Thalassian Cliffs, Area 11",
     "rate": [
@@ -2579,6 +2777,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "7313f2d7-7cbb-542b-9945-9b220df40907": {
+    "id": "7313f2d7-7cbb-542b-9945-9b220df40907",
     "title": "Umishi",
     "subtitle": "Thalassian Cliffs, Area 12",
     "rate": [
@@ -2592,6 +2791,7 @@
     "temtemId": "adb00f39-8371-55f6-9c2f-c8f31654154a"
   },
   "f186f9ad-f6a9-5234-8750-360288e993b2": {
+    "id": "f186f9ad-f6a9-5234-8750-360288e993b2",
     "title": "Kalazu",
     "subtitle": "Thalassian Cliffs, Area 12",
     "rate": [
@@ -2605,6 +2805,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "7c9ae641-56e5-5c07-92f1-e83ebeb8e9bc": {
+    "id": "7c9ae641-56e5-5c07-92f1-e83ebeb8e9bc",
     "title": "Koish (Wind)",
     "subtitle": "Thalassian Cliffs, Area 12",
     "rate": [
@@ -2618,6 +2819,7 @@
     "temtemId": "ae30cbf8-9623-5e49-be41-bf0ab903a999"
   },
   "c0d510f9-5eba-5fdc-b5bc-66630bb1e175": {
+    "id": "c0d510f9-5eba-5fdc-b5bc-66630bb1e175",
     "title": "Hidody",
     "subtitle": "The Canopath, Area 1",
     "rate": [
@@ -2631,6 +2833,7 @@
     "temtemId": "049f4c56-6032-5726-a5bf-0edeb37ded41"
   },
   "8167072f-7b73-5083-b854-a99ab2d1d6a7": {
+    "id": "8167072f-7b73-5083-b854-a99ab2d1d6a7",
     "title": "Spriole",
     "subtitle": "The Canopath, Area 1",
     "rate": [
@@ -2644,6 +2847,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "bedef55c-01a7-591e-9d5c-465815eb5300": {
+    "id": "bedef55c-01a7-591e-9d5c-465815eb5300",
     "title": "Loali",
     "subtitle": "The Canopath, Area 1",
     "rate": [
@@ -2657,6 +2861,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "bd441ae0-b46d-5c57-9ead-4b426842e0fd": {
+    "id": "bd441ae0-b46d-5c57-9ead-4b426842e0fd",
     "title": "Kaku",
     "subtitle": "The Canopath, Area 2",
     "rate": [
@@ -2670,6 +2875,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "4ecdfe5e-7b40-52e7-8abf-dce50c8fa219": {
+    "id": "4ecdfe5e-7b40-52e7-8abf-dce50c8fa219",
     "title": "Paharac",
     "subtitle": "The Canopath, Area 2",
     "rate": [
@@ -2683,6 +2889,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "a87beb02-8aef-5ac6-8b06-a86bd0e0eb2a": {
+    "id": "a87beb02-8aef-5ac6-8b06-a86bd0e0eb2a",
     "title": "Saku",
     "subtitle": "The Canopath, Area 2",
     "rate": [
@@ -2696,6 +2903,7 @@
     "temtemId": "130bf39f-dde8-50d4-b7db-c035830ce064"
   },
   "a76b03c9-4524-5774-baa3-a64eb8c1ce4e": {
+    "id": "a76b03c9-4524-5774-baa3-a64eb8c1ce4e",
     "title": "Spriole",
     "subtitle": "The Canopath, Area 3",
     "rate": [
@@ -2709,6 +2917,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "61c94779-484e-52fe-bd2e-58a17b43e20e": {
+    "id": "61c94779-484e-52fe-bd2e-58a17b43e20e",
     "title": "Deendre",
     "subtitle": "The Canopath, Area 3",
     "rate": [
@@ -2722,6 +2931,7 @@
     "temtemId": "00999174-0283-504f-aaca-e2b7fd45b54c"
   },
   "edb62f40-b41f-50ff-a1d0-d6ea5c4a672e": {
+    "id": "edb62f40-b41f-50ff-a1d0-d6ea5c4a672e",
     "title": "Hidody",
     "subtitle": "The Canopath, Area 4",
     "rate": [
@@ -2735,6 +2945,7 @@
     "temtemId": "049f4c56-6032-5726-a5bf-0edeb37ded41"
   },
   "60a608af-0354-54a3-b5c4-991a01383858": {
+    "id": "60a608af-0354-54a3-b5c4-991a01383858",
     "title": "Spriole",
     "subtitle": "The Canopath, Area 4",
     "rate": [
@@ -2748,6 +2959,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "29e3241d-769f-537d-8e2d-e7fff19f2317": {
+    "id": "29e3241d-769f-537d-8e2d-e7fff19f2317",
     "title": "Loali",
     "subtitle": "The Canopath, Area 4",
     "rate": [
@@ -2761,6 +2973,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "8453daac-ad0d-5c3d-93fa-a00ae3779eda": {
+    "id": "8453daac-ad0d-5c3d-93fa-a00ae3779eda",
     "title": "Spriole",
     "subtitle": "The Flywalk, Area 1",
     "rate": [
@@ -2774,6 +2987,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "8576772f-e67c-56a6-a70c-0b4d92dd52e4": {
+    "id": "8576772f-e67c-56a6-a70c-0b4d92dd52e4",
     "title": "Babawa",
     "subtitle": "The Flywalk, Area 1",
     "rate": [
@@ -2787,6 +3001,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "374bb6be-29f0-5f72-837c-9e18b7a018a9": {
+    "id": "374bb6be-29f0-5f72-837c-9e18b7a018a9",
     "title": "Pewki",
     "subtitle": "The Flywalk, Area 2",
     "rate": [
@@ -2800,6 +3015,7 @@
     "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
   },
   "cea4fbf3-a774-5fdf-a2f4-e917d59bf796": {
+    "id": "cea4fbf3-a774-5fdf-a2f4-e917d59bf796",
     "title": "Babawa",
     "subtitle": "The Flywalk, Area 2",
     "rate": [
@@ -2813,6 +3029,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "b87f73a2-0402-5cf3-9458-8646eef59f19": {
+    "id": "b87f73a2-0402-5cf3-9458-8646eef59f19",
     "title": "Koish (Nature)",
     "subtitle": "The Flywalk, Area 2",
     "rate": [
@@ -2826,6 +3043,7 @@
     "temtemId": "8a36989b-3bb0-5be5-95b0-d4bd38b46a27"
   },
   "3ac5707f-affc-5dd3-af09-f128c4e8f773": {
+    "id": "3ac5707f-affc-5dd3-af09-f128c4e8f773",
     "title": "Spriole",
     "subtitle": "The Flywalk, Area 3",
     "rate": [
@@ -2839,6 +3057,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "c0e9d8b4-d95a-58aa-935e-2d9de3b68b0e": {
+    "id": "c0e9d8b4-d95a-58aa-935e-2d9de3b68b0e",
     "title": "Deendre",
     "subtitle": "The Flywalk, Area 3",
     "rate": [
@@ -2852,6 +3071,7 @@
     "temtemId": "00999174-0283-504f-aaca-e2b7fd45b54c"
   },
   "234030e2-3c84-580d-88ae-624a2ea011a2": {
+    "id": "234030e2-3c84-580d-88ae-624a2ea011a2",
     "title": "Kaku",
     "subtitle": "The Flywalk, Area 4",
     "rate": [
@@ -2865,6 +3085,7 @@
     "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
   },
   "92dafb8f-09ee-5577-a5eb-319d047e0e58": {
+    "id": "92dafb8f-09ee-5577-a5eb-319d047e0e58",
     "title": "Loali",
     "subtitle": "The Flywalk, Area 4",
     "rate": [
@@ -2878,6 +3099,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "c878b299-41e2-5d52-b0d1-b7fce991ba03": {
+    "id": "c878b299-41e2-5d52-b0d1-b7fce991ba03",
     "title": "Paharac",
     "subtitle": "The Flywalk, Area 4",
     "rate": [
@@ -2891,6 +3113,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "cbe53e5a-0bf2-5996-9be7-e07338dfd9a2": {
+    "id": "cbe53e5a-0bf2-5996-9be7-e07338dfd9a2",
     "title": "Deendre",
     "subtitle": "The Flywalk, Area 5",
     "rate": [
@@ -2904,6 +3127,7 @@
     "temtemId": "00999174-0283-504f-aaca-e2b7fd45b54c"
   },
   "18d6435e-aa74-5130-bbc8-2678d696577e": {
+    "id": "18d6435e-aa74-5130-bbc8-2678d696577e",
     "title": "Loali",
     "subtitle": "The Flywalk, Area 5",
     "rate": [
@@ -2917,6 +3141,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "989118ef-a0de-529d-b159-633133bee5c2": {
+    "id": "989118ef-a0de-529d-b159-633133bee5c2",
     "title": "Spriole",
     "subtitle": "The Hangroad, Area 1",
     "rate": [
@@ -2930,6 +3155,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "c9a8d04d-e5f8-5092-8500-8ba2b31f09c1": {
+    "id": "c9a8d04d-e5f8-5092-8500-8ba2b31f09c1",
     "title": "Loali",
     "subtitle": "The Hangroad, Area 1",
     "rate": [
@@ -2943,6 +3169,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "1a00a014-691c-50b5-9dcc-9f11f2954115": {
+    "id": "1a00a014-691c-50b5-9dcc-9f11f2954115",
     "title": "Pewki",
     "subtitle": "The Hangroad, Area 2",
     "rate": [
@@ -2956,6 +3183,7 @@
     "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
   },
   "8dcca0d7-233d-5677-8bb9-d76084385042": {
+    "id": "8dcca0d7-233d-5677-8bb9-d76084385042",
     "title": "Babawa",
     "subtitle": "The Hangroad, Area 2",
     "rate": [
@@ -2969,6 +3197,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "88fe8f05-7ad9-56f5-86f5-858d6608b39e": {
+    "id": "88fe8f05-7ad9-56f5-86f5-858d6608b39e",
     "title": "Koish (Fire)",
     "subtitle": "The Hangroad, Area 2",
     "rate": [
@@ -2982,6 +3211,7 @@
     "temtemId": "20d6e3e8-ce83-523d-aa2e-b0297c2a5049"
   },
   "9de9502a-ad14-5776-bb43-9ab2e1a3a8f4": {
+    "id": "9de9502a-ad14-5776-bb43-9ab2e1a3a8f4",
     "title": "Banapi",
     "subtitle": "The Hangroad, Area 3",
     "rate": [
@@ -2995,6 +3225,7 @@
     "temtemId": "c6929b50-96da-5fe4-9839-ba9251a81eed"
   },
   "d632defa-a35e-5549-a220-f0d279a5cd69": {
+    "id": "d632defa-a35e-5549-a220-f0d279a5cd69",
     "title": "Spriole",
     "subtitle": "The Hangroad, Area 3",
     "rate": [
@@ -3008,6 +3239,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "2a406fc7-b894-5a32-b9c5-cc64fe0af1a0": {
+    "id": "2a406fc7-b894-5a32-b9c5-cc64fe0af1a0",
     "title": "Deendre",
     "subtitle": "The Hangroad, Area 3",
     "rate": [
@@ -3021,6 +3253,7 @@
     "temtemId": "00999174-0283-504f-aaca-e2b7fd45b54c"
   },
   "99bbf8f6-2356-5c9d-affd-5e6538115c25": {
+    "id": "99bbf8f6-2356-5c9d-affd-5e6538115c25",
     "title": "Loali",
     "subtitle": "The Glassyway, Area 1",
     "rate": [
@@ -3034,6 +3267,7 @@
     "temtemId": "7514875d-21f6-576f-9188-e134dacb015f"
   },
   "acb091e6-8508-539f-85fc-4aec05311b12": {
+    "id": "acb091e6-8508-539f-85fc-4aec05311b12",
     "title": "Paharac",
     "subtitle": "The Glassyway, Area 1",
     "rate": [
@@ -3047,6 +3281,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "c12437b4-b482-5de4-82e9-054e2faadfd2": {
+    "id": "c12437b4-b482-5de4-82e9-054e2faadfd2",
     "title": "Hidody",
     "subtitle": "The Glassyway, Area 2",
     "rate": [
@@ -3060,6 +3295,7 @@
     "temtemId": "049f4c56-6032-5726-a5bf-0edeb37ded41"
   },
   "9a9e6fd5-fdfd-5bf4-8bd7-c9b40e691d1a": {
+    "id": "9a9e6fd5-fdfd-5bf4-8bd7-c9b40e691d1a",
     "title": "Saku",
     "subtitle": "The Glassyway, Area 2",
     "rate": [
@@ -3073,6 +3309,7 @@
     "temtemId": "130bf39f-dde8-50d4-b7db-c035830ce064"
   },
   "ab4a5a0f-c29c-50b1-bc37-c3a942cf761e": {
+    "id": "ab4a5a0f-c29c-50b1-bc37-c3a942cf761e",
     "title": "Taifu",
     "subtitle": "The Glassyway, Area 2",
     "rate": [
@@ -3086,6 +3323,7 @@
     "temtemId": "1f71d7c2-ba29-5987-9cba-364701c57b42"
   },
   "f1283284-1fed-5bfe-a8ea-ff1006a1b6aa": {
+    "id": "f1283284-1fed-5bfe-a8ea-ff1006a1b6aa",
     "title": "Spriole",
     "subtitle": "The Glassyway, Area 3",
     "rate": [
@@ -3099,6 +3337,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "71dd7ca6-c2e3-5097-8913-1946277744ac": {
+    "id": "71dd7ca6-c2e3-5097-8913-1946277744ac",
     "title": "Raiber",
     "subtitle": "The Glassyway, Area 3",
     "rate": [
@@ -3112,6 +3351,7 @@
     "temtemId": "56163cb7-af61-58aa-843a-bf1b64057fdc"
   },
   "57b65cef-7be5-52ff-ada1-31743ad1bb94": {
+    "id": "57b65cef-7be5-52ff-ada1-31743ad1bb94",
     "title": "Banapi",
     "subtitle": "The Glassyway, Area 3",
     "rate": [
@@ -3125,6 +3365,7 @@
     "temtemId": "c6929b50-96da-5fe4-9839-ba9251a81eed"
   },
   "9ab8ef62-c4fe-5970-a5ff-222b3a56a0d0": {
+    "id": "9ab8ef62-c4fe-5970-a5ff-222b3a56a0d0",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 1",
     "rate": [
@@ -3138,6 +3379,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "543b61ba-1283-518f-8804-f83faedc61fe": {
+    "id": "543b61ba-1283-518f-8804-f83faedc61fe",
     "title": "Saipat",
     "subtitle": "Windward Fort, Area 1",
     "rate": [
@@ -3151,6 +3393,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "f0fdfa18-80ff-58c5-a536-d59d466f5d45": {
+    "id": "f0fdfa18-80ff-58c5-a536-d59d466f5d45",
     "title": "Fomu",
     "subtitle": "Windward Fort, Area 1",
     "rate": [
@@ -3164,6 +3407,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "a8fdb86b-a3b5-5b05-8df5-39d602cb7704": {
+    "id": "a8fdb86b-a3b5-5b05-8df5-39d602cb7704",
     "title": "Fomu",
     "subtitle": "Windward Fort, Area 2",
     "rate": [
@@ -3177,6 +3421,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "d8f1a74b-4bf4-5f27-aa1b-473f5ada25ef": {
+    "id": "d8f1a74b-4bf4-5f27-aa1b-473f5ada25ef",
     "title": "Saipat",
     "subtitle": "Windward Fort, Area 2",
     "rate": [
@@ -3190,6 +3435,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "60d3529c-9199-5c8f-a0ef-3ce6ec7aa65f": {
+    "id": "60d3529c-9199-5c8f-a0ef-3ce6ec7aa65f",
     "title": "Fomu",
     "subtitle": "Windward Fort, Area 3",
     "rate": [
@@ -3203,6 +3449,7 @@
     "temtemId": "7e24bfc7-8111-5730-9cb4-05ea3066552d"
   },
   "4a765920-b9a4-50ad-9c65-d3346e837146": {
+    "id": "4a765920-b9a4-50ad-9c65-d3346e837146",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 4",
     "rate": [
@@ -3216,6 +3463,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "4383c406-3fd8-502d-b52b-f2358348fa6a": {
+    "id": "4383c406-3fd8-502d-b52b-f2358348fa6a",
     "title": "Tateru",
     "subtitle": "Windward Fort, Area 4",
     "rate": [
@@ -3229,6 +3477,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "19f40208-e36e-5dee-a934-2fa2ecd6447f": {
+    "id": "19f40208-e36e-5dee-a934-2fa2ecd6447f",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 5",
     "rate": [
@@ -3242,6 +3491,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "268fb604-e981-5bba-a398-9986d9e4642a": {
+    "id": "268fb604-e981-5bba-a398-9986d9e4642a",
     "title": "Scarawatt",
     "subtitle": "Windward Fort, Area 5",
     "rate": [
@@ -3255,6 +3505,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "f2ee3867-6798-5bb5-b646-8f0162a89f4c": {
+    "id": "f2ee3867-6798-5bb5-b646-8f0162a89f4c",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 6",
     "rate": [
@@ -3268,6 +3519,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "138c3ecc-c2bf-5704-bc1a-e7bbc257bbc2": {
+    "id": "138c3ecc-c2bf-5704-bc1a-e7bbc257bbc2",
     "title": "Scarawatt",
     "subtitle": "Windward Fort, Area 6",
     "rate": [
@@ -3281,6 +3533,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "52e99091-0032-5440-b53f-b33e643f2eae": {
+    "id": "52e99091-0032-5440-b53f-b33e643f2eae",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 7",
     "rate": [
@@ -3294,6 +3547,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "dd2b64ad-7b5d-5072-b37b-c5e2a8391c59": {
+    "id": "dd2b64ad-7b5d-5072-b37b-c5e2a8391c59",
     "title": "Ganki",
     "subtitle": "Windward Fort, Area 7",
     "rate": [
@@ -3307,6 +3561,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "d73dd926-9d8d-50a3-be56-63d34722e08d": {
+    "id": "d73dd926-9d8d-50a3-be56-63d34722e08d",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 8",
     "rate": [
@@ -3320,6 +3575,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "954c9608-cfb9-52cd-b0f6-bca246a7a017": {
+    "id": "954c9608-cfb9-52cd-b0f6-bca246a7a017",
     "title": "Scarawatt",
     "subtitle": "Windward Fort, Area 8",
     "rate": [
@@ -3333,6 +3589,7 @@
     "temtemId": "a416a6cc-b092-5960-8fd1-77ae8f7f1c98"
   },
   "9c473844-d68b-5a91-93a9-f3f86ba1e2e7": {
+    "id": "9c473844-d68b-5a91-93a9-f3f86ba1e2e7",
     "title": "Skail",
     "subtitle": "Windward Fort, Area 9",
     "rate": [
@@ -3346,6 +3603,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "88561de0-1ac0-5df6-bc8f-593e08ee048a": {
+    "id": "88561de0-1ac0-5df6-bc8f-593e08ee048a",
     "title": "Ganki",
     "subtitle": "Windward Fort, Area 9",
     "rate": [
@@ -3359,6 +3617,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "c59f3a9b-4626-5b2c-9c0d-1e4a4293fa9c": {
+    "id": "c59f3a9b-4626-5b2c-9c0d-1e4a4293fa9c",
     "title": "Ganki",
     "subtitle": "Windward Fort, Area 10",
     "rate": [
@@ -3372,6 +3631,7 @@
     "temtemId": "8b3e4365-6149-548f-8e24-9aa8684ebf84"
   },
   "825cd231-831a-58bb-99ff-e7686d7a96fc": {
+    "id": "825cd231-831a-58bb-99ff-e7686d7a96fc",
     "title": "Barnshe",
     "subtitle": "Windward Fort, Area 10",
     "rate": [
@@ -3385,6 +3645,7 @@
     "temtemId": "1bf74090-ebad-5215-9216-72b11c2857ed"
   },
   "3f2f92aa-f182-5360-9083-90d50d3d3e84": {
+    "id": "3f2f92aa-f182-5360-9083-90d50d3d3e84",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 1",
     "rate": [
@@ -3398,6 +3659,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "2b782924-6b51-5daf-b4b7-5a1830eb937a": {
+    "id": "2b782924-6b51-5daf-b4b7-5a1830eb937a",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 1",
     "rate": [
@@ -3411,6 +3673,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "a0218677-2e4a-58af-85dc-57897f36bcff": {
+    "id": "a0218677-2e4a-58af-85dc-57897f36bcff",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 1",
     "rate": [
@@ -3424,6 +3687,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "feb7fd7b-c798-53e5-be25-7c7713311469": {
+    "id": "feb7fd7b-c798-53e5-be25-7c7713311469",
     "title": "Kalazu",
     "subtitle": "Aguamarina Caves, Area 2",
     "rate": [
@@ -3437,6 +3701,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "aa928bef-1cbb-5e93-a2e9-234206dc0c7b": {
+    "id": "aa928bef-1cbb-5e93-a2e9-234206dc0c7b",
     "title": "Oceara",
     "subtitle": "Aguamarina Caves, Area 2",
     "rate": [
@@ -3450,6 +3715,7 @@
     "temtemId": "b1dc1a9b-10ac-5d5e-89de-d361e2300813"
   },
   "305a7c2b-6943-5df6-aa98-8451e878f9d3": {
+    "id": "305a7c2b-6943-5df6-aa98-8451e878f9d3",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 3",
     "rate": [
@@ -3463,6 +3729,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "c62ea900-bb90-501a-b15d-3d6c5eb37dd2": {
+    "id": "c62ea900-bb90-501a-b15d-3d6c5eb37dd2",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 3",
     "rate": [
@@ -3476,6 +3743,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "e80e6dfb-d284-51e4-8924-e1e7d65474cc": {
+    "id": "e80e6dfb-d284-51e4-8924-e1e7d65474cc",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 3",
     "rate": [
@@ -3489,6 +3757,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "5e5679ef-0139-526f-9462-18a05d6bd8c0": {
+    "id": "5e5679ef-0139-526f-9462-18a05d6bd8c0",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 4",
     "rate": [
@@ -3502,6 +3771,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "a03d5f24-e513-5eab-8b21-030f12d13743": {
+    "id": "a03d5f24-e513-5eab-8b21-030f12d13743",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 4",
     "rate": [
@@ -3515,6 +3785,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "7b399b9f-c92b-5277-9a88-a5eaa1c9c0f3": {
+    "id": "7b399b9f-c92b-5277-9a88-a5eaa1c9c0f3",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 4",
     "rate": [
@@ -3528,6 +3799,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "816751ac-1d21-510e-9929-ab5e321c4df0": {
+    "id": "816751ac-1d21-510e-9929-ab5e321c4df0",
     "title": "Kalazu",
     "subtitle": "Aguamarina Caves, Area 5",
     "rate": [
@@ -3541,6 +3813,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "73ecaa59-5e11-5138-9bb6-a874550ddd87": {
+    "id": "73ecaa59-5e11-5138-9bb6-a874550ddd87",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 5",
     "rate": [
@@ -3554,6 +3827,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "a0f207d6-d3ae-5668-9015-4a3761ba0446": {
+    "id": "a0f207d6-d3ae-5668-9015-4a3761ba0446",
     "title": "Kalazu",
     "subtitle": "Aguamarina Caves, Area 6",
     "rate": [
@@ -3567,6 +3841,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "9a93960a-ff97-5915-90d6-f206fe515b2c": {
+    "id": "9a93960a-ff97-5915-90d6-f206fe515b2c",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 6",
     "rate": [
@@ -3580,6 +3855,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "e4789096-03c6-5f42-b289-83254b26d181": {
+    "id": "e4789096-03c6-5f42-b289-83254b26d181",
     "title": "Kalazu",
     "subtitle": "Aguamarina Caves, Area 7",
     "rate": [
@@ -3593,6 +3869,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "ede31827-1edd-5164-adc4-2f6bcd509b07": {
+    "id": "ede31827-1edd-5164-adc4-2f6bcd509b07",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 8",
     "rate": [
@@ -3606,6 +3883,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "6800f25d-ff9f-54a1-ab2d-761b4d3b6045": {
+    "id": "6800f25d-ff9f-54a1-ab2d-761b4d3b6045",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 8",
     "rate": [
@@ -3619,6 +3897,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "efb724ae-ad63-5d06-bcb7-57f7889ebd4a": {
+    "id": "efb724ae-ad63-5d06-bcb7-57f7889ebd4a",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 8",
     "rate": [
@@ -3632,6 +3911,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "ed9c4024-0705-5a40-8351-dc53acb2507a": {
+    "id": "ed9c4024-0705-5a40-8351-dc53acb2507a",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 8",
     "rate": [
@@ -3645,6 +3925,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "ca3a7754-4f8b-5e38-967f-299fe861d955": {
+    "id": "ca3a7754-4f8b-5e38-967f-299fe861d955",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 9",
     "rate": [
@@ -3658,6 +3939,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "713fd91a-30b2-5de3-a24f-45492a8d4775": {
+    "id": "713fd91a-30b2-5de3-a24f-45492a8d4775",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 9",
     "rate": [
@@ -3671,6 +3953,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "ba7fab59-a372-5e1f-917f-969bbb15b621": {
+    "id": "ba7fab59-a372-5e1f-917f-969bbb15b621",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 9",
     "rate": [
@@ -3684,6 +3967,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "0fcfb5f8-7099-5bc9-a91d-cc2e088b9f1e": {
+    "id": "0fcfb5f8-7099-5bc9-a91d-cc2e088b9f1e",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 9",
     "rate": [
@@ -3697,6 +3981,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "2ea141bf-5cd3-565c-bcf6-c46a3bbda367": {
+    "id": "2ea141bf-5cd3-565c-bcf6-c46a3bbda367",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 10",
     "rate": [
@@ -3710,6 +3995,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "139f1471-5f57-5a14-aac1-d2b75ff2d9fa": {
+    "id": "139f1471-5f57-5a14-aac1-d2b75ff2d9fa",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 10",
     "rate": [
@@ -3723,6 +4009,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "81217dae-7470-546f-9769-f371507b93ba": {
+    "id": "81217dae-7470-546f-9769-f371507b93ba",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 10",
     "rate": [
@@ -3736,6 +4023,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "50289955-c0f6-5d83-9bf3-4851d028c756": {
+    "id": "50289955-c0f6-5d83-9bf3-4851d028c756",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 10",
     "rate": [
@@ -3749,6 +4037,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "627fd7dc-b175-50cc-b903-c9d2781f13da": {
+    "id": "627fd7dc-b175-50cc-b903-c9d2781f13da",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 11",
     "rate": [
@@ -3762,6 +4051,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "765f1a1f-37a8-538b-ae46-6c69f786f3d8": {
+    "id": "765f1a1f-37a8-538b-ae46-6c69f786f3d8",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 11",
     "rate": [
@@ -3775,6 +4065,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "be4d692e-41e3-5461-83ca-9abbad470b53": {
+    "id": "be4d692e-41e3-5461-83ca-9abbad470b53",
     "title": "Skunch",
     "subtitle": "Aguamarina Caves, Area 11",
     "rate": [
@@ -3788,6 +4079,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "9ddef842-8268-50a1-8fed-fa738d90d39a": {
+    "id": "9ddef842-8268-50a1-8fed-fa738d90d39a",
     "title": "Saipat",
     "subtitle": "Aguamarina Caves, Area 12",
     "rate": [
@@ -3801,6 +4093,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "3039e4f0-1c99-53b8-b47e-12772d75a941": {
+    "id": "3039e4f0-1c99-53b8-b47e-12772d75a941",
     "title": "Skail",
     "subtitle": "Aguamarina Caves, Area 12",
     "rate": [
@@ -3814,6 +4107,7 @@
     "temtemId": "0fcda6ca-8a5b-5321-ac3f-c460163cbee0"
   },
   "1e60e10c-25f6-5fb7-92d9-135e14eb26c6": {
+    "id": "1e60e10c-25f6-5fb7-92d9-135e14eb26c6",
     "title": "Tateru",
     "subtitle": "Aguamarina Caves, Area 12",
     "rate": [
@@ -3827,6 +4121,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "74346e71-2976-54fd-ae0a-0024e4f4434f": {
+    "id": "74346e71-2976-54fd-ae0a-0024e4f4434f",
     "title": "Kalazu",
     "subtitle": "Aguamarina Caves, Area 13",
     "rate": [
@@ -3840,6 +4135,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "585bd7a4-e09e-5c19-baf6-59506a8a4dc1": {
+    "id": "585bd7a4-e09e-5c19-baf6-59506a8a4dc1",
     "title": "Oceara",
     "subtitle": "Aguamarina Caves, Area 13",
     "rate": [
@@ -3853,6 +4149,7 @@
     "temtemId": "b1dc1a9b-10ac-5d5e-89de-d361e2300813"
   },
   "8fcd3194-6131-5940-87e2-877cd1967b8a": {
+    "id": "8fcd3194-6131-5940-87e2-877cd1967b8a",
     "title": "Platimous",
     "subtitle": "Aguamarina Caves, Area 14",
     "rate": [
@@ -3866,6 +4163,7 @@
     "temtemId": "58823bcc-0480-5caa-ba37-2d66763df73b"
   },
   "6fed007b-c442-594f-a8b4-ada7d2d37354": {
+    "id": "6fed007b-c442-594f-a8b4-ada7d2d37354",
     "title": "Tuwai",
     "subtitle": "Aguamarina Caves, Area 14",
     "rate": [
@@ -3879,6 +4177,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "0b3a8f19-fe3f-5050-b4f9-72f7c29fe6b2": {
+    "id": "0b3a8f19-fe3f-5050-b4f9-72f7c29fe6b2",
     "title": "Goty",
     "subtitle": "Jino Gap, Area 1",
     "rate": [
@@ -3892,6 +4191,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "15c67561-56ef-5596-9711-ea84e95aba0c": {
+    "id": "15c67561-56ef-5596-9711-ea84e95aba0c",
     "title": "Kuri",
     "subtitle": "Jino Gap, Area 1",
     "rate": [
@@ -3905,6 +4205,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "17b51cfa-d146-52be-880b-33762c171825": {
+    "id": "17b51cfa-d146-52be-880b-33762c171825",
     "title": "Zizare",
     "subtitle": "Jino Gap, Area 1",
     "rate": [
@@ -3918,6 +4219,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "b43d544b-5b1d-5013-9b32-84d0c62ef39c": {
+    "id": "b43d544b-5b1d-5013-9b32-84d0c62ef39c",
     "title": "Osuchi",
     "subtitle": "Jino Gap, Area 2",
     "rate": [
@@ -3931,6 +4233,7 @@
     "temtemId": "01f11b06-be83-504e-b896-9bdce6db0506"
   },
   "e085c4b3-618e-52ee-a0fd-bdfe46a35045": {
+    "id": "e085c4b3-618e-52ee-a0fd-bdfe46a35045",
     "title": "Paharac",
     "subtitle": "Jino Gap, Area 2",
     "rate": [
@@ -3944,6 +4247,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "ee4413aa-478e-554c-82d2-52a79c691e81": {
+    "id": "ee4413aa-478e-554c-82d2-52a79c691e81",
     "title": "Zephyruff",
     "subtitle": "Jino Gap, Area 2",
     "rate": [
@@ -3957,6 +4261,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "e9b4805b-6ce4-5336-a9d8-263768f415ac": {
+    "id": "e9b4805b-6ce4-5336-a9d8-263768f415ac",
     "title": "Goty",
     "subtitle": "Jino Gap, Area 3",
     "rate": [
@@ -3970,6 +4275,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "9c5a0341-2098-5cc5-814d-aa0dcc0116b3": {
+    "id": "9c5a0341-2098-5cc5-814d-aa0dcc0116b3",
     "title": "Kuri",
     "subtitle": "Jino Gap, Area 3",
     "rate": [
@@ -3983,6 +4289,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "667b1e8d-c3bd-5c23-8a71-1c0b3071e3f9": {
+    "id": "667b1e8d-c3bd-5c23-8a71-1c0b3071e3f9",
     "title": "Zizare",
     "subtitle": "Jino Gap, Area 3",
     "rate": [
@@ -3996,6 +4303,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "8289eacd-cbcb-553b-a5dc-5f59c3e6858b": {
+    "id": "8289eacd-cbcb-553b-a5dc-5f59c3e6858b",
     "title": "Tateru",
     "subtitle": "Jino Gap, Area 4",
     "rate": [
@@ -4009,6 +4317,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "3d18bd3e-96d8-5545-b427-3c9132c563aa": {
+    "id": "3d18bd3e-96d8-5545-b427-3c9132c563aa",
     "title": "Vulffy",
     "subtitle": "Jino Gap, Area 4",
     "rate": [
@@ -4022,6 +4331,7 @@
     "temtemId": "e8711930-66ae-5bef-b7c9-4ad60a654e51"
   },
   "b9fe040c-b762-5172-b44d-be13d955f7bb": {
+    "id": "b9fe040c-b762-5172-b44d-be13d955f7bb",
     "title": "Zizare",
     "subtitle": "Jino Gap, Area 4",
     "rate": [
@@ -4035,6 +4345,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "d43a06f0-3c20-59cf-873b-fada6d80a63e": {
+    "id": "d43a06f0-3c20-59cf-873b-fada6d80a63e",
     "title": "Momo",
     "subtitle": "Kilima Peaks, Area 1",
     "rate": [
@@ -4048,6 +4359,7 @@
     "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
   },
   "0490183d-f679-549d-8c6a-8b4675cf9007": {
+    "id": "0490183d-f679-549d-8c6a-8b4675cf9007",
     "title": "Skunch",
     "subtitle": "Kilima Peaks, Area 1",
     "rate": [
@@ -4061,6 +4373,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "3ef7de3a-4717-5c51-97bc-8e57d822612b": {
+    "id": "3ef7de3a-4717-5c51-97bc-8e57d822612b",
     "title": "Momo",
     "subtitle": "Kilima Peaks, Area 2",
     "rate": [
@@ -4074,6 +4387,7 @@
     "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
   },
   "88e22b4e-9803-5e13-b21c-ae4668738e3f": {
+    "id": "88e22b4e-9803-5e13-b21c-ae4668738e3f",
     "title": "Skunch",
     "subtitle": "Kilima Peaks, Area 2",
     "rate": [
@@ -4087,6 +4401,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "66ea46d9-ca50-5184-b586-22566da70d9b": {
+    "id": "66ea46d9-ca50-5184-b586-22566da70d9b",
     "title": "Zizare",
     "subtitle": "Kilima Peaks, Area 2",
     "rate": [
@@ -4100,6 +4415,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "a22c3070-aa1d-53dd-81d0-dbf0c264a606": {
+    "id": "a22c3070-aa1d-53dd-81d0-dbf0c264a606",
     "title": "Osukan",
     "subtitle": "Kilima Peaks, Area 2",
     "rate": [
@@ -4113,6 +4429,7 @@
     "temtemId": "8cc63fb3-0539-5805-a33e-dc3785c0bc7d"
   },
   "063eca68-ebed-59bc-95de-31f8a0a5ec06": {
+    "id": "063eca68-ebed-59bc-95de-31f8a0a5ec06",
     "title": "Tateru",
     "subtitle": "Kilima Peaks, Area 2",
     "rate": [
@@ -4126,6 +4443,7 @@
     "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
   },
   "f71fe421-2728-5988-82c4-b3a0f9a3b160": {
+    "id": "f71fe421-2728-5988-82c4-b3a0f9a3b160",
     "title": "Zizare",
     "subtitle": "Kilima Peaks, Area 3",
     "rate": [
@@ -4139,6 +4457,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "2d6ab2b0-2d5a-5cf6-bac4-587b2d9fee3d": {
+    "id": "2d6ab2b0-2d5a-5cf6-bac4-587b2d9fee3d",
     "title": "Osukan",
     "subtitle": "Kilima Peaks, Area 3",
     "rate": [
@@ -4152,6 +4471,7 @@
     "temtemId": "8cc63fb3-0539-5805-a33e-dc3785c0bc7d"
   },
   "c9a254cd-ffc1-5dbf-b40c-f8d80b095230": {
+    "id": "c9a254cd-ffc1-5dbf-b40c-f8d80b095230",
     "title": "Momo",
     "subtitle": "Kilima Peaks, Area 3",
     "rate": [
@@ -4165,6 +4485,7 @@
     "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
   },
   "6f983441-f9b3-594a-b22c-0be2f3bad549": {
+    "id": "6f983441-f9b3-594a-b22c-0be2f3bad549",
     "title": "Skunch",
     "subtitle": "Kilima Peaks, Area 4",
     "rate": [
@@ -4178,6 +4499,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "33fe2771-69b4-597d-b011-c6ca8ce331ee": {
+    "id": "33fe2771-69b4-597d-b011-c6ca8ce331ee",
     "title": "Volarend",
     "subtitle": "Kilima Peaks, Area 4",
     "rate": [
@@ -4191,6 +4513,7 @@
     "temtemId": "7c7a3c22-5536-55bc-9b11-358602548afa"
   },
   "eb77626b-d357-5113-b9a2-351d14277f9b": {
+    "id": "eb77626b-d357-5113-b9a2-351d14277f9b",
     "title": "Shaolite",
     "subtitle": "Sewers of Properton, Area 1",
     "rate": [
@@ -4204,6 +4527,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "241044ff-cd2c-5286-8ca7-b52946168764": {
+    "id": "241044ff-cd2c-5286-8ca7-b52946168764",
     "title": "Venx",
     "subtitle": "Sewers of Properton, Area 1",
     "rate": [
@@ -4217,6 +4541,7 @@
     "temtemId": "cd30862a-7867-5f82-8e93-4671d2025267"
   },
   "07ba842f-08d5-519f-b358-1be10ab820d3": {
+    "id": "07ba842f-08d5-519f-b358-1be10ab820d3",
     "title": "Mushook",
     "subtitle": "Sewers of Properton, Area 1",
     "rate": [
@@ -4230,6 +4555,7 @@
     "temtemId": "ddad0c18-86fd-5bd5-9d78-7f01da618807"
   },
   "36a4b090-290c-5e6b-8896-6fe51b2f8653": {
+    "id": "36a4b090-290c-5e6b-8896-6fe51b2f8653",
     "title": "Hazrat",
     "subtitle": "Sewers of Properton, Area 1",
     "rate": [
@@ -4243,6 +4569,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "4af77545-ffa1-55d3-b38f-a89ee6afb942": {
+    "id": "4af77545-ffa1-55d3-b38f-a89ee6afb942",
     "title": "Shaolite",
     "subtitle": "Sewers of Properton, Area 2",
     "rate": [
@@ -4256,6 +4583,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "d7981237-b07e-5ba8-b9ae-657ece81e0fc": {
+    "id": "d7981237-b07e-5ba8-b9ae-657ece81e0fc",
     "title": "Mushook",
     "subtitle": "Sewers of Properton, Area 2",
     "rate": [
@@ -4269,6 +4597,7 @@
     "temtemId": "ddad0c18-86fd-5bd5-9d78-7f01da618807"
   },
   "83d84030-7230-5390-a05f-9b39e6c2c656": {
+    "id": "83d84030-7230-5390-a05f-9b39e6c2c656",
     "title": "Hazrat",
     "subtitle": "Sewers of Properton, Area 2",
     "rate": [
@@ -4282,6 +4611,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "d533f704-f295-5efa-9abd-7d48f81ea5d2": {
+    "id": "d533f704-f295-5efa-9abd-7d48f81ea5d2",
     "title": "Gharunder",
     "subtitle": "Sewers of Properton, Area 2",
     "rate": [
@@ -4295,6 +4625,7 @@
     "temtemId": "92518c91-5b6c-5fa7-b1ab-57fc13636e07"
   },
   "1a232584-9cf7-57c7-95f4-280a6613f2cb": {
+    "id": "1a232584-9cf7-57c7-95f4-280a6613f2cb",
     "title": "Shaolite",
     "subtitle": "Sewers of Properton, Area 3",
     "rate": [
@@ -4308,6 +4639,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "fe657e7e-0b3f-5b15-a638-a6e0afa76695": {
+    "id": "fe657e7e-0b3f-5b15-a638-a6e0afa76695",
     "title": "Mushook",
     "subtitle": "Sewers of Properton, Area 3",
     "rate": [
@@ -4321,6 +4653,7 @@
     "temtemId": "ddad0c18-86fd-5bd5-9d78-7f01da618807"
   },
   "9550e270-49a5-5434-b88a-d4262e18c7df": {
+    "id": "9550e270-49a5-5434-b88a-d4262e18c7df",
     "title": "Hazrat",
     "subtitle": "Sewers of Properton, Area 3",
     "rate": [
@@ -4334,6 +4667,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "f385a16d-07d7-5be8-a090-f54fa9a77dff": {
+    "id": "f385a16d-07d7-5be8-a090-f54fa9a77dff",
     "title": "Minttle",
     "subtitle": "Mac Aed's Crags, Area 1",
     "rate": [
@@ -4347,6 +4681,7 @@
     "temtemId": "3053e210-9625-5e2a-ad97-40e4463c4254"
   },
   "1c258926-6959-5326-a943-3ca88a744bd2": {
+    "id": "1c258926-6959-5326-a943-3ca88a744bd2",
     "title": "Mosu",
     "subtitle": "Mac Aed's Crags, Area 1",
     "rate": [
@@ -4360,6 +4695,7 @@
     "temtemId": "84510839-3f75-5e99-a8aa-e22744c5c8c6"
   },
   "67e239c3-0939-5c2f-b5cd-78d56aec43d0": {
+    "id": "67e239c3-0939-5c2f-b5cd-78d56aec43d0",
     "title": "Mitty",
     "subtitle": "Mac Aed's Crags, Area 2",
     "rate": [
@@ -4373,6 +4709,7 @@
     "temtemId": "f88b68cb-a120-53c7-b303-9dc19e517190"
   },
   "e2411cd4-d7b8-54b2-879f-96d060eb2d14": {
+    "id": "e2411cd4-d7b8-54b2-879f-96d060eb2d14",
     "title": "Mitty",
     "subtitle": "Mac Aed's Crags, Area 3",
     "rate": [
@@ -4386,6 +4723,7 @@
     "temtemId": "f88b68cb-a120-53c7-b303-9dc19e517190"
   },
   "05d01772-a921-5ed9-9ceb-18ca86547208": {
+    "id": "05d01772-a921-5ed9-9ceb-18ca86547208",
     "title": "Barnshe",
     "subtitle": "Mac Aed's Crags, Area 3",
     "rate": [
@@ -4399,6 +4737,7 @@
     "temtemId": "1bf74090-ebad-5215-9216-72b11c2857ed"
   },
   "21b25f0a-eed7-5257-a19a-586a16778ec8": {
+    "id": "21b25f0a-eed7-5257-a19a-586a16778ec8",
     "title": "Towly",
     "subtitle": "Mac Aed's Crags, Area 3",
     "rate": [
@@ -4412,6 +4751,7 @@
     "temtemId": "f4652878-55e9-5e6c-a883-dbd77cbbf180"
   },
   "eeae51d1-301f-5f34-a13f-b4b1a689a165": {
+    "id": "eeae51d1-301f-5f34-a13f-b4b1a689a165",
     "title": "Broccoblin",
     "subtitle": "Greenglen Forest, Area 1",
     "rate": [
@@ -4425,6 +4765,7 @@
     "temtemId": "6bde3b73-8c20-5faa-9254-08023db11c27"
   },
   "088d5b8c-7d3e-5c1a-a858-576e00bcb916": {
+    "id": "088d5b8c-7d3e-5c1a-a858-576e00bcb916",
     "title": "Mawtle",
     "subtitle": "Greenglen Forest, Area 1",
     "rate": [
@@ -4438,6 +4779,7 @@
     "temtemId": "a1e9b6eb-261b-52dd-9d8b-993a25e4aff8"
   },
   "451b7f16-83bc-510e-9eaa-b23b9583b171": {
+    "id": "451b7f16-83bc-510e-9eaa-b23b9583b171",
     "title": "Momo",
     "subtitle": "Greenglen Forest, Area 1",
     "rate": [
@@ -4451,6 +4793,7 @@
     "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
   },
   "075782e5-b731-5821-a03d-e361cc92c7c8": {
+    "id": "075782e5-b731-5821-a03d-e361cc92c7c8",
     "title": "Gorong",
     "subtitle": "Greenglen Forest, Area 2",
     "rate": [
@@ -4464,6 +4807,7 @@
     "temtemId": "a199326c-2df2-5f5c-bdad-3df01059dfa6"
   },
   "c42e49b8-7469-502e-a151-f761095350bd": {
+    "id": "c42e49b8-7469-502e-a151-f761095350bd",
     "title": "Broccoblin",
     "subtitle": "Greenglen Forest, Area 2",
     "rate": [
@@ -4477,6 +4821,7 @@
     "temtemId": "6bde3b73-8c20-5faa-9254-08023db11c27"
   },
   "b38d28a3-d9f5-5335-8365-703b024cae96": {
+    "id": "b38d28a3-d9f5-5335-8365-703b024cae96",
     "title": "Smazee",
     "subtitle": "Greenglen Forest, Area 2",
     "rate": [
@@ -4490,6 +4835,7 @@
     "temtemId": "482cd7ea-4ee6-5f25-873c-e4d8100b9408"
   },
   "26bbc21c-4273-5090-984e-7a6a8f9156f8": {
+    "id": "26bbc21c-4273-5090-984e-7a6a8f9156f8",
     "title": "Gorong",
     "subtitle": "Greenglen Forest, Area 3",
     "rate": [
@@ -4503,6 +4849,7 @@
     "temtemId": "a199326c-2df2-5f5c-bdad-3df01059dfa6"
   },
   "7b8f04a2-b9e1-5e00-b1f3-cbc33a2ab32b": {
+    "id": "7b8f04a2-b9e1-5e00-b1f3-cbc33a2ab32b",
     "title": "Mawtle",
     "subtitle": "Greenglen Forest, Area 3",
     "rate": [
@@ -4516,6 +4863,7 @@
     "temtemId": "a1e9b6eb-261b-52dd-9d8b-993a25e4aff8"
   },
   "8486a0cb-90ab-5d26-96df-24a1964ea877": {
+    "id": "8486a0cb-90ab-5d26-96df-24a1964ea877",
     "title": "Mosu",
     "subtitle": "Greenglen Forest, Area 3",
     "rate": [
@@ -4529,6 +4877,7 @@
     "temtemId": "84510839-3f75-5e99-a8aa-e22744c5c8c6"
   },
   "e2de4f9f-6e18-5022-8dcd-19c889fd7916": {
+    "id": "e2de4f9f-6e18-5022-8dcd-19c889fd7916",
     "title": "Broccoblin",
     "subtitle": "Greenglen Forest, Area 4",
     "rate": [
@@ -4542,6 +4891,7 @@
     "temtemId": "6bde3b73-8c20-5faa-9254-08023db11c27"
   },
   "98d2854d-b0d3-5951-a0e5-e46a1e2a3d25": {
+    "id": "98d2854d-b0d3-5951-a0e5-e46a1e2a3d25",
     "title": "Chimurian",
     "subtitle": "Greenglen Forest, Area 4",
     "rate": [
@@ -4555,6 +4905,7 @@
     "temtemId": "2f96d145-f9d9-5ebb-9676-2c6f0b2c9ed0"
   },
   "0d9250cb-c61c-5f29-8d1b-54ed8210487e": {
+    "id": "0d9250cb-c61c-5f29-8d1b-54ed8210487e",
     "title": "Mosu",
     "subtitle": "Greenglen Forest, Area 5",
     "rate": [
@@ -4568,6 +4919,7 @@
     "temtemId": "84510839-3f75-5e99-a8aa-e22744c5c8c6"
   },
   "74f7f150-7658-5bdd-9373-5a3fda926ccd": {
+    "id": "74f7f150-7658-5bdd-9373-5a3fda926ccd",
     "title": "Mawtle",
     "subtitle": "Greenglen Forest, Area 5",
     "rate": [
@@ -4581,6 +4933,7 @@
     "temtemId": "a1e9b6eb-261b-52dd-9d8b-993a25e4aff8"
   },
   "c012e8ab-fded-5ff8-badd-cd843f34cc7f": {
+    "id": "c012e8ab-fded-5ff8-badd-cd843f34cc7f",
     "title": "Babawa",
     "subtitle": "Greenglen Forest, Area 6",
     "rate": [
@@ -4594,6 +4947,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "17f5d657-2acf-58ea-8c6f-239a697cc401": {
+    "id": "17f5d657-2acf-58ea-8c6f-239a697cc401",
     "title": "Koish (Melee)",
     "subtitle": "Greenglen Forest, Area 6",
     "rate": [
@@ -4607,6 +4961,7 @@
     "temtemId": "6cc8e42d-a3e2-5b53-982d-31fd498912fd"
   },
   "c3e7082d-9d51-5fd2-8640-7a34c9f25aff": {
+    "id": "c3e7082d-9d51-5fd2-8640-7a34c9f25aff",
     "title": "Koish (Mental)",
     "subtitle": "Greenglen Forest, Area 6",
     "rate": [
@@ -4620,6 +4975,7 @@
     "temtemId": "62a738fe-5d7f-5631-bd3c-1ce591043db1"
   },
   "c217e4fd-a882-5076-a9bc-eb7691c3c61a": {
+    "id": "c217e4fd-a882-5076-a9bc-eb7691c3c61a",
     "title": "Kuri",
     "subtitle": "Kwea Uplands, Area 1",
     "rate": [
@@ -4633,6 +4989,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "ff4bfe4d-e9c5-562a-9a0d-1ed7ba31bc1c": {
+    "id": "ff4bfe4d-e9c5-562a-9a0d-1ed7ba31bc1c",
     "title": "Goty",
     "subtitle": "Kwea Uplands, Area 1",
     "rate": [
@@ -4646,6 +5003,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "d898d495-f469-5894-bd94-319b41f8ec7c": {
+    "id": "d898d495-f469-5894-bd94-319b41f8ec7c",
     "title": "Paharac",
     "subtitle": "Kwea Uplands, Area 2",
     "rate": [
@@ -4659,6 +5017,7 @@
     "temtemId": "849291ca-eab3-5baf-80cd-d92f6966a586"
   },
   "2f21043b-ed66-5a29-aca2-91cec1d1011d": {
+    "id": "2f21043b-ed66-5a29-aca2-91cec1d1011d",
     "title": "Zizare",
     "subtitle": "Kwea Uplands, Area 2",
     "rate": [
@@ -4672,6 +5031,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "3ea4f325-0efd-515d-804a-58a855bdea19": {
+    "id": "3ea4f325-0efd-515d-804a-58a855bdea19",
     "title": "Goty",
     "subtitle": "Kwea Uplands, Area 3",
     "rate": [
@@ -4685,6 +5045,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "ad15bae1-7ad8-5866-aff6-4dc5696134c1": {
+    "id": "ad15bae1-7ad8-5866-aff6-4dc5696134c1",
     "title": "Kuri",
     "subtitle": "Kwea Uplands, Area 3",
     "rate": [
@@ -4698,6 +5059,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "6097df6d-6292-5895-a217-131d892935b2": {
+    "id": "6097df6d-6292-5895-a217-131d892935b2",
     "title": "Bunbun",
     "subtitle": "Kakama Cenote, Area 1",
     "rate": [
@@ -4711,6 +5073,7 @@
     "temtemId": "c9a067dc-184f-517a-b077-004f2aeb9b2e"
   },
   "b6b47331-003c-59aa-a26d-4f76b86ae4d9": {
+    "id": "b6b47331-003c-59aa-a26d-4f76b86ae4d9",
     "title": "Babawa",
     "subtitle": "Kakama Cenote, Area 1",
     "rate": [
@@ -4724,6 +5087,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "4317b9a8-8d1b-5220-99aa-2fdc4ac02837": {
+    "id": "4317b9a8-8d1b-5220-99aa-2fdc4ac02837",
     "title": "Shuine",
     "subtitle": "Kakama Cenote, Area 1",
     "rate": [
@@ -4737,6 +5101,7 @@
     "temtemId": "63dffd57-24be-5cad-ad70-ea9fb1a54b01"
   },
   "f75110ce-e509-570f-920e-36f39e178199": {
+    "id": "f75110ce-e509-570f-920e-36f39e178199",
     "title": "Ukama",
     "subtitle": "Kakama Cenote, Area 2",
     "rate": [
@@ -4750,6 +5115,7 @@
     "temtemId": "817b1abe-eafe-595f-ba93-992dce189610"
   },
   "75b0c137-1a42-565c-8c95-39551b621e5d": {
+    "id": "75b0c137-1a42-565c-8c95-39551b621e5d",
     "title": "Wiplump",
     "subtitle": "Kakama Cenote, Area 2",
     "rate": [
@@ -4763,6 +5129,7 @@
     "temtemId": "1280c782-7f02-51bb-807d-34b2bb1c9111"
   },
   "77fe11b1-feea-5b97-b3df-98b3eb848591": {
+    "id": "77fe11b1-feea-5b97-b3df-98b3eb848591",
     "title": "Shuine",
     "subtitle": "Kakama Cenote, Area 2",
     "rate": [
@@ -4776,6 +5143,7 @@
     "temtemId": "63dffd57-24be-5cad-ad70-ea9fb1a54b01"
   },
   "58069838-a53d-5153-ab40-4c88239692cb": {
+    "id": "58069838-a53d-5153-ab40-4c88239692cb",
     "title": "Skunch",
     "subtitle": "Barafu Glacier, Area 1",
     "rate": [
@@ -4789,6 +5157,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "779af7f0-920e-5a43-8084-612681b897a8": {
+    "id": "779af7f0-920e-5a43-8084-612681b897a8",
     "title": "Mudrid",
     "subtitle": "Barafu Glacier, Area 1",
     "rate": [
@@ -4802,6 +5171,7 @@
     "temtemId": "69bc04d8-6e1b-5a28-87db-9a49d8f1c1f3"
   },
   "ec665364-89bc-5e04-bc01-48c76ce4069f": {
+    "id": "ec665364-89bc-5e04-bc01-48c76ce4069f",
     "title": "Zizare",
     "subtitle": "Barafu Glacier, Area 1",
     "rate": [
@@ -4815,6 +5185,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "9713ed68-4de5-5a95-9194-b474425ca9fe": {
+    "id": "9713ed68-4de5-5a95-9194-b474425ca9fe",
     "title": "Momo",
     "subtitle": "Barafu Glacier, Area 1",
     "rate": [
@@ -4828,6 +5199,7 @@
     "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
   },
   "03b02ab3-ad5e-517b-b6fc-cb4de6a047af": {
+    "id": "03b02ab3-ad5e-517b-b6fc-cb4de6a047af",
     "title": "Yowlar",
     "subtitle": "Barafu Glacier, Area 1",
     "rate": [
@@ -4841,6 +5213,7 @@
     "temtemId": "a13b901f-8fd0-5986-a678-5f2ffb8833a5"
   },
   "985f7c28-2354-5b61-8eb1-11ea57709d50": {
+    "id": "985f7c28-2354-5b61-8eb1-11ea57709d50",
     "title": "Spriole",
     "subtitle": "Giant Banyan, Area 1",
     "rate": [
@@ -4854,6 +5227,7 @@
     "temtemId": "a6e2c515-e6c8-56b3-9f39-23bb9deca27c"
   },
   "64133c69-792a-5a6a-ba96-d985627fab3c": {
+    "id": "64133c69-792a-5a6a-ba96-d985627fab3c",
     "title": "Hidody",
     "subtitle": "Giant Banyan, Area 1",
     "rate": [
@@ -4867,6 +5241,7 @@
     "temtemId": "049f4c56-6032-5726-a5bf-0edeb37ded41"
   },
   "1f8487e4-3293-5791-9160-7d1801d4c837": {
+    "id": "1f8487e4-3293-5791-9160-7d1801d4c837",
     "title": "Kinu",
     "subtitle": "Giant Banyan, Area 1",
     "rate": [
@@ -4880,6 +5255,7 @@
     "temtemId": "ca8128e8-8b89-5b9f-bd74-7710aa377ab0"
   },
   "03483eaf-282a-5b56-9c34-9319b9d13c14": {
+    "id": "03483eaf-282a-5b56-9c34-9319b9d13c14",
     "title": "Garyo",
     "subtitle": "The Highbelow?, Area 1",
     "rate": [
@@ -4893,6 +5269,7 @@
     "temtemId": "89aca495-5083-5d2f-9c43-de183e7b6665"
   },
   "a97b5f98-a839-5e4c-a56d-a707ea0d98c9": {
+    "id": "a97b5f98-a839-5e4c-a56d-a707ea0d98c9",
     "title": "Wiplump",
     "subtitle": "The Highbelow?, Area 1",
     "rate": [
@@ -4906,6 +5283,7 @@
     "temtemId": "1280c782-7f02-51bb-807d-34b2bb1c9111"
   },
   "6c1cff65-91f7-5b93-92f3-e637a6318daf": {
+    "id": "6c1cff65-91f7-5b93-92f3-e637a6318daf",
     "title": "Cycrox",
     "subtitle": "The Highbelow?, Area 1",
     "rate": [
@@ -4919,6 +5297,7 @@
     "temtemId": "ac52113f-98c4-532e-a721-0cf71b01015b"
   },
   "b136d5ce-4596-5f29-a0dd-96cf98486f9b": {
+    "id": "b136d5ce-4596-5f29-a0dd-96cf98486f9b",
     "title": "Grumper",
     "subtitle": "The Highbelow?, Area 1",
     "rate": [
@@ -4932,6 +5311,7 @@
     "temtemId": "73e138f7-97eb-5b53-ac75-01a2f2d55029"
   },
   "abb4d400-da20-5992-827a-98a10430154f": {
+    "id": "abb4d400-da20-5992-827a-98a10430154f",
     "title": "Sparzy",
     "subtitle": "The Highbelow?, Area 1",
     "rate": [
@@ -4945,6 +5325,7 @@
     "temtemId": "0df92eba-27e0-5f08-a1f3-f1aab08b0942"
   },
   "8e0ee864-5c97-513d-a72b-04e2a6c512e1": {
+    "id": "8e0ee864-5c97-513d-a72b-04e2a6c512e1",
     "title": "Goty",
     "subtitle": "Mawingu Islets, Area 1",
     "rate": [
@@ -4958,6 +5339,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "a5dd1db8-7164-5e4e-b4c6-b88f3b123d09": {
+    "id": "a5dd1db8-7164-5e4e-b4c6-b88f3b123d09",
     "title": "Kuri",
     "subtitle": "Mawingu Islets, Area 1",
     "rate": [
@@ -4971,6 +5353,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "b0d20986-4fe2-59f9-9746-c2fab3e69a8f": {
+    "id": "b0d20986-4fe2-59f9-9746-c2fab3e69a8f",
     "title": "Goty",
     "subtitle": "Mawingu Islets, Area 2",
     "rate": [
@@ -4984,6 +5367,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "8c1cbb1e-152c-5b00-849c-53759765217f": {
+    "id": "8c1cbb1e-152c-5b00-849c-53759765217f",
     "title": "Zephyruff",
     "subtitle": "Mawingu Islets, Area 2",
     "rate": [
@@ -4997,6 +5381,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "4118876d-f877-5312-bf0a-c15976ade590": {
+    "id": "4118876d-f877-5312-bf0a-c15976ade590",
     "title": "Osuchi",
     "subtitle": "Mawingu Islets, Area 3",
     "rate": [
@@ -5010,6 +5395,7 @@
     "temtemId": "01f11b06-be83-504e-b896-9bdce6db0506"
   },
   "7ba85a5b-108b-586f-9fcd-c44e97de3631": {
+    "id": "7ba85a5b-108b-586f-9fcd-c44e97de3631",
     "title": "Volarend",
     "subtitle": "Mawingu Islets, Area 3",
     "rate": [
@@ -5023,6 +5409,7 @@
     "temtemId": "7c7a3c22-5536-55bc-9b11-358602548afa"
   },
   "348a10d3-5638-55fc-8302-e2eb1e9643b9": {
+    "id": "348a10d3-5638-55fc-8302-e2eb1e9643b9",
     "title": "Zephyruff",
     "subtitle": "Mawingu Islets, Area 4",
     "rate": [
@@ -5036,6 +5423,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "83e3fd8d-8dde-5b71-b4e1-1de57d15fc63": {
+    "id": "83e3fd8d-8dde-5b71-b4e1-1de57d15fc63",
     "title": "Skunch",
     "subtitle": "Mawingu Islets, Area 4",
     "rate": [
@@ -5049,6 +5437,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "c449c9d2-229b-5c98-a30c-6caf4aa61413": {
+    "id": "c449c9d2-229b-5c98-a30c-6caf4aa61413",
     "title": "Droply",
     "subtitle": "Mawingu Islets, Area 4",
     "rate": [
@@ -5062,6 +5451,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "55d27808-58b8-523d-a7ff-83973dcd6616": {
+    "id": "55d27808-58b8-523d-a7ff-83973dcd6616",
     "title": "Babawa",
     "subtitle": "Mawingu Islets, Area 5",
     "rate": [
@@ -5075,6 +5465,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "e00373ac-caf6-5bf8-9f50-701734b57de0": {
+    "id": "e00373ac-caf6-5bf8-9f50-701734b57de0",
     "title": "Droply",
     "subtitle": "Mawingu Islets, Area 5",
     "rate": [
@@ -5088,6 +5479,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "4511873d-5391-53ef-ac11-c2c96649d7af": {
+    "id": "4511873d-5391-53ef-ac11-c2c96649d7af",
     "title": "Koish (Earth)",
     "subtitle": "Mawingu Islets, Area 5",
     "rate": [
@@ -5101,6 +5493,7 @@
     "temtemId": "36b5f145-262e-5a32-9a10-7a59ce0d4c6d"
   },
   "7ea1894f-90e5-5209-879b-65140e61f685": {
+    "id": "7ea1894f-90e5-5209-879b-65140e61f685",
     "title": "Grumvel",
     "subtitle": "Chini Grotto, Area 1",
     "rate": [
@@ -5114,6 +5507,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "2d927dcd-c6bd-59d9-afea-2d2e9b6daf93": {
+    "id": "2d927dcd-c6bd-59d9-afea-2d2e9b6daf93",
     "title": "Skunch",
     "subtitle": "Chini Grotto, Area 1",
     "rate": [
@@ -5127,6 +5521,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "c9b92ed5-7c78-5a5f-8e5e-5c98dbc79955": {
+    "id": "c9b92ed5-7c78-5a5f-8e5e-5c98dbc79955",
     "title": "Zizare",
     "subtitle": "Chini Grotto, Area 1",
     "rate": [
@@ -5140,6 +5535,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "1c4ec1d2-cd8f-55f4-9f46-d5b46b11526c": {
+    "id": "1c4ec1d2-cd8f-55f4-9f46-d5b46b11526c",
     "title": "Pycko",
     "subtitle": "Chini Grotto, Area 1",
     "rate": [
@@ -5153,6 +5549,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "0cd437d9-5f16-5485-a80a-36a621004522": {
+    "id": "0cd437d9-5f16-5485-a80a-36a621004522",
     "title": "Grumvel",
     "subtitle": "Chini Grotto, Area 2",
     "rate": [
@@ -5166,6 +5563,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "b37ea1b3-140c-5e8c-9143-04d18cb23a5d": {
+    "id": "b37ea1b3-140c-5e8c-9143-04d18cb23a5d",
     "title": "Skunch",
     "subtitle": "Chini Grotto, Area 2",
     "rate": [
@@ -5179,6 +5577,7 @@
     "temtemId": "fd95d2ea-4fe1-5c03-9bda-ae9125e2daa6"
   },
   "5822d11f-2f18-5dfa-974d-77f822832ee1": {
+    "id": "5822d11f-2f18-5dfa-974d-77f822832ee1",
     "title": "Zizare",
     "subtitle": "Chini Grotto, Area 2",
     "rate": [
@@ -5192,6 +5591,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "5ec31441-a7ea-5b6a-95b4-c9aec0c04a98": {
+    "id": "5ec31441-a7ea-5b6a-95b4-c9aec0c04a98",
     "title": "Grumvel",
     "subtitle": "Chini Grotto, Area 3",
     "rate": [
@@ -5205,6 +5605,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "e8fe4cf6-cb70-5da2-9286-658958ff7418": {
+    "id": "e8fe4cf6-cb70-5da2-9286-658958ff7418",
     "title": "Zizare",
     "subtitle": "Chini Grotto, Area 3",
     "rate": [
@@ -5218,6 +5619,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "24c621e9-0653-57fb-b4b2-adaa32cfa74e": {
+    "id": "24c621e9-0653-57fb-b4b2-adaa32cfa74e",
     "title": "Grumvel",
     "subtitle": "Chini Grotto, Area 4",
     "rate": [
@@ -5231,6 +5633,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "c38bd21f-9832-5992-b741-10df56d4426d": {
+    "id": "c38bd21f-9832-5992-b741-10df56d4426d",
     "title": "Zizare",
     "subtitle": "Chini Grotto, Area 4",
     "rate": [
@@ -5244,6 +5647,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "9479341a-fe43-5d2d-b733-60d768a46056": {
+    "id": "9479341a-fe43-5d2d-b733-60d768a46056",
     "title": "Osukai",
     "subtitle": "Chini Grotto, Area 5",
     "rate": [
@@ -5257,6 +5661,7 @@
     "temtemId": "7619c1ae-d946-5980-be4a-f811600c5454"
   },
   "b1a84b67-9701-5fa7-b025-558aca526a66": {
+    "id": "b1a84b67-9701-5fa7-b025-558aca526a66",
     "title": "Tuwai",
     "subtitle": "Chini Grotto, Area 5",
     "rate": [
@@ -5270,6 +5675,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "06520974-d0a3-512a-9433-10894294641a": {
+    "id": "06520974-d0a3-512a-9433-10894294641a",
     "title": "Droply",
     "subtitle": "Matope Road, Area 1",
     "rate": [
@@ -5283,6 +5689,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "15804bd9-083c-58a3-8303-7af2be3e40ea": {
+    "id": "15804bd9-083c-58a3-8303-7af2be3e40ea",
     "title": "Goty",
     "subtitle": "Matope Road, Area 1",
     "rate": [
@@ -5296,6 +5703,7 @@
     "temtemId": "d85a96ce-7d0a-5b82-bc96-5fd39f6519bc"
   },
   "47654cdd-1270-564a-b422-f9b5289b862a": {
+    "id": "47654cdd-1270-564a-b422-f9b5289b862a",
     "title": "Kuri",
     "subtitle": "Matope Road, Area 1",
     "rate": [
@@ -5309,6 +5717,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "08155e39-8ccb-5c15-998a-8148f27f8b3e": {
+    "id": "08155e39-8ccb-5c15-998a-8148f27f8b3e",
     "title": "Osuchi",
     "subtitle": "Matope Road, Area 2",
     "rate": [
@@ -5322,6 +5731,7 @@
     "temtemId": "01f11b06-be83-504e-b896-9bdce6db0506"
   },
   "70d5bfb0-6600-5bb7-8a98-1a6c017f67b5": {
+    "id": "70d5bfb0-6600-5bb7-8a98-1a6c017f67b5",
     "title": "Kuri",
     "subtitle": "Matope Road, Area 2",
     "rate": [
@@ -5335,6 +5745,7 @@
     "temtemId": "8a78394e-1bf6-5b3e-9b5a-54c21ff2181b"
   },
   "3c88a34a-f515-5b22-87dd-979e77cc4f29": {
+    "id": "3c88a34a-f515-5b22-87dd-979e77cc4f29",
     "title": "Gazuma",
     "subtitle": "Matope Road, Area 2",
     "rate": [
@@ -5348,6 +5759,7 @@
     "temtemId": "e4acac6d-7c98-5dca-814c-88662f8ec0f4"
   },
   "634d3091-c49f-5e7f-bc74-1d335e008277": {
+    "id": "634d3091-c49f-5e7f-bc74-1d335e008277",
     "title": "Akranox",
     "subtitle": "Tasa Desert, Area 1",
     "rate": [
@@ -5361,6 +5773,7 @@
     "temtemId": "dcb0742f-b081-503f-90ed-6edd0596d6a7"
   },
   "5fa2d308-e35d-587d-b85e-c2da9404a14d": {
+    "id": "5fa2d308-e35d-587d-b85e-c2da9404a14d",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 1",
     "rate": [
@@ -5374,6 +5787,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "4496b509-c1c1-541a-8362-f0d96b7a9667": {
+    "id": "4496b509-c1c1-541a-8362-f0d96b7a9667",
     "title": "Vulffy",
     "subtitle": "Tasa Desert, Area 2",
     "rate": [
@@ -5387,6 +5801,7 @@
     "temtemId": "e8711930-66ae-5bef-b7c9-4ad60a654e51"
   },
   "a93371da-ca6e-5904-bd7a-054b9f9890ae": {
+    "id": "a93371da-ca6e-5904-bd7a-054b9f9890ae",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 2",
     "rate": [
@@ -5400,6 +5815,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "2a1e7cd9-41c6-521d-9b1c-9bb8573cc486": {
+    "id": "2a1e7cd9-41c6-521d-9b1c-9bb8573cc486",
     "title": "Akranox",
     "subtitle": "Tasa Desert, Area 3",
     "rate": [
@@ -5413,6 +5829,7 @@
     "temtemId": "dcb0742f-b081-503f-90ed-6edd0596d6a7"
   },
   "9ac12530-d0b3-565d-831b-4e76e0183d6e": {
+    "id": "9ac12530-d0b3-565d-831b-4e76e0183d6e",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 3",
     "rate": [
@@ -5426,6 +5843,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "50ef431a-3e98-572b-a631-5d2a87e36cd7": {
+    "id": "50ef431a-3e98-572b-a631-5d2a87e36cd7",
     "title": "Vulffy",
     "subtitle": "Tasa Desert, Area 3",
     "rate": [
@@ -5439,6 +5857,7 @@
     "temtemId": "e8711930-66ae-5bef-b7c9-4ad60a654e51"
   },
   "4d77a4f9-71a3-57ca-bdf3-1b190e9b08b2": {
+    "id": "4d77a4f9-71a3-57ca-bdf3-1b190e9b08b2",
     "title": "Vulffy",
     "subtitle": "Tasa Desert, Area 4",
     "rate": [
@@ -5452,6 +5871,7 @@
     "temtemId": "e8711930-66ae-5bef-b7c9-4ad60a654e51"
   },
   "8cd781ee-b86d-5898-bd69-c36e3adc5d0f": {
+    "id": "8cd781ee-b86d-5898-bd69-c36e3adc5d0f",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 4",
     "rate": [
@@ -5465,6 +5885,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "888a8e6b-f74e-55d5-8816-c32f9a86d188": {
+    "id": "888a8e6b-f74e-55d5-8816-c32f9a86d188",
     "title": "Akranox",
     "subtitle": "Tasa Desert, Area 5",
     "rate": [
@@ -5478,6 +5899,7 @@
     "temtemId": "dcb0742f-b081-503f-90ed-6edd0596d6a7"
   },
   "81417c8b-b806-5038-b09e-2430a36060f8": {
+    "id": "81417c8b-b806-5038-b09e-2430a36060f8",
     "title": "Vulffy",
     "subtitle": "Tasa Desert, Area 5",
     "rate": [
@@ -5491,6 +5913,7 @@
     "temtemId": "e8711930-66ae-5bef-b7c9-4ad60a654e51"
   },
   "a69639e8-3c75-55e2-a278-ed51a9dab685": {
+    "id": "a69639e8-3c75-55e2-a278-ed51a9dab685",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 5",
     "rate": [
@@ -5504,6 +5927,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "e0008ae9-0f4b-5aa3-8419-4b6626c86e9d": {
+    "id": "e0008ae9-0f4b-5aa3-8419-4b6626c86e9d",
     "title": "Rhoulder",
     "subtitle": "Tasa Desert, Area 5",
     "rate": [
@@ -5517,6 +5941,7 @@
     "temtemId": "f7795b8c-3db5-5ca0-8507-53abd7535d22"
   },
   "62017568-09fc-51d1-a86b-e6f6c01e98d1": {
+    "id": "62017568-09fc-51d1-a86b-e6f6c01e98d1",
     "title": "Akranox",
     "subtitle": "Tasa Desert, Area 6",
     "rate": [
@@ -5530,6 +5955,7 @@
     "temtemId": "dcb0742f-b081-503f-90ed-6edd0596d6a7"
   },
   "3612c552-25b9-52e2-816d-26ec03103de1": {
+    "id": "3612c552-25b9-52e2-816d-26ec03103de1",
     "title": "Pycko",
     "subtitle": "Tasa Desert, Area 6",
     "rate": [
@@ -5543,6 +5969,7 @@
     "temtemId": "c27575df-d6e8-555c-9124-dff07670c594"
   },
   "7918afca-17da-591c-9c74-e0d513ae2b68": {
+    "id": "7918afca-17da-591c-9c74-e0d513ae2b68",
     "title": "Maoala",
     "subtitle": "Meadowdale, Area 1",
     "rate": [
@@ -5556,6 +5983,7 @@
     "temtemId": "dda46ac4-956c-51c2-a9ac-c9d34724856d"
   },
   "f90b07fc-0e3b-5f24-9a62-bc381e1eab7b": {
+    "id": "f90b07fc-0e3b-5f24-9a62-bc381e1eab7b",
     "title": "Thaiko",
     "subtitle": "Meadowdale, Area 1",
     "rate": [
@@ -5569,6 +5997,7 @@
     "temtemId": "cc9bb567-2852-500b-8dea-978e844af8ef"
   },
   "e5ebaa1e-7787-5446-bfa5-943a7e66c706": {
+    "id": "e5ebaa1e-7787-5446-bfa5-943a7e66c706",
     "title": "Houchic",
     "subtitle": "Meadowdale, Area 1",
     "rate": [
@@ -5582,6 +6011,7 @@
     "temtemId": "6c1ef2f1-6d8d-5e6e-a1c1-6879cef895d5"
   },
   "9e7d6a1d-f64c-5b6c-ad87-41413c4de419": {
+    "id": "9e7d6a1d-f64c-5b6c-ad87-41413c4de419",
     "title": "Babawa",
     "subtitle": "Meadowdale, Area 2",
     "rate": [
@@ -5595,6 +6025,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "98390425-50ad-5b65-ae24-0e0940cc89db": {
+    "id": "98390425-50ad-5b65-ae24-0e0940cc89db",
     "title": "Saipat",
     "subtitle": "Meadowdale, Area 2",
     "rate": [
@@ -5608,6 +6039,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "6e4c43ce-a95d-540d-8582-544f804a58ab": {
+    "id": "6e4c43ce-a95d-540d-8582-544f804a58ab",
     "title": "Reval",
     "subtitle": "Meadowdale, Area 3",
     "rate": [
@@ -5621,6 +6053,7 @@
     "temtemId": "ea3a6000-de03-5753-8c78-da6a78a8b79e"
   },
   "24ea5304-dc30-5855-875c-9e59945b5fcf": {
+    "id": "24ea5304-dc30-5855-875c-9e59945b5fcf",
     "title": "Saipat",
     "subtitle": "Meadowdale, Area 3",
     "rate": [
@@ -5634,6 +6067,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "096e823e-495a-53b9-b3c0-a806765e402c": {
+    "id": "096e823e-495a-53b9-b3c0-a806765e402c",
     "title": "Maoala",
     "subtitle": "Meadowdale, Area 4",
     "rate": [
@@ -5647,6 +6081,7 @@
     "temtemId": "dda46ac4-956c-51c2-a9ac-c9d34724856d"
   },
   "5b0d01ce-ee8c-5736-9f61-2a20f899147c": {
+    "id": "5b0d01ce-ee8c-5736-9f61-2a20f899147c",
     "title": "Thaiko",
     "subtitle": "Meadowdale, Area 4",
     "rate": [
@@ -5660,6 +6095,7 @@
     "temtemId": "cc9bb567-2852-500b-8dea-978e844af8ef"
   },
   "cc9dc2f0-3eb2-53a1-98bd-f9326f61c28d": {
+    "id": "cc9dc2f0-3eb2-53a1-98bd-f9326f61c28d",
     "title": "Owlhe",
     "subtitle": "Meadowdale, Area 4",
     "rate": [
@@ -5673,6 +6109,7 @@
     "temtemId": "6766ad83-c512-52fa-8a23-967663d0308c"
   },
   "29965a66-0538-54bd-8341-869c108fc238": {
+    "id": "29965a66-0538-54bd-8341-869c108fc238",
     "title": "Towly",
     "subtitle": "Meadowdale, Area 4",
     "rate": [
@@ -5686,6 +6123,7 @@
     "temtemId": "f4652878-55e9-5e6c-a883-dbd77cbbf180"
   },
   "a5584d81-56a0-59a1-81e6-8d617f7815b2": {
+    "id": "a5584d81-56a0-59a1-81e6-8d617f7815b2",
     "title": "Babawa",
     "subtitle": "Meadowdale, Area 5",
     "rate": [
@@ -5699,6 +6137,7 @@
     "temtemId": "6ccf348d-d441-5af7-bbe1-4a12a661d7e9"
   },
   "68e8dd33-ff75-535d-abd5-217ab9588b40": {
+    "id": "68e8dd33-ff75-535d-abd5-217ab9588b40",
     "title": "Saipat",
     "subtitle": "Meadowdale, Area 5",
     "rate": [
@@ -5712,6 +6151,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "e61ab370-db09-511b-be01-8d23fe82091f": {
+    "id": "e61ab370-db09-511b-be01-8d23fe82091f",
     "title": "Koish (Melee)",
     "subtitle": "Meadowdale, Area 5",
     "rate": [
@@ -5725,6 +6165,7 @@
     "temtemId": "6cc8e42d-a3e2-5b53-982d-31fd498912fd"
   },
   "8d2cdaf4-3ec6-5f08-be7e-964aaeab0093": {
+    "id": "8d2cdaf4-3ec6-5f08-be7e-964aaeab0093",
     "title": "Koish (Mental)",
     "subtitle": "Meadowdale, Area 5",
     "rate": [
@@ -5738,6 +6179,7 @@
     "temtemId": "62a738fe-5d7f-5631-bd3c-1ce591043db1"
   },
   "7f024851-a772-52a9-b50e-9d476448040a": {
+    "id": "7f024851-a772-52a9-b50e-9d476448040a",
     "title": "Banapi",
     "subtitle": "Anak Volcano, Area 1",
     "rate": [
@@ -5751,6 +6193,7 @@
     "temtemId": "c6929b50-96da-5fe4-9839-ba9251a81eed"
   },
   "e9e8a417-e87c-5247-86d8-fbfc9f11e8e7": {
+    "id": "e9e8a417-e87c-5247-86d8-fbfc9f11e8e7",
     "title": "Raiber",
     "subtitle": "Anak Volcano, Area 1",
     "rate": [
@@ -5764,6 +6207,7 @@
     "temtemId": "56163cb7-af61-58aa-843a-bf1b64057fdc"
   },
   "34701352-994b-52d8-a4b9-804239a075a4": {
+    "id": "34701352-994b-52d8-a4b9-804239a075a4",
     "title": "Vulvir",
     "subtitle": "Anak Volcano, Area 2",
     "rate": [
@@ -5777,6 +6221,7 @@
     "temtemId": "7b6044d4-2db9-5bf6-a33a-1837825f8c17"
   },
   "642d8312-4beb-5755-b34a-b1bcfe4570a9": {
+    "id": "642d8312-4beb-5755-b34a-b1bcfe4570a9",
     "title": "Raiber",
     "subtitle": "Anak Volcano, Area 2",
     "rate": [
@@ -5790,6 +6235,7 @@
     "temtemId": "56163cb7-af61-58aa-843a-bf1b64057fdc"
   },
   "90d79a19-ed24-5252-a0ca-60f871128c42": {
+    "id": "90d79a19-ed24-5252-a0ca-60f871128c42",
     "title": "Banapi",
     "subtitle": "Anak Volcano, Area 2",
     "rate": [
@@ -5803,6 +6249,7 @@
     "temtemId": "c6929b50-96da-5fe4-9839-ba9251a81eed"
   },
   "910bf617-0c97-5786-8067-e538659fe41e": {
+    "id": "910bf617-0c97-5786-8067-e538659fe41e",
     "title": "Magmis",
     "subtitle": "Anak Volcano, Area 3",
     "rate": [
@@ -5816,6 +6263,7 @@
     "temtemId": "af562386-7dbd-5107-80a2-6f416ef1db1d"
   },
   "236f2b91-298a-555c-ac33-39232832a7bf": {
+    "id": "236f2b91-298a-555c-ac33-39232832a7bf",
     "title": "Raiber",
     "subtitle": "Anak Volcano, Area 3",
     "rate": [
@@ -5829,6 +6277,7 @@
     "temtemId": "56163cb7-af61-58aa-843a-bf1b64057fdc"
   },
   "150d8b6a-e8b1-5e44-bd14-712708d84e14": {
+    "id": "150d8b6a-e8b1-5e44-bd14-712708d84e14",
     "title": "Banapi",
     "subtitle": "Anak Volcano, Area 3",
     "rate": [
@@ -5842,6 +6291,7 @@
     "temtemId": "c6929b50-96da-5fe4-9839-ba9251a81eed"
   },
   "7765eb13-ac40-5ec9-9601-38433e3512a4": {
+    "id": "7765eb13-ac40-5ec9-9601-38433e3512a4",
     "title": "Capyre",
     "subtitle": "Anak Volcano, Area 4",
     "rate": [
@@ -5855,6 +6305,7 @@
     "temtemId": "9ca7cba9-069b-52e2-b47a-d2c80b56d81f"
   },
   "f1cac489-4ce6-5786-8e93-d364b62fc3cc": {
+    "id": "f1cac489-4ce6-5786-8e93-d364b62fc3cc",
     "title": "Raize",
     "subtitle": "Anak Volcano, Area 4",
     "rate": [
@@ -5868,6 +6319,7 @@
     "temtemId": "da2b197d-b5d8-5193-879d-175814b37961"
   },
   "04f5bbad-8476-5f1c-a0ae-65359aa55ce0": {
+    "id": "04f5bbad-8476-5f1c-a0ae-65359aa55ce0",
     "title": "Mastione",
     "subtitle": "Anak Volcano, Area 4",
     "rate": [
@@ -5881,6 +6333,7 @@
     "temtemId": "0efbd4ff-fc46-5efa-87eb-edd084dd0786"
   },
   "d43849f3-dd6c-57b1-ba54-94d34edaba59": {
+    "id": "d43849f3-dd6c-57b1-ba54-94d34edaba59",
     "title": "Capyre",
     "subtitle": "Anak Volcano, Area 5",
     "rate": [
@@ -5894,6 +6347,7 @@
     "temtemId": "9ca7cba9-069b-52e2-b47a-d2c80b56d81f"
   },
   "7e549ebe-8d8c-5be7-9313-e994d214099d": {
+    "id": "7e549ebe-8d8c-5be7-9313-e994d214099d",
     "title": "Vulor",
     "subtitle": "Anak Volcano, Area 5",
     "rate": [
@@ -5907,6 +6361,7 @@
     "temtemId": "4e342785-5534-53a0-ba68-02424fbac04d"
   },
   "fd0c5183-13a7-5dc7-9825-d47399a489a8": {
+    "id": "fd0c5183-13a7-5dc7-9825-d47399a489a8",
     "title": "Mastione",
     "subtitle": "Anak Volcano, Area 5",
     "rate": [
@@ -5920,6 +6375,7 @@
     "temtemId": "0efbd4ff-fc46-5efa-87eb-edd084dd0786"
   },
   "2192b317-add9-5cc1-a7f0-ce26d1c869c9": {
+    "id": "2192b317-add9-5cc1-a7f0-ce26d1c869c9",
     "title": "Vulor",
     "subtitle": "Anak Volcano, Area 6",
     "rate": [
@@ -5933,6 +6389,7 @@
     "temtemId": "4e342785-5534-53a0-ba68-02424fbac04d"
   },
   "e695bcd1-5854-5d78-b91f-0d565f82add7": {
+    "id": "e695bcd1-5854-5d78-b91f-0d565f82add7",
     "title": "Mastione",
     "subtitle": "Anak Volcano, Area 6",
     "rate": [
@@ -5946,6 +6403,7 @@
     "temtemId": "0efbd4ff-fc46-5efa-87eb-edd084dd0786"
   },
   "40ca4e34-ade7-5fd4-aac2-fbd7485b1a17": {
+    "id": "40ca4e34-ade7-5fd4-aac2-fbd7485b1a17",
     "title": "Drakash",
     "subtitle": "Anak Volcano, Area 6",
     "rate": [
@@ -5959,6 +6417,7 @@
     "temtemId": "a516f2a9-28b0-5180-a0f7-5ee60a353ed9"
   },
   "243374ce-4dc1-5ff7-b4cd-49beeef37735": {
+    "id": "243374ce-4dc1-5ff7-b4cd-49beeef37735",
     "title": "Raican",
     "subtitle": "Anak Volcano, Area 7",
     "rate": [
@@ -5972,6 +6431,7 @@
     "temtemId": "3ae2f2d6-fa28-5639-825e-a88bd734cdd5"
   },
   "15a2fd82-1b7e-50cf-9c36-2377b5816810": {
+    "id": "15a2fd82-1b7e-50cf-9c36-2377b5816810",
     "title": "Tuwai",
     "subtitle": "Anak Volcano, Area 7",
     "rate": [
@@ -5985,6 +6445,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "84d581cf-d001-5766-b535-513f137ecaa1": {
+    "id": "84d581cf-d001-5766-b535-513f137ecaa1",
     "title": "Vulor",
     "subtitle": "Anak Caldera, Area 1",
     "rate": [
@@ -5998,6 +6459,7 @@
     "temtemId": "4e342785-5534-53a0-ba68-02424fbac04d"
   },
   "b5b2bf63-9d97-58d6-a29a-811b7ecd4377": {
+    "id": "b5b2bf63-9d97-58d6-a29a-811b7ecd4377",
     "title": "Mastione",
     "subtitle": "Anak Caldera, Area 1",
     "rate": [
@@ -6011,6 +6473,7 @@
     "temtemId": "0efbd4ff-fc46-5efa-87eb-edd084dd0786"
   },
   "fd35412c-67a3-5854-892c-35bee4949bdf": {
+    "id": "fd35412c-67a3-5854-892c-35bee4949bdf",
     "title": "Capyre",
     "subtitle": "Anak Caldera, Area 1",
     "rate": [
@@ -6024,6 +6487,7 @@
     "temtemId": "9ca7cba9-069b-52e2-b47a-d2c80b56d81f"
   },
   "1c51cc5d-21bd-5c72-8cc7-d7a61b14d535": {
+    "id": "1c51cc5d-21bd-5c72-8cc7-d7a61b14d535",
     "title": "Raize",
     "subtitle": "Anak Caldera, Area 1",
     "rate": [
@@ -6037,6 +6501,7 @@
     "temtemId": "da2b197d-b5d8-5193-879d-175814b37961"
   },
   "c395696c-93a5-5808-a86b-0ebe1d1cdf59": {
+    "id": "c395696c-93a5-5808-a86b-0ebe1d1cdf59",
     "title": "Zenoreth",
     "subtitle": "Sons of Crystal, Area 1",
     "rate": [
@@ -6050,6 +6515,7 @@
     "temtemId": "91726c0d-7535-59e6-a36b-e694333d2f28"
   },
   "70368bca-ed3b-5cb4-bd25-3053a63fb962": {
+    "id": "70368bca-ed3b-5cb4-bd25-3053a63fb962",
     "title": "Tuwai",
     "subtitle": "Sons of Crystal, Area 1",
     "rate": [
@@ -6063,6 +6529,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "984e42cc-0027-5504-b126-26345090dbed": {
+    "id": "984e42cc-0027-5504-b126-26345090dbed",
     "title": "Occlura",
     "subtitle": "Kupeleleza, Area 1",
     "rate": [
@@ -6076,6 +6543,7 @@
     "temtemId": "18664e6d-77b6-5158-aa68-ebeb9b1d1ca6"
   },
   "76755792-d384-5382-9b66-2ecb771608fe": {
+    "id": "76755792-d384-5382-9b66-2ecb771608fe",
     "title": "Zephyruff",
     "subtitle": "Kupeleleza, Area 1",
     "rate": [
@@ -6089,6 +6557,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "47a22239-5193-573a-ab5c-9ec4dfc4c279": {
+    "id": "47a22239-5193-573a-ab5c-9ec4dfc4c279",
     "title": "Crystle",
     "subtitle": "Kupeleleza, Area 1",
     "rate": [
@@ -6102,6 +6571,7 @@
     "temtemId": "75f505b9-17ad-599c-b0db-24f353e3a856"
   },
   "ae55e04f-ddca-5790-97ed-ed79566e5784": {
+    "id": "ae55e04f-ddca-5790-97ed-ed79566e5784",
     "title": "Mushi",
     "subtitle": "Kupeleleza, Area 2",
     "rate": [
@@ -6115,6 +6585,7 @@
     "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
   },
   "c2bba930-2343-5881-85ee-652e31ee3154": {
+    "id": "c2bba930-2343-5881-85ee-652e31ee3154",
     "title": "Zephyruff",
     "subtitle": "Kupeleleza, Area 2",
     "rate": [
@@ -6128,6 +6599,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "de55382f-dfba-5341-9fef-826dbfdbdf34": {
+    "id": "de55382f-dfba-5341-9fef-826dbfdbdf34",
     "title": "Zephyruff",
     "subtitle": "Kupeleleza, Area 3",
     "rate": [
@@ -6141,6 +6613,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "31121566-4808-59f7-836f-c4eec49828a2": {
+    "id": "31121566-4808-59f7-836f-c4eec49828a2",
     "title": "Saku",
     "subtitle": "Kupeleleza, Area 3",
     "rate": [
@@ -6154,6 +6627,7 @@
     "temtemId": "130bf39f-dde8-50d4-b7db-c035830ce064"
   },
   "e6e4d348-ceaf-5c8a-8e05-1f2a6c8a4c25": {
+    "id": "e6e4d348-ceaf-5c8a-8e05-1f2a6c8a4c25",
     "title": "Zephyruff",
     "subtitle": "Kupeleleza, Area 4",
     "rate": [
@@ -6167,6 +6641,7 @@
     "temtemId": "3d14374b-a07e-5b21-a21a-4eca7a9db842"
   },
   "526859b4-3023-5bb9-afb8-9cc68d1876c5": {
+    "id": "526859b4-3023-5bb9-afb8-9cc68d1876c5",
     "title": "Volarend",
     "subtitle": "Kupeleleza, Area 4",
     "rate": [
@@ -6180,6 +6655,7 @@
     "temtemId": "7c7a3c22-5536-55bc-9b11-358602548afa"
   },
   "cf413ead-d51d-5644-9f4b-b26a3012aa2d": {
+    "id": "cf413ead-d51d-5644-9f4b-b26a3012aa2d",
     "title": "Raican",
     "subtitle": "Altar of the Inner Flame, Area 1",
     "rate": [
@@ -6193,6 +6669,7 @@
     "temtemId": "3ae2f2d6-fa28-5639-825e-a88bd734cdd5"
   },
   "f2d79f7e-10d9-5bae-b4cc-896de4c7799a": {
+    "id": "f2d79f7e-10d9-5bae-b4cc-896de4c7799a",
     "title": "Tuwai",
     "subtitle": "Altar of the Inner Flame, Area 1",
     "rate": [
@@ -6206,6 +6683,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "f77bdfee-63fd-5de0-a05e-bf8ec7e461b6": {
+    "id": "f77bdfee-63fd-5de0-a05e-bf8ec7e461b6",
     "title": "Osukai",
     "subtitle": "Aisha's Hearth, Area 1",
     "rate": [
@@ -6219,6 +6697,7 @@
     "temtemId": "7619c1ae-d946-5980-be4a-f811600c5454"
   },
   "7e7409f7-4e37-52de-8fa1-930f887a8c18": {
+    "id": "7e7409f7-4e37-52de-8fa1-930f887a8c18",
     "title": "Tuwai",
     "subtitle": "Aisha's Hearth, Area 1",
     "rate": [
@@ -6232,6 +6711,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "2a67431f-67b8-5d91-b02c-dc8f9a9a5327": {
+    "id": "2a67431f-67b8-5d91-b02c-dc8f9a9a5327",
     "title": "Kalazu",
     "subtitle": "Arissola Dojo, Area 1",
     "rate": [
@@ -6245,6 +6725,7 @@
     "temtemId": "72606cfd-0073-5805-9a82-3b1f32be921f"
   },
   "dbebeaab-d678-5470-9502-52330cd96f5a": {
+    "id": "dbebeaab-d678-5470-9502-52330cd96f5a",
     "title": "Saipat",
     "subtitle": "Arissola Dojo, Area 1",
     "rate": [
@@ -6258,6 +6739,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "7e4f4593-fe9e-51fe-a717-47a0bbad1baf": {
+    "id": "7e4f4593-fe9e-51fe-a717-47a0bbad1baf",
     "title": "Saipat",
     "subtitle": "Loch Aduar, Area 1",
     "rate": [
@@ -6271,6 +6753,7 @@
     "temtemId": "e82f1767-a39a-5d80-879f-1e94cf10e376"
   },
   "878b0ad4-7242-521d-9b15-7df78df91d6e": {
+    "id": "878b0ad4-7242-521d-9b15-7df78df91d6e",
     "title": "Koish (Melee)",
     "subtitle": "Loch Aduar, Area 1",
     "rate": [
@@ -6284,6 +6767,7 @@
     "temtemId": "6cc8e42d-a3e2-5b53-982d-31fd498912fd"
   },
   "c7ffef33-cba6-537e-b73e-75b62ad8e2bb": {
+    "id": "c7ffef33-cba6-537e-b73e-75b62ad8e2bb",
     "title": "Koish (Mental)",
     "subtitle": "Loch Aduar, Area 1",
     "rate": [
@@ -6297,6 +6781,7 @@
     "temtemId": "62a738fe-5d7f-5631-bd3c-1ce591043db1"
   },
   "7733ee32-67df-56d8-8a24-dd452dc28012": {
+    "id": "7733ee32-67df-56d8-8a24-dd452dc28012",
     "title": "Hazrat",
     "subtitle": "Braeside Castle, Area 1",
     "rate": [
@@ -6310,6 +6795,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "7387bcc7-1cb4-529a-a636-e66cd43ec411": {
+    "id": "7387bcc7-1cb4-529a-a636-e66cd43ec411",
     "title": "Arachnyte",
     "subtitle": "Braeside Castle, Area 1",
     "rate": [
@@ -6323,6 +6809,7 @@
     "temtemId": "f439b52b-a0fb-5b19-a8fd-f22e7b71eecf"
   },
   "1bf9bee6-c703-5fae-a843-35e8dd26d5ca": {
+    "id": "1bf9bee6-c703-5fae-a843-35e8dd26d5ca",
     "title": "Valiar",
     "subtitle": "Braeside Castle, Area 1",
     "rate": [
@@ -6336,6 +6823,7 @@
     "temtemId": "6cf4172a-a608-5bec-b772-369755187bf3"
   },
   "0ffb9cdd-fab7-5958-825f-29e2c64c4cf2": {
+    "id": "0ffb9cdd-fab7-5958-825f-29e2c64c4cf2",
     "title": "Hocus",
     "subtitle": "Braeside Castle, Area 1",
     "rate": [
@@ -6349,6 +6837,7 @@
     "temtemId": "3fd9e4d1-eb64-50f4-905a-50a3f64dd096"
   },
   "ce2f0e3a-1cfa-555e-826c-a4d6aa557635": {
+    "id": "ce2f0e3a-1cfa-555e-826c-a4d6aa557635",
     "title": "Shaolite",
     "subtitle": "Braeside Castle, Area 1",
     "rate": [
@@ -6362,6 +6851,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "d959214b-86c9-5c23-9094-bd06df89291b": {
+    "id": "d959214b-86c9-5c23-9094-bd06df89291b",
     "title": "Hazrat",
     "subtitle": "Braeside Castle, Area 2",
     "rate": [
@@ -6375,6 +6865,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "03a17573-7cf3-5263-998e-2573171abf70": {
+    "id": "03a17573-7cf3-5263-998e-2573171abf70",
     "title": "Shaolite",
     "subtitle": "Braeside Castle, Area 2",
     "rate": [
@@ -6388,6 +6879,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "d194fcc4-cc7e-5541-b03a-18e2e3751b4e": {
+    "id": "d194fcc4-cc7e-5541-b03a-18e2e3751b4e",
     "title": "Valiar",
     "subtitle": "Braeside Castle, Area 3",
     "rate": [
@@ -6401,6 +6893,7 @@
     "temtemId": "6cf4172a-a608-5bec-b772-369755187bf3"
   },
   "c373b577-ddb6-5cb2-a997-64a1b80cbf26": {
+    "id": "c373b577-ddb6-5cb2-a997-64a1b80cbf26",
     "title": "Hocus",
     "subtitle": "Braeside Castle, Area 3",
     "rate": [
@@ -6414,6 +6907,7 @@
     "temtemId": "3fd9e4d1-eb64-50f4-905a-50a3f64dd096"
   },
   "1616e680-19b6-506a-af15-bf6210b6f261": {
+    "id": "1616e680-19b6-506a-af15-bf6210b6f261",
     "title": "Arachnyte",
     "subtitle": "Braeside Castle, Area 3",
     "rate": [
@@ -6427,6 +6921,7 @@
     "temtemId": "f439b52b-a0fb-5b19-a8fd-f22e7b71eecf"
   },
   "17c7231c-cefc-5924-9c5d-1eac094f7b06": {
+    "id": "17c7231c-cefc-5924-9c5d-1eac094f7b06",
     "title": "Shaolite",
     "subtitle": "Braeside Castle, Area 4",
     "rate": [
@@ -6440,6 +6935,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "f8afaf06-213c-5619-a26c-91f20e4f1346": {
+    "id": "f8afaf06-213c-5619-a26c-91f20e4f1346",
     "title": "Hazrat",
     "subtitle": "Braeside Castle, Area 4",
     "rate": [
@@ -6453,6 +6949,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "1df1cb35-203d-5f94-a02f-9a37b445b2b0": {
+    "id": "1df1cb35-203d-5f94-a02f-9a37b445b2b0",
     "title": "Hocus",
     "subtitle": "Braeside Castle, Area 4",
     "rate": [
@@ -6466,6 +6963,7 @@
     "temtemId": "3fd9e4d1-eb64-50f4-905a-50a3f64dd096"
   },
   "56a4512a-58f8-52b3-b709-706edd354772": {
+    "id": "56a4512a-58f8-52b3-b709-706edd354772",
     "title": "Adoroboros",
     "subtitle": "Braeside Castle, Area 4",
     "rate": [
@@ -6479,6 +6977,7 @@
     "temtemId": "cb82f3a7-54b2-5361-8d23-dd3c14457594"
   },
   "0bedcc7b-b349-5988-81e9-cb8ad8c3cb25": {
+    "id": "0bedcc7b-b349-5988-81e9-cb8ad8c3cb25",
     "title": "Shaolite",
     "subtitle": "Braeside Castle, Area 5",
     "rate": [
@@ -6492,6 +6991,7 @@
     "temtemId": "ade8b755-de0e-5cb7-a8ae-99f11a9403ef"
   },
   "f6ee1ae4-5fe1-5650-be14-1648af4ee613": {
+    "id": "f6ee1ae4-5fe1-5650-be14-1648af4ee613",
     "title": "Hazrat",
     "subtitle": "Braeside Castle, Area 5",
     "rate": [
@@ -6505,6 +7005,7 @@
     "temtemId": "d8575fea-c539-5146-a212-b6c21cc3a6e8"
   },
   "70bb39ca-ad91-5c00-9020-9e53e6eb96fc": {
+    "id": "70bb39ca-ad91-5c00-9020-9e53e6eb96fc",
     "title": "Nessla",
     "subtitle": "Sacred Lake, Area 1",
     "rate": [
@@ -6518,6 +7019,7 @@
     "temtemId": "8b33c28d-a49e-5db1-a3b3-dc71215a8ffa"
   },
   "c788b0e6-a558-55a2-b0d3-ccefedcccf32": {
+    "id": "c788b0e6-a558-55a2-b0d3-ccefedcccf32",
     "title": "Cycrox",
     "subtitle": "Sacred Lake, Area 1",
     "rate": [
@@ -6531,6 +7033,7 @@
     "temtemId": "ac52113f-98c4-532e-a721-0cf71b01015b"
   },
   "34bc2a3e-0ccc-572e-9468-0873ac348cf3": {
+    "id": "34bc2a3e-0ccc-572e-9468-0873ac348cf3",
     "title": "Koish (Electric)",
     "subtitle": "Sacred Lake, Area 1",
     "rate": [
@@ -6544,6 +7047,7 @@
     "temtemId": "f4f7b04b-4f3c-55d3-ab49-d91bc53e546f"
   },
   "6df46d8b-91d2-50ef-8842-94e3d94c7b0c": {
+    "id": "6df46d8b-91d2-50ef-8842-94e3d94c7b0c",
     "title": "Koish (Digital)",
     "subtitle": "Sacred Lake, Area 1",
     "rate": [
@@ -6557,6 +7061,7 @@
     "temtemId": "a0d1ff9b-c104-5fd1-9b0d-1e430d65adfa"
   },
   "20b02d4e-55a7-5343-a7bb-07a83f7e6f1e": {
+    "id": "20b02d4e-55a7-5343-a7bb-07a83f7e6f1e",
     "title": "Golzy",
     "subtitle": "Digital Kami Shrine, Area 1",
     "rate": [
@@ -6570,6 +7075,7 @@
     "temtemId": "6275a174-bc73-5eaa-8d68-8ed137fbef8f"
   },
   "2369a8f4-05cd-537c-ba9f-6c7a6371c93b": {
+    "id": "2369a8f4-05cd-537c-ba9f-6c7a6371c93b",
     "title": "Tuwai",
     "subtitle": "Digital Kami Shrine, Area 1",
     "rate": [
@@ -6583,6 +7089,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "5b0a303f-97eb-5493-b89f-f57d5174d2a3": {
+    "id": "5b0a303f-97eb-5493-b89f-f57d5174d2a3",
     "title": "Grumvel",
     "subtitle": "Juu Tunnel, Area 1",
     "rate": [
@@ -6596,6 +7103,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "678fb02a-ff9a-5f0c-8809-04215e9fae90": {
+    "id": "678fb02a-ff9a-5f0c-8809-04215e9fae90",
     "title": "Zizare",
     "subtitle": "Juu Tunnel, Area 1",
     "rate": [
@@ -6609,6 +7117,7 @@
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
   "a4124aa8-be83-5912-887f-ab0292a82dad": {
+    "id": "a4124aa8-be83-5912-887f-ab0292a82dad",
     "title": "Grumvel",
     "subtitle": "Juu Tunnel, Area 2",
     "rate": [
@@ -6622,6 +7131,7 @@
     "temtemId": "ec9bc4bc-d752-56ee-88ed-58f0df77ff83"
   },
   "07b09b8c-1f55-5718-8b81-3b1d8bb21590": {
+    "id": "07b09b8c-1f55-5718-8b81-3b1d8bb21590",
     "title": "Droply",
     "subtitle": "Juu Tunnel, Area 2",
     "rate": [
@@ -6635,6 +7145,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "fbce9ac3-8def-53cc-a9d2-7740e5e05711": {
+    "id": "fbce9ac3-8def-53cc-a9d2-7740e5e05711",
     "title": "Droply",
     "subtitle": "Juu Tunnel, Area 3",
     "rate": [
@@ -6648,6 +7159,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "115d2342-4f15-53ae-a4ba-8259357d77b6": {
+    "id": "115d2342-4f15-53ae-a4ba-8259357d77b6",
     "title": "Droply",
     "subtitle": "Moyo Lake, Area 1",
     "rate": [
@@ -6661,6 +7173,7 @@
     "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
   },
   "b4ca9e00-0b64-55be-9144-6609631bf74e": {
+    "id": "b4ca9e00-0b64-55be-9144-6609631bf74e",
     "title": "Koish (Neutral)",
     "subtitle": "Moyo Lake, Area 1",
     "rate": [
@@ -6674,6 +7187,7 @@
     "temtemId": "ac696e5b-135a-5dbd-9f0a-e514c0eaccce"
   },
   "1235c46d-e5d6-5544-9937-0706511a3611": {
+    "id": "1235c46d-e5d6-5544-9937-0706511a3611",
     "title": "Broccolem",
     "subtitle": "Chieftain's Barrow, Area 1",
     "rate": [
@@ -6687,6 +7201,7 @@
     "temtemId": "0acfb7db-c5bc-5bdc-8053-7ee7868b937b"
   },
   "ea349895-5a43-54a2-a82a-56ef32259ee9": {
+    "id": "ea349895-5a43-54a2-a82a-56ef32259ee9",
     "title": "Tuwai",
     "subtitle": "Chieftain's Barrow, Area 1",
     "rate": [
@@ -6700,6 +7215,7 @@
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "3830b30c-b398-5a64-ac0b-31a718401c33": {
+    "id": "3830b30c-b398-5a64-ac0b-31a718401c33",
     "title": "Koish",
     "subtitle": "Nuru Lodge, Area 1",
     "rate": [
