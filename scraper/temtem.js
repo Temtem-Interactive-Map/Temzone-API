@@ -1,8 +1,6 @@
 import { join } from "node:path";
 import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
-import { TraitsDB } from "./traits.js";
-import { TypesDB } from "./types.js";
 import {
   cleanText,
   fetchGif,
@@ -14,13 +12,15 @@ import {
 } from "./utils/index.js";
 
 export class TemtemDB {
-  static async scrape() {
-    const typesDB = await TypesDB.load();
-    const traitsDB = await TraitsDB.load();
+  static async scrape(assets) {
+    if (assets) {
+      logWarning("Removing [temtem] assets...");
+      await removeDBContent("temtem");
+      logSuccess("[temtem] assets removed successfully");
+    }
 
-    logWarning("Removing [temtem] assets...");
-    await removeDBContent("temtem");
-    logSuccess("[temtem] assets removed successfully");
+    const typesDB = await readDBFile("types");
+    const traitsDB = await readDBFile("traits");
 
     logInfo("Scraping [temtem]...");
     this.creatures = {};
@@ -50,7 +50,7 @@ export class TemtemDB {
       }
 
       for (const subtype of types) {
-        const temtem = new Temtem(typesDB, traitsDB);
+        const temtem = new Temtem(assets, typesDB, traitsDB);
         await temtem.scrape($temtem, subtype);
         const id = generateId(temtem.name);
 
@@ -92,16 +92,11 @@ export class TemtemDB {
 
     return this.creatures;
   }
-
-  static async load() {
-    this.creatures = await readDBFile("temtem");
-
-    return this.creatures;
-  }
 }
 
 class Temtem {
-  constructor(types, traits) {
+  constructor(assets, types, traits) {
+    this.assets = assets;
     this.types = types;
     this.traits = traits;
   }
@@ -181,49 +176,52 @@ class Temtem {
   }
 
   async #images($, subtype, name) {
-    const rawPngUrl =
-      subtype !== ""
-        ? $("#Subspecies_Variations")
-            .parent()
-            .next()
-            .next()
-            .find(
-              "table.wikitable > tbody > tr:nth-child(2) > td:nth-child(odd) > span > a > img"
-            )
-            .toArray()
-            .map((el) => $(el).attr("src"))
-            .find((src) => src.includes(subtype))
-        : $(
-            "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img"
-          ).attr("src");
-    const cleanPngUrl = cleanText(rawPngUrl);
-    const pngUrl = shortUrl(cleanPngUrl);
-    const png = await generatePortrait("https://temtem.wiki.gg/" + pngUrl);
     const pngFileName = generateFileName(name) + ".png";
-
-    logWarning("- Writing [" + pngFileName + "] to assets...");
-    await writeDBImage(join("temtem", pngFileName), png);
-
-    const $renders = $("#Renders")
-      .parent()
-      .next()
-      .find("li:nth-child(2) > div > div > div > a > img");
-    const rawGifUrl =
-      $renders
-        .toArray()
-        .map((el) => $(el).attr("src"))
-        .find((src) => {
-          if (subtype === "") return true;
-
-          return src.includes(subtype);
-        }) || $renders.attr("src");
-    const cleanGifUrl = cleanText(rawGifUrl);
-    const gifUrl = shortUrl(cleanGifUrl);
-    const gif = await fetchGif("https://temtem.wiki.gg/" + gifUrl, 480);
     const gifFileName = generateFileName(name) + ".gif";
 
-    logWarning("- Writing [" + gifFileName + "] to assets...");
-    await writeDBImage(join("temtem", gifFileName), gif);
+    if (this.assets) {
+      logWarning("- Writing [" + pngFileName + "] to assets...");
+      const rawPngUrl =
+        subtype !== ""
+          ? $("#Subspecies_Variations")
+              .parent()
+              .next()
+              .next()
+              .find(
+                "table.wikitable > tbody > tr:nth-child(2) > td:nth-child(odd) > span > a > img"
+              )
+              .toArray()
+              .map((el) => $(el).attr("src"))
+              .find((src) => src.includes(subtype))
+          : $(
+              "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img"
+            ).attr("src");
+      const cleanPngUrl = cleanText(rawPngUrl);
+      const pngUrl = shortUrl(cleanPngUrl);
+      const png = await generatePortrait("https://temtem.wiki.gg/" + pngUrl);
+
+      await writeDBImage(join("temtem", pngFileName), png);
+
+      logWarning("- Writing [" + gifFileName + "] to assets...");
+      const $renders = $("#Renders")
+        .parent()
+        .next()
+        .find("li:nth-child(2) > div > div > div > a > img");
+      const rawGifUrl =
+        $renders
+          .toArray()
+          .map((el) => $(el).attr("src"))
+          .find((src) => {
+            if (subtype === "") return true;
+
+            return src.includes(subtype);
+          }) || $renders.attr("src");
+      const cleanGifUrl = cleanText(rawGifUrl);
+      const gifUrl = shortUrl(cleanGifUrl);
+      const gif = await fetchGif("https://temtem.wiki.gg/" + gifUrl, 480);
+
+      await writeDBImage(join("temtem", gifFileName), gif);
+    }
 
     return {
       png: "static/temtem/" + pngFileName,

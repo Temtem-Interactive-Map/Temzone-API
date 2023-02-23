@@ -1,5 +1,5 @@
 import { join } from "node:path";
-import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
+import { removeDBContent, writeDBImage } from "./db/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
   cleanText,
@@ -11,10 +11,12 @@ import {
 } from "./utils/index.js";
 
 export class TypesDB {
-  static async scrape() {
-    logWarning("Removing [types] assets...");
-    await removeDBContent("types");
-    logSuccess("[types] assets removed successfully");
+  static async scrape(assets) {
+    if (assets) {
+      logWarning("Removing [types] assets...");
+      await removeDBContent("types");
+      logSuccess("[types] assets removed successfully");
+    }
 
     logInfo("Scraping [types]...");
     this.types = {};
@@ -22,7 +24,7 @@ export class TypesDB {
     const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_types");
 
     for (const el of $("ul:nth-child(6) > li > a:nth-child(1)")) {
-      const type = new Type();
+      const type = new Type(assets);
       await type.scrape($(el));
       const id = generateId(type.name);
 
@@ -37,15 +39,13 @@ export class TypesDB {
 
     return this.types;
   }
-
-  static async load() {
-    this.types = await readDBFile("types");
-
-    return this.types;
-  }
 }
 
 class Type {
+  constructor(assets) {
+    this.assets = assets;
+  }
+
   async scrape($) {
     this.name = this.#name($);
     this.image = await this.#image($);
@@ -59,14 +59,17 @@ class Type {
   }
 
   async #image($) {
-    const rawUrl = $.find("img").attr("src");
-    const cleanUrl = cleanText(rawUrl);
-    const url = shortUrl(cleanUrl);
-    const png = await fetchPng("https://temtem.wiki.gg/" + url, 24);
     const fileName = generateFileName(this.name.split(" ").shift()) + ".png";
 
-    logWarning("- Writing [" + fileName + "] to assets...");
-    await writeDBImage(join("types", fileName), png);
+    if (this.assets) {
+      logWarning("- Writing [" + fileName + "] to assets...");
+      const rawUrl = $.find("img").attr("src");
+      const cleanUrl = cleanText(rawUrl);
+      const url = shortUrl(cleanUrl);
+      const png = await fetchPng("https://temtem.wiki.gg/" + url, 24);
+
+      await writeDBImage(join("types", fileName), png);
+    }
 
     return "static/types/" + fileName;
   }

@@ -14,13 +14,18 @@ const SCRAPERS = {
   saipark: SaiparkDB,
 };
 
-async function scrapeAndSave(name) {
+async function scrapeAndSave(name, asset) {
   const scraper = SCRAPERS[name];
-  const content = await scraper.scrape();
+  const content = await scraper.scrape(asset);
 
   logInfo("Writing [" + name + "] to database...");
   await writeDBFile(name, content);
   logSuccess("[" + name + "] written successfully");
+}
+
+let assets = false;
+if (process.argv.length === 4) {
+  assets = process.argv.pop() === "assets";
 }
 
 const name = process.argv.pop();
@@ -30,12 +35,12 @@ try {
   if (SCRAPERS[name]) {
     logInfo("Scraping [" + name + "] data from the Official Temtem Wiki...");
 
-    await scrapeAndSave(name);
+    await scrapeAndSave(name, assets);
   } else {
     logInfo("Scraping all data from the Official Temtem Wiki...");
 
-    for (const infoToScrape of Object.keys(SCRAPERS)) {
-      await scrapeAndSave(infoToScrape);
+    for (const name of Object.keys(SCRAPERS)) {
+      await scrapeAndSave(name, assets);
     }
   }
 } catch (error) {

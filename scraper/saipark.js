@@ -1,9 +1,8 @@
-import { readDBFile } from "./db/index.js";
 import { logInfo, logSuccess } from "./log/index.js";
 import { cleanText, generateId, scrape } from "./utils/index.js";
 
 export class SaiparkDB {
-  static async scrape() {
+  static async scrape(_) {
     logInfo("Scraping [saipark]...");
     this.saipark = {};
 
@@ -37,12 +36,6 @@ export class SaiparkDB {
     };
 
     logSuccess("[saipark] scraped successfully");
-
-    return this.saipark;
-  }
-
-  static async load() {
-    this.saipark = await readDBFile("saipark");
 
     return this.saipark;
   }

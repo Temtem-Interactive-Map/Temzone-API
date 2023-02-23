@@ -1,9 +1,8 @@
-import { readDBFile } from "./db/index.js";
 import { logInfo, logSuccess } from "./log/index.js";
 import { cleanText, generateId, scrape } from "./utils/index.js";
 
 export class TraitsDB {
-  static async scrape() {
+  static async scrape(_) {
     logInfo("Scraping [traits]...");
     this.traits = {};
 
@@ -22,12 +21,6 @@ export class TraitsDB {
     }
 
     logSuccess("[traits] scraped successfully");
-
-    return this.traits;
-  }
-
-  static async load() {
-    this.traits = await readDBFile("traits");
 
     return this.traits;
   }
