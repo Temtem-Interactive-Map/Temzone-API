@@ -1,5 +1,5 @@
 import { join } from "node:path";
-import { removeDBContent, writeDBImage } from "./db/index.js";
+import { removeDBContent, writeDBImage } from "./database/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
   cleanText,

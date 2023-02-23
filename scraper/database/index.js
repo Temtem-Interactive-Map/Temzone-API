@@ -1,7 +1,7 @@
 import { readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const DB_PATH = join(process.cwd(), "scraper", "db");
+const DB_PATH = join(process.cwd(), "database");
 const STATIC_PATH = join(process.cwd(), "assets", "static");
 
 export async function writeDBFile(fileName, data) {

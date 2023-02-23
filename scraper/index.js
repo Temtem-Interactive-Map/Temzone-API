@@ -1,4 +1,4 @@
-import { writeDBFile } from "./db/index.js";
+import { writeDBFile } from "./database/index.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
