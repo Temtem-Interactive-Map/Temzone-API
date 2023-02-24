@@ -7,6 +7,9 @@ node_modules
 # Environment variable files
 .dev.vars
 .env
+.env.local
+.env.development
+.env.production
 
 # Visual Studio Code
 .vscode
