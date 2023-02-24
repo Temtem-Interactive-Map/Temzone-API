@@ -42,29 +42,29 @@ This will install the hono package and add it to the dependencies section of the
 To scrape data from the [Official Temtem Wiki](https://temtem.wiki.gg/wiki/Temtem_Wiki), you can run the following command in the project directory:
 
 ```
-npm run scrape
+npm run scraper
 ```
 
 This command will start the data scraping process and store the scraped data in a local JSON file. You can modify the scraping logic by editing the files in the [scraper](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/scraper) folder.
 
-The npm run scrape command accepts additional parameters that you can use to customize the data scraping process. For example, you can use the **assets** parameter to generate and save the scraped assets to the [assets](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets) folder.
+The npm run scraper command accepts additional parameters that you can use to customize the data scraping process. For example, you can use the **assets** parameter to generate and save the scraped assets to the [assets](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets) folder.
 
 ```
-npm run scrape -- assets
+npm run scraper -- assets
 ```
 
 Additionally, if you only want to run a single scraper instead of all of them, you can specify the name of the scraper as a parameter. The available scrapers are:
 
-- `npm run scrape -- types`: This command will scrape the types data.
-- `npm run scrape -- traits`: This command will scrape the traits data.
-- `npm run scrape -- temtem`: This command will scrape the temtem data.
-- `npm run scrape -- spawns`: This command will scrape the spawns data.
-- `npm run scrape -- saipark`: This command will scrape the saipark data.
+- `npm run scraper -- types`: This command will scrape the types data.
+- `npm run scraper -- traits`: This command will scrape the traits data.
+- `npm run scraper -- temtem`: This command will scrape the temtem data.
+- `npm run scraper -- spawns`: This command will scrape the spawns data.
+- `npm run scraper -- saipark`: This command will scrape the saipark data.
 
 For example, to scrape only the types data with the assets and save them, you can run the following command:
 
 ```
-npm run scrape -- types assets
+npm run scraper -- types assets
 ```
 
 This will run only the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/scraper/types.js) scraper and store the scraped data in the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/database/types.json) JSON file and the assets in the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets/static/types) folder.
