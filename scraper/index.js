@@ -1,10 +1,10 @@
-import { writeDBFile } from "./database/index.js";
 import { logError, logInfo, logSuccess } from "./log/index.js";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
+import { writeDBFile } from "./utils/index.js";
 
 const SCRAPERS = {
   types: TypesDB,

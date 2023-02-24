@@ -1,13 +1,14 @@
 import { join } from "node:path";
-import { removeDBContent, writeDBImage } from "./database/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
   cleanText,
   fetchPng,
   generateFileName,
   generateId,
+  removeDBContent,
   scrape,
   shortUrl,
+  writeDBImage,
 } from "./utils/index.js";
 
 export class TypesDB {

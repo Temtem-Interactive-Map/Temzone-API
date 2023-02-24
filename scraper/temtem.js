@@ -1,5 +1,4 @@
 import { join } from "node:path";
-import { readDBFile, removeDBContent, writeDBImage } from "./database/index.js";
 import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
   cleanText,
@@ -7,8 +6,11 @@ import {
   generateFileName,
   generateId,
   generatePortrait,
+  readDBFile,
+  removeDBContent,
   scrape,
   shortUrl,
+  writeDBImage,
 } from "./utils/index.js";
 
 export class TemtemDB {
