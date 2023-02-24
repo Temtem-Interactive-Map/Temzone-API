@@ -8,7 +8,8 @@
   "main": "src/api/index.js",
   "private": true,
   "scripts": {
-    "scrape": "node scraper/index.js",
+    "scraper": "node scraper/index.js",
+    "database:update": "prisma db push",
     "database:migrate": "prisma db push",
     "database:insert": "node scraper/database/index.js",
     "dev": "wrangler dev --local",
