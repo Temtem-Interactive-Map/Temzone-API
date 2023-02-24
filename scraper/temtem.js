@@ -1,17 +1,19 @@
 import { join } from "node:path";
-import { logInfo, logSuccess, logWarning } from "./log/index.js";
+import {
+  generateFileName,
+  generateId,
+  readDBFile,
+  removeDBContent,
+  writeDBImage,
+} from "./utils/database/index.js";
+import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import {
   cleanText,
   fetchGif,
-  generateFileName,
-  generateId,
   generatePortrait,
-  readDBFile,
-  removeDBContent,
   scrape,
   shortUrl,
-  writeDBImage,
-} from "./utils/index.js";
+} from "./utils/scraper/index.js";
 
 export class TemtemDB {
   static async scrape(assets) {

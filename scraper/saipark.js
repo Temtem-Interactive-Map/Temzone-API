@@ -1,5 +1,6 @@
-import { logInfo, logSuccess } from "./log/index.js";
-import { cleanText, generateId, scrape } from "./utils/index.js";
+import { generateId } from "./utils/database/index.js";
+import { logInfo, logSuccess } from "./utils/log/index.js";
+import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export class SaiparkDB {
   static async scrape(_) {

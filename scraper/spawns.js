@@ -1,15 +1,17 @@
 import { join } from "node:path";
-import { logInfo, logSuccess, logWarning } from "./log/index.js";
 import {
-  cleanText,
-  fetchPng,
   generateFileName,
   generateId,
   removeDBContent,
+  writeDBImage,
+} from "./utils/database/index.js";
+import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
+import {
+  cleanText,
+  fetchPng,
   scrape,
   shortUrl,
-  writeDBImage,
-} from "./utils/index.js";
+} from "./utils/scraper/index.js";
 
 export class SpawnsDB {
   static async scrape(assets) {

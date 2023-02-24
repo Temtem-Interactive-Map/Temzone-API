@@ -1,10 +1,10 @@
-import { logError, logInfo, logSuccess } from "./log/index.js";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
-import { writeDBFile } from "./utils/index.js";
+import { writeDBFile } from "./utils/database/index.js";
+import { logError, logInfo, logSuccess } from "./utils/log/index.js";
 
 const SCRAPERS = {
   types: TypesDB,
@@ -34,11 +34,17 @@ const start = performance.now();
 try {
   if (SCRAPERS[name]) {
     logInfo("Scraping [" + name + "] data from the Official Temtem Wiki...");
-
-    await scrapeAndSave(name, assets);
   } else {
     logInfo("Scraping all data from the Official Temtem Wiki...");
+  }
 
+  if (assets) {
+    logInfo("Scraping assets from the Official Temtem Wiki...");
+  }
+
+  if (SCRAPERS[name]) {
+    await scrapeAndSave(name, assets);
+  } else {
     for (const name of Object.keys(SCRAPERS)) {
       await scrapeAndSave(name, assets);
     }
