@@ -1,30 +1,49 @@
-import { readFile, readdir, unlink, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { PrismaClient } from "@prisma/client";
+import { config } from "dotenv";
+import { readDBFile } from "../utils/database/index.js";
+import { logError, logInfo, logSuccess } from "../utils/log/index.js";
 
-const DB_PATH = join(process.cwd(), "database");
-const STATIC_PATH = join(process.cwd(), "assets", "static");
+config();
 
-export async function writeDBFile(fileName, data) {
-  const path = join(DB_PATH, fileName + ".json");
+const markers = [];
+const spawns = await readDBFile("spawns");
+const saipark = await readDBFile("saipark");
 
-  return await writeFile(path, JSON.stringify(data, null, 2));
-}
+Object.values(spawns).forEach((spawn) => {
+  markers.push({
+    id: spawn.id,
+    type: "spawn",
+    title: spawn.title,
+    subtitle: spawn.subtitle,
+    x: null,
+    y: null,
+  });
+});
 
-export async function readDBFile(fileName) {
-  const path = join(DB_PATH, fileName + ".json");
+Object.values(saipark).forEach((saipark) => {
+  markers.push({
+    id: saipark.id,
+    type: "saipark",
+    title: saipark.title,
+    subtitle: saipark.subtitle,
+    x: null,
+    y: null,
+  });
+});
 
-  return await readFile(path).then((data) => JSON.parse(data));
-}
+const prisma = new PrismaClient();
 
-export async function removeDBContent(directory) {
-  const path = join(STATIC_PATH, directory);
-  const files = await readdir(path);
+try {
+  const inserts = await prisma.marker.createMany({
+    data: markers,
+    skipDuplicates: true,
+  });
 
-  return await Promise.all(files.map((file) => unlink(join(path, file))));
-}
-
-export async function writeDBImage(fileName, buffer) {
-  const path = join(STATIC_PATH, fileName);
-
-  return await writeFile(path, buffer);
+  logSuccess("Markers inserted successfully");
+  logInfo("Inserted " + inserts.count + " markers");
+} catch (error) {
+  logError("Error inserting markers");
+  logError(error);
+} finally {
+  await prisma.$disconnect();
 }
