@@ -16,12 +16,12 @@ Before getting started, make sure you have the following tools installed on your
 
 - Node.js (version [18.13.0](https://nodejs.org/es/download))
 - npm (the Node.js package manager, which should be installed with Node.js)
-- Docker Desktop (version [20.10.8](https://docs.docker.com/get-docker))
+- Docker Desktop (version [4.16.3](https://docs.docker.com/get-docker))
 - Docker Compose (by installing Docker Desktop, the Docker Compose should be installed on Windows or Mac. However, if you're on a Linux machine, you'll need to install [Docker Compose](https://docs.docker.com/compose/install))
 
 ### Install the dependencies
 
-To install the dependencies for a Cloudflare Workers project, you'll need to use the npm install command. This command reads the **dependencies** and **devDependencies** sections of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file and installs the packages listed there.
+To install the dependencies for a Cloudflare Workers project, you'll need to use the npm install command. This command reads the _dependencies_ and _devDependencies_ sections of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file and installs the packages listed there.
 
 For example, to install all of the dependencies you can run the following command in the project directory:
 
@@ -47,10 +47,10 @@ npm run scraper
 
 This command will start the data scraping process and store the scraped data in a local JSON file. You can modify the scraping logic by editing the files in the [scraper](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/scraper) folder.
 
-The npm run scraper command accepts additional parameters that you can use to customize the data scraping process. For example, you can use the **assets** parameter to generate and save the scraped assets to the [assets](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets) folder.
+The npm run scraper command accepts additional parameters that you can use to customize the data scraping process. For example, you can use the _assets_ parameter to generate and save the scraped assets to the [assets](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets) folder.
 
 ```
-npm run scraper -- assets
+npm run scraper -- --assets
 ```
 
 Additionally, if you only want to run a single scraper instead of all of them, you can specify the name of the scraper as a parameter. The available scrapers are:
@@ -64,12 +64,48 @@ Additionally, if you only want to run a single scraper instead of all of them, y
 For example, to scrape only the types data with the assets and save them, you can run the following command:
 
 ```
-npm run scraper -- types assets
+npm run scraper -- types --assets
 ```
 
 This will run only the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/scraper/types.js) scraper and store the scraped data in the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/database/types.json) JSON file and the assets in the [types](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets/static/types) folder.
 
-### Database migration
+### Database configuration
+
+To run the application locally, you'll first need to ensure you have a running instance of MySQL. One way to do this is through Docker Compose. To do so, run the following command at the root of the project directory:
+
+```
+docker-compose up -d
+```
+
+This command will start a MySQL instance in a Docker container in detached mode. Once the container is up and running, you'll need to generate a .env file at the root of the project directory and ensure that the following line is present and correct:
+
+```
+MYSQL_DATABASE_URL=mysql://temzone:temzone@localhost:3306/temzone
+```
+
+This URL uses the username and password _temzone_ and points to the temzone database. Make sure that these values are correct and that the database is running on port 3306 of localhost.
+
+#### Creating the database tables
+
+To create the necessary tables in the database, you can run the following command:
+
+```console
+npm run database:update
+```
+
+This command will create the tables in the temzone database, based on the database schema defined in the [schema.prima](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/prisma/schema.prisma) file. Note that any changes made to the database schema will require running this command again to keep the tables up-to-date.
+
+To fill the database with initial data, you can run the following command:
+
+```console
+npm run database:insert
+```
+
+#### Migrations
+
+Migrations in the application are managed through [PlanetScale](https://planetscale.com), which offers online schema changes that are automatically deployed upon merging a deploy request. This approach prevents blocking schema changes that may result in downtime. It differs from the traditional Prisma workflow, where the execution of the prisma migrate command generates SQL migrations based on changes to the Prisma schema. With PlanetScale and Prisma, the responsibility for applying changes lies with PlanetScale.
+
+### Setting up the application
 
 ### Running the development server
 
@@ -91,7 +127,7 @@ To run the tests for the application, you can use the following command:
 npm run test
 ```
 
-The tests are written using the Vitest testing framework, which is included as a **devDependency** in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a **.test.js** extension in the project's directory.
+The tests are written using the Vitest testing framework, which is included as a devDependency in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a _.test.js_ extension in the project directory.
 
 ## License
 
