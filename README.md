@@ -25,13 +25,13 @@ To install the dependencies for a Cloudflare Workers project, you'll need to use
 
 For example, to install all of the dependencies you can run the following command in the project directory:
 
-```
+```bash
 npm install
 ```
 
 You can also use npm install to install a specific package by providing the package name as an argument. For example:
 
-```
+```bash
 npm install hono
 ```
 
@@ -41,7 +41,7 @@ This will install the hono package and add it to the dependencies section of the
 
 To scrape data from the [Official Temtem Wiki](https://temtem.wiki.gg/wiki/Temtem_Wiki), you can run the following command in the project directory:
 
-```
+```bash
 npm run scraper
 ```
 
@@ -49,7 +49,7 @@ This command will start the data scraping process and store the scraped data in 
 
 The npm run scraper command accepts additional parameters that you can use to customize the data scraping process. For example, you can use the _assets_ parameter to generate and save the scraped assets to the [assets](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/assets) folder.
 
-```
+```bash
 npm run scraper -- --assets
 ```
 
@@ -89,7 +89,7 @@ This URL uses the username and password _temzone_ and points to the temzone data
 
 To create the necessary tables in the database, you can run the following command:
 
-```console
+```bash
 npm run database:update
 ```
 
@@ -97,7 +97,7 @@ This command will create the tables in the temzone database, based on the databa
 
 To fill the database with initial data, you can run the following command:
 
-```console
+```
 npm run database:insert
 ```
 
