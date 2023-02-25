@@ -1,3 +1,4 @@
+import command from "command-line-args";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
@@ -23,13 +24,13 @@ async function scrapeAndSave(name, asset) {
   logSuccess("[" + name + "] written successfully");
 }
 
-let assets = false;
-if (process.argv.length === 4) {
-  assets = process.argv.pop() === "assets";
-}
-
-const name = process.argv.pop();
+const options = command([
+  { name: "scraper", type: String, defaultValue: "all", defaultOption: true },
+  { name: "assets", type: Boolean, defaultValue: false },
+]);
 const start = performance.now();
+const name = options.scraper;
+const assets = options.assets;
 
 try {
   if (SCRAPERS[name]) {
