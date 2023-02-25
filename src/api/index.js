@@ -7,8 +7,8 @@ import {
   unauthorized,
 } from "api/responses";
 import { Hono } from "hono";
+import { serveStatic } from "hono/cloudflare-workers";
 import { cors } from "hono/cors";
-import { serveStatic } from "hono/serve-static.module";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
 const app = new Hono();

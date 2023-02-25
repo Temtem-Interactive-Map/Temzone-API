@@ -1,0 +1,23 @@
+{
+  "31bf1631-972e-56e1-9838-ded1c799356f": {
+    "id": "31bf1631-972e-56e1-9838-ded1c799356f",
+    "title": "Saipark",
+    "subtitle": "West from Praise Coast",
+    "temtemA": {
+      "area": "Water",
+      "rate": 100,
+      "lumaRate": 1,
+      "minSVs": 39,
+      "eggMoves": 11,
+      "temtemId": "88f0f654-be8c-5fa7-b604-4c50639dc7c4"
+    },
+    "temtemB": {
+      "area": "Caves",
+      "rate": 100,
+      "lumaRate": 1,
+      "minSVs": 39,
+      "eggMoves": 7,
+      "temtemId": "ebdffebc-cf34-5541-b946-ea559a328e4c"
+    }
+  }
+}

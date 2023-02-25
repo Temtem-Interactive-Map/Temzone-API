@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=temzone
+      - MYSQL_USER=temzone
+      - MYSQL_PASSWORD=temzone
+      - MYSQL_DATABASE=temzone
+    ports:
+      - 3306:3306

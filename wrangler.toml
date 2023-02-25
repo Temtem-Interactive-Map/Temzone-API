@@ -1,4 +1,4 @@
-name = "temzone-api"
+name = "temzone"
 main = "src/api/index.js"
 compatibility_date = "2023-01-20"
 
@@ -6,7 +6,7 @@ compatibility_date = "2023-01-20"
 bucket = "assets"
 
 [env.dev]
-name = "temzone-api-dev"
+name = "temzone-dev"
 
 [env.prod]
-name = "temzone-api-prod"
+name = "temzone-prod"
