@@ -2,53 +2,53 @@ import { config } from "dotenv";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { unstable_dev as unstableDev } from "wrangler";
 
-async function getFirebaseToken(email, password) {
-  return fetch(
-    "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" +
-      process.env.FIREBASE_API_KEY,
-    {
-      method: "POST",
-      body: JSON.stringify({
-        email,
-        password,
-        returnSecureToken: true,
-      }),
-    }
-  )
-    .then((response) => response.json())
-    .then((data) => data.idToken);
-}
-
-function checkProperties(subject, schema) {
-  schema.forEach(({ name, type }) => {
-    expect(subject).toHaveProperty(name);
-
-    if (type) {
-      expect(
-        subject[name],
-        "Expected [" + name + "] property to be type: [" + type + "]"
-      ).toBeTypeOf(type);
-    }
-  });
-}
-
-const errorProperties = [
-  { name: "status", type: "number" },
-  { name: "message", type: "string" },
-];
-
-const temtemMarkerProperties = [
-  { name: "id", type: "number" },
-  { name: "type", type: "string" },
-  { name: "title", type: "string" },
-  { name: "subtitle", type: "string" },
-  { name: "coordinates", type: "object" },
-];
-
 describe("Testing routes", () => {
   let userToken;
   let adminToken;
   let worker;
+
+  async function getFirebaseToken(email, password) {
+    return fetch(
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" +
+        process.env.FIREBASE_API_KEY,
+      {
+        method: "POST",
+        body: JSON.stringify({
+          email,
+          password,
+          returnSecureToken: true,
+        }),
+      }
+    )
+      .then((response) => response.json())
+      .then((data) => data.idToken);
+  }
+
+  const errorProperties = [
+    { name: "status", type: "number" },
+    { name: "message", type: "string" },
+  ];
+
+  const temtemMarkerProperties = [
+    { name: "id", type: "number" },
+    { name: "type", type: "string" },
+    { name: "title", type: "string" },
+    { name: "subtitle", type: "string" },
+    { name: "coordinates", type: "object" },
+  ];
+
+  function checkProperties(subject, schema) {
+    schema.forEach(({ name, type }) => {
+      expect(subject).toHaveProperty(name);
+
+      if (type) {
+        expect(
+          subject[name],
+          "Expected [" + name + "] property to be type: [" + type + "]"
+        ).toBeTypeOf(type);
+      }
+    });
+  }
 
   beforeAll(async () => {
     config();
