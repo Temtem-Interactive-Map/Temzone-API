@@ -1,9 +1,34 @@
 import { PrismaClient } from "@prisma/client";
+import command from "command-line-args";
 import { config } from "dotenv";
 import { readDBFile } from "../utils/database/index.js";
 import { logError, logInfo, logSuccess } from "../utils/log/index.js";
 
-config();
+const options = command([
+  {
+    name: "environment",
+    type: String,
+    defaultValue: "local",
+    defaultOption: true,
+  },
+]);
+
+switch (options.environment) {
+  case "development":
+    logInfo("Connecting to development database");
+    config({ path: ".env.development", override: true });
+
+    break;
+  case "production":
+    logInfo("Connecting to production database");
+    config({ path: ".env.production", override: true });
+
+    break;
+  default:
+    logInfo("Connecting to local database");
+
+    break;
+}
 
 const markers = [];
 const spawns = await readDBFile("spawns");
