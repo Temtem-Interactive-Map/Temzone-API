@@ -1,7 +1,6 @@
 import { load } from "cheerio";
 import { join } from "path";
 import sharp from "sharp";
-import { v5 as uuidv5 } from "uuid";
 
 export async function scrape(url) {
   const html = await fetch(url).then((res) => res.text());
@@ -64,12 +63,14 @@ export async function generatePortrait(url) {
     process.cwd(),
     "scraper",
     "utils",
+    "assets",
     "portrait_background.png"
   );
   const portraitBorderPath = join(
     process.cwd(),
     "scraper",
     "utils",
+    "assets",
     "portrait_border.png"
   );
   const temtemBuffer = await fetchPng(url, 240);
@@ -81,18 +82,4 @@ export async function generatePortrait(url) {
     .toBuffer();
 
   return portraitBuffer;
-}
-
-export function generateFileName(...args) {
-  return args
-    .join("_")
-    .replace(/[^a-zA-Z0-9_ ]/g, "")
-    .replace(/ /g, "_")
-    .toLowerCase();
-}
-
-export function generateId(...args) {
-  const id = args.join(" ");
-
-  return uuidv5(id, uuidv5.URL);
 }

@@ -1,9 +1,9 @@
-import { readDBFile } from "./db/index.js";
-import { logInfo, logSuccess } from "./log/index.js";
-import { cleanText, generateId, scrape } from "./utils/index.js";
+import { generateId } from "./utils/database/index.js";
+import { logInfo, logSuccess } from "./utils/log/index.js";
+import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export class TraitsDB {
-  static async scrape() {
+  static async scrape(_) {
     logInfo("Scraping [traits]...");
     this.traits = {};
 
@@ -15,6 +15,7 @@ export class TraitsDB {
       const id = generateId(trait.name);
 
       this.traits[id] = {
+        id,
         name: trait.name,
         description: trait.description,
       };
@@ -23,14 +24,6 @@ export class TraitsDB {
     logSuccess("[traits] scraped successfully");
 
     return this.traits;
-  }
-
-  static async load() {
-    this.traits = await readDBFile("traits");
-  }
-
-  static find(id) {
-    return this.traits[id];
   }
 }
 

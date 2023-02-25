@@ -1,9 +1,9 @@
-import { readDBFile } from "./db/index.js";
-import { logInfo, logSuccess } from "./log/index.js";
-import { cleanText, generateId, scrape } from "./utils/index.js";
+import { generateId } from "./utils/database/index.js";
+import { logInfo, logSuccess } from "./utils/log/index.js";
+import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export class SaiparkDB {
-  static async scrape() {
+  static async scrape(_) {
     logInfo("Scraping [saipark]...");
     this.saipark = {};
 
@@ -15,6 +15,7 @@ export class SaiparkDB {
     const id = generateId("Saipark");
 
     this.saipark[id] = {
+      id,
       title: "Saipark",
       subtitle: "West from Praise Coast",
       temtemA: {
@@ -38,14 +39,6 @@ export class SaiparkDB {
     logSuccess("[saipark] scraped successfully");
 
     return this.saipark;
-  }
-
-  static async load() {
-    this.saipark = await readDBFile("saipark");
-  }
-
-  static find(id) {
-    return this.saipark[id];
   }
 }
 

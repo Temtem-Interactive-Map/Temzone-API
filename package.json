@@ -8,7 +8,9 @@
   "main": "src/api/index.js",
   "private": true,
   "scripts": {
-    "scrape": "node --no-warnings scraper/index.js",
+    "scraper": "node scraper/index.js",
+    "database:update": "prisma db push",
+    "database:insert": "node scraper/database/index.js",
     "dev": "wrangler dev --local",
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.json,.yml",
@@ -16,12 +18,13 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
+    "@prisma/client": "4.10.1",
     "hono": "3.0.1",
-    "jose": "4.12.0",
-    "realm-web": "2.0.0"
+    "jose": "4.12.0"
   },
   "devDependencies": {
     "cheerio": "1.0.0-rc.12",
+    "command-line-args": "5.2.1",
     "dotenv": "16.0.3",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
@@ -32,9 +35,10 @@
     "picocolors": "1.0.0",
     "prettier": "2.8.4",
     "prettier-eslint": "15.0.1",
+    "prisma": "4.10.1",
     "sharp": "0.31.3",
     "uuid": "9.0.0",
     "vitest": "0.28.5",
-    "wrangler": "2.10.0"
+    "wrangler": "2.11.1"
   }
 }

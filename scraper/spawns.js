@@ -1,20 +1,25 @@
 import { join } from "node:path";
-import { readDBFile, removeDBContent, writeDBImage } from "./db/index.js";
-import { logInfo, logSuccess, logWarning } from "./log/index.js";
+import {
+  generateFileName,
+  generateId,
+  removeDBContent,
+  writeDBImage,
+} from "./utils/database/index.js";
+import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import {
   cleanText,
   fetchPng,
-  generateFileName,
-  generateId,
   scrape,
   shortUrl,
-} from "./utils/index.js";
+} from "./utils/scraper/index.js";
 
 export class SpawnsDB {
-  static async scrape() {
-    logWarning("Removing [areas] assets...");
-    await removeDBContent("areas");
-    logSuccess("[areas] assets removed successfully");
+  static async scrape(assets) {
+    if (assets) {
+      logWarning("Removing [areas] assets...");
+      await removeDBContent("areas");
+      logSuccess("[areas] assets removed successfully");
+    }
 
     logInfo("Scraping [spawns]...");
     this.spawns = {};
@@ -49,14 +54,17 @@ export class SpawnsDB {
 
           if (!area.includes("Area")) continue;
 
-          const rawUrl = $el.find("td.map > div > div > a > img").attr("src");
-          const cleanUrl = cleanText(rawUrl);
-          const url = shortUrl(cleanUrl);
-          const png = await fetchPng("https://temtem.wiki.gg/" + url, 480);
           const fileName = generateFileName(location, area) + ".png";
 
-          logWarning("- Writing [" + fileName + "] to assets...");
-          await writeDBImage(join("areas", fileName), png);
+          if (assets) {
+            logWarning("- Writing [" + fileName + "] to assets...");
+            const rawUrl = $el.find("td.map > div > div > a > img").attr("src");
+            const cleanUrl = cleanText(rawUrl);
+            const url = shortUrl(cleanUrl);
+            const png = await fetchPng("https://temtem.wiki.gg/" + url, 480);
+
+            await writeDBImage(join("areas", fileName), png);
+          }
 
           $el
             .find("td.encounters > table")
@@ -67,6 +75,7 @@ export class SpawnsDB {
               const id = generateId(location, area, spawn.name);
 
               this.spawns[id] = {
+                id,
                 title: spawn.name,
                 subtitle: location + ", " + area,
                 rate: spawn.rate,
@@ -82,14 +91,6 @@ export class SpawnsDB {
     logSuccess("[spawns] scraped successfully");
 
     return this.spawns;
-  }
-
-  static async load() {
-    this.spawns = await readDBFile("saipark");
-  }
-
-  static find(id) {
-    return this.spawns[id];
   }
 }
 

@@ -1,10 +1,11 @@
-import { writeDBFile } from "./db/index.js";
-import { logError, logInfo, logSuccess } from "./log/index.js";
+import command from "command-line-args";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
+import { writeDBFile } from "./utils/database/index.js";
+import { logError, logInfo, logSuccess } from "./utils/log/index.js";
 
 const SCRAPERS = {
   types: TypesDB,
@@ -14,28 +15,39 @@ const SCRAPERS = {
   saipark: SaiparkDB,
 };
 
-async function scrapeAndSave(name) {
+async function scrapeAndSave(name, asset) {
   const scraper = SCRAPERS[name];
-  const content = await scraper.scrape();
+  const content = await scraper.scrape(asset);
 
   logInfo("Writing [" + name + "] to database...");
   await writeDBFile(name, content);
   logSuccess("[" + name + "] written successfully");
 }
 
-const name = process.argv.pop();
+const options = command([
+  { name: "scraper", type: String, defaultValue: "all", defaultOption: true },
+  { name: "assets", type: Boolean, defaultValue: false },
+]);
 const start = performance.now();
+const name = options.scraper;
+const assets = options.assets;
 
 try {
   if (SCRAPERS[name]) {
     logInfo("Scraping [" + name + "] data from the Official Temtem Wiki...");
-
-    await scrapeAndSave(name);
   } else {
     logInfo("Scraping all data from the Official Temtem Wiki...");
+  }
 
-    for (const infoToScrape of Object.keys(SCRAPERS)) {
-      await scrapeAndSave(infoToScrape);
+  if (assets) {
+    logInfo("Scraping assets from the Official Temtem Wiki...");
+  }
+
+  if (SCRAPERS[name]) {
+    await scrapeAndSave(name, assets);
+  } else {
+    for (const name of Object.keys(SCRAPERS)) {
+      await scrapeAndSave(name, assets);
     }
   }
 } catch (error) {
