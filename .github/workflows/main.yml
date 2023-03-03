@@ -12,8 +12,6 @@ jobs:
         with:
           node-version: 18.13.0
           cache: npm
-      - run: echo "${{ secrets.ENV_FILE }}" > ${{ github.workspace }}/.env
-      - run: echo "${{ secrets.VARS_FILE }}" > ${{ github.workspace }}/.dev.vars
       - run: npm install
       - run: npm test
   deploy:
