@@ -1,12 +1,25 @@
 name = "temzone"
-main = "src/api/index.js"
+main = "dist/index.mjs"
 compatibility_date = "2023-01-20"
+kv_namespaces = [
+  { binding = "cache", id = "ed8b3d4a27634b79a23a5377586bca62" }
+]
 
 [site]
 bucket = "assets"
 
+[build]
+command = "npm run build"
+watch_dir = "src"
+
 [env.dev]
 name = "temzone-dev"
+kv_namespaces = [
+  { binding = "cache", id = "ed8b3d4a27634b79a23a5377586bca62" }
+]
 
 [env.prod]
 name = "temzone-prod"
+kv_namespaces = [
+  { binding = "cache", id = "ed8b3d4a27634b79a23a5377586bca62" }
+]
