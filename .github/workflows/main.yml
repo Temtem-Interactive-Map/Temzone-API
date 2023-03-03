@@ -27,6 +27,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           secrets: |
             FIREBASE_PROJECT_ID
-          command: publish --env ${{ vars.ENVIRONMENT }}
+          command: publish --env $ENVIRONMENT
         env:
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
