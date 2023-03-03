@@ -7,10 +7,15 @@ import {
   unauthorized,
 } from "api/responses";
 import { Hono } from "hono";
+import { cache } from "hono/cache";
 import { serveStatic } from "hono/cloudflare-workers";
 import { cors } from "hono/cors";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
+// const markerDao = new MarkerDao();
+// const spawnDao = new SpawnDao();
+// const saiparkDao = new SaiparkDao();
+// const markersService = new MarkersService(markerDao, spawnDao, saiparkDao);
 const app = new Hono();
 
 app.use(
@@ -50,39 +55,50 @@ app.use("*", async (ctx, next) => {
   }
 });
 
+// app.use("*", async (ctx, next) => {
+//   const conn = connect({
+//     host: ctx.env.MYSQL_HOST,
+//     username: ctx.env.MYSQL_USERNAME,
+//     password: ctx.env.MYSQL_PASSWORD,
+//   });
+
+//   markersService.configure(conn);
+
+//   await next();
+// });
+
+app.get(
+  "*",
+  cache({
+    cacheName: "temzone",
+    cacheControl: "max-age=3600",
+  })
+);
+
 app.get("/static/*", serveStatic({ root: "./" }));
 
-app.get("/markers", (ctx) => {
+app.get("/markers", async (ctx) => {
   const type = ctx.req.query("type");
 
   if (typeof type !== "string") {
     return badRequest(ctx, "type");
   }
 
-  const types = [...new Set(type.split(","))];
-  const validTypes = ["temtem", "saipark", "landmark"];
+  const types = [...new Set(type.split(/%2C/))];
+  const validMarkerTypes = ["spawn", "saipark"];
 
-  if (!types.every((type) => validTypes.includes(type))) {
+  if (!types.every((type) => validMarkerTypes.includes(type))) {
     return badRequest(ctx, "type");
   }
 
+  // const markers = await markersService.getMarkers(types);
+
   return ok(ctx, {
-    items: types.map((type) => {
-      return {
-        id: 1,
-        type,
-        title: "Temtem 1",
-        subtitle: "Subtitle 1",
-        coordinates: {
-          x: 0,
-          y: 0,
-        },
-      };
-    }),
+    items: [],
   });
 });
 
-app.put("/markers/:id{[0-9]+}/temtem", (ctx) => {
+app.put("/markers/:id", (ctx) => {
   const id = ctx.req.param("id");
 
   return noContent(ctx);
