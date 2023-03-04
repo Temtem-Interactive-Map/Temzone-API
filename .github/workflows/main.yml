@@ -12,17 +12,37 @@ jobs:
         with:
           node-version: 18.13.0
           cache: npm
-      - run: echo "${{ secrets.ENV_FILE }}" > ${{ github.workspace }}/.env
-      - run: echo "${{ secrets.VARS_FILE }}" > ${{ github.workspace }}/.dev.vars
       - run: npm install
       - run: npm test
-  # deploy:
-  #   needs: test
-  #   runs-on: ubuntu-22.04
-  #   name: Deploying
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - uses: cloudflare/wrangler-action@2.0.0
-  #       with:
-  #         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-  #         command: publish --env ${{ vars.ENVIRONMENT }}
+  deploy_prod:
+    needs: test
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/main'
+    name: Deploying to production
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          secrets: |
+            FIREBASE_PROJECT_ID
+          preCommands: npm install
+          command: publish --env prod
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+  deploy_dev:
+    needs: test
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/develop'
+    name: Deploying to development
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          secrets: |
+            FIREBASE_PROJECT_ID
+          preCommands: npm install
+          command: publish --env dev
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}

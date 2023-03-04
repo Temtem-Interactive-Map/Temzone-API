@@ -10,14 +10,15 @@ generator client {
 }
 
 model Marker {
-  id       String  @id @db.VarChar(36)
-  type     String  @db.VarChar(16)
-  title    String  @db.VarChar(40)
-  subtitle String  @db.VarChar(40)
-  x        Int?    @db.TinyInt
-  y        Int?    @db.TinyInt
-  userId   String? @db.VarChar(28)
-  User     User?   @relation(fields: [userId], references: [id], onUpdate: Cascade, onDelete: Cascade)
+  id        String  @id @db.VarChar(36)
+  type      String  @db.VarChar(16)
+  title     String  @db.VarChar(40)
+  subtitle  String  @db.VarChar(40)
+  x         Int?    @db.TinyInt
+  y         Int?    @db.TinyInt
+  condition String? @db.VarChar(40)
+  userId    String? @db.VarChar(28)
+  User      User?   @relation(fields: [userId], references: [id], onUpdate: Cascade, onDelete: Cascade)
 
   @@index([userId])
   @@fulltext([title, subtitle])

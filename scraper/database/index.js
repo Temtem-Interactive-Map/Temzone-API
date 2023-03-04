@@ -12,8 +12,6 @@ Object.values(spawns).forEach((spawn) => {
     type: "spawn",
     title: spawn.title,
     subtitle: spawn.subtitle,
-    x: null,
-    y: null,
   });
 });
 
@@ -23,8 +21,6 @@ Object.values(saipark).forEach((saipark) => {
     type: "saipark",
     title: saipark.title,
     subtitle: saipark.subtitle,
-    x: null,
-    y: null,
   });
 });
 
