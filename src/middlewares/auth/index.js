@@ -1,4 +1,4 @@
-import { unauthorized } from "api/responses";
+import { forbidden, unauthorized } from "api/responses";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 
 export function auth(admin = false) {
@@ -6,13 +6,16 @@ export function auth(admin = false) {
     try {
       const authorization = ctx.req.headers.get("Authorization");
       const token = authorization.replace(/Bearer\s+/i, "");
-      const payload = getPayload(token, ctx.env);
+      const payload = await getPayload(token, ctx.env);
 
       if (admin && !payload.admin) {
-        return unauthorized(ctx);
+        return forbidden(ctx);
       }
 
-      ctx.userId = payload.user_id;
+      ctx.user = {
+        id: payload.user_id,
+        admin: payload.admin ?? false,
+      };
 
       await next();
     } catch (error) {
