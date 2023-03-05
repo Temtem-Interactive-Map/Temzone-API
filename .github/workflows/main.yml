@@ -17,23 +17,27 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-22.04
+    environment: $ENVIRONMENT
     name: Deploying
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.13.0
-          cache: npm
-      - run: npm install
-
       - uses: cloudflare/wrangler-action@2.0.0
+        if: github.ref == 'refs/heads/main'
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           preCommands: npm install
-          command: publish --env $ENVIRONMENT
+          command: publish --env prod
           secrets: |
-            ENVIRONMENT
             FIREBASE_PROJECT_ID
         env:
-          ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      - uses: cloudflare/wrangler-action@2.0.0
+        if: github.ref == 'refs/heads/develop'
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          preCommands: npm install
+          command: publish --env dev
+          secrets: |
+            FIREBASE_PROJECT_ID
+        env:
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
