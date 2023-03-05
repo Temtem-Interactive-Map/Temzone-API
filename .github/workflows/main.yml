@@ -24,7 +24,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           preCommands: npm install
-          environment: "${{ secrets.ENVIRONMENT }}$"
+          environment: ${{ secrets.ENVIRONMENT }}
           secrets: |
             FIREBASE_PROJECT_ID
         env:
