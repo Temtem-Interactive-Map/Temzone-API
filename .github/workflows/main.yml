@@ -23,8 +23,8 @@ jobs:
       - uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          environment: ${{ secrets.ENVIRONMENT }}
           preCommands: npm install
+          command: publish --env "${{ secrets.ENVIRONMENT }}"
           secrets: |
             FIREBASE_PROJECT_ID
         env:
