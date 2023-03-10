@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "scraper": "node scraper/index.js",
+    "database:migrate": "wrangler d1 migrations apply temzone --local --env dev",
     "build": "node build.js",
     "dev": "wrangler dev --local --persist --env dev",
     "format": "prettier --check .",
