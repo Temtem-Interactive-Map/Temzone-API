@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Install wrangler
-        run: npm install @cloudflare/wrangler -g
+        run: npm install wrangler -g
       - name: Build
         run: npm run build
       - name: Put secrects
