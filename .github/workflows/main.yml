@@ -17,7 +17,6 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-22.04
-    environment: $ENVIRONMENT
     name: Deploying
     steps:
       - uses: actions/checkout@v3
