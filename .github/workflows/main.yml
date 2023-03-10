@@ -34,13 +34,11 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Install wrangler
-        run: npm install wrangler -g
       - name: Set environment variables
-        run: |
-          export CLOUDFLARE_API_TOKEN="${{ secrets.CLOUDFLARE_API_TOKEN }}"
-          export ENVIRONMENT="${{ secrets.ENVIRONMENT }}"
-          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
+        env:
+          ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       - name: Migrate database
         run: echo y | wrangler d1 migrations apply temzone --env "$ENVIRONMENT"
       - name: Deploy
