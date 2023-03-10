@@ -2,29 +2,13 @@ import { LyraMarkerDAO } from "daos/lyra/markers";
 import { SQLiteMarkerDAO } from "daos/sqlite/markers";
 import { StaticSaiparkMarkerDAO } from "daos/static/markers/saipark";
 import { StaticSpawnMarkerDAO } from "daos/static/markers/spawns";
-import { InternalServerError } from "responses/errors";
+import { InternalServerError, NotFoundError } from "responses/errors";
 
 function coordinates(marker) {
   return marker.x && marker.y ? { x: marker.x, y: marker.y } : null;
 }
 
 export class MarkerService {
-  static async createMarkers(ctx, markers) {
-    const documents = [];
-
-    for (const marker of markers) {
-      try {
-        await SQLiteMarkerDAO.findById(ctx, marker.id);
-      } catch {
-        documents.push(marker);
-
-        await SQLiteMarkerDAO.insert(ctx, marker);
-      }
-    }
-
-    await LyraMarkerDAO.insertMany(ctx, documents);
-  }
-
   static async getMarkers(ctx, types) {
     const markers = await SQLiteMarkerDAO.findByType(ctx, types);
 
@@ -64,6 +48,38 @@ export class MarkerService {
         }
       }
     });
+  }
+
+  static async createMarkers(ctx, markers) {
+    const documents = [];
+
+    for (const marker of markers) {
+      try {
+        await SQLiteMarkerDAO.findById(ctx, marker.id);
+      } catch {
+        documents.push(marker);
+
+        await SQLiteMarkerDAO.insert(ctx, marker);
+      }
+    }
+
+    await LyraMarkerDAO.insertMany(ctx, documents);
+  }
+
+  static async updateSpawnMarker(ctx, id, spawn) {
+    try {
+      const marker = await SQLiteMarkerDAO.update(ctx, {
+        id,
+        subtitle: spawn.subtitle,
+        condition: spawn.condition,
+        x: spawn.coordinates?.x,
+        y: spawn.coordinates?.y,
+      });
+
+      await LyraMarkerDAO.update(ctx, marker);
+    } catch (error) {
+      throw new NotFoundError("spawn");
+    }
   }
 
   static async searchMarkers(ctx, query, limit, offset) {

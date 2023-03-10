@@ -20,13 +20,12 @@ app.use(
 app.notFound((ctx) => notFound(ctx, "route"));
 
 app.onError((error, ctx) => {
-  console.error(error);
+  if (error instanceof NotFoundError) {
+    return notFound(ctx, error.request);
+  } else {
+    console.error(error);
 
-  switch (error) {
-    case error instanceof NotFoundError:
-      return notFound(ctx, error.request);
-    default:
-      return internalServerError(ctx);
+    return internalServerError(ctx);
   }
 });
 

@@ -3,10 +3,30 @@ import { auth } from "middlewares/auth";
 import { zValidator } from "middlewares/validator";
 import { noContent, ok } from "responses";
 import { MarkerService } from "services/markers";
-import { type, types } from "utils";
+import {
+  condition,
+  coordinates,
+  id,
+  subtitle,
+  title,
+  type,
+  types,
+} from "utils";
 import { z } from "zod";
 
 export const route = new Hono();
+
+route.get(
+  "/",
+  auth(true),
+  zValidator("query", z.object({ types })),
+  async (ctx) => {
+    const { types } = ctx.req.valid("query");
+    const result = await MarkerService.getMarkers(ctx, types);
+
+    return ok(ctx, result);
+  }
+);
 
 route.post(
   "/",
@@ -15,10 +35,10 @@ route.post(
     "json",
     z.array(
       z.object({
-        id: z.string().uuid(),
+        id,
         type,
-        title: z.string().max(40),
-        subtitle: z.string().max(40),
+        title,
+        subtitle,
       })
     )
   ),
@@ -30,14 +50,23 @@ route.post(
   }
 );
 
-route.get(
-  "/",
+route.put(
+  "/spawns/:id",
   auth(true),
-  zValidator("query", z.object({ types })),
+  zValidator(
+    "json",
+    z.object({
+      subtitle,
+      condition,
+      coordinates,
+    })
+  ),
   async (ctx) => {
-    const { types } = ctx.req.valid("query");
-    const result = await MarkerService.getMarkers(ctx, types);
+    const { id } = ctx.req.param();
+    const spawn = ctx.req.valid("json");
 
-    return ok(ctx, result);
+    await MarkerService.updateSpawnMarker(ctx, id, spawn);
+
+    return noContent(ctx);
   }
 );

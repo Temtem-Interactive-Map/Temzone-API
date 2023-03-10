@@ -156,8 +156,10 @@ describe("Testing routes", async () => {
     }
   }
 
+  let sqliteClient;
+
   beforeEach(async () => {
-    const sqliteClient = getSQLiteClient();
+    sqliteClient = getSQLiteClient();
 
     await sqliteClient.deleteFrom("markers").executeTakeFirst();
     await sqliteClient
@@ -230,78 +232,6 @@ describe("Testing routes", async () => {
     }
   });
 
-  it("route POST '/markers' should return 204 No Content", async () => {
-    const response = await request("/markers", {
-      method: "POST",
-      token: adminToken,
-      body: [
-        {
-          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
-          type: "spawn",
-          title: "Mimit",
-          subtitle: "Iwaba, Area 3",
-        },
-      ],
-    });
-
-    expect(response).toBeDefined();
-    expect(response.status).toBe(204);
-  });
-
-  it("route POST '/markers' should return 400 Bad Request", async () => {
-    for (const body of [
-      [
-        {
-          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
-          type: "unknown",
-          title: "Mimit",
-          subtitle: "Iwaba, Area 3",
-        },
-      ],
-      [
-        {
-          id: "31bf1631-972e-56e1-9838-ded1c799356f",
-          type: "saipark",
-          title: "Saipark",
-          subtitle: "West from Praise Coast",
-        },
-        {
-          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
-          type: "unknown",
-          title: "Mimit",
-          subtitle: "Iwaba, Area 3",
-        },
-      ],
-    ]) {
-      const response = await request("/markers", {
-        method: "POST",
-        token: adminToken,
-        body,
-      });
-
-      expect(response).toBeDefined();
-      expect(response.status).toBe(400);
-
-      const data = await response.json();
-
-      checkErrorProperties(data);
-    }
-  });
-
-  it("route POST '/markers' should return 403 Forbidden", async () => {
-    const response = await request("/markers", {
-      method: "POST",
-      token: userToken,
-    });
-
-    expect(response).toBeDefined();
-    expect(response.status).toBe(403);
-
-    const data = await response.json();
-
-    checkErrorProperties(data);
-  });
-
   it("route GET '/markers' should return 200 Ok", async () => {
     const response = await request("/markers", {
       method: "GET",
@@ -359,6 +289,201 @@ describe("Testing routes", async () => {
     checkErrorProperties(data);
   });
 
+  it("route POST '/markers' should return 204 No Content", async () => {
+    const response = await request("/markers", {
+      method: "POST",
+      token: adminToken,
+      body: [
+        {
+          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+          type: "spawn",
+          title: "Mimit",
+          subtitle: "Iwaba, Area 3",
+        },
+      ],
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(204);
+
+    const spawn = await sqliteClient
+      .selectFrom("markers")
+      .select(["title", "subtitle", "condition", "x", "y"])
+      .where("id", "=", "7f45ffbb-94ca-5144-80b5-167cbdc0472f")
+      .executeTakeFirst();
+
+    expect(spawn).toBeDefined();
+    expect(spawn.title).toBe("Mimit");
+    expect(spawn.subtitle).toBe("Iwaba, Area 3");
+    expect(spawn.condition).toBeNull();
+    expect(spawn.x).toBeNull();
+    expect(spawn.y).toBeNull();
+  });
+
+  it("route POST '/markers' should return 400 Bad Request", async () => {
+    for (const body of [
+      [
+        {
+          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+          type: "unknown",
+          title: "Mimit",
+          subtitle: "Iwaba, Area 3",
+        },
+      ],
+      [
+        {
+          id: "31bf1631-972e-56e1-9838-ded1c799356f",
+          type: "saipark",
+          title: "Saipark",
+          subtitle: "West from Praise Coast",
+        },
+        {
+          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+          type: "unknown",
+          title: "Mimit",
+          subtitle: "Iwaba, Area 3",
+        },
+      ],
+    ]) {
+      const response = await request("/markers", {
+        method: "POST",
+        token: adminToken,
+        body,
+      });
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(400);
+
+      const data = await response.json();
+
+      checkErrorProperties(data);
+    }
+  });
+
+  it("route POST '/markers' should return 403 Forbidden", async () => {
+    const response = await request("/markers", {
+      method: "POST",
+      token: userToken,
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(403);
+
+    const data = await response.json();
+
+    checkErrorProperties(data);
+  });
+
+  it("route PUT '/markers/spawns/:id' should return 204 No Content", async () => {
+    const response = await request(
+      "/markers/spawns/84181c19-eb7f-58c4-aba0-19e189154df2",
+      {
+        method: "PUT",
+        token: adminToken,
+        body: {
+          subtitle: "Iwaba, Area 1",
+          condition: "Requires Fishing Rod",
+          coordinates: {
+            x: 0,
+            y: 0,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(204);
+
+    const spawn = await sqliteClient
+      .selectFrom("markers")
+      .select(["subtitle", "condition", "x", "y"])
+      .where("id", "=", "84181c19-eb7f-58c4-aba0-19e189154df2")
+      .executeTakeFirst();
+
+    expect(spawn).toBeDefined();
+    expect(spawn.subtitle).toBe("Iwaba, Area 1");
+    expect(spawn.condition).toBe("Requires Fishing Rod");
+    expect(spawn.x).toBe(0);
+    expect(spawn.y).toBe(0);
+  });
+
+  it("route PUT '/markers/spawns/:id' should return 400 Bad Request", async () => {
+    for (const body of [
+      {
+        subtitle: "Iwaba, Area 1",
+        condition: "Requires Fishing Rod",
+        coordinates: {
+          x: 0,
+        },
+      },
+      {
+        subtitle: "Iwaba, Area 1",
+        condition: "Requires Fishing Rod",
+        coordinates: {
+          y: 0,
+        },
+      },
+    ]) {
+      const response = await request(
+        "/markers/spawns/84181c19-eb7f-58c4-aba0-19e189154df2",
+        {
+          method: "PUT",
+          token: adminToken,
+          body,
+        }
+      );
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(400);
+
+      const data = await response.json();
+
+      checkErrorProperties(data);
+    }
+  });
+
+  it("route PUT '/markers/spawns/:id' should return 403 Forbidden", async () => {
+    const response = await request(
+      "/markers/spawns/84181c19-eb7f-58c4-aba0-19e189154df2",
+      {
+        method: "PUT",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(403);
+
+    const data = await response.json();
+
+    checkErrorProperties(data);
+  });
+
+  it("route PUT '/markers/spawns/:id' should return 404 Not Found", async () => {
+    const response = await request(
+      "/markers/spawns/8096c93b-7704-4482-a9d6-3fbff8cdaa39",
+      {
+        method: "PUT",
+        token: adminToken,
+        body: {
+          subtitle: "Iwaba, Area 1",
+          condition: "Requires Fishing Rod",
+          coordinates: {
+            x: 0,
+            y: 0,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(404);
+
+    const data = await response.json();
+
+    checkErrorProperties(data);
+  });
+
   it("route GET '/search' should return 200 Ok", async () => {
     for (const token of [userToken, adminToken]) {
       const response = await request("/search", {
@@ -404,6 +529,18 @@ describe("Testing routes", async () => {
     }
   });
 
+  it("route GET '/static/types/crystal.png' should return 200 Ok", async () => {
+    for (const token of [userToken, adminToken]) {
+      const response = await request("/static/types/crystal.png", {
+        method: "GET",
+        token,
+      });
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(200);
+    }
+  });
+
   it("route GET '/static/types/crystal.png' should return 401 Unauthorized", async () => {
     const response = await request("/static/types/crystal.png", {
       method: "GET",
@@ -415,17 +552,5 @@ describe("Testing routes", async () => {
     const data = await response.json();
 
     checkErrorProperties(data);
-  });
-
-  it("route GET '/static/types/crystal.png' should return 200 Ok", async () => {
-    for (const token of [userToken, adminToken]) {
-      const response = await request("/static/types/crystal.png", {
-        method: "GET",
-        token,
-      });
-
-      expect(response).toBeDefined();
-      expect(response.status).toBe(200);
-    }
   });
 });

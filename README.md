@@ -71,6 +71,11 @@ This will run only the [types](https://github.com/Temtem-Interactive-Map/Temzone
 
 ### Setting up the database
 
+```
+npx wrangler d1 create temzone
+npx wrangler kv:namespace create cache
+```
+
 To run the application locally, you'll first need to ensure you have a running instance of MySQL. One way to do this is through Docker Compose. To do so, run the following command at the root of the project directory:
 
 ```
