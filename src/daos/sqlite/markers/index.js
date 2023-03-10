@@ -18,7 +18,7 @@ export class SQLiteMarkerDAO {
   static async update(ctx, marker) {
     const db = getDBClient(ctx);
 
-    await db
+    return await db
       .updateTable("markers")
       .set({
         subtitle: marker.subtitle,
@@ -27,6 +27,7 @@ export class SQLiteMarkerDAO {
         y: marker.y,
       })
       .where("id", "=", marker.id)
+      .returning(["id", "title", "subtitle"])
       .executeTakeFirstOrThrow();
   }
 
