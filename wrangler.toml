@@ -15,7 +15,7 @@ kv_namespaces = [
   { binding = "CACHE", id = "7a20f210408e4a7dae7e76976723b81a", preview_id = "7a20f210408e4a7dae7e76976723b81a" }
 ]
 d1_databases = [
-  { binding = "DB", database_name = "temzone-dev", database_id = "e162445f-2c02-4cfc-ba00-7c6f9db6aac9" }
+  { binding = "DB", database_name = "temzone", database_id = "e162445f-2c02-4cfc-ba00-7c6f9db6aac9" }
 ]
 
 [env.prod]
@@ -23,5 +23,5 @@ kv_namespaces = [
   { binding = "CACHE", id = "86b34f4cba3e4adb98e2d850012f5dda" }
 ]
 d1_databases = [
-  { binding = "DB", database_name = "temzone-prod", database_id = "de90f72a-48fe-43a9-a532-daeb85179f9f" }
+  { binding = "DB", database_name = "temzone", database_id = "de90f72a-48fe-43a9-a532-daeb85179f9f" }
 ]
