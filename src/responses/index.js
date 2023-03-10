@@ -1,4 +1,4 @@
-import { t } from "locales";
+import { t } from "responses/locales";
 
 export function ok(ctx, data) {
   ctx.status(200);
