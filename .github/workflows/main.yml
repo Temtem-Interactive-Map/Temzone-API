@@ -38,13 +38,15 @@ jobs:
         run: npm install
       - name: Install wrangler
         run: npm i -g wrangler
-        if: github.ref == 'refs/heads/main'
       - name: Set production environment variables
         run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
+        if: github.ref == 'refs/heads/main'
       - name: Deploy to production
         run: wrangler publish --env prod
-        if: github.ref == 'refs/heads/develop'
+        if: github.ref == 'refs/heads/main'
       - name: Set develop environment variables
         run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
+        if: github.ref == 'refs/heads/develop'
       - name: Deploy to develop
         run: wrangler publish --env dev
+        if: github.ref == 'refs/heads/develop'
