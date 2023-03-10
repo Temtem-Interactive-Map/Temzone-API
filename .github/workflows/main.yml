@@ -34,15 +34,17 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install
-      - name: Set environment variables
-        run: |
-          if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
-              echo "ENVIRONMENT=prod" >> "$ENVIRONMENT"
-          else
-              echo "ENVIRONMENT=dev" >> "$ENVIRONMENT"
-          fi
-          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
-      - name: Migrate database
-        run: echo y | eval "npx wrangler d1 migrations apply temzone --env ${{ secrets.ENVIRONMENT }}"
-      - name: Deploy
-        run: eval "npx wrangler publish --env ${{ secrets.ENVIRONMENT }}"
+        if: github.ref == 'refs/heads/main'
+      - name: Set production environment variables
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
+      - name: Migrate production database
+        run: echo y | wrangler d1 migrations apply temzone --env prod
+      - name: Deploy to production
+        run: wrangler publish --env prod
+        if: github.ref == 'refs/heads/develop'
+      - name: Set develop environment variables
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
+      - name: Migrate develop database
+        run: echo y | wrangler d1 migrations apply temzone --env dev
+      - name: Deploy to develop
+        run: wrangler publish --env dev
