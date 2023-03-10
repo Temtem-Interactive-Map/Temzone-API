@@ -22,28 +22,29 @@ jobs:
     needs: test
     runs-on: ubuntu-22.04
     env:
-      FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      NO_D1_WARNING: true
+      API_CREDENTIALS: "API Token"
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     name: Deploying
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Deploy to production
-        uses: cloudflare/wrangler-action@2.0.0
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.13.0
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Install wrangler
+        run: npm install wrangler -g
         if: github.ref == 'refs/heads/main'
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: npm install
-          command: publish --env prod
-          postCommands: echo y | wrangler d1 migrations apply temzone --env prod
-          secrets: |
-            FIREBASE_PROJECT_ID
-      - name: Deploy to develop
-        uses: cloudflare/wrangler-action@2.0.0
+      - name: Set production environment variables
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
+      - name: Deploy to production
+        run: wrangler publish --env prod
         if: github.ref == 'refs/heads/develop'
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: npm install
-          command: publish --env dev
-          postCommands: echo y | wrangler d1 migrations apply temzone --env dev
-          secrets: |
-            FIREBASE_PROJECT_ID
+      - name: Set develop environment variables
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
+      - name: Deploy to develop
+        run: wrangler publish --env dev
