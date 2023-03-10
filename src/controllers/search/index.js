@@ -3,7 +3,7 @@ import { auth } from "middlewares/auth";
 import { zValidator } from "middlewares/validator";
 import { ok } from "responses";
 import { MarkerService } from "services/markers";
-import { limit, offset } from "utils";
+import { limit, offset, query } from "utils";
 import { z } from "zod";
 
 export const route = new Hono();
@@ -14,7 +14,7 @@ route.get(
   zValidator(
     "query",
     z.object({
-      query: z.string(),
+      query,
       limit,
       offset,
     })
