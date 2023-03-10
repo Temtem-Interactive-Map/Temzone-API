@@ -35,8 +35,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Set environment variables
-        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | eval "wrangler secret put FIREBASE_PROJECT_ID --env ${{ vars.ENVIRONMENT }}"
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | eval "npx wrangler secret put FIREBASE_PROJECT_ID --env ${{ vars.ENVIRONMENT }}"
       - name: Migrate database
-        run: echo y | eval "wrangler d1 migrations apply temzone --env ${{ vars.ENVIRONMENT }}"
+        run: echo y | eval "npx wrangler d1 migrations apply temzone --env ${{ vars.ENVIRONMENT }}"
       - name: Deploy
-        run: eval "wrangler publish --env ${{ vars.ENVIRONMENT }}"
+        run: eval "npx wrangler publish --env ${{ vars.ENVIRONMENT }}"
