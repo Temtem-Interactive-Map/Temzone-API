@@ -484,6 +484,106 @@ describe("Testing routes", async () => {
     checkErrorProperties(data);
   });
 
+  it("route PUT '/markers/saipark/:id' should return 204 No Content", async () => {
+    const response = await request(
+      "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+      {
+        method: "PUT",
+        token: adminToken,
+        body: {
+          coordinates: {
+            x: 0,
+            y: 0,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(204);
+
+    const saipark = await sqliteClient
+      .selectFrom("markers")
+      .select(["x", "y"])
+      .where("id", "=", "31bf1631-972e-56e1-9838-ded1c799356f")
+      .executeTakeFirst();
+
+    expect(saipark).toBeDefined();
+    expect(saipark.x).toBe(0);
+    expect(saipark.y).toBe(0);
+  });
+
+  it("route PUT '/markers/saipark/:id' should return 400 Bad Request", async () => {
+    for (const body of [
+      {
+        coordinates: {
+          x: 0,
+        },
+      },
+      {
+        coordinates: {
+          y: 0,
+        },
+      },
+    ]) {
+      const response = await request(
+        "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+        {
+          method: "PUT",
+          token: adminToken,
+          body,
+        }
+      );
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(400);
+
+      const data = await response.json();
+
+      checkErrorProperties(data);
+    }
+  });
+
+  it("route PUT '/markers/saipark/:id' should return 403 Forbidden", async () => {
+    const response = await request(
+      "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+      {
+        method: "PUT",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(403);
+
+    const data = await response.json();
+
+    checkErrorProperties(data);
+  });
+
+  it("route PUT '/markers/saipark/:id' should return 404 Not Found", async () => {
+    const response = await request(
+      "/markers/saipark/8096c93b-7704-4482-a9d6-3fbff8cdaa39",
+      {
+        method: "PUT",
+        token: adminToken,
+        body: {
+          coordinates: {
+            x: 0,
+            y: 0,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(404);
+
+    const data = await response.json();
+
+    checkErrorProperties(data);
+  });
+
   it("route GET '/search' should return 200 Ok", async () => {
     for (const token of [userToken, adminToken]) {
       const response = await request("/search", {

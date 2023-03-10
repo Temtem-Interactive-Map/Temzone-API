@@ -70,3 +70,22 @@ route.put(
     return noContent(ctx);
   }
 );
+
+route.put(
+  "/saipark/:id",
+  auth(true),
+  zValidator(
+    "json",
+    z.object({
+      coordinates,
+    })
+  ),
+  async (ctx) => {
+    const { id } = ctx.req.param();
+    const saipark = ctx.req.valid("json");
+
+    await MarkerService.updateSaiparkMarker(ctx, id, saipark);
+
+    return noContent(ctx);
+  }
+);
