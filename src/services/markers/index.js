@@ -82,6 +82,20 @@ export class MarkerService {
     }
   }
 
+  static async updateSaiparkMarker(ctx, id, spawn) {
+    try {
+      const marker = await SQLiteMarkerDAO.update(ctx, {
+        id,
+        x: spawn.coordinates?.x,
+        y: spawn.coordinates?.y,
+      });
+
+      await LyraMarkerDAO.update(ctx, marker);
+    } catch (error) {
+      throw new NotFoundError("saipark");
+    }
+  }
+
   static async searchMarkers(ctx, query, limit, offset) {
     const markers = [];
     const { items, next, prev } = await LyraMarkerDAO.findLikeQuery(
