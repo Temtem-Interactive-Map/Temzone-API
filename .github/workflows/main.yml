@@ -39,8 +39,8 @@ jobs:
       - name: Put secrects
         run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put "$FIREBASE_PROJECT_ID"
         env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       - name: Deploy
         run: wrangler publish --env "$ENVIROMENT"
         env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
