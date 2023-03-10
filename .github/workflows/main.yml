@@ -21,6 +21,9 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-22.04
+    env:
+      ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     name: Deploying
     steps:
       - name: Checkout
@@ -32,14 +35,9 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install
-      - name: Build
-        run: npm run build
       - name: Set environment variables
-        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
-        env:
-          ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env $ENVIRONMENT
       - name: Migrate database
-        run: echo y | wrangler d1 migrations apply temzone --env "$ENVIRONMENT"
+        run: echo y | wrangler d1 migrations apply temzone --env $ENVIRONMENT
       - name: Deploy
-        run: wrangler publish --env "$ENVIRONMENT"
+        run: wrangler publish --env $ENVIRONMENT
