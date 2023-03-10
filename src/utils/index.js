@@ -4,10 +4,6 @@ import { z } from "zod";
 const ZOOM = 6;
 const TILE_SIZE = 256;
 const MAP_SIZE = TILE_SIZE * Math.pow(2, ZOOM);
-const MAP_MIN_HORIZONTAL = TILE_SIZE * 7;
-const MAP_MAX_HORIZONTAL = MAP_SIZE - TILE_SIZE * 7;
-const MAP_MIN_VERTICAL = TILE_SIZE * 11;
-const MAP_MAX_VERTICAL = MAP_SIZE - TILE_SIZE * 11;
 
 // Marker properties
 const VALID_MARKER_TYPES = ["spawn", "saipark"];
@@ -26,8 +22,8 @@ export const condition = z.string().max(40).nullable().default(null);
 
 export const coordinates = z
   .object({
-    x: z.number().min(MAP_MIN_HORIZONTAL).max(MAP_MAX_HORIZONTAL),
-    y: z.number().min(MAP_MIN_VERTICAL).max(MAP_MAX_VERTICAL),
+    x: z.number().min(0).max(MAP_SIZE),
+    y: z.number().min(0).max(MAP_SIZE),
   })
   .nullable()
   .default(null);
