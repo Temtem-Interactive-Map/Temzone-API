@@ -1,14 +1,15 @@
 import { create, load, save } from "@lyrasearch/lyra";
 
+const db = await create({
+  schema: {
+    id: "string",
+    title: "string",
+    subtitle: "string",
+  },
+  edge: true,
+});
+
 export async function getDBClient(ctx) {
-  const db = await create({
-    schema: {
-      id: "string",
-      title: "string",
-      subtitle: "string",
-    },
-    edge: true,
-  });
   const data = await ctx.env.CACHE.get("lyra-markers-db", "json");
 
   if (data !== null) {
