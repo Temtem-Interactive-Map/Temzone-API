@@ -32,7 +32,6 @@ export class TypesDB {
       const id = generateId(type.name);
 
       this.types[id] = {
-        id,
         name: type.name,
         image: type.image,
       };
