@@ -35,6 +35,8 @@ jobs:
       - name: Install dependencies
         run: npm install
         if: github.ref == 'refs/heads/main'
+      - name: Install wrangler
+        run: npm i -g wrangler
       - name: Set production environment variables
         run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
       - name: Migrate production database
