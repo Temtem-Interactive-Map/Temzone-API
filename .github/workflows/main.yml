@@ -7,36 +7,38 @@ jobs:
     runs-on: ubuntu-22.04
     name: Testing
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 18.13.0
           cache: npm
-      - run: npm install
-      - run: npm test
+      - name: Install dependencies
+        run: npm install
+      - name: Test
+        run: npm test
   deploy:
     needs: test
     runs-on: ubuntu-22.04
     name: Deploying
     steps:
-      - uses: actions/checkout@v3
-      - uses: cloudflare/wrangler-action@2.0.0
-        if: github.ref == 'refs/heads/main'
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: npm install
-          command: publish --env prod
-          secrets: |
-            FIREBASE_PROJECT_ID
+          node-version: 18.13.0
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Install wrangler
+        run: npm install @cloudflare/wrangler -g
+      - name: Build
+        run: npm run build
+      - name: Put secrects
+        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put "$FIREBASE_PROJECT_ID"
+      - name: Deploy
+        run: wrangler publish --env "$ENVIROMENT"
         env:
-          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
-      - uses: cloudflare/wrangler-action@2.0.0
-        if: github.ref == 'refs/heads/develop'
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: npm install
-          command: publish --env dev
-          secrets: |
-            FIREBASE_PROJECT_ID
-        env:
-          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
