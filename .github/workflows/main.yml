@@ -35,7 +35,13 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Set environment variables
-        run: echo "${{ secrets.FIREBASE_PROJECT_ID }}" | eval "npx wrangler secret put FIREBASE_PROJECT_ID --env ${{ secrets.ENVIRONMENT }}"
+        run: |
+          if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
+              echo "ENVIRONMENT=prod" >> "$ENVIRONMENT"
+          else
+              echo "ENVIRONMENT=dev" >> "$ENVIRONMENT"
+          fi
+          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
       - name: Migrate database
         run: echo y | eval "npx wrangler d1 migrations apply temzone --env ${{ secrets.ENVIRONMENT }}"
       - name: Deploy
