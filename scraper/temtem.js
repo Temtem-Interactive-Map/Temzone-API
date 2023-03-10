@@ -59,7 +59,6 @@ export class TemtemDB {
         const id = generateId(temtem.name);
 
         this.creatures[id] = {
-          id,
           tempediaId: temtem.id,
           name: temtem.name,
           description: temtem.description,

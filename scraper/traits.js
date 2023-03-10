@@ -15,7 +15,6 @@ export class TraitsDB {
       const id = generateId(trait.name);
 
       this.traits[id] = {
-        id,
         name: trait.name,
         description: trait.description,
       };

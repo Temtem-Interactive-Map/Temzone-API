@@ -75,7 +75,6 @@ export class SpawnsDB {
               const id = generateId(location, area, spawn.name);
 
               this.spawns[id] = {
-                id,
                 title: spawn.name,
                 subtitle: location + ", " + area,
                 rate: spawn.rate,

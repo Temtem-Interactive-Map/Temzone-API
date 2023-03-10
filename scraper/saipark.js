@@ -15,7 +15,6 @@ export class SaiparkDB {
     const id = generateId("Saipark");
 
     this.saipark[id] = {
-      id,
       title: "Saipark",
       subtitle: "West from Praise Coast",
       temtemA: {

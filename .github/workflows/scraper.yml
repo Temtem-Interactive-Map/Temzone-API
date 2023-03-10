@@ -10,14 +10,21 @@ jobs:
     runs-on: ubuntu-22.04
     name: Scraping
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 18.13.0
           cache: npm
-      - run: npm install
-      - run: npm run scraper
-      - run: git config --global user.name "GitHub Actions"
-      - run: git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - run: git diff --quiet && git diff --staged --quiet || git commit -am "Update Temzone database"
-      - run: git push origin main
+      - name: Install dependencies
+        run: npm install
+      - name: Scrape
+        run: npm run scraper
+      - name: Commit
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git diff --quiet && git diff --staged --quiet || git commit -am "Update Temzone database"
+      - name: Push
+        run: git push origin main
