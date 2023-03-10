@@ -39,8 +39,9 @@ jobs:
       - name: Set environment variables
         run: |
           export CLOUDFLARE_API_TOKEN="${{ secrets.CLOUDFLARE_API_TOKEN }}"
-          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env ${{ secrets.ENVIRONMENT }}
+          export ENVIRONMENT="${{ secrets.ENVIRONMENT }}"
+          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env "$ENVIRONMENT"
       - name: Migrate database
-        run: echo y | wrangler d1 migrations apply temzone --env ${{ secrets.ENVIRONMENT }}
+        run: echo y | wrangler d1 migrations apply temzone --env "$ENVIRONMENT"
       - name: Deploy
-        run: wrangler publish --env ${{ secrets.ENVIRONMENT }}
+        run: wrangler publish --env "$ENVIRONMENT"
