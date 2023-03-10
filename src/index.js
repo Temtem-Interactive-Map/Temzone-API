@@ -1,7 +1,8 @@
-import { internalServerError, notFound } from "api/responses";
+import { controllers } from "controllers";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import { routes } from "routes";
+import { internalServerError, notFound } from "responses";
+import { NotFoundError } from "responses/errors";
 
 const app = new Hono();
 
@@ -21,11 +22,16 @@ app.notFound((ctx) => notFound(ctx, "route"));
 app.onError((error, ctx) => {
   console.error(error);
 
-  return internalServerError(ctx);
+  switch (error) {
+    case error instanceof NotFoundError:
+      return notFound(ctx, error.request);
+    default:
+      return internalServerError(ctx);
+  }
 });
 
-routes.forEach((route) => {
-  app.route(route.path, route.route);
+controllers.forEach((controller) => {
+  app.route(controller.path, controller.route);
 });
 
 export default app;
