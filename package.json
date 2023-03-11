@@ -1,7 +1,7 @@
 {
   "name": "temzone",
   "description": "The Temtem Interactive Map API",
-  "version": "0.1.0-a.5",
+  "version": "0.1.0-a.6",
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
