@@ -1,7 +1,7 @@
 {
   "name": "temzone",
   "description": "The Temtem Interactive Map API",
-  "version": "0.1.0-a.6",
+  "version": "0.1.0-a.7",
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
@@ -32,7 +32,7 @@
     "cheerio": "1.0.0-rc.12",
     "command-line-args": "5.2.1",
     "esbuild": "0.17.11",
-    "eslint": "8.35.0",
+    "eslint": "8.36.0",
     "eslint-config-prettier": "8.7.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-json": "3.1.0",
