@@ -14,8 +14,8 @@
     "dev": "wrangler dev --local --persist --env dev",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "lint": "eslint . --ext .js,.json,.yml",
-    "lint:fix": "eslint --fix . --ext .js,.json,.yml",
+    "lint": "eslint . --ext .js,.ts,.json,.yml",
+    "lint:fix": "eslint --fix . --ext .js,.ts,.json,.yml",
     "firebase": "firebase emulators:start --project temzone --import=emulator-data --export-on-exit=emulator-data",
     "test": "npm run build && firebase emulators:exec --project temzone --import=emulator-data vitest",
     "deploy": "wrangler publish"
