@@ -166,12 +166,12 @@
     "stats": {
       "hp": 72,
       "sta": 90,
-      "spd": 53,
+      "spd": 63,
       "atk": 84,
       "def": 50,
       "spatk": 42,
       "spdef": 44,
-      "total": 435
+      "total": 445
     },
     "tvs": {
       "hp": 0,
