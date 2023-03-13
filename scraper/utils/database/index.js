@@ -1,6 +1,6 @@
 import { readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "path";
-import { v5 as uuidv5 } from "uuid";
+import { v5 as uuid } from "uuid";
 
 export function generateFileName(...args) {
   return args
@@ -13,7 +13,7 @@ export function generateFileName(...args) {
 export function generateId(...args) {
   const id = args.join(" ");
 
-  return uuidv5(id, uuidv5.URL);
+  return uuid(id, uuid.URL);
 }
 
 export async function writeDBFile(fileName, data) {
