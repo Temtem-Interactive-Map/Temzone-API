@@ -166,12 +166,12 @@
     "stats": {
       "hp": 72,
       "sta": 90,
-      "spd": 51,
+      "spd": 53,
       "atk": 84,
       "def": 50,
       "spatk": 42,
       "spdef": 44,
-      "total": 433
+      "total": 435
     },
     "tvs": {
       "hp": 0,
@@ -1056,14 +1056,14 @@
       }
     },
     "stats": {
-      "hp": 79,
-      "sta": 47,
+      "hp": 82,
+      "sta": 55,
       "spd": 51,
       "atk": 84,
       "def": 64,
       "spatk": 52,
-      "spdef": 58,
-      "total": 435
+      "spdef": 66,
+      "total": 454
     },
     "tvs": {
       "hp": 0,
@@ -1266,12 +1266,12 @@
     "stats": {
       "hp": 73,
       "sta": 49,
-      "spd": 78,
+      "spd": 82,
       "atk": 56,
       "def": 39,
       "spatk": 93,
       "spdef": 70,
-      "total": 458
+      "total": 462
     },
     "tvs": {
       "hp": 0,
@@ -1346,8 +1346,7 @@
       {
         "condition": "+8 Levels",
         "traits": [
-          "Botanist",
-          "Toxic Farewell"
+          "Botanist"
         ]
       }
     ]
@@ -1374,10 +1373,6 @@
       {
         "name": "Botanist",
         "description": "Damage done with Nature techniques is increased by 15%."
-      },
-      {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
       }
     ],
     "details": {
@@ -1397,13 +1392,13 @@
     },
     "stats": {
       "hp": 55,
-      "sta": 80,
-      "spd": 80,
+      "sta": 74,
+      "spd": 77,
       "atk": 60,
       "def": 50,
       "spatk": 70,
-      "spdef": 90,
-      "total": 485
+      "spdef": 81,
+      "total": 467
     },
     "tvs": {
       "hp": 0,
@@ -1653,13 +1648,13 @@
     },
     "stats": {
       "hp": 90,
-      "sta": 53,
+      "sta": 58,
       "spd": 40,
       "atk": 75,
       "def": 62,
       "spatk": 75,
       "spdef": 62,
-      "total": 457
+      "total": 462
     },
     "tvs": {
       "hp": 3,
@@ -1981,13 +1976,13 @@
     },
     "stats": {
       "hp": 65,
-      "sta": 42,
+      "sta": 57,
       "spd": 110,
       "atk": 51,
       "def": 53,
       "spatk": 62,
       "spdef": 64,
-      "total": 447
+      "total": 462
     },
     "tvs": {
       "hp": 0,
@@ -2509,13 +2504,13 @@
     },
     "stats": {
       "hp": 72,
-      "sta": 62,
+      "sta": 67,
       "spd": 75,
       "atk": 66,
       "def": 70,
       "spatk": 45,
       "spdef": 60,
-      "total": 450
+      "total": 455
     },
     "tvs": {
       "hp": 1,
@@ -2637,13 +2632,13 @@
     },
     "stats": {
       "hp": 79,
-      "sta": 67,
+      "sta": 73,
       "spd": 72,
       "atk": 65,
       "def": 74,
       "spatk": 72,
       "spdef": 41,
-      "total": 470
+      "total": 476
     },
     "tvs": {
       "hp": 1,
@@ -2986,7 +2981,6 @@
       {
         "condition": "+22 Levels",
         "traits": [
-          "Toxic Farewell",
           "Tri-Apothecary"
         ]
       }
@@ -3012,10 +3006,6 @@
     },
     "traits": [
       {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
-      },
-      {
         "name": "Tri-Apothecary",
         "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself."
       }
@@ -3038,12 +3028,12 @@
     "stats": {
       "hp": 77,
       "sta": 52,
-      "spd": 61,
-      "atk": 88,
-      "def": 80,
+      "spd": 66,
+      "atk": 84,
+      "def": 77,
       "spatk": 36,
       "spdef": 51,
-      "total": 445
+      "total": 443
     },
     "tvs": {
       "hp": 0,
@@ -3164,14 +3154,14 @@
       }
     },
     "stats": {
-      "hp": 55,
-      "sta": 55,
+      "hp": 65,
+      "sta": 61,
       "spd": 88,
-      "atk": 71,
+      "atk": 76,
       "def": 68,
       "spatk": 45,
-      "spdef": 47,
-      "total": 429
+      "spdef": 49,
+      "total": 452
     },
     "tvs": {
       "hp": 0,
@@ -3361,13 +3351,13 @@
     },
     "stats": {
       "hp": 71,
-      "sta": 45,
+      "sta": 46,
       "spd": 60,
       "atk": 72,
       "def": 87,
       "spatk": 70,
       "spdef": 73,
-      "total": 478
+      "total": 479
     },
     "tvs": {
       "hp": 2,
@@ -3895,11 +3885,11 @@
       "hp": 82,
       "sta": 68,
       "spd": 40,
-      "atk": 66,
-      "def": 62,
+      "atk": 71,
+      "def": 68,
       "spatk": 40,
       "spdef": 70,
-      "total": 428
+      "total": 439
     },
     "tvs": {
       "hp": 2,
@@ -3934,10 +3924,6 @@
       {
         "name": "Scavenger",
         "description": "Restores 17% of max HP if another Temtem is knocked-out."
-      },
-      {
-        "name": "Determined",
-        "description": "Prevents negative stat stage changes."
       }
     ],
     "details": {
@@ -3960,10 +3946,10 @@
       "sta": 57,
       "spd": 90,
       "atk": 74,
-      "def": 56,
+      "def": 62,
       "spatk": 74,
-      "spdef": 56,
-      "total": 465
+      "spdef": 62,
+      "total": 477
     },
     "tvs": {
       "hp": 0,
@@ -4101,12 +4087,12 @@
     "stats": {
       "hp": 57,
       "sta": 51,
-      "spd": 78,
+      "spd": 80,
       "atk": 75,
       "def": 79,
       "spatk": 60,
       "spdef": 40,
-      "total": 440
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -4163,14 +4149,14 @@
       }
     },
     "stats": {
-      "hp": 50,
+      "hp": 57,
       "sta": 51,
       "spd": 80,
       "atk": 60,
       "def": 40,
       "spatk": 75,
       "spdef": 79,
-      "total": 435
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -4227,14 +4213,14 @@
       }
     },
     "stats": {
-      "hp": 79,
+      "hp": 74,
       "sta": 44,
       "spd": 100,
-      "atk": 77,
+      "atk": 81,
       "def": 61,
       "spatk": 23,
       "spdef": 61,
-      "total": 445
+      "total": 444
     },
     "tvs": {
       "hp": 0,
@@ -4555,14 +4541,14 @@
       }
     },
     "stats": {
-      "hp": 77,
-      "sta": 49,
+      "hp": 79,
+      "sta": 55,
       "spd": 67,
       "atk": 77,
       "def": 77,
       "spatk": 51,
-      "spdef": 50,
-      "total": 448
+      "spdef": 54,
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -4818,11 +4804,11 @@
       "hp": 89,
       "sta": 52,
       "spd": 44,
-      "atk": 57,
+      "atk": 60,
       "def": 65,
       "spatk": 62,
       "spdef": 77,
-      "total": 446
+      "total": 449
     },
     "tvs": {
       "hp": 3,
@@ -4952,13 +4938,13 @@
     },
     "stats": {
       "hp": 54,
-      "sta": 43,
+      "sta": 48,
       "spd": 84,
       "atk": 51,
       "def": 61,
       "spatk": 80,
       "spdef": 64,
-      "total": 437
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -5156,13 +5142,13 @@
     },
     "stats": {
       "hp": 71,
-      "sta": 48,
+      "sta": 54,
       "spd": 68,
-      "atk": 95,
+      "atk": 92,
       "def": 85,
       "spatk": 31,
-      "spdef": 46,
-      "total": 444
+      "spdef": 51,
+      "total": 452
     },
     "tvs": {
       "hp": 0,
@@ -5220,13 +5206,13 @@
     },
     "stats": {
       "hp": 92,
-      "sta": 42,
+      "sta": 46,
       "spd": 70,
       "atk": 80,
-      "def": 55,
+      "def": 60,
       "spatk": 70,
-      "spdef": 50,
-      "total": 459
+      "spdef": 67,
+      "total": 485
     },
     "tvs": {
       "hp": 3,
@@ -5556,13 +5542,13 @@
     },
     "stats": {
       "hp": 74,
-      "sta": 52,
+      "sta": 55,
       "spd": 52,
       "atk": 45,
       "def": 76,
       "spatk": 89,
       "spdef": 60,
-      "total": 448
+      "total": 451
     },
     "tvs": {
       "hp": 0,
@@ -5752,9 +5738,9 @@
       "spd": 80,
       "atk": 51,
       "def": 68,
-      "spatk": 64,
+      "spatk": 70,
       "spdef": 72,
-      "total": 450
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -5943,10 +5929,10 @@
       "sta": 73,
       "spd": 85,
       "atk": 61,
-      "def": 40,
+      "def": 45,
       "spatk": 87,
-      "spdef": 51,
-      "total": 467
+      "spdef": 55,
+      "total": 476
     },
     "tvs": {
       "hp": 0,
@@ -6139,14 +6125,14 @@
       }
     },
     "stats": {
-      "hp": 76,
+      "hp": 71,
       "sta": 78,
       "spd": 82,
-      "atk": 84,
+      "atk": 80,
       "def": 49,
       "spatk": 40,
       "spdef": 48,
-      "total": 457
+      "total": 448
     },
     "tvs": {
       "hp": 0,
@@ -6271,14 +6257,14 @@
       }
     },
     "stats": {
-      "hp": 67,
+      "hp": 71,
       "sta": 45,
       "spd": 81,
-      "atk": 76,
+      "atk": 80,
       "def": 75,
       "spatk": 49,
-      "spdef": 43,
-      "total": 436
+      "spdef": 48,
+      "total": 449
     },
     "tvs": {
       "hp": 0,
@@ -6403,14 +6389,14 @@
       }
     },
     "stats": {
-      "hp": 76,
-      "sta": 62,
+      "hp": 80,
+      "sta": 68,
       "spd": 50,
       "atk": 91,
       "def": 65,
       "spatk": 62,
       "spdef": 52,
-      "total": 458
+      "total": 468
     },
     "tvs": {
       "hp": 0,
@@ -6979,14 +6965,14 @@
       }
     },
     "stats": {
-      "hp": 86,
+      "hp": 81,
       "sta": 42,
       "spd": 63,
       "atk": 71,
-      "def": 100,
+      "def": 96,
       "spatk": 12,
       "spdef": 64,
-      "total": 438
+      "total": 429
     },
     "tvs": {
       "hp": 0,
@@ -7107,14 +7093,14 @@
       }
     },
     "stats": {
-      "hp": 71,
+      "hp": 75,
       "sta": 51,
       "spd": 64,
       "atk": 89,
       "def": 79,
       "spatk": 42,
-      "spdef": 61,
-      "total": 457
+      "spdef": 64,
+      "total": 464
     },
     "tvs": {
       "hp": 0,
@@ -7296,13 +7282,13 @@
     },
     "stats": {
       "hp": 81,
-      "sta": 45,
+      "sta": 54,
       "spd": 65,
       "atk": 81,
       "def": 74,
       "spatk": 52,
-      "spdef": 51,
-      "total": 449
+      "spdef": 57,
+      "total": 464
     },
     "tvs": {
       "hp": 2,
@@ -7492,13 +7478,13 @@
     },
     "stats": {
       "hp": 91,
-      "sta": 52,
+      "sta": 56,
       "spd": 79,
       "atk": 60,
       "def": 88,
       "spatk": 43,
-      "spdef": 46,
-      "total": 459
+      "spdef": 50,
+      "total": 467
     },
     "tvs": {
       "hp": 2,
@@ -7889,8 +7875,8 @@
       "atk": 51,
       "def": 55,
       "spatk": 68,
-      "spdef": 96,
-      "total": 446
+      "spdef": 92,
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -8016,13 +8002,13 @@
     },
     "stats": {
       "hp": 75,
-      "sta": 43,
+      "sta": 50,
       "spd": 50,
       "atk": 56,
       "def": 75,
       "spatk": 81,
       "spdef": 67,
-      "total": 447
+      "total": 454
     },
     "tvs": {
       "hp": 1,
@@ -8799,14 +8785,14 @@
       }
     },
     "stats": {
-      "hp": 56,
+      "hp": 60,
       "sta": 74,
-      "spd": 69,
-      "atk": 79,
+      "spd": 72,
+      "atk": 75,
       "def": 71,
       "spatk": 54,
       "spdef": 65,
-      "total": 468
+      "total": 471
     },
     "tvs": {
       "hp": 0,
@@ -8937,12 +8923,12 @@
     "stats": {
       "hp": 84,
       "sta": 51,
-      "spd": 61,
-      "atk": 79,
+      "spd": 65,
+      "atk": 75,
       "def": 67,
       "spatk": 51,
-      "spdef": 54,
-      "total": 447
+      "spdef": 57,
+      "total": 450
     },
     "tvs": {
       "hp": 2,
