@@ -9348,14 +9348,14 @@
       }
     },
     "stats": {
-      "hp": 62,
+      "hp": 59,
       "sta": 54,
       "spd": 65,
       "atk": 62,
       "def": 69,
-      "spatk": 79,
+      "spatk": 75,
       "spdef": 49,
-      "total": 440
+      "total": 433
     },
     "tvs": {
       "hp": 0,
@@ -9413,13 +9413,13 @@
     },
     "stats": {
       "hp": 58,
-      "sta": 47,
+      "sta": 49,
       "spd": 70,
       "atk": 78,
       "def": 111,
       "spatk": 60,
-      "spdef": 47,
-      "total": 471
+      "spdef": 50,
+      "total": 476
     },
     "tvs": {
       "hp": 0,
@@ -9939,11 +9939,11 @@
       "hp": 54,
       "sta": 72,
       "spd": 58,
-      "atk": 60,
-      "def": 72,
+      "atk": 65,
+      "def": 69,
       "spatk": 45,
-      "spdef": 72,
-      "total": 433
+      "spdef": 69,
+      "total": 432
     },
     "tvs": {
       "hp": 0,
@@ -10828,14 +10828,14 @@
       }
     },
     "stats": {
-      "hp": 50,
-      "sta": 70,
+      "hp": 56,
+      "sta": 74,
       "spd": 60,
       "atk": 39,
       "def": 55,
       "spatk": 76,
       "spdef": 85,
-      "total": 435
+      "total": 445
     },
     "tvs": {
       "hp": 0,
@@ -11495,11 +11495,11 @@
       "hp": 55,
       "sta": 51,
       "spd": 54,
-      "atk": 81,
-      "def": 81,
-      "spatk": 81,
-      "spdef": 81,
-      "total": 484
+      "atk": 78,
+      "def": 78,
+      "spatk": 78,
+      "spdef": 78,
+      "total": 472
     },
     "tvs": {
       "hp": 0,
@@ -11635,14 +11635,14 @@
       }
     },
     "stats": {
-      "hp": 55,
+      "hp": 60,
       "sta": 63,
       "spd": 74,
       "atk": 48,
       "def": 48,
       "spatk": 78,
       "spdef": 78,
-      "total": 444
+      "total": 449
     },
     "tvs": {
       "hp": 0,
@@ -11700,13 +11700,13 @@
     },
     "stats": {
       "hp": 49,
-      "sta": 54,
+      "sta": 61,
       "spd": 84,
-      "atk": 62,
+      "atk": 65,
       "def": 78,
       "spatk": 37,
       "spdef": 84,
-      "total": 448
+      "total": 458
     },
     "tvs": {
       "hp": 0,
@@ -12099,14 +12099,14 @@
       }
     },
     "stats": {
-      "hp": 78,
+      "hp": 76,
       "sta": 48,
       "spd": 34,
       "atk": 81,
-      "def": 74,
+      "def": 71,
       "spatk": 57,
-      "spdef": 76,
-      "total": 448
+      "spdef": 72,
+      "total": 439
     },
     "tvs": {
       "hp": 1,
