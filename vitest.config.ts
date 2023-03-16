@@ -1,8 +1,8 @@
-import jsconfigPaths from "vite-jsconfig-paths";
+import tsconfigPaths from "vite-tsconfig-paths";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-  plugins: [jsconfigPaths()],
+  plugins: [tsconfigPaths()],
   test: {
     watch: false,
   },
