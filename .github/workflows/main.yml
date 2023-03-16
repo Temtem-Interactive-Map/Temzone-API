@@ -50,3 +50,24 @@ jobs:
           echo y | wrangler d1 migrations apply temzone --env dev
           wrangler publish --env dev
         if: github.ref == 'refs/heads/develop'
+  database:
+    needs: deploy
+    runs-on: ubuntu-22.04
+    env:
+      FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+      FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
+      FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
+      TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
+    name: Populating database
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.13.0
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Populate database
+        run: npm run database:populate
