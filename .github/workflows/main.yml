@@ -18,14 +18,19 @@ jobs:
         run: npm install
       - name: Test
         run: npm test
-  deploy:
+  deploy-prod:
     needs: test
     runs-on: ubuntu-22.04
+    environment: production
     env:
       NO_D1_WARNING: true
       API_CREDENTIALS: "API Token"
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-    name: Deploying
+      FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+      FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
+      FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
+      TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
+    name: Deploying to production
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -38,27 +43,27 @@ jobs:
         run: npm install
       - name: Install wrangler
         run: npm i -g wrangler
-      - name: Deploy to production
+      - name: Migrate database
+        run: echo y | wrangler d1 migrations apply temzone --env prod
+      - name: Deploy
         run: |
           echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
-          echo y | wrangler d1 migrations apply temzone --env prod
           wrangler publish --env prod
-        if: github.ref == 'refs/heads/main'
-      - name: Deploy to develop
-        run: |
-          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
-          echo y | wrangler d1 migrations apply temzone --env dev
-          wrangler publish --env dev
-        if: github.ref == 'refs/heads/develop'
-  database:
-    needs: deploy
+      - name: Populate database
+        run: npm run database:populate
+  deploy-dev:
+    needs: test
     runs-on: ubuntu-22.04
+    environment: development
     env:
+      NO_D1_WARNING: true
+      API_CREDENTIALS: "API Token"
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
       FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
       FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
       TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
-    name: Populating database
+    name: Deploying to development
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -69,5 +74,13 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install
+      - name: Install wrangler
+        run: npm i -g wrangler
+      - name: Migrate database
+        run: echo y | wrangler d1 migrations apply temzone --env dev
+      - name: Deploy
+        run: |
+          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
+          wrangler publish --env dev
       - name: Populate database
         run: npm run database:populate
