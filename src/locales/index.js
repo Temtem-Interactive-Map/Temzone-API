@@ -1,4 +1,4 @@
-import en from "src/locales/en.json";
+import en from "./en.json";
 
 export function t(keys, params) {
   const key = keys.split(".").reduce((o, i) => o[i] ?? keys, en);
