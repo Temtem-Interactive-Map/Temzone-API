@@ -5,11 +5,12 @@
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "private": true,
   "scripts": {
     "scraper": "node scraper/index.js",
-    "database:migrate": "wrangler d1 migrations apply temzone --local --env dev",
+    "database:migrate": "echo y | wrangler d1 migrations apply temzone --local --env dev",
+    "database:populate": "node scraper/database/index.js",
     "build": "node build.js",
     "dev": "wrangler dev --local --persist --env dev",
     "format": "prettier --check .",
@@ -17,21 +18,25 @@
     "lint": "eslint . --ext .js,.ts,.json,.yml",
     "lint:fix": "eslint --fix . --ext .js,.ts,.json,.yml",
     "firebase": "firebase emulators:start --project temzone --import=emulator-data --export-on-exit=emulator-data",
-    "test": "npm run build && firebase emulators:exec --project temzone --import=emulator-data vitest",
+    "test": "firebase emulators:exec --project temzone --import=emulator-data vitest",
     "deploy": "wrangler publish"
   },
   "dependencies": {
     "@lyrasearch/lyra": "0.4.11",
-    "hono": "3.0.3",
+    "hono": "3.0.5",
     "jose": "4.13.1",
     "kysely": "0.23.5",
     "kysely-d1": "0.3.0",
     "zod": "3.21.4"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "4.20230307.0",
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
     "better-sqlite3": "8.2.0",
     "cheerio": "1.0.0-rc.12",
     "command-line-args": "5.2.1",
+    "dotenv": "16.0.3",
     "esbuild": "0.17.11",
     "eslint": "8.36.0",
     "eslint-config-prettier": "8.7.0",
@@ -46,8 +51,8 @@
     "prettier-plugin-sql": "0.13.0",
     "sharp": "0.31.3",
     "uuid": "9.0.0",
-    "vite-jsconfig-paths": "2.0.1",
-    "vitest": "0.29.2",
-    "wrangler": "2.12.2"
+    "vite-tsconfig-paths": "4.0.7",
+    "vitest": "0.29.3",
+    "wrangler": "2.12.3"
   }
 }
