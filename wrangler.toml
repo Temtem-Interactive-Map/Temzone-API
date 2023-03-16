@@ -12,7 +12,7 @@ watch_dir = "src"
 [env.dev]
 name = "temzone-dev"
 d1_databases = [
-  { binding = "DB", database_name = "temzone", database_id = "fe33e974-9b02-44cb-8fab-27442dde8dbd" }
+  { binding = "DB", database_name = "temzone", database_id = "e97c4ba8-9e00-46e9-ba95-2c52b2f0dcf7" }
 ]
 kv_namespaces = [
   { binding = "CACHE", id = "7a20f210408e4a7dae7e76976723b81a", preview_id = "7a20f210408e4a7dae7e76976723b81a" }
