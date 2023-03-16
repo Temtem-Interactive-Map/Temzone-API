@@ -6,6 +6,7 @@ dist
 node_modules
 
 # Environment variable files
+.env
 .dev.vars
 
 # Visual Studio Code
