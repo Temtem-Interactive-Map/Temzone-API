@@ -19,11 +19,6 @@ export class SearchKvRepository implements SearchRepository {
     this.searchRepository = searchRepository;
   }
 
-  async insertMany(markers: SearchEntity[]): Promise<void> {
-    await this.searchRepository.insertMany(markers);
-    await this.saveDB();
-  }
-
   async update(marker: SearchEntity): Promise<void> {
     await this.searchRepository.update(marker);
     await this.saveDB();
@@ -42,12 +37,12 @@ export class SearchKvRepository implements SearchRepository {
   private async saveDB(): Promise<void> {
     const data = await save(this.db);
 
-    await this.cache.put("lyra-db", JSON.stringify(data));
+    await this.cache.put("lyra-markers-db", JSON.stringify(data));
   }
 
   private async loadDB(): Promise<void> {
     const data: Data<SearchSchema> | null = await this.cache.get(
-      "lyra-db",
+      "lyra-markers-db",
       "json"
     );
 

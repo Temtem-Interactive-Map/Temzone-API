@@ -5,6 +5,7 @@ import app from "index";
 import { t } from "locales";
 import { Page } from "model/page";
 import { MarkerEntity } from "repository/marker/model/marker.entity";
+import { SearchEntity } from "repository/search/model/search.entity";
 import { Coordinates, Marker, Subtitle } from "service/marker/model/marker";
 import { SaiparkMarker } from "service/marker/model/saipark.marker";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
@@ -193,16 +194,6 @@ describe("Testing routes", async () => {
     const markers = await sqliteDB.selectFrom("markers").selectAll().execute();
     expect(markers).toBeDefined();
     expect(markers.length).toBe(4);
-
-    const lyraDB = getLyraDatabase();
-    const document = await getByID(
-      lyraDB,
-      "7f45ffbb-94ca-5144-80b5-167cbdc0472f"
-    );
-    expect(document).toBeDefined();
-    expect(document?.id).toBe("7f45ffbb-94ca-5144-80b5-167cbdc0472f");
-    expect(document?.title).toBe("Mimit");
-    expect(document?.subtitle).toBe("Iwaba, Area 3");
   });
 
   it("route POST '/markers' should return 400 Bad Request", async () => {
@@ -327,9 +318,11 @@ describe("Testing routes", async () => {
       "84181c19-eb7f-58c4-aba0-19e189154df2"
     );
     expect(document).toBeDefined();
-    expect(document?.id).toBe("84181c19-eb7f-58c4-aba0-19e189154df2");
-    expect(document?.title).toBe("Scarawatt");
-    expect(document?.subtitle).toBe("Iwaba, Area 2");
+    expect((document as SearchEntity).id).toBe(
+      "84181c19-eb7f-58c4-aba0-19e189154df2"
+    );
+    expect((document as SearchEntity).title).toBe("Scarawatt");
+    expect((document as SearchEntity).subtitle).toBe("Iwaba, Area 2");
   });
 
   it("route PUT '/markers/spawns/:id' should return 400 Bad Request", async () => {
@@ -493,9 +486,11 @@ describe("Testing routes", async () => {
       "31bf1631-972e-56e1-9838-ded1c799356f"
     );
     expect(document).toBeDefined();
-    expect(document?.id).toBe("31bf1631-972e-56e1-9838-ded1c799356f");
-    expect(document?.title).toBe("Saipark");
-    expect(document?.subtitle).toBe("West from Praise Coast");
+    expect((document as SearchEntity).id).toBe(
+      "31bf1631-972e-56e1-9838-ded1c799356f"
+    );
+    expect((document as SearchEntity).title).toBe("Saipark");
+    expect((document as SearchEntity).subtitle).toBe("West from Praise Coast");
   });
 
   it("route PUT '/markers/saipark/:id' should return 400 Bad Request", async () => {

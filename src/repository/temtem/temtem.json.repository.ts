@@ -1,6 +1,6 @@
 import temtem from "database/temtem.json";
+import { TemtemEntity } from "repository/temtem/model/temtem.entity";
 import { TemtemRepository } from "repository/temtem/temtem.repository";
-import { TemtemEntity } from "./model/temtem.entity";
 
 export class TemtemJsonRepository implements TemtemRepository {
   findById(id: string): TemtemEntity {

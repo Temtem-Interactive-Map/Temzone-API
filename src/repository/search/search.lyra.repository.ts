@@ -1,4 +1,4 @@
-import { Lyra, insert, insertBatch, remove, search } from "@lyrasearch/lyra";
+import { Lyra, getByID, insert, remove, search } from "@lyrasearch/lyra";
 import { Page } from "model/page";
 import { SearchSchema } from "repository/database/lyra.database";
 import { SearchEntity } from "repository/search/model/search.entity";
@@ -11,12 +11,13 @@ export class SearchLyraRepository implements SearchRepository {
     this.db = db;
   }
 
-  async insertMany(markers: SearchEntity[]): Promise<void> {
-    await insertBatch(this.db, markers as SearchSchema[]);
-  }
-
   async update(marker: SearchEntity): Promise<void> {
-    await remove(this.db, marker.id);
+    const document = await getByID(this.db, marker.id);
+
+    if (document) {
+      await remove(this.db, marker.id);
+    }
+
     await insert(this.db, marker as SearchSchema);
   }
 
@@ -40,7 +41,10 @@ export class SearchLyraRepository implements SearchRepository {
     const items = result.hits.map((hit) => hit.document as SearchEntity);
     const next =
       offset + result.hits.length < result.count ? offset + limit : null;
-    const prev = offset > 0 ? offset - limit : null;
+    const prev =
+      offset > 0 && result.hits.length > 0 && offset - limit >= 0
+        ? offset - limit
+        : null;
 
     return { items, next, prev };
   }

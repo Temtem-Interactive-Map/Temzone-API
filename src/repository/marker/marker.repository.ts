@@ -11,6 +11,5 @@ export interface MarkerRepository {
   ): Promise<MarkerEntity>;
   updateSaipark(id: string, x: number, y: number): Promise<MarkerEntity>;
   findById(id: string): Promise<MarkerEntity>;
-  findByIds(ids: string[]): Promise<MarkerEntity[]>;
   findByTypes(types: string[]): Promise<MarkerEntity[]>;
 }

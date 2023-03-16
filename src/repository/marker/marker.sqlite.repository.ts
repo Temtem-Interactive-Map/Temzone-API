@@ -53,14 +53,6 @@ export class MarkerSqliteRepository implements MarkerRepository {
       .executeTakeFirstOrThrow();
   }
 
-  async findByIds(ids: string[]): Promise<MarkerEntity[]> {
-    return await this.db
-      .selectFrom("markers")
-      .selectAll()
-      .where("id", "in", ids)
-      .execute();
-  }
-
   async findByTypes(types: string[]): Promise<MarkerEntity[]> {
     return await this.db
       .selectFrom("markers")

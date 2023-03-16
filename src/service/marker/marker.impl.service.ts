@@ -8,9 +8,9 @@ import { TemtemRepository } from "repository/temtem/temtem.repository";
 import { InternalServerError } from "service/error/internal-server.error";
 import { NotFoundError } from "service/error/not-found.error";
 import { MarkerService } from "service/marker/marker.service";
-import { Marker } from "service/marker/model/marker";
+import { Coordinates, Marker } from "service/marker/model/marker";
+import { SaiparkMarker } from "service/marker/model/saipark.marker";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
-import { SaiparkMarker } from "./model/saipark.marker";
 
 export class MarkerImplService implements MarkerService {
   private readonly markerRepository: MarkerRepository;
@@ -48,16 +48,6 @@ export class MarkerImplService implements MarkerService {
       })
     );
 
-    await this.searchRepository.insertMany(
-      newMarkers.map((marker) => {
-        return {
-          id: marker.id,
-          title: marker.title,
-          subtitle: marker.subtitle,
-        };
-      })
-    );
-
     return newMarkers.map((marker) => {
       return {
         id: marker.id,
@@ -79,8 +69,8 @@ export class MarkerImplService implements MarkerService {
         id,
         spawn.subtitle as string,
         spawn.condition,
-        spawn.coordinates?.x as number,
-        spawn.coordinates?.y as number
+        (spawn.coordinates as Coordinates).x as number,
+        (spawn.coordinates as Coordinates).y as number
       );
 
       await this.searchRepository.update({
@@ -99,11 +89,17 @@ export class MarkerImplService implements MarkerService {
 
   async updateSaiparkMarker(id: string, saipark: SaiparkMarker): Promise<void> {
     try {
-      await this.markerRepository.updateSaipark(
+      const marker = await this.markerRepository.updateSaipark(
         id,
-        saipark.coordinates?.x as number,
-        saipark.coordinates?.y as number
+        (saipark.coordinates as Coordinates).x as number,
+        (saipark.coordinates as Coordinates).y as number
       );
+
+      await this.searchRepository.update({
+        id: marker.id,
+        title: marker.title,
+        subtitle: marker.subtitle,
+      });
     } catch (error) {
       if (error instanceof NoResultError) {
         throw new NotFoundError("saipark");
@@ -170,23 +166,24 @@ export class MarkerImplService implements MarkerService {
       offset
     );
 
-    const markers = await this.markerRepository.findByIds(
-      items.map((item) => item.id)
-    );
+    const markers = [];
+    for (const item of items) {
+      const marker = await this.markerRepository.findById(item.id);
+
+      markers.push({
+        id: marker.id,
+        type: marker.type,
+        title: marker.title,
+        subtitle: marker.subtitle,
+        coordinates:
+          marker.x !== null && marker.y !== null
+            ? { x: marker.x, y: marker.y }
+            : null,
+      });
+    }
 
     return {
-      items: markers.map((marker) => {
-        return {
-          id: marker.id,
-          type: marker.type,
-          title: marker.title,
-          subtitle: marker.subtitle,
-          coordinates:
-            marker.x !== null && marker.y !== null
-              ? { x: marker.x, y: marker.y }
-              : null,
-        };
-      }),
+      items: markers,
       next,
       prev,
     };
