@@ -30,7 +30,7 @@ jobs:
       FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
       FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
       TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
-    name: Deploying to production
+    name: Deploying
     steps:
       - name: Checkout
         uses: actions/checkout@v3
