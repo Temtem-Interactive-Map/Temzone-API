@@ -3,7 +3,7 @@ import { logInfo, logSuccess } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export class SaiparkDB {
-  static async scrape(_) {
+  static async scrape() {
     logInfo("Scraping [saipark]...");
     this.saipark = {};
 
