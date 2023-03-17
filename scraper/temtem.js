@@ -105,22 +105,22 @@ class Temtem {
   }
 
   async scrape($, subtype) {
-    this.id = this.#id($);
-    this.name = this.#name($, subtype);
-    this.description = this.#description($);
-    this.types = this.#types($, subtype);
-    this.images = await this.#images($, subtype, this.name);
-    this.traits = this.#traits($);
-    this.gender = this.#gender($);
-    this.catchRate = this.#catchRate($);
-    this.height = this.#height($);
-    this.weight = this.#weight($);
-    this.stats = this.#stats($);
-    this.tvs = this.#tvs($);
-    this.evolutions = this.#evolutions($, this.id);
+    this.id = this.id($);
+    this.name = this.name($, subtype);
+    this.description = this.description($);
+    this.types = this.types($, subtype);
+    this.images = await this.images($, subtype, this.name);
+    this.traits = this.traits($);
+    this.gender = this.gender($);
+    this.catchRate = this.catchRate($);
+    this.height = this.height($);
+    this.weight = this.weight($);
+    this.stats = this.stats($);
+    this.tvs = this.tvs($);
+    this.evolutions = this.evolutions($, this.id);
   }
 
-  #id($) {
+  id($) {
     const rawId = $(
       "div.infobox > table > tbody > tr:contains('No.') > td"
     ).text();
@@ -132,7 +132,7 @@ class Temtem {
     return id;
   }
 
-  #name($, subtype) {
+  name($, subtype) {
     const rawName = $(
       "div.infobox > table > tbody > tr:nth-child(1) > th"
     ).text();
@@ -142,14 +142,14 @@ class Temtem {
     return name;
   }
 
-  #description($) {
+  description($) {
     const rawDescription = $("#Tempedia").parent().next().text();
     const description = cleanText(rawDescription);
 
     return description;
   }
 
-  #types($, subtype) {
+  types($, subtype) {
     const typeNames = $(
       "div.infobox > table > tbody > tr:contains('Type') > td > a"
     )
@@ -178,7 +178,7 @@ class Temtem {
     return types;
   }
 
-  async #images($, subtype, name) {
+  async images($, subtype, name) {
     const pngFileName = generateFileName(name) + ".png";
     const gifFileName = generateFileName(name) + ".gif";
 
@@ -232,7 +232,7 @@ class Temtem {
     };
   }
 
-  #traits($) {
+  traits($) {
     const traits = $(
       "div.infobox > table > tbody > tr:contains('Traits') > td > a"
     )
@@ -252,7 +252,7 @@ class Temtem {
     return traits;
   }
 
-  #gender($) {
+  gender($) {
     const rawGender = $(
       "div.infobox > table > tbody > tr:contains('Gender Ratio') > td"
     ).text();
@@ -276,7 +276,7 @@ class Temtem {
     }
   }
 
-  #catchRate($) {
+  catchRate($) {
     const rawCatchRate = $(
       "div.infobox > table > tbody > tr:contains('Catch Rate') > td"
     ).text();
@@ -286,7 +286,7 @@ class Temtem {
     return catchRate;
   }
 
-  #height($) {
+  height($) {
     const rawHeight = $(
       "table.infobox-half-row:contains('Height') > tbody > tr:nth-child(2) > td"
     ).text();
@@ -304,7 +304,7 @@ class Temtem {
     };
   }
 
-  #weight($) {
+  weight($) {
     const rawWeight = $(
       "table.infobox-half-row:contains('Weight') > tbody > tr:nth-child(2) > td"
     ).text();
@@ -322,7 +322,7 @@ class Temtem {
     };
   }
 
-  #stats($) {
+  stats($) {
     const statsSelectors = {
       hp: "table.statbox > tbody > tr:nth-child(3) > th > div:nth-child(2)",
       sta: "table.statbox > tbody > tr:nth-child(4) > th > div:nth-child(2)",
@@ -346,7 +346,7 @@ class Temtem {
     return stats;
   }
 
-  #tvs($) {
+  tvs($) {
     const tvSelectors = {
       hp: "table.tv-table > tbody > tr > td:nth-child(1)",
       sta: "table.tv-table > tbody > tr > td:nth-child(2)",
@@ -369,7 +369,7 @@ class Temtem {
     return tvs;
   }
 
-  #evolutions($, id) {
+  evolutions($, id) {
     const conditions = $("div.evobox-container > table.evobox.selected")
       .next()
       .toArray()
