@@ -95,12 +95,12 @@ export class SpawnsDB {
 
 class Spawn {
   async scrape($) {
-    this.name = this.#name($);
-    this.rate = this.#rate($);
-    this.level = this.#level($);
+    this.name = this.name($);
+    this.rate = this.rate($);
+    this.level = this.level($);
   }
 
-  #name($) {
+  name($) {
     const rawName = $.find("tbody > tr:nth-child(1) > td > a > span").text();
     const cleanName = cleanText(rawName);
     const name =
@@ -113,7 +113,7 @@ class Spawn {
     return name;
   }
 
-  #rate($) {
+  rate($) {
     const rawRate = $.find("tbody > tr:nth-child(4) > td").text();
     const cleanRate = cleanText(rawRate);
     const rate = cleanRate.split("/").map((rawRate) => {
@@ -127,7 +127,7 @@ class Spawn {
     return rate;
   }
 
-  #level($) {
+  level($) {
     const rawLevels = $.find("tbody > tr:nth-child(5) > td").text();
     const cleanLevels = cleanText(rawLevels);
 
