@@ -1,4 +1,4 @@
-import { generateId } from "./utils/database/index.js";
+import { generateId, lastModifiedDateDBFile } from "./utils/database/index.js";
 import { logInfo, logSuccess } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
@@ -37,28 +37,43 @@ export class SaiparkDB {
 
     logSuccess("[saipark] scraped successfully");
 
+    logInfo("Checking if [saipark] is updated...");
+    const currentDate = new Date();
+    const lastModifiedDate = lastModifiedDateDBFile("saipark");
+    const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
+    const date = cleanText(rawDate);
+    const dates = date.split("-").map((date) => date.trim());
+    const startDate = new Date(dates[0] + dates[1].substring(2));
+    const endDate = new Date(dates[1]);
+
+    if (lastModifiedDate < startDate && currentDate < endDate) {
+      logInfo("Notifying [saipark] update...");
+
+      logSuccess("[saipark] notification sent successfully");
+    }
+
     return this.saipark;
   }
 }
 
 class Saipark {
   async scrape($) {
-    this.area = this.#area($);
-    this.name = this.#name($);
-    this.rate = this.#rate($);
-    this.lumaRate = this.#lumaRate($);
-    this.minSVs = this.#minSVs($);
-    this.eggMoves = this.#eggMoves($);
+    this.area = this.area($);
+    this.name = this.name($);
+    this.rate = this.rate($);
+    this.lumaRate = this.lumaRate($);
+    this.minSVs = this.minSVs($);
+    this.eggMoves = this.eggMoves($);
   }
 
-  #area($) {
+  area($) {
     const rawArea = $.find("tbody > tr:nth-child(1) > td > div > p").text();
     const area = cleanText(rawArea);
 
     return area;
   }
 
-  #name($) {
+  name($) {
     const rawName = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > p"
     ).text();
@@ -71,7 +86,7 @@ class Saipark {
       : name;
   }
 
-  #rate($) {
+  rate($) {
     const rawRate = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(3)"
     ).text();
@@ -82,7 +97,7 @@ class Saipark {
     return rate;
   }
 
-  #lumaRate($) {
+  lumaRate($) {
     const rawLumaRate = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(3)"
     ).text();
@@ -93,7 +108,7 @@ class Saipark {
     return lumaRate;
   }
 
-  #minSVs($) {
+  minSVs($) {
     const rawMinSVs = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(3)"
     ).text();
@@ -103,7 +118,7 @@ class Saipark {
     return minSVs;
   }
 
-  #eggMoves($) {
+  eggMoves($) {
     const rawEggMoves = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(3)"
     ).text();
