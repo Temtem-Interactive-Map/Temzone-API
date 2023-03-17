@@ -8,31 +8,33 @@ export class SaiparkDB {
     this.saipark = {};
 
     const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
-    const saiparkTemtemA = new Saipark();
-    await saiparkTemtemA.scrape($("table:nth-child(12)"));
-    const saiparkTemtemB = new Saipark();
-    await saiparkTemtemB.scrape($("table:nth-child(13)"));
+    const saiparkArea1 = new Saipark();
+    await saiparkArea1.scrape($("table:nth-child(12)"));
+    const saiparkArea2 = new Saipark();
+    await saiparkArea2.scrape($("table:nth-child(13)"));
     const id = generateId("Saipark");
 
     this.saipark[id] = {
       title: "Saipark",
       subtitle: "West from Praise Coast",
-      temtemA: {
-        area: saiparkTemtemA.area,
-        rate: saiparkTemtemA.rate,
-        lumaRate: saiparkTemtemA.lumaRate,
-        minSVs: saiparkTemtemA.minSVs,
-        eggMoves: saiparkTemtemA.eggMoves,
-        temtemId: generateId(saiparkTemtemA.name),
-      },
-      temtemB: {
-        area: saiparkTemtemB.area,
-        rate: saiparkTemtemB.rate,
-        lumaRate: saiparkTemtemB.lumaRate,
-        minSVs: saiparkTemtemB.minSVs,
-        eggMoves: saiparkTemtemB.eggMoves,
-        temtemId: generateId(saiparkTemtemB.name),
-      },
+      areas: [
+        {
+          area: saiparkArea1.area,
+          rate: saiparkArea1.rate,
+          lumaRate: saiparkArea1.lumaRate,
+          minSVs: saiparkArea1.minSVs,
+          eggMoves: saiparkArea1.eggMoves,
+          temtemId: generateId(saiparkArea1.name),
+        },
+        {
+          area: saiparkArea2.area,
+          rate: saiparkArea2.rate,
+          lumaRate: saiparkArea2.lumaRate,
+          minSVs: saiparkArea2.minSVs,
+          eggMoves: saiparkArea2.eggMoves,
+          temtemId: generateId(saiparkArea2.name),
+        },
+      ],
     };
 
     logSuccess("[saipark] scraped successfully");
