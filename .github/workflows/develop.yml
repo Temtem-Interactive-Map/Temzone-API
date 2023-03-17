@@ -1,7 +1,7 @@
 name: CI/CD
 on:
   push:
-    branches: [main]
+    branches: [develop]
 jobs:
   test:
     runs-on: ubuntu-22.04
@@ -21,7 +21,7 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-22.04
-    environment: production
+    environment: development
     env:
       NO_D1_WARNING: true
       API_CREDENTIALS: "API Token"
@@ -30,7 +30,7 @@ jobs:
       FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
       FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
       TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
-    name: Deploying to production
+    name: Deploying to development
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -44,10 +44,10 @@ jobs:
       - name: Install wrangler
         run: npm i -g wrangler
       - name: Migrate database
-        run: echo y | wrangler d1 migrations apply temzone --env prod
+        run: echo y | wrangler d1 migrations apply temzone --env dev
       - name: Deploy Cloudflare Worker
         run: |
-          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
-          wrangler publish --env prod
+          echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
+          wrangler publish --env dev
       - name: Populate database
         run: npm run database:populate
