@@ -2,14 +2,10 @@ import command from "command-line-args";
 import { SaiparkDB } from "./saipark.js";
 import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
-import { TraitsDB } from "./traits.js";
-import { TypesDB } from "./types.js";
 import { writeDBFile } from "./utils/database/index.js";
 import { logError, logInfo, logSuccess } from "./utils/log/index.js";
 
 const SCRAPERS = {
-  types: TypesDB,
-  traits: TraitsDB,
   temtem: TemtemDB,
   spawns: SpawnsDB,
   saipark: SaiparkDB,
