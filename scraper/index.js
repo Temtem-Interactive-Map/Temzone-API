@@ -4,7 +4,7 @@ import { SpawnsDB } from "./spawns.js";
 import { TemtemDB } from "./temtem.js";
 import { TraitsDB } from "./traits.js";
 import { TypesDB } from "./types.js";
-import { readDBFile, writeDBFile } from "./utils/database/index.js";
+import { writeDBFile } from "./utils/database/index.js";
 import { logError, logInfo, logSuccess } from "./utils/log/index.js";
 
 const SCRAPERS = {
@@ -49,36 +49,12 @@ try {
     for (const name of Object.keys(SCRAPERS)) {
       await scrapeAndSave(name, assets);
     }
-
-    const markers = [];
-    const spawns = await readDBFile("spawns");
-    const saipark = await readDBFile("saipark");
-
-    Object.entries(spawns).forEach(([id, spawn]) => {
-      markers.push({
-        id,
-        type: "spawn",
-        title: spawn.title,
-        subtitle: spawn.subtitle,
-      });
-    });
-
-    Object.entries(saipark).forEach(([id, saipark]) => {
-      markers.push({
-        id,
-        type: "saipark",
-        title: saipark.title,
-        subtitle: saipark.subtitle,
-      });
-    });
-
-    logInfo("Writing markers to database...");
-    await writeDBFile("markers", markers);
-    logSuccess("Markers written successfully");
   }
 } catch (error) {
   logError("Error scraping [" + name + "]");
   logError(error);
+
+  throw error;
 } finally {
   const end = performance.now();
   const seconds = Math.round((end - start) / 10) / 100;
