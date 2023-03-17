@@ -1,5 +1,5 @@
 import { generateId, lastModifiedDateDBFile } from "./utils/database/index.js";
-import { logInfo, logSuccess } from "./utils/log/index.js";
+import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export class SaiparkDB {
@@ -8,9 +8,9 @@ export class SaiparkDB {
     this.saipark = {};
 
     const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
-    const saiparkArea1 = new Saipark();
+    const saiparkArea1 = new SaiparkArea();
     await saiparkArea1.scrape($("table:nth-child(12)"));
-    const saiparkArea2 = new Saipark();
+    const saiparkArea2 = new SaiparkArea();
     await saiparkArea2.scrape($("table:nth-child(13)"));
     const id = generateId("Saipark");
 
@@ -49,7 +49,7 @@ export class SaiparkDB {
     const endDate = new Date(dates[1]);
 
     if (lastModifiedDate < startDate && currentDate < endDate) {
-      logInfo("Notifying [saipark] update...");
+      logWarning("Notifying [saipark] update...");
 
       logSuccess("[saipark] notification sent successfully");
     }
@@ -58,7 +58,7 @@ export class SaiparkDB {
   }
 }
 
-class Saipark {
+class SaiparkArea {
   async scrape($) {
     this.area = this.area($);
     this.name = this.name($);
