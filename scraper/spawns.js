@@ -103,7 +103,12 @@ class Spawn {
   #name($) {
     const rawName = $.find("tbody > tr:nth-child(1) > td > a > span").text();
     const cleanName = cleanText(rawName);
-    const name = cleanName === "Chromeon" ? "Chromeon (Digital)" : cleanName;
+    const name =
+      cleanName === "Chromeon"
+        ? "Chromeon (Digital)"
+        : cleanName === "Koish"
+        ? "Koish (Water)"
+        : cleanName;
 
     return name;
   }
