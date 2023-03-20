@@ -2,63 +2,60 @@ import { generateId, lastModifiedDateDBFile } from "./utils/database/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
-export class SaiparkDB {
-  static async scrape() {
-    logInfo("Scraping [saipark]...");
-    this.saipark = {};
+export async function scrapeSaipark() {
+  logInfo("Scraping [saipark]...");
+  const saipark = {};
 
-    const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
-    const saiparkArea1 = new SaiparkArea();
-    await saiparkArea1.scrape($("table:nth-child(12)"));
-    const saiparkArea2 = new SaiparkArea();
-    await saiparkArea2.scrape($("table:nth-child(13)"));
-    const id = generateId("Saipark");
+  const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
+  const saipark1 = new Saipark();
+  await saipark1.scrape($("table:nth-child(12)"));
+  const saipark2 = new Saipark();
+  await saipark2.scrape($("table:nth-child(13)"));
+  const id = generateId("Saipark");
 
-    this.saipark[id] = {
-      title: "Saipark",
-      subtitle: "West from Praise Coast",
-      areas: [
-        {
-          area: saiparkArea1.area,
-          rate: saiparkArea1.rate,
-          lumaRate: saiparkArea1.lumaRate,
-          minSVs: saiparkArea1.minSVs,
-          eggMoves: saiparkArea1.eggMoves,
-          temtemId: generateId(saiparkArea1.name),
-        },
-        {
-          area: saiparkArea2.area,
-          rate: saiparkArea2.rate,
-          lumaRate: saiparkArea2.lumaRate,
-          minSVs: saiparkArea2.minSVs,
-          eggMoves: saiparkArea2.eggMoves,
-          temtemId: generateId(saiparkArea2.name),
-        },
-      ],
-    };
+  saipark[id] = {
+    title: "Saipark",
+    subtitle: "West from Praise Coast",
+    areas: [
+      {
+        area: saipark1.area,
+        rate: saipark1.rate,
+        lumaRate: saipark1.lumaRate,
+        minSVs: saipark1.minSVs,
+        eggMoves: saipark1.eggMoves,
+        temtemId: generateId(saipark1.name),
+      },
+      {
+        area: saipark2.area,
+        rate: saipark2.rate,
+        lumaRate: saipark2.lumaRate,
+        minSVs: saipark2.minSVs,
+        eggMoves: saipark2.eggMoves,
+        temtemId: generateId(saipark2.name),
+      },
+    ],
+  };
 
-    logSuccess("[saipark] scraped successfully");
+  logSuccess("[saipark] scraped successfully");
 
-    logInfo("Checking if [saipark] is updated...");
-    const currentDate = new Date();
-    const lastModifiedDate = lastModifiedDateDBFile("saipark");
-    const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
-    const date = cleanText(rawDate);
-    const dates = date.split("-").map((date) => date.trim());
-    const startDate = new Date(dates[0] + dates[1].substring(2));
-    const endDate = new Date(dates[1]);
+  const currentDate = new Date();
+  const lastModifiedDate = lastModifiedDateDBFile("saipark");
+  const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
+  const date = cleanText(rawDate);
+  const dates = date.split("-").map((date) => date.trim());
+  const startDate = new Date(dates[0] + dates[1].substring(2));
+  const endDate = new Date(dates[1]);
 
-    if (lastModifiedDate < startDate && currentDate < endDate) {
-      logWarning("Notifying [saipark] update...");
+  if (lastModifiedDate < startDate && currentDate < endDate) {
+    logWarning("[saipark] is outdated, notifying update...");
 
-      logSuccess("[saipark] notification sent successfully");
-    }
-
-    return this.saipark;
+    logSuccess("[saipark] notification sent successfully");
   }
+
+  return saipark;
 }
 
-class SaiparkArea {
+class Saipark {
   async scrape($) {
     this.area = this.area($);
     this.name = this.name($);
