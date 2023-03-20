@@ -36,8 +36,6 @@ export async function scrapeSaipark() {
     ],
   };
 
-  logSuccess("[saipark] scraped successfully");
-
   const currentDate = new Date();
   const lastModifiedDate = lastModifiedDateDBFile("saipark");
   const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
@@ -51,6 +49,8 @@ export async function scrapeSaipark() {
 
     logSuccess("[saipark] notification sent successfully");
   }
+
+  logSuccess("[saipark] scraped successfully");
 
   return saipark;
 }
