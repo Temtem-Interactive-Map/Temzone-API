@@ -17,7 +17,7 @@ export function generateId(...args) {
   return uuid(id, uuid.URL);
 }
 
-export function lastModifiedDateDBFile(fileName) {
+export function lastModifiedDBFile(fileName) {
   const path = join(process.cwd(), "database", fileName + ".json");
   const stats = statSync(path);
 
@@ -36,12 +36,18 @@ export async function writeDBFile(fileName, newData) {
 export async function readDBFile(fileName) {
   const path = join(process.cwd(), "database", fileName + ".json");
 
-  await readFile(path).then((data) => JSON.parse(data));
+  return await readFile(path).then((data) => JSON.parse(data));
 }
 
-export async function removeDBContent(directory) {
+export async function readDBContent(directory) {
   const path = join(process.cwd(), "assets", "static", directory);
   const files = await readdir(path);
+
+  return files;
+}
+
+export async function removeDBContent(directory, files) {
+  const path = join(process.cwd(), "assets", "static", directory);
 
   await Promise.all(files.map((file) => unlink(join(path, file))));
 }
