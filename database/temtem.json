@@ -16,7 +16,7 @@
     "traits": [
       {
         "name": "Striking Transmog",
-        "description": "When attacking an individual Temtem with a physical technique, Mimit transforms into the target."
+        "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target."
       },
       {
         "name": "Landing Transmog",
@@ -145,7 +145,7 @@
       },
       {
         "name": "Voltaic Charge",
-        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+        "description": "The caster heals 15% of the damage it has done with any offensive technique."
       }
     ],
     "details": {
@@ -166,12 +166,12 @@
     "stats": {
       "hp": 72,
       "sta": 90,
-      "spd": 51,
+      "spd": 63,
       "atk": 84,
       "def": 50,
       "spatk": 42,
       "spdef": 44,
-      "total": 433
+      "total": 445
     },
     "tvs": {
       "hp": 0,
@@ -1033,7 +1033,7 @@
     "traits": [
       {
         "name": "Splitter",
-        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+        "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns."
       },
       {
         "name": "Sentinel",
@@ -1056,14 +1056,14 @@
       }
     },
     "stats": {
-      "hp": 79,
-      "sta": 47,
+      "hp": 82,
+      "sta": 55,
       "spd": 51,
       "atk": 84,
       "def": 64,
       "spatk": 52,
-      "spdef": 58,
-      "total": 435
+      "spdef": 66,
+      "total": 454
     },
     "tvs": {
       "hp": 0,
@@ -1266,12 +1266,12 @@
     "stats": {
       "hp": 73,
       "sta": 49,
-      "spd": 78,
+      "spd": 82,
       "atk": 56,
       "def": 39,
       "spatk": 93,
       "spdef": 70,
-      "total": 458
+      "total": 462
     },
     "tvs": {
       "hp": 0,
@@ -1305,7 +1305,7 @@
       },
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       }
     ],
     "details": {
@@ -1347,7 +1347,7 @@
         "condition": "+8 Levels",
         "traits": [
           "Botanist",
-          "Toxic Farewell"
+          "Backhanded"
         ]
       }
     ]
@@ -1376,8 +1376,8 @@
         "description": "Damage done with Nature techniques is increased by 15%."
       },
       {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "name": "Backhanded",
+        "description": "When attacking with a status technique, gets invigorated for 2 turns."
       }
     ],
     "details": {
@@ -1397,13 +1397,13 @@
     },
     "stats": {
       "hp": 55,
-      "sta": 80,
-      "spd": 80,
+      "sta": 74,
+      "spd": 77,
       "atk": 60,
       "def": 50,
       "spatk": 70,
-      "spdef": 90,
-      "total": 485
+      "spdef": 81,
+      "total": 467
     },
     "tvs": {
       "hp": 0,
@@ -1433,7 +1433,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Resilient",
@@ -1653,13 +1653,13 @@
     },
     "stats": {
       "hp": 90,
-      "sta": 53,
+      "sta": 58,
       "spd": 40,
       "atk": 75,
       "def": 62,
       "spatk": 75,
       "spdef": 62,
-      "total": 457
+      "total": 462
     },
     "tvs": {
       "hp": 3,
@@ -1693,7 +1693,7 @@
       },
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       }
     ],
     "details": {
@@ -1829,7 +1829,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -1889,7 +1889,7 @@
       },
       {
         "name": "Dreaded Alarm",
-        "description": "When a rival rests, they lose 25% of max HP."
+        "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP."
       }
     ],
     "details": {
@@ -1961,7 +1961,7 @@
       },
       {
         "name": "Infectious",
-        "description": "Invalidates the regenerating effect on rivals."
+        "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield."
       }
     ],
     "details": {
@@ -1981,13 +1981,13 @@
     },
     "stats": {
       "hp": 65,
-      "sta": 42,
+      "sta": 57,
       "spd": 110,
       "atk": 51,
       "def": 53,
       "spatk": 62,
       "spdef": 64,
-      "total": 447
+      "total": 462
     },
     "tvs": {
       "hp": 0,
@@ -2489,7 +2489,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -2509,13 +2509,13 @@
     },
     "stats": {
       "hp": 72,
-      "sta": 62,
+      "sta": 67,
       "spd": 75,
       "atk": 66,
       "def": 70,
       "spatk": 45,
       "spdef": 60,
-      "total": 450
+      "total": 455
     },
     "tvs": {
       "hp": 1,
@@ -2637,13 +2637,13 @@
     },
     "stats": {
       "hp": 79,
-      "sta": 67,
+      "sta": 65,
       "spd": 72,
-      "atk": 65,
+      "atk": 73,
       "def": 74,
       "spatk": 72,
       "spdef": 41,
-      "total": 470
+      "total": 476
     },
     "tvs": {
       "hp": 1,
@@ -2741,7 +2741,7 @@
       },
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       }
     ],
     "details": {
@@ -2877,7 +2877,7 @@
     "traits": [
       {
         "name": "Deceit Aura",
-        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. And while HP is full, when entering the battlefield, loses 50%."
+        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP."
       },
       {
         "name": "Water Custodian",
@@ -2986,7 +2986,7 @@
       {
         "condition": "+22 Levels",
         "traits": [
-          "Toxic Farewell",
+          "Tri-Phytologist",
           "Tri-Apothecary"
         ]
       }
@@ -3012,8 +3012,8 @@
     },
     "traits": [
       {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "name": "Tri-Phytologist",
+        "description": "When attacking with a physical technique, the target gets exhausted for 1 turn if it's a rival or invigorated for 2 turns if it's an ally or itself."
       },
       {
         "name": "Tri-Apothecary",
@@ -3038,12 +3038,12 @@
     "stats": {
       "hp": 77,
       "sta": 52,
-      "spd": 61,
-      "atk": 88,
-      "def": 80,
+      "spd": 66,
+      "atk": 84,
+      "def": 77,
       "spatk": 36,
       "spdef": 51,
-      "total": 445
+      "total": 443
     },
     "tvs": {
       "hp": 0,
@@ -3164,14 +3164,14 @@
       }
     },
     "stats": {
-      "hp": 55,
-      "sta": 55,
+      "hp": 65,
+      "sta": 61,
       "spd": 88,
-      "atk": 71,
+      "atk": 76,
       "def": 68,
       "spatk": 45,
-      "spdef": 47,
-      "total": 429
+      "spdef": 49,
+      "total": 452
     },
     "tvs": {
       "hp": 0,
@@ -3341,7 +3341,7 @@
       },
       {
         "name": "Wrecked Farewell",
-        "description": "When self knocked-out, rivals lose 25% of max HP."
+        "description": "The rival loses 10% of its max STA and gets ATK and SPATK when it knocks the holder out. In case the holder is self knocked-out, both rivals receive the effects of Wrech Farewell."
       }
     ],
     "details": {
@@ -3361,13 +3361,13 @@
     },
     "stats": {
       "hp": 71,
-      "sta": 45,
+      "sta": 46,
       "spd": 60,
       "atk": 72,
       "def": 87,
       "spatk": 70,
       "spdef": 73,
-      "total": 478
+      "total": 479
     },
     "tvs": {
       "hp": 2,
@@ -3801,7 +3801,7 @@
       },
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       }
     ],
     "details": {
@@ -3895,11 +3895,11 @@
       "hp": 82,
       "sta": 68,
       "spd": 40,
-      "atk": 66,
-      "def": 62,
+      "atk": 71,
+      "def": 68,
       "spatk": 40,
       "spdef": 70,
-      "total": 428
+      "total": 439
     },
     "tvs": {
       "hp": 2,
@@ -3936,8 +3936,8 @@
         "description": "Restores 17% of max HP if another Temtem is knocked-out."
       },
       {
-        "name": "Determined",
-        "description": "Prevents negative stat stage changes."
+        "name": "Jack of all Trades",
+        "description": "When attacking with a physical technique, gets SPATK, and when attacking with a special technique, gets ATK."
       }
     ],
     "details": {
@@ -3960,10 +3960,10 @@
       "sta": 57,
       "spd": 90,
       "atk": 74,
-      "def": 56,
+      "def": 62,
       "spatk": 74,
-      "spdef": 56,
-      "total": 465
+      "spdef": 62,
+      "total": 477
     },
     "tvs": {
       "hp": 0,
@@ -4101,12 +4101,12 @@
     "stats": {
       "hp": 57,
       "sta": 51,
-      "spd": 78,
+      "spd": 80,
       "atk": 75,
       "def": 79,
       "spatk": 60,
       "spdef": 40,
-      "total": 440
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -4163,14 +4163,14 @@
       }
     },
     "stats": {
-      "hp": 50,
+      "hp": 57,
       "sta": 51,
       "spd": 80,
       "atk": 60,
       "def": 40,
       "spatk": 75,
       "spdef": 79,
-      "total": 435
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -4227,14 +4227,14 @@
       }
     },
     "stats": {
-      "hp": 79,
+      "hp": 74,
       "sta": 44,
       "spd": 100,
-      "atk": 77,
+      "atk": 81,
       "def": 61,
       "spatk": 23,
       "spdef": 61,
-      "total": 445
+      "total": 444
     },
     "tvs": {
       "hp": 0,
@@ -4340,7 +4340,7 @@
       },
       {
         "name": "Rejuvenate",
-        "description": "After attacking with a special technique, restores 8% of max HP."
+        "description": "After attacking with a special technique, restores 10% of max HP."
       }
     ],
     "details": {
@@ -4555,14 +4555,14 @@
       }
     },
     "stats": {
-      "hp": 77,
-      "sta": 49,
+      "hp": 79,
+      "sta": 55,
       "spd": 67,
       "atk": 77,
       "def": 77,
       "spatk": 51,
-      "spdef": 50,
-      "total": 448
+      "spdef": 54,
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -4818,11 +4818,11 @@
       "hp": 89,
       "sta": 52,
       "spd": 44,
-      "atk": 57,
+      "atk": 60,
       "def": 65,
       "spatk": 62,
       "spdef": 77,
-      "total": 446
+      "total": 449
     },
     "tvs": {
       "hp": 3,
@@ -4952,13 +4952,13 @@
     },
     "stats": {
       "hp": 54,
-      "sta": 43,
+      "sta": 48,
       "spd": 84,
       "atk": 51,
       "def": 61,
       "spatk": 80,
       "spdef": 64,
-      "total": 437
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -5156,13 +5156,13 @@
     },
     "stats": {
       "hp": 71,
-      "sta": 48,
+      "sta": 54,
       "spd": 68,
-      "atk": 95,
+      "atk": 92,
       "def": 85,
       "spatk": 31,
-      "spdef": 46,
-      "total": 444
+      "spdef": 51,
+      "total": 452
     },
     "tvs": {
       "hp": 0,
@@ -5220,13 +5220,13 @@
     },
     "stats": {
       "hp": 92,
-      "sta": 42,
+      "sta": 46,
       "spd": 70,
       "atk": 80,
-      "def": 55,
+      "def": 60,
       "spatk": 70,
-      "spdef": 50,
-      "total": 459
+      "spdef": 67,
+      "total": 485
     },
     "tvs": {
       "hp": 3,
@@ -5556,13 +5556,13 @@
     },
     "stats": {
       "hp": 74,
-      "sta": 52,
+      "sta": 55,
       "spd": 52,
       "atk": 45,
       "def": 76,
       "spatk": 89,
       "spdef": 60,
-      "total": 448
+      "total": 451
     },
     "tvs": {
       "hp": 0,
@@ -5752,9 +5752,9 @@
       "spd": 80,
       "atk": 51,
       "def": 68,
-      "spatk": 64,
+      "spatk": 70,
       "spdef": 72,
-      "total": 450
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -5788,7 +5788,7 @@
     "traits": [
       {
         "name": "Neurotoxins",
-        "description": "Instead of applying poison, the target gets doomed for 4 turns instead."
+        "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead."
       },
       {
         "name": "Water Synthesizer",
@@ -5848,7 +5848,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Mirroring",
@@ -5916,11 +5916,11 @@
     "traits": [
       {
         "name": "Dreaded Alarm",
-        "description": "When a rival rests, they lose 25% of max HP."
+        "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP."
       },
       {
         "name": "Rejuvenate",
-        "description": "After attacking with a special technique, restores 8% of max HP."
+        "description": "After attacking with a special technique, restores 10% of max HP."
       }
     ],
     "details": {
@@ -5943,10 +5943,10 @@
       "sta": 73,
       "spd": 85,
       "atk": 61,
-      "def": 40,
+      "def": 45,
       "spatk": 87,
-      "spdef": 51,
-      "total": 467
+      "spdef": 55,
+      "total": 476
     },
     "tvs": {
       "hp": 0,
@@ -6116,11 +6116,11 @@
     "traits": [
       {
         "name": "Defuser",
-        "description": "When attacking with a physical technique, the target gets seized for 3 turns."
+        "description": "When attacking with a physical technique, the target gets seized for 2 turns."
       },
       {
         "name": "Voltaic Charge",
-        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+        "description": "The caster heals 15% of the damage it has done with any offensive technique."
       }
     ],
     "details": {
@@ -6139,14 +6139,14 @@
       }
     },
     "stats": {
-      "hp": 76,
+      "hp": 71,
       "sta": 78,
       "spd": 82,
-      "atk": 84,
+      "atk": 80,
       "def": 49,
       "spatk": 40,
       "spdef": 48,
-      "total": 457
+      "total": 448
     },
     "tvs": {
       "hp": 0,
@@ -6271,14 +6271,14 @@
       }
     },
     "stats": {
-      "hp": 67,
+      "hp": 71,
       "sta": 45,
       "spd": 81,
-      "atk": 76,
+      "atk": 80,
       "def": 75,
       "spatk": 49,
-      "spdef": 43,
-      "total": 436
+      "spdef": 48,
+      "total": 449
     },
     "tvs": {
       "hp": 0,
@@ -6403,14 +6403,14 @@
       }
     },
     "stats": {
-      "hp": 76,
-      "sta": 62,
+      "hp": 80,
+      "sta": 68,
       "spd": 50,
       "atk": 91,
       "def": 65,
       "spatk": 62,
       "spdef": 52,
-      "total": 458
+      "total": 468
     },
     "tvs": {
       "hp": 0,
@@ -6700,7 +6700,7 @@
       },
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       }
     ],
     "details": {
@@ -6979,14 +6979,14 @@
       }
     },
     "stats": {
-      "hp": 86,
+      "hp": 81,
       "sta": 42,
       "spd": 63,
       "atk": 71,
-      "def": 100,
+      "def": 96,
       "spatk": 12,
       "spdef": 64,
-      "total": 438
+      "total": 429
     },
     "tvs": {
       "hp": 0,
@@ -7016,7 +7016,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Skull Helmet",
@@ -7107,14 +7107,14 @@
       }
     },
     "stats": {
-      "hp": 71,
+      "hp": 75,
       "sta": 51,
       "spd": 64,
       "atk": 89,
       "def": 79,
       "spatk": 42,
-      "spdef": 61,
-      "total": 457
+      "spdef": 64,
+      "total": 464
     },
     "tvs": {
       "hp": 0,
@@ -7144,11 +7144,11 @@
     "traits": [
       {
         "name": "Stabmaster",
-        "description": "Damage done with matching type techniques is increased by 40%."
+        "description": "Damage done with matching type techniques is increased by 35%."
       },
       {
         "name": "Snowstorm",
-        "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 3 turns if they aren't cold already."
+        "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already."
       }
     ],
     "details": {
@@ -7296,13 +7296,13 @@
     },
     "stats": {
       "hp": 81,
-      "sta": 45,
+      "sta": 54,
       "spd": 65,
       "atk": 81,
       "def": 74,
       "spatk": 52,
-      "spdef": 51,
-      "total": 449
+      "spdef": 57,
+      "total": 464
     },
     "tvs": {
       "hp": 2,
@@ -7400,7 +7400,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Settling",
@@ -7492,13 +7492,13 @@
     },
     "stats": {
       "hp": 91,
-      "sta": 52,
+      "sta": 56,
       "spd": 79,
       "atk": 60,
       "def": 88,
       "spatk": 43,
-      "spdef": 46,
-      "total": 459
+      "spdef": 50,
+      "total": 467
     },
     "tvs": {
       "hp": 2,
@@ -7660,7 +7660,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -7889,8 +7889,8 @@
       "atk": 51,
       "def": 55,
       "spatk": 68,
-      "spdef": 96,
-      "total": 446
+      "spdef": 92,
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -8016,13 +8016,13 @@
     },
     "stats": {
       "hp": 75,
-      "sta": 43,
+      "sta": 50,
       "spd": 50,
       "atk": 56,
       "def": 75,
       "spatk": 81,
       "spdef": 67,
-      "total": 447
+      "total": 454
     },
     "tvs": {
       "hp": 1,
@@ -8588,7 +8588,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Camouflage",
@@ -8799,14 +8799,14 @@
       }
     },
     "stats": {
-      "hp": 56,
+      "hp": 60,
       "sta": 74,
-      "spd": 69,
-      "atk": 79,
+      "spd": 72,
+      "atk": 75,
       "def": 71,
       "spatk": 54,
       "spdef": 65,
-      "total": 468
+      "total": 471
     },
     "tvs": {
       "hp": 0,
@@ -8912,11 +8912,11 @@
     "traits": [
       {
         "name": "Seppuku",
-        "description": "When attacking and being knocked-out due to overexertion, the target gets doomed for 2 turns."
+        "description": "When the holder faints due to recoil damage or Overexertion, it applies 4 turns of Doom to the rival Tems."
       },
       {
         "name": "Voodoo",
-        "description": "When attacking an ally, 75% of the damage is replicated to each rival."
+        "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too."
       }
     ],
     "details": {
@@ -8937,12 +8937,12 @@
     "stats": {
       "hp": 84,
       "sta": 51,
-      "spd": 61,
-      "atk": 79,
+      "spd": 65,
+      "atk": 75,
       "def": 67,
       "spatk": 51,
-      "spdef": 54,
-      "total": 447
+      "spdef": 57,
+      "total": 450
     },
     "tvs": {
       "hp": 2,
@@ -8972,7 +8972,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Hydrologist",
@@ -9362,14 +9362,14 @@
       }
     },
     "stats": {
-      "hp": 62,
+      "hp": 59,
       "sta": 54,
       "spd": 65,
       "atk": 62,
       "def": 69,
-      "spatk": 79,
+      "spatk": 75,
       "spdef": 49,
-      "total": 440
+      "total": 433
     },
     "tvs": {
       "hp": 0,
@@ -9427,13 +9427,13 @@
     },
     "stats": {
       "hp": 58,
-      "sta": 47,
+      "sta": 49,
       "spd": 70,
       "atk": 78,
       "def": 111,
       "spatk": 60,
-      "spdef": 47,
-      "total": 471
+      "spdef": 50,
+      "total": 476
     },
     "tvs": {
       "hp": 0,
@@ -9531,7 +9531,7 @@
     "traits": [
       {
         "name": "Splitter",
-        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+        "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns."
       },
       {
         "name": "Common Factor",
@@ -9927,7 +9927,7 @@
     "traits": [
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       },
       {
         "name": "Fainted Curse",
@@ -9953,11 +9953,11 @@
       "hp": 54,
       "sta": 72,
       "spd": 58,
-      "atk": 60,
-      "def": 72,
+      "atk": 65,
+      "def": 69,
       "spatk": 45,
-      "spdef": 72,
-      "total": 433
+      "spdef": 69,
+      "total": 432
     },
     "tvs": {
       "hp": 0,
@@ -10842,14 +10842,14 @@
       }
     },
     "stats": {
-      "hp": 50,
-      "sta": 70,
+      "hp": 56,
+      "sta": 74,
       "spd": 60,
       "atk": 39,
       "def": 55,
       "spatk": 76,
       "spdef": 85,
-      "total": 435
+      "total": 445
     },
     "tvs": {
       "hp": 0,
@@ -11019,7 +11019,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Body Stretch",
@@ -11359,7 +11359,7 @@
     "traits": [
       {
         "name": "Ruminant",
-        "description": "When attacking a Nature Temtem rival, gets regenerating for 2 turns."
+        "description": "When a Nature technique is used, the holder of this trait restores 15% of its max STA."
       },
       {
         "name": "Rusher",
@@ -11509,11 +11509,11 @@
       "hp": 55,
       "sta": 51,
       "spd": 54,
-      "atk": 81,
-      "def": 81,
-      "spatk": 81,
-      "spdef": 81,
-      "total": 484
+      "atk": 78,
+      "def": 78,
+      "spatk": 78,
+      "spdef": 78,
+      "total": 472
     },
     "tvs": {
       "hp": 0,
@@ -11649,14 +11649,14 @@
       }
     },
     "stats": {
-      "hp": 55,
+      "hp": 60,
       "sta": 63,
       "spd": 74,
       "atk": 48,
       "def": 48,
       "spatk": 78,
       "spdef": 78,
-      "total": 444
+      "total": 449
     },
     "tvs": {
       "hp": 0,
@@ -11714,13 +11714,13 @@
     },
     "stats": {
       "hp": 49,
-      "sta": 54,
+      "sta": 61,
       "spd": 84,
-      "atk": 62,
+      "atk": 65,
       "def": 78,
       "spatk": 37,
       "spdef": 84,
-      "total": 448
+      "total": 458
     },
     "tvs": {
       "hp": 0,
@@ -11863,7 +11863,7 @@
       {
         "condition": "+20 Levels",
         "traits": [
-          "Meditation",
+          "Meditation (Trait)",
           "Shaolin"
         ]
       }
@@ -11889,7 +11889,7 @@
     },
     "traits": [
       {
-        "name": "Meditation",
+        "name": "Meditation (Trait)",
         "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn."
       },
       {
@@ -12030,7 +12030,7 @@
       },
       {
         "name": "Protective Crystal",
-        "description": "When an ally is damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
+        "description": "When an ally is damaged by an offensive technique, damage is reduced by 10%. When allies are damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
       }
     ],
     "details": {
@@ -12090,11 +12090,11 @@
     "traits": [
       {
         "name": "Intimidator",
-        "description": "Traits from the rivals and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+        "description": "Traits from the rivals and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield."
       },
       {
         "name": "Frightening",
-        "description": "Gears from the rival and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+        "description": "Gears from the rival and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield."
       }
     ],
     "details": {
@@ -12113,14 +12113,14 @@
       }
     },
     "stats": {
-      "hp": 78,
+      "hp": 76,
       "sta": 48,
       "spd": 34,
       "atk": 81,
-      "def": 74,
+      "def": 71,
       "spatk": 57,
-      "spdef": 76,
-      "total": 448
+      "spdef": 72,
+      "total": 439
     },
     "tvs": {
       "hp": 1,

@@ -2019,8 +2019,8 @@
     "image": "static/areas/seaqueens_aquarium_area_1.png",
     "temtemId": "8fb4d600-881b-541b-9759-4cb962089695"
   },
-  "5f4d124d-85e2-56e9-a61f-bd4d3fa6759e": {
-    "title": "Koish",
+  "f599edef-2639-5fdb-bb6e-b0bf23e092a4": {
+    "title": "Koish (Water)",
     "subtitle": "Sea-Queen's Aquarium, Area 1",
     "rate": [
       10
@@ -2030,7 +2030,7 @@
       "max": 20
     },
     "image": "static/areas/seaqueens_aquarium_area_1.png",
-    "temtemId": "7815f275-23f5-5eee-8fb9-1d464d328b23"
+    "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
   },
   "a9f11aa5-1322-5e2b-b5ef-53ed6268f46c": {
     "title": "Platimous",
@@ -6699,8 +6699,8 @@
     "image": "static/areas/chieftains_barrow_area_1.png",
     "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
-  "3830b30c-b398-5a64-ac0b-31a718401c33": {
-    "title": "Koish",
+  "e647df2f-d16d-506b-a47c-0e626c332059": {
+    "title": "Koish (Water)",
     "subtitle": "Nuru Lodge, Area 1",
     "rate": [
       100
@@ -6710,6 +6710,6 @@
       "max": 50
     },
     "image": "static/areas/nuru_lodge_area_1.png",
-    "temtemId": "7815f275-23f5-5eee-8fb9-1d464d328b23"
+    "temtemId": "aa070924-ef6c-5053-be64-242a90593549"
   }
 }
