@@ -1,7 +1,8 @@
-import { join } from "node:path";
+import { join } from "path";
 import {
   generateFileName,
   generateId,
+  readDBContent,
   removeDBContent,
   writeDBImage,
 } from "./utils/database/index.js";
@@ -13,84 +14,82 @@ import {
   shortUrl,
 } from "./utils/scraper/index.js";
 
-export class SpawnsDB {
-  static async scrape(assets) {
-    if (assets) {
-      logWarning("Removing [areas] assets...");
-      await removeDBContent("areas");
-      logSuccess("[areas] assets removed successfully");
-    }
+const areaAssets = new Set();
+const areaAssetsDB = await readDBContent("areas");
 
-    logInfo("Scraping [spawns]...");
-    this.spawns = {};
+export async function scrapeSpawns() {
+  logInfo("Scraping [spawns]...");
+  const spawns = {};
+  const urls = new Set();
+  const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
 
-    const urls = new Set();
-    const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
+  for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
+    const temtemHref = $(el).attr("href");
+    const $temtem = await scrape("https://temtem.wiki.gg" + temtemHref);
 
-    for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
-      const temtemHref = $(el).attr("href");
-      const $temtem = await scrape("https://temtem.wiki.gg" + temtemHref);
+    for (const el of $temtem(
+      "table.locationTable > tbody > tr > td:nth-child(1):not(:last-child) > a"
+    )) {
+      const locationHref = $(el).attr("href");
+      const url = "https://temtem.wiki.gg" + locationHref;
 
-      for (const el of $temtem(
-        "table.locationTable > tbody > tr > td:nth-child(1):not(:last-child) > a"
-      )) {
-        const locationHref = $(el).attr("href");
-        const url = "https://temtem.wiki.gg" + locationHref;
+      if (urls.has(url)) continue;
+      urls.add(url);
 
-        if (urls.has(url)) continue;
-        urls.add(url);
+      const $area = await scrape(url);
+      const rawLocation = $area("#firstHeading > span").text();
+      const location = cleanText(rawLocation);
 
-        const $area = await scrape(url);
+      for (const el of $area("table.encounterbox-table > tbody")) {
+        const $el = $(el);
+        const rawArea = $el.find("tr:nth-child(1) > td > b").text();
+        const cleanArea = cleanText(rawArea);
+        const area = cleanArea.replace(/\(.*\)/, "").trim();
 
-        const rawLocation = $area("#firstHeading > span").text();
-        const location = cleanText(rawLocation);
+        // Skip scrape if Temtem is not found in the wild (e.g. through quests)
+        if (!area.includes("Area")) continue;
 
-        for (const el of $area("table.encounterbox-table > tbody")) {
-          const $el = $(el);
+        const filename = generateFileName(location, area) + ".png";
+        areaAssets.add(filename);
 
-          const rawArea = $el.find("tr:nth-child(1) > td > b").text();
-          const cleanArea = cleanText(rawArea);
-          const area = cleanArea.replace(/\(.*\)/, "").trim();
+        if (!areaAssetsDB.includes(filename)) {
+          logWarning("- Writing [" + filename + "] to assets...");
+          const rawUrl = $el.find("td.map > div > div > a > img").attr("src");
+          const cleanUrl = cleanText(rawUrl);
+          const url = shortUrl(cleanUrl);
+          const png = await fetchPng("https://temtem.wiki.gg/" + url, 480);
 
-          if (!area.includes("Area")) continue;
-
-          const fileName = generateFileName(location, area) + ".png";
-
-          if (assets) {
-            logWarning("- Writing [" + fileName + "] to assets...");
-            const rawUrl = $el.find("td.map > div > div > a > img").attr("src");
-            const cleanUrl = cleanText(rawUrl);
-            const url = shortUrl(cleanUrl);
-            const png = await fetchPng("https://temtem.wiki.gg/" + url, 480);
-
-            await writeDBImage(join("areas", fileName), png);
-          }
-
-          $el
-            .find("td.encounters > table")
-            .toArray()
-            .forEach(async (el) => {
-              const spawn = new Spawn();
-              await spawn.scrape($(el));
-              const id = generateId(location, area, spawn.name);
-
-              this.spawns[id] = {
-                title: spawn.name,
-                subtitle: location + ", " + area,
-                rate: spawn.rate,
-                level: spawn.level,
-                image: "static/areas/" + fileName,
-                temtemId: generateId(spawn.name),
-              };
-            });
+          await writeDBImage(join("areas", filename), png);
         }
+
+        $el
+          .find("td.encounters > table")
+          .toArray()
+          .forEach(async (el) => {
+            const spawn = new Spawn();
+            await spawn.scrape($(el));
+            const id = generateId(location, area, spawn.name);
+
+            spawns[id] = {
+              title: spawn.name,
+              subtitle: location + ", " + area,
+              rate: spawn.rate,
+              level: spawn.level,
+              image: "static/areas/" + filename,
+              temtemId: generateId(spawn.name),
+            };
+          });
       }
     }
-
-    logSuccess("[spawns] scraped successfully");
-
-    return this.spawns;
   }
+
+  await removeDBContent(
+    "areas",
+    areaAssetsDB.filter((filename) => !areaAssets.has(filename))
+  );
+  logSuccess("[spawns] scraped successfully");
+
+  return spawns;
 }
 
 class Spawn {
