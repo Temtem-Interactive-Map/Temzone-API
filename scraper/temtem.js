@@ -2,6 +2,7 @@ import { join } from "node:path";
 import {
   generateFileName,
   generateId,
+  readDBContent,
   readDBFile,
   removeDBContent,
   writeDBImage,
@@ -15,93 +16,88 @@ import {
   shortUrl,
 } from "./utils/scraper/index.js";
 
-export class TemtemDB {
-  static async scrape(assets) {
-    if (assets) {
-      logWarning("Removing [temtem] assets...");
-      await removeDBContent("temtem");
-      logSuccess("[temtem] assets removed successfully");
+const temtemAssets = new Set();
+const temtemAssetsDB = await readDBContent("temtem");
+
+export async function scrapeTemtem() {
+  const typesDB = await readDBFile("types");
+
+  logInfo("Scraping [temtem]...");
+  const creatures = {};
+  const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
+
+  for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
+    const href = $(el).attr("href");
+    const $temtem = await scrape("https://temtem.wiki.gg" + href);
+    let types = [""];
+
+    if (href === "/wiki/Chromeon" || href === "/wiki/Koish") {
+      types = [
+        "Neutral",
+        "Wind",
+        "Earth",
+        "Water",
+        "Fire",
+        "Nature",
+        "Electric",
+        "Mental",
+        "Digital",
+        "Melee",
+        "Crystal",
+        "Toxic",
+      ];
     }
 
-    const typesDB = await readDBFile("types");
-    const traitsDB = await readDBFile("traits");
+    for (const subtype of types) {
+      const temtem = new Temtem(typesDB);
+      await temtem.scrape($temtem, subtype);
+      const id = generateId(temtem.name);
 
-    logInfo("Scraping [temtem]...");
-    this.creatures = {};
-
-    const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_(creatures)");
-
-    for (const el of $("table.wikitable > tbody > tr > td:nth-child(2) > a")) {
-      const href = $(el).attr("href");
-      const $temtem = await scrape("https://temtem.wiki.gg" + href);
-      let types = [""];
-
-      if (href === "/wiki/Chromeon" || href === "/wiki/Koish") {
-        types = [
-          "Neutral",
-          "Wind",
-          "Earth",
-          "Water",
-          "Fire",
-          "Nature",
-          "Electric",
-          "Mental",
-          "Digital",
-          "Melee",
-          "Crystal",
-          "Toxic",
-        ];
-      }
-
-      for (const subtype of types) {
-        const temtem = new Temtem(assets, typesDB, traitsDB);
-        await temtem.scrape($temtem, subtype);
-        const id = generateId(temtem.name);
-
-        this.creatures[id] = {
-          tempediaId: temtem.id,
-          name: temtem.name,
-          description: temtem.description,
-          types: temtem.types,
-          images: temtem.images,
-          traits: temtem.traits,
-          details: {
-            gender: temtem.gender,
-            catchRate: temtem.catchRate,
-            height: temtem.height,
-            weight: temtem.weight,
-          },
-          stats: temtem.stats,
-          tvs: temtem.tvs,
-          evolutions: temtem.evolutions,
-        };
-      }
+      creatures[id] = {
+        tempediaId: temtem.id,
+        name: temtem.name,
+        description: temtem.description,
+        types: temtem.types,
+        images: temtem.images,
+        traits: temtem.traits,
+        details: {
+          gender: temtem.gender,
+          catchRate: temtem.catchRate,
+          height: temtem.height,
+          weight: temtem.weight,
+        },
+        stats: temtem.stats,
+        tvs: temtem.tvs,
+        evolutions: temtem.evolutions,
+      };
     }
-
-    Object.values(this.creatures).forEach((temtem) => {
-      temtem.evolutions = temtem.evolutions.map((evolution) => {
-        const temtemEvolution = this.creatures[evolution.id];
-
-        return {
-          name: evolution.name,
-          condition: evolution.condition,
-          image: temtemEvolution.images.default,
-          traits: temtemEvolution.traits.map((trait) => trait.name),
-        };
-      });
-    });
-
-    logSuccess("[temtem] scraped successfully");
-
-    return this.creatures;
   }
+
+  Object.values(creatures).forEach((temtem) => {
+    temtem.evolutions = temtem.evolutions.map((evolution) => {
+      const temtemEvolution = creatures[evolution.id];
+
+      return {
+        name: evolution.name,
+        condition: evolution.condition,
+        image: temtemEvolution.images.default,
+        traits: temtemEvolution.traits.map((trait) => trait.name),
+      };
+    });
+  });
+
+  await removeDBContent(
+    "temtem",
+    temtemAssetsDB.filter((filename) => !temtemAssets.has(filename))
+  );
+  logSuccess("[temtem] scraped successfully");
+
+  return creatures;
 }
 
 class Temtem {
-  constructor(assets, types, traits) {
-    this.assets = assets;
-    this.types = types;
-    this.traits = traits;
+  constructor(typesDB) {
+    this.typesDB = typesDB;
   }
 
   async scrape($, subtype) {
@@ -110,7 +106,7 @@ class Temtem {
     this.description = this.description($);
     this.types = this.types($, subtype);
     this.images = await this.images($, subtype, this.name);
-    this.traits = this.traits($);
+    this.traits = await this.traits($);
     this.gender = this.gender($);
     this.catchRate = this.catchRate($);
     this.height = this.height($);
@@ -167,7 +163,7 @@ class Temtem {
 
     const types = typeNames.map((typeName) => {
       const id = generateId(typeName);
-      const type = this.types[id];
+      const type = this.typesDB[id];
 
       return {
         name: type.name,
@@ -179,11 +175,11 @@ class Temtem {
   }
 
   async images($, subtype, name) {
-    const pngFileName = generateFileName(name) + ".png";
-    const gifFileName = generateFileName(name) + ".gif";
+    const pngFilename = generateFileName(name) + ".png";
+    temtemAssets.add(pngFilename);
 
-    if (this.assets) {
-      logWarning("- Writing [" + pngFileName + "] to assets...");
+    if (!temtemAssetsDB.includes(pngFilename)) {
+      logWarning("- Writing [" + pngFilename + "] to assets...");
       const rawPngUrl =
         subtype !== ""
           ? $("#Subspecies_Variations")
@@ -203,9 +199,14 @@ class Temtem {
       const pngUrl = shortUrl(cleanPngUrl);
       const png = await generatePortrait("https://temtem.wiki.gg/" + pngUrl);
 
-      await writeDBImage(join("temtem", pngFileName), png);
+      await writeDBImage(join("temtem", pngFilename), png);
+    }
 
-      logWarning("- Writing [" + gifFileName + "] to assets...");
+    const gifFilename = generateFileName(name) + ".gif";
+    temtemAssets.add(gifFilename);
+
+    if (!temtemAssetsDB.includes(gifFilename)) {
+      logWarning("- Writing [" + gifFilename + "] to assets...");
       const $renders = $("#Renders")
         .parent()
         .next()
@@ -223,31 +224,35 @@ class Temtem {
       const gifUrl = shortUrl(cleanGifUrl);
       const gif = await fetchGif("https://temtem.wiki.gg/" + gifUrl, 480);
 
-      await writeDBImage(join("temtem", gifFileName), gif);
+      await writeDBImage(join("temtem", gifFilename), gif);
     }
 
     return {
-      png: "static/temtem/" + pngFileName,
-      gif: "static/temtem/" + gifFileName,
+      png: "static/temtem/" + pngFilename,
+      gif: "static/temtem/" + gifFilename,
     };
   }
 
-  traits($) {
-    const traits = $(
-      "div.infobox > table > tbody > tr:contains('Traits') > td > a"
-    )
-      .toArray()
-      .map((el) => {
-        const rawTrait = $(el).text();
-        const traitName = cleanText(rawTrait);
-        const id = generateId(traitName);
-        const trait = this.traits[id];
+  async traits($) {
+    const traits = [];
 
-        return {
-          name: trait.name,
-          description: trait.description,
-        };
+    for (const el of $(
+      "div.infobox > table > tbody > tr:contains('Traits') > td > a"
+    ).toArray()) {
+      const href = $(el).attr("href");
+      const $trait = await scrape("https://temtem.wiki.gg" + href);
+      const rawName = $trait("#firstHeading").text();
+      const name = cleanText(rawName);
+      const rawDescription = $trait(
+        "div.infobox > table > tbody > tr:nth-child(3) > td > i"
+      ).text();
+      const description = cleanText(rawDescription);
+
+      traits.push({
+        name,
+        description,
       });
+    }
 
     return traits;
   }
