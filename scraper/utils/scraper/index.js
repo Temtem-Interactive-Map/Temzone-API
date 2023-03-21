@@ -2,16 +2,10 @@ import { load } from "cheerio";
 import { join } from "path";
 import sharp from "sharp";
 
-const pages = {};
-
 export async function scrape(url) {
-  if (!pages[url]) {
-    const html = await fetch(url).then((res) => res.text());
+  const html = await fetch(url).then((res) => res.text());
 
-    pages[url] = load(html);
-  }
-
-  return pages[url];
+  return load(html);
 }
 
 export function cleanText(text) {
