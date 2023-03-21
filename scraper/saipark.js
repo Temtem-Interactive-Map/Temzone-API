@@ -1,11 +1,10 @@
-import { generateId, lastModifiedDateDBFile } from "./utils/database/index.js";
+import { generateId, lastModifiedDBFile } from "./utils/database/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export async function scrapeSaipark() {
   logInfo("Scraping [saipark]...");
   const saipark = {};
-
   const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
   const saipark1 = new Saipark();
   await saipark1.scrape($("table:nth-child(12)"));
@@ -37,7 +36,7 @@ export async function scrapeSaipark() {
   };
 
   const currentDate = new Date();
-  const lastModifiedDate = lastModifiedDateDBFile("saipark");
+  const lastModifiedDate = lastModifiedDBFile("saipark");
   const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
   const date = cleanText(rawDate);
   const dates = date.split("-").map((date) => date.trim());
