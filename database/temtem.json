@@ -1829,7 +1829,7 @@
       },
       {
         "name": "Bully",
-        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
+        "description": "When the holder uses a technique on a Temtem with a negative Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -2489,7 +2489,7 @@
       },
       {
         "name": "Bully",
-        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
+        "description": "When the holder uses a technique on a Temtem with a negative Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -7660,7 +7660,7 @@
       },
       {
         "name": "Bully",
-        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
+        "description": "When the holder uses a technique on a Temtem with a negative Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
