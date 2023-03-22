@@ -147,7 +147,7 @@ To run the tests for the application, you can use the following command:
 npm run test
 ```
 
-The tests use the Vitest testing framework, which is included as a devDependency in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a _.test.js_ extension in the project directory.
+The tests use the Vitest testing framework, which is included as a devDependency in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a `.test.js` extension in the project directory.
 
 Additionally, it's worth noting that the tests are executed using a Firebase emulator, which allows for local testing of Firebase functions and features. This means that the tests are not actually modifying any data on the Firebase server, but are instead using a locally emulated version of the Firebase services. The configuration for the Firebase emulator can be found in the [firebase.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/firebase.json) file.
 
