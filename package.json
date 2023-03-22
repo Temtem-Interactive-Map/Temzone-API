@@ -22,7 +22,7 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
-    "@lyrasearch/lyra": "0.4.11",
+    "@lyrasearch/lyra": "0.4.12",
     "hono": "3.1.2",
     "jose": "4.13.1",
     "kysely": "0.23.5",
@@ -30,7 +30,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20230307.0",
+    "@cloudflare/workers-types": "4.20230321.0",
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
     "better-sqlite3": "8.2.0",
@@ -44,15 +44,15 @@
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-yml": "1.5.0",
-    "firebase-tools": "11.24.1",
+    "firebase-tools": "11.25.1",
     "picocolors": "1.0.0",
-    "prettier": "2.8.5",
+    "prettier": "2.8.6",
     "prettier-eslint": "15.0.1",
     "prettier-plugin-sql": "0.13.0",
     "sharp": "0.31.3",
     "uuid": "9.0.0",
     "vite-tsconfig-paths": "4.0.7",
-    "vitest": "0.29.6",
-    "wrangler": "2.12.3"
+    "vitest": "0.29.7",
+    "wrangler": "2.13.0"
   }
 }
