@@ -16,11 +16,11 @@ Before getting started, make sure you have the following tools installed on your
 
 - Node.js (version [18.13.0](https://nodejs.org/es/download))
 - npm (the Node.js package manager, which should be installed with Node.js)
-- Wrangler (the Cloudflare Workers CLI, which can be installed with [npm](https://developers.cloudflare.com/workers/wrangler/install-and-update))
+- Wrangler (the [Cloudflare Workers CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update), which can be installed with `npm`)
 
-### Install the dependencies
+### Install dependencies
 
-To install the dependencies for a Cloudflare Workers project, you'll need to use the npm install command. This command reads the _dependencies_ and _devDependencies_ sections of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file and installs the packages listed there.
+To install the dependencies for a Cloudflare Workers project, you'll need to use the `npm install` command. This command reads the `dependencies` and `devDependencies` sections of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file and installs the packages listed there.
 
 For example, to install all of the dependencies you can run the following command in the project directory:
 
@@ -28,25 +28,25 @@ For example, to install all of the dependencies you can run the following comman
 npm install
 ```
 
-You can also use npm install to install a specific package by providing the package name as an argument. For example:
+You can also use `npm install` to install a specific package by providing the package name as an argument. For example:
 
 ```
 npm install hono
 ```
 
-This will install the hono package and add it to the dependencies section of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file.
+This will install the `hono` package and add it to the dependencies section of the [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file.
 
-### Scrape the Official Temtem Wiki
+### Scrape data from the Official Temtem Wiki
 
-To scrape data from the [Official Temtem Wiki](https://temtem.wiki.gg/wiki/Temtem_Wiki), you can run the following command in the project directory:
+To scrape data from the [Official Temtem Wiki](https://temtem.wiki.gg/wiki/Temtem_Wiki), run the following command in the project directory:
 
 ```
 npm run scraper
 ```
 
-This command will start the data scraping process and store the scraped data in a local JSON file. You can modify the scraping logic by editing the files in the [scraper](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/scraper) folder.
+This command will start the data scraping process and store the scraped data in a local JSON file. You can modify the scraping logic by editing the files in the [scraper](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/scraper) folder.
 
-The npm run scraper command accepts additional parameters that you can use to customize the data scraping process. For example, if you only want to run a single scraper instead of all of them, you can specify the name of the scraper as a parameter. The available scrapers are:
+The `npm run scraper` command accepts additional parameters that you can use to customize the data scraping process. For example, if you only want to run a single scraper instead of all of them, you can specify the name of the scraper as a parameter. The available scrapers are:
 
 - `npm run scraper -- types`: This command will scrape the types data.
 - `npm run scraper -- temtem`: This command will scrape the temtem data.
@@ -55,69 +55,89 @@ The npm run scraper command accepts additional parameters that you can use to cu
 
 ### Setting up Firebase
 
-To set up Firebase, you'll need to create a new project in the Firebase console. This is necessary to authenticate users using Firebase Authentication, which enables the application to use different sign in methods.
+To use Firebase Authentication, follow these steps:
 
-Here are the steps to set up Firebase:
+1. Create a new project in the Firebase console at https://console.firebase.google.com.
+2. Navigate to the Authentication tab and enable the sign-in method(s) you want to use.
+3. In the `.dev.vars` file of the project, add the following variable: FIREBASE_PROJECT_ID.
 
-1. Go to https://console.firebase.google.com and create a new project. Choose a name and set the location of the project.
-2. Once the project is created, navigate to the Authentication tab and enable the sign-in method(s) you want to use. This step is necessary to configure how users will sign in to the application, such as with an email and password, Google account, or other social media accounts.
-3. In the `.dev.vars` file of the project, add the following variable:
-   - FIREBASE_PROJECT_ID: the ID of the Firebase project.
-
-By completing these steps, the application will be able to authenticate requests using Firebase. Note that the application will use the tokens generated by Firebase to authenticate requests. To validate the tokens, the server will need to know the ID of your Firebase project. That's why you need to add the FIREBASE_PROJECT_ID variable in the .dev.vars file.
+Note that the Cloudflare Workers project will use the tokens generated by Firebase to authenticate requests. To validate the tokens, the server will need to know the ID of your Firebase project. That's why you need to add the FIREBASE_PROJECT_ID variable in the .dev.vars file.
 
 ### Setting up the database
 
+Temzone's RESTful API requires two technologies to store and retrieve data: [D1](https://developers.cloudflare.com/d1) and [KV](https://developers.cloudflare.com/workers/runtime-apis/kv).
+
+- D1 is an SQLite database at the edge. It provides a simple SQL interface that allows you to store and retrieve data from anywhere in the world within a few milliseconds.
+
+- KV is a global, low-latency, key-value data store that is designed for high throughput and low latency use cases. It provides a simple key-value interface that allows you to store and retrieve data from anywhere in the world within a few milliseconds.
+
+To create a D1 database and a KV namespace, we will use the [Wrangler](https://developers.cloudflare.com/workers/wrangler) command-line tool. If you haven't already, make sure to [install Wrangler](https://developers.cloudflare.com/workers/wrangler/install-and-update) and configure it with your Cloudflare account.
+
+To create the D1 database, run the following command:
+
 ```
 npx wrangler d1 create temzone
+```
+
+This command generates a new database with the name _temzone_ and returns a binding that can be used to access the newly created database. This binding should be added to the [wrangler.toml](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/wrangler.toml) file in the `d1_databases` section.
+
+To create the KV namespace, run the following command:
+
+```
 npx wrangler kv:namespace create cache
 ```
 
-To run the application locally, you'll first need to ensure you have a running instance of MySQL. One way to do this is through Docker Compose. To do so, run the following command at the root of the project directory:
+This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the wrangler.toml file in the `kv_namespaces` section.
 
-```
-docker-compose up -d
-```
+This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the [wrangler.toml](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/wrangler.toml) file in the _kv_namespaces_ section.
 
-This command will start a MySQL instance in a Docker container in detached mode. Once the container is up and running, you'll need to generate a .env file at the root of the project directory and ensure that the following line is present and correct:
+For more information on how to use D1 and KV with a Workers application, see the [official documentation](https://developers.cloudflare.com/workers/runtime-apis).
 
-```
-MYSQL_DATABASE_URL=mysql://temzone:temzone@localhost:3306/temzone
-```
+#### Migrating the database
 
-This URL uses the username and password _temzone_ and points to the temzone database. Make sure that these values are correct and that the database is running on port 3306 of localhost.
-
-#### Creating the database tables
-
-To create or update the necessary tables in the database, you can run the following command:
+To create or update the necessary tables in the database, you can use the following command:
 
 ```
 npm run database:migrate
 ```
 
-This command will create the tables in the temzone database, based on the database schema defined in the [schema.prima](https://github.com/Temtem-Interactive-Map/Temzone-API/tree/main/prisma/schema.prisma) file. Note that any changes made to the database schema will require running this command again to keep the tables up-to-date.
+This command will migrate the D1 database using the schemas defined in the [migrations](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/migrations) folder. Each migration file in the folder has a version number specified in the filename and is listed in sequential order. Keep in mind that any changes you make to the database schema will require you to create a new migration file and run this command again to keep the tables up-to-date.
 
 #### Populating the database
 
-To populate the database with the data scraped from the Official Temtem Wiki, you can run the following command:
+To populate the database with the data scraped from the [Official Temtem Wiki](https://temtem.wiki.gg/wiki/Temtem_Wiki), you can run the following command:
 
 ```
 npm run database:populate
 ```
 
-Note that this command should only be run after creating the necessary tables in the database using npm run database:migrate. Also, if you run the command again, any markers that have already been added to the database will be ignored and not added again.
+However, before running this command, you need to add the following environment variables to the .env file:
 
-### Setting up the application
+```
+FIREBASE_API_KEY=
+FIREBASE_USER_EMAIL=
+FIREBASE_USER_PASSWORD=
+TEMZONE_BASE_URL=
+```
+
+- `FIREBASE_API_KEY`: the Firebase API key.
+- `FIREBASE_USER_EMAIL`: the email address of a Firebase user. Note that the user account associated with this email must have a custom claim with a value of `admin:true` in order to perform write operations on the database.
+- `FIREBASE_USER_PASSWORD`: the password for the above Firebase user.
+- `TEMZONE_BASE_URL`: the base URL of the Temzone API instance. If you are running the server instance locally, the variable should be set to http://127.0.0.1:8787, which is the default URL for a local instance of the API.
+
+Note that this command should only be run after creating the necessary tables in the database using npm run database:migrate. Also, if you run the command again, any markers that have already been added to the database will be ignored and not added again.
 
 ### Running the development server
 
-Navigate to the project directory and run the following command to start the development server:
+To run the Temzone API development server, navigate to the project directory and run the following command:
 
 ```
 npm run dev
 ```
 
-This will start the Cloudflare Workers development server. As you make changes to the code, the development server will automatically reload the Cloudflare Workers to reflect the changes.
+This command will start the Cloudflare Workers development server, which will automatically reload the Workers as you make changes to the code. You can then access the API via http://127.0.0.1:8787.
+
+Note that the development server is intended for local testing only and is not suitable for production use. To deploy the API in a production environment, you will need to use a Cloudflare Workers script deployment tool such as Wrangler.
 
 ### Running the tests
 
@@ -127,7 +147,9 @@ To run the tests for the application, you can use the following command:
 npm run test
 ```
 
-The tests are written using the Vitest testing framework, which is included as a devDependency in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a _.test.js_ extension in the project directory.
+The tests use the Vitest testing framework, which is included as a devDependency in the project's [package.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/package.json) file. By default, Vitest will look for files with a _.test.js_ extension in the project directory.
+
+Additionally, it's worth noting that the tests are executed using a Firebase emulator, which allows for local testing of Firebase functions and features. This means that the tests are not actually modifying any data on the Firebase server, but are instead using a locally emulated version of the Firebase services. The configuration for the Firebase emulator can be found in the [firebase.json](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/firebase.json) file.
 
 ## License
 
