@@ -2,6 +2,7 @@ import { join } from "node:path";
 import {
   generateFileName,
   generateId,
+  readDBContent,
   removeDBContent,
   writeDBImage,
 } from "./utils/database/index.js";
@@ -13,66 +14,61 @@ import {
   shortUrl,
 } from "./utils/scraper/index.js";
 
-export class TypesDB {
-  static async scrape(assets) {
-    if (assets) {
-      logWarning("Removing [types] assets...");
-      await removeDBContent("types");
-      logSuccess("[types] assets removed successfully");
-    }
+const typeAssets = new Set();
+const typeAssetsDB = await readDBContent("types");
 
-    logInfo("Scraping [types]...");
-    this.types = {};
+export async function scrapeTypes() {
+  logInfo("Scraping [types]...");
+  const types = {};
+  const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_types");
 
-    const $ = await scrape("https://temtem.wiki.gg/wiki/Temtem_types");
+  for (const el of $("ul:nth-child(6) > li > a:nth-child(1)")) {
+    const type = new Type();
+    await type.scrape($(el));
+    const id = generateId(type.name);
 
-    for (const el of $("ul:nth-child(6) > li > a:nth-child(1)")) {
-      const type = new Type(assets);
-      await type.scrape($(el));
-      const id = generateId(type.name);
-
-      this.types[id] = {
-        name: type.name,
-        image: type.image,
-      };
-    }
-
-    logSuccess("[types] scraped successfully");
-
-    return this.types;
+    types[id] = {
+      name: type.name,
+      image: type.image,
+    };
   }
+
+  await removeDBContent(
+    "types",
+    typeAssetsDB.filter((filename) => !typeAssets.has(filename))
+  );
+  logSuccess("[types] scraped successfully");
+
+  return types;
 }
 
 class Type {
-  constructor(assets) {
-    this.assets = assets;
-  }
-
   async scrape($) {
-    this.name = this.#name($);
-    this.image = await this.#image($);
+    this.name = this.name($);
+    this.image = await this.image($);
   }
 
-  #name($) {
+  name($) {
     const rawName = $.attr("title");
     const name = cleanText(rawName);
 
     return name;
   }
 
-  async #image($) {
-    const fileName = generateFileName(this.name.split(" ").shift()) + ".png";
+  async image($) {
+    const filename = generateFileName(this.name.split(" ").shift()) + ".png";
+    typeAssets.add(filename);
 
-    if (this.assets) {
-      logWarning("- Writing [" + fileName + "] to assets...");
+    if (!typeAssetsDB.includes(filename)) {
+      logWarning("- Writing [" + filename + "] to assets...");
       const rawUrl = $.find("img").attr("src");
       const cleanUrl = cleanText(rawUrl);
       const url = shortUrl(cleanUrl);
       const png = await fetchPng("https://temtem.wiki.gg/" + url, 24);
 
-      await writeDBImage(join("types", fileName), png);
+      await writeDBImage(join("types", filename), png);
     }
 
-    return "static/types/" + fileName;
+    return "static/types/" + filename;
   }
 }

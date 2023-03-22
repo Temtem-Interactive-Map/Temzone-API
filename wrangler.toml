@@ -11,17 +11,17 @@ watch_dir = "src"
 
 [env.dev]
 name = "temzone-dev"
+d1_databases = [
+  { binding = "DB", database_name = "temzone", database_id = "e97c4ba8-9e00-46e9-ba95-2c52b2f0dcf7" }
+]
 kv_namespaces = [
   { binding = "CACHE", id = "7a20f210408e4a7dae7e76976723b81a", preview_id = "7a20f210408e4a7dae7e76976723b81a" }
 ]
-d1_databases = [
-  { binding = "DB", database_name = "temzone", database_id = "3dfd57d7-a280-4119-96bd-c42b06ac2149" }
-]
 
 [env.prod]
-kv_namespaces = [
-  { binding = "CACHE", id = "86b34f4cba3e4adb98e2d850012f5dda" }
-]
 d1_databases = [
   { binding = "DB", database_name = "temzone", database_id = "6a0aa86b-d3dc-4171-889d-dc0fc3ae75c7" }
+]
+kv_namespaces = [
+  { binding = "CACHE", id = "86b34f4cba3e4adb98e2d850012f5dda" }
 ]

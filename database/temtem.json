@@ -16,7 +16,7 @@
     "traits": [
       {
         "name": "Striking Transmog",
-        "description": "When attacking an individual Temtem with a physical technique, Mimit transforms into the target."
+        "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target."
       },
       {
         "name": "Landing Transmog",
@@ -145,7 +145,7 @@
       },
       {
         "name": "Voltaic Charge",
-        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+        "description": "The caster heals 15% of the damage it has done with any offensive technique."
       }
     ],
     "details": {
@@ -1033,7 +1033,7 @@
     "traits": [
       {
         "name": "Splitter",
-        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+        "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns."
       },
       {
         "name": "Sentinel",
@@ -1305,7 +1305,7 @@
       },
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       }
     ],
     "details": {
@@ -1346,7 +1346,8 @@
       {
         "condition": "+8 Levels",
         "traits": [
-          "Botanist"
+          "Botanist",
+          "Backhanded"
         ]
       }
     ]
@@ -1373,6 +1374,10 @@
       {
         "name": "Botanist",
         "description": "Damage done with Nature techniques is increased by 15%."
+      },
+      {
+        "name": "Backhanded",
+        "description": "When attacking with a status technique, gets invigorated for 2 turns."
       }
     ],
     "details": {
@@ -1428,7 +1433,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Resilient",
@@ -1688,7 +1693,7 @@
       },
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       }
     ],
     "details": {
@@ -1824,7 +1829,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -1884,7 +1889,7 @@
       },
       {
         "name": "Dreaded Alarm",
-        "description": "When a rival rests, they lose 25% of max HP."
+        "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP."
       }
     ],
     "details": {
@@ -1956,7 +1961,7 @@
       },
       {
         "name": "Infectious",
-        "description": "Invalidates the regenerating effect on rivals."
+        "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield."
       }
     ],
     "details": {
@@ -2484,7 +2489,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -2736,7 +2741,7 @@
       },
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       }
     ],
     "details": {
@@ -2872,7 +2877,7 @@
     "traits": [
       {
         "name": "Deceit Aura",
-        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. And while HP is full, when entering the battlefield, loses 50%."
+        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP."
       },
       {
         "name": "Water Custodian",
@@ -2981,6 +2986,7 @@
       {
         "condition": "+22 Levels",
         "traits": [
+          "Tri-Phytologist",
           "Tri-Apothecary"
         ]
       }
@@ -3005,6 +3011,10 @@
       "gif": "static/temtem/nidrasil.gif"
     },
     "traits": [
+      {
+        "name": "Tri-Phytologist",
+        "description": "When attacking with a physical technique, the target gets exhausted for 1 turn if it's a rival or invigorated for 2 turns if it's an ally or itself."
+      },
       {
         "name": "Tri-Apothecary",
         "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself."
@@ -3331,7 +3341,7 @@
       },
       {
         "name": "Wrecked Farewell",
-        "description": "When self knocked-out, rivals lose 25% of max HP."
+        "description": "The rival loses 10% of its max STA and gets ATK and SPATK when it knocks the holder out. In case the holder is self knocked-out, both rivals receive the effects of Wrech Farewell."
       }
     ],
     "details": {
@@ -3791,7 +3801,7 @@
       },
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       }
     ],
     "details": {
@@ -3924,6 +3934,10 @@
       {
         "name": "Scavenger",
         "description": "Restores 17% of max HP if another Temtem is knocked-out."
+      },
+      {
+        "name": "Jack of all Trades",
+        "description": "When attacking with a physical technique, gets SPATK, and when attacking with a special technique, gets ATK."
       }
     ],
     "details": {
@@ -4326,7 +4340,7 @@
       },
       {
         "name": "Rejuvenate",
-        "description": "After attacking with a special technique, restores 8% of max HP."
+        "description": "After attacking with a special technique, restores 10% of max HP."
       }
     ],
     "details": {
@@ -5774,7 +5788,7 @@
     "traits": [
       {
         "name": "Neurotoxins",
-        "description": "Instead of applying poison, the target gets doomed for 4 turns instead."
+        "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead."
       },
       {
         "name": "Water Synthesizer",
@@ -5834,7 +5848,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Mirroring",
@@ -5902,11 +5916,11 @@
     "traits": [
       {
         "name": "Dreaded Alarm",
-        "description": "When a rival rests, they lose 25% of max HP."
+        "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP."
       },
       {
         "name": "Rejuvenate",
-        "description": "After attacking with a special technique, restores 8% of max HP."
+        "description": "After attacking with a special technique, restores 10% of max HP."
       }
     ],
     "details": {
@@ -6102,11 +6116,11 @@
     "traits": [
       {
         "name": "Defuser",
-        "description": "When attacking with a physical technique, the target gets seized for 3 turns."
+        "description": "When attacking with a physical technique, the target gets seized for 2 turns."
       },
       {
         "name": "Voltaic Charge",
-        "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage."
+        "description": "The caster heals 15% of the damage it has done with any offensive technique."
       }
     ],
     "details": {
@@ -6686,7 +6700,7 @@
       },
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       }
     ],
     "details": {
@@ -7002,7 +7016,7 @@
     "traits": [
       {
         "name": "Soft Touch",
-        "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up."
+        "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up."
       },
       {
         "name": "Skull Helmet",
@@ -7130,11 +7144,11 @@
     "traits": [
       {
         "name": "Stabmaster",
-        "description": "Damage done with matching type techniques is increased by 40%."
+        "description": "Damage done with matching type techniques is increased by 35%."
       },
       {
         "name": "Snowstorm",
-        "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 3 turns if they aren't cold already."
+        "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already."
       }
     ],
     "details": {
@@ -7386,7 +7400,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Settling",
@@ -7646,7 +7660,7 @@
       },
       {
         "name": "Bully",
-        "description": "While allies outnumber rivals, techniques inflict +30% Damage."
+        "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%."
       }
     ],
     "details": {
@@ -8574,7 +8588,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Camouflage",
@@ -8898,11 +8912,11 @@
     "traits": [
       {
         "name": "Seppuku",
-        "description": "When attacking and being knocked-out due to overexertion, the target gets doomed for 2 turns."
+        "description": "When the holder faints due to recoil damage or Overexertion, it applies 4 turns of Doom to the rival Tems."
       },
       {
         "name": "Voodoo",
-        "description": "When attacking an ally, 75% of the damage is replicated to each rival."
+        "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too."
       }
     ],
     "details": {
@@ -8958,7 +8972,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Hydrologist",
@@ -9517,7 +9531,7 @@
     "traits": [
       {
         "name": "Splitter",
-        "description": "When attacked with a physical or special technique, prevents all negative status conditions."
+        "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns."
       },
       {
         "name": "Common Factor",
@@ -9913,7 +9927,7 @@
     "traits": [
       {
         "name": "Friendship",
-        "description": "Immune to ally's offensive techniques."
+        "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%."
       },
       {
         "name": "Fainted Curse",
@@ -11005,7 +11019,7 @@
     "traits": [
       {
         "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 20%."
+        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
       },
       {
         "name": "Body Stretch",
@@ -11345,7 +11359,7 @@
     "traits": [
       {
         "name": "Ruminant",
-        "description": "When attacking a Nature Temtem rival, gets regenerating for 2 turns."
+        "description": "When a Nature technique is used, the holder of this trait restores 15% of its max STA."
       },
       {
         "name": "Rusher",
@@ -11849,7 +11863,7 @@
       {
         "condition": "+20 Levels",
         "traits": [
-          "Meditation",
+          "Meditation (Trait)",
           "Shaolin"
         ]
       }
@@ -11875,7 +11889,7 @@
     },
     "traits": [
       {
-        "name": "Meditation",
+        "name": "Meditation (Trait)",
         "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn."
       },
       {
@@ -12016,7 +12030,7 @@
       },
       {
         "name": "Protective Crystal",
-        "description": "When an ally is damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
+        "description": "When an ally is damaged by an offensive technique, damage is reduced by 10%. When allies are damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%."
       }
     ],
     "details": {
@@ -12076,11 +12090,11 @@
     "traits": [
       {
         "name": "Intimidator",
-        "description": "Traits from the rivals and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+        "description": "Traits from the rivals and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield."
       },
       {
         "name": "Frightening",
-        "description": "Gears from the rival and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield."
+        "description": "Gears from the rival and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield."
       }
     ],
     "details": {

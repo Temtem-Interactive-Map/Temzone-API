@@ -5,7 +5,7 @@ await build({
   minify: true,
   external: ["__STATIC_CONTENT_MANIFEST"],
   conditions: ["worker", "browser"],
-  entryPoints: ["src/index.js"],
+  entryPoints: ["src/index.ts"],
   outdir: "dist",
   outExtension: { ".js": ".mjs" },
   format: "esm",
