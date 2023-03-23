@@ -43,9 +43,9 @@ export function auth(admin = false): MiddlewareHandler {
         );
       }
 
-      ctx.req.addValidatedData("form", {
-        id: payload.user_id as string,
-        admin: (payload.admin as boolean) ?? false,
+      ctx.set("user", {
+        id: payload.user_id,
+        admin: payload.admin ?? false,
       });
 
       await next();
