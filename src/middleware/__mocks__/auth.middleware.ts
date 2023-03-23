@@ -1,5 +1,6 @@
 import { Context, MiddlewareHandler } from "hono";
 import { t } from "locales";
+import { User } from "model/user";
 
 export function auth(admin = false): MiddlewareHandler {
   return async (ctx, next) => {
@@ -48,6 +49,6 @@ export function auth(admin = false): MiddlewareHandler {
   };
 }
 
-export function getUser(ctx: Context) {
+export function getUser(ctx: Context): User {
   return ctx.get("user");
 }
