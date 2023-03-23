@@ -4,7 +4,7 @@ import { scrapeSpawns } from "./spawns.js";
 import { scrapeTemtem } from "./temtem.js";
 import { scrapeTypes } from "./types.js";
 import { writeDBFile } from "./utils/database/index.js";
-import { logError, logInfo, logSuccess } from "./utils/log/index.js";
+import { logError, logInfo } from "./utils/log/index.js";
 
 const SCRAPERS = {
   types: scrapeTypes,
@@ -17,9 +17,7 @@ async function scrapeAndSave(name, asset) {
   const scraper = SCRAPERS[name];
   const content = await scraper(asset);
 
-  logInfo("Writing [" + name + "] to database...");
   await writeDBFile(name, content);
-  logSuccess("[" + name + "] written successfully");
 }
 
 const options = command([
