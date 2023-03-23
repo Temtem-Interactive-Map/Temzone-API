@@ -1,4 +1,4 @@
-import { MiddlewareHandler } from "hono";
+import { Context, MiddlewareHandler } from "hono";
 import { t } from "locales";
 
 export function auth(admin = false): MiddlewareHandler {
@@ -46,4 +46,8 @@ export function auth(admin = false): MiddlewareHandler {
       );
     }
   };
+}
+
+export function getUser(ctx: Context) {
+  return ctx.get("user");
 }

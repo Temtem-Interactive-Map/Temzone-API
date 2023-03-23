@@ -1,4 +1,4 @@
-import { MiddlewareHandler } from "hono";
+import { Context, MiddlewareHandler } from "hono";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 import { t } from "locales";
 
@@ -59,4 +59,8 @@ export function auth(admin = false): MiddlewareHandler {
       );
     }
   };
+}
+
+export function getUser(ctx: Context) {
+  return ctx.get("user");
 }
