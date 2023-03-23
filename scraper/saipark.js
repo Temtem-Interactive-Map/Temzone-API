@@ -44,9 +44,7 @@ export async function scrapeSaipark() {
   const endDate = new Date(dates[1]);
 
   if (lastModifiedDate < startDate && currentDate < endDate) {
-    logWarning("[saipark] is outdated, notifying update...");
-
-    logSuccess("[saipark] notification sent successfully");
+    logWarning("- Notifying [saipark] update...");
   }
 
   logSuccess("[saipark] scraped successfully");
