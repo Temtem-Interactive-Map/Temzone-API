@@ -6,11 +6,10 @@ compatibility_date = "2023-01-20"
 bucket = "assets"
 
 [build]
-command = "npm run build"
+command = "node esbuild.config.js"
 watch_dir = "src"
 
 [env.dev]
-name = "temzone-dev"
 d1_databases = [
   { binding = "DB", database_name = "temzone", database_id = "e97c4ba8-9e00-46e9-ba95-2c52b2f0dcf7" }
 ]
