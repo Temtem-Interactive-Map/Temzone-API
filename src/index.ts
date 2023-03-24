@@ -2,11 +2,12 @@ import { controllers } from "controller";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { t } from "locales";
+import { getSentry, sentry } from "middleware/sentry.middleware";
 import { NotFoundError } from "service/error/not-found.error";
 
-const route = new Hono();
+const app = new Hono();
 
-route.use(
+app.use(
   "*",
   cors({
     origin: "*",
@@ -17,7 +18,9 @@ route.use(
   })
 );
 
-route.notFound((ctx) =>
+app.use("*", sentry());
+
+app.notFound((ctx) =>
   ctx.json(
     {
       status: 404,
@@ -27,7 +30,7 @@ route.notFound((ctx) =>
   )
 );
 
-route.onError((error, ctx) => {
+app.onError((error, ctx) => {
   if (error instanceof NotFoundError) {
     return ctx.json(
       {
@@ -38,6 +41,8 @@ route.onError((error, ctx) => {
     );
   } else {
     console.error(error);
+
+    getSentry(ctx).captureException(error);
 
     return ctx.json(
       {
@@ -50,7 +55,7 @@ route.onError((error, ctx) => {
 });
 
 controllers.forEach((controller) => {
-  route.route(controller.path, controller.route);
+  app.route(controller.path, controller.route);
 });
 
-export default route;
+export default app;
