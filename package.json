@@ -11,7 +11,6 @@
     "scraper": "node scraper/index.js",
     "database:migrate": "echo y | wrangler d1 migrations apply temzone --local --env dev",
     "database:populate": "node scraper/database/index.js",
-    "build": "node build.js",
     "dev": "wrangler dev --local --persist --env dev",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
@@ -27,10 +26,12 @@
     "jose": "4.13.1",
     "kysely": "0.23.5",
     "kysely-d1": "0.3.0",
+    "toucan-js": "3.1.0",
     "zod": "3.21.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20230321.0",
+    "@sentry/esbuild-plugin": "0.4.0",
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
     "better-sqlite3": "8.2.0",
