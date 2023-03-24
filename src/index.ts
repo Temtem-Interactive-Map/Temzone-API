@@ -2,7 +2,6 @@ import { controllers } from "controller";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { t } from "locales";
-import { getSentry, sentry } from "middleware/sentry.middleware";
 import { NotFoundError } from "service/error/not-found.error";
 
 const app = new Hono();
@@ -17,8 +16,6 @@ app.use(
     maxAge: 600,
   })
 );
-
-app.use("*", sentry());
 
 app.notFound((ctx) =>
   ctx.json(
@@ -41,8 +38,6 @@ app.onError((error, ctx) => {
     );
   } else {
     console.error(error);
-
-    getSentry(ctx).captureException(error);
 
     return ctx.json(
       {

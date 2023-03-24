@@ -30,9 +30,6 @@ jobs:
       FIREBASE_USER_EMAIL: ${{ secrets.FIREBASE_USER_EMAIL }}
       FIREBASE_USER_PASSWORD: ${{ secrets.FIREBASE_USER_PASSWORD }}
       TEMZONE_BASE_URL: ${{ secrets.TEMZONE_BASE_URL }}
-      SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
-      SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
-      SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
     name: Deploying
     steps:
       - name: Checkout
@@ -51,7 +48,6 @@ jobs:
       - name: Deploy Cloudflare Worker
         run: |
           echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env prod
-          echo "${{ secrets.SENTRY_DSN }}" | wrangler secret put SENTRY_DSN --env prod
           wrangler publish --env prod
       - name: Populate database
         run: npm run database:populate
