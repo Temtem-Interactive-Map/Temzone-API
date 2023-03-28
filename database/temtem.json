@@ -11359,7 +11359,7 @@
     "traits": [
       {
         "name": "Ruminant",
-        "description": "When a Nature technique is used, the holder of this trait restores 15% of its max STA."
+        "description": "When any Temtem uses a Nature technique, restores 20% max STA."
       },
       {
         "name": "Rusher",
