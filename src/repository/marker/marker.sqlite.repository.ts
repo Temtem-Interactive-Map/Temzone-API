@@ -63,6 +63,8 @@ export class MarkerSqliteRepository implements MarkerRepository {
     const items = await this.db
       .selectFrom("markers")
       .selectAll()
+      .limit(limit)
+      .offset(offset)
       .orderBy("title", "asc")
       .orderBy("subtitle", "asc")
       .execute();
