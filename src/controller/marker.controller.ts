@@ -3,10 +3,11 @@ import {
   condition,
   coordinates,
   id,
+  limit,
+  offset,
   subtitle,
   title,
   type,
-  types,
 } from "controller/validation";
 import { Hono } from "hono";
 import { auth } from "middleware/auth.middleware";
@@ -18,11 +19,11 @@ export const route = new Hono();
 route.get(
   "/",
   auth(true),
-  validator("query", z.object({ types })),
+  validator("query", z.object({ limit, offset })),
   async (ctx) => {
     const markerService = getMarkerService(ctx);
-    const { types } = ctx.req.valid("query");
-    const result = await markerService.findByTypes(types);
+    const { limit, offset } = ctx.req.valid("query");
+    const result = await markerService.getAll(limit, offset);
 
     return ctx.json(result, 200);
   }

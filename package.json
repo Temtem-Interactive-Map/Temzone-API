@@ -1,7 +1,7 @@
 {
   "name": "temzone",
   "description": "The Temtem Interactive Map API",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
@@ -11,7 +11,6 @@
     "scraper": "node scraper/index.js",
     "database:migrate": "echo y | wrangler d1 migrations apply temzone --local --env dev",
     "database:populate": "node scraper/database/index.js",
-    "build": "node build.js",
     "dev": "wrangler dev --local --persist --env dev",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",

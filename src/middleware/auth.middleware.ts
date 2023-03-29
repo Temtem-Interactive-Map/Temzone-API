@@ -1,6 +1,7 @@
-import { MiddlewareHandler } from "hono";
+import { Context, MiddlewareHandler } from "hono";
 import { decodeProtectedHeader, importX509, jwtVerify } from "jose";
 import { t } from "locales";
+import { User } from "model/user";
 
 export function auth(admin = false): MiddlewareHandler {
   return async (ctx, next) => {
@@ -43,9 +44,9 @@ export function auth(admin = false): MiddlewareHandler {
         );
       }
 
-      ctx.req.addValidatedData("form", {
-        id: payload.user_id as string,
-        admin: (payload.admin as boolean) ?? false,
+      ctx.set("user", {
+        id: payload.user_id,
+        admin: payload.admin ?? false,
       });
 
       await next();
@@ -59,4 +60,8 @@ export function auth(admin = false): MiddlewareHandler {
       );
     }
   };
+}
+
+export function getUser(ctx: Context): User {
+  return ctx.get("user");
 }

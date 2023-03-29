@@ -3,8 +3,8 @@ import { build } from "esbuild";
 await build({
   bundle: true,
   minify: true,
+  sourcemap: true,
   external: ["__STATIC_CONTENT_MANIFEST"],
-  conditions: ["worker", "browser"],
   entryPoints: ["src/index.ts"],
   outdir: "dist",
   outExtension: { ".js": ".mjs" },
