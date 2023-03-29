@@ -7600,7 +7600,7 @@
       },
       {
         "name": "Toxic Skin",
-        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+        "description": "When attacked, the attacker gets poisoned for 1 turn."
       }
     ],
     "details": {
@@ -7656,7 +7656,7 @@
     "traits": [
       {
         "name": "Toxic Skin",
-        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+        "description": "When attacked, the attacker gets poisoned for 1 turn."
       },
       {
         "name": "Bully",
@@ -9044,7 +9044,7 @@
     "traits": [
       {
         "name": "Toxic Skin",
-        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+        "description": "When attacked, the attacker gets poisoned for 1 turn."
       },
       {
         "name": "Mucous",
@@ -9112,7 +9112,7 @@
       },
       {
         "name": "Toxic Skin",
-        "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns."
+        "description": "When attacked, the attacker gets poisoned for 1 turn."
       }
     ],
     "details": {
@@ -11359,7 +11359,7 @@
     "traits": [
       {
         "name": "Ruminant",
-        "description": "When a Nature technique is used, the holder of this trait restores 15% of its max STA."
+        "description": "When any Temtem uses a Nature technique, restores 20% max STA."
       },
       {
         "name": "Rusher",
