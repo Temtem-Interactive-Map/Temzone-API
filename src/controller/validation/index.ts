@@ -61,7 +61,7 @@ export const limit = z
   })
   .default("20")
   .transform((limit) => parseInt(limit))
-  .refine((limit) => limit >= 0 && limit <= 60, "limit");
+  .refine((limit) => limit >= 0 && limit <= 200, "limit");
 
 export const offset = z
   .string({
