@@ -7,6 +7,6 @@ export interface MarkerService {
   insertMany(markers: Marker[]): Promise<Marker[]>;
   updateSpawnMarker(id: string, spawn: SpawnMarker): Promise<void>;
   updateSaiparkMarker(id: string, saipark: SaiparkMarker): Promise<void>;
-  findByTypes(types: string[]): Promise<Marker[]>;
   search(query: string, limit: number, offset: number): Promise<Page<Marker>>;
+  getAll(limit: number, offset: number): Promise<Page<Marker>>;
 }

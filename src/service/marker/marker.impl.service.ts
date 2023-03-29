@@ -109,10 +109,47 @@ export class MarkerImplService implements MarkerService {
     }
   }
 
-  async findByTypes(types: string[]): Promise<Marker[]> {
-    const markers = await this.markerRepository.findByTypes(types);
+  async search(
+    query: string,
+    limit: number,
+    offset: number
+  ): Promise<Page<Marker>> {
+    const { items, next, prev } = await this.searchRepository.search(
+      query,
+      limit,
+      offset
+    );
 
-    return markers.map((marker) => {
+    const markers = [];
+    for (const item of items) {
+      const marker = await this.markerRepository.findById(item.id);
+
+      markers.push({
+        id: marker.id,
+        type: marker.type,
+        title: marker.title,
+        subtitle: marker.subtitle,
+        coordinates:
+          marker.x !== null && marker.y !== null
+            ? { x: marker.x, y: marker.y }
+            : null,
+      });
+    }
+
+    return {
+      items: markers,
+      next,
+      prev,
+    };
+  }
+
+  async getAll(limit: number, offset: number): Promise<Page<Marker>> {
+    const { items, next, prev } = await this.markerRepository.getAll(
+      limit,
+      offset
+    );
+
+    const markers = items.map((marker) => {
       switch (marker.type) {
         case "spawn": {
           const spawn = this.spawnRepository.findById(marker.id);
@@ -153,34 +190,6 @@ export class MarkerImplService implements MarkerService {
           throw new InternalServerError("Unknown marker type: " + marker.type);
       }
     });
-  }
-
-  async search(
-    query: string,
-    limit: number,
-    offset: number
-  ): Promise<Page<Marker>> {
-    const { items, next, prev } = await this.searchRepository.search(
-      query,
-      limit,
-      offset
-    );
-
-    const markers = [];
-    for (const item of items) {
-      const marker = await this.markerRepository.findById(item.id);
-
-      markers.push({
-        id: marker.id,
-        type: marker.type,
-        title: marker.title,
-        subtitle: marker.subtitle,
-        coordinates:
-          marker.x !== null && marker.y !== null
-            ? { x: marker.x, y: marker.y }
-            : null,
-      });
-    }
 
     return {
       items: markers,

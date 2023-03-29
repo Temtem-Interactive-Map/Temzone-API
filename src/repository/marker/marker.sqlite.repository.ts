@@ -1,4 +1,5 @@
 import { Kysely } from "kysely";
+import { Page } from "model/page";
 import { TemzoneDatabase } from "repository/database/sqlite.database";
 import { MarkerRepository } from "repository/marker/marker.repository";
 import { MarkerEntity } from "repository/marker/model/marker.entity";
@@ -53,13 +54,25 @@ export class MarkerSqliteRepository implements MarkerRepository {
       .executeTakeFirstOrThrow();
   }
 
-  async findByTypes(types: string[]): Promise<MarkerEntity[]> {
-    return await this.db
+  async getAll(limit: number, offset: number): Promise<Page<MarkerEntity>> {
+    const { count } = (await this.db
+      .selectFrom("markers")
+      .select(this.db.fn.count("id").as("count"))
+      .executeTakeFirstOrThrow()) as { count: number };
+
+    const items = await this.db
       .selectFrom("markers")
       .selectAll()
-      .where("type", "in", types)
       .orderBy("title", "asc")
       .orderBy("subtitle", "asc")
       .execute();
+
+    const next = offset + items.length < count ? offset + limit : null;
+    const prev =
+      offset > 0 && items.length > 0 && offset - limit >= 0
+        ? offset - limit
+        : null;
+
+    return { items, next, prev };
   }
 }

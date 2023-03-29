@@ -49,27 +49,6 @@ export const coordinates = z.object(
   { invalid_type_error: "coordinates", required_error: "coordinates" }
 );
 
-export const types = z
-  .preprocess(
-    (types) => [
-      ...new Set(
-        z
-          .string()
-          .parse(types, {
-            errorMap: () => {
-              return { message: "types" };
-            },
-          })
-          .split(/%2C/)
-      ),
-    ],
-    z.string().array()
-  )
-  .refine(
-    (types) => types.every((type) => MARKER_TYPES.includes(type)),
-    "types"
-  );
-
 export const query = z.string({
   invalid_type_error: "query",
   required_error: "query",
