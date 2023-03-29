@@ -82,19 +82,22 @@ describe("Testing routes", async () => {
       method: "GET",
       token: adminToken,
       query: {
-        types: "spawn,saipark",
+        limit: "3",
+        offset: "0",
       },
     });
 
     expect(response).toBeDefined();
     expect(response.status).toBe(200);
 
-    const data = (await response.json()) as Marker[];
+    const data = (await response.json()) as Page<Marker>;
 
     expect(data).toBeDefined();
-    expect(data.length).toBe(3);
+    expect(data.items.length).toBe(3);
+    expect(data.next).toBeNull();
+    expect(data.prev).toBeNull();
 
-    const data1 = data[0] as SpawnMarker;
+    const data1 = data.items[0] as SpawnMarker;
     expect(data1.id).toBe("5bd4650d-3105-5c0c-8a42-141a33180873");
     expect(data1.type).toBe("spawn");
     expect(data1.title).toBe("Ampling");
@@ -103,7 +106,7 @@ describe("Testing routes", async () => {
     expect(data1.condition).toBe("Requires Fishing Rod");
     expect(data1.coordinates).toBeNull();
 
-    const data2 = data[1] as SaiparkMarker;
+    const data2 = data.items[1] as SaiparkMarker;
     expect(data2.id).toBe("31bf1631-972e-56e1-9838-ded1c799356f");
     expect(data2.type).toBe("saipark");
     expect(data2.title).toBe("Saipark");
@@ -114,7 +117,7 @@ describe("Testing routes", async () => {
     expect((data2.coordinates as Coordinates).x).toBe(100);
     expect((data2.coordinates as Coordinates).y).toBe(200);
 
-    const data3 = data[2] as SpawnMarker;
+    const data3 = data.items[2] as SpawnMarker;
     expect(data3.id).toBe("84181c19-eb7f-58c4-aba0-19e189154df2");
     expect(data3.type).toBe("spawn");
     expect(data3.title).toBe("Scarawatt");
@@ -122,25 +125,6 @@ describe("Testing routes", async () => {
     expect((data3.subtitle as Subtitle).original).toBe("Iwaba, Area 1");
     expect(data3.condition).toBeNull();
     expect(data3.coordinates).toBeNull();
-  });
-
-  it("route GET '/markers' should return 400 Bad Request", async () => {
-    for (const query of [undefined, { types: "" }, { types: "unknown" }]) {
-      const response = await request("/markers", {
-        method: "GET",
-        token: adminToken,
-        query,
-      });
-
-      expect(response).toBeDefined();
-      expect(response.status).toBe(400);
-
-      const data = (await response.json()) as Error;
-
-      expect(data).toBeDefined();
-      expect(data.status).toBe(400);
-      expect(data.message).toBe(t("400", { param: "types" }));
-    }
   });
 
   it("route GET '/markers' should return 403 Forbidden", async () => {
