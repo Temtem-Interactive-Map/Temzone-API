@@ -4,20 +4,20 @@
     "subtitle": "West from Praise Coast",
     "areas": [
       {
-        "area": "Fields",
-        "rate": 95,
-        "lumaRate": 4,
-        "minSVs": 0,
-        "eggMoves": 16,
-        "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
+        "area": "Water",
+        "rate": 80,
+        "lumaRate": 1,
+        "minSVs": 26,
+        "eggMoves": 10,
+        "temtemId": "779934f7-a8f1-5d8d-8e79-5e99778e9b38"
       },
       {
-        "area": "Hills",
-        "rate": 100,
-        "lumaRate": 4,
-        "minSVs": 0,
-        "eggMoves": 11,
-        "temtemId": "f88b68cb-a120-53c7-b303-9dc19e517190"
+        "area": "",
+        "rate": null,
+        "lumaRate": null,
+        "minSVs": null,
+        "eggMoves": null,
+        "temtemId": "1b4db7eb-4057-5ddf-91e0-36dec72071f5"
       }
     ]
   }
