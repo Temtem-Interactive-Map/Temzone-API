@@ -1,4 +1,3 @@
-import { statSync } from "node:fs";
 import { readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "path";
 import { v5 as uuid } from "uuid";
@@ -15,13 +14,6 @@ export function generateId(...args) {
   const id = args.join(" ");
 
   return uuid(id, uuid.URL);
-}
-
-export function lastModifiedDBFile(fileName) {
-  const path = join(process.cwd(), "database", fileName + ".json");
-  const stats = statSync(path);
-
-  return stats.mtime;
 }
 
 export async function writeDBFile(fileName, newData) {
