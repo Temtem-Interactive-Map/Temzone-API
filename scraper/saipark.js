@@ -1,4 +1,4 @@
-import { generateId, lastModifiedDBFile } from "./utils/database/index.js";
+import { generateId } from "./utils/database/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
@@ -6,10 +6,11 @@ export async function scrapeSaipark() {
   logInfo("Scraping [saipark]...");
   const saipark = {};
   const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
+  const tables = $("table[style*='border-radius']");
   const saipark1 = new Saipark();
-  await saipark1.scrape($("table:nth-child(12)"));
+  await saipark1.scrape($(tables[0]));
   const saipark2 = new Saipark();
-  await saipark2.scrape($("table:nth-child(13)"));
+  await saipark2.scrape($(tables[1]));
   const id = generateId("Saipark");
 
   saipark[id] = {
@@ -22,7 +23,7 @@ export async function scrapeSaipark() {
         lumaRate: saipark1.lumaRate,
         minSVs: saipark1.minSVs,
         eggMoves: saipark1.eggMoves,
-        temtemId: generateId(saipark1.name),
+        temtemId: generateId(saipark1.temtem),
       },
       {
         area: saipark2.area,
@@ -30,14 +31,18 @@ export async function scrapeSaipark() {
         lumaRate: saipark2.lumaRate,
         minSVs: saipark2.minSVs,
         eggMoves: saipark2.eggMoves,
-        temtemId: generateId(saipark2.name),
+        temtemId: generateId(saipark2.temtem),
       },
     ],
   };
 
   const currentDate = new Date();
-  const lastModifiedDate = lastModifiedDBFile("saipark");
-  const rawDate = $("h3:nth-child(11) > span.mw-headline").text();
+  const lastModifiedDate = await fetch(
+    "https://api.github.com/repos/Temtem-Interactive-Map/Temzone-API/commits?path=database/saipark.json&page=1&per_page=1"
+  )
+    .then((res) => res.json())
+    .then((commits) => new Date(commits[0].commit.committer.date));
+  const rawDate = $("#Temtem").parent().next().find("span.mw-headline").text();
   const date = cleanText(rawDate);
   const dates = date.split("-").map((date) => date.trim());
   const startDate = new Date(dates[0] + dates[1].substring(2));
@@ -54,22 +59,15 @@ export async function scrapeSaipark() {
 
 class Saipark {
   async scrape($) {
+    this.temtem = this.temtem($);
     this.area = this.area($);
-    this.name = this.name($);
     this.rate = this.rate($);
     this.lumaRate = this.lumaRate($);
     this.minSVs = this.minSVs($);
     this.eggMoves = this.eggMoves($);
   }
 
-  area($) {
-    const rawArea = $.find("tbody > tr:nth-child(1) > td > div > p").text();
-    const area = cleanText(rawArea);
-
-    return area;
-  }
-
-  name($) {
+  temtem($) {
     const rawName = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > p"
     ).text();
@@ -80,6 +78,13 @@ class Saipark {
       : name === "Koish"
       ? "Koish (Water)"
       : name;
+  }
+
+  area($) {
+    const rawArea = $.find("tbody > tr:nth-child(1) > td > div > p").text();
+    const area = cleanText(rawArea);
+
+    return area;
   }
 
   rate($) {
