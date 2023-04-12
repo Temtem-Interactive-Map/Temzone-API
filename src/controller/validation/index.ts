@@ -27,7 +27,8 @@ export const subtitle = z
 export const condition = z
   .string({ invalid_type_error: "condition", required_error: "condition" })
   .max(40, "condition")
-  .nullable();
+  .nullable()
+  .transform((condition) => (condition === "" ? null : condition));
 
 export const coordinates = z.object(
   {
