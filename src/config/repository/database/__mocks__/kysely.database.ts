@@ -33,6 +33,9 @@ await db.schema
   )
   .execute();
 
+// eslint-disable-next-line @typescript-eslint/no-empty-function, @typescript-eslint/no-unused-vars
+export function initSqliteDatabase(_database: D1Database) {}
+
 export function getSqliteDatabase(): Kysely<TemzoneDatabase> {
   return db;
 }

@@ -30,8 +30,9 @@ export class MarkerSqliteRepository implements MarkerRepository {
     return await this.db
       .updateTable("markers")
       .set({ subtitle, condition, x, y })
-      .where("id", "=", id)
-      .where("type", "=", "spawn")
+      .where(({ cmpr, and }) =>
+        and([cmpr("id", "=", id), cmpr("type", "=", "spawn")])
+      )
       .returningAll()
       .executeTakeFirstOrThrow();
   }
@@ -40,8 +41,9 @@ export class MarkerSqliteRepository implements MarkerRepository {
     return await this.db
       .updateTable("markers")
       .set({ x, y })
-      .where("id", "=", id)
-      .where("type", "=", "saipark")
+      .where(({ cmpr, and }) =>
+        and([cmpr("id", "=", id), cmpr("type", "=", "saipark")])
+      )
       .returningAll()
       .executeTakeFirstOrThrow();
   }
@@ -54,10 +56,10 @@ export class MarkerSqliteRepository implements MarkerRepository {
       .executeTakeFirstOrThrow();
   }
 
-  async getAll(limit: number, offset: number): Promise<Page<MarkerEntity>> {
+  async getPage(limit: number, offset: number): Promise<Page<MarkerEntity>> {
     const { count } = (await this.db
       .selectFrom("markers")
-      .select(this.db.fn.count("id").as("count"))
+      .select(this.db.fn.countAll().as("count"))
       .executeTakeFirstOrThrow()) as { count: number };
 
     const items = await this.db
@@ -76,5 +78,13 @@ export class MarkerSqliteRepository implements MarkerRepository {
         : null;
 
     return { items, next, prev };
+  }
+
+  async getByIds(ids: string[]): Promise<MarkerEntity[]> {
+    return await this.db
+      .selectFrom("markers")
+      .selectAll()
+      .where("id", "in", ids)
+      .execute();
   }
 }

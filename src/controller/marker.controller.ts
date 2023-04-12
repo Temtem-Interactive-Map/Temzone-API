@@ -23,7 +23,7 @@ route.get(
   async (ctx) => {
     const markerService = getMarkerService(ctx);
     const { limit, offset } = ctx.req.valid("query");
-    const result = await markerService.getAll(limit, offset);
+    const result = await markerService.getPage(limit, offset);
 
     return ctx.json(result, 200);
   }
