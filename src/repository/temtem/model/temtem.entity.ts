@@ -1,4 +1,5 @@
 export interface TemtemEntity {
+  id: string;
   tempediaId: number;
   name: string;
   description: string;
