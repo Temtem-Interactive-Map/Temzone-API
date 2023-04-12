@@ -4,11 +4,13 @@ import { getLyraDatabase } from "config/repository/database/lyra.database";
 import app from "index";
 import { t } from "locales";
 import { Page } from "model/page";
+import { MarkerUserEntity } from "repository/marker-user/model/marker-user.entity";
 import { MarkerEntity } from "repository/marker/model/marker.entity";
 import { SearchEntity } from "repository/search/model/search.entity";
 import { Coordinates, Marker, Subtitle } from "service/marker/model/marker";
 import { SaiparkMarker } from "service/marker/model/saipark.marker";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
+import { UserMarker } from "service/marker/model/user.marker";
 import { populateDatabase, restoreDatabase } from "test/database";
 import { adminToken, userToken } from "test/firebase";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
@@ -127,6 +129,43 @@ describe("Testing routes", async () => {
     expect(data3.coordinates).toBeNull();
   });
 
+  it("route GET '/markers' should return 400 Bad Request", async () => {
+    for (const limit of ["-1", "201"]) {
+      const response = await request("/markers", {
+        method: "GET",
+        token: adminToken,
+        query: {
+          limit,
+          offset: "0",
+        },
+      });
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(400);
+
+      const data = (await response.json()) as Error;
+
+      expect(data).toBeDefined();
+      expect(data.status).toBe(400);
+      expect(data.message).toBe(t("400", { param: "limit" }));
+    }
+  });
+
+  it("route GET '/markers' should return 401 Unauthorized", async () => {
+    const response = await request("/markers", {
+      method: "GET",
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
   it("route GET '/markers' should return 403 Forbidden", async () => {
     const response = await request("/markers", {
       method: "GET",
@@ -242,6 +281,29 @@ describe("Testing routes", async () => {
       expect(data.status).toBe(400);
       expect(data.message).toBe(t("400", { param }));
     }
+  });
+
+  it("route POST '/markers' should return 401 Unauthorized", async () => {
+    const response = await request("/markers", {
+      method: "POST",
+      body: [
+        {
+          id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+          type: "spawn",
+          title: "Mimit",
+          subtitle: "Iwaba, Area 3",
+        },
+      ],
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
   });
 
   it("route POST '/markers' should return 403 Forbidden", async () => {
@@ -380,6 +442,32 @@ describe("Testing routes", async () => {
       expect(data.status).toBe(400);
       expect(data.message).toBe(t("400", { param }));
     }
+  });
+
+  it("route PUT '/markers/spawns/:id' should return 401 Unauthorized", async () => {
+    const response = await request(
+      "/markers/spawns/84181c19-eb7f-58c4-aba0-19e189154df2",
+      {
+        method: "PUT",
+        body: {
+          subtitle: "Iwaba, Area 2",
+          condition: "Requires Fishing Rod",
+          coordinates: {
+            x: 100,
+            y: 200,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
   });
 
   it("route PUT '/markers/spawns/:id' should return 403 Forbidden", async () => {
@@ -522,6 +610,30 @@ describe("Testing routes", async () => {
     }
   });
 
+  it("route PUT '/markers/saipark/:id' should return 401 Unauthorized", async () => {
+    const response = await request(
+      "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+      {
+        method: "PUT",
+        body: {
+          coordinates: {
+            x: 200,
+            y: 400,
+          },
+        },
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
   it("route PUT '/markers/saipark/:id' should return 403 Forbidden", async () => {
     const response = await request(
       "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
@@ -617,6 +729,26 @@ describe("Testing routes", async () => {
     }
   });
 
+  it("route GET '/search' should return 401 Unauthorized", async () => {
+    const response = await request("/search", {
+      method: "GET",
+      query: {
+        query: "saipark",
+        limit: "1",
+        offset: "0",
+      },
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
   it("route GET '/static/types/crystal.png' should return 200 Ok", async () => {
     for (const token of [userToken, adminToken]) {
       const response = await request("/static/types/crystal.png", {
@@ -642,5 +774,193 @@ describe("Testing routes", async () => {
     expect(data).toBeDefined();
     expect(data.status).toBe(401);
     expect(data.message).toBe(t("401"));
+  });
+
+  it("route GET '/user/markers' should return 200 Ok", async () => {
+    const sqliteDB = getSqliteDatabase();
+    await sqliteDB
+      .insertInto("markers")
+      .values({
+        id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+        type: "spawn",
+        title: "Mimit",
+        subtitle: "Iwaba, Area 3",
+        x: 200,
+        y: 100,
+      })
+      .execute();
+    await sqliteDB
+      .insertInto("markers_users")
+      .values({
+        marker_id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+        user_id: "pdbN0PmdDWXTTvWAkW4EnrftVyyu",
+      })
+      .execute();
+
+    const response = await request("/user/markers", {
+      method: "GET",
+      token: userToken,
+      query: {
+        limit: "2",
+        offset: "0",
+      },
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(200);
+
+    const data = (await response.json()) as Page<UserMarker>;
+
+    expect(data).toBeDefined();
+    expect(data.items.length).toBe(2);
+    expect(data.next).toBeNull();
+    expect(data.prev).toBeNull();
+
+    const data1 = data.items[0] as UserMarker;
+    expect(data1.id).toBe("31bf1631-972e-56e1-9838-ded1c799356f");
+    expect(data1.type).toBe("saipark");
+    expect(data1.title).toBe("Saipark");
+    expect(data1.subtitle as string).toBe("West from Praise Coast");
+    expect((data1.coordinates as Coordinates).x).toBe(100);
+    expect((data1.coordinates as Coordinates).y).toBe(200);
+    expect(data1.obtained).toBe(false);
+
+    const data2 = data.items[1] as UserMarker;
+    expect(data2.id).toBe("7f45ffbb-94ca-5144-80b5-167cbdc0472f");
+    expect(data2.type).toBe("spawn");
+    expect(data2.title).toBe("Mimit");
+    expect(data2.subtitle as string).toBe("Iwaba, Area 3");
+    expect((data2.coordinates as Coordinates).x).toBe(200);
+    expect((data2.coordinates as Coordinates).y).toBe(100);
+  });
+
+  it("route GET '/user/markers' should return 400 Bad Request", async () => {
+    for (const limit of ["-1", "201"]) {
+      const response = await request("/user/markers", {
+        method: "GET",
+        token: userToken,
+        query: {
+          limit,
+          offset: "0",
+        },
+      });
+
+      expect(response).toBeDefined();
+      expect(response.status).toBe(400);
+
+      const data = (await response.json()) as Error;
+
+      expect(data).toBeDefined();
+      expect(data.status).toBe(400);
+      expect(data.message).toBe(t("400", { param: "limit" }));
+    }
+  });
+
+  it("route GET '/user/markers' should return 401 Unauthorized", async () => {
+    const response = await request("/user/markers", {
+      method: "GET",
+    });
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
+  it("route PUT '/user/temtem/:id' should return 204 No Content", async () => {
+    const sqliteDB = getSqliteDatabase();
+    await sqliteDB
+      .insertInto("markers")
+      .values([
+        {
+          id: "10309edc-b22b-587e-bae8-bb1bfcbcb44f",
+          type: "spawn",
+          title: "0b1",
+          subtitle: "Pillars of Highabove, Area 5",
+          x: null,
+          y: null,
+        },
+        {
+          id: "cf6cd59a-9307-548c-a458-b3a7e94431ce",
+          type: "spawn",
+          title: "0b1",
+          subtitle: "Pillars of Highabove, Area 6",
+          x: null,
+          y: null,
+        },
+      ])
+      .execute();
+
+    const response = await request(
+      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      {
+        method: "PUT",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(204);
+
+    const data1 = (await sqliteDB
+      .selectFrom("markers_users")
+      .selectAll()
+      .where("marker_id", "=", "10309edc-b22b-587e-bae8-bb1bfcbcb44f")
+      .executeTakeFirstOrThrow()) as MarkerUserEntity;
+
+    expect(data1).toBeDefined();
+    expect(data1.marker_id).toBe("10309edc-b22b-587e-bae8-bb1bfcbcb44f");
+    expect(data1.user_id).toBe("pdbN0PmdDWXTTvWAkW4EnrftVyyu");
+
+    const data2 = (await sqliteDB
+      .selectFrom("markers_users")
+      .selectAll()
+      .where("marker_id", "=", "cf6cd59a-9307-548c-a458-b3a7e94431ce")
+      .executeTakeFirstOrThrow()) as MarkerUserEntity;
+
+    expect(data2).toBeDefined();
+    expect(data2.marker_id).toBe("cf6cd59a-9307-548c-a458-b3a7e94431ce");
+    expect(data2.user_id).toBe("pdbN0PmdDWXTTvWAkW4EnrftVyyu");
+  });
+
+  it("route PUT '/user/temtem/:id' should return 401 Unauthorized", async () => {
+    const response = await request(
+      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      {
+        method: "PUT",
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
+  it("route PUT '/user/temtem/:id' should return 404 Not Found", async () => {
+    const response = await request(
+      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      {
+        method: "PUT",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(404);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(404);
+    expect(data.message).toBe(t("404", { request: "temtem" }));
   });
 });
