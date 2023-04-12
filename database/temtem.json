@@ -116,11 +116,13 @@
     },
     "evolutions": [
       {
-        "condition": "+35 Levels",
+        "name": "Zaobian",
         "traits": [
           "Attack<T>",
           "Voltaic Charge"
-        ]
+        ],
+        "condition": "+35 Levels",
+        "image": "static/temtem/zaobian.png"
       }
     ]
   },
@@ -1008,11 +1010,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Molgu",
         "traits": [
           "Splitter",
           "Sentinel"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/molgu.png"
       }
     ]
   },
@@ -1140,11 +1144,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Platox",
         "traits": [
           "Resistant",
           "Resilient"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/platox.png"
       }
     ]
   },
@@ -1212,11 +1218,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Platimous",
         "traits": [
           "Zen",
           "Determined"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/platimous.png"
       }
     ]
   },
@@ -1344,11 +1352,13 @@
     },
     "evolutions": [
       {
-        "condition": "+8 Levels",
+        "name": "Loali",
         "traits": [
           "Botanist",
           "Backhanded"
-        ]
+        ],
+        "condition": "+8 Levels",
+        "image": "static/temtem/loali.png"
       }
     ]
   },
@@ -1600,11 +1610,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Magmut",
         "traits": [
           "Specgulp",
           "Physgulp"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/magmut.png"
       }
     ]
   },
@@ -1732,11 +1744,13 @@
     },
     "evolutions": [
       {
-        "condition": "+7 Levels",
+        "name": "Paharac",
         "traits": [
           "Caffeinated",
           "Camaraderie"
-        ]
+        ],
+        "condition": "+7 Levels",
+        "image": "static/temtem/paharac.png"
       }
     ]
   },
@@ -1800,11 +1814,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Granpah",
         "traits": [
           "Last Rush",
           "Bully"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/granpah.png"
       }
     ]
   },
@@ -1928,11 +1944,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Amphatyr",
         "traits": [
           "Relaxed",
           "Infectious"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/amphatyr.png"
       }
     ]
   },
@@ -2064,11 +2082,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Mudrid",
         "traits": [
           "Receptive",
           "Resistant"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/mudrid.png"
       }
     ]
   },
@@ -2196,11 +2216,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Taifu",
         "traits": [
           "Toxic Farewell",
           "Resilient"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/taifu.png"
       }
     ]
   },
@@ -2324,11 +2346,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Wiplump",
         "traits": [
           "Plethoric",
           "Patient"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/wiplump.png"
       }
     ]
   },
@@ -2456,11 +2480,13 @@
     },
     "evolutions": [
       {
-        "condition": "+17 Levels",
+        "name": "Skunch",
         "traits": [
           "Brawny",
           "Bully"
-        ]
+        ],
+        "condition": "+17 Levels",
+        "image": "static/temtem/skunch.png"
       }
     ]
   },
@@ -2588,11 +2614,13 @@
     },
     "evolutions": [
       {
-        "condition": "+13 Levels",
+        "name": "Mouflank",
         "traits": [
           "Hurry-wart",
           "Unnoticed"
-        ]
+        ],
+        "condition": "+13 Levels",
+        "image": "static/temtem/mouflank.png"
       }
     ]
   },
@@ -2780,11 +2808,13 @@
     },
     "evolutions": [
       {
-        "condition": "+29 Levels",
+        "name": "Tental",
         "traits": [
           "Avenger",
           "Water Affinity"
-        ]
+        ],
+        "condition": "+29 Levels",
+        "image": "static/temtem/tental.png"
       }
     ]
   },
@@ -2848,11 +2878,13 @@
     },
     "evolutions": [
       {
-        "condition": "+24 Levels",
+        "name": "Nagaise",
         "traits": [
           "Deceit Aura",
           "Water Custodian"
-        ]
+        ],
+        "condition": "+24 Levels",
+        "image": "static/temtem/nagaise.png"
       }
     ]
   },
@@ -2984,11 +3016,13 @@
     },
     "evolutions": [
       {
-        "condition": "+22 Levels",
+        "name": "Nidrasil",
         "traits": [
           "Tri-Phytologist",
           "Tri-Apothecary"
-        ]
+        ],
+        "condition": "+22 Levels",
+        "image": "static/temtem/nidrasil.png"
       }
     ]
   },
@@ -3116,11 +3150,13 @@
     },
     "evolutions": [
       {
-        "condition": "+17 Levels",
+        "name": "Capyre",
         "traits": [
           "Last Rush",
           "Resilient"
-        ]
+        ],
+        "condition": "+17 Levels",
+        "image": "static/temtem/capyre.png"
       }
     ]
   },
@@ -3244,11 +3280,13 @@
     },
     "evolutions": [
       {
-        "condition": "+25 Levels",
+        "name": "Azuroc",
         "traits": [
           "Mirroring",
           "Fainted Curse"
-        ]
+        ],
+        "condition": "+25 Levels",
+        "image": "static/temtem/azuroc.png"
       }
     ]
   },
@@ -3312,11 +3350,13 @@
     },
     "evolutions": [
       {
-        "condition": "Trade",
+        "name": "Zenoreth",
         "traits": [
           "Channeler",
           "Wrecked Farewell"
-        ]
+        ],
+        "condition": "Trade",
+        "image": "static/temtem/zenoreth.png"
       }
     ]
   },
@@ -3440,11 +3480,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Aohi",
         "traits": [
           "Warm Gift",
           "Ignis Fatuus"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/aohi.png"
       }
     ]
   },
@@ -3572,11 +3614,13 @@
     },
     "evolutions": [
       {
-        "condition": "+18 Levels",
+        "name": "Babawa",
         "traits": [
           "Mucous",
           "Withdrawal"
-        ]
+        ],
+        "condition": "+18 Levels",
+        "image": "static/temtem/babawa.png"
       }
     ]
   },
@@ -3708,11 +3752,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "0b10",
         "traits": [
           "Source Replicator",
           "Target Replicator"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/0b10.png"
       }
     ]
   },
@@ -3840,11 +3886,13 @@
     },
     "evolutions": [
       {
-        "condition": "+11 Levels",
+        "name": "Saku",
         "traits": [
           "Air Specialist",
           "Botanist"
-        ]
+        ],
+        "condition": "+11 Levels",
+        "image": "static/temtem/saku.png"
       }
     ]
   },
@@ -4040,18 +4088,22 @@
     },
     "evolutions": [
       {
-        "condition": "+10 Levels (Male)",
+        "name": "Owlhe",
         "traits": [
           "Determined",
           "Bruiser"
-        ]
+        ],
+        "condition": "+10 Levels (Male)",
+        "image": "static/temtem/owlhe.png"
       },
       {
-        "condition": "+10 Levels (Female)",
+        "name": "Barnshe",
         "traits": [
           "Neutrality",
           "Air Specialist"
-        ]
+        ],
+        "condition": "+10 Levels (Female)",
+        "image": "static/temtem/barnshe.png"
       }
     ]
   },
@@ -4307,11 +4359,13 @@
     },
     "evolutions": [
       {
-        "condition": "+18 Levels",
+        "name": "Myx",
         "traits": [
           "Puppet Master",
           "Rejuvenate"
-        ]
+        ],
+        "condition": "+18 Levels",
+        "image": "static/temtem/myx.png"
       }
     ]
   },
@@ -4439,11 +4493,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Raize",
         "traits": [
           "Furor",
           "Demoralize"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/raize.png"
       }
     ]
   },
@@ -4507,11 +4563,13 @@
     },
     "evolutions": [
       {
-        "condition": "+25 Levels",
+        "name": "Raican",
         "traits": [
           "Prideful",
           "Motivator"
-        ]
+        ],
+        "condition": "+25 Levels",
+        "image": "static/temtem/raican.png"
       }
     ]
   },
@@ -4635,11 +4693,13 @@
     },
     "evolutions": [
       {
-        "condition": "+13 Levels",
+        "name": "Piraniant",
         "traits": [
           "Patient",
           "Energy Reserves"
-        ]
+        ],
+        "condition": "+13 Levels",
+        "image": "static/temtem/piraniant.png"
       }
     ]
   },
@@ -4763,11 +4823,13 @@
     },
     "evolutions": [
       {
-        "condition": "+12 Levels",
+        "name": "Scaravolt",
         "traits": [
           "Half Full",
           "Good Friend"
-        ]
+        ],
+        "condition": "+12 Levels",
+        "image": "static/temtem/scaravolt.png"
       }
     ]
   },
@@ -4899,11 +4961,13 @@
     },
     "evolutions": [
       {
-        "condition": "+13 Levels",
+        "name": "Hedgine",
         "traits": [
           "Gotta Go Fast",
           "Going Away Gift"
-        ]
+        ],
+        "condition": "+13 Levels",
+        "image": "static/temtem/hedgine.png"
       }
     ]
   },
@@ -5031,11 +5095,13 @@
     },
     "evolutions": [
       {
-        "condition": "+12 Levels",
+        "name": "Osukan",
         "traits": [
           "Furor",
           "Parrier"
-        ]
+        ],
+        "condition": "+12 Levels",
+        "image": "static/temtem/osukan.png"
       }
     ]
   },
@@ -5103,11 +5169,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Osukai",
         "traits": [
           "Sensei",
           "Body Stretch"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/osukai.png"
       }
     ]
   },
@@ -5303,11 +5371,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Drakash",
         "traits": [
           "Heat Discharge",
           "Sentinel"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/drakash.png"
       }
     ]
   },
@@ -5435,11 +5505,13 @@
     },
     "evolutions": [
       {
-        "condition": "+30 Levels",
+        "name": "Sherald",
         "traits": [
           "Mirroring",
           "Provident"
-        ]
+        ],
+        "condition": "+30 Levels",
+        "image": "static/temtem/sherald.png"
       }
     ]
   },
@@ -5503,11 +5575,13 @@
     },
     "evolutions": [
       {
-        "condition": "+21 Levels",
+        "name": "Tortenite",
         "traits": [
           "Confined",
           "Efficient"
-        ]
+        ],
+        "condition": "+21 Levels",
+        "image": "static/temtem/tortenite.png"
       }
     ]
   },
@@ -5699,11 +5773,13 @@
     },
     "evolutions": [
       {
-        "condition": "+12 Levels",
+        "name": "Shaolant",
         "traits": [
           "Welcomer",
           "Bruiser"
-        ]
+        ],
+        "condition": "+12 Levels",
+        "image": "static/temtem/shaolant.png"
       }
     ]
   },
@@ -5891,11 +5967,13 @@
     },
     "evolutions": [
       {
-        "condition": "+21 Levels",
+        "name": "Pocus",
         "traits": [
           "Dreaded Alarm",
           "Rejuvenate"
-        ]
+        ],
+        "condition": "+21 Levels",
+        "image": "static/temtem/pocus.png"
       }
     ]
   },
@@ -6019,11 +6097,13 @@
     },
     "evolutions": [
       {
-        "condition": "+30 Levels",
+        "name": "Sparzy",
         "traits": [
           "Last Rush",
           "Inductor"
-        ]
+        ],
+        "condition": "+30 Levels",
+        "image": "static/temtem/sparzy.png"
       }
     ]
   },
@@ -6087,11 +6167,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Golzy",
         "traits": [
           "Defuser",
           "Voltaic Charge"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/golzy.png"
       }
     ]
   },
@@ -6219,11 +6301,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Mushook",
         "traits": [
           "Parrier",
           "Tireless"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/mushook.png"
       }
     ]
   },
@@ -6351,11 +6435,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Mastione",
         "traits": [
           "Solidifier",
           "Pyromaniac"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/mastione.png"
       }
     ]
   },
@@ -6483,11 +6569,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Ukama",
         "traits": [
           "Hydrologist",
           "Plethoric"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/ukama.png"
       }
     ]
   },
@@ -6611,11 +6699,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Raignet",
         "traits": [
           "Kinetic Transfer",
           "Electric Custodian"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/raignet.png"
       }
     ]
   },
@@ -6739,11 +6829,13 @@
     },
     "evolutions": [
       {
-        "condition": "+29 Levels",
+        "name": "Baboong",
         "traits": [
           "Brawny",
           "Warm-Blooded"
-        ]
+        ],
+        "condition": "+29 Levels",
+        "image": "static/temtem/baboong.png"
       }
     ]
   },
@@ -6807,11 +6899,13 @@
     },
     "evolutions": [
       {
-        "condition": "+23 Levels",
+        "name": "Seismunch",
         "traits": [
           "Self-Esteem",
           "Earthbound"
-        ]
+        ],
+        "condition": "+23 Levels",
+        "image": "static/temtem/seismunch.png"
       }
     ]
   },
@@ -7059,11 +7153,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Sanbi",
         "traits": [
           "Dozing Hit",
           "Inner Shield"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/sanbi.png"
       }
     ]
   },
@@ -7247,11 +7343,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Kauren",
         "traits": [
           "Scavenger",
           "Skull Helmet"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/kauren.png"
       }
     ]
   },
@@ -7375,11 +7473,13 @@
     },
     "evolutions": [
       {
-        "condition": "+12 Levels",
+        "name": "Deendre",
         "traits": [
           "Mithridatism",
           "Settling"
-        ]
+        ],
+        "condition": "+12 Levels",
+        "image": "static/temtem/deendre.png"
       }
     ]
   },
@@ -7443,11 +7543,13 @@
     },
     "evolutions": [
       {
-        "condition": "+25 Levels",
+        "name": "Cerneaf",
         "traits": [
           "Callosity",
           "Settling"
-        ]
+        ],
+        "condition": "+25 Levels",
+        "image": "static/temtem/cerneaf.png"
       }
     ]
   },
@@ -7571,11 +7673,13 @@
     },
     "evolutions": [
       {
-        "condition": "+30 Levels",
+        "name": "Noxolotl",
         "traits": [
           "Trance",
           "Toxic Skin"
-        ]
+        ],
+        "condition": "+30 Levels",
+        "image": "static/temtem/noxolotl.png"
       }
     ]
   },
@@ -7699,11 +7803,13 @@
     },
     "evolutions": [
       {
-        "condition": "+25 Levels",
+        "name": "Goolder",
         "traits": [
           "Strong Liver",
           "Punch Bag"
-        ]
+        ],
+        "condition": "+25 Levels",
+        "image": "static/temtem/goolder.png"
       }
     ]
   },
@@ -7831,11 +7937,13 @@
     },
     "evolutions": [
       {
-        "condition": "+22 Levels",
+        "name": "Volarend",
         "traits": [
           "Aerobic",
           "Anaerobic"
-        ]
+        ],
+        "condition": "+22 Levels",
+        "image": "static/temtem/volarend.png"
       }
     ]
   },
@@ -7963,11 +8071,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Grumper",
         "traits": [
           "Inductor",
           "Coward's Rest"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/grumper.png"
       }
     ]
   },
@@ -8099,11 +8209,13 @@
     },
     "evolutions": [
       {
-        "condition": "+27 Levels",
+        "name": "Gazuma",
         "traits": [
           "Receptive",
           "Fast Charge"
-        ]
+        ],
+        "condition": "+27 Levels",
+        "image": "static/temtem/gazuma.png"
       }
     ]
   },
@@ -8355,11 +8467,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Garyo",
         "traits": [
           "Autotomy",
           "Marathonist"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/garyo.png"
       }
     ]
   },
@@ -8487,11 +8601,13 @@
     },
     "evolutions": [
       {
-        "condition": "+10 Levels",
+        "name": "Broccorc",
         "traits": [
           "Immunity",
           "Coward's Rest"
-        ]
+        ],
+        "condition": "+10 Levels",
+        "image": "static/temtem/broccorc.png"
       }
     ]
   },
@@ -8559,11 +8675,13 @@
     },
     "evolutions": [
       {
-        "condition": "+10 Levels",
+        "name": "Broccolem",
         "traits": [
           "Mithridatism",
           "Camouflage"
-        ]
+        ],
+        "condition": "+10 Levels",
+        "image": "static/temtem/broccolem.png"
       }
     ]
   },
@@ -8883,11 +9001,13 @@
     },
     "evolutions": [
       {
-        "condition": "+18 Levels",
+        "name": "Loatle",
         "traits": [
           "Seppuku",
           "Voodoo"
-        ]
+        ],
+        "condition": "+18 Levels",
+        "image": "static/temtem/loatle.png"
       }
     ]
   },
@@ -9015,11 +9135,13 @@
     },
     "evolutions": [
       {
-        "condition": "+18 Levels",
+        "name": "Kalabyss",
         "traits": [
           "Toxic Skin",
           "Mucous"
-        ]
+        ],
+        "condition": "+18 Levels",
+        "image": "static/temtem/kalabyss.png"
       }
     ]
   },
@@ -9211,46 +9333,58 @@
     },
     "evolutions": [
       {
-        "condition": "Shrine at Dabmis' Rest",
+        "name": "Tukai",
         "traits": [
           "Spreader",
           "Hydrologist"
-        ]
+        ],
+        "condition": "Shrine at Dabmis' Rest",
+        "image": "static/temtem/tukai.png"
       },
       {
-        "condition": "Shrine at Altar of the Inner Flame",
+        "name": "Tulcan",
         "traits": [
           "Heater",
           "Pyromaniac"
-        ]
+        ],
+        "condition": "Shrine at Altar of the Inner Flame",
+        "image": "static/temtem/tulcan.png"
       },
       {
-        "condition": "Shrine at Sons of Crystal",
+        "name": "Tuvine",
         "traits": [
           "Receptive",
           "Determined"
-        ]
+        ],
+        "condition": "Shrine at Sons of Crystal",
+        "image": "static/temtem/tuvine.png"
       },
       {
-        "condition": "Shrine at Aisha's Hearth",
+        "name": "Turoc",
         "traits": [
           "Escapist",
           "Tactical Strike"
-        ]
+        ],
+        "condition": "Shrine at Aisha's Hearth",
+        "image": "static/temtem/turoc.png"
       },
       {
-        "condition": "Shrine at Digital Kami Shrine",
+        "name": "Tuwire",
         "traits": [
           "Splitter",
           "Common Factor"
-        ]
+        ],
+        "condition": "Shrine at Digital Kami Shrine",
+        "image": "static/temtem/tuwire.png"
       },
       {
-        "condition": "Shrine at Chieftain's Barrow",
+        "name": "Tutsu",
         "traits": [
           "Tag Team",
           "Contemplation"
-        ]
+        ],
+        "condition": "Shrine at Chieftain's Barrow",
+        "image": "static/temtem/tutsu.png"
       }
     ]
   },
@@ -9766,11 +9900,13 @@
     },
     "evolutions": [
       {
-        "condition": "+14 Levels",
+        "name": "Vulor",
         "traits": [
           "Pyromaniac",
           "Individualist"
-        ]
+        ],
+        "condition": "+14 Levels",
+        "image": "static/temtem/vulor.png"
       }
     ]
   },
@@ -9838,11 +9974,13 @@
     },
     "evolutions": [
       {
-        "condition": "+28 Levels",
+        "name": "Vulcrane",
         "traits": [
           "Receptive",
           "Vigorous"
-        ]
+        ],
+        "condition": "+28 Levels",
+        "image": "static/temtem/vulcrane.png"
       }
     ]
   },
@@ -10926,11 +11064,13 @@
     },
     "evolutions": [
       {
-        "condition": "+15 Levels",
+        "name": "Waspeen",
         "traits": [
           "Royal Jelly",
           "Wax Bath"
-        ]
+        ],
+        "condition": "+15 Levels",
+        "image": "static/temtem/waspeen.png"
       }
     ]
   },
@@ -11062,11 +11202,13 @@
     },
     "evolutions": [
       {
-        "condition": "+16 Levels",
+        "name": "Mawmense",
         "traits": [
           "Viral Combustion",
           "Refurbished"
-        ]
+        ],
+        "condition": "+16 Levels",
+        "image": "static/temtem/mawmense.png"
       }
     ]
   },
@@ -11258,11 +11400,13 @@
     },
     "evolutions": [
       {
-        "condition": "+12 Levels",
+        "name": "Minox",
         "traits": [
           "Body Stretch",
           "Unnoticed"
-        ]
+        ],
+        "condition": "+12 Levels",
+        "image": "static/temtem/minox.png"
       }
     ]
   },
@@ -11330,11 +11474,13 @@
     },
     "evolutions": [
       {
-        "condition": "+13 Levels",
+        "name": "Minothor",
         "traits": [
           "Ruminant",
           "Rusher"
-        ]
+        ],
+        "condition": "+13 Levels",
+        "image": "static/temtem/minothor.png"
       }
     ]
   },
@@ -11526,18 +11672,22 @@
     },
     "evolutions": [
       {
-        "condition": "+17 Levels (Parrier)",
+        "name": "Venmet",
         "traits": [
           "Parrier",
           "Aggressor"
-        ]
+        ],
+        "condition": "+17 Levels (Parrier)",
+        "image": "static/temtem/venmet.png"
       },
       {
-        "condition": "+17 Levels (Arcane Wrap)",
+        "name": "Vental",
         "traits": [
           "Spiritual",
           "Arcane Wrap"
-        ]
+        ],
+        "condition": "+17 Levels (Arcane Wrap)",
+        "image": "static/temtem/vental.png"
       }
     ]
   },
@@ -11861,11 +12011,13 @@
     },
     "evolutions": [
       {
-        "condition": "+20 Levels",
+        "name": "Monkko",
         "traits": [
           "Meditation (Trait)",
           "Shaolin"
-        ]
+        ],
+        "condition": "+20 Levels",
+        "image": "static/temtem/monkko.png"
       }
     ]
   },
@@ -11997,11 +12149,13 @@
     },
     "evolutions": [
       {
-        "condition": "1000 TVs",
+        "name": "Anatan",
         "traits": [
           "Self-Care",
           "Protective Crystal"
-        ]
+        ],
+        "condition": "1000 TVs",
+        "image": "static/temtem/anatan.png"
       }
     ]
   },
