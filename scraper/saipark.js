@@ -22,7 +22,7 @@ export async function scrapeSaipark() {
         rate: saipark1.rate,
         lumaRate: saipark1.lumaRate,
         minSVs: saipark1.minSVs,
-        eggMoves: saipark1.eggMoves,
+        eggTech: saipark1.eggTech,
         temtemId: generateId(saipark1.temtem),
       },
       {
@@ -30,7 +30,7 @@ export async function scrapeSaipark() {
         rate: saipark2.rate,
         lumaRate: saipark2.lumaRate,
         minSVs: saipark2.minSVs,
-        eggMoves: saipark2.eggMoves,
+        eggTech: saipark2.eggTech,
         temtemId: generateId(saipark2.temtem),
       },
     ],
@@ -64,7 +64,7 @@ class Saipark {
     this.rate = this.rate($);
     this.lumaRate = this.lumaRate($);
     this.minSVs = this.minSVs($);
-    this.eggMoves = this.eggMoves($);
+    this.eggTech = this.eggTech($);
   }
 
   temtem($) {
@@ -119,7 +119,7 @@ class Saipark {
     return minSVs;
   }
 
-  eggMoves($) {
+  eggTech($) {
     const rawEggMoves = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(3)"
     ).text();
