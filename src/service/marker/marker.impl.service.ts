@@ -1,5 +1,6 @@
 import { NoResultError } from "kysely";
 import { Page } from "model/page";
+import { MarkerUserRepository } from "repository/marker-user/marker-user.repository";
 import { MarkerRepository } from "repository/marker/marker.repository";
 import { SaiparkRepository } from "repository/saipark/saipark.repository";
 import { SearchRepository } from "repository/search/search.repository";
@@ -11,9 +12,11 @@ import { MarkerService } from "service/marker/marker.service";
 import { Coordinates, Marker } from "service/marker/model/marker";
 import { SaiparkMarker } from "service/marker/model/saipark.marker";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
+import { UserMarker } from "./model/user.marker";
 
 export class MarkerImplService implements MarkerService {
   private readonly markerRepository: MarkerRepository;
+  private readonly markerUserRepository: MarkerUserRepository;
   private readonly spawnRepository: SpawnRepository;
   private readonly saiparkRepository: SaiparkRepository;
   private readonly searchRepository: SearchRepository;
@@ -21,12 +24,14 @@ export class MarkerImplService implements MarkerService {
 
   constructor(
     markerRepository: MarkerRepository,
+    markerUserRepository: MarkerUserRepository,
     spawnRepository: SpawnRepository,
     saiparkRepository: SaiparkRepository,
     searchRepository: SearchRepository,
     temtemRepository: TemtemRepository
   ) {
     this.markerRepository = markerRepository;
+    this.markerUserRepository = markerUserRepository;
     this.spawnRepository = spawnRepository;
     this.saiparkRepository = saiparkRepository;
     this.searchRepository = searchRepository;
@@ -109,6 +114,21 @@ export class MarkerImplService implements MarkerService {
     }
   }
 
+  async markTemtemObtained(userId: string, temtemId: string): Promise<void> {
+    const markerIds = await this.markerRepository.getByIds(
+      this.spawnRepository.getByTemtemId(temtemId).map((spawn) => spawn.id)
+    );
+
+    if (markerIds.length === 0) {
+      throw new NotFoundError("temtem");
+    }
+
+    await this.markerUserRepository.updateMany(
+      userId,
+      markerIds.map((marker) => marker.id)
+    );
+  }
+
   async search(
     query: string,
     limit: number,
@@ -143,8 +163,8 @@ export class MarkerImplService implements MarkerService {
     };
   }
 
-  async getAll(limit: number, offset: number): Promise<Page<Marker>> {
-    const { items, next, prev } = await this.markerRepository.getAll(
+  async getPage(limit: number, offset: number): Promise<Page<Marker>> {
+    const { items, next, prev } = await this.markerRepository.getPage(
       limit,
       offset
     );
@@ -189,6 +209,38 @@ export class MarkerImplService implements MarkerService {
         default:
           throw new InternalServerError("Unknown marker type: " + marker.type);
       }
+    });
+
+    return {
+      items: markers,
+      next,
+      prev,
+    };
+  }
+
+  async getUserPage(
+    userId: string,
+    limit: number,
+    offset: number
+  ): Promise<Page<UserMarker>> {
+    const { items, next, prev } = await this.markerUserRepository.getPage(
+      userId,
+      limit,
+      offset
+    );
+
+    const markers = items.map((marker) => {
+      return {
+        id: marker.id,
+        type: marker.type,
+        title: marker.title,
+        subtitle: marker.subtitle,
+        coordinates: {
+          x: marker.x as number,
+          y: marker.y as number,
+        },
+        obtained: marker.user_id !== null,
+      };
     });
 
     return {
