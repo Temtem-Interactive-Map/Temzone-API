@@ -48,15 +48,17 @@ export async function restoreDatabase(
   sqliteDB: Kysely<TemzoneDatabase>,
   lyraDB: Lyra<SearchSchema>
 ) {
-  const markers = await sqliteDB
+  const markerIds = await sqliteDB
     .selectFrom("markers")
     .select(["id"])
-    .where("x", "!=", null)
-    .where("y", "!=", null)
     .execute();
 
   await Promise.all([
+    sqliteDB.deleteFrom("markers_users").execute(),
     sqliteDB.deleteFrom("markers").execute(),
-    markers.map((marker) => marker.id).forEach((id) => remove(lyraDB, id)),
+    markerIds
+      .map((marker) => marker.id)
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
+      .forEach((id) => remove(lyraDB, id).catch(() => {})),
   ]);
 }
