@@ -1,5 +1,4 @@
 import { initSqliteDatabase } from "config/repository/database/kysely.database";
-import { getMarkerUserRepository } from "config/repository/marker-user.repository";
 import { getMarkerRepository } from "config/repository/marker.repository";
 import { getSaiparkRepository } from "config/repository/saipark.repository";
 import { getSearchRepository } from "config/repository/search.repository";
@@ -13,7 +12,6 @@ export function getMarkerService(ctx: Context): MarkerService {
   initSqliteDatabase(ctx.env?.DB);
 
   const markerRepository = getMarkerRepository();
-  const markerUserRepository = getMarkerUserRepository();
   const spawnRepository = getSpawnRepository();
   const saiparkRepository = getSaiparkRepository();
   const searchRepository = getSearchRepository(ctx.env?.CACHE);
@@ -21,7 +19,6 @@ export function getMarkerService(ctx: Context): MarkerService {
 
   return new MarkerImplService(
     markerRepository,
-    markerUserRepository,
     spawnRepository,
     saiparkRepository,
     searchRepository,

@@ -1,4 +1,4 @@
-import { getMarkerService } from "config/service/marker.service";
+import { getUserService } from "config/service/user.service";
 import { limit, offset } from "controller/validation";
 import { Hono } from "hono";
 import { auth, getUser } from "middleware/auth.middleware";
@@ -12,20 +12,20 @@ route.get(
   auth(),
   validator("query", z.object({ limit, offset })),
   async (ctx) => {
-    const markerService = getMarkerService(ctx);
+    const userService = getUserService(ctx);
     const { limit, offset } = ctx.req.valid("query");
     const user = getUser(ctx);
-    const result = await markerService.getUserPage(user.id, limit, offset);
+    const result = await userService.getMarkers(user.id, limit, offset);
 
     return ctx.json(result, 200);
   }
 );
 
 route.put("/temtem/:id", auth(), async (ctx) => {
-  const markerService = getMarkerService(ctx);
+  const userService = getUserService(ctx);
   const { id } = ctx.req.param();
   const user = getUser(ctx);
-  await markerService.markTemtemObtained(user.id, id);
+  await userService.markTemtemAsObtained(user.id, id);
 
   return ctx.newResponse(null, 204);
 });

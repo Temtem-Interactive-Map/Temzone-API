@@ -78,10 +78,10 @@ export async function scrapeTemtem() {
       const temtemEvolution = creatures[evolution.id];
 
       return {
-        name: evolution.name,
-        condition: evolution.condition,
-        image: temtemEvolution.images.default,
+        name: temtemEvolution.name,
         traits: temtemEvolution.traits.map((trait) => trait.name),
+        condition: evolution.condition,
+        image: temtemEvolution.images.png,
       };
     });
   });

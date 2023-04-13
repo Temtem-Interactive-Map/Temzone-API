@@ -1,11 +1,8 @@
+import { Coordinates } from "model/coordinates";
+
 export interface Subtitle {
   current: string;
   original: string;
-}
-
-export interface Coordinates {
-  x: number;
-  y: number;
 }
 
 export interface Marker {

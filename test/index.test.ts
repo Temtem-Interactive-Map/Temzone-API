@@ -3,14 +3,17 @@ import { getSqliteDatabase } from "config/repository/database/kysely.database";
 import { getLyraDatabase } from "config/repository/database/lyra.database";
 import app from "index";
 import { t } from "locales";
+import { Coordinates } from "model/coordinates";
 import { Page } from "model/page";
 import { MarkerUserEntity } from "repository/marker-user/model/marker-user.entity";
 import { MarkerEntity } from "repository/marker/model/marker.entity";
 import { SearchEntity } from "repository/search/model/search.entity";
-import { Coordinates, Marker, Subtitle } from "service/marker/model/marker";
+import { Marker, Subtitle } from "service/marker/model/marker";
 import { SaiparkMarker } from "service/marker/model/saipark.marker";
+import { SaiparkMarkerDetails } from "service/marker/model/saipark.marker.details";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
-import { UserMarker } from "service/marker/model/user.marker";
+import { SpawnMarkerDetails } from "service/marker/model/spawn.marker.details";
+import { UserMarker } from "service/user/model/user.marker";
 import { populateDatabase, restoreDatabase } from "test/database";
 import { adminToken, userToken } from "test/firebase";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
@@ -322,6 +325,61 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("403"));
   });
 
+  it("route GET '/markers/spawns/:id' should return 200 Ok", async () => {
+    const response = await request(
+      "/markers/spawns/5bd4650d-3105-5c0c-8a42-141a33180873",
+      {
+        method: "GET",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(200);
+
+    const data = (await response.json()) as SpawnMarkerDetails;
+
+    expect(data).toBeDefined();
+    expect(data.id).toBe("5bd4650d-3105-5c0c-8a42-141a33180873");
+  });
+
+  it("route GET '/markers/spawns/:id' should return 401 Unauthorized", async () => {
+    const response = await request(
+      "/markers/spawns/5bd4650d-3105-5c0c-8a42-141a33180873",
+      {
+        method: "GET",
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
+  it("route GET '/markers/spawns/:id' should return 404 Not Found", async () => {
+    const response = await request(
+      "/markers/spawns/7f45ffbb-94ca-5144-80b5-167cbdc0472f",
+      {
+        method: "GET",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(404);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(404);
+    expect(data.message).toBe(t("404", { request: "spawn" }));
+  });
+
   it("route PUT '/markers/spawns/:id' should return 204 No Content", async () => {
     const response = await request(
       "/markers/spawns/84181c19-eb7f-58c4-aba0-19e189154df2",
@@ -516,6 +574,60 @@ describe("Testing routes", async () => {
       expect(data.status).toBe(404);
       expect(data.message).toBe(t("404", { request: "spawn" }));
     }
+  });
+
+  it("route GET '/markers/saipark/:id' should return 200 OK", async () => {
+    const response = await request(
+      "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+      {
+        method: "GET",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+
+    const data = (await response.json()) as SaiparkMarkerDetails;
+
+    expect(data).toBeDefined();
+    expect(data.id).toBe("31bf1631-972e-56e1-9838-ded1c799356f");
+  });
+
+  it("route GET '/markers/saipark/:id' should return 401 Unauthorized", async () => {
+    const response = await request(
+      "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
+      {
+        method: "GET",
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(401);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(401);
+    expect(data.message).toBe(t("401"));
+  });
+
+  it("route GET '/markers/saipark/:id' should return 404 Not Found", async () => {
+    const response = await request(
+      "/markers/saipark/8096c93b-7704-4482-a9d6-3fbff8cdaa39",
+      {
+        method: "GET",
+        token: userToken,
+      }
+    );
+
+    expect(response).toBeDefined();
+    expect(response.status).toBe(404);
+
+    const data = (await response.json()) as Error;
+
+    expect(data).toBeDefined();
+    expect(data.status).toBe(404);
+    expect(data.message).toBe(t("404", { request: "saipark" }));
   });
 
   it("route PUT '/markers/saipark/:id' should return 204 No Content", async () => {

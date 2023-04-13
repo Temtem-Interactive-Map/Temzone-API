@@ -1,7 +1,4 @@
-interface Level {
-  min: number;
-  max: number;
-}
+import { Level } from "model/level";
 
 export interface SpawnEntity {
   id: string;
