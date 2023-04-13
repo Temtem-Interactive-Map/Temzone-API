@@ -23,7 +23,7 @@ route.get(
   async (ctx) => {
     const markerService = getMarkerService(ctx);
     const { limit, offset } = ctx.req.valid("query");
-    const result = await markerService.getPage(limit, offset);
+    const result = await markerService.getMarkers(limit, offset);
 
     return ctx.json(result, 200);
   }
@@ -42,11 +42,20 @@ route.post(
   async (ctx) => {
     const markerService = getMarkerService(ctx);
     const markers = ctx.req.valid("json");
-    const result = await markerService.insertMany(markers);
+    const result = await markerService.insertMarkers(markers);
 
     return ctx.json(result, 200);
   }
 );
+
+route.get("/spawns/:id", auth(), async (ctx) => {
+  const markerService = getMarkerService(ctx);
+  const { id } = ctx.req.param();
+  const url = new URL(ctx.req.url);
+  const result = await markerService.getSpawnMarker(id, url.origin);
+
+  return ctx.json(result, 200);
+});
 
 route.put(
   "/spawns/:id",
@@ -61,6 +70,15 @@ route.put(
     return ctx.newResponse(null, 204);
   }
 );
+
+route.get("/saipark/:id", auth(), async (ctx) => {
+  const markerService = getMarkerService(ctx);
+  const { id } = ctx.req.param();
+  const url = new URL(ctx.req.url);
+  const result = await markerService.getSaiparkMarker(id, url.origin);
+
+  return ctx.json(result, 200);
+});
 
 route.put(
   "/saipark/:id",
