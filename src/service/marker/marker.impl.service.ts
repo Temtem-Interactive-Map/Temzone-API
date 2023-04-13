@@ -1,4 +1,5 @@
 import { NoResultError } from "kysely";
+import { Coordinates } from "model/coordinates";
 import { Page } from "model/page";
 import { MarkerRepository } from "repository/marker/marker.repository";
 import { SaiparkRepository } from "repository/saipark/saipark.repository";
@@ -8,7 +9,7 @@ import { TemtemRepository } from "repository/temtem/temtem.repository";
 import { InternalServerError } from "service/error/internal-server.error";
 import { NotFoundError } from "service/error/not-found.error";
 import { MarkerService } from "service/marker/marker.service";
-import { Coordinates, Marker } from "service/marker/model/marker";
+import { Marker } from "service/marker/model/marker";
 import { SaiparkMarker } from "service/marker/model/saipark.marker";
 import { SaiparkMarkerDetails } from "service/marker/model/saipark.marker.details";
 import { SpawnMarker } from "service/marker/model/spawn.marker";
@@ -69,44 +70,52 @@ export class MarkerImplService implements MarkerService {
     id: string,
     baseUrl: string
   ): Promise<SpawnMarkerDetails> {
-    const marker = await this.markerRepository.findById(id);
-    const spawn = this.spawnRepository.findById(id);
-    const temtem = this.temtemRepository.findById(spawn.temtemId);
+    try {
+      const marker = await this.markerRepository.findById(id);
+      const spawn = this.spawnRepository.findById(id);
+      const temtem = this.temtemRepository.findById(spawn.temtemId);
 
-    return {
-      id: marker.id,
-      rate: spawn.rate,
-      level: spawn.level,
-      condition: marker.condition,
-      image: baseUrl + "/" + spawn.image,
-      temtem: {
-        id: temtem.tempediaId,
-        name: temtem.name,
-        description: temtem.description,
-        types: temtem.types.map((type) => {
-          return {
-            name: type.name,
-            image: baseUrl + "/" + type.image,
-          };
-        }),
-        images: {
-          png: baseUrl + "/" + temtem.images.png,
-          gif: baseUrl + "/" + temtem.images.gif,
+      return {
+        id: marker.id,
+        rate: spawn.rate,
+        level: spawn.level,
+        condition: marker.condition,
+        image: baseUrl + "/" + spawn.image,
+        temtem: {
+          id: temtem.tempediaId,
+          name: temtem.name,
+          description: temtem.description,
+          types: temtem.types.map((type) => {
+            return {
+              name: type.name,
+              image: baseUrl + "/" + type.image,
+            };
+          }),
+          images: {
+            png: baseUrl + "/" + temtem.images.png,
+            gif: baseUrl + "/" + temtem.images.gif,
+          },
+          traits: temtem.traits,
+          details: temtem.details,
+          stats: temtem.stats,
+          tvs: temtem.tvs,
+          evolutions: temtem.evolutions.map((evolution) => {
+            return {
+              name: evolution.name,
+              traits: evolution.traits,
+              condition: evolution.condition,
+              image: baseUrl + "/" + evolution.image,
+            };
+          }),
         },
-        traits: temtem.traits,
-        details: temtem.details,
-        stats: temtem.stats,
-        tvs: temtem.tvs,
-        evolutions: temtem.evolutions.map((evolution) => {
-          return {
-            name: evolution.name,
-            traits: evolution.traits,
-            condition: evolution.condition,
-            image: baseUrl + "/" + evolution.image,
-          };
-        }),
-      },
-    };
+      };
+    } catch (error) {
+      if (error instanceof NoResultError) {
+        throw new NotFoundError("spawn");
+      }
+
+      throw error;
+    }
   }
 
   async updateSpawnMarker(id: string, spawn: SpawnMarker): Promise<void> {
@@ -137,34 +146,42 @@ export class MarkerImplService implements MarkerService {
     id: string,
     baseUrl: string
   ): Promise<SaiparkMarkerDetails> {
-    const marker = await this.markerRepository.findById(id);
-    const saipark = this.saiparkRepository.findById(id);
+    try {
+      const marker = await this.markerRepository.findById(id);
+      const saipark = this.saiparkRepository.findById(id);
 
-    return {
-      id: marker.id,
-      areas: saipark.areas.map((area) => {
-        const temtem = this.temtemRepository.findById(area.temtemId);
+      return {
+        id: marker.id,
+        areas: saipark.areas.map((area) => {
+          const temtem = this.temtemRepository.findById(area.temtemId);
 
-        return {
-          area: area.area,
-          rate: area.rate,
-          lumaRate: area.lumaRate,
-          minSVs: area.minSVs,
-          eggTech: area.eggTech,
-          temtem: {
-            id: temtem.tempediaId,
-            name: temtem.name,
-            types: temtem.types.map((type) => {
-              return {
-                name: type.name,
-                image: baseUrl + "/" + type.image,
-              };
-            }),
-            image: baseUrl + "/" + temtem.images.gif,
-          },
-        };
-      }),
-    };
+          return {
+            area: area.area,
+            rate: area.rate,
+            lumaRate: area.lumaRate,
+            minSVs: area.minSVs,
+            eggTech: area.eggTech,
+            temtem: {
+              id: temtem.tempediaId,
+              name: temtem.name,
+              types: temtem.types.map((type) => {
+                return {
+                  name: type.name,
+                  image: baseUrl + "/" + type.image,
+                };
+              }),
+              image: baseUrl + "/" + temtem.images.gif,
+            },
+          };
+        }),
+      };
+    } catch (error) {
+      if (error instanceof NoResultError) {
+        throw new NotFoundError("saipark");
+      }
+
+      throw error;
+    }
   }
 
   async updateSaiparkMarker(id: string, saipark: SaiparkMarker): Promise<void> {
