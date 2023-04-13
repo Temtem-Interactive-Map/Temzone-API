@@ -3,7 +3,7 @@ interface Area {
   rate: number;
   lumaRate: number;
   minSVs: number;
-  eggMoves: number;
+  eggTech: number;
   temtemId: string;
 }
 
