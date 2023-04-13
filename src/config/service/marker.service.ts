@@ -1,3 +1,4 @@
+import { initSqliteDatabase } from "config/repository/database/kysely.database";
 import { getMarkerRepository } from "config/repository/marker.repository";
 import { getSaiparkRepository } from "config/repository/saipark.repository";
 import { getSearchRepository } from "config/repository/search.repository";
@@ -8,7 +9,9 @@ import { MarkerImplService } from "service/marker/marker.impl.service";
 import { MarkerService } from "service/marker/marker.service";
 
 export function getMarkerService(ctx: Context): MarkerService {
-  const markerRepository = getMarkerRepository(ctx.env?.DB);
+  initSqliteDatabase(ctx.env?.DB);
+
+  const markerRepository = getMarkerRepository();
   const spawnRepository = getSpawnRepository();
   const saiparkRepository = getSaiparkRepository();
   const searchRepository = getSearchRepository(ctx.env?.CACHE);

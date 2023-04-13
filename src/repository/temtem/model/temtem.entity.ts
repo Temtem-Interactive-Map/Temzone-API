@@ -1,55 +1,26 @@
+import { Details } from "model/details";
+import { Stats } from "model/stats";
+import { Trait } from "model/trait";
+import { Type } from "model/type";
+
 export interface TemtemEntity {
+  id: string;
   tempediaId: number;
   name: string;
   description: string;
-  types: {
-    name: string;
-    image: string;
-  }[];
+  types: Type[];
   images: {
     png: string;
     gif: string;
   };
-  traits: {
-    name: string;
-    description: string;
-  }[];
-  details: {
-    gender: {
-      male: number;
-      female: number;
-    } | null;
-    catchRate: number;
-    height: {
-      cm: number;
-      inches: number;
-    };
-    weight: {
-      kg: number;
-      lbs: number;
-    };
-  };
-  stats: {
-    hp: number;
-    sta: number;
-    spd: number;
-    atk: number;
-    def: number;
-    spatk: number;
-    spdef: number;
-    total: number;
-  };
-  tvs: {
-    hp: number;
-    sta: number;
-    spd: number;
-    atk: number;
-    def: number;
-    spatk: number;
-    spdef: number;
-  };
+  traits: Trait[];
+  details: Details;
+  stats: Stats;
+  tvs: Stats;
   evolutions: {
-    condition: string;
+    name: string;
     traits: string[];
+    condition: string;
+    image: string;
   }[];
 }

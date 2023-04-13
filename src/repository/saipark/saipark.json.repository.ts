@@ -1,15 +1,15 @@
-import saipark from "database/saipark.json";
+import saiparkJson from "database/saipark.json";
 import { SaiparkEntity } from "repository/saipark/model/saipark.entity";
 import { SaiparkRepository } from "repository/saipark/saipark.repository";
 
 export class SaiparkJsonRepository implements SaiparkRepository {
   findById(id: string): SaiparkEntity {
-    const marker = (saipark as Record<string, SaiparkEntity>)[id];
+    const saipark = (saiparkJson as Record<string, unknown>)[id];
 
-    if (!marker) {
+    if (!saipark) {
       throw new Error("Saipark with id " + id + " not found");
     }
 
-    return marker;
+    return { id, ...saipark } as SaiparkEntity;
   }
 }
