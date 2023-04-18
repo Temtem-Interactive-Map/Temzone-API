@@ -76,7 +76,7 @@ export class MarkerImplService implements MarkerService {
       const temtem = this.temtemRepository.findById(spawn.temtemId);
 
       return {
-        id: marker.id,
+        id: spawn.id,
         rate: spawn.rate,
         level: spawn.level,
         condition: marker.condition,
@@ -110,7 +110,7 @@ export class MarkerImplService implements MarkerService {
         },
       };
     } catch (error) {
-      if (error instanceof NoResultError) {
+      if (error instanceof NoResultError || error instanceof Error) {
         throw new NotFoundError("spawn");
       }
 
@@ -147,11 +147,10 @@ export class MarkerImplService implements MarkerService {
     baseUrl: string
   ): Promise<SaiparkMarkerDetails> {
     try {
-      const marker = await this.markerRepository.findById(id);
       const saipark = this.saiparkRepository.findById(id);
 
       return {
-        id: marker.id,
+        id: saipark.id,
         areas: saipark.areas.map((area) => {
           const temtem = this.temtemRepository.findById(area.temtemId);
 
@@ -176,7 +175,7 @@ export class MarkerImplService implements MarkerService {
         }),
       };
     } catch (error) {
-      if (error instanceof NoResultError) {
+      if (error instanceof Error) {
         throw new NotFoundError("saipark");
       }
 
