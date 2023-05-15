@@ -5,16 +5,16 @@
     "areas": [
       {
         "area": "Caves",
-        "rate": 100,
-        "lumaRate": 4,
+        "rate": 1,
+        "lumaRate": 8,
         "minSVs": 0,
         "eggTech": 17,
         "temtemId": "dda46ac4-956c-51c2-a9ac-c9d34724856d"
       },
       {
         "area": "Fields",
-        "rate": 65,
-        "lumaRate": 3,
+        "rate": 1,
+        "lumaRate": 8,
         "minSVs": 0,
         "eggTech": 10,
         "temtemId": "cb82f3a7-54b2-5361-8d23-dd3c14457594"
