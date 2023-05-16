@@ -1,4 +1,4 @@
-import { generateId } from "./utils/database/index.js";
+import { generateId, readDBFile } from "./utils/database/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
@@ -37,19 +37,20 @@ export async function scrapeSaipark() {
   };
 
   const currentDate = new Date();
-  const lastModifiedDate = await fetch(
-    "https://api.github.com/repos/Temtem-Interactive-Map/Temzone-API/commits?path=database/saipark.json&page=1&per_page=1"
-  )
-    .then((res) => res.json())
-    .then((commits) => new Date(commits[0].commit.committer.date));
   const rawDate = $("#Temtem").parent().next().find("span.mw-headline").text();
   const date = cleanText(rawDate);
   const dates = date.split("-").map((date) => date.trim());
   const startDate = new Date(dates[0] + dates[1].substring(2));
   const endDate = new Date(dates[1]);
 
-  if (lastModifiedDate < startDate && currentDate < endDate) {
-    logWarning("- Notifying [saipark] update...");
+  if (startDate < currentDate && currentDate < endDate) {
+    const saiparkDatabase = await readDBFile("saipark");
+    const oldTemtem = saiparkDatabase[id].areas.map((area) => area.temtemId);
+    const newTemtem = saipark[id].areas.map((area) => area.temtemId);
+
+    if (oldTemtem[0] !== newTemtem[0] || oldTemtem[1] !== newTemtem[1]) {
+      logWarning("- Notifying [saipark] update...");
+    }
   }
 
   logSuccess("[saipark] scraped successfully");
