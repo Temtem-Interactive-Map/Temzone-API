@@ -5,19 +5,19 @@
     "areas": [
       {
         "area": "Caves",
-        "rate": 60,
-        "lumaRate": 1,
-        "minSVs": 38,
-        "eggTech": 11,
-        "temtemId": "18664e6d-77b6-5158-aa68-ebeb9b1d1ca6"
+        "rate": 90,
+        "lumaRate": 3,
+        "minSVs": 0,
+        "eggTech": 13,
+        "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
       },
       {
         "area": "Fields",
-        "rate": 50,
-        "lumaRate": 1,
-        "minSVs": 35,
-        "eggTech": 11,
-        "temtemId": "2b992990-a54c-51e7-be9b-27e8b7a9c7ee"
+        "rate": 100,
+        "lumaRate": 3,
+        "minSVs": 0,
+        "eggTech": 20,
+        "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
       }
     ]
   }
