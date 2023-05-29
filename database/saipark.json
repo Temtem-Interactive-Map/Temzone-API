@@ -4,20 +4,20 @@
     "subtitle": "West from Praise Coast",
     "areas": [
       {
-        "area": "Caves",
-        "rate": 90,
-        "lumaRate": 3,
-        "minSVs": 0,
-        "eggTech": 13,
-        "temtemId": "e1a5fd78-a96f-5e0b-bd2e-1b8f275432f9"
+        "area": "Fields",
+        "rate": 95,
+        "lumaRate": 1,
+        "minSVs": 30,
+        "eggTech": 15,
+        "temtemId": "84510839-3f75-5e99-a8aa-e22744c5c8c6"
       },
       {
-        "area": "Fields",
-        "rate": 100,
-        "lumaRate": 3,
-        "minSVs": 0,
-        "eggTech": 20,
-        "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
+        "area": "Hills",
+        "rate": 95,
+        "lumaRate": 1,
+        "minSVs": 30,
+        "eggTech": 8,
+        "temtemId": "ea3a6000-de03-5753-8c78-da6a78a8b79e"
       }
     ]
   }
