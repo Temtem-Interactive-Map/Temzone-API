@@ -1,4 +1,5 @@
 import { Details } from "model/details";
+import { Image } from "model/image";
 import { Level } from "model/level";
 import { Stats } from "model/stats";
 import { Trait } from "model/trait";
@@ -9,25 +10,22 @@ export interface MarkerSpawnDetails {
   rate: number[];
   level: Level;
   condition: string | null;
-  image: string;
+  image: Image;
   temtem: {
     id: number;
     name: string;
     description: string;
     types: Type[];
-    images: {
-      png: string;
-      gif: string;
-    };
     traits: Trait[];
     details: Details;
     stats: Stats;
     tvs: Stats;
+    image: Image;
     evolutions: {
       name: string;
       traits: string[];
       condition: string;
-      image: string;
+      image: Image;
     }[];
   };
 }
