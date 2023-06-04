@@ -1,11 +1,4 @@
-interface Area {
-  area: string;
-  rate: number;
-  lumaRate: number;
-  minSVs: number;
-  eggTech: number;
-  temtemId: string;
-}
+import { Area } from "model/area";
 
 export interface SaiparkEntity {
   id: string;

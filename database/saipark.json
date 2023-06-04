@@ -4,19 +4,19 @@
     "subtitle": "West from Praise Coast",
     "areas": [
       {
-        "area": "Fields",
+        "name": "Fields",
         "rate": 95,
         "lumaRate": 1,
         "minSVs": 30,
-        "eggTech": 15,
+        "eggMoves": 15,
         "temtemId": "84510839-3f75-5e99-a8aa-e22744c5c8c6"
       },
       {
-        "area": "Hills",
+        "name": "Hills",
         "rate": 95,
         "lumaRate": 1,
         "minSVs": 30,
-        "eggTech": 8,
+        "eggMoves": 8,
         "temtemId": "ea3a6000-de03-5753-8c78-da6a78a8b79e"
       }
     ]

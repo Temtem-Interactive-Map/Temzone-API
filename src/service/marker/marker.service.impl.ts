@@ -96,12 +96,12 @@ export class MarkerServiceImpl implements MarkerService {
             };
           }),
           traits: temtem.traits,
-          details: temtem.details,
+          gender: temtem.gender,
           stats: temtem.stats,
           tvs: temtem.tvs,
-          image: {
-            url: baseUrl + "/" + temtem.images.png,
-          },
+          catch_rate: temtem.catchRate,
+          height: temtem.height,
+          weight: temtem.weight,
           evolutions: temtem.evolutions.map((evolution) => {
             return {
               name: evolution.name,
@@ -112,6 +112,9 @@ export class MarkerServiceImpl implements MarkerService {
               },
             };
           }),
+          image: {
+            url: baseUrl + "/" + temtem.image,
+          },
         },
       };
     } catch (error) {
@@ -160,11 +163,11 @@ export class MarkerServiceImpl implements MarkerService {
           const temtem = this.temtemRepository.findById(area.temtemId);
 
           return {
-            area: area.area,
+            name: area.name,
             rate: area.rate,
             lumaRate: area.lumaRate,
             minSVs: area.minSVs,
-            eggTech: area.eggTech,
+            eggMoves: area.eggMoves,
             temtem: {
               id: temtem.tempediaId,
               name: temtem.name,
@@ -177,7 +180,7 @@ export class MarkerServiceImpl implements MarkerService {
                 };
               }),
               image: {
-                url: baseUrl + "/" + temtem.images.gif,
+                url: baseUrl + "/" + temtem.image,
               },
             },
           };

@@ -1,7 +1,9 @@
-import { Details } from "model/details";
+import { Gender } from "model/gender";
+import { Height } from "model/height";
 import { Stats } from "model/stats";
 import { Trait } from "model/trait";
 import { Type } from "model/type";
+import { Weight } from "model/weight";
 
 export interface TemtemEntity {
   id: string;
@@ -9,18 +11,18 @@ export interface TemtemEntity {
   name: string;
   description: string;
   types: Type[];
-  images: {
-    png: string;
-    gif: string;
-  };
   traits: Trait[];
-  details: Details;
+  gender: Gender | null;
   stats: Stats;
   tvs: Stats;
+  catchRate: number;
+  height: Height;
+  weight: Weight;
   evolutions: {
     name: string;
     traits: string[];
     condition: string;
     image: string;
   }[];
+  image: string;
 }

@@ -53,7 +53,7 @@ export class UserServiceImpl implements UserService {
     };
   }
 
-  async markTemtemAsObtained(userId: string, temtemId: string): Promise<void> {
+  async setTemtemObtained(userId: string, temtemId: string): Promise<void> {
     const markerIds = await this.markerRepository.getByIds(
       this.spawnRepository.getByTemtemId(temtemId).map((spawn) => spawn.id)
     );
