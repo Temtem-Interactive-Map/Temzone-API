@@ -1,8 +1,8 @@
-import { SaiparkJsonRepository } from "repository/saipark/saipark.json.repository";
 import { SaiparkRepository } from "repository/saipark/saipark.repository";
+import { SaiparkRepositoryJson } from "repository/saipark/saipark.repository.json";
 
 export function getSaiparkRepository(): SaiparkRepository {
-  const saiparkJsonRepository = new SaiparkJsonRepository();
+  const saiparkRepositoryJson = new SaiparkRepositoryJson();
 
-  return saiparkJsonRepository;
+  return saiparkRepositoryJson;
 }

@@ -4,7 +4,7 @@ import { Stats } from "model/stats";
 import { Trait } from "model/trait";
 import { Type } from "model/type";
 
-export interface SpawnMarkerDetails {
+export interface MarkerSpawnDetails {
   id: string;
   rate: number[];
   level: Level;

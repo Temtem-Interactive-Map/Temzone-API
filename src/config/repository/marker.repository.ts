@@ -1,10 +1,10 @@
 import { getSqliteDatabase } from "config/repository/database/kysely.database";
 import { MarkerRepository } from "repository/marker/marker.repository";
-import { MarkerSqliteRepository } from "repository/marker/marker.sqlite.repository";
+import { MarkerRepositorySqlite } from "repository/marker/marker.repository.sqlite";
 
 export function getMarkerRepository(): MarkerRepository {
   const db = getSqliteDatabase();
-  const markerSqliteRepository = new MarkerSqliteRepository(db);
+  const markerRepositorySqlite = new MarkerRepositorySqlite(db);
 
-  return markerSqliteRepository;
+  return markerRepositorySqlite;
 }

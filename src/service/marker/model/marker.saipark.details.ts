@@ -1,6 +1,6 @@
 import { Type } from "model/type";
 
-export interface SaiparkMarkerDetails {
+export interface MarkerSaiparkDetails {
   id: string;
   areas: {
     area: string;

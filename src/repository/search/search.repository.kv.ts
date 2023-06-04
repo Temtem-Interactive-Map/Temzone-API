@@ -4,7 +4,7 @@ import { SearchSchema } from "repository/database/lyra.database";
 import { SearchEntity } from "repository/search/model/search.entity";
 import { SearchRepository } from "repository/search/search.repository";
 
-export class SearchKvRepository implements SearchRepository {
+export class SearchRepositoryKv implements SearchRepository {
   private readonly db: Lyra<SearchSchema>;
   private readonly cache: KVNamespace;
   private readonly searchRepository: SearchRepository;

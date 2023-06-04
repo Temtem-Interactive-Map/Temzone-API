@@ -10,12 +10,12 @@ import { InternalServerError } from "service/error/internal-server.error";
 import { NotFoundError } from "service/error/not-found.error";
 import { MarkerService } from "service/marker/marker.service";
 import { Marker } from "service/marker/model/marker";
-import { SaiparkMarker } from "service/marker/model/saipark.marker";
-import { SaiparkMarkerDetails } from "service/marker/model/saipark.marker.details";
-import { SpawnMarker } from "service/marker/model/spawn.marker";
-import { SpawnMarkerDetails } from "service/marker/model/spawn.marker.details";
+import { MarkerSaipark } from "service/marker/model/marker.saipark";
+import { MarkerSaiparkDetails } from "service/marker/model/marker.saipark.details";
+import { MarkerSpawn } from "service/marker/model/marker.spawn";
+import { MarkerSpawnDetails } from "service/marker/model/marker.spawn.details";
 
-export class MarkerImplService implements MarkerService {
+export class MarkerServiceImpl implements MarkerService {
   private readonly markerRepository: MarkerRepository;
   private readonly spawnRepository: SpawnRepository;
   private readonly saiparkRepository: SaiparkRepository;
@@ -69,7 +69,7 @@ export class MarkerImplService implements MarkerService {
   async getSpawnMarker(
     id: string,
     baseUrl: string
-  ): Promise<SpawnMarkerDetails> {
+  ): Promise<MarkerSpawnDetails> {
     try {
       const marker = await this.markerRepository.findById(id);
       const spawn = this.spawnRepository.findById(id);
@@ -118,7 +118,7 @@ export class MarkerImplService implements MarkerService {
     }
   }
 
-  async updateSpawnMarker(id: string, spawn: SpawnMarker): Promise<void> {
+  async updateSpawnMarker(id: string, spawn: MarkerSpawn): Promise<void> {
     try {
       const marker = await this.markerRepository.updateSpawn(
         id,
@@ -145,7 +145,7 @@ export class MarkerImplService implements MarkerService {
   async getSaiparkMarker(
     id: string,
     baseUrl: string
-  ): Promise<SaiparkMarkerDetails> {
+  ): Promise<MarkerSaiparkDetails> {
     try {
       const saipark = this.saiparkRepository.findById(id);
 
@@ -183,7 +183,7 @@ export class MarkerImplService implements MarkerService {
     }
   }
 
-  async updateSaiparkMarker(id: string, saipark: SaiparkMarker): Promise<void> {
+  async updateSaiparkMarker(id: string, saipark: MarkerSaipark): Promise<void> {
     try {
       const marker = await this.markerRepository.updateSaipark(
         id,

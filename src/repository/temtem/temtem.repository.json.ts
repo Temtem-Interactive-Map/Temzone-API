@@ -2,7 +2,7 @@ import temtemJSON from "database/temtem.json";
 import { TemtemEntity } from "repository/temtem/model/temtem.entity";
 import { TemtemRepository } from "repository/temtem/temtem.repository";
 
-export class TemtemJsonRepository implements TemtemRepository {
+export class TemtemRepositoryJson implements TemtemRepository {
   findById(id: string): TemtemEntity {
     const temtem = (temtemJSON as Record<string, unknown>)[id];
 

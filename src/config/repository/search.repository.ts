@@ -1,16 +1,16 @@
 import { getLyraDatabase } from "config/repository/database/lyra.database";
-import { SearchKvRepository } from "repository/search/search.kv.repository";
-import { SearchLyraRepository } from "repository/search/search.lyra.repository";
 import { SearchRepository } from "repository/search/search.repository";
+import { SearchRepositoryKv } from "repository/search/search.repository.kv";
+import { SearchRepositoryLyra } from "repository/search/search.repository.lyra";
 
 export function getSearchRepository(cache: KVNamespace): SearchRepository {
   const db = getLyraDatabase();
-  const searchLyraRepository = new SearchLyraRepository(db);
-  const searchKvRepository = new SearchKvRepository(
+  const searchRepositoryLyra = new SearchRepositoryLyra(db);
+  const searchRepositoryKv = new SearchRepositoryKv(
     db,
     cache,
-    searchLyraRepository
+    searchRepositoryLyra
   );
 
-  return searchKvRepository;
+  return searchRepositoryKv;
 }

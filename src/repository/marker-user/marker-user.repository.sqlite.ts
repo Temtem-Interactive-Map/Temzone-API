@@ -2,9 +2,9 @@ import { Kysely } from "kysely";
 import { Page } from "model/page";
 import { TemzoneDatabase } from "repository/database/sqlite.database";
 import { MarkerUserRepository } from "repository/marker-user/marker-user.repository";
-import { MarkerUserModel } from "./model/marker-user.model";
+import { MarkerUserModel } from "repository/marker-user/model/marker-user.model";
 
-export class MarkerUserSqliteRepository implements MarkerUserRepository {
+export class MarkerUserRepositorySqlite implements MarkerUserRepository {
   private readonly db: Kysely<TemzoneDatabase>;
 
   constructor(db: Kysely<TemzoneDatabase>) {

@@ -6,7 +6,7 @@ import { NotFoundError } from "service/error/not-found.error";
 import { UserMarker } from "service/user/model/user.marker";
 import { UserService } from "service/user/user.service";
 
-export class UserImplService implements UserService {
+export class UserServiceImpl implements UserService {
   private readonly markerRepository: MarkerRepository;
   private readonly markerUserRepository: MarkerUserRepository;
   private readonly spawnRepository: SpawnRepository;

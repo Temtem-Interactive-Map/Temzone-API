@@ -2,7 +2,7 @@ import spawnsJson from "database/spawns.json";
 import { SpawnEntity } from "repository/spawn/model/spawn.entity";
 import { SpawnRepository } from "repository/spawn/spawn.repository";
 
-export class SpawnJsonRepository implements SpawnRepository {
+export class SpawnRepositoryJson implements SpawnRepository {
   findById(id: string): SpawnEntity {
     const spawn = (spawnsJson as Record<string, unknown>)[id];
 

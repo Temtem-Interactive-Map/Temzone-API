@@ -3,8 +3,8 @@ import { getMarkerUserRepository } from "config/repository/marker-user.repositor
 import { getMarkerRepository } from "config/repository/marker.repository";
 import { getSpawnRepository } from "config/repository/spawn.repository";
 import { Context } from "hono";
-import { UserImplService } from "service/user/user.impl.service";
 import { UserService } from "service/user/user.service";
+import { UserServiceImpl } from "service/user/user.service.impl";
 
 export function getUserService(ctx: Context): UserService {
   initSqliteDatabase(ctx.env?.DB);
@@ -12,10 +12,11 @@ export function getUserService(ctx: Context): UserService {
   const markerRepository = getMarkerRepository();
   const markerUserRepository = getMarkerUserRepository();
   const spawnRepository = getSpawnRepository();
-
-  return new UserImplService(
+  const userService = new UserServiceImpl(
     markerRepository,
     markerUserRepository,
     spawnRepository
   );
+
+  return userService;
 }

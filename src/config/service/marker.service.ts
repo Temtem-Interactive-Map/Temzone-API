@@ -5,8 +5,8 @@ import { getSearchRepository } from "config/repository/search.repository";
 import { getSpawnRepository } from "config/repository/spawn.repository";
 import { getTemtemRepository } from "config/repository/temtem.repository";
 import { Context } from "hono";
-import { MarkerImplService } from "service/marker/marker.impl.service";
 import { MarkerService } from "service/marker/marker.service";
+import { MarkerServiceImpl } from "service/marker/marker.service.impl";
 
 export function getMarkerService(ctx: Context): MarkerService {
   initSqliteDatabase(ctx.env?.DB);
@@ -16,12 +16,13 @@ export function getMarkerService(ctx: Context): MarkerService {
   const saiparkRepository = getSaiparkRepository();
   const searchRepository = getSearchRepository(ctx.env?.CACHE);
   const temtemRepository = getTemtemRepository();
-
-  return new MarkerImplService(
+  const markerService = new MarkerServiceImpl(
     markerRepository,
     spawnRepository,
     saiparkRepository,
     searchRepository,
     temtemRepository
   );
+
+  return markerService;
 }

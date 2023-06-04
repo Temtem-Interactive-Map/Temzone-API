@@ -9,10 +9,10 @@ import { MarkerUserEntity } from "repository/marker-user/model/marker-user.entit
 import { MarkerEntity } from "repository/marker/model/marker.entity";
 import { SearchEntity } from "repository/search/model/search.entity";
 import { Marker, Subtitle } from "service/marker/model/marker";
-import { SaiparkMarker } from "service/marker/model/saipark.marker";
-import { SaiparkMarkerDetails } from "service/marker/model/saipark.marker.details";
-import { SpawnMarker } from "service/marker/model/spawn.marker";
-import { SpawnMarkerDetails } from "service/marker/model/spawn.marker.details";
+import { SaiparkMarker } from "service/marker/model/marker.saipark";
+import { SaiparkMarkerDetails } from "service/marker/model/marker.saipark.details";
+import { SpawnMarker } from "service/marker/model/marker.spawn";
+import { SpawnMarkerDetails } from "service/marker/model/marker.spawn.details";
 import { UserMarker } from "service/user/model/user.marker";
 import { populateDatabase, restoreDatabase } from "test/database";
 import { adminToken, userToken } from "test/firebase";
