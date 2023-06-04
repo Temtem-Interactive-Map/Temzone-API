@@ -4,11 +4,11 @@ import { Type } from "model/type";
 export interface MarkerSaiparkDetails {
   id: string;
   areas: {
-    area: string;
+    name: string;
     rate: number;
     lumaRate: number;
     minSVs: number;
-    eggTech: number;
+    eggMoves: number;
     temtem: {
       id: number;
       name: string;
