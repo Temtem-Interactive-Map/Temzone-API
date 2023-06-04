@@ -4,37 +4,32 @@ import { cleanText, scrape } from "./utils/scraper/index.js";
 
 export async function scrapeSaipark() {
   logInfo("Scraping [saipark]...");
-  const saipark = {};
+  const id = generateId("Saipark");
+  const saipark = {
+    [id]: {
+      title: "Saipark",
+      subtitle: "West from Praise Coast",
+      areas: [],
+    },
+  };
+
   const $ = await scrape("https://temtem.wiki.gg/wiki/Saipark");
   const tables = $("table[style*='border-radius']");
-  const saipark1 = new Saipark();
-  await saipark1.scrape($(tables[0]));
-  const saipark2 = new Saipark();
-  await saipark2.scrape($(tables[1]));
-  const id = generateId("Saipark");
 
-  saipark[id] = {
-    title: "Saipark",
-    subtitle: "West from Praise Coast",
-    areas: [
-      {
-        area: saipark1.area,
-        rate: saipark1.rate,
-        lumaRate: saipark1.lumaRate,
-        minSVs: saipark1.minSVs,
-        eggTech: saipark1.eggTech,
-        temtemId: generateId(saipark1.temtem),
-      },
-      {
-        area: saipark2.area,
-        rate: saipark2.rate,
-        lumaRate: saipark2.lumaRate,
-        minSVs: saipark2.minSVs,
-        eggTech: saipark2.eggTech,
-        temtemId: generateId(saipark2.temtem),
-      },
-    ],
-  };
+  for (const x in [0, 1]) {
+    const area = new Area();
+    await area.scrape($(tables[x]));
+    const temtemId = generateId(area.temtem);
+
+    saipark[id].areas.push({
+      name: area.name,
+      rate: area.rate,
+      lumaRate: area.lumaRate,
+      minSVs: area.minSVs,
+      eggMoves: area.eggMoves,
+      temtemId,
+    });
+  }
 
   const currentDate = new Date();
   const rawDate = $("#Temtem").parent().next().find("span.mw-headline").text();
@@ -58,14 +53,14 @@ export async function scrapeSaipark() {
   return saipark;
 }
 
-class Saipark {
+class Area {
   async scrape($) {
     this.temtem = this.temtem($);
-    this.area = this.area($);
+    this.name = this.name($);
     this.rate = this.rate($);
     this.lumaRate = this.lumaRate($);
     this.minSVs = this.minSVs($);
-    this.eggTech = this.eggTech($);
+    this.eggMoves = this.eggMoves($);
   }
 
   temtem($) {
@@ -81,11 +76,11 @@ class Saipark {
       : name;
   }
 
-  area($) {
-    const rawArea = $.find("tbody > tr:nth-child(1) > td > div > p").text();
-    const area = cleanText(rawArea);
+  name($) {
+    const rawName = $.find("tbody > tr:nth-child(1) > td > div > p").text();
+    const name = cleanText(rawName);
 
-    return area;
+    return name;
   }
 
   rate($) {
@@ -120,7 +115,7 @@ class Saipark {
     return minSVs;
   }
 
-  eggTech($) {
+  eggMoves($) {
     const rawEggMoves = $.find(
       "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(3)"
     ).text();
