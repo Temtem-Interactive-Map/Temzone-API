@@ -280,10 +280,10 @@ export class MarkerServiceImpl implements MarkerService {
         type: marker.type,
         title: marker.title,
         subtitle: marker.subtitle,
-        coordinates:
-          marker.x !== null && marker.y !== null
-            ? { x: marker.x, y: marker.y }
-            : null,
+        coordinates: {
+          x: marker.x as number,
+          y: marker.y as number,
+        },
       });
     }
 
