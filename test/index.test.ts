@@ -861,9 +861,9 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("401"));
   });
 
-  it("route GET '/static/types/crystal.png' should return 200 Ok", async () => {
+  it("route GET '/statics/types/crystal.png' should return 200 Ok", async () => {
     for (const token of [userToken, adminToken]) {
-      const response = await request("/static/types/crystal.png", {
+      const response = await request("/statics/types/crystal.png", {
         method: "GET",
         token,
       });
@@ -873,8 +873,8 @@ describe("Testing routes", async () => {
     }
   });
 
-  it("route GET '/static/types/crystal.png' should return 401 Unauthorized", async () => {
-    const response = await request("/static/types/crystal.png", {
+  it("route GET '/statics/types/crystal.png' should return 401 Unauthorized", async () => {
+    const response = await request("/statics/types/crystal.png", {
       method: "GET",
     });
 
@@ -888,7 +888,7 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("401"));
   });
 
-  it("route GET '/user/markers' should return 200 Ok", async () => {
+  it("route GET '/users/markers' should return 200 Ok", async () => {
     const sqliteDB = getSqliteDatabase();
     await sqliteDB
       .insertInto("markers")
@@ -909,7 +909,7 @@ describe("Testing routes", async () => {
       })
       .execute();
 
-    const response = await request("/user/markers", {
+    const response = await request("/users/markers", {
       method: "GET",
       token: userToken,
       query: {
@@ -946,9 +946,9 @@ describe("Testing routes", async () => {
     expect((data2.coordinates as Coordinates).y).toBe(100);
   });
 
-  it("route GET '/user/markers' should return 400 Bad Request", async () => {
+  it("route GET '/users/markers' should return 400 Bad Request", async () => {
     for (const limit of ["-1", "201"]) {
-      const response = await request("/user/markers", {
+      const response = await request("/users/markers", {
         method: "GET",
         token: userToken,
         query: {
@@ -968,8 +968,8 @@ describe("Testing routes", async () => {
     }
   });
 
-  it("route GET '/user/markers' should return 401 Unauthorized", async () => {
-    const response = await request("/user/markers", {
+  it("route GET '/users/markers' should return 401 Unauthorized", async () => {
+    const response = await request("/users/markers", {
       method: "GET",
     });
 
@@ -983,7 +983,7 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("401"));
   });
 
-  it("route PUT '/user/temtem/:id' should return 204 No Content", async () => {
+  it("route PUT '/users/temtem/:id' should return 204 No Content", async () => {
     const sqliteDB = getSqliteDatabase();
     await sqliteDB
       .insertInto("markers")
@@ -1008,7 +1008,7 @@ describe("Testing routes", async () => {
       .execute();
 
     const response = await request(
-      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
       {
         method: "PUT",
         token: userToken,
@@ -1039,9 +1039,9 @@ describe("Testing routes", async () => {
     expect(data2.user_id).toBe("pdbN0PmdDWXTTvWAkW4EnrftVyyu");
   });
 
-  it("route PUT '/user/temtem/:id' should return 401 Unauthorized", async () => {
+  it("route PUT '/users/temtem/:id' should return 401 Unauthorized", async () => {
     const response = await request(
-      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
       {
         method: "PUT",
       }
@@ -1057,9 +1057,9 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("401"));
   });
 
-  it("route PUT '/user/temtem/:id' should return 404 Not Found", async () => {
+  it("route PUT '/users/temtem/:id' should return 404 Not Found", async () => {
     const response = await request(
-      "/user/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
+      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
       {
         method: "PUT",
         token: userToken,

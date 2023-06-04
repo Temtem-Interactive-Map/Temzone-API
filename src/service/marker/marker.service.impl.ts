@@ -80,7 +80,9 @@ export class MarkerServiceImpl implements MarkerService {
         rate: spawn.rate,
         level: spawn.level,
         condition: marker.condition,
-        image: baseUrl + "/" + spawn.image,
+        image: {
+          url: baseUrl + "/" + spawn.image,
+        },
         temtem: {
           id: temtem.tempediaId,
           name: temtem.name,
@@ -88,23 +90,26 @@ export class MarkerServiceImpl implements MarkerService {
           types: temtem.types.map((type) => {
             return {
               name: type.name,
-              image: baseUrl + "/" + type.image,
+              image: {
+                url: baseUrl + "/" + type.image,
+              },
             };
           }),
-          images: {
-            png: baseUrl + "/" + temtem.images.png,
-            gif: baseUrl + "/" + temtem.images.gif,
-          },
           traits: temtem.traits,
           details: temtem.details,
           stats: temtem.stats,
           tvs: temtem.tvs,
+          image: {
+            url: baseUrl + "/" + temtem.images.png,
+          },
           evolutions: temtem.evolutions.map((evolution) => {
             return {
               name: evolution.name,
               traits: evolution.traits,
               condition: evolution.condition,
-              image: baseUrl + "/" + evolution.image,
+              image: {
+                url: baseUrl + "/" + evolution.image,
+              },
             };
           }),
         },
@@ -166,10 +171,14 @@ export class MarkerServiceImpl implements MarkerService {
               types: temtem.types.map((type) => {
                 return {
                   name: type.name,
-                  image: baseUrl + "/" + type.image,
+                  image: {
+                    url: baseUrl + "/" + type.image,
+                  },
                 };
               }),
-              image: baseUrl + "/" + temtem.images.gif,
+              image: {
+                url: baseUrl + "/" + temtem.images.gif,
+              },
             },
           };
         }),
@@ -280,10 +289,10 @@ export class MarkerServiceImpl implements MarkerService {
         type: marker.type,
         title: marker.title,
         subtitle: marker.subtitle,
-        coordinates:
-          marker.x !== null && marker.y !== null
-            ? { x: marker.x, y: marker.y }
-            : null,
+        coordinates: {
+          x: marker.x as number,
+          y: marker.y as number,
+        },
       });
     }
 

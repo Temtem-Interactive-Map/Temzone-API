@@ -1,3 +1,4 @@
+import { Image } from "model/image";
 import { Type } from "model/type";
 
 export interface MarkerSaiparkDetails {
@@ -12,7 +13,7 @@ export interface MarkerSaiparkDetails {
       id: number;
       name: string;
       types: Type[];
-      image: string;
+      image: Image;
     };
   }[];
 }
