@@ -20,6 +20,7 @@ export class SearchRepositoryKv implements SearchRepository {
   }
 
   async update(marker: SearchEntity): Promise<void> {
+    await this.loadDB();
     await this.searchRepository.update(marker);
     await this.saveDB();
   }
@@ -34,12 +35,6 @@ export class SearchRepositoryKv implements SearchRepository {
     return await this.searchRepository.search(query, limit, offset);
   }
 
-  private async saveDB(): Promise<void> {
-    const data = await save(this.db);
-
-    await this.cache.put("lyra-markers-db", JSON.stringify(data));
-  }
-
   private async loadDB(): Promise<void> {
     const data: Data<SearchSchema> | null = await this.cache.get(
       "lyra-markers-db",
@@ -49,5 +44,11 @@ export class SearchRepositoryKv implements SearchRepository {
     if (data !== null) {
       await load(this.db, data);
     }
+  }
+
+  private async saveDB(): Promise<void> {
+    const data = await save(this.db);
+
+    await this.cache.put("lyra-markers-db", JSON.stringify(data));
   }
 }
