@@ -20,6 +20,7 @@ export class SearchRepositoryKv implements SearchRepository {
   }
 
   async update(marker: SearchEntity): Promise<void> {
+    await this.loadDB();
     await this.searchRepository.update(marker);
     await this.saveDB();
   }
