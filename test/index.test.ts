@@ -861,9 +861,9 @@ describe("Testing routes", async () => {
     expect(data.message).toBe(t("401"));
   });
 
-  it("route GET '/statics/types/crystal.png' should return 200 Ok", async () => {
+  it("route GET '/static/types/crystal.png' should return 200 Ok", async () => {
     for (const token of [userToken, adminToken]) {
-      const response = await request("/statics/types/crystal.png", {
+      const response = await request("/static/types/crystal.png", {
         method: "GET",
         token,
       });
@@ -873,8 +873,8 @@ describe("Testing routes", async () => {
     }
   });
 
-  it("route GET '/statics/types/crystal.png' should return 401 Unauthorized", async () => {
-    const response = await request("/statics/types/crystal.png", {
+  it("route GET '/static/types/crystal.png' should return 401 Unauthorized", async () => {
+    const response = await request("/static/types/crystal.png", {
       method: "GET",
     });
 
