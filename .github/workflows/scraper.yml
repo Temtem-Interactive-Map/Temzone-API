@@ -6,6 +6,10 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-22.04
+    env:
+      FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
+      FIREBASE_CLIENT_EMAIL: ${{ secrets.FIREBASE_CLIENT_EMAIL }}
     name: Scraping
     steps:
       - name: Checkout
