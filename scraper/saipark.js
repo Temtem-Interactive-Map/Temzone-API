@@ -1,5 +1,6 @@
+import { t } from "./locales/index.js";
 import { generateId, readDBFile } from "./utils/database/index.js";
-import { messaging } from "./utils/firebase/index.js";
+import { sendMessage } from "./utils/firebase/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
 import { cleanText, scrape } from "./utils/scraper/index.js";
 
@@ -39,18 +40,6 @@ export async function scrapeSaipark() {
   const startDate = new Date(dates[0] + dates[1].substring(2));
   const endDate = new Date(dates[1]);
 
-  logWarning("- Notifying [saipark] update...");
-  await messaging.send({
-    topic: "general",
-    notification: {
-      title: "⚠️ Time to go to the Saipark. ⚠️",
-      body: "Check out the Saipark and capture new Luma Temtem!",
-    },
-    data: {
-      id,
-    },
-  });
-
   if (startDate < currentDate && currentDate < endDate) {
     const saiparkDatabase = await readDBFile("saipark");
     const oldTemtem = saiparkDatabase[id].areas.map((area) => area.temtemId);
@@ -58,15 +47,10 @@ export async function scrapeSaipark() {
 
     if (oldTemtem[0] !== newTemtem[0] || oldTemtem[1] !== newTemtem[1]) {
       logWarning("- Notifying [saipark] update...");
-      await messaging.send({
-        topic: "general",
-        notification: {
-          title: "⚠️ Time to go to the Saipark. ⚠️",
-          body: "Check out the Saipark and capture new Luma Temtem!",
-        },
-        data: {
-          id,
-        },
+      await sendMessage({
+        title: t("saipark.title"),
+        body: t("saipark.body"),
+        id,
       });
     }
   }
