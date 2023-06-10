@@ -11,4 +11,17 @@ admin.initializeApp({
   }),
 });
 
-export const messaging = admin.messaging(admin.app());
+const messaging = admin.messaging(admin.app());
+
+export async function sendMessage(message) {
+  await messaging.send({
+    topic: "general",
+    notification: {
+      title: message.title,
+      body: message.body,
+    },
+    data: {
+      id: message.id,
+    },
+  });
+}
