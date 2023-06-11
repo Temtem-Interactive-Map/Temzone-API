@@ -48,6 +48,6 @@ jobs:
       - name: Deploy Cloudflare Worker
         run: |
           echo "${{ secrets.FIREBASE_PROJECT_ID }}" | wrangler secret put FIREBASE_PROJECT_ID --env dev
-          wrangler publish --env dev
+          wrangler deploy --env dev
       - name: Populate database
         run: npm run database:populate
