@@ -1,7 +1,7 @@
 {
   "name": "temzone",
   "description": "The Temtem Interactive Map API",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
@@ -18,7 +18,7 @@
     "lint:fix": "eslint --fix . --ext .js,.ts,.json,.yml",
     "firebase": "firebase emulators:start --project temzone --import=emulator-data --export-on-exit=emulator-data",
     "test": "firebase emulators:exec --project temzone --import=emulator-data vitest",
-    "deploy": "wrangler publish"
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "@lyrasearch/lyra": "0.4.12",
