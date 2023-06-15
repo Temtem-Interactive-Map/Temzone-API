@@ -5243,32 +5243,6 @@
     "image": "static/areas/chini_grotto_area_4.png",
     "temtemId": "be75fca8-93c2-5a9f-b53a-ce9d9dcc74b9"
   },
-  "9479341a-fe43-5d2d-b733-60d768a46056": {
-    "title": "Osukai",
-    "subtitle": "Chini Grotto, Area 5",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 72,
-      "max": 72
-    },
-    "image": "static/areas/chini_grotto_area_5.png",
-    "temtemId": "7619c1ae-d946-5980-be4a-f811600c5454"
-  },
-  "b1a84b67-9701-5fa7-b025-558aca526a66": {
-    "title": "Tuwai",
-    "subtitle": "Chini Grotto, Area 5",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/chini_grotto_area_5.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
-  },
   "06520974-d0a3-512a-9433-10894294641a": {
     "title": "Droply",
     "subtitle": "Matope Road, Area 1",
