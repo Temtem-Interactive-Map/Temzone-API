@@ -1,5 +1,6 @@
 import { config } from "dotenv";
 import admin from "firebase-admin";
+import { t } from "../../locales/index.js";
 
 config();
 
@@ -15,10 +16,10 @@ const messaging = admin.messaging(admin.app());
 
 export async function sendMessage(message) {
   await messaging.send({
-    topic: "general",
+    topic: "en",
     notification: {
-      title: message.title,
-      body: message.body,
+      title: t(message.title),
+      body: t(message.body),
     },
     data: {
       id: message.id,

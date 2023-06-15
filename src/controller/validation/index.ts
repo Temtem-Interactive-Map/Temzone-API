@@ -18,15 +18,15 @@ export const type = z
 
 export const title = z
   .string({ invalid_type_error: "title", required_error: "title" })
-  .max(40, "title");
+  .max(80, "title");
 
 export const subtitle = z
   .string({ invalid_type_error: "subtitle", required_error: "subtitle" })
-  .max(40, "subtitle");
+  .max(80, "subtitle");
 
 export const condition = z
   .string({ invalid_type_error: "condition", required_error: "condition" })
-  .max(40, "condition")
+  .max(80, "condition")
   .nullable()
   .transform((condition) => (condition === "" ? null : condition));
 
