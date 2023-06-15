@@ -1,4 +1,3 @@
-import { t } from "./locales/index.js";
 import { generateId, readDBFile } from "./utils/database/index.js";
 import { sendMessage } from "./utils/firebase/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
@@ -48,8 +47,8 @@ export async function scrapeSaipark() {
     if (oldTemtem[0] !== newTemtem[0] || oldTemtem[1] !== newTemtem[1]) {
       logWarning("- Notifying [saipark] update...");
       await sendMessage({
-        title: t("saipark.title"),
-        body: t("saipark.body"),
+        title: "saipark.title",
+        body: "saipark.body",
         id,
       });
     }
