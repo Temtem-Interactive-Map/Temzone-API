@@ -52,6 +52,7 @@ export async function scrapeSpawns() {
         // Skip scrape if the area is duplicated
         if (location === "Chini Grotto" && area === "Area 5") continue;
         if (location === "Aguamarina Caves" && area === "Area 14") continue;
+        if (location === "Anak Volcano" && area === "Area 7") continue;
 
         const filename = generateFileName(location, area) + ".png";
         areaAssets.add(filename);
