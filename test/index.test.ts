@@ -252,7 +252,8 @@ describe("Testing routes", async () => {
           {
             id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
             type: "spawn",
-            title: "TvH9S3x4dagDqsgO2Em7l2B3ipTeB44jimsVfY6eA",
+            title:
+              "TvH9S3x4dagDqsgO2Em7l2B3ipTeB44jimsVfY6eAGnjzV6OTrapnsOYjoV0D0lGkbVELBJYaH2zUgCMNH",
             subtitle: "Iwaba, Area 3",
           },
         ],
@@ -264,7 +265,8 @@ describe("Testing routes", async () => {
             id: "7f45ffbb-94ca-5144-80b5-167cbdc0472f",
             type: "spawn",
             title: "Mimit",
-            subtitle: "GnjzV6OTrapnsOYjoV0D0lGkbVELBJYaH2zUgCMNH",
+            subtitle:
+              "GnjzV6OTrapnsOYjoV0D0lGkbVELBJYaH2zUgCMNHTvH9S3x4dagDqsgO2Em7l2B3ipTeB44jimsVfY6eA",
           },
         ],
       },
@@ -434,7 +436,8 @@ describe("Testing routes", async () => {
       {
         param: "subtitle",
         body: {
-          subtitle: "opEGutvRcWN1KzqRHx77A3ob770Nc7TSJ84vLgNka",
+          subtitle:
+            "opEGutvRcWN1KzqRHx77A3ob770Nc7TSJ84vLgNkaGa5cuWXnG6SyDAKVKOYDGzQxaFgeqDWovXiDyWxNg",
           condition: "Requires Fishing Rod",
           coordinates: {
             x: 0,
@@ -446,7 +449,8 @@ describe("Testing routes", async () => {
         param: "condition",
         body: {
           subtitle: "Iwaba, Area 1",
-          condition: "Ga5cuWXnG6SyDAKVKOYDGzQxaFgeqDWovXiDyWxNg",
+          condition:
+            "Ga5cuWXnG6SyDAKVKOYDGzQxaFgeqDWovXiDyWxNgopEGutvRcWN1KzqRHx77A3ob770Nc7TSJ84vLgNka",
           coordinates: {
             x: 0,
             y: 0,
