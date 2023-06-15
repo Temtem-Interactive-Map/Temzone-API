@@ -3852,32 +3852,6 @@
     "image": "static/areas/aguamarina_caves_area_13.png",
     "temtemId": "b1dc1a9b-10ac-5d5e-89de-d361e2300813"
   },
-  "8fcd3194-6131-5940-87e2-877cd1967b8a": {
-    "title": "Platimous",
-    "subtitle": "Aguamarina Caves, Area 14",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 70,
-      "max": 70
-    },
-    "image": "static/areas/aguamarina_caves_area_14.png",
-    "temtemId": "58823bcc-0480-5caa-ba37-2d66763df73b"
-  },
-  "6fed007b-c442-594f-a8b4-ada7d2d37354": {
-    "title": "Tuwai",
-    "subtitle": "Aguamarina Caves, Area 14",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/aguamarina_caves_area_14.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
-  },
   "0b3a8f19-fe3f-5050-b4f9-72f7c29fe6b2": {
     "title": "Goty",
     "subtitle": "Jino Gap, Area 1",
