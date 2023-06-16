@@ -1018,32 +1018,6 @@
     "image": "static/areas/corrupted_badlands_area_5.png",
     "temtemId": "d5e664b5-d567-516e-9e83-37b3bbf7c45a"
   },
-  "3d885946-4da7-5c63-a641-c363c63776df": {
-    "title": "Zenoreth",
-    "subtitle": "Corrupted Badlands, Area 6",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 51,
-      "max": 56
-    },
-    "image": "static/areas/corrupted_badlands_area_6.png",
-    "temtemId": "91726c0d-7535-59e6-a36b-e694333d2f28"
-  },
-  "b1da5c72-f9e7-5b4b-91de-a62afa5800f6": {
-    "title": "Tuwai",
-    "subtitle": "Corrupted Badlands, Area 6",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/corrupted_badlands_area_6.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
-  },
   "74f8d561-4314-5f36-9792-9dfb42d9ba4b": {
     "title": "Kalazu",
     "subtitle": "Corrupted Badlands, Area 7",
