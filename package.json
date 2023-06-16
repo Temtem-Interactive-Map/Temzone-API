@@ -18,6 +18,7 @@
     "lint:fix": "eslint --fix . --ext .js,.ts,.json,.yml",
     "firebase": "firebase emulators:start --project temzone --import=emulator-data --export-on-exit=emulator-data",
     "test": "firebase emulators:exec --project temzone --import=emulator-data vitest",
+    "tail": "wrangler tail --env dev",
     "deploy": "wrangler deploy"
   },
   "dependencies": {
@@ -35,7 +36,7 @@
     "better-sqlite3": "8.4.0",
     "cheerio": "1.0.0-rc.12",
     "command-line-args": "5.2.1",
-    "dotenv": "16.1.4",
+    "dotenv": "16.2.0",
     "esbuild": "0.18.3",
     "eslint": "8.42.0",
     "eslint-config-prettier": "8.8.0",
@@ -44,7 +45,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-yml": "1.8.0",
     "firebase-admin": "11.9.0",
-    "firebase-tools": "12.3.1",
+    "firebase-tools": "12.4.0",
     "picocolors": "1.0.0",
     "prettier": "2.8.8",
     "prettier-eslint": "15.0.1",
@@ -52,7 +53,7 @@
     "sharp": "0.32.1",
     "uuid": "9.0.0",
     "vite-tsconfig-paths": "4.2.0",
-    "vitest": "0.32.0",
+    "vitest": "0.32.1",
     "wrangler": "3.1.0"
   }
 }
