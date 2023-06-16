@@ -30,8 +30,8 @@ export class SearchRepositoryLyra implements SearchRepository {
       term: query,
       properties: ["title", "subtitle"],
       boost: {
-        title: 2,
-        subtitle: 1.5,
+        title: 1,
+        subtitle: 0.2,
       },
       tolerance: 3,
       limit,
