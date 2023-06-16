@@ -67,8 +67,6 @@ export class MarkerRepositorySqlite implements MarkerRepository {
       .selectAll()
       .limit(limit)
       .offset(offset)
-      .orderBy("title", "asc")
-      .orderBy("subtitle", "asc")
       .execute();
 
     const next = offset + items.length < count ? offset + limit : null;

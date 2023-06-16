@@ -46,11 +46,14 @@ export async function scrapeSpawns() {
         const cleanArea = cleanText(rawArea);
         const area = cleanArea.replace(/\(.*\)/, "").trim();
 
-        // Skip scrape if Temtem is not found in the wild (e.g. through quests)
+        // Skip scraping if Temtem is not found in the wild (e.g. through quests)
         if (!area.includes("Area")) continue;
 
-        // Skip duplicate areas
+        // Skip scraping if the area is duplicated
         if (location === "Chini Grotto" && area === "Area 5") continue;
+        if (location === "Aguamarina Caves" && area === "Area 14") continue;
+        if (location === "Anak Volcano" && area === "Area 7") continue;
+        if (location === "Corrupted Badlands" && area === "Area 6") continue;
 
         const filename = generateFileName(location, area) + ".png";
         areaAssets.add(filename);

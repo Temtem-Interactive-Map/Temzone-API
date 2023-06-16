@@ -1018,32 +1018,6 @@
     "image": "static/areas/corrupted_badlands_area_5.png",
     "temtemId": "d5e664b5-d567-516e-9e83-37b3bbf7c45a"
   },
-  "3d885946-4da7-5c63-a641-c363c63776df": {
-    "title": "Zenoreth",
-    "subtitle": "Corrupted Badlands, Area 6",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 51,
-      "max": 56
-    },
-    "image": "static/areas/corrupted_badlands_area_6.png",
-    "temtemId": "91726c0d-7535-59e6-a36b-e694333d2f28"
-  },
-  "b1da5c72-f9e7-5b4b-91de-a62afa5800f6": {
-    "title": "Tuwai",
-    "subtitle": "Corrupted Badlands, Area 6",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/corrupted_badlands_area_6.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
-  },
   "74f8d561-4314-5f36-9792-9dfb42d9ba4b": {
     "title": "Kalazu",
     "subtitle": "Corrupted Badlands, Area 7",
@@ -3852,32 +3826,6 @@
     "image": "static/areas/aguamarina_caves_area_13.png",
     "temtemId": "b1dc1a9b-10ac-5d5e-89de-d361e2300813"
   },
-  "8fcd3194-6131-5940-87e2-877cd1967b8a": {
-    "title": "Platimous",
-    "subtitle": "Aguamarina Caves, Area 14",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 70,
-      "max": 70
-    },
-    "image": "static/areas/aguamarina_caves_area_14.png",
-    "temtemId": "58823bcc-0480-5caa-ba37-2d66763df73b"
-  },
-  "6fed007b-c442-594f-a8b4-ada7d2d37354": {
-    "title": "Tuwai",
-    "subtitle": "Aguamarina Caves, Area 14",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/aguamarina_caves_area_14.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
-  },
   "0b3a8f19-fe3f-5050-b4f9-72f7c29fe6b2": {
     "title": "Goty",
     "subtitle": "Jino Gap, Area 1",
@@ -5931,32 +5879,6 @@
     },
     "image": "static/areas/anak_volcano_area_6.png",
     "temtemId": "a516f2a9-28b0-5180-a0f7-5ee60a353ed9"
-  },
-  "243374ce-4dc1-5ff7-b4cd-49beeef37735": {
-    "title": "Raican",
-    "subtitle": "Anak Volcano, Area 7",
-    "rate": [
-      95
-    ],
-    "level": {
-      "min": 70,
-      "max": 70
-    },
-    "image": "static/areas/anak_volcano_area_7.png",
-    "temtemId": "3ae2f2d6-fa28-5639-825e-a88bd734cdd5"
-  },
-  "15a2fd82-1b7e-50cf-9c36-2377b5816810": {
-    "title": "Tuwai",
-    "subtitle": "Anak Volcano, Area 7",
-    "rate": [
-      5
-    ],
-    "level": {
-      "min": 5,
-      "max": 10
-    },
-    "image": "static/areas/anak_volcano_area_7.png",
-    "temtemId": "717ba812-35f3-5036-ae99-5b9206176447"
   },
   "84d581cf-d001-5766-b535-513f137ecaa1": {
     "title": "Vulor",
