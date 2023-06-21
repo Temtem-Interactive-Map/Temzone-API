@@ -1342,13 +1342,13 @@
     },
     "stats": {
       "hp": 79,
-      "sta": 85,
+      "sta": 82,
       "spd": 60,
-      "atk": 78,
+      "atk": 75,
       "def": 66,
       "spatk": 54,
       "spdef": 66,
-      "total": 488
+      "total": 482
     },
     "tvs": {
       "hp": 0,
@@ -1404,10 +1404,10 @@
       "sta": 59,
       "spd": 49,
       "atk": 84,
-      "def": 45,
+      "def": 47,
       "spatk": 47,
       "spdef": 85,
-      "total": 440
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -2701,10 +2701,10 @@
       "sta": 52,
       "spd": 81,
       "atk": 49,
-      "def": 55,
+      "def": 58,
       "spatk": 92,
       "spdef": 76,
-      "total": 452
+      "total": 455
     },
     "tvs": {
       "hp": 0,
@@ -3130,14 +3130,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 71,
+      "hp": 73,
       "sta": 46,
       "spd": 60,
-      "atk": 72,
-      "def": 87,
+      "atk": 83,
+      "def": 91,
       "spatk": 70,
       "spdef": 73,
-      "total": 479
+      "total": 496
     },
     "tvs": {
       "hp": 2,
@@ -3506,14 +3506,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 61,
+      "hp": 67,
       "sta": 76,
       "spd": 78,
       "atk": 52,
-      "def": 64,
+      "def": 68,
       "spatk": 62,
-      "spdef": 68,
-      "total": 461
+      "spdef": 71,
+      "total": 474
     },
     "tvs": {
       "hp": 0,
@@ -7628,14 +7628,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 46,
+      "hp": 49,
       "sta": 53,
-      "spd": 67,
+      "spd": 75,
       "atk": 68,
-      "def": 43,
+      "def": 49,
       "spatk": 81,
       "spdef": 91,
-      "total": 449
+      "total": 466
     },
     "tvs": {
       "hp": 0,
@@ -8021,7 +8021,7 @@
       {
         "name": "Broccolem",
         "traits": [
-          "Mithridatism",
+          "Marathonist",
           "Camouflage"
         ],
         "condition": "+10 Levels",
@@ -8046,8 +8046,8 @@
     ],
     "traits": [
       {
-        "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
+        "name": "Marathonist",
+        "description": "When attacking, gets SPD, and STA cost is reduced by 50%."
       },
       {
         "name": "Camouflage",
@@ -8062,11 +8062,11 @@
       "hp": 79,
       "sta": 67,
       "spd": 47,
-      "atk": 60,
+      "atk": 63,
       "def": 60,
       "spatk": 76,
       "spdef": 73,
-      "total": 462
+      "total": 465
     },
     "tvs": {
       "hp": 1,
@@ -8118,14 +8118,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 43,
+      "hp": 47,
       "sta": 90,
       "spd": 81,
       "atk": 67,
-      "def": 49,
+      "def": 52,
       "spatk": 72,
       "spdef": 60,
-      "total": 462
+      "total": 469
     },
     "tvs": {
       "hp": 0,
@@ -8360,14 +8360,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 84,
-      "sta": 51,
+      "hp": 86,
+      "sta": 61,
       "spd": 65,
       "atk": 75,
       "def": 67,
       "spatk": 51,
-      "spdef": 57,
-      "total": 450
+      "spdef": 62,
+      "total": 467
     },
     "tvs": {
       "hp": 2,
@@ -8446,7 +8446,7 @@
       {
         "name": "Kalabyss",
         "traits": [
-          "Toxic Skin",
+          "Toxic Farewell",
           "Mucous"
         ],
         "condition": "+18 Levels",
@@ -8471,8 +8471,8 @@
     ],
     "traits": [
       {
-        "name": "Toxic Skin",
-        "description": "When attacked, the attacker gets poisoned for 1 turn."
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
       },
       {
         "name": "Mucous",
@@ -8543,14 +8543,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 68,
+      "hp": 70,
       "sta": 66,
       "spd": 60,
       "atk": 29,
-      "def": 47,
+      "def": 50,
       "spatk": 70,
       "spdef": 112,
-      "total": 452
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -8714,12 +8714,12 @@
     "stats": {
       "hp": 75,
       "sta": 68,
-      "spd": 65,
+      "spd": 70,
       "atk": 53,
-      "def": 49,
+      "def": 52,
       "spatk": 74,
-      "spdef": 78,
-      "total": 462
+      "spdef": 75,
+      "total": 467
     },
     "tvs": {
       "hp": 0,
@@ -9066,14 +9066,14 @@
       "female": 80
     },
     "stats": {
-      "hp": 47,
+      "hp": 50,
       "sta": 74,
       "spd": 74,
       "atk": 53,
       "def": 41,
       "spatk": 69,
       "spdef": 96,
-      "total": 454
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -10455,14 +10455,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 52,
+      "hp": 54,
       "sta": 69,
-      "spd": 76,
+      "spd": 78,
       "atk": 90,
       "def": 54,
       "spatk": 57,
       "spdef": 51,
-      "total": 449
+      "total": 453
     },
     "tvs": {
       "hp": 0,
