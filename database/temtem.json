@@ -4376,11 +4376,11 @@
       "hp": 90,
       "sta": 52,
       "spd": 55,
-      "atk": 77,
+      "atk": 79,
       "def": 85,
       "spatk": 65,
       "spdef": 42,
-      "total": 466
+      "total": 468
     },
     "tvs": {
       "hp": 2,
@@ -5005,14 +5005,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 64,
+      "hp": 66,
       "sta": 60,
       "spd": 79,
       "atk": 57,
-      "def": 45,
-      "spatk": 83,
+      "def": 49,
+      "spatk": 86,
       "spdef": 72,
-      "total": 460
+      "total": 469
     },
     "tvs": {
       "hp": 0,
@@ -5373,14 +5373,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 47,
+      "hp": 51,
       "sta": 68,
       "spd": 80,
       "atk": 51,
       "def": 68,
       "spatk": 70,
       "spdef": 72,
-      "total": 456
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -5436,10 +5436,10 @@
       "sta": 62,
       "spd": 48,
       "atk": 54,
-      "def": 61,
+      "def": 64,
       "spatk": 75,
       "spdef": 71,
-      "total": 444
+      "total": 447
     },
     "tvs": {
       "hp": 0,
@@ -6229,14 +6229,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 68,
+      "hp": 75,
       "sta": 57,
       "spd": 54,
       "atk": 81,
-      "def": 69,
+      "def": 74,
       "spatk": 58,
-      "spdef": 50,
-      "total": 437
+      "spdef": 57,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -7379,11 +7379,11 @@
       "hp": 60,
       "sta": 42,
       "spd": 74,
-      "atk": 51,
+      "atk": 56,
       "def": 55,
       "spatk": 68,
       "spdef": 92,
-      "total": 442
+      "total": 447
     },
     "tvs": {
       "hp": 0,
