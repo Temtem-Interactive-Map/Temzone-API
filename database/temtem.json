@@ -2047,8 +2047,8 @@
       {
         "name": "Taifu",
         "traits": [
-          "Toxic Farewell",
-          "Resilient"
+          "Safe Retreat",
+          "Natural Conversion"
         ],
         "condition": "+15 Levels",
         "image": "static/temtem/taifu.png"
@@ -2068,12 +2068,12 @@
     ],
     "traits": [
       {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "name": "Safe Retreat",
+        "description": "Once per battle, when leaving the battlefield, the Temtem receives 2 turns of regenerating."
       },
       {
-        "name": "Resilient",
-        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+        "name": "Natural Conversion",
+        "description": "Offensive Nature type techniques deal 10% less damage, while using any other non-Nature technique deals 25% more damage."
       }
     ],
     "gender": {
@@ -4868,8 +4868,8 @@
         "description": "After being attacked with a Water technique, gets SPD and ATK."
       },
       {
-        "name": "Toxic Affinity",
-        "description": "Toxic techniques get type damage boost."
+        "name": "Shinobi Tactics",
+        "description": "High priority techniques deal 10% more damage."
       }
     ],
     "gender": {
@@ -4877,14 +4877,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 92,
-      "sta": 46,
-      "spd": 70,
-      "atk": 80,
+      "hp": 75,
+      "sta": 55,
+      "spd": 85,
+      "atk": 85,
       "def": 60,
-      "spatk": 70,
-      "spdef": 67,
-      "total": 485
+      "spatk": 55,
+      "spdef": 61,
+      "total": 476
     },
     "tvs": {
       "hp": 3,
