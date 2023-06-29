@@ -14,7 +14,7 @@ route.get(
   async (ctx) => {
     const markerService = getMarkerService(ctx);
     const { query, limit, offset } = ctx.req.valid("query");
-    const result = await markerService.searchMarkers(query, limit, offset);
+    const result = await markerService.search(query, limit, offset);
 
     return ctx.json(result, 200);
   }
