@@ -1,8 +1,8 @@
 import { controllers } from "controller";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import { t } from "locales";
 import { NotFoundError } from "service/error/not-found.error";
-import { t } from "./locales";
 
 const app = new Hono();
 
