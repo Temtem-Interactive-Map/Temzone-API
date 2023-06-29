@@ -5,19 +5,19 @@
     "areas": [
       {
         "name": "Fields",
-        "rate": 65,
-        "lumaRate": 1,
-        "minSVs": 37,
-        "eggMoves": 5,
-        "temtemId": "d58047e7-9f16-5ee1-8982-0cfa59e93db1"
-      },
-      {
-        "name": "Caves",
         "rate": 95,
         "lumaRate": 1,
-        "minSVs": 32,
-        "eggMoves": 16,
-        "temtemId": "7b6044d4-2db9-5bf6-a33a-1837825f8c17"
+        "minSVs": 31,
+        "eggMoves": 7,
+        "temtemId": "a199326c-2df2-5f5c-bdad-3df01059dfa6"
+      },
+      {
+        "name": "Water",
+        "rate": 100,
+        "lumaRate": 1,
+        "minSVs": 36,
+        "eggMoves": 15,
+        "temtemId": "c273532b-5b15-5e7a-b4eb-4b017f78a2fc"
       }
     ]
   }

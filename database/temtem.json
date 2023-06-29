@@ -1342,13 +1342,13 @@
     },
     "stats": {
       "hp": 79,
-      "sta": 85,
+      "sta": 82,
       "spd": 60,
-      "atk": 78,
+      "atk": 75,
       "def": 66,
       "spatk": 54,
       "spdef": 66,
-      "total": 488
+      "total": 482
     },
     "tvs": {
       "hp": 0,
@@ -1404,10 +1404,10 @@
       "sta": 59,
       "spd": 49,
       "atk": 84,
-      "def": 45,
+      "def": 47,
       "spatk": 47,
       "spdef": 85,
-      "total": 440
+      "total": 442
     },
     "tvs": {
       "hp": 0,
@@ -2047,8 +2047,8 @@
       {
         "name": "Taifu",
         "traits": [
-          "Toxic Farewell",
-          "Resilient"
+          "Safe Retreat",
+          "Natural Conversion"
         ],
         "condition": "+15 Levels",
         "image": "static/temtem/taifu.png"
@@ -2068,12 +2068,12 @@
     ],
     "traits": [
       {
-        "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "name": "Safe Retreat",
+        "description": "Once per battle, when leaving the battlefield, the Temtem receives 2 turns of regenerating."
       },
       {
-        "name": "Resilient",
-        "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD."
+        "name": "Natural Conversion",
+        "description": "Offensive Nature type techniques deal 10% less damage, while using any other non-Nature technique deals 25% more damage."
       }
     ],
     "gender": {
@@ -2689,7 +2689,7 @@
       },
       {
         "name": "Water Custodian",
-        "description": "Water techniques targeting the ally will target the Temtem instead and deal 15% less damage."
+        "description": "Water techniques targeting the ally will target the Temtem instead and it will get SPATK."
       }
     ],
     "gender": {
@@ -2701,10 +2701,10 @@
       "sta": 52,
       "spd": 81,
       "atk": 49,
-      "def": 55,
+      "def": 58,
       "spatk": 92,
       "spdef": 76,
-      "total": 452
+      "total": 455
     },
     "tvs": {
       "hp": 0,
@@ -2872,7 +2872,7 @@
       },
       {
         "name": "Settling",
-        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
       }
     ],
     "gender": {
@@ -3130,14 +3130,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 71,
+      "hp": 73,
       "sta": 46,
       "spd": 60,
-      "atk": 72,
-      "def": 87,
+      "atk": 83,
+      "def": 91,
       "spatk": 70,
       "spdef": 73,
-      "total": 479
+      "total": 496
     },
     "tvs": {
       "hp": 2,
@@ -3506,14 +3506,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 61,
+      "hp": 67,
       "sta": 76,
       "spd": 78,
       "atk": 52,
-      "def": 64,
+      "def": 68,
       "spatk": 62,
-      "spdef": 68,
-      "total": 461
+      "spdef": 71,
+      "total": 474
     },
     "tvs": {
       "hp": 0,
@@ -4365,7 +4365,7 @@
       },
       {
         "name": "Energy Reserves",
-        "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns."
+        "description": "Once per battle, if the Temtem is attacked and HP is below 45%, gets ATK and invigorated for 2 turns."
       }
     ],
     "gender": {
@@ -4376,11 +4376,11 @@
       "hp": 90,
       "sta": 52,
       "spd": 55,
-      "atk": 77,
+      "atk": 79,
       "def": 85,
       "spatk": 65,
       "spdef": 42,
-      "total": 466
+      "total": 468
     },
     "tvs": {
       "hp": 2,
@@ -4868,8 +4868,8 @@
         "description": "After being attacked with a Water technique, gets SPD and ATK."
       },
       {
-        "name": "Toxic Affinity",
-        "description": "Toxic techniques get type damage boost."
+        "name": "Shinobi Tactics",
+        "description": "High priority techniques deal 10% more damage."
       }
     ],
     "gender": {
@@ -4877,14 +4877,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 92,
-      "sta": 46,
-      "spd": 70,
-      "atk": 80,
+      "hp": 75,
+      "sta": 55,
+      "spd": 85,
+      "atk": 85,
       "def": 60,
-      "spatk": 70,
-      "spdef": 67,
-      "total": 485
+      "spatk": 55,
+      "spdef": 61,
+      "total": 476
     },
     "tvs": {
       "hp": 3,
@@ -5005,14 +5005,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 64,
+      "hp": 66,
       "sta": 60,
       "spd": 79,
       "atk": 57,
-      "def": 45,
-      "spatk": 83,
+      "def": 49,
+      "spatk": 86,
       "spdef": 72,
-      "total": 460
+      "total": 469
     },
     "tvs": {
       "hp": 0,
@@ -5373,14 +5373,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 47,
+      "hp": 51,
       "sta": 68,
       "spd": 80,
       "atk": 51,
       "def": 68,
       "spatk": 70,
       "spdef": 72,
-      "total": 456
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -5436,10 +5436,10 @@
       "sta": 62,
       "spd": 48,
       "atk": 54,
-      "def": 61,
+      "def": 64,
       "spatk": 75,
       "spdef": 71,
-      "total": 444
+      "total": 447
     },
     "tvs": {
       "hp": 0,
@@ -6229,14 +6229,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 68,
+      "hp": 75,
       "sta": 57,
       "spd": 54,
       "atk": 81,
-      "def": 69,
+      "def": 74,
       "spatk": 58,
-      "spdef": 50,
-      "total": 437
+      "spdef": 57,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -6935,7 +6935,7 @@
       },
       {
         "name": "Settling",
-        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
       }
     ],
     "gender": {
@@ -7000,7 +7000,7 @@
       },
       {
         "name": "Settling",
-        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
       }
     ],
     "gender": {
@@ -7120,7 +7120,7 @@
       },
       {
         "name": "Toxic Skin",
-        "description": "When attacked, the attacker gets poisoned for 1 turn."
+        "description": "Once per turn, when attacked, the attacker gets poisoned for 1 turn."
       }
     ],
     "gender": {
@@ -7171,7 +7171,7 @@
     "traits": [
       {
         "name": "Toxic Skin",
-        "description": "When attacked, the attacker gets poisoned for 1 turn."
+        "description": "Once per turn, when attacked, the attacker gets poisoned for 1 turn."
       },
       {
         "name": "Bully",
@@ -7379,11 +7379,11 @@
       "hp": 60,
       "sta": 42,
       "spd": 74,
-      "atk": 51,
+      "atk": 56,
       "def": 55,
       "spatk": 68,
       "spdef": 92,
-      "total": 442
+      "total": 447
     },
     "tvs": {
       "hp": 0,
@@ -7419,11 +7419,11 @@
     "traits": [
       {
         "name": "Energy Reserves",
-        "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns."
+        "description": "Once per battle, if the Temtem is attacked and HP is below 45%, gets ATK and invigorated for 2 turns."
       },
       {
         "name": "Settling",
-        "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
       }
     ],
     "gender": {
@@ -7628,14 +7628,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 46,
+      "hp": 49,
       "sta": 53,
-      "spd": 67,
+      "spd": 75,
       "atk": 68,
-      "def": 43,
+      "def": 49,
       "spatk": 81,
       "spdef": 91,
-      "total": 449
+      "total": 466
     },
     "tvs": {
       "hp": 0,
@@ -8021,7 +8021,7 @@
       {
         "name": "Broccolem",
         "traits": [
-          "Mithridatism",
+          "Marathonist",
           "Camouflage"
         ],
         "condition": "+10 Levels",
@@ -8046,8 +8046,8 @@
     ],
     "traits": [
       {
-        "name": "Mithridatism",
-        "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%."
+        "name": "Marathonist",
+        "description": "When attacking, gets SPD, and STA cost is reduced by 50%."
       },
       {
         "name": "Camouflage",
@@ -8062,11 +8062,11 @@
       "hp": 79,
       "sta": 67,
       "spd": 47,
-      "atk": 60,
+      "atk": 63,
       "def": 60,
       "spatk": 76,
       "spdef": 73,
-      "total": 462
+      "total": 465
     },
     "tvs": {
       "hp": 1,
@@ -8118,14 +8118,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 43,
+      "hp": 47,
       "sta": 90,
       "spd": 81,
       "atk": 67,
-      "def": 49,
+      "def": 52,
       "spatk": 72,
       "spdef": 60,
-      "total": 462
+      "total": 469
     },
     "tvs": {
       "hp": 0,
@@ -8360,14 +8360,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 84,
-      "sta": 51,
+      "hp": 86,
+      "sta": 61,
       "spd": 65,
       "atk": 75,
       "def": 67,
       "spatk": 51,
-      "spdef": 57,
-      "total": 450
+      "spdef": 62,
+      "total": 467
     },
     "tvs": {
       "hp": 2,
@@ -8446,7 +8446,7 @@
       {
         "name": "Kalabyss",
         "traits": [
-          "Toxic Skin",
+          "Toxic Farewell",
           "Mucous"
         ],
         "condition": "+18 Levels",
@@ -8471,8 +8471,8 @@
     ],
     "traits": [
       {
-        "name": "Toxic Skin",
-        "description": "When attacked, the attacker gets poisoned for 1 turn."
+        "name": "Toxic Farewell",
+        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
       },
       {
         "name": "Mucous",
@@ -8535,7 +8535,7 @@
       },
       {
         "name": "Toxic Skin",
-        "description": "When attacked, the attacker gets poisoned for 1 turn."
+        "description": "Once per turn, when attacked, the attacker gets poisoned for 1 turn."
       }
     ],
     "gender": {
@@ -8543,14 +8543,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 68,
+      "hp": 70,
       "sta": 66,
       "spd": 60,
       "atk": 29,
-      "def": 47,
+      "def": 50,
       "spatk": 70,
       "spdef": 112,
-      "total": 452
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -8714,12 +8714,12 @@
     "stats": {
       "hp": 75,
       "sta": 68,
-      "spd": 65,
+      "spd": 70,
       "atk": 53,
-      "def": 49,
+      "def": 52,
       "spatk": 74,
-      "spdef": 78,
-      "total": 462
+      "spdef": 75,
+      "total": 467
     },
     "tvs": {
       "hp": 0,
@@ -8881,7 +8881,7 @@
       },
       {
         "name": "Tactical Strike",
-        "description": "Damage done with Hold techniques is increased by 20%."
+        "description": "Damage done with Hold techniques is increased by 16%."
       }
     ],
     "gender": {
@@ -9066,14 +9066,14 @@
       "female": 80
     },
     "stats": {
-      "hp": 47,
+      "hp": 50,
       "sta": 74,
       "spd": 74,
       "atk": 53,
       "def": 41,
       "spatk": 69,
       "spdef": 96,
-      "total": 454
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -10260,7 +10260,7 @@
       },
       {
         "name": "Wax Bath",
-        "description": "When an ally rests, they get SPDEF."
+        "description": "Wax Bath decreases the damage the holder takes from Fire Techniques by 25% and invalidates the effects of the Burn Status Condition."
       }
     ],
     "gender": {
@@ -10455,14 +10455,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 52,
+      "hp": 54,
       "sta": 69,
-      "spd": 76,
+      "spd": 78,
       "atk": 90,
       "def": 54,
       "spatk": 57,
       "spdef": 51,
-      "total": 449
+      "total": 453
     },
     "tvs": {
       "hp": 0,
