@@ -21,7 +21,7 @@ export interface MarkerSpawnDetails {
     gender: Gender | null;
     stats: Stats;
     tvs: Stats;
-    catch_rate: number;
+    catchRate: number;
     height: Height;
     weight: Weight;
     evolutions: {

@@ -37,8 +37,11 @@ export async function populateDatabase(
     insertBatch(lyraDB, [
       {
         id: "31bf1631-972e-56e1-9838-ded1c799356f",
+        type: "saipark",
         title: "Saipark",
         subtitle: "West from Praise Coast",
+        x: 100,
+        y: 200,
       },
     ]),
   ]);

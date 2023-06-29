@@ -12,4 +12,10 @@ export class TemtemRepositoryJson implements TemtemRepository {
 
     return { id, ...temtem } as TemtemEntity;
   }
+
+  getByTempediaId(id: number): TemtemEntity[] {
+    return Object.entries(temtemJSON)
+      .filter(([, temtem]) => temtem.tempediaId === id)
+      .map(([id]) => this.findById(id));
+  }
 }

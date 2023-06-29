@@ -7,5 +7,5 @@ export interface UserService {
     limit: number,
     offset: number
   ): Promise<Page<UserMarker>>;
-  setTemtemObtained(userId: string, temtemId: string): Promise<void>;
+  setTemtemObtained(userId: string, tempediaId: number): Promise<void>;
 }

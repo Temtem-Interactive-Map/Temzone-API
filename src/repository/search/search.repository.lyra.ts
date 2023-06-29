@@ -18,7 +18,14 @@ export class SearchRepositoryLyra implements SearchRepository {
       await remove(this.db, marker.id);
     }
 
-    await insert(this.db, marker as SearchSchema);
+    await insert(this.db, {
+      id: marker.id,
+      type: marker.type,
+      title: marker.title,
+      subtitle: marker.subtitle,
+      x: marker.x,
+      y: marker.y,
+    });
   }
 
   async search(

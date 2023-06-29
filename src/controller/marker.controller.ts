@@ -52,7 +52,7 @@ route.get("/spawns/:id", auth(), async (ctx) => {
   const markerService = getMarkerService(ctx);
   const { id } = ctx.req.param();
   const url = new URL(ctx.req.url);
-  const result = await markerService.getSpawnMarker(id, url.origin);
+  const result = await markerService.getSpawn(id, url.origin);
 
   return ctx.json(result, 200);
 });
@@ -65,7 +65,7 @@ route.put(
     const markerService = getMarkerService(ctx);
     const { id } = ctx.req.param();
     const spawn = ctx.req.valid("json");
-    await markerService.updateSpawnMarker(id, spawn);
+    await markerService.updateSpawn(id, spawn);
 
     return ctx.newResponse(null, 204);
   }
@@ -75,7 +75,7 @@ route.get("/saipark/:id", auth(), async (ctx) => {
   const markerService = getMarkerService(ctx);
   const { id } = ctx.req.param();
   const url = new URL(ctx.req.url);
-  const result = await markerService.getSaiparkMarker(id, url.origin);
+  const result = await markerService.getSaipark(id, url.origin);
 
   return ctx.json(result, 200);
 });
@@ -88,7 +88,7 @@ route.put(
     const markerService = getMarkerService(ctx);
     const { id } = ctx.req.param();
     const saipark = ctx.req.valid("json");
-    await markerService.updateSaiparkMarker(id, saipark);
+    await markerService.updateSaipark(id, saipark);
 
     return ctx.newResponse(null, 204);
   }
