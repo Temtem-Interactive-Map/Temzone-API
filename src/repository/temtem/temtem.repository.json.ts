@@ -16,6 +16,6 @@ export class TemtemRepositoryJson implements TemtemRepository {
   getByTempediaId(id: number): TemtemEntity[] {
     return Object.entries(temtemJSON)
       .filter(([, temtem]) => temtem.tempediaId === id)
-      .map(([id, temtem]) => ({ id, ...temtem }));
+      .map(([id]) => this.findById(id));
   }
 }
