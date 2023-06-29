@@ -64,7 +64,7 @@ class Type {
       const rawUrl = $.find("img").attr("src");
       const cleanUrl = cleanText(rawUrl);
       const url = shortUrl(cleanUrl);
-      const png = await fetchPng("https://temtem.wiki.gg/" + url, 24);
+      const png = await fetchPng("https://temtem.wiki.gg/" + url, 25);
 
       await writeDBImage(join("types", filename), png);
     }
