@@ -25,7 +25,7 @@ route.put("/temtem/:id", auth(), async (ctx) => {
   const userService = getUserService(ctx);
   const { id } = ctx.req.param();
   const user = getUser(ctx);
-  await userService.setTemtemObtained(user.id, id);
+  await userService.setTemtemObtained(user.id, parseInt(id));
 
   return ctx.newResponse(null, 204);
 });
