@@ -1011,13 +1011,10 @@ describe("Testing routes", async () => {
       ])
       .execute();
 
-    const response = await request(
-      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
-      {
-        method: "PUT",
-        token: userToken,
-      }
-    );
+    const response = await request("/users/temtem/46", {
+      method: "PUT",
+      token: userToken,
+    });
 
     expect(response).toBeDefined();
     expect(response.status).toBe(204);
@@ -1044,12 +1041,9 @@ describe("Testing routes", async () => {
   });
 
   it("route PUT '/users/temtem/:id' should return 401 Unauthorized", async () => {
-    const response = await request(
-      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
-      {
-        method: "PUT",
-      }
-    );
+    const response = await request("/users/temtem/46", {
+      method: "PUT",
+    });
 
     expect(response).toBeDefined();
     expect(response.status).toBe(401);
@@ -1062,13 +1056,10 @@ describe("Testing routes", async () => {
   });
 
   it("route PUT '/users/temtem/:id' should return 404 Not Found", async () => {
-    const response = await request(
-      "/users/temtem/3bedbb17-8c2e-59dd-a7ec-77702c881165",
-      {
-        method: "PUT",
-        token: userToken,
-      }
-    );
+    const response = await request("/users/temtem/46", {
+      method: "PUT",
+      token: userToken,
+    });
 
     expect(response).toBeDefined();
     expect(response.status).toBe(404);
