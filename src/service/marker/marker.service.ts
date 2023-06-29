@@ -7,14 +7,10 @@ import { MarkerSpawnDetails } from "service/marker/model/marker.spawn.details";
 
 export interface MarkerService {
   insertMarkers(markers: Marker[]): Promise<Marker[]>;
-  getSpawnMarker(id: string, baseUrl: string): Promise<MarkerSpawnDetails>;
-  updateSpawnMarker(id: string, spawn: MarkerSpawn): Promise<void>;
-  getSaiparkMarker(id: string, baseUrl: string): Promise<MarkerSaiparkDetails>;
-  updateSaiparkMarker(id: string, saipark: MarkerSaipark): Promise<void>;
   getMarkers(limit: number, offset: number): Promise<Page<Marker>>;
-  searchMarkers(
-    query: string,
-    limit: number,
-    offset: number
-  ): Promise<Page<Marker>>;
+  search(query: string, limit: number, offset: number): Promise<Page<Marker>>;
+  getSpawn(id: string, baseUrl: string): Promise<MarkerSpawnDetails>;
+  updateSpawn(id: string, spawn: MarkerSpawn): Promise<void>;
+  getSaipark(id: string, baseUrl: string): Promise<MarkerSaiparkDetails>;
+  updateSaipark(id: string, saipark: MarkerSaipark): Promise<void>;
 }
