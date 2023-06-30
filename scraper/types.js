@@ -1,4 +1,5 @@
 import { join } from "node:path";
+import { z } from "zod";
 import {
   generateFileName,
   generateId,
@@ -37,6 +38,14 @@ export async function scrapeTypes() {
     "types",
     typeAssetsDB.filter((filename) => !typeAssets.has(filename))
   );
+
+  z.array(
+    z.object({
+      name: z.string().min(1),
+      image: z.string().min(1),
+    })
+  ).parse(Object.values(types));
+
   logSuccess("[types] scraped successfully");
 
   return types;
