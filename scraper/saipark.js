@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { generateId, readDBFile } from "./utils/database/index.js";
 import { sendMessage } from "./utils/firebase/index.js";
 import { logInfo, logSuccess, logWarning } from "./utils/log/index.js";
@@ -55,6 +56,26 @@ export async function scrapeSaipark() {
   }
 
   logSuccess("[saipark] scraped successfully");
+
+  z.array(
+    z.object({
+      title: z.string().min(1),
+      subtitle: z.string().min(1),
+      areas: z
+        .array(
+          z.object({
+            name: z.string().min(1),
+            rate: z.number().int().min(0).max(100),
+            lumaRate: z.number().int().nonnegative(),
+            minSVs: z.number().int().nonnegative(),
+            eggMoves: z.number().int().nonnegative(),
+            temtemId: z.string().uuid(),
+          })
+        )
+        .min(2)
+        .max(2),
+    })
+  ).parse(Object.values(saipark));
 
   return saipark;
 }

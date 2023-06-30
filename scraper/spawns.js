@@ -1,4 +1,5 @@
 import { join } from "path";
+import { z } from "zod";
 import {
   generateFileName,
   generateId,
@@ -93,6 +94,21 @@ export async function scrapeSpawns() {
     "areas",
     areaAssetsDB.filter((filename) => !areaAssets.has(filename))
   );
+
+  z.array(
+    z.object({
+      title: z.string().min(1),
+      subtitle: z.string().min(1),
+      rate: z.array(z.number().int().min(0).max(100)).min(1).max(2),
+      level: z.object({
+        min: z.number().int().min(1).max(100),
+        max: z.number().int().min(1).max(100),
+      }),
+      image: z.string().min(1),
+      temtemId: z.string().uuid(),
+    })
+  ).parse(Object.values(spawns));
+
   logSuccess("[spawns] scraped successfully");
 
   return spawns;

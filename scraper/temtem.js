@@ -1,4 +1,5 @@
 import { join } from "node:path";
+import { z } from "zod";
 import {
   generateFileName,
   generateId,
@@ -89,6 +90,70 @@ export async function scrapeTemtem() {
     "temtem",
     temtemAssetsDB.filter((filename) => !temtemAssets.has(filename))
   );
+
+  z.array(
+    z.object({
+      tempediaId: z.number().int().positive(),
+      name: z.string().min(1),
+      description: z.string().min(1),
+      types: z.array(
+        z.object({
+          name: z.string().min(1),
+          image: z.string().min(1),
+        })
+      ),
+      traits: z.array(
+        z.object({
+          name: z.string().min(1),
+          description: z.string().min(1),
+        })
+      ),
+      gender: z
+        .object({
+          male: z.number().int().min(0).max(100),
+          female: z.number().int().min(0).max(100),
+        })
+        .nullable(),
+      stats: z.object({
+        hp: z.number().int().min(1).max(130),
+        sta: z.number().int().min(1).max(120),
+        spd: z.number().int().min(1).max(120),
+        atk: z.number().int().min(1).max(120),
+        def: z.number().int().min(1).max(120),
+        spatk: z.number().int().min(1).max(120),
+        spdef: z.number().int().min(1).max(120),
+        total: z.number().int().min(1).max(850),
+      }),
+      tvs: z.object({
+        hp: z.number().int().nonnegative(),
+        sta: z.number().int().nonnegative(),
+        spd: z.number().int().nonnegative(),
+        atk: z.number().int().nonnegative(),
+        def: z.number().int().nonnegative(),
+        spatk: z.number().int().nonnegative(),
+        spdef: z.number().int().nonnegative(),
+      }),
+      catchRate: z.number().int().nonnegative(),
+      height: z.object({
+        cm: z.number().int().min(1),
+        inches: z.number().min(1),
+      }),
+      weight: z.object({
+        kg: z.number().int().min(1),
+        lbs: z.number().min(1),
+      }),
+      evolutions: z.array(
+        z.object({
+          name: z.string().min(1),
+          traits: z.array(z.string().min(1)),
+          condition: z.string().min(1),
+          image: z.string().min(1),
+        })
+      ),
+      image: z.string().min(1),
+    })
+  ).parse(Object.values(creatures));
+
   logSuccess("[temtem] scraped successfully");
 
   return creatures;

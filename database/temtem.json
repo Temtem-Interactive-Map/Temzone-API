@@ -4714,6 +4714,7 @@
           "Furor",
           "Parrier"
         ],
+        "condition": "+12 Levels",
         "image": "static/temtem/osukan.png"
       }
     ],

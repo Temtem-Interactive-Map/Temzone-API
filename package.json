@@ -1,7 +1,7 @@
 {
   "name": "temzone",
   "description": "The Temtem Interactive Map API",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "author": "Temtem Interactive Map",
   "license": "MIT",
   "type": "module",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@lyrasearch/lyra": "0.4.12",
-    "hono": "3.2.6",
+    "hono": "3.2.7",
     "jose": "4.14.4",
     "kysely": "0.25.0",
     "kysely-d1": "0.3.0",
