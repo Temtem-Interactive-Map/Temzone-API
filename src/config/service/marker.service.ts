@@ -21,7 +21,7 @@ export function getMarkerService(ctx: Context): MarkerService {
     spawnRepository,
     saiparkRepository,
     searchRepository,
-    temtemRepository
+    temtemRepository,
   );
 
   return markerService;

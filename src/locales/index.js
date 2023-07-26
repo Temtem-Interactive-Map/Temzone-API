@@ -8,7 +8,7 @@ export function t(keys, params) {
   } else {
     return Object.keys(params).reduce(
       (o, i) => o.replace("@" + i, params[i]),
-      key
+      key,
     );
   }
 }

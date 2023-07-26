@@ -3,7 +3,7 @@ export interface MarkerUserModel {
   type: string;
   title: string;
   subtitle: string;
-  x: number | null;
-  y: number | null;
-  user_id: string | null;
+  x: number;
+  y: number;
+  obtained: boolean;
 }

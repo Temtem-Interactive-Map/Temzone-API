@@ -8,7 +8,7 @@ export function auth(admin = false): MiddlewareHandler {
       const authorization = ctx.req.headers.get("Authorization") as string;
       const token = authorization.replace(/Bearer\s+/i, "");
       const b64Url = token.split(".")[1];
-      const b64 = b64Url.replace(/_|-/g, (m) => ({ _: "/", "-": "+" }[m] ?? m));
+      const b64 = b64Url.replace(/_|-/g, (m) => ({ _: "/", "-": "+" })[m] ?? m);
       const binary = atob(b64);
       const bytes = new Uint8Array(new ArrayBuffer(binary.length));
       const half = binary.length / 2;
@@ -27,7 +27,7 @@ export function auth(admin = false): MiddlewareHandler {
             status: 403,
             message: t("403"),
           },
-          403
+          403,
         );
       }
 
@@ -43,7 +43,7 @@ export function auth(admin = false): MiddlewareHandler {
           status: 401,
           message: t("401"),
         },
-        401
+        401,
       );
     }
   };

@@ -64,14 +64,14 @@ export async function generatePortrait(url) {
     "scraper",
     "utils",
     "assets",
-    "portrait_background.png"
+    "portrait_background.png",
   );
   const portraitBorderPath = join(
     process.cwd(),
     "scraper",
     "utils",
     "assets",
-    "portrait_border.png"
+    "portrait_border.png",
   );
   const temtemBuffer = await fetchPng(url, 240);
   const temtemPortraitBuffer = await sharp(portraitBackgroundPath)

@@ -6,6 +6,6 @@ export interface MarkerUserRepository {
   getPage(
     userId: string,
     page: number,
-    limit: number
+    limit: number,
   ): Promise<Page<MarkerUserModel>>;
 }

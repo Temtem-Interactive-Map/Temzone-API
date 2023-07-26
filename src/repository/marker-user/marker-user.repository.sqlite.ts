@@ -18,7 +18,7 @@ export class MarkerUserRepositorySqlite implements MarkerUserRepository {
         markerIds.map((markerId) => ({
           marker_id: markerId,
           user_id: userId,
-        }))
+        })),
       )
       .onConflict((oc) => oc.doNothing())
       .returningAll()
@@ -26,17 +26,17 @@ export class MarkerUserRepositorySqlite implements MarkerUserRepository {
 
     await this.db
       .deleteFrom("markers_users")
-      .where(({ cmpr, and }) =>
+      .where(({ eb, and }) =>
         and([
-          cmpr(
+          eb(
             "marker_id",
             "in",
             markerIds.filter(
-              (markerId) => !newMarkers.some((m) => m.marker_id === markerId)
-            )
+              (markerId) => !newMarkers.some((m) => m.marker_id === markerId),
+            ),
           ),
-          cmpr("user_id", "=", userId),
-        ])
+          eb("user_id", "=", userId),
+        ]),
       )
       .execute();
   }
@@ -44,35 +44,33 @@ export class MarkerUserRepositorySqlite implements MarkerUserRepository {
   async getPage(
     userId: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<MarkerUserModel>> {
     const { count } = (await this.db
       .selectFrom("markers")
-      .leftJoin("markers_users", "id", "marker_id")
       .select(this.db.fn.countAll().as("count"))
-      .where(({ cmpr, and, or }) =>
-        and([
-          or([cmpr("user_id", "=", userId), cmpr("user_id", "is", null)]),
-          cmpr("x", "is not", null),
-          cmpr("y", "is not", null),
-        ])
+      .where(({ eb, and }) =>
+        and([eb("x", "is not", null), eb("y", "is not", null)]),
       )
       .executeTakeFirstOrThrow()) as { count: number };
 
     const items = await this.db
       .selectFrom("markers")
-      .leftJoin("markers_users", "id", "marker_id")
-      .select(["id", "type", "title", "subtitle", "x", "y", "user_id"])
-      .where(({ cmpr, and, or }) =>
-        and([
-          or([cmpr("user_id", "=", userId), cmpr("user_id", "is", null)]),
-          cmpr("x", "is not", null),
-          cmpr("y", "is not", null),
-        ])
+      .select(["id", "type", "title", "subtitle", "x", "y"])
+      .where(({ eb, and }) =>
+        and([eb("x", "is not", null), eb("y", "is not", null)]),
       )
       .limit(limit)
       .offset(offset)
       .execute();
+
+    const ids = (
+      await this.db
+        .selectFrom("markers_users")
+        .select(["marker_id"])
+        .where("user_id", "=", userId)
+        .execute()
+    ).map((markerUser) => markerUser.marker_id);
 
     const next = offset + items.length < count ? offset + limit : null;
     const prev =
@@ -80,6 +78,20 @@ export class MarkerUserRepositorySqlite implements MarkerUserRepository {
         ? offset - limit
         : null;
 
-    return { items, next, prev };
+    return {
+      items: items.map((item) => {
+        return {
+          id: item.id,
+          type: item.type,
+          title: item.title,
+          subtitle: item.subtitle,
+          x: item.x as number,
+          y: item.y as number,
+          obtained: ids.includes(item.id),
+        };
+      }),
+      next,
+      prev,
+    };
   }
 }

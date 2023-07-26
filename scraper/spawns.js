@@ -29,7 +29,7 @@ export async function scrapeSpawns() {
     const $temtem = await scrape("https://temtem.wiki.gg" + temtemHref);
 
     for (const el of $temtem(
-      "table.locationTable > tbody > tr > td:nth-child(1):not(:last-child) > a"
+      "table.locationTable > tbody > tr > td:nth-child(1):not(:last-child) > a",
     )) {
       const locationHref = $(el).attr("href");
       const url = "https://temtem.wiki.gg" + locationHref;
@@ -92,7 +92,7 @@ export async function scrapeSpawns() {
 
   await removeDBContent(
     "areas",
-    areaAssetsDB.filter((filename) => !areaAssets.has(filename))
+    areaAssetsDB.filter((filename) => !areaAssets.has(filename)),
   );
 
   z.array(
@@ -106,7 +106,7 @@ export async function scrapeSpawns() {
       }),
       image: z.string().min(1),
       temtemId: z.string().uuid(),
-    })
+    }),
   ).parse(Object.values(spawns));
 
   logSuccess("[spawns] scraped successfully");

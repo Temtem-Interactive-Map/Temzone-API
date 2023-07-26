@@ -36,14 +36,14 @@ export async function scrapeTypes() {
 
   await removeDBContent(
     "types",
-    typeAssetsDB.filter((filename) => !typeAssets.has(filename))
+    typeAssetsDB.filter((filename) => !typeAssets.has(filename)),
   );
 
   z.array(
     z.object({
       name: z.string().min(1),
       image: z.string().min(1),
-    })
+    }),
   ).parse(Object.values(types));
 
   logSuccess("[types] scraped successfully");

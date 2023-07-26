@@ -58,7 +58,7 @@ describe("Testing routes", async () => {
         method: options.method,
         headers: { Authorization: "Bearer " + options.token },
         body: JSON.stringify(options.body),
-      }
+      },
     );
   }
 
@@ -117,7 +117,7 @@ describe("Testing routes", async () => {
     expect(data2.title).toBe("Saipark");
     expect((data2.subtitle as Subtitle).current).toBe("West from Praise Coast");
     expect((data2.subtitle as Subtitle).original).toBe(
-      "West from Praise Coast"
+      "West from Praise Coast",
     );
     expect((data2.coordinates as Coordinates).x).toBe(100);
     expect((data2.coordinates as Coordinates).y).toBe(200);
@@ -333,7 +333,7 @@ describe("Testing routes", async () => {
       {
         method: "GET",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -350,7 +350,7 @@ describe("Testing routes", async () => {
       "/markers/spawns/5bd4650d-3105-5c0c-8a42-141a33180873",
       {
         method: "GET",
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -369,7 +369,7 @@ describe("Testing routes", async () => {
       {
         method: "GET",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -396,7 +396,7 @@ describe("Testing routes", async () => {
             y: 200,
           },
         },
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -421,11 +421,11 @@ describe("Testing routes", async () => {
     const lyraDB = getLyraDatabase();
     const document = await getByID(
       lyraDB,
-      "84181c19-eb7f-58c4-aba0-19e189154df2"
+      "84181c19-eb7f-58c4-aba0-19e189154df2",
     );
     expect(document).toBeDefined();
     expect((document as SearchEntity).id).toBe(
-      "84181c19-eb7f-58c4-aba0-19e189154df2"
+      "84181c19-eb7f-58c4-aba0-19e189154df2",
     );
     expect((document as SearchEntity).title).toBe("Scarawatt");
     expect((document as SearchEntity).subtitle).toBe("Iwaba, Area 2");
@@ -492,7 +492,7 @@ describe("Testing routes", async () => {
           method: "PUT",
           token: adminToken,
           body,
-        }
+        },
       );
 
       expect(response).toBeDefined();
@@ -519,7 +519,7 @@ describe("Testing routes", async () => {
             y: 200,
           },
         },
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -538,7 +538,7 @@ describe("Testing routes", async () => {
       {
         method: "PUT",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -586,7 +586,7 @@ describe("Testing routes", async () => {
       {
         method: "GET",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -602,7 +602,7 @@ describe("Testing routes", async () => {
       "/markers/saipark/31bf1631-972e-56e1-9838-ded1c799356f",
       {
         method: "GET",
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -621,7 +621,7 @@ describe("Testing routes", async () => {
       {
         method: "GET",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -646,7 +646,7 @@ describe("Testing routes", async () => {
             y: 400,
           },
         },
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -671,11 +671,11 @@ describe("Testing routes", async () => {
     const lyraDB = getLyraDatabase();
     const document = await getByID(
       lyraDB,
-      "31bf1631-972e-56e1-9838-ded1c799356f"
+      "31bf1631-972e-56e1-9838-ded1c799356f",
     );
     expect(document).toBeDefined();
     expect((document as SearchEntity).id).toBe(
-      "31bf1631-972e-56e1-9838-ded1c799356f"
+      "31bf1631-972e-56e1-9838-ded1c799356f",
     );
     expect((document as SearchEntity).title).toBe("Saipark");
     expect((document as SearchEntity).subtitle).toBe("West from Praise Coast");
@@ -712,7 +712,7 @@ describe("Testing routes", async () => {
           method: "PUT",
           token: adminToken,
           body,
-        }
+        },
       );
 
       expect(response).toBeDefined();
@@ -737,7 +737,7 @@ describe("Testing routes", async () => {
             y: 400,
           },
         },
-      }
+      },
     );
 
     expect(response).toBeDefined();
@@ -756,7 +756,7 @@ describe("Testing routes", async () => {
       {
         method: "PUT",
         token: userToken,
-      }
+      },
     );
 
     expect(response).toBeDefined();

@@ -17,7 +17,7 @@ export class UserServiceImpl implements UserService {
     markerRepository: MarkerRepository,
     markerUserRepository: MarkerUserRepository,
     spawnRepository: SpawnRepository,
-    temtemRepository: TemtemRepository
+    temtemRepository: TemtemRepository,
   ) {
     this.markerRepository = markerRepository;
     this.markerUserRepository = markerUserRepository;
@@ -28,12 +28,12 @@ export class UserServiceImpl implements UserService {
   async getMarkers(
     userId: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<UserMarker>> {
     const { items, next, prev } = await this.markerUserRepository.getPage(
       userId,
       limit,
-      offset
+      offset,
     );
 
     const markers = items.map((marker) => {
@@ -43,10 +43,10 @@ export class UserServiceImpl implements UserService {
         title: marker.title,
         subtitle: marker.subtitle,
         coordinates: {
-          x: marker.x as number,
-          y: marker.y as number,
+          x: marker.x,
+          y: marker.y,
         },
-        obtained: marker.user_id !== null,
+        obtained: marker.obtained,
       };
     });
 
@@ -74,7 +74,7 @@ export class UserServiceImpl implements UserService {
 
     await this.markerUserRepository.updateMany(
       userId,
-      markerIds.map((marker) => marker.id)
+      markerIds.map((marker) => marker.id),
     );
   }
 }

@@ -26,7 +26,7 @@ route.get(
     const result = await markerService.getMarkers(limit, offset);
 
     return ctx.json(result, 200);
-  }
+  },
 );
 
 route.post(
@@ -37,7 +37,7 @@ route.post(
     z
       .array(z.object({ id, type, title, subtitle }))
       .min(1, "array")
-      .max(200, "array")
+      .max(200, "array"),
   ),
   async (ctx) => {
     const markerService = getMarkerService(ctx);
@@ -45,7 +45,7 @@ route.post(
     const result = await markerService.insertMarkers(markers);
 
     return ctx.json(result, 200);
-  }
+  },
 );
 
 route.get("/spawns/:id", auth(), async (ctx) => {
@@ -68,7 +68,7 @@ route.put(
     await markerService.updateSpawn(id, spawn);
 
     return ctx.newResponse(null, 204);
-  }
+  },
 );
 
 route.get("/saipark/:id", auth(), async (ctx) => {
@@ -91,5 +91,5 @@ route.put(
     await markerService.updateSaipark(id, saipark);
 
     return ctx.newResponse(null, 204);
-  }
+  },
 );

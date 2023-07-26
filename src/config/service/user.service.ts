@@ -18,7 +18,7 @@ export function getUserService(ctx: Context): UserService {
     markerRepository,
     markerUserRepository,
     spawnRepository,
-    temtemRepository
+    temtemRepository,
   );
 
   return userService;

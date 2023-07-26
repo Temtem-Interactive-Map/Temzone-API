@@ -18,7 +18,7 @@ route.get(
     const result = await userService.getMarkers(user.id, limit, offset);
 
     return ctx.json(result, 200);
-  }
+  },
 );
 
 route.put("/temtem/:id", auth(), async (ctx) => {

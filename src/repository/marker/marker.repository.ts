@@ -8,7 +8,7 @@ export interface MarkerRepository {
     subtitle: string,
     condition: string | null,
     x: number,
-    y: number
+    y: number,
   ): Promise<MarkerEntity>;
   updateSaipark(id: string, x: number, y: number): Promise<MarkerEntity>;
   findById(id: string): Promise<MarkerEntity>;
