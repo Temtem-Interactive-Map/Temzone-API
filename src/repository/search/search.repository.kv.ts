@@ -12,7 +12,7 @@ export class SearchRepositoryKv implements SearchRepository {
   constructor(
     db: Lyra<SearchSchema>,
     cache: KVNamespace,
-    searchRepository: SearchRepository
+    searchRepository: SearchRepository,
   ) {
     this.db = db;
     this.cache = cache;
@@ -28,7 +28,7 @@ export class SearchRepositoryKv implements SearchRepository {
   async search(
     query: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<SearchEntity>> {
     await this.loadDB();
 
@@ -38,7 +38,7 @@ export class SearchRepositoryKv implements SearchRepository {
   private async loadDB(): Promise<void> {
     const data: Data<SearchSchema> | null = await this.cache.get(
       "lyra-markers-db",
-      "json"
+      "json",
     );
 
     if (data !== null) {

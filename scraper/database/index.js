@@ -40,7 +40,7 @@ try {
         password: process.env.FIREBASE_USER_PASSWORD,
         returnSecureToken: true,
       }),
-    }
+    },
   )
     .then((response) => response.json())
     .then((data) => data.idToken);

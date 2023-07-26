@@ -31,7 +31,7 @@ export class SearchRepositoryLyra implements SearchRepository {
   async search(
     query: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<SearchEntity>> {
     const result = await search(this.db, {
       term: query,

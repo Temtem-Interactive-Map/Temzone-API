@@ -47,7 +47,7 @@ export const coordinates = z.object(
       .min(0, "coordinates.y")
       .max(MAP_SIZE, "coordinates.y"),
   },
-  { invalid_type_error: "coordinates", required_error: "coordinates" }
+  { invalid_type_error: "coordinates", required_error: "coordinates" },
 );
 
 export const query = z.string({

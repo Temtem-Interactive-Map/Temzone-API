@@ -4,7 +4,7 @@ import { ZodError, ZodSchema } from "zod";
 
 export function validator(
   target: "query" | "json",
-  schema: ZodSchema
+  schema: ZodSchema,
 ): MiddlewareHandler {
   return async (ctx, next) => {
     let value;
@@ -22,7 +22,7 @@ export function validator(
               status: 400,
               message: t("400", { param: "body" }),
             },
-            400
+            400,
           );
         }
         break;
@@ -42,7 +42,7 @@ export function validator(
           status: 400,
           message: t("400", { param: message }),
         },
-        400
+        400,
       );
     }
   };

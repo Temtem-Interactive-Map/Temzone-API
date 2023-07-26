@@ -17,5 +17,5 @@ route.get(
     const result = await markerService.search(query, limit, offset);
 
     return ctx.json(result, 200);
-  }
+  },
 );

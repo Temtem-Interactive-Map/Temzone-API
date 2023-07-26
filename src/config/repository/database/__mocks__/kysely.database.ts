@@ -29,7 +29,7 @@ await db.schema
     "markers_users_marker_id_fk",
     ["marker_id"],
     "markers",
-    ["id"]
+    ["id"],
   )
   .execute();
 

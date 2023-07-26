@@ -16,6 +16,6 @@ export class SpawnRepositoryJson implements SpawnRepository {
   getByTemtemId(temtemId: string): SpawnEntity[] {
     return Object.entries(spawnsJson)
       .filter(([, spawn]) => spawn.temtemId === temtemId)
-      .map(([id, spawn]) => ({ id, ...spawn } as SpawnEntity));
+      .map(([id, spawn]) => ({ id, ...spawn }) as SpawnEntity);
   }
 }

@@ -6,6 +6,6 @@ export interface SearchRepository {
   search(
     query: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<SearchEntity>>;
 }

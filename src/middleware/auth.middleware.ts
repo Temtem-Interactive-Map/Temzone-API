@@ -13,7 +13,7 @@ export function auth(admin = false): MiddlewareHandler {
 
       if (data === null) {
         const response = await fetch(
-          "https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com"
+          "https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com",
         );
         const cacheControl = response.headers.get("Cache-Control") as string;
         const maxAge = cacheControl
@@ -40,7 +40,7 @@ export function auth(admin = false): MiddlewareHandler {
             status: 403,
             message: t("403"),
           },
-          403
+          403,
         );
       }
 
@@ -56,7 +56,7 @@ export function auth(admin = false): MiddlewareHandler {
           status: 401,
           message: t("401"),
         },
-        401
+        401,
       );
     }
   };

@@ -14,7 +14,7 @@ app.use(
     allowMethods: ["GET", "POST", "PUT", "DELETE"],
     exposeHeaders: ["Content-Type"],
     maxAge: 600,
-  })
+  }),
 );
 
 app.notFound((ctx) =>
@@ -23,8 +23,8 @@ app.notFound((ctx) =>
       status: 404,
       message: t("404", { request: "route" }),
     },
-    404
-  )
+    404,
+  ),
 );
 
 app.onError((error, ctx) => {
@@ -34,7 +34,7 @@ app.onError((error, ctx) => {
         status: 404,
         message: t("404", { request: error.request }),
       },
-      404
+      404,
     );
   } else {
     console.error(error);
@@ -44,7 +44,7 @@ app.onError((error, ctx) => {
         status: 500,
         message: t("500"),
       },
-      500
+      500,
     );
   }
 });

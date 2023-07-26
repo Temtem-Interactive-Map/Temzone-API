@@ -27,7 +27,7 @@ export class MarkerServiceImpl implements MarkerService {
     spawnRepository: SpawnRepository,
     saiparkRepository: SaiparkRepository,
     searchRepository: SearchRepository,
-    temtemRepository: TemtemRepository
+    temtemRepository: TemtemRepository,
   ) {
     this.markerRepository = markerRepository;
     this.spawnRepository = spawnRepository;
@@ -48,7 +48,7 @@ export class MarkerServiceImpl implements MarkerService {
           x: null,
           y: null,
         };
-      })
+      }),
     );
 
     return newMarkers.map((marker) => {
@@ -69,7 +69,7 @@ export class MarkerServiceImpl implements MarkerService {
   async getMarkers(limit: number, offset: number): Promise<Page<Marker>> {
     const { items, next, prev } = await this.markerRepository.getPage(
       limit,
-      offset
+      offset,
     );
 
     const markers = items.map((marker) => {
@@ -124,12 +124,12 @@ export class MarkerServiceImpl implements MarkerService {
   async search(
     query: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<Marker>> {
     const { items, next, prev } = await this.searchRepository.search(
       query,
       limit,
-      offset
+      offset,
     );
 
     return {
@@ -214,7 +214,7 @@ export class MarkerServiceImpl implements MarkerService {
         spawn.subtitle as string,
         spawn.condition,
         (spawn.coordinates as Coordinates).x as number,
-        (spawn.coordinates as Coordinates).y as number
+        (spawn.coordinates as Coordinates).y as number,
       );
 
       await this.searchRepository.update({
@@ -281,7 +281,7 @@ export class MarkerServiceImpl implements MarkerService {
       const marker = await this.markerRepository.updateSaipark(
         id,
         (saipark.coordinates as Coordinates).x as number,
-        (saipark.coordinates as Coordinates).y as number
+        (saipark.coordinates as Coordinates).y as number,
       );
 
       await this.searchRepository.update({

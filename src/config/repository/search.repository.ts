@@ -9,7 +9,7 @@ export function getSearchRepository(cache: KVNamespace): SearchRepository {
   const searchRepositoryKv = new SearchRepositoryKv(
     db,
     cache,
-    searchRepositoryLyra
+    searchRepositoryLyra,
   );
 
   return searchRepositoryKv;

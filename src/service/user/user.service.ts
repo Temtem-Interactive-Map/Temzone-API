@@ -5,7 +5,7 @@ export interface UserService {
   getMarkers(
     userId: string,
     limit: number,
-    offset: number
+    offset: number,
   ): Promise<Page<UserMarker>>;
   setTemtemObtained(userId: string, tempediaId: number): Promise<void>;
 }

@@ -5,7 +5,7 @@ import { TemzoneDatabase } from "repository/database/sqlite.database";
 
 export async function populateDatabase(
   sqliteDB: Kysely<TemzoneDatabase>,
-  lyraDB: Lyra<SearchSchema>
+  lyraDB: Lyra<SearchSchema>,
 ) {
   await Promise.all([
     sqliteDB
@@ -49,7 +49,7 @@ export async function populateDatabase(
 
 export async function restoreDatabase(
   sqliteDB: Kysely<TemzoneDatabase>,
-  lyraDB: Lyra<SearchSchema>
+  lyraDB: Lyra<SearchSchema>,
 ) {
   const markerIds = await sqliteDB
     .selectFrom("markers")

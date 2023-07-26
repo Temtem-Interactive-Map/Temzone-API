@@ -70,11 +70,11 @@ export async function scrapeSaipark() {
             minSVs: z.number().int().nonnegative(),
             eggMoves: z.number().int().nonnegative(),
             temtemId: z.string().uuid(),
-          })
+          }),
         )
         .min(2)
         .max(2),
-    })
+    }),
   ).parse(Object.values(saipark));
 
   return saipark;
@@ -92,7 +92,7 @@ class Area {
 
   temtem($) {
     const rawName = $.find(
-      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > p"
+      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > p",
     ).text();
     const name = cleanText(rawName);
 
@@ -112,7 +112,7 @@ class Area {
 
   rate($) {
     const rawRate = $.find(
-      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(3)"
+      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(3)",
     ).text();
     const cleanRate = cleanText(rawRate);
     const textRate = cleanRate.replace("%", "");
@@ -123,7 +123,7 @@ class Area {
 
   lumaRate($) {
     const rawLumaRate = $.find(
-      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(3)",
     ).text();
     const cleanLumaRate = cleanText(rawLumaRate);
     const textLumaRate = cleanLumaRate.replace("x", "");
@@ -134,7 +134,7 @@ class Area {
 
   minSVs($) {
     const rawMinSVs = $.find(
-      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(3)"
+      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(3)",
     ).text();
     const cleanMinSVs = cleanText(rawMinSVs);
     const minSVs = parseInt(cleanMinSVs);
@@ -144,7 +144,7 @@ class Area {
 
   eggMoves($) {
     const rawEggMoves = $.find(
-      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(3)"
+      "tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(3)",
     ).text();
     const cleanEggMoves = cleanText(rawEggMoves);
     const textEggMoves = cleanEggMoves.replace("%", "");

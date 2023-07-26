@@ -88,7 +88,7 @@ export async function scrapeTemtem() {
 
   await removeDBContent(
     "temtem",
-    temtemAssetsDB.filter((filename) => !temtemAssets.has(filename))
+    temtemAssetsDB.filter((filename) => !temtemAssets.has(filename)),
   );
 
   z.array(
@@ -100,13 +100,13 @@ export async function scrapeTemtem() {
         z.object({
           name: z.string().min(1),
           image: z.string().min(1),
-        })
+        }),
       ),
       traits: z.array(
         z.object({
           name: z.string().min(1),
           description: z.string().min(1),
-        })
+        }),
       ),
       gender: z
         .object({
@@ -148,10 +148,10 @@ export async function scrapeTemtem() {
           traits: z.array(z.string().min(1)),
           condition: z.string().min(1),
           image: z.string().min(1),
-        })
+        }),
       ),
       image: z.string().min(1),
-    })
+    }),
   ).parse(Object.values(creatures));
 
   logSuccess("[temtem] scraped successfully");
@@ -182,7 +182,7 @@ class Temtem {
 
   id($) {
     const rawId = $(
-      "div.infobox > table > tbody > tr:contains('No.') > td"
+      "div.infobox > table > tbody > tr:contains('No.') > td",
     ).text();
     const cleanId = cleanText(rawId);
     const indexId = cleanId.indexOf("#");
@@ -194,7 +194,7 @@ class Temtem {
 
   name($, subtype) {
     const rawName = $(
-      "div.infobox > table > tbody > tr:nth-child(1) > th"
+      "div.infobox > table > tbody > tr:nth-child(1) > th",
     ).text();
     const cleanName = cleanText(rawName);
     const name = subtype === "" ? cleanName : cleanName + " (" + subtype + ")";
@@ -211,7 +211,7 @@ class Temtem {
 
   types($, subtype) {
     const typeNames = $(
-      "div.infobox > table > tbody > tr:contains('Type') > td > a"
+      "div.infobox > table > tbody > tr:contains('Type') > td > a",
     )
       .toArray()
       .map((el) => {
@@ -242,14 +242,14 @@ class Temtem {
     const traits = [];
 
     for (const el of $(
-      "div.infobox > table > tbody > tr:contains('Traits') > td > a"
+      "div.infobox > table > tbody > tr:contains('Traits') > td > a",
     ).toArray()) {
       const href = $(el).attr("href");
       const $trait = await scrape("https://temtem.wiki.gg" + href);
       const rawName = $trait("#firstHeading").text();
       const name = cleanText(rawName);
       const rawDescription = $trait(
-        "div.infobox > table > tbody > tr:nth-child(3) > td > i"
+        "div.infobox > table > tbody > tr:nth-child(3) > td > i",
       ).text();
       const description = cleanText(rawDescription);
 
@@ -264,7 +264,7 @@ class Temtem {
 
   gender($) {
     const rawGender = $(
-      "div.infobox > table > tbody > tr:contains('Gender Ratio') > td"
+      "div.infobox > table > tbody > tr:contains('Gender Ratio') > td",
     ).text();
     const cleanGender = cleanText(rawGender);
 
@@ -335,7 +335,7 @@ class Temtem {
 
   catchRate($) {
     const rawCatchRate = $(
-      "div.infobox > table > tbody > tr:contains('Catch Rate') > td"
+      "div.infobox > table > tbody > tr:contains('Catch Rate') > td",
     ).text();
     const cleanCatchRate = cleanText(rawCatchRate);
     const catchRate = parseInt(cleanCatchRate);
@@ -345,7 +345,7 @@ class Temtem {
 
   height($) {
     const rawHeight = $(
-      "table.infobox-half-row:contains('Height') > tbody > tr:nth-child(2) > td"
+      "table.infobox-half-row:contains('Height') > tbody > tr:nth-child(2) > td",
     ).text();
     const [rawCm, rawInches] = rawHeight.split("/");
     const cleanCm = cleanText(rawCm);
@@ -363,7 +363,7 @@ class Temtem {
 
   weight($) {
     const rawWeight = $(
-      "table.infobox-half-row:contains('Weight') > tbody > tr:nth-child(2) > td"
+      "table.infobox-half-row:contains('Weight') > tbody > tr:nth-child(2) > td",
     ).text();
     const [rawKg, rawLbs] = rawWeight.split("/");
     const cleanKg = cleanText(rawKg);
@@ -392,7 +392,7 @@ class Temtem {
       });
 
     const evolutions = $(
-      "div.infobox > table > tbody > tr:contains('Evolves to') > td > a"
+      "div.infobox > table > tbody > tr:contains('Evolves to') > td > a",
     )
       .toArray()
       .map((el, i) => {
@@ -440,13 +440,13 @@ class Temtem {
               .next()
               .next()
               .find(
-                "table.wikitable > tbody > tr:nth-child(2) > td:nth-child(odd) > span > a > img"
+                "table.wikitable > tbody > tr:nth-child(2) > td:nth-child(odd) > span > a > img",
               )
               .toArray()
               .map((el) => $(el).attr("src"))
               .find((src) => src.includes(subtype))
           : $(
-              "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img"
+              "div.infobox > table > tbody > tr:nth-child(2) > td > div > div > section > article:nth-child(1) > span > a > img",
             ).attr("src");
       const cleanPngUrl = cleanText(rawPngUrl);
       const pngUrl = shortUrl(cleanPngUrl);
