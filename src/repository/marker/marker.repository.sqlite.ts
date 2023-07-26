@@ -25,13 +25,13 @@ export class MarkerRepositorySqlite implements MarkerRepository {
     subtitle: string,
     condition: string | null,
     x: number,
-    y: number
+    y: number,
   ): Promise<MarkerEntity> {
     return await this.db
       .updateTable("markers")
       .set({ subtitle, condition, x, y })
-      .where(({ cmpr, and }) =>
-        and([cmpr("id", "=", id), cmpr("type", "=", "spawn")])
+      .where(({ eb, and }) =>
+        and([eb("id", "=", id), eb("type", "=", "spawn")]),
       )
       .returningAll()
       .executeTakeFirstOrThrow();
@@ -41,8 +41,8 @@ export class MarkerRepositorySqlite implements MarkerRepository {
     return await this.db
       .updateTable("markers")
       .set({ x, y })
-      .where(({ cmpr, and }) =>
-        and([cmpr("id", "=", id), cmpr("type", "=", "saipark")])
+      .where(({ eb, and }) =>
+        and([eb("id", "=", id), eb("type", "=", "saipark")]),
       )
       .returningAll()
       .executeTakeFirstOrThrow();
