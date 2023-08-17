@@ -1965,10 +1965,10 @@
       "sta": 44,
       "spd": 95,
       "atk": 60,
-      "def": 42,
+      "def": 44,
       "spatk": 80,
-      "spdef": 50,
-      "total": 456
+      "spdef": 52,
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -2252,7 +2252,7 @@
       },
       {
         "name": "Scavenger",
-        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+        "description": "Restores 20% of max HP if another Temtem is knocked-out."
       }
     ],
     "gender": {
@@ -2988,7 +2988,7 @@
     "traits": [
       {
         "name": "Scavenger",
-        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+        "description": "Restores 20% of max HP if another Temtem is knocked-out."
       },
       {
         "name": "Electric Synthesize",
@@ -3633,11 +3633,11 @@
       "hp": 82,
       "sta": 68,
       "spd": 40,
-      "atk": 71,
-      "def": 68,
+      "atk": 74,
+      "def": 72,
       "spatk": 40,
-      "spdef": 70,
-      "total": 439
+      "spdef": 74,
+      "total": 450
     },
     "tvs": {
       "hp": 2,
@@ -3677,7 +3677,7 @@
     "traits": [
       {
         "name": "Scavenger",
-        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+        "description": "Restores 20% of max HP if another Temtem is knocked-out."
       },
       {
         "name": "Jack of all Trades",
@@ -3991,7 +3991,7 @@
       },
       {
         "name": "Scavenger",
-        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+        "description": "Restores 20% of max HP if another Temtem is knocked-out."
       }
     ],
     "gender": {
@@ -4056,7 +4056,7 @@
     "traits": [
       {
         "name": "Puppet Master",
-        "description": "While HP is below 40%, received rival techniques get redirected to the ally."
+        "description": "While HP is below 45%, received rival techniques get redirected to the ally."
       },
       {
         "name": "Rejuvenate",
@@ -4068,14 +4068,14 @@
       "female": 40
     },
     "stats": {
-      "hp": 51,
-      "sta": 59,
-      "spd": 65,
+      "hp": 58,
+      "sta": 61,
+      "spd": 68,
       "atk": 51,
-      "def": 43,
+      "def": 53,
       "spatk": 82,
       "spdef": 80,
-      "total": 431
+      "total": 453
     },
     "tvs": {
       "hp": 0,
@@ -4259,8 +4259,8 @@
       "atk": 77,
       "def": 77,
       "spatk": 51,
-      "spdef": 54,
-      "total": 460
+      "spdef": 57,
+      "total": 463
     },
     "tvs": {
       "hp": 0,
@@ -4824,8 +4824,8 @@
       "atk": 92,
       "def": 85,
       "spatk": 31,
-      "spdef": 51,
-      "total": 452
+      "spdef": 53,
+      "total": 454
     },
     "tvs": {
       "hp": 0,
@@ -5420,7 +5420,7 @@
     "traits": [
       {
         "name": "Neurotoxins",
-        "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead."
+        "description": "Once per battle, instead of applying poison, the target gets doomed for 4 turns instead."
       },
       {
         "name": "Water Synthesizer",
@@ -6531,11 +6531,11 @@
       "hp": 81,
       "sta": 42,
       "spd": 63,
-      "atk": 71,
+      "atk": 75,
       "def": 96,
       "spatk": 12,
       "spdef": 64,
-      "total": 429
+      "total": 433
     },
     "tvs": {
       "hp": 0,
@@ -6811,7 +6811,7 @@
     "traits": [
       {
         "name": "Scavenger",
-        "description": "Restores 17% of max HP if another Temtem is knocked-out."
+        "description": "Restores 20% of max HP if another Temtem is knocked-out."
       },
       {
         "name": "Skull Helmet",
@@ -7379,11 +7379,11 @@
       "hp": 60,
       "sta": 42,
       "spd": 74,
-      "atk": 56,
+      "atk": 66,
       "def": 55,
       "spatk": 68,
       "spdef": 92,
-      "total": 447
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -7501,13 +7501,13 @@
     },
     "stats": {
       "hp": 75,
-      "sta": 50,
+      "sta": 55,
       "spd": 50,
       "atk": 56,
       "def": 75,
       "spatk": 81,
-      "spdef": 67,
-      "total": 454
+      "spdef": 69,
+      "total": 461
     },
     "tvs": {
       "hp": 1,
@@ -8059,14 +8059,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 79,
+      "hp": 81,
       "sta": 67,
       "spd": 47,
       "atk": 63,
       "def": 60,
       "spatk": 76,
-      "spdef": 73,
-      "total": 465
+      "spdef": 77,
+      "total": 471
     },
     "tvs": {
       "hp": 1,
@@ -8881,7 +8881,7 @@
       },
       {
         "name": "Tactical Strike",
-        "description": "Damage done with Hold techniques is increased by 16%."
+        "description": "Damage done with Hold techniques is increased by 12%."
       }
     ],
     "gender": {
@@ -8889,14 +8889,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 105,
+      "hp": 101,
       "sta": 48,
       "spd": 60,
       "atk": 75,
       "def": 68,
       "spatk": 47,
       "spdef": 45,
-      "total": 448
+      "total": 444
     },
     "tvs": {
       "hp": 4,
@@ -10132,7 +10132,7 @@
       },
       {
         "name": "Team Elusive",
-        "description": "Prevents multi-target offensive techniques."
+        "description": "Prevents multi-target damaging techniques."
       }
     ],
     "gender": {
@@ -10388,7 +10388,7 @@
       },
       {
         "name": "Refurbished",
-        "description": "Once per battle, regenerating for 4 turns after 3 consecutive turns on the battlefield."
+        "description": "Once per battle, regenerating for 3 turns after 3 consecutive turns on the battlefield."
       }
     ],
     "gender": {
