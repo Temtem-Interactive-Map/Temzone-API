@@ -4056,7 +4056,7 @@
     "traits": [
       {
         "name": "Puppet Master",
-        "description": "While HP is below 45%, received rival techniques get redirected to the ally."
+        "description": "While HP is below 40%, received rival techniques get redirected to the ally."
       },
       {
         "name": "Rejuvenate",
