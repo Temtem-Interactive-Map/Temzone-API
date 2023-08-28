@@ -4,20 +4,20 @@
     "subtitle": "West from Praise Coast",
     "areas": [
       {
-        "name": "Caves",
-        "rate": 70,
-        "lumaRate": 1,
-        "minSVs": 31,
-        "eggMoves": 16,
-        "temtemId": "ac52113f-98c4-532e-a721-0cf71b01015b"
+        "name": "Hills",
+        "rate": 95,
+        "lumaRate": 4,
+        "minSVs": 0,
+        "eggMoves": 12,
+        "temtemId": "40c0b1ae-4d7e-59d4-bbe3-62381be81e03"
       },
       {
-        "name": "Fields",
-        "rate": 100,
-        "lumaRate": 1,
-        "minSVs": 31,
-        "eggMoves": 10,
-        "temtemId": "aea0fa7b-24d6-5515-b240-c0313ac6a4ac"
+        "name": "Caves",
+        "rate": 95,
+        "lumaRate": 4,
+        "minSVs": 0,
+        "eggMoves": 0,
+        "temtemId": "af562386-7dbd-5107-80a2-6f416ef1db1d"
       }
     ]
   }
