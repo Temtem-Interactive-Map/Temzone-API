@@ -5,19 +5,19 @@
     "areas": [
       {
         "name": "Fields",
-        "rate": 95,
-        "lumaRate": 1,
-        "minSVs": 37,
-        "eggMoves": 7,
-        "temtemId": "96992559-d9cd-5674-9000-989efbced1ea"
+        "rate": 85,
+        "lumaRate": 4,
+        "minSVs": 0,
+        "eggMoves": 17,
+        "temtemId": "049f4c56-6032-5726-a5bf-0edeb37ded41"
       },
       {
         "name": "Hills",
-        "rate": 100,
-        "lumaRate": 1,
-        "minSVs": 36,
-        "eggMoves": 8,
-        "temtemId": "d2110ec7-eac3-56ae-a6b6-b2272ecd92a9"
+        "rate": 75,
+        "lumaRate": 4,
+        "minSVs": 0,
+        "eggMoves": 19,
+        "temtemId": "6bde3b73-8c20-5faa-9254-08023db11c27"
       }
     ]
   }
