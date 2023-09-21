@@ -104,9 +104,7 @@ To create the KV namespace, run the following command:
 npx wrangler kv:namespace create cache
 ```
 
-This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the wrangler.toml file in the `kv_namespaces` section.
-
-This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the [wrangler.toml](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/wrangler.toml) file in the _kv_namespaces_ section.
+This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the [wrangler.toml](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/wrangler.toml) file in the `kv_namespaces` section.
 
 For more information on how to use D1 and KV with a Workers application, see the [official documentation](https://developers.cloudflare.com/workers/runtime-apis).
 
