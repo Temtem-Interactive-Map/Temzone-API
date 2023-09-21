@@ -82,7 +82,7 @@ FIREBASE_CLIENT_EMAIL=
 
 ### Setting up database
 
-Temzone's RESTful API requires two technologies to store and retrieve data: [D1](https://developers.cloudflare.com/d1) and [KV](https://developers.cloudflare.com/workers/runtime-apis/kv).
+Temzone's RESTful API requires two technologies to store and retrieve data: [D1](https://developers.cloudflare.com/d1) and [KV](https://developers.cloudflare.com/kv).
 
 - D1 is an SQLite database at the edge. It provides a simple SQL interface that allows you to store and retrieve data from anywhere in the world within a few milliseconds.
 
@@ -106,7 +106,7 @@ npx wrangler kv:namespace create cache
 
 This command creates a new namespace with the name _cache_ and returns a binding that can be used to access the newly created namespace. This binding should be added to the [wrangler.toml](https://github.com/Temtem-Interactive-Map/Temzone-API/blob/main/wrangler.toml) file in the `kv_namespaces` section.
 
-For more information on how to use D1 and KV with a Workers application, see the [official documentation](https://developers.cloudflare.com/workers/runtime-apis).
+For more information on how to use D1 and KV with a Workers application, see the [official documentation](https://developers.cloudflare.com/workers).
 
 #### Migrating database
 
