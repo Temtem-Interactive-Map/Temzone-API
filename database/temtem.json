@@ -1278,7 +1278,7 @@
       },
       {
         "name": "Backhanded",
-        "description": "When attacking with a status technique, gets invigorated for 2 turns."
+        "description": "When using a Status Condition Technique, this Temtem receives 1 turn of Regenerating."
       }
     ],
     "gender": {
@@ -6212,7 +6212,7 @@
     "traits": [
       {
         "name": "Kinetic Transfer",
-        "description": "When attacked, restores 10% of max STA and the attacker loses 10% of max STA."
+        "description": "When attacking a Temtem, the user recovers 15% of the damage done as STA."
       },
       {
         "name": "Electric Custodian",
@@ -7050,7 +7050,7 @@
       },
       {
         "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn."
       }
     ],
     "gender": {
@@ -8467,7 +8467,7 @@
     "traits": [
       {
         "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn."
       },
       {
         "name": "Mucous",
@@ -9431,14 +9431,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9490,14 +9490,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9549,14 +9549,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9604,14 +9604,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9663,14 +9663,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9722,14 +9722,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9781,14 +9781,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9840,14 +9840,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9899,14 +9899,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -9958,14 +9958,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -10017,14 +10017,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -10076,14 +10076,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 51,
-      "sta": 55,
+      "hp": 57,
+      "sta": 61,
       "spd": 66,
-      "atk": 83,
+      "atk": 76,
       "def": 68,
       "spatk": 70,
-      "spdef": 54,
-      "total": 447
+      "spdef": 58,
+      "total": 456
     },
     "tvs": {
       "hp": 0,
@@ -10442,7 +10442,7 @@
       },
       {
         "name": "Toxic Farewell",
-        "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns."
+        "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn."
       }
     ],
     "gender": {
