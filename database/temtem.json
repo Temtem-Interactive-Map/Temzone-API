@@ -188,11 +188,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -247,11 +247,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -306,11 +306,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -365,11 +365,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -424,11 +424,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -483,11 +483,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -542,11 +542,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -601,11 +601,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -656,11 +656,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -715,11 +715,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -774,11 +774,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -833,11 +833,11 @@
     "traits": [
       {
         "name": "Synertyper",
-        "description": "Damage done with techniques is increased by 30% if both allies share a type."
+        "description": "Damage done with techniques is increased by 25% if both allies share a type."
       },
       {
         "name": "Pigment Inverter",
-        "description": "When attacking, type resistances for the target Temtem are reversed."
+        "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified."
       }
     ],
     "gender": {
@@ -1820,7 +1820,7 @@
       },
       {
         "name": "Settling",
-        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts."
       }
     ],
     "gender": {
@@ -2680,7 +2680,7 @@
     "traits": [
       {
         "name": "Deceit Aura",
-        "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP."
+        "description": "From Very Low to Very High, the priority of the techniques used during a turn is inverted."
       },
       {
         "name": "Water Custodian",
@@ -2808,7 +2808,7 @@
     "traits": [
       {
         "name": "Tri-Phytologist",
-        "description": "When attacking with a physical technique, the target gets exhausted for 1 turn if it's a rival or invigorated for 2 turns if it's an ally or itself."
+        "description": "When attacking with a physical technique, the target gets exhausted for 2 turns if it's a rival or invigorated for 2 turns if it's an ally or itself."
       },
       {
         "name": "Tri-Apothecary",
@@ -2867,7 +2867,7 @@
       },
       {
         "name": "Settling",
-        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts."
       }
     ],
     "gender": {
@@ -2928,7 +2928,7 @@
     "traits": [
       {
         "name": "Last Rush",
-        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+        "description": "While rivals outnumber allies, techniques inflict +33% Damage."
       },
       {
         "name": "Resilient",
@@ -3731,7 +3731,7 @@
     "traits": [
       {
         "name": "Hypnotist",
-        "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn."
+        "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals and the ally get asleep for 1 turn."
       },
       {
         "name": "Tag Team",
@@ -5655,7 +5655,7 @@
     "traits": [
       {
         "name": "Last Rush",
-        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
+        "description": "While rivals outnumber allies, techniques inflict +33% Damage."
       },
       {
         "name": "Inductor",
@@ -6570,7 +6570,7 @@
       },
       {
         "name": "Skull Helmet",
-        "description": "Damage taken from Mental or Melee techniques is reduced by 25%."
+        "description": "Damage taken from Mental or Melee techniques is reduced by 25% and the Temtem is immune to the Exhausted status condition."
       }
     ],
     "gender": {
@@ -6756,9 +6756,9 @@
       "hp": 52,
       "sta": 30,
       "spd": 52,
-      "atk": 60,
+      "atk": 35,
       "def": 58,
-      "spatk": 35,
+      "spatk": 60,
       "spdef": 31,
       "total": 318
     },
@@ -6810,7 +6810,7 @@
       },
       {
         "name": "Skull Helmet",
-        "description": "Damage taken from Mental or Melee techniques is reduced by 25%."
+        "description": "Damage taken from Mental or Melee techniques is reduced by 25% and the Temtem is immune to the Exhausted status condition."
       }
     ],
     "gender": {
@@ -6819,13 +6819,13 @@
     },
     "stats": {
       "hp": 81,
-      "sta": 54,
+      "sta": 57,
       "spd": 65,
-      "atk": 81,
+      "atk": 52,
       "def": 74,
-      "spatk": 52,
+      "spatk": 81,
       "spdef": 57,
-      "total": 464
+      "total": 467
     },
     "tvs": {
       "hp": 2,
@@ -6930,7 +6930,7 @@
       },
       {
         "name": "Settling",
-        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts."
       }
     ],
     "gender": {
@@ -6995,7 +6995,7 @@
       },
       {
         "name": "Settling",
-        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts."
       }
     ],
     "gender": {
@@ -7418,7 +7418,7 @@
       },
       {
         "name": "Settling",
-        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts."
       }
     ],
     "gender": {
@@ -7623,14 +7623,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 49,
-      "sta": 53,
+      "hp": 54,
+      "sta": 56,
       "spd": 75,
       "atk": 68,
-      "def": 49,
+      "def": 52,
       "spatk": 81,
       "spdef": 91,
-      "total": 466
+      "total": 477
     },
     "tvs": {
       "hp": 0,
@@ -8113,14 +8113,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 47,
+      "hp": 51,
       "sta": 90,
       "spd": 81,
       "atk": 67,
-      "def": 52,
+      "def": 55,
       "spatk": 72,
       "spdef": 60,
-      "total": 469
+      "total": 476
     },
     "tvs": {
       "hp": 0,
@@ -8538,14 +8538,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 70,
-      "sta": 66,
+      "hp": 67,
+      "sta": 63,
       "spd": 60,
       "atk": 29,
       "def": 50,
       "spatk": 70,
-      "spdef": 107,
-      "total": 452
+      "spdef": 105,
+      "total": 444
     },
     "tvs": {
       "hp": 0,
@@ -8935,7 +8935,7 @@
       },
       {
         "name": "Common Factor",
-        "description": "When entering the battlefield, all Temtem get nullified for 2 turns."
+        "description": "When entering the battlefield, all Temtem get nullified for 1 turn."
       }
     ],
     "gender": {
@@ -8943,14 +8943,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 59,
+      "hp": 62,
       "sta": 70,
       "spd": 66,
       "atk": 79,
-      "def": 52,
+      "def": 60,
       "spatk": 60,
-      "spdef": 51,
-      "total": 437
+      "spdef": 61,
+      "total": 458
     },
     "tvs": {
       "hp": 0,
@@ -9264,8 +9264,8 @@
       "atk": 74,
       "def": 86,
       "spatk": 64,
-      "spdef": 35,
-      "total": 473
+      "spdef": 43,
+      "total": 481
     },
     "tvs": {
       "hp": 1,
@@ -9376,10 +9376,10 @@
       "sta": 52,
       "spd": 71,
       "atk": 71,
-      "def": 64,
+      "def": 68,
       "spatk": 71,
-      "spdef": 64,
-      "total": 464
+      "spdef": 68,
+      "total": 472
     },
     "tvs": {
       "hp": 0,
@@ -9423,7 +9423,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9482,7 +9482,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9541,7 +9541,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9596,7 +9596,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9655,7 +9655,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9714,7 +9714,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9773,7 +9773,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9832,7 +9832,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9891,7 +9891,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -9950,7 +9950,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -10009,7 +10009,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -10068,7 +10068,7 @@
       },
       {
         "name": "Iridescence",
-        "description": "Type resistances for the Temtem are reversed."
+        "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish."
       }
     ],
     "gender": {
@@ -10690,7 +10690,7 @@
     "traits": [
       {
         "name": "Hypnotist",
-        "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn."
+        "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals and the ally get asleep for 1 turn."
       },
       {
         "name": "Haka",
@@ -10702,14 +10702,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 65,
+      "hp": 71,
       "sta": 70,
-      "spd": 57,
+      "spd": 60,
       "atk": 80,
       "def": 61,
       "spatk": 57,
-      "spdef": 58,
-      "total": 448
+      "spdef": 61,
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -10841,8 +10841,8 @@
       "atk": 78,
       "def": 78,
       "spatk": 48,
-      "spdef": 48,
-      "total": 444
+      "spdef": 52,
+      "total": 448
     },
     "tvs": {
       "hp": 0,
@@ -10894,14 +10894,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 60,
+      "hp": 64,
       "sta": 63,
       "spd": 74,
       "atk": 48,
-      "def": 48,
+      "def": 55,
       "spatk": 78,
       "spdef": 78,
-      "total": 449
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -11012,14 +11012,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 71,
-      "sta": 55,
+      "hp": 75,
+      "sta": 61,
       "spd": 42,
       "atk": 64,
-      "def": 55,
+      "def": 60,
       "spatk": 79,
-      "spdef": 74,
-      "total": 440
+      "spdef": 76,
+      "total": 457
     },
     "tvs": {
       "hp": 0,
@@ -11382,14 +11382,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 60,
-      "sta": 38,
+      "hp": 63,
+      "sta": 45,
       "spd": 60,
       "atk": 58,
-      "def": 62,
+      "def": 65,
       "spatk": 90,
-      "spdef": 67,
-      "total": 435
+      "spdef": 69,
+      "total": 450
     },
     "tvs": {
       "hp": 0,
