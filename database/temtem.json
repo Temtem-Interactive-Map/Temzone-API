@@ -201,13 +201,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -260,13 +260,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -319,13 +319,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -378,13 +378,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -437,13 +437,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -496,13 +496,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -555,13 +555,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -614,13 +614,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -669,13 +669,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -728,13 +728,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -787,13 +787,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -846,13 +846,13 @@
     },
     "stats": {
       "hp": 61,
-      "sta": 55,
+      "sta": 61,
       "spd": 66,
       "atk": 65,
       "def": 49,
-      "spatk": 78,
+      "spatk": 85,
       "spdef": 63,
-      "total": 437
+      "total": 450
     },
     "tvs": {
       "hp": 0,
@@ -1286,14 +1286,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 55,
+      "hp": 61,
       "sta": 74,
       "spd": 77,
       "atk": 60,
-      "def": 50,
+      "def": 54,
       "spatk": 70,
       "spdef": 81,
-      "total": 467
+      "total": 477
     },
     "tvs": {
       "hp": 0,
@@ -1525,13 +1525,13 @@
     },
     "stats": {
       "hp": 90,
-      "sta": 58,
+      "sta": 61,
       "spd": 40,
       "atk": 75,
-      "def": 62,
+      "def": 64,
       "spatk": 75,
-      "spdef": 62,
-      "total": 462
+      "spdef": 64,
+      "total": 469
     },
     "tvs": {
       "hp": 3,
@@ -1675,7 +1675,6 @@
       {
         "name": "Granpah",
         "traits": [
-          "Last Rush",
           "Bully"
         ],
         "condition": "+16 Levels",
@@ -1696,10 +1695,6 @@
     ],
     "traits": [
       {
-        "name": "Last Rush",
-        "description": "While rivals outnumber allies, techniques inflict +40% Damage."
-      },
-      {
         "name": "Bully",
         "description": "When the holder uses a technique on a Temtem with a negative Status Condition, the damage of the technique is multiplied by 25%."
       }
@@ -1713,10 +1708,10 @@
       "sta": 44,
       "spd": 78,
       "atk": 55,
-      "def": 61,
+      "def": 63,
       "spatk": 76,
-      "spdef": 66,
-      "total": 450
+      "spdef": 68,
+      "total": 454
     },
     "tvs": {
       "hp": 0,
@@ -1796,7 +1791,7 @@
         "name": "Amphatyr",
         "traits": [
           "Relaxed",
-          "Infectious"
+          "Settling"
         ],
         "condition": "+14 Levels",
         "image": "static/temtem/amphatyr.png"
@@ -1824,8 +1819,8 @@
         "description": "Restores 15% of max HP after not receiving any rival attacks during the turn."
       },
       {
-        "name": "Infectious",
-        "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield."
+        "name": "Settling",
+        "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts."
       }
     ],
     "gender": {
@@ -1834,13 +1829,13 @@
     },
     "stats": {
       "hp": 65,
-      "sta": 57,
+      "sta": 61,
       "spd": 110,
       "atk": 51,
       "def": 53,
-      "spatk": 62,
+      "spatk": 66,
       "spdef": 64,
-      "total": 462
+      "total": 470
     },
     "tvs": {
       "hp": 0,
@@ -2697,14 +2692,14 @@
       "female": 50
     },
     "stats": {
-      "hp": 47,
+      "hp": 53,
       "sta": 52,
       "spd": 81,
       "atk": 49,
-      "def": 58,
+      "def": 62,
       "spatk": 92,
-      "spdef": 76,
-      "total": 455
+      "spdef": 78,
+      "total": 467
     },
     "tvs": {
       "hp": 0,
@@ -2945,14 +2940,14 @@
       "female": 40
     },
     "stats": {
-      "hp": 65,
+      "hp": 67,
       "sta": 61,
-      "spd": 88,
-      "atk": 76,
+      "spd": 91,
+      "atk": 81,
       "def": 68,
       "spatk": 45,
       "spdef": 49,
-      "total": 452
+      "total": 462
     },
     "tvs": {
       "hp": 0,
@@ -3258,10 +3253,10 @@
       "sta": 51,
       "spd": 71,
       "atk": 61,
-      "def": 42,
+      "def": 46,
       "spatk": 89,
       "spdef": 79,
-      "total": 457
+      "total": 461
     },
     "tvs": {
       "hp": 0,
@@ -3779,7 +3774,7 @@
       {
         "name": "Owlhe",
         "traits": [
-          "Determined",
+          "Furor",
           "Bruiser"
         ],
         "condition": "+10 Levels (Male)",
@@ -3813,8 +3808,8 @@
     ],
     "traits": [
       {
-        "name": "Determined",
-        "description": "Prevents negative stat stage changes."
+        "name": "Furor",
+        "description": "When HP is below 33%, techniques do 33% more damage."
       },
       {
         "name": "Bruiser",
@@ -3826,14 +3821,14 @@
       "female": 0
     },
     "stats": {
-      "hp": 57,
-      "sta": 51,
+      "hp": 62,
+      "sta": 55,
       "spd": 80,
       "atk": 75,
       "def": 79,
       "spatk": 60,
-      "spdef": 40,
-      "total": 442
+      "spdef": 49,
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -3885,14 +3880,14 @@
       "female": 10
     },
     "stats": {
-      "hp": 57,
-      "sta": 51,
+      "hp": 63,
+      "sta": 56,
       "spd": 80,
       "atk": 60,
-      "def": 40,
+      "def": 47,
       "spatk": 75,
       "spdef": 79,
-      "total": 442
+      "total": 460
     },
     "tvs": {
       "hp": 0,
@@ -4374,13 +4369,13 @@
     },
     "stats": {
       "hp": 90,
-      "sta": 52,
+      "sta": 58,
       "spd": 55,
       "atk": 79,
       "def": 85,
       "spatk": 65,
-      "spdef": 42,
-      "total": 468
+      "spdef": 50,
+      "total": 482
     },
     "tvs": {
       "hp": 2,
@@ -5194,14 +5189,14 @@
       "female": 65
     },
     "stats": {
-      "hp": 74,
-      "sta": 55,
+      "hp": 76,
+      "sta": 61,
       "spd": 52,
       "atk": 45,
-      "def": 76,
+      "def": 78,
       "spatk": 89,
-      "spdef": 60,
-      "total": 451
+      "spdef": 65,
+      "total": 466
     },
     "tvs": {
       "hp": 0,
@@ -5257,10 +5252,10 @@
       "sta": 74,
       "spd": 80,
       "atk": 65,
-      "def": 58,
+      "def": 61,
       "spatk": 65,
-      "spdef": 58,
-      "total": 459
+      "spdef": 61,
+      "total": 465
     },
     "tvs": {
       "hp": 0,
