@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@lyrasearch/lyra": "0.4.12",
-    "hono": "3.3.3",
+    "hono": "3.11.7",
     "jose": "4.14.4",
     "kysely": "0.26.1",
     "kysely-d1": "0.3.0",
